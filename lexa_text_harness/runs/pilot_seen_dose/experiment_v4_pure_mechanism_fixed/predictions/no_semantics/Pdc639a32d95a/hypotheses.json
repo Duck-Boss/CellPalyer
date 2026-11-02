@@ -1,0 +1,85 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "p53 transcriptional activity",
+      "direction": "increase",
+      "basis": "direct",
+      "conditions": "functional p53; 5 uM, 24 h",
+      "gene_expectations": [
+        {
+          "gene": "CDKN1A",
+          "direction": "increase"
+        },
+        {
+          "gene": "MDM2",
+          "direction": "increase"
+        },
+        {
+          "gene": "BBC3",
+          "direction": "increase"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M1",
+        "M2"
+      ],
+      "reason": "MDM2 antagonism stabilizes p53 and releases p53-dependent transcription of canonical targets."
+    },
+    {
+      "id": "H2",
+      "program": "cell-cycle arrest",
+      "direction": "increase",
+      "basis": "secondary",
+      "conditions": "p53-competent A549; unknown p53 status",
+      "gene_expectations": [
+        {
+          "gene": "CDKN1A",
+          "direction": "increase"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "p53 target induction can drive G1 arrest, but magnitude and occurrence are context-dependent."
+    },
+    {
+      "id": "H3",
+      "program": "apoptosis",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "depends on p53 status and cellular context",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M",
+        "M2"
+      ],
+      "reason": "Apoptotic outcome is context-dependent and not established by the supplied control profile."
+    },
+    {
+      "id": "H4",
+      "program": "TP53 mRNA level",
+      "direction": "uncertain",
+      "basis": "direct",
+      "conditions": "unknown p53 genotype",
+      "gene_expectations": [
+        {
+          "gene": "TP53",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Protein stabilization does not imply TP53 mRNA change; transcript direction is not determined."
+    }
+  ],
+  "summary": "Nutlin-3a is predicted to activate p53-dependent transcription if p53 is functional; arrest versus apoptosis is uncertain in A549.",
+  "limitations": [
+    "Control feature semantics are withheld, so anonymous features cannot be mapped to genes.",
+    "p53 genotype/functionality in A549 is not established by the supplied context.",
+    "No measured perturbation response or dose trajectory is available."
+  ]
+}

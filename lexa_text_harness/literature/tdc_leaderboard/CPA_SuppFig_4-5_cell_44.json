@@ -1,0 +1,9 @@
+{
+  "cell_type": "code",
+  "execution_count": 84,
+  "metadata": {},
+  "outputs": [],
+  "source": [
+    "df_plot = pd.melt(df_score, id_vars=['cell_type', 'condition', 'split', 'model'])"
+  ]
+}

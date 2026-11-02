@@ -1,0 +1,63 @@
+{
+  "version": "hierarchical_occupancy_v3",
+  "created": "2026-10-26T23:20:32+08:00",
+  "evaluation_role": "previously unblinded 5uM development experiment",
+  "case_ids": [
+    "drug=BMS|dose_uM=5|plate=A|replicate=1",
+    "drug=BMS|dose_uM=5|plate=A|replicate=2",
+    "drug=BMS|dose_uM=5|plate=B|replicate=2",
+    "drug=BMS|dose_uM=5|plate=B|replicate=3",
+    "drug=Dex|dose_uM=5|plate=A|replicate=1",
+    "drug=Dex|dose_uM=5|plate=A|replicate=3",
+    "drug=Dex|dose_uM=5|plate=B|replicate=2",
+    "drug=Dex|dose_uM=5|plate=B|replicate=3",
+    "drug=Nutlin|dose_uM=5|plate=A|replicate=1",
+    "drug=Nutlin|dose_uM=5|plate=A|replicate=2",
+    "drug=Nutlin|dose_uM=5|plate=A|replicate=3",
+    "drug=Nutlin|dose_uM=5|plate=B|replicate=1",
+    "drug=SAHA|dose_uM=5|plate=A|replicate=1",
+    "drug=SAHA|dose_uM=5|plate=A|replicate=2",
+    "drug=SAHA|dose_uM=5|plate=A|replicate=3",
+    "drug=SAHA|dose_uM=5|plate=B|replicate=1"
+  ],
+  "methods": [
+    "expression_nearest",
+    "expression_interpolate",
+    "code_nearest",
+    "code_interpolate",
+    "hierarchical_local",
+    "hierarchical_joint"
+  ],
+  "candidate_ids": [
+    "keep",
+    "nearest",
+    "interpolate",
+    "lower",
+    "upper",
+    "half",
+    "onehalf"
+  ],
+  "local_batches": 4,
+  "axes_per_batch": 8,
+  "joint_successful_rounds": 1,
+  "repair_retries_per_stage": 2,
+  "model": "deepseek-flash",
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "workers": 2,
+  "source_hashes": {
+    "hierarchy_experiment.py": "e884d1342b087313426a98350f1d38eed38292a15550a2f41701022c04449a90",
+    "hierarchy_data.py": "e4f48c4aee3908febde9aba37f3ca1756b7f1ebb8d43bbf6f31421b6f6f1d1af",
+    "hierarchy_agent.py": "2d7d560e56f7fdbadb72f772b862d261fb9a8ccd858191598f5ab9f3771a2e3f",
+    "agent.py": "e6f8170a3e6a502e9c4ded8a4324ed09b15d7beae9768e5916021b25b5c464d0",
+    "experiment.py": "727420e2b800c8ae32ff20a41dc60b27365dcadf51652d5509e03fa405579f7e",
+    "tools.py": "1ee7b61995ff54f4af9ae6462ee6c8d57781980de4a3ae16e3910e2fb5d8bb66",
+    "annotate_cards.py": "038b85f3b83e5b835f6cf9229df29ce218044c18c70d531b1ebbea891d67fc7b"
+  },
+  "input_manifest_sha256": "2781c10ac167b02fdb51a356b8e291502044e5be20a8fdc5f6c5eb2691ceecbf",
+  "limitations": [
+    "Joint uses one extra successful call; not budget matched.",
+    "Candidate search is restricted to training-derived occupancy profiles/scales, not arbitrary 512 probabilities.",
+    "Axis functionality is provisional language annotation; no GO enrichment.",
+    "Independent axis marginals determine additive mean, not a unique joint cell population."
+  ]
+}

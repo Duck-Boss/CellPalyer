@@ -1,0 +1,1595 @@
+{
+  "status": "completed",
+  "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=2",
+  "opaque_id": "Pa7752004b09e",
+  "arm": "no_semantics",
+  "stage": "local",
+  "fingerprint": "c2bcbb35836f877ce21ef3577add4564f52b786635db836f6829a8c966a14532",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A0/C14"
+      ],
+      "reason": "Highest control occupancy; acetylation-linked transcription shift"
+    },
+    {
+      "axis_id": 1,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A1/C0"
+      ],
+      "reason": "Dominant control state; HDAC inhibition alters transcription"
+    },
+    {
+      "axis_id": 2,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A2/C0"
+      ],
+      "reason": "Largest control occupancy; context-dependent direction"
+    },
+    {
+      "axis_id": 3,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A3/C2"
+      ],
+      "reason": "High occupancy state; uncertain net direction"
+    },
+    {
+      "axis_id": 4,
+      "decision": "shift",
+      "targets": [
+        [
+          5,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A4/C5"
+      ],
+      "reason": "Dominant control state; acetylation-sensitive program"
+    },
+    {
+      "axis_id": 5,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A5/C4"
+      ],
+      "reason": "High occupancy; stress/transcription context dependent"
+    },
+    {
+      "axis_id": 6,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A6/C2"
+      ],
+      "reason": "Largest control occupancy; direction uncertain"
+    },
+    {
+      "axis_id": 7,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A7/C9"
+      ],
+      "reason": "Dominant control state; acetylation-linked shift"
+    },
+    {
+      "axis_id": 8,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A8/C2"
+      ],
+      "reason": "Strong up G0574/G0289/G1838 in states 2,4,13"
+    },
+    {
+      "axis_id": 9,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A9/C14"
+      ],
+      "reason": "Strong up G1314/G0196/G1289 in states 10,14,6"
+    },
+    {
+      "axis_id": 10,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A10/C13"
+      ],
+      "reason": "Strong up G1776/G0392 in states 9,13,14"
+    },
+    {
+      "axis_id": 11,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A11/C4"
+      ],
+      "reason": "Up G1987/G0644 in states 4,2,10"
+    },
+    {
+      "axis_id": 12,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A12/C1"
+      ],
+      "reason": "Up G0053/G0063/G1463 in states 1,7,13"
+    },
+    {
+      "axis_id": 13,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A13/C6"
+      ],
+      "reason": "Up G0836/G0537 in states 6,7,3"
+    },
+    {
+      "axis_id": 14,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A14/C6"
+      ],
+      "reason": "Up G1660/G0106/G1047 in states 2,3,6"
+    },
+    {
+      "axis_id": 15,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A15/C8"
+      ],
+      "reason": "Up G1907/G1087 in states 8,12,3"
+    },
+    {
+      "axis_id": 16,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A16/C8"
+      ],
+      "reason": "High control occupancy states with up/down effects; acetylation-sensitive transcription"
+    },
+    {
+      "axis_id": 17,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A17/C1"
+      ],
+      "reason": "Occupied states show mixed up/down effects consistent with context dependence"
+    },
+    {
+      "axis_id": 18,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A18/C8"
+      ],
+      "reason": "Occupied states with bidirectional effects; no clear single direction"
+    },
+    {
+      "axis_id": 19,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A19/C7"
+      ],
+      "reason": "High-occupancy states show mixed regulation; context-dependent transcription"
+    },
+    {
+      "axis_id": 20,
+      "decision": "shift",
+      "targets": [
+        [
+          3,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A20/C7"
+      ],
+      "reason": "Occupied states with strong bidirectional effects; uncertain net direction"
+    },
+    {
+      "axis_id": 21,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A21/C7"
+      ],
+      "reason": "Occupied states show mixed up/down effects; context-dependent"
+    },
+    {
+      "axis_id": 22,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A22/C7"
+      ],
+      "reason": "High-occupancy states with bidirectional effects; uncertain direction"
+    },
+    {
+      "axis_id": 23,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A23/C7"
+      ],
+      "reason": "Occupied states show mixed regulation; context-dependent transcription"
+    },
+    {
+      "axis_id": 24,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A24/C13"
+      ],
+      "reason": "Strong up G1200/G0592 in C13; C9/C10 also up-weighted"
+    },
+    {
+      "axis_id": 25,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A25/C13"
+      ],
+      "reason": "C13/C6/C0 show strong up G1424/G1281"
+    },
+    {
+      "axis_id": 26,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A26/C10"
+      ],
+      "reason": "C10/C11/C0 strong up G1787/G0348/G0085"
+    },
+    {
+      "axis_id": 27,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A27/C14"
+      ],
+      "reason": "C14/C5/C13 strong up G1417/G1115"
+    },
+    {
+      "axis_id": 28,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A28/C10"
+      ],
+      "reason": "C10/C14/C13 strong up G0192/G0442/G0157"
+    },
+    {
+      "axis_id": 29,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A29/C12"
+      ],
+      "reason": "C12/C14/C13 strong up G1295"
+    },
+    {
+      "axis_id": 30,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A30/C8"
+      ],
+      "reason": "C8/C12/C13 strong up G0685"
+    },
+    {
+      "axis_id": 31,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A31/C9"
+      ],
+      "reason": "C9/C12/C3 strong up G0388"
+    }
+  ],
+  "response": {
+    "decisions": [
+      {
+        "axis_id": 0,
+        "decision": "shift",
+        "targets": [
+          [
+            14,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A0/C14"
+        ],
+        "reason": "Highest control occupancy; acetylation-linked transcription shift"
+      },
+      {
+        "axis_id": 1,
+        "decision": "shift",
+        "targets": [
+          [
+            0,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A1/C0"
+        ],
+        "reason": "Dominant control state; HDAC inhibition alters transcription"
+      },
+      {
+        "axis_id": 2,
+        "decision": "shift",
+        "targets": [
+          [
+            0,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A2/C0"
+        ],
+        "reason": "Largest control occupancy; context-dependent direction"
+      },
+      {
+        "axis_id": 3,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A3/C2"
+        ],
+        "reason": "High occupancy state; uncertain net direction"
+      },
+      {
+        "axis_id": 4,
+        "decision": "shift",
+        "targets": [
+          [
+            5,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A4/C5"
+        ],
+        "reason": "Dominant control state; acetylation-sensitive program"
+      },
+      {
+        "axis_id": 5,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A5/C4"
+        ],
+        "reason": "High occupancy; stress/transcription context dependent"
+      },
+      {
+        "axis_id": 6,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A6/C2"
+        ],
+        "reason": "Largest control occupancy; direction uncertain"
+      },
+      {
+        "axis_id": 7,
+        "decision": "shift",
+        "targets": [
+          [
+            9,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A7/C9"
+        ],
+        "reason": "Dominant control state; acetylation-linked shift"
+      },
+      {
+        "axis_id": 8,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A8/C2"
+        ],
+        "reason": "Strong up G0574/G0289/G1838 in states 2,4,13"
+      },
+      {
+        "axis_id": 9,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A9/C14"
+        ],
+        "reason": "Strong up G1314/G0196/G1289 in states 10,14,6"
+      },
+      {
+        "axis_id": 10,
+        "decision": "shift",
+        "targets": [
+          [
+            9,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A10/C13"
+        ],
+        "reason": "Strong up G1776/G0392 in states 9,13,14"
+      },
+      {
+        "axis_id": 11,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A11/C4"
+        ],
+        "reason": "Up G1987/G0644 in states 4,2,10"
+      },
+      {
+        "axis_id": 12,
+        "decision": "shift",
+        "targets": [
+          [
+            1,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A12/C1"
+        ],
+        "reason": "Up G0053/G0063/G1463 in states 1,7,13"
+      },
+      {
+        "axis_id": 13,
+        "decision": "shift",
+        "targets": [
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A13/C6"
+        ],
+        "reason": "Up G0836/G0537 in states 6,7,3"
+      },
+      {
+        "axis_id": 14,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A14/C6"
+        ],
+        "reason": "Up G1660/G0106/G1047 in states 2,3,6"
+      },
+      {
+        "axis_id": 15,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A15/C8"
+        ],
+        "reason": "Up G1907/G1087 in states 8,12,3"
+      },
+      {
+        "axis_id": 16,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A16/C8"
+        ],
+        "reason": "High control occupancy states with up/down effects; acetylation-sensitive transcription"
+      },
+      {
+        "axis_id": 17,
+        "decision": "shift",
+        "targets": [
+          [
+            1,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A17/C1"
+        ],
+        "reason": "Occupied states show mixed up/down effects consistent with context dependence"
+      },
+      {
+        "axis_id": 18,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A18/C8"
+        ],
+        "reason": "Occupied states with bidirectional effects; no clear single direction"
+      },
+      {
+        "axis_id": 19,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A19/C7"
+        ],
+        "reason": "High-occupancy states show mixed regulation; context-dependent transcription"
+      },
+      {
+        "axis_id": 20,
+        "decision": "shift",
+        "targets": [
+          [
+            3,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            12,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A20/C7"
+        ],
+        "reason": "Occupied states with strong bidirectional effects; uncertain net direction"
+      },
+      {
+        "axis_id": 21,
+        "decision": "shift",
+        "targets": [
+          [
+            11,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            12,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A21/C7"
+        ],
+        "reason": "Occupied states show mixed up/down effects; context-dependent"
+      },
+      {
+        "axis_id": 22,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            12,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A22/C7"
+        ],
+        "reason": "High-occupancy states with bidirectional effects; uncertain direction"
+      },
+      {
+        "axis_id": 23,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A23/C7"
+        ],
+        "reason": "Occupied states show mixed regulation; context-dependent transcription"
+      },
+      {
+        "axis_id": 24,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A24/C13"
+        ],
+        "reason": "Strong up G1200/G0592 in C13; C9/C10 also up-weighted"
+      },
+      {
+        "axis_id": 25,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A25/C13"
+        ],
+        "reason": "C13/C6/C0 show strong up G1424/G1281"
+      },
+      {
+        "axis_id": 26,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A26/C10"
+        ],
+        "reason": "C10/C11/C0 strong up G1787/G0348/G0085"
+      },
+      {
+        "axis_id": 27,
+        "decision": "shift",
+        "targets": [
+          [
+            14,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A27/C14"
+        ],
+        "reason": "C14/C5/C13 strong up G1417/G1115"
+      },
+      {
+        "axis_id": 28,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A28/C10"
+        ],
+        "reason": "C10/C14/C13 strong up G0192/G0442/G0157"
+      },
+      {
+        "axis_id": 29,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A29/C12"
+        ],
+        "reason": "C12/C14/C13 strong up G1295"
+      },
+      {
+        "axis_id": 30,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A30/C8"
+        ],
+        "reason": "C8/C12/C13 strong up G0685"
+      },
+      {
+        "axis_id": 31,
+        "decision": "shift",
+        "targets": [
+          [
+            9,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A31/C9"
+        ],
+        "reason": "C9/C12/C3 strong up G0388"
+      }
+    ],
+    "summary": "All eight axes shift toward their highest-occupancy control states, consistent with HDAC inhibition broadly altering acetylation-dependent transcription; directions remain context dependent. | HDAC inhibition plausibly raises acetylation-sensitive transcription (H1); shift toward states with strongest positive decoder weights on up-features across axes 8-15. | All requested axes shift toward occupied states with bidirectional effects, consistent with context-dependent acetylation-driven transcription; no measured signature to resolve direction. | Shift toward states with strong positive up-feature weights consistent with H1 acetylation-driven transcription; directions uncertain per H2.",
+    "limitations": [
+      "No measured treatment signature or gene mapping.",
+      "Isoform engagement and homologue relevance unspecified.",
+      "Directions are hypothesis-based, not causal.",
+      "No measured treatment signature; directions inferred from H1 only.",
+      "Anonymous features lack gene identity.",
+      "Isoform engagement and context dependence unspecified.",
+      "No measured perturbation response or gene mapping.",
+      "Directions are decoder contributions, not causal.",
+      "No measured perturbation signature; directions inferred from decoder weights only.",
+      "Acetylation effects are context dependent."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 32,
+      "keep": 0,
+      "unknown": 0
+    },
+    "delta_l2": 3.460010822173074,
+    "standardized_delta_rms": 0.09464504107548591,
+    "axis_tv": [
+      0.234,
+      0.21600000000000003,
+      0.16200000000000003,
+      0.234,
+      0.21000000000000002,
+      0.24600000000000005,
+      0.222,
+      0.20400000000000004,
+      0.18,
+      0.258,
+      0.21599999999999997,
+      0.20400000000000001,
+      0.174,
+      0.252,
+      0.30000000000000004,
+      0.198,
+      0.16400000000000003,
+      0.162,
+      0.14399999999999996,
+      0.11999999999999997,
+      0.144,
+      0.192,
+      0.16199999999999998,
+      0.174,
+      0.198,
+      0.21,
+      0.276,
+      0.276,
+      0.30000000000000004,
+      0.162,
+      0.27,
+      0.21600000000000003
+    ],
+    "mean_axis_tv": 0.20875,
+    "top_gene_changes": {
+      "up": [
+        {
+          "feature": "G1314",
+          "delta": 0.34588,
+          "scaled_delta": 0.3075
+        },
+        {
+          "feature": "G0348",
+          "delta": 0.22951,
+          "scaled_delta": 0.30209
+        },
+        {
+          "feature": "G1274",
+          "delta": 0.24607,
+          "scaled_delta": 0.28679
+        },
+        {
+          "feature": "G0289",
+          "delta": 0.19047,
+          "scaled_delta": 0.27024
+        },
+        {
+          "feature": "G0592",
+          "delta": 0.25681,
+          "scaled_delta": 0.26652
+        },
+        {
+          "feature": "G1200",
+          "delta": 0.264,
+          "scaled_delta": 0.26379
+        },
+        {
+          "feature": "G0660",
+          "delta": 0.25632,
+          "scaled_delta": 0.26372
+        },
+        {
+          "feature": "G1787",
+          "delta": 0.23672,
+          "scaled_delta": 0.2619
+        },
+        {
+          "feature": "G0192",
+          "delta": 0.33122,
+          "scaled_delta": 0.25342
+        },
+        {
+          "feature": "G0975",
+          "delta": 0.21959,
+          "scaled_delta": 0.24963
+        }
+      ],
+      "down": [
+        {
+          "feature": "G1384",
+          "delta": -0.07922,
+          "scaled_delta": -0.07383
+        },
+        {
+          "feature": "G1808",
+          "delta": -0.05726,
+          "scaled_delta": -0.05082
+        },
+        {
+          "feature": "G0372",
+          "delta": -0.05137,
+          "scaled_delta": -0.04711
+        },
+        {
+          "feature": "G1993",
+          "delta": -0.04462,
+          "scaled_delta": -0.0451
+        },
+        {
+          "feature": "G0536",
+          "delta": -0.0342,
+          "scaled_delta": -0.0415
+        },
+        {
+          "feature": "G1128",
+          "delta": -0.03918,
+          "scaled_delta": -0.04027
+        },
+        {
+          "feature": "G0729",
+          "delta": -0.02344,
+          "scaled_delta": -0.03203
+        },
+        {
+          "feature": "G1651",
+          "delta": -0.03444,
+          "scaled_delta": -0.02827
+        },
+        {
+          "feature": "G1037",
+          "delta": -0.02934,
+          "scaled_delta": -0.02768
+        },
+        {
+          "feature": "G0543",
+          "delta": -0.02674,
+          "scaled_delta": -0.02723
+        }
+      ]
+    },
+    "hypothesis_gene_checks": "Unavailable without feature semantics; anonymous IDs cannot be mapped to hypothesis gene names.",
+    "cross_axis_cancellation": [
+      {
+        "feature": "G0604",
+        "summed_delta": -0.004499857921386266,
+        "absolute_axis_sum": 0.13420844260451845
+      },
+      {
+        "feature": "G1444",
+        "summed_delta": 0.012228897050350438,
+        "absolute_axis_sum": 0.10631544183984078
+      },
+      {
+        "feature": "G0216",
+        "summed_delta": 0.03758025641541446,
+        "absolute_axis_sum": 0.15883537786419036
+      },
+      {
+        "feature": "G1855",
+        "summed_delta": 0.11426338810565342,
+        "absolute_axis_sum": 0.23605011673642723
+      },
+      {
+        "feature": "G0953",
+        "summed_delta": 0.03446108575630909,
+        "absolute_axis_sum": 0.13436109848739586
+      },
+      {
+        "feature": "G0945",
+        "summed_delta": -0.02669345135398919,
+        "absolute_axis_sum": 0.1322468753764988
+      }
+    ]
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "e7b6e241605ef323515120348adf8fc6ab76423db70f75c0dcacf1b134dfd802",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "bbb8f65bdb2ba9655880a9413f21dd3bf4fa6f59e71fd95be59ab063df205eb6",
+      "response_sha256": "36db0166c10fd64546a75bfa367c0c8b4438bd5240f61581b744218070a1fd99"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "3b1810a4f6eee61302aa4318b42f7678d14f03385b206ac67d30564006c01579",
+      "response_sha256": "9fb277eaa3cfa84625b8c5ef58e23ccd42a5f4dbe67677c978bb29ec56206b2d"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "6562f219f282cf4af71b347ebb2b881b21b88805c0f45b0253f6ca526b2efcb1",
+      "response_sha256": "3ac9182223873e7f43a4061570dc9aa0a66a95b2427a98f8edee191f6a54702a"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "7e8dfdc9c36a685319c51fa57c255381ea37ed253168bba81111e91eb6d5de2a",
+      "response_sha256": "933e0b824b3b6d1a21f26848f098f19118efee6981f00008745793b45dd628ae"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "01e38e7931933c4a549c219a50c08ab6404f5b26df5bdff57d0220a5d992437a",
+      "response_sha256": "f6b2ef03e54c0eeb4b31059ae26344b542b44a2158488c7de481c4ec11c542e5"
+    }
+  ],
+  "attempts_used": 5,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/no_semantics/Pa7752004b09e/local.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "6f6b1594719334ced697dc7dc0d88e511f264fd50ae30e674dc3abb8c2b97754"
+}

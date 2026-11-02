@@ -1,0 +1,863 @@
+{
+  "results": [
+    {
+      "dataset_name": "neurips-2023-data",
+      "method_name": "ground_truth",
+      "paramset_name": null,
+      "paramset": null,
+      "succeeded": true,
+      "run_duration_secs": [
+        9
+      ],
+      "run_cpu_pct": [
+        206.8
+      ],
+      "run_peak_memory_mb": [
+        3482
+      ],
+      "run_disk_read_mb": [
+        135
+      ],
+      "run_disk_write_mb": [
+        6
+      ],
+      "run_exit_code": [
+        0
+      ],
+      "metric_names": [
+        "mean_rowwise_rmse",
+        "mean_rowwise_mae",
+        "mean_rowwise_pearson",
+        "mean_rowwise_spearman",
+        "mean_rowwise_cosine"
+      ],
+      "metric_values": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "metric_components": []
+    },
+    {
+      "dataset_name": "neurips-2023-data",
+      "method_name": "jn_ap_op2",
+      "paramset_name": null,
+      "paramset": null,
+      "succeeded": true,
+      "run_duration_secs": [
+        3061
+      ],
+      "run_cpu_pct": [
+        100
+      ],
+      "run_peak_memory_mb": [
+        16077
+      ],
+      "run_disk_read_mb": [
+        228
+      ],
+      "run_disk_write_mb": [
+        4
+      ],
+      "run_exit_code": [
+        0
+      ],
+      "metric_names": [
+        "mean_rowwise_rmse",
+        "mean_rowwise_mae",
+        "mean_rowwise_pearson",
+        "mean_rowwise_spearman",
+        "mean_rowwise_cosine"
+      ],
+      "metric_values": [
+        0.8965,
+        0.6518,
+        0.3267,
+        0.3054,
+        0.3289
+      ],
+      "metric_components": []
+    },
+    {
+      "dataset_name": "neurips-2023-data",
+      "method_name": "lstm_gru_cnn_ensemble",
+      "paramset_name": null,
+      "paramset": null,
+      "succeeded": true,
+      "run_duration_secs": [
+        6026
+      ],
+      "run_cpu_pct": [
+        134.5855
+      ],
+      "run_peak_memory_mb": [
+        50279
+      ],
+      "run_disk_read_mb": [
+        12449
+      ],
+      "run_disk_write_mb": [
+        3592
+      ],
+      "run_exit_code": [
+        0
+      ],
+      "metric_names": [
+        "mean_rowwise_rmse",
+        "mean_rowwise_mae",
+        "mean_rowwise_pearson",
+        "mean_rowwise_spearman",
+        "mean_rowwise_cosine"
+      ],
+      "metric_values": [
+        0.7921,
+        0.5756,
+        0.4514,
+        0.4247,
+        0.4552
+      ],
+      "metric_components": []
+    },
+    {
+      "dataset_name": "neurips-2023-data",
+      "method_name": "mean_per_cell_type_and_gene",
+      "paramset_name": null,
+      "paramset": null,
+      "succeeded": true,
+      "run_duration_secs": [
+        3
+      ],
+      "run_cpu_pct": [
+        472.1
+      ],
+      "run_peak_memory_mb": [
+        5735
+      ],
+      "run_disk_read_mb": [
+        193
+      ],
+      "run_disk_write_mb": [
+        2
+      ],
+      "run_exit_code": [
+        0
+      ],
+      "metric_names": [
+        "mean_rowwise_rmse",
+        "mean_rowwise_mae",
+        "mean_rowwise_pearson",
+        "mean_rowwise_spearman",
+        "mean_rowwise_cosine"
+      ],
+      "metric_values": [
+        0.8925,
+        0.6437,
+        0.2972,
+        0.2806,
+        0.3017
+      ],
+      "metric_components": []
+    },
+    {
+      "dataset_name": "neurips-2023-data",
+      "method_name": "mean_per_compound_and_gene",
+      "paramset_name": null,
+      "paramset": null,
+      "succeeded": true,
+      "run_duration_secs": [
+        6.4
+      ],
+      "run_cpu_pct": [
+        213.1
+      ],
+      "run_peak_memory_mb": [
+        5940
+      ],
+      "run_disk_read_mb": [
+        193
+      ],
+      "run_disk_write_mb": [
+        4
+      ],
+      "run_exit_code": [
+        0
+      ],
+      "metric_names": [
+        "mean_rowwise_rmse",
+        "mean_rowwise_mae",
+        "mean_rowwise_pearson",
+        "mean_rowwise_spearman",
+        "mean_rowwise_cosine"
+      ],
+      "metric_values": [
+        0.9428,
+        0.6979,
+        0.2594,
+        0.2425,
+        0.2628
+      ],
+      "metric_components": []
+    },
+    {
+      "dataset_name": "neurips-2023-data",
+      "method_name": "mean_per_gene",
+      "paramset_name": null,
+      "paramset": null,
+      "succeeded": true,
+      "run_duration_secs": [
+        5.3
+      ],
+      "run_cpu_pct": [
+        265.6
+      ],
+      "run_peak_memory_mb": [
+        5632
+      ],
+      "run_disk_read_mb": [
+        193
+      ],
+      "run_disk_write_mb": [
+        1
+      ],
+      "run_exit_code": [
+        0
+      ],
+      "metric_names": [
+        "mean_rowwise_rmse",
+        "mean_rowwise_mae",
+        "mean_rowwise_pearson",
+        "mean_rowwise_spearman",
+        "mean_rowwise_cosine"
+      ],
+      "metric_values": [
+        0.8992,
+        0.6356,
+        0.2198,
+        0.2117,
+        0.2264
+      ],
+      "metric_components": []
+    },
+    {
+      "dataset_name": "neurips-2023-data",
+      "method_name": "nn_retraining_with_pseudolabels",
+      "paramset_name": null,
+      "paramset": null,
+      "succeeded": true,
+      "run_duration_secs": [
+        2546
+      ],
+      "run_cpu_pct": [
+        1293.7
+      ],
+      "run_peak_memory_mb": [
+        52736
+      ],
+      "run_disk_read_mb": [
+        247
+      ],
+      "run_disk_write_mb": [
+        8
+      ],
+      "run_exit_code": [
+        0
+      ],
+      "metric_names": [
+        "mean_rowwise_rmse",
+        "mean_rowwise_mae",
+        "mean_rowwise_pearson",
+        "mean_rowwise_spearman",
+        "mean_rowwise_cosine"
+      ],
+      "metric_values": [
+        0.7562,
+        0.5464,
+        0.4909,
+        0.4627,
+        0.4941
+      ],
+      "metric_components": []
+    },
+    {
+      "dataset_name": "neurips-2023-data",
+      "method_name": "py_boost",
+      "paramset_name": null,
+      "paramset": null,
+      "succeeded": true,
+      "run_duration_secs": [
+        151
+      ],
+      "run_cpu_pct": [
+        154.1
+      ],
+      "run_peak_memory_mb": [
+        22221
+      ],
+      "run_disk_read_mb": [
+        261
+      ],
+      "run_disk_write_mb": [
+        13
+      ],
+      "run_exit_code": [
+        0
+      ],
+      "metric_names": [
+        "mean_rowwise_rmse",
+        "mean_rowwise_mae",
+        "mean_rowwise_pearson",
+        "mean_rowwise_spearman",
+        "mean_rowwise_cosine"
+      ],
+      "metric_values": [
+        0.7957,
+        0.5609,
+        0.4607,
+        0.439,
+        0.4638
+      ],
+      "metric_components": []
+    },
+    {
+      "dataset_name": "neurips-2023-data",
+      "method_name": "sample",
+      "paramset_name": null,
+      "paramset": null,
+      "succeeded": true,
+      "run_duration_secs": [
+        8.9
+      ],
+      "run_cpu_pct": [
+        216.6
+      ],
+      "run_peak_memory_mb": [
+        3584
+      ],
+      "run_disk_read_mb": [
+        203
+      ],
+      "run_disk_write_mb": [
+        6
+      ],
+      "run_exit_code": [
+        0
+      ],
+      "metric_names": [
+        "mean_rowwise_rmse",
+        "mean_rowwise_mae",
+        "mean_rowwise_pearson",
+        "mean_rowwise_spearman",
+        "mean_rowwise_cosine"
+      ],
+      "metric_values": [
+        1.3636,
+        0.9633,
+        0.0524,
+        0.0562,
+        0.0547
+      ],
+      "metric_components": []
+    },
+    {
+      "dataset_name": "neurips-2023-data",
+      "method_name": "scape",
+      "paramset_name": null,
+      "paramset": null,
+      "succeeded": true,
+      "run_duration_secs": [
+        8392
+      ],
+      "run_cpu_pct": [
+        737.4
+      ],
+      "run_peak_memory_mb": [
+        44237
+      ],
+      "run_disk_read_mb": [
+        228
+      ],
+      "run_disk_write_mb": [
+        25088
+      ],
+      "run_exit_code": [
+        0
+      ],
+      "metric_names": [
+        "mean_rowwise_rmse",
+        "mean_rowwise_mae",
+        "mean_rowwise_pearson",
+        "mean_rowwise_spearman",
+        "mean_rowwise_cosine"
+      ],
+      "metric_values": [
+        0.7748,
+        0.5722,
+        0.4728,
+        0.4417,
+        0.4758
+      ],
+      "metric_components": []
+    },
+    {
+      "dataset_name": "neurips-2023-data",
+      "method_name": "transformer_ensemble",
+      "paramset_name": null,
+      "paramset": null,
+      "succeeded": true,
+      "run_duration_secs": [
+        3933
+      ],
+      "run_cpu_pct": [
+        216.4
+      ],
+      "run_peak_memory_mb": [
+        18944
+      ],
+      "run_disk_read_mb": [
+        227
+      ],
+      "run_disk_write_mb": [
+        6
+      ],
+      "run_exit_code": [
+        0
+      ],
+      "metric_names": [
+        "mean_rowwise_rmse",
+        "mean_rowwise_mae",
+        "mean_rowwise_pearson",
+        "mean_rowwise_spearman",
+        "mean_rowwise_cosine"
+      ],
+      "metric_values": [
+        0.8988,
+        0.6339,
+        0.2212,
+        0.2164,
+        0.2267
+      ],
+      "metric_components": []
+    },
+    {
+      "dataset_name": "neurips-2023-data",
+      "method_name": "zeros",
+      "paramset_name": null,
+      "paramset": null,
+      "succeeded": true,
+      "run_duration_secs": [
+        5.8
+      ],
+      "run_cpu_pct": [
+        234.9
+      ],
+      "run_peak_memory_mb": [
+        5837
+      ],
+      "run_disk_read_mb": [
+        193
+      ],
+      "run_disk_write_mb": [
+        1
+      ],
+      "run_exit_code": [
+        0
+      ],
+      "metric_names": [
+        "mean_rowwise_rmse",
+        "mean_rowwise_mae",
+        "mean_rowwise_pearson",
+        "mean_rowwise_spearman",
+        "mean_rowwise_cosine"
+      ],
+      "metric_values": [
+        0.9179,
+        0.6351,
+        0,
+        0,
+        0
+      ],
+      "metric_components": []
+    }
+  ],
+  "methodInfo": [
+    {
+      "name": "ground_truth",
+      "label": "Ground truth",
+      "commit": "2fa44462b1e7d530bad703c4a20ed22b49d3705e",
+      "summary": "Returns the ground truth predictions.",
+      "description": "The identity function that returns the ground-truth information as the output.\n",
+      "type": "control_method",
+      "link_code": "https://github.com/openproblems-bio/task_perturbation_prediction",
+      "link_documentation": null,
+      "link_implementation": "https://github.com/openproblems-bio/task_perturbation_prediction/blob/2fa44462b1e7d530bad703c4a20ed22b49d3705e/src/control_methods/ground_truth",
+      "link_container_image": "https://ghcr.io/openproblems-bio/task_perturbation_prediction/control_methods/ground_truth:build_main",
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": []
+      },
+      "additional_info": {
+        "code_version": "build_main"
+      },
+      "version": "build_main"
+    },
+    {
+      "name": "jn_ap_op2",
+      "label": "JN-AP-OP2",
+      "commit": "2fa44462b1e7d530bad703c4a20ed22b49d3705e",
+      "summary": "Deep learning architecture composed of 2 modules: a sample-centric MLP and a gene-centric MLP",
+      "description": "We first encode each sample using leave-one-out encoder based on compound and cell type. This produces X with the dimension of n_samples, n_genes, n_encode,\nwhere n_encode is 2. Then, X is passed to a MLP1 sample-wise with input of n_samples, n_genes*n_encode, which outputs the same dimension data.\nThe purpose of this MLP is to learn inter-gene relationships. Then, we group the output of MLP1 with X (original encoded data) and feed it\nto MLP2 which receives n_smaples*n_genes, (n_encode + n_encode) and results n_samples*n_genes. This MLP2 trains on each (compound, cell_type, gene)\ncombination. This is to overcome the underdetermination problem due to lack of sufficient (compound, cell_type) samples.\n",
+      "type": "method",
+      "link_code": "https://github.com/AntoinePassemiers/Open-Challenges-Single-Cell-Perturbations",
+      "link_documentation": "https://www.kaggle.com/competitions/open-problems-single-cell-perturbations/discussion/461159",
+      "link_implementation": "https://github.com/openproblems-bio/task_perturbation_prediction/blob/2fa44462b1e7d530bad703c4a20ed22b49d3705e/src/methods/jn_ap_op2",
+      "link_container_image": "https://ghcr.io/openproblems-bio/task_perturbation_prediction/methods/jn_ap_op2:build_main",
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": []
+      },
+      "additional_info": {
+        "code_version": "build_main"
+      },
+      "version": "build_main"
+    },
+    {
+      "name": "lstm_gru_cnn_ensemble",
+      "label": "LSTM-GRU-CNN Ensemble",
+      "commit": "2fa44462b1e7d530bad703c4a20ed22b49d3705e",
+      "summary": "An ensemble of LSTM, GRU, and 1D CNN models",
+      "description": "An ensemble of LSTM, GRU, and 1D CNN models with a variety of input features derived from ChemBERTa embeddings,\none-hot encoding of cell type/small molecule pairs, and various statistical measures of target gene expression.\nThe models were trained with a combination of MSE, MAE, LogCosh, and BCE loss functions to improve their\nrobustness and predictive performance. The approach also included data augmentation techniques to ensure\ngeneralization and account for noise in the data.\n",
+      "type": "method",
+      "link_code": "https://github.com/Jean-KOUAGOU/1st-place-solution-single-cell-pbs/tree/main",
+      "link_documentation": "https://www.kaggle.com/competitions/open-problems-single-cell-perturbations/discussion/459258",
+      "link_implementation": "https://github.com/openproblems-bio/task_perturbation_prediction/blob/2fa44462b1e7d530bad703c4a20ed22b49d3705e/src/methods/lgc_ensemble",
+      "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=task_perturbation_prediction&q=methods/lgc_ensemble",
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": []
+      },
+      "additional_info": {
+        "code_version": "build_main"
+      },
+      "version": "build_main"
+    },
+    {
+      "name": "mean_per_cell_type_and_gene",
+      "label": "Mean per cell type and gene",
+      "commit": "2fa44462b1e7d530bad703c4a20ed22b49d3705e",
+      "summary": "Baseline method that returns mean of cell type's outcomes",
+      "description": "Baseline method that predicts for a cell type the mean of its outcomes of all compounds.\n",
+      "type": "control_method",
+      "link_code": "https://github.com/openproblems-bio/task_perturbation_prediction",
+      "link_documentation": null,
+      "link_implementation": "https://github.com/openproblems-bio/task_perturbation_prediction/blob/2fa44462b1e7d530bad703c4a20ed22b49d3705e/src/control_methods/mean_across_celltypes",
+      "link_container_image": "https://ghcr.io/openproblems-bio/task_perturbation_prediction/control_methods/mean_across_celltypes:build_main",
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": []
+      },
+      "additional_info": {
+        "code_version": "build_main"
+      },
+      "version": "build_main"
+    },
+    {
+      "name": "mean_per_compound_and_gene",
+      "label": "Mean per compound and gene",
+      "commit": "2fa44462b1e7d530bad703c4a20ed22b49d3705e",
+      "summary": "Baseline method that returns mean of compound's outcomes",
+      "description": "Baseline method that predicts for a compound the mean of its outcomes of all samples.\n",
+      "type": "control_method",
+      "link_code": "https://github.com/openproblems-bio/task_perturbation_prediction",
+      "link_documentation": null,
+      "link_implementation": "https://github.com/openproblems-bio/task_perturbation_prediction/blob/2fa44462b1e7d530bad703c4a20ed22b49d3705e/src/control_methods/mean_across_compounds",
+      "link_container_image": "https://ghcr.io/openproblems-bio/task_perturbation_prediction/control_methods/mean_across_compounds:build_main",
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": []
+      },
+      "additional_info": {
+        "code_version": "build_main"
+      },
+      "version": "build_main"
+    },
+    {
+      "name": "mean_per_gene",
+      "label": "Mean per gene",
+      "commit": "2fa44462b1e7d530bad703c4a20ed22b49d3705e",
+      "summary": "Baseline method that returns mean of gene's outcomes",
+      "description": "Baseline method that predicts for a gene the mean of its outcomes of all samples.\n",
+      "type": "control_method",
+      "link_code": "https://github.com/openproblems-bio/task_perturbation_prediction",
+      "link_documentation": null,
+      "link_implementation": "https://github.com/openproblems-bio/task_perturbation_prediction/blob/2fa44462b1e7d530bad703c4a20ed22b49d3705e/src/control_methods/mean_outcome",
+      "link_container_image": "https://ghcr.io/openproblems-bio/task_perturbation_prediction/control_methods/mean_outcome:build_main",
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": []
+      },
+      "additional_info": {
+        "code_version": "build_main"
+      },
+      "version": "build_main"
+    },
+    {
+      "name": "nn_retraining_with_pseudolabels",
+      "label": "NN retraining with pseudolabels",
+      "commit": "2fa44462b1e7d530bad703c4a20ed22b49d3705e",
+      "summary": "Neural networks with pseudolabeling and ensemble modelling",
+      "description": "The prediction system is two staged, so I publish two versions of the notebook.\nThe first stage predicts pseudolabels. To be honest, if I stopped on this version, I would not be the third.\nThe predicted pseudolabels on all test data (255 rows) are added to training in the second stage.\n\n**Stage 1 preparing pseudolabels**: The main part of this system is a neural network. Every neural network and its environment was optimized by optuna. Hyperparameters that have been optimized:\na dropout value, a number of neurons in particular layers, an output dimension of an embedding layer, a number of epochs, a learning rate, a batch size, a number of dimension of truncated singular value decomposition.\nThe optimization was done on custom 4-folds cross validation. In order to avoid overfitting to cross validation by optuna I applied 2 repeats for every fold and took an average. Generally, the more, the better. The optuna's criterion was MRRMSE.\nFinally, 7 models were ensembled. Optuna was applied again to determine best weights of linear combination. The prediction of test set is the pseudolabels now and will be used in second stage.\n\n**Stage 2 retraining with pseudolabels**: The pseudolabels (255 rows) were added to the training dataset. I applied 20 models with optimized parameters in different experiments for a model diversity.\nOptuna selected optimal weights for the linear combination of the prediction again.\nModels had high variance, so every model was trained 10 times on all dataset and the median of prediction is taken as a final prediction. The prediction was additionally clipped to colwise min and max. \n",
+      "type": "method",
+      "link_code": "https://github.com/okon2000/single_cell_perturbations",
+      "link_documentation": "https://www.kaggle.com/competitions/open-problems-single-cell-perturbations/discussion/458750",
+      "link_implementation": "https://github.com/openproblems-bio/task_perturbation_prediction/blob/2fa44462b1e7d530bad703c4a20ed22b49d3705e/src/methods/nn_retraining_with_pseudolabels",
+      "link_container_image": "https://ghcr.io/openproblems-bio/task_perturbation_prediction/methods/nn_retraining_with_pseudolabels:build_main",
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": []
+      },
+      "additional_info": {
+        "code_version": "build_main"
+      },
+      "version": "build_main"
+    },
+    {
+      "name": "py_boost",
+      "label": "Py-boost",
+      "commit": "2fa44462b1e7d530bad703c4a20ed22b49d3705e",
+      "summary": "Py-boost predicting t-scores",
+      "description": "An ensemble of four models was considered: \n\n* Py-boost (a ridge regression-based recommender system)\n* ExtraTrees (a decision tree ensemble with target-encoded features)\n* a k-nearest neighbors recommender system\n* a ridge regression model\n\nEach model offered distinct strengths and weaknesses: ExtraTrees and\nknn were unable to extrapolate beyond the training data, while ridge\nregression provided extrapolation capability. To enhance model performance,\ndata augmentation techniques were used, including averaging differential\nexpressions for compound mixtures and adjusting cell counts to reduce biases.\n\nIn the end, only the py-boost model is used for generating predictions.\n",
+      "type": "method",
+      "link_code": "https://github.com/Ambros-M/Single-Cell-Perturbations-2023",
+      "link_documentation": "https://www.kaggle.com/competitions/open-problems-single-cell-perturbations/discussion/458661",
+      "link_implementation": "https://github.com/openproblems-bio/task_perturbation_prediction/blob/2fa44462b1e7d530bad703c4a20ed22b49d3705e/src/methods/pyboost",
+      "link_container_image": "https://ghcr.io/openproblems-bio/task_perturbation_prediction/methods/pyboost:build_main",
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": []
+      },
+      "additional_info": {
+        "code_version": "build_main"
+      },
+      "version": "build_main"
+    },
+    {
+      "name": "sample",
+      "label": "Sample",
+      "commit": "2fa44462b1e7d530bad703c4a20ed22b49d3705e",
+      "summary": "Sample predictions from the training data",
+      "description": "This method samples the training data to generate predictions.\n",
+      "type": "control_method",
+      "link_code": "https://github.com/openproblems-bio/task_perturbation_prediction",
+      "link_documentation": null,
+      "link_implementation": "https://github.com/openproblems-bio/task_perturbation_prediction/blob/2fa44462b1e7d530bad703c4a20ed22b49d3705e/src/control_methods/sample",
+      "link_container_image": "https://ghcr.io/openproblems-bio/task_perturbation_prediction/control_methods/sample:build_main",
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": []
+      },
+      "additional_info": {
+        "code_version": "build_main"
+      },
+      "version": "build_main"
+    },
+    {
+      "name": "scape",
+      "label": "ScAPE",
+      "commit": "2fa44462b1e7d530bad703c4a20ed22b49d3705e",
+      "summary": "Neural network model for drug effect prediction",
+      "description": "ScAPE is utilises a neural network (NN) model to estimate drug effects on gene expression in\nperipheral blood mononuclear cells (PBMCs). The model took drug and cell features as input,\nwith these features primarily derived from the median of signed log-pvalues and log fold-changes\ngrouped by drug and cell type. The NN was trained using a leave-one-drug-out cross-validation\nstrategy, focusing on NK cells as a representative cell type due to their similarity to B cells\nand Myeloid cells in principal component analysis. Model performance was evaluated by comparing\nits predictions against two baselines: predicting zero effect and predicting the median\nlog-pvalue for each drug. The final submission combined predictions from models trained on\ndifferent gene and drug subsets, aiming to enhance overall prediction accuracy.\n",
+      "type": "method",
+      "link_code": "https://github.com/scapeML/scape",
+      "link_documentation": "https://docs.google.com/document/d/1w0GIJ8VoQx3HEJNmLXoU-Y_STB-h5-bXusL80_6EVuU/edit",
+      "link_implementation": "https://github.com/openproblems-bio/task_perturbation_prediction/blob/2fa44462b1e7d530bad703c4a20ed22b49d3705e/src/methods/scape",
+      "link_container_image": "https://ghcr.io/openproblems-bio/task_perturbation_prediction/methods/scape:build_main",
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": []
+      },
+      "additional_info": {
+        "code_version": "build_main"
+      },
+      "version": "build_main"
+    },
+    {
+      "name": "transformer_ensemble",
+      "label": "Transformer Ensemble",
+      "commit": "2fa44462b1e7d530bad703c4a20ed22b49d3705e",
+      "summary": "An ensemble of four transformer models, trained on diverse feature sets, with a cluster-based sampling strategy and robust validation for optimal performance.",
+      "description": "This method employs an ensemble of four transformer models,\neach with different weights and trained on slightly varying feature sets.\nThe feature engineering process involved one-hot encoding of categorical labels,\ntarget encoding using mean and standard deviation, and enriching the feature set\nwith the standard deviation of target variables. Additionally, the dataset was\ncarefully examined to ensure data cleanliness. A sophisticated sampling strategy\nbased on K-Means clustering was employed to partition the data into training and\nvalidation sets, ensuring a representative distribution. The model architecture\nleveraged sparse and dense feature encoding, along with a transformer for effective\nlearning.\n",
+      "type": "method",
+      "link_code": "https://github.com/Eliorkalfon/single_cell_pb",
+      "link_documentation": "https://www.kaggle.com/competitions/open-problems-single-cell-perturbations/discussion/458738",
+      "link_implementation": "https://github.com/openproblems-bio/task_perturbation_prediction/blob/2fa44462b1e7d530bad703c4a20ed22b49d3705e/src/methods/transformer_ensemble",
+      "link_container_image": "https://ghcr.io/openproblems-bio/task_perturbation_prediction/methods/transformer_ensemble:build_main",
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": []
+      },
+      "additional_info": {
+        "code_version": "build_main"
+      },
+      "version": "build_main"
+    },
+    {
+      "name": "zeros",
+      "label": "Zeros",
+      "commit": "2fa44462b1e7d530bad703c4a20ed22b49d3705e",
+      "summary": "Baseline method that predicts all zeros",
+      "description": "Baseline method that predicts all zeros.\n",
+      "type": "control_method",
+      "link_code": "https://github.com/openproblems-bio/task_perturbation_prediction",
+      "link_documentation": null,
+      "link_implementation": "https://github.com/openproblems-bio/task_perturbation_prediction/blob/2fa44462b1e7d530bad703c4a20ed22b49d3705e/src/control_methods/zeros",
+      "link_container_image": "https://ghcr.io/openproblems-bio/task_perturbation_prediction/control_methods/zeros:build_main",
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": []
+      },
+      "additional_info": {
+        "code_version": "build_main"
+      },
+      "version": "build_main"
+    }
+  ],
+  "metricInfo": [
+    {
+      "name": "mean_rowwise_cosine",
+      "label": "Mean Rowwise Cosine",
+      "commit": "2fa44462b1e7d530bad703c4a20ed22b49d3705e",
+      "summary": "The mean of cosine similarities per row (perturbation).",
+      "description": "The **Mean Cosine Similarity** is computed as follows:\n\n$$\n\\textrm{Mean-Cosine} = \\frac{1}{R}\\sum_{i=1}^R\\frac{\\mathbf{y}_i\\cdot \\mathbf{\\hat{y}}_i}{\\|\\mathbf{y}_i\\| \\|\\mathbf{\\hat{y}}_i\\|}\n$$\n\nwhere $(R)$ is the number of scored rows, and $(\\mathbf{y}_i)$ and $(\\mathbf{\\hat{y}}_i)$ are the actual and predicted values, respectively, for row $(i)$.\n",
+      "maximize": true,
+      "link_implementation": "https://github.com/openproblems-bio/task_perturbation_prediction/blob/2fa44462b1e7d530bad703c4a20ed22b49d3705e/src/metrics/mean_rowwise_correlation",
+      "link_container_image": "https://ghcr.io/openproblems-bio/task_perturbation_prediction/metrics/mean_rowwise_correlation:build_main",
+      "component_name": "mean_rowwise_cosine",
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": [
+          "@article{slazata2024benchmark,\n  title = {A benchmark for prediction of transcriptomic responses to chemical perturbations across cell types},\n  author = {Artur SzaÅata and Andrew Benz and Robrecht Cannoodt and Mauricio Cortes and Jason Fong and Sunil Kuppasani and Richard Lieberman and Tianyu Liu and Javier A. Mas-Rosario and Rico Meinl and Jalil Nourisa and Jared Tumiel and Tin M. Tunjic and Mengbo Wang and Noah Weber and Hongyu Zhao and Benedict Anchang and Fabian J Theis and Malte D Luecken and Daniel B Burkhardt},\n  booktitle = {The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},\n  year = {2024},\n  url = {https://openreview.net/forum?id=WTI4RJYSVm}\n}\n"
+        ]
+      },
+      "additional_info": {},
+      "version": "build_main"
+    },
+    {
+      "name": "mean_rowwise_mae",
+      "label": "Mean Rowwise MAE",
+      "commit": "2fa44462b1e7d530bad703c4a20ed22b49d3705e",
+      "summary": "The mean of the absolute error (MAE) of each row in the matrix.",
+      "description": "We use the **Mean Rowwise Absolute Error** to score submissions, computed as follows:\n\n$$\n\\textrm{MRMAE} = \\frac{1}{R}\\sum_{i=1}^R\\left(\\frac{1}{n} \\sum_{j=1}^{n} |y_{ij} - \\widehat{y}_{ij}|\\right)\n$$\n\nwhere $(R)$ is the number of scored rows, and $(y_{ij})$ and $(\\widehat{y}_{ij})$ are the actual and predicted values, respectively, for row $(i)$ and column $(j)$, and $(n)$ bis the number of columns.\n",
+      "maximize": false,
+      "link_implementation": "https://github.com/openproblems-bio/task_perturbation_prediction/blob/2fa44462b1e7d530bad703c4a20ed22b49d3705e/src/metrics/mean_rowwise_error",
+      "link_container_image": "https://ghcr.io/openproblems-bio/task_perturbation_prediction/metrics/mean_rowwise_error:build_main",
+      "component_name": "mean_rowwise_mae",
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": [
+          "@article{slazata2024benchmark,\n  title = {A benchmark for prediction of transcriptomic responses to chemical perturbations across cell types},\n  author = {Artur SzaÅata and Andrew Benz and Robrecht Cannoodt and Mauricio Cortes and Jason Fong and Sunil Kuppasani and Richard Lieberman and Tianyu Liu and Javier A. Mas-Rosario and Rico Meinl and Jalil Nourisa and Jared Tumiel and Tin M. Tunjic and Mengbo Wang and Noah Weber and Hongyu Zhao and Benedict Anchang and Fabian J Theis and Malte D Luecken and Daniel B Burkhardt},\n  booktitle = {The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},\n  year = {2024},\n  url = {https://openreview.net/forum?id=WTI4RJYSVm}\n}\n"
+        ]
+      },
+      "additional_info": {},
+      "version": "build_main"
+    },
+    {
+      "name": "mean_rowwise_pearson",
+      "label": "Mean Rowwise Pearson",
+      "commit": "2fa44462b1e7d530bad703c4a20ed22b49d3705e",
+      "summary": "The mean of Pearson correlations per row (perturbation).",
+      "description": "The **Mean Pearson Correlation** is computed as follows:\n\n$$\n\\textrm{Mean-Pearson} = \\frac{1}{R}\\sum_{i=1}^R\\frac{\\textrm{Cov}(\\mathbf{y}_i, \\mathbf{\\hat{y}}_i)}{\\textrm{Var}(\\mathbf{y}_i) \\cdot \\textrm{Var}(\\mathbf{\\hat{y}}_i)}\n$$\n\nwhere $(R)$ is the number of scored rows, and $(\\mathbf{y}_i)$ and $(\\mathbf{\\hat{y}}_i)$ are the actual and predicted values, respectively, for row $(i)$.\n",
+      "maximize": true,
+      "link_implementation": "https://github.com/openproblems-bio/task_perturbation_prediction/blob/2fa44462b1e7d530bad703c4a20ed22b49d3705e/src/metrics/mean_rowwise_correlation",
+      "link_container_image": "https://ghcr.io/openproblems-bio/task_perturbation_prediction/metrics/mean_rowwise_correlation:build_main",
+      "component_name": "mean_rowwise_pearson",
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": [
+          "@article{slazata2024benchmark,\n  title = {A benchmark for prediction of transcriptomic responses to chemical perturbations across cell types},\n  author = {Artur SzaÅata and Andrew Benz and Robrecht Cannoodt and Mauricio Cortes and Jason Fong and Sunil Kuppasani and Richard Lieberman and Tianyu Liu and Javier A. Mas-Rosario and Rico Meinl and Jalil Nourisa and Jared Tumiel and Tin M. Tunjic and Mengbo Wang and Noah Weber and Hongyu Zhao and Benedict Anchang and Fabian J Theis and Malte D Luecken and Daniel B Burkhardt},\n  booktitle = {The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},\n  year = {2024},\n  url = {https://openreview.net/forum?id=WTI4RJYSVm}\n}\n"
+        ]
+      },
+      "additional_info": {},
+      "version": "build_main"
+    },
+    {
+      "name": "mean_rowwise_rmse",
+      "label": "Mean Rowwise RMSE",
+      "commit": "2fa44462b1e7d530bad703c4a20ed22b49d3705e",
+      "summary": "The mean of the root mean squared error (RMSE) of each row in the matrix.",
+      "description": "We use the **Mean Rowwise Root Mean Squared Error** to score submissions, computed as follows:\n\n$$\n\\textrm{MRRMSE} = \\frac{1}{R}\\sum_{i=1}^R\\left(\\frac{1}{n} \\sum_{j=1}^{n} (y_{ij} - \\widehat{y}_{ij})^2\\right)^{1/2}\n$$\n\nwhere $(R)$ is the number of scored rows, and $(y_{ij})$ and $(\\widehat{y}_{ij})$ are the actual and predicted values, respectively, for row $(i)$ and column $(j)$, and $(n)$ bis the number of columns.\n",
+      "maximize": false,
+      "link_implementation": "https://github.com/openproblems-bio/task_perturbation_prediction/blob/2fa44462b1e7d530bad703c4a20ed22b49d3705e/src/metrics/mean_rowwise_error",
+      "link_container_image": "https://ghcr.io/openproblems-bio/task_perturbation_prediction/metrics/mean_rowwise_error:build_main",
+      "component_name": "mean_rowwise_rmse",
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": [
+          "@article{slazata2024benchmark,\n  title = {A benchmark for prediction of transcriptomic responses to chemical perturbations across cell types},\n  author = {Artur SzaÅata and Andrew Benz and Robrecht Cannoodt and Mauricio Cortes and Jason Fong and Sunil Kuppasani and Richard Lieberman and Tianyu Liu and Javier A. Mas-Rosario and Rico Meinl and Jalil Nourisa and Jared Tumiel and Tin M. Tunjic and Mengbo Wang and Noah Weber and Hongyu Zhao and Benedict Anchang and Fabian J Theis and Malte D Luecken and Daniel B Burkhardt},\n  booktitle = {The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},\n  year = {2024},\n  url = {https://openreview.net/forum?id=WTI4RJYSVm}\n}\n"
+        ]
+      },
+      "additional_info": {},
+      "version": "build_main"
+    },
+    {
+      "name": "mean_rowwise_spearman",
+      "label": "Mean Rowwise Spearman",
+      "commit": "2fa44462b1e7d530bad703c4a20ed22b49d3705e",
+      "summary": "The mean of Spearman correlations per row (perturbation).",
+      "description": "The **Mean Spearman Correlation** is computed as follows:\n\n$$\n\\textrm{Mean-Pearson} = \\frac{1}{R}\\sum_{i=1}^R\\frac{\\textrm{Cov}(\\mathbf{r}_i, \\mathbf{\\hat{r}}_i)}{\\textrm{Var}(\\mathbf{r}_i) \\cdot \\textrm{Var}(\\mathbf{\\hat{r}}_i)}\n$$\n\nwhere $(R)$ is the number of scored rows, and $(\\mathbf{r}_i)$ and $(\\mathbf{\\hat{r}}_i)$ are the ranks of the actual and predicted values, respectively, for row $(i)$.\n",
+      "maximize": true,
+      "link_implementation": "https://github.com/openproblems-bio/task_perturbation_prediction/blob/2fa44462b1e7d530bad703c4a20ed22b49d3705e/src/metrics/mean_rowwise_correlation",
+      "link_container_image": "https://ghcr.io/openproblems-bio/task_perturbation_prediction/metrics/mean_rowwise_correlation:build_main",
+      "component_name": "mean_rowwise_spearman",
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": [
+          "@article{slazata2024benchmark,\n  title = {A benchmark for prediction of transcriptomic responses to chemical perturbations across cell types},\n  author = {Artur SzaÅata and Andrew Benz and Robrecht Cannoodt and Mauricio Cortes and Jason Fong and Sunil Kuppasani and Richard Lieberman and Tianyu Liu and Javier A. Mas-Rosario and Rico Meinl and Jalil Nourisa and Jared Tumiel and Tin M. Tunjic and Mengbo Wang and Noah Weber and Hongyu Zhao and Benedict Anchang and Fabian J Theis and Malte D Luecken and Daniel B Burkhardt},\n  booktitle = {The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},\n  year = {2024},\n  url = {https://openreview.net/forum?id=WTI4RJYSVm}\n}\n"
+        ]
+      },
+      "additional_info": {},
+      "version": "build_main"
+    }
+  ],
+  "datasetInfo": [
+    {
+      "name": "neurips-2023-data",
+      "label": "NeurIPS2023 scPerturb DGE",
+      "commit": "",
+      "summary": "Differential gene expression sign(logFC) * -log10(p-value) values after 24 hours of treatment with 144 compounds in human PBMCs",
+      "description": "For this competition, we designed and generated a novel single-cell perturbational dataset in human peripheral blood mononuclear cells (PBMCs). We selected 144 compounds from the Library of Integrated Network-Based Cellular Signatures (LINCS) Connectivity Map dataset (PMID: 29195078) and measured single-cell gene expression profiles after 24 hours of treatment. The experiment was repeated in three healthy human donors, and the compounds were selected based on diverse transcriptional signatures observed in CD34+ hematopoietic stem cells (data not released). We performed this experiment in human PBMCs because the cells are commercially available with pre-obtained consent for public release and PBMCs are a primary, disease-relevant tissue that contains multiple mature cell types (including T-cells, B-cells, myeloid cells, and NK cells) with established markers for annotation of cell types. To supplement this dataset, we also measured cells from each donor at baseline with joint scRNA and single-cell chromatin accessibility measurements using the 10x Multiome assay. We hope that the addition of rich multi-omic data for each donor and cell type at baseline will help establish biological priors that explain the susceptibility of particular genes to exhibit perturbation responses in difference biological contexts.",
+      "source_urls": [
+        "https://trace.ncbi.nlm.nih.gov/Traces/?view=study&acc=SRP527159"
+      ],
+      "common_dataset_names": null,
+      "modalities": null,
+      "organisms": [],
+      "authors": [],
+      "references": {
+        "doi": [],
+        "bibtex": []
+      },
+      "date_created": "31-10-2024",
+      "file_size_mb": 183.16875
+    }
+  ],
+  "presets": []
+}

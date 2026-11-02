@@ -1,0 +1,26 @@
+{
+  "status": "published-paper-and-appendix-verified",
+  "paper_title": "Predicting cellular responses to complex perturbations in high-throughput screens",
+  "publication_date": "2023-05-08",
+  "doi": "10.15252/msb.202211517",
+  "paper_url": "https://link.springer.com/article/10.15252/msb.202211517",
+  "appendix_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.15252%2Fmsb.202211517/MediaObjects/44320_2023_BFMSB202211517_MOESM1_ESM.pdf",
+  "dataset_accession": "GSM4150377",
+  "cells_after_qc": 14811,
+  "hvg_count": 5000,
+  "normalization": "authors-provided size factors followed by log transform",
+  "holdout": "second-highest drug dose for all four drugs; main-text sentence does not state numeric dose",
+  "metric": "sklearn r2_score, predicted vs actual population mean and variance vectors; all genes and condition-specific top50 DEGs",
+  "appendix_S4b": "Boxplot comparing CPA vs random-training-cell baseline; no exact per-drug table in final published appendix.",
+  "visual_estimates_not_exact": {
+    "all_gene_mean_R2_median_approx": 0.91,
+    "top50DEG_mean_R2_median_approx": 0.83
+  },
+  "version_caution": "2021 preprint Supplementary Table2 CPA/linear values are not a table in the 2023 version of record; do not silently label them final-paper results.",
+  "author_repository_url": "https://github.com/theislab/cpa-reproducibility",
+  "author_repository_fetch": "not obtained: GitHub API rate limited, web path unavailable, git TLS CA failure; no code-based extra claims",
+  "artifact_sha256": {
+    "CPA_2023_appendix.pdf": "e857a140ad9503ff4379a56de4c4efe5b5980a1b659be97ca8e9093f6dd412a1",
+    "CPA_2023_appendix.txt": "6a90b97ec21673ada2c3d9450da37a6a400794e64f7c3925638e0b1bec4e1528"
+  }
+}

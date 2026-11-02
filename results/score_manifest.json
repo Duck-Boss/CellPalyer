@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "scored_at": "2026-10-27T15:02:11+08:00",
+  "prediction_seal_sha256": "94000da8529cea959d3b592512d747113a993839111e3440cc21e42084f71d85",
+  "evaluation_sha256": "42cdc42755f47eaea134ba1898ca56616d16dfa73839944ef961c90fd649a193",
+  "n_wells": 16,
+  "n_treated": 786,
+  "n_unique_controls": 951,
+  "n_genes": 2000,
+  "new_models": 6,
+  "n_well_rows": 288,
+  "aggregation": "equal wells within drug then equal drugs; SD across seeds ddof1",
+  "outputs_sha256": {
+    "scores_by_well.csv": "d5b1ad83992f5068737ee487743eaa0d420fb498af6ea5fcc84f6fb267efba03",
+    "scores_by_seed.csv": "f0fa95a5b3d4a6c582ab799d049929afb6bffaa6a7fa2421ddf6aa50c671d618",
+    "scores_summary.csv": "d1a321e89be52016fb9ceeabd62ed3045a6d0c82f7374ce908b5fb934ff3d86b",
+    "scores_by_drug.csv": "46a1d9c3cdc21a9927cd807fc342ec492d7564eee06dee6a202ec5138e29bff9"
+  },
+  "development_only": true
+}

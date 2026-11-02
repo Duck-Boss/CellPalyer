@@ -1,0 +1,60 @@
+{
+  "cell_type": "code",
+  "execution_count": 33,
+  "metadata": {},
+  "outputs": [
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": [
+        "\\begin{tabular}{llrrrlr}\n",
+        "\\toprule\n",
+        "condition & dose_val &  R2_mean &  R2_mean_DE &  R2_var &        split &  num_cells \\\\\n",
+        "\\midrule\n",
+        "     SAHA &    0.001 &     0.97 &        0.94 &    0.91 &         test &        169 \\\\\n",
+        "     SAHA &      0.5 &     0.97 &        0.85 &    0.92 & \\textbf{ood} &        604 \\\\\n",
+        "     SAHA &     0.01 &     0.96 &        0.90 &    0.93 &         test &        160 \\\\\n",
+        "     SAHA &     0.05 &     0.95 &        0.81 &    0.88 &         test &        118 \\\\\n",
+        "     SAHA &    0.005 &     0.94 &        0.85 &    0.90 &         test &        143 \\\\\n",
+        "     SAHA &      1.0 &     0.94 &        0.77 &    0.85 &         test &        137 \\\\\n",
+        "     SAHA &      0.1 &     0.94 &        0.74 &    0.89 &         test &        129 \\\\\n",
+        "   Nutlin &     0.01 &     0.99 &        0.98 &    0.94 &         test &        180 \\\\\n",
+        "   Nutlin &     0.05 &     0.99 &        0.97 &    0.95 &         test &        136 \\\\\n",
+        "   Nutlin &      0.1 &     0.99 &        0.97 &    0.95 &         test &        200 \\\\\n",
+        "   Nutlin &    0.001 &     0.98 &        0.99 &    0.94 &         test &        135 \\\\\n",
+        "   Nutlin &    0.005 &     0.98 &        0.96 &    0.93 &         test &        107 \\\\\n",
+        "   Nutlin &      0.5 &     0.86 &        0.81 &    0.80 & \\textbf{ood} &        265 \\\\\n",
+        "   Nutlin &      1.0 &     0.15 &        0.58 &    0.00 &         test &          1 \\\\\n",
+        "      Dex &      0.5 &     1.00 &        0.98 &    0.97 & \\textbf{ood} &        864 \\\\\n",
+        "      Dex &      0.1 &     0.99 &        0.97 &    0.96 &         test &        218 \\\\\n",
+        "      Dex &      1.0 &     0.99 &        0.97 &    0.94 &         test &        222 \\\\\n",
+        "      Dex &     0.05 &     0.99 &        0.96 &    0.94 &         test &        210 \\\\\n",
+        "      Dex &     0.01 &     0.98 &        0.88 &    0.94 &         test &        238 \\\\\n",
+        "      Dex &    0.005 &     0.95 &        0.66 &    0.91 &         test &        108 \\\\\n",
+        "      Dex &    0.001 &     0.94 &        0.81 &    0.88 &         test &        123 \\\\\n",
+        "      BMS &    0.001 &     0.98 &        0.97 &    0.91 &         test &        212 \\\\\n",
+        "      BMS &    0.005 &     0.96 &        0.94 &    0.84 &         test &        151 \\\\\n",
+        "      BMS &      0.1 &     0.90 &        0.86 &    0.73 &         test &         50 \\\\\n",
+        "      BMS &     0.05 &     0.88 &        0.73 &    0.68 &         test &         59 \\\\\n",
+        "      BMS &      0.5 &     0.86 &        0.63 &    0.58 & \\textbf{ood} &         34 \\\\\n",
+        "      BMS &     0.01 &     0.84 &       -0.39 &    0.74 &         test &         82 \\\\\n",
+        "      BMS &      1.0 &     0.46 &       -2.04 &    0.13 &         test &          6 \\\\\n",
+        "\\bottomrule\n",
+        "\\end{tabular}\n",
+        "\n"
+      ]
+    }
+  ],
+  "source": [
+    "# cols_print = ['condition', 'dose_val','R2_mean', 'R2_mean_DE', 'R2_var', 'R2_var_DE', 'split', 'num_cells']\n",
+    "# df_score = df_score.round(2).sort_values(by=['condition', 'R2_mean', 'R2_mean_DE'], ascending=False)\n",
+    "# print(df_score[cols_print])\n",
+    "# # print(df_score[cols_print].to_latex(index=False))\n",
+    "\n",
+    "cols_print = ['condition', 'dose_val','R2_mean', 'R2_mean_DE', 'R2_var', 'split', 'num_cells']\n",
+    "df_score = df_score.round(2).sort_values(by=['condition', 'R2_mean', 'R2_mean_DE', 'R2_var'], ascending=False)\n",
+    "df_latex = df_score[cols_print].copy()\n",
+    "df_latex = df_latex.replace('ood', '\\textbf{ood}')\n",
+    "print(df_latex.to_latex(index=False, bold_rows=True, escape=False))"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "methods": [
+    "one_shot",
+    "agent"
+  ],
+  "case_limit": 0,
+  "max_rounds": 8,
+  "effects_sha256": "5bd0da54ddcceae0a4ea40d2f260b4d2acbd7b2d7a2eb2da97caeb75efb117fd",
+  "prepared_manifest_sha256": "f65cbb0358bf94c71a093eed9492d81c4c67081454275f82be2f8b9bc3b7ad8b",
+  "prepared_cases_sha256": "493aa96ab615615a046148cf85ee57b68c5d2ea86b72443440de78e5e7d8b8c1",
+  "fitted_baseline_sha256": "fc7bf87c95b105da613b312fd76a3b4ee459f1aa064a9d7e495852c22e598f75",
+  "prepared_source": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/prepared",
+  "fitted_source": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/lexa"
+}

@@ -1,0 +1,42 @@
+{
+  "version": "primary-mechanisms-v4-20261027",
+  "policy": "General target/action knowledge only. No measured perturbation expression signatures, dose trajectories, axis IDs, code IDs or recommended code selections. Protein activity changes do not imply corresponding mRNA changes. Program terms below are explicit qualitative mechanism terms for a transparent literal matching baseline, not measured response labels.",
+  "drugs": {
+    "BMS": {
+      "drug_name": "BMS-345541",
+      "targets": ["IKK alpha / CHUK", "IKK beta / IKBKB"],
+      "action": "Allosteric inhibition of I-kappa-B kinase catalytic activity.",
+      "mechanism": "IKK inhibition can impede canonical NF-kappa-B activation and thereby reduce NF-kappa-B-dependent transcription when this pathway is active.",
+      "context_caveats": ["Baseline pathway activation and exposure influence response.", "Inhibition of a kinase does not establish a decrease in its own transcript.", "No quantitative expression response is supplied for A549 at this dose or duration."],
+      "literal_program_terms": [{"text":"NF-kappa-B", "direction":"down"}],
+      "sources": [{"id":"M1", "title":"BMS-345541 is a highly selective inhibitor of I kappa B kinase that binds at an allosteric site", "url":"https://pubmed.ncbi.nlm.nih.gov/12403772/", "doi":"10.1074/jbc.M209677200"}]
+    },
+    "Dex": {
+      "drug_name": "Dexamethasone",
+      "targets": ["Glucocorticoid receptor / NR3C1"],
+      "action": "Glucocorticoid receptor agonist.",
+      "mechanism": "Ligand-activated glucocorticoid receptor regulates transcription through DNA-associated regulatory mechanisms and interactions with other transcription factors. GR can antagonize NF-kappa-B transcriptional activity; transcriptional activation and repression depend on gene and cellular context.",
+      "context_caveats": ["Receptor abundance, chromatin accessibility and cofactor context influence the response.", "NR3C1 receptor activation is not evidence that NR3C1 mRNA rises.", "No A549 treatment expression profile or signed gene-response list is supplied."],
+      "literal_program_terms": [{"text":"glucocorticoid", "direction":"up"}, {"text":"NF-kappa-B", "direction":"down"}],
+      "sources": [{"id":"M1", "title":"Characterization of mechanisms involved in transrepression of NF-kappa B by activated glucocorticoid receptors", "url":"https://pubmed.ncbi.nlm.nih.gov/7823959/", "doi":"10.1128/MCB.15.2.943"}]
+    },
+    "Nutlin": {
+      "drug_name": "Nutlin-3a",
+      "targets": ["MDM2-p53 protein interaction"],
+      "action": "Antagonist of the MDM2-p53 interaction.",
+      "mechanism": "Blocking MDM2 binding can stabilize p53 and release its transcriptional activity. Downstream arrest or apoptosis depends on functional p53 and cellular context.",
+      "context_caveats": ["Functional p53 is a prerequisite for the intended pathway mechanism; the control transcript profile does not establish p53 genotype.", "Stabilization of p53 protein is not evidence that TP53 mRNA increases.", "No drug-response expression array, gene signature or dose-specific magnitude is supplied."],
+      "literal_program_terms": [{"text":"p53", "direction":"up"}],
+      "sources": [{"id":"M1", "title":"In vivo activation of the p53 pathway by small-molecule antagonists of MDM2", "url":"https://pubmed.ncbi.nlm.nih.gov/14704432/", "doi":"10.1126/science.1092472"}, {"id":"M2", "title":"Small-molecule MDM2 antagonists reveal aberrant p53 signaling in cancer: implications for therapy", "url":"https://pubmed.ncbi.nlm.nih.gov/16443686/", "doi":"10.1073/pnas.0507493103"}]
+    },
+    "SAHA": {
+      "drug_name": "SAHA / vorinostat / suberoylanilide hydroxamic acid",
+      "targets": ["Zinc-dependent histone deacetylases"],
+      "action": "Inhibition of histone deacetylase catalytic activity.",
+      "mechanism": "SAHA binds within the catalytic channel of an HDAC-like enzyme, with its hydroxamate group engaging the catalytic zinc. Inhibiting deacetylation can alter acetylation-dependent chromatin regulation and transcription.",
+      "context_caveats": ["The cited structural study uses an HDAC homologue and does not specify this experiment's isoform engagement.", "More acetylation does not imply that every gene increases, or that HDAC transcripts decrease.", "The downstream transcriptional direction and magnitude are context dependent; no measured treatment signature is provided."],
+      "literal_program_terms": [{"text":"acetylation", "direction":"up"}],
+      "sources": [{"id":"M1", "title":"Structures of a histone deacetylase homologue bound to the TSA and SAHA inhibitors", "url":"https://pubmed.ncbi.nlm.nih.gov/10490031/", "doi":"10.1038/43710"}]
+    }
+  }
+}

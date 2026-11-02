@@ -1,0 +1,9 @@
+{
+  "status": "completed_scored_independently_verified",
+  "time": "2026-10-27T01:38:44+08:00",
+  "n_case_arms": 64,
+  "n_scored_methods": 29,
+  "n_scored_wells": 16,
+  "report": "RESULTS.html",
+  "score_audit": "review_scores.json"
+}

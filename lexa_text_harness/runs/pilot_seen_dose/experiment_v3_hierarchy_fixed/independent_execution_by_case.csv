@@ -1,0 +1,17 @@
+case_id,drug,local_joint_candidate_id_changed_axes,local_joint_actual_q_changed_axes,local_joint_q_total_variation_sum,local_joint_gene_delta_l2,local_non_interpolate_candidate_id_axes,local_actual_q_changed_axes_from_interpolate,local_gene_delta_l2_from_interpolate,joint_non_interpolate_candidate_id_axes,joint_actual_q_changed_axes_from_interpolate,joint_gene_delta_l2_from_interpolate
+drug=BMS|dose_uM=5|plate=A|replicate=1,BMS,0,0,0.0,0.0,0,0,0.0,0,0,0.0
+drug=BMS|dose_uM=5|plate=A|replicate=2,BMS,0,0,0.0,0.0,1,1,0.09622226616847956,1,1,0.09622226616847956
+drug=BMS|dose_uM=5|plate=B|replicate=2,BMS,0,0,0.0,0.0,1,1,0.11710215430837655,1,1,0.11710215430837655
+drug=BMS|dose_uM=5|plate=B|replicate=3,BMS,0,0,0.0,0.0,0,0,0.0,0,0,0.0
+drug=Dex|dose_uM=5|plate=A|replicate=1,Dex,0,0,0.0,0.0,0,0,0.0,0,0,0.0
+drug=Dex|dose_uM=5|plate=A|replicate=3,Dex,0,0,0.0,0.0,0,0,0.0,0,0,0.0
+drug=Dex|dose_uM=5|plate=B|replicate=2,Dex,0,0,0.0,0.0,0,0,0.0,0,0,0.0
+drug=Dex|dose_uM=5|plate=B|replicate=3,Dex,0,0,0.0,0.0,0,0,0.0,0,0,0.0
+drug=Nutlin|dose_uM=5|plate=A|replicate=1,Nutlin,0,0,0.0,0.0,0,0,0.0,0,0,0.0
+drug=Nutlin|dose_uM=5|plate=A|replicate=2,Nutlin,0,0,0.0,0.0,0,0,0.0,0,0,0.0
+drug=Nutlin|dose_uM=5|plate=A|replicate=3,Nutlin,0,0,0.0,0.0,0,0,0.0,0,0,0.0
+drug=Nutlin|dose_uM=5|plate=B|replicate=1,Nutlin,0,0,0.0,0.0,0,0,0.0,0,0,0.0
+drug=SAHA|dose_uM=5|plate=A|replicate=1,SAHA,0,0,0.0,0.0,0,0,0.0,0,0,0.0
+drug=SAHA|dose_uM=5|plate=A|replicate=2,SAHA,0,0,0.0,0.0,0,0,0.0,0,0,0.0
+drug=SAHA|dose_uM=5|plate=A|replicate=3,SAHA,0,0,0.0,0.0,0,0,0.0,0,0,0.0
+drug=SAHA|dose_uM=5|plate=B|replicate=1,SAHA,0,0,0.0,0.0,0,0,0.0,0,0,0.0

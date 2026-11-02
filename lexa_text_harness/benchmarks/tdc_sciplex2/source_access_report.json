@@ -1,0 +1,53 @@
+{
+  "status": "package_verified_canonical_source_file_md5_verified",
+  "distribution": "PyTDC",
+  "version": "1.1.15",
+  "source_directory": "/cpfs_speech/user/zhoutianhong.zth/project/lexa_text_harness/benchmarks/tdc_sciplex2/vendor/pytdc-1.1.15/tdc",
+  "source_sha256": {
+    "metadata.py": "f169cd7464eb5e8ba4339015c65aaf614d52356c5ff42872b89821c278cc692c",
+    "benchmark_group/counterfactual_group.py": "81d8a6dc8e1196fff6ecbbcedb7a0ec013198cc93684359382a903507be60e9e",
+    "multi_pred/perturboutcome.py": "a452ca2869d6d8ed8af6e516abaaedfaa02d41e8487635419d06af81805adbac",
+    "multi_pred/anndata_dataset.py": "ef98378063a249f2f7953ececf160c3523cdc1beb50fa0cd8ea6165a9ec3b274",
+    "dataset_configs/scperturb_config.py": "6aa12c6bbb32794d5dfac4aa5f0bdae3d8a120f5e6f6baa37ef8a511f5f5ab1e",
+    "utils/load.py": "bc8f7a93165e21135e71d87d6d7f374fc4a2f6f14694047d9e10437ae4f5c278"
+  },
+  "data_identity": {
+    "requested_dataset": "scperturb_drug_SrivatsanTrapnell2020_sciplex2",
+    "official_loader_dataverse_file_id": 9845394,
+    "leaderboard_web_link_file_id": 9845396,
+    "leaderboard_link_actual_dataset": "scperturb_drug_AissaBenevolenskaya2021",
+    "proof": "vendor/pytdc-1.1.15/tdc/metadata.py:1077-1078"
+  },
+  "access": {
+    "dataverse_9845394": "HTTP403 for metadata and access endpoints",
+    "dataverse_9845396": "HTTP403; wrong dataset according toloader, no filedownload attempted",
+    "google_drive_reproduction_folder": "URLError Errno101 Networkunreachable for publicfolderURL",
+    "zenodo_metadata": "HTTP200; officialsize/MD5 obtained",
+    "zenodo_serial_content": "Server body stopped at4MiB; rejected by exactsizeassertion. Partial retained.",
+    "zenodo_range": "Complete:139/139chunks,145178504bytes;officialMD5verified. Finalboundedresume completed in82.57s;no active downloader."
+  },
+  "candidate_source": {
+    "record": "https://zenodo.org/records/10044268",
+    "filename": "SrivatsanTrapnell2020_sciplex2.h5ad",
+    "size_bytes": 145178504,
+    "checksum": "md5:12a48293a166a859f994551653a2ad8c",
+    "tdc_copy_equivalence": "unverified",
+    "complete_bytes": 145178504,
+    "complete_parts": 139,
+    "total_parts": 139,
+    "metadata_inspection": "completed: HDF5structure andobs/varannotations only;expressionvaluesnotloaded",
+    "md5_verified": true,
+    "sha256": "0adabca03632ac9421a769fc9eaa4178447d4d572f4c2c54e4fde93a81acde67",
+    "file": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/benchmarks/tdc_sciplex2/data/SrivatsanTrapnell2020_sciplex2.h5ad",
+    "metadata_report": "data/source_metadata_report.json",
+    "n_obs": 24262,
+    "n_vars": 58347
+  },
+  "no_training": true,
+  "no_api_model_calls": true,
+  "global_environment_modified": false,
+  "source_download_status_file": "data/source_download_status.json",
+  "resume_command": "/cpfs_speech/user/hejia.hj/code/anaconda/bin/python -u /cpfs_speech/user/zhoutianhong.zth/project/lexa_text_harness/benchmarks/tdc_sciplex2/download_scperturb_source.py --seconds 180 --workers 8",
+  "metadata_inspection_command": "/cpfs_speech/user/hejia.hj/code/anaconda/bin/python /cpfs_speech/user/zhoutianhong.zth/project/lexa_text_harness/benchmarks/tdc_sciplex2/inspect_source_metadata.py",
+  "is_leaderboard_ready": false
+}

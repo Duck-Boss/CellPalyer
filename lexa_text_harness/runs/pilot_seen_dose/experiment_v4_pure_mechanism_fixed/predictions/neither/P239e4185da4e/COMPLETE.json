@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "case_id": "drug=Dex|dose_uM=5|plate=B|replicate=3",
+  "opaque_id": "P239e4185da4e",
+  "arm": "neither",
+  "fingerprint": "60fea9c5914d134f198dea467d34a08d4a50259858a4e882dd98aee08eae5dc2",
+  "api_attempts": 6,
+  "local": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/neither/P239e4185da4e/local.json",
+  "joint": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/neither/P239e4185da4e/joint.json",
+  "local_sha256": "add1ec300048503830e303afcd99745e8e258d52b72fee0ac0221c679489428e",
+  "joint_sha256": "16a08e853dd51410cb02dc9aa0694391cedf0be7e1e7086bcf5c5b8d8b6d0a20",
+  "hypotheses_sha256": "e98991e13b21820b74f8f16161faf22a5239c71a029ad317e211979f8c30b85d"
+}

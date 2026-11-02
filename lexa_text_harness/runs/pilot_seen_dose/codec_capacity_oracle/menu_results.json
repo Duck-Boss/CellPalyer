@@ -1,0 +1,519 @@
+{
+  "status": "complete",
+  "uses_target_answers": true,
+  "is_prediction": false,
+  "is_global_bound": false,
+  "created_asia_shanghai": "2026-10-26T23:59:41.896317+08:00",
+  "method": "Coordinate descent over32axes7candidates, nearest/interpolate starts,20sweeps maximum, strict improving moves, retain lower final objective",
+  "mean_equal_well_rmse": 0.18934348196292763,
+  "by_drug_rmse": {
+    "BMS": 0.2699987006763653,
+    "Dex": 0.16951804770029238,
+    "Nutlin": 0.15513263343543468,
+    "SAHA": 0.1627245460396182
+  },
+  "cases": [
+    {
+      "case_id": "drug=BMS|dose_uM=5|plate=A|replicate=1",
+      "drug": "BMS",
+      "menu_feasible_rmse": 0.25823018397111663,
+      "best_start": "nearest",
+      "candidate_counts": {
+        "keep": 0,
+        "nearest": 11,
+        "interpolate": 1,
+        "lower": 1,
+        "upper": 0,
+        "half": 0,
+        "onehalf": 19
+      },
+      "start_details": [
+        {
+          "start": "nearest",
+          "initial_rmse": 0.2698390912402971,
+          "final_rmse": 0.25823018397111663,
+          "sweeps": 3,
+          "moves": 23
+        },
+        {
+          "start": "interpolate",
+          "initial_rmse": 0.31385181942014684,
+          "final_rmse": 0.25823018397111663,
+          "sweeps": 3,
+          "moves": 32
+        }
+      ]
+    },
+    {
+      "case_id": "drug=BMS|dose_uM=5|plate=A|replicate=2",
+      "drug": "BMS",
+      "menu_feasible_rmse": 0.28568669500641153,
+      "best_start": "nearest",
+      "candidate_counts": {
+        "keep": 3,
+        "nearest": 14,
+        "interpolate": 0,
+        "lower": 2,
+        "upper": 0,
+        "half": 1,
+        "onehalf": 12
+      },
+      "start_details": [
+        {
+          "start": "nearest",
+          "initial_rmse": 0.3082034768229279,
+          "final_rmse": 0.28568669500641153,
+          "sweeps": 3,
+          "moves": 20
+        },
+        {
+          "start": "interpolate",
+          "initial_rmse": 0.35902641204926894,
+          "final_rmse": 0.28568669500641153,
+          "sweeps": 2,
+          "moves": 32
+        }
+      ]
+    },
+    {
+      "case_id": "drug=BMS|dose_uM=5|plate=B|replicate=2",
+      "drug": "BMS",
+      "menu_feasible_rmse": 0.28784727992793546,
+      "best_start": "interpolate",
+      "candidate_counts": {
+        "keep": 2,
+        "nearest": 15,
+        "interpolate": 0,
+        "lower": 0,
+        "upper": 0,
+        "half": 1,
+        "onehalf": 14
+      },
+      "start_details": [
+        {
+          "start": "nearest",
+          "initial_rmse": 0.3022240403090137,
+          "final_rmse": 0.2879608339232044,
+          "sweeps": 3,
+          "moves": 20
+        },
+        {
+          "start": "interpolate",
+          "initial_rmse": 0.34940882315145394,
+          "final_rmse": 0.28784727992793546,
+          "sweeps": 3,
+          "moves": 34
+        }
+      ]
+    },
+    {
+      "case_id": "drug=BMS|dose_uM=5|plate=B|replicate=3",
+      "drug": "BMS",
+      "menu_feasible_rmse": 0.24823064379999757,
+      "best_start": "nearest",
+      "candidate_counts": {
+        "keep": 1,
+        "nearest": 11,
+        "interpolate": 2,
+        "lower": 2,
+        "upper": 0,
+        "half": 1,
+        "onehalf": 15
+      },
+      "start_details": [
+        {
+          "start": "nearest",
+          "initial_rmse": 0.26372739864458883,
+          "final_rmse": 0.24823064379999757,
+          "sweeps": 3,
+          "moves": 24
+        },
+        {
+          "start": "interpolate",
+          "initial_rmse": 0.31600281891725085,
+          "final_rmse": 0.24823064379999757,
+          "sweeps": 3,
+          "moves": 32
+        }
+      ]
+    },
+    {
+      "case_id": "drug=Dex|dose_uM=5|plate=A|replicate=1",
+      "drug": "Dex",
+      "menu_feasible_rmse": 0.16794025521816244,
+      "best_start": "nearest",
+      "candidate_counts": {
+        "keep": 4,
+        "nearest": 5,
+        "interpolate": 1,
+        "lower": 9,
+        "upper": 0,
+        "half": 0,
+        "onehalf": 13
+      },
+      "start_details": [
+        {
+          "start": "nearest",
+          "initial_rmse": 0.17403947681431578,
+          "final_rmse": 0.16794025521816244,
+          "sweeps": 6,
+          "moves": 45
+        },
+        {
+          "start": "interpolate",
+          "initial_rmse": 0.17319260800071154,
+          "final_rmse": 0.16794025521816244,
+          "sweeps": 6,
+          "moves": 50
+        }
+      ]
+    },
+    {
+      "case_id": "drug=Dex|dose_uM=5|plate=A|replicate=3",
+      "drug": "Dex",
+      "menu_feasible_rmse": 0.16935431311994545,
+      "best_start": "nearest",
+      "candidate_counts": {
+        "keep": 4,
+        "nearest": 8,
+        "interpolate": 2,
+        "lower": 4,
+        "upper": 0,
+        "half": 0,
+        "onehalf": 14
+      },
+      "start_details": [
+        {
+          "start": "nearest",
+          "initial_rmse": 0.1724597706833441,
+          "final_rmse": 0.16935431311994545,
+          "sweeps": 3,
+          "moves": 29
+        },
+        {
+          "start": "interpolate",
+          "initial_rmse": 0.17337426805957612,
+          "final_rmse": 0.16935431311994545,
+          "sweeps": 3,
+          "moves": 35
+        }
+      ]
+    },
+    {
+      "case_id": "drug=Dex|dose_uM=5|plate=B|replicate=2",
+      "drug": "Dex",
+      "menu_feasible_rmse": 0.1773382278689262,
+      "best_start": "nearest",
+      "candidate_counts": {
+        "keep": 5,
+        "nearest": 6,
+        "interpolate": 1,
+        "lower": 1,
+        "upper": 0,
+        "half": 5,
+        "onehalf": 14
+      },
+      "start_details": [
+        {
+          "start": "nearest",
+          "initial_rmse": 0.17986956468947504,
+          "final_rmse": 0.1773382278689262,
+          "sweeps": 4,
+          "moves": 35
+        },
+        {
+          "start": "interpolate",
+          "initial_rmse": 0.18090271953460477,
+          "final_rmse": 0.1773382278689262,
+          "sweeps": 6,
+          "moves": 41
+        }
+      ]
+    },
+    {
+      "case_id": "drug=Dex|dose_uM=5|plate=B|replicate=3",
+      "drug": "Dex",
+      "menu_feasible_rmse": 0.1634393945941355,
+      "best_start": "nearest",
+      "candidate_counts": {
+        "keep": 2,
+        "nearest": 6,
+        "interpolate": 0,
+        "lower": 5,
+        "upper": 0,
+        "half": 3,
+        "onehalf": 16
+      },
+      "start_details": [
+        {
+          "start": "nearest",
+          "initial_rmse": 0.16829409202014525,
+          "final_rmse": 0.1634393945941355,
+          "sweeps": 3,
+          "moves": 31
+        },
+        {
+          "start": "interpolate",
+          "initial_rmse": 0.16900956297675612,
+          "final_rmse": 0.1634393945941355,
+          "sweeps": 3,
+          "moves": 37
+        }
+      ]
+    },
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=1",
+      "drug": "Nutlin",
+      "menu_feasible_rmse": 0.13919427348776087,
+      "best_start": "interpolate",
+      "candidate_counts": {
+        "keep": 1,
+        "nearest": 4,
+        "interpolate": 7,
+        "lower": 2,
+        "upper": 0,
+        "half": 1,
+        "onehalf": 17
+      },
+      "start_details": [
+        {
+          "start": "nearest",
+          "initial_rmse": 0.143362688074848,
+          "final_rmse": 0.1392472873003847,
+          "sweeps": 4,
+          "moves": 33
+        },
+        {
+          "start": "interpolate",
+          "initial_rmse": 0.14593196095733316,
+          "final_rmse": 0.13919427348776087,
+          "sweeps": 4,
+          "moves": 40
+        }
+      ]
+    },
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=2",
+      "drug": "Nutlin",
+      "menu_feasible_rmse": 0.14688128041911996,
+      "best_start": "nearest",
+      "candidate_counts": {
+        "keep": 1,
+        "nearest": 6,
+        "interpolate": 5,
+        "lower": 0,
+        "upper": 0,
+        "half": 6,
+        "onehalf": 14
+      },
+      "start_details": [
+        {
+          "start": "nearest",
+          "initial_rmse": 0.1503458159248961,
+          "final_rmse": 0.14688128041911996,
+          "sweeps": 3,
+          "moves": 29
+        },
+        {
+          "start": "interpolate",
+          "initial_rmse": 0.15130107877762497,
+          "final_rmse": 0.14688128041911996,
+          "sweeps": 3,
+          "moves": 34
+        }
+      ]
+    },
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=3",
+      "drug": "Nutlin",
+      "menu_feasible_rmse": 0.14201351860575326,
+      "best_start": "interpolate",
+      "candidate_counts": {
+        "keep": 0,
+        "nearest": 7,
+        "interpolate": 4,
+        "lower": 0,
+        "upper": 0,
+        "half": 0,
+        "onehalf": 21
+      },
+      "start_details": [
+        {
+          "start": "nearest",
+          "initial_rmse": 0.14529010369092765,
+          "final_rmse": 0.14201351860575326,
+          "sweeps": 3,
+          "moves": 31
+        },
+        {
+          "start": "interpolate",
+          "initial_rmse": 0.15347928164658303,
+          "final_rmse": 0.14201351860575326,
+          "sweeps": 3,
+          "moves": 33
+        }
+      ]
+    },
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=B|replicate=1",
+      "drug": "Nutlin",
+      "menu_feasible_rmse": 0.19244146122910463,
+      "best_start": "nearest",
+      "candidate_counts": {
+        "keep": 1,
+        "nearest": 3,
+        "interpolate": 6,
+        "lower": 3,
+        "upper": 0,
+        "half": 3,
+        "onehalf": 16
+      },
+      "start_details": [
+        {
+          "start": "nearest",
+          "initial_rmse": 0.19980369609572052,
+          "final_rmse": 0.19244146122910463,
+          "sweeps": 3,
+          "moves": 32
+        },
+        {
+          "start": "interpolate",
+          "initial_rmse": 0.20286141453745737,
+          "final_rmse": 0.19244146122910463,
+          "sweeps": 4,
+          "moves": 40
+        }
+      ]
+    },
+    {
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=1",
+      "drug": "SAHA",
+      "menu_feasible_rmse": 0.15573229326889565,
+      "best_start": "nearest",
+      "candidate_counts": {
+        "keep": 0,
+        "nearest": 5,
+        "interpolate": 3,
+        "lower": 4,
+        "upper": 0,
+        "half": 4,
+        "onehalf": 16
+      },
+      "start_details": [
+        {
+          "start": "nearest",
+          "initial_rmse": 0.16403955114781904,
+          "final_rmse": 0.15573229326889565,
+          "sweeps": 5,
+          "moves": 45
+        },
+        {
+          "start": "interpolate",
+          "initial_rmse": 0.1667500468177136,
+          "final_rmse": 0.15573229326889565,
+          "sweeps": 4,
+          "moves": 32
+        }
+      ]
+    },
+    {
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=2",
+      "drug": "SAHA",
+      "menu_feasible_rmse": 0.16262278052946194,
+      "best_start": "nearest",
+      "candidate_counts": {
+        "keep": 2,
+        "nearest": 5,
+        "interpolate": 4,
+        "lower": 3,
+        "upper": 0,
+        "half": 1,
+        "onehalf": 17
+      },
+      "start_details": [
+        {
+          "start": "nearest",
+          "initial_rmse": 0.17702147589915074,
+          "final_rmse": 0.16262278052946194,
+          "sweeps": 3,
+          "moves": 35
+        },
+        {
+          "start": "interpolate",
+          "initial_rmse": 0.17917750663123883,
+          "final_rmse": 0.16262278052946194,
+          "sweeps": 3,
+          "moves": 36
+        }
+      ]
+    },
+    {
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=3",
+      "drug": "SAHA",
+      "menu_feasible_rmse": 0.15821690754922937,
+      "best_start": "nearest",
+      "candidate_counts": {
+        "keep": 2,
+        "nearest": 3,
+        "interpolate": 5,
+        "lower": 1,
+        "upper": 0,
+        "half": 4,
+        "onehalf": 17
+      },
+      "start_details": [
+        {
+          "start": "nearest",
+          "initial_rmse": 0.1681578414223288,
+          "final_rmse": 0.15821690754922937,
+          "sweeps": 4,
+          "moves": 36
+        },
+        {
+          "start": "interpolate",
+          "initial_rmse": 0.17083627507123617,
+          "final_rmse": 0.15821690754922937,
+          "sweeps": 4,
+          "moves": 32
+        }
+      ]
+    },
+    {
+      "case_id": "drug=SAHA|dose_uM=5|plate=B|replicate=1",
+      "drug": "SAHA",
+      "menu_feasible_rmse": 0.17432620281088584,
+      "best_start": "interpolate",
+      "candidate_counts": {
+        "keep": 0,
+        "nearest": 10,
+        "interpolate": 1,
+        "lower": 4,
+        "upper": 0,
+        "half": 2,
+        "onehalf": 15
+      },
+      "start_details": [
+        {
+          "start": "nearest",
+          "initial_rmse": 0.1814455974091655,
+          "final_rmse": 0.17432620281088587,
+          "sweeps": 4,
+          "moves": 28
+        },
+        {
+          "start": "interpolate",
+          "initial_rmse": 0.18614809728998583,
+          "final_rmse": 0.17432620281088584,
+          "sweeps": 4,
+          "moves": 33
+        }
+      ]
+    }
+  ],
+  "limitation": "Truth-selected local optimum of fixed candidate menu; cannot be used as predictive performance or a certified minimum.",
+  "source_sha256": {
+    "inputs_manifest": "2781c10ac167b02fdb51a356b8e291502044e5be20a8fdc5f6c5eb2691ceecbf",
+    "truth_case_arrays": "f2d2e5a8d3d391853ab57c69b9634434b9edfb561f83524ecd991f4da4808b2a",
+    "script": "1674af30d7a2157c8c6a72f762cf588aa289d52634c34f66747adef2d0072f4f"
+  }
+}

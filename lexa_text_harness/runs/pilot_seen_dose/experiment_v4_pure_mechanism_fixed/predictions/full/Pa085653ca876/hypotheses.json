@@ -1,0 +1,96 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "NF-kappa-B transcriptional activity",
+      "direction": "decrease",
+      "basis": "direct",
+      "conditions": "A549, dexamethasone 5 uM, 24 h; requires activated NF-kB context",
+      "gene_expectations": [
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MALAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "GR transrepresses NF-kB activity; NF-kB target genes may fall, but no signed A549 list is supplied."
+    },
+    {
+      "id": "H2",
+      "program": "Glucocorticoid receptor transcriptional activation",
+      "direction": "increase",
+      "basis": "direct",
+      "conditions": "A549; depends on GR abundance, chromatin and cofactors",
+      "gene_expectations": [
+        {
+          "gene": "NR3C1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Ligand-activated GR drives transcription at accessible GREs; NR3C1 mRNA itself is not implied to rise."
+    },
+    {
+      "id": "H3",
+      "program": "Glycolytic and metabolic enzyme expression",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549; context-dependent, no treatment profile supplied",
+      "gene_expectations": [
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "ENO1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C",
+        "M"
+      ],
+      "reason": "Highly expressed metabolic genes in control; GR effects on them are context-dependent and unmeasured."
+    },
+    {
+      "id": "H4",
+      "program": "Aldo-keto reductase / detoxification expression",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549; unknown",
+      "gene_expectations": [
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1C3",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "These are abundant control features; no supplied mechanism links GR to their direction."
+    }
+  ],
+  "summary": "Dexamethasone likely lowers NF-kB activity and activates GR-dependent transcription; downstream metabolic and detoxification directions remain uncertain in A549.",
+  "limitations": [
+    "No measured perturbation response or signed gene list supplied.",
+    "Directions are population-mean hypotheses, not validated predictions.",
+    "Receptor/cofactor context may alter GR target effects."
+  ]
+}

@@ -1,0 +1,1266 @@
+{
+  "status": "completed",
+  "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=3",
+  "opaque_id": "Pb5935cde53f6",
+  "arm": "full",
+  "stage": "local",
+  "fingerprint": "e383518d269bb0a5920cea75770ee70fc75a498713eb0a154de9e4cb0d61e0cf",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A0"
+      ],
+      "reason": "Ribosomal states vary both directions; no measured SAHA signature supports a shift."
+    },
+    {
+      "axis_id": 1,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A1"
+      ],
+      "reason": "Chromatin/RNA states are mixed and weak; direction unsupported by mechanism alone."
+    },
+    {
+      "axis_id": 2,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A2"
+      ],
+      "reason": "Matrix/stress markers mixed; no evidence linking HDAC inhibition to these states."
+    },
+    {
+      "axis_id": 3,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A3"
+      ],
+      "reason": "Chromatin regulator states are heterogeneous; no supported direction."
+    },
+    {
+      "axis_id": 4,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H4",
+        "A4"
+      ],
+      "reason": "Aldehyde/oxidative states could shift but direction is unsupported."
+    },
+    {
+      "axis_id": 5,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A5"
+      ],
+      "reason": "PDE4/adhesion states are weak and mixed; no directional support."
+    },
+    {
+      "axis_id": 6,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A6"
+      ],
+      "reason": "Export/translation states vary both ways; mechanism gives no direction."
+    },
+    {
+      "axis_id": 7,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A7"
+      ],
+      "reason": "Cytoskeletal/trafficking states are modest and mixed; direction unsupported."
+    },
+    {
+      "axis_id": 8,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A8/C2"
+      ],
+      "reason": "Chaperone-high states align with acetylation-driven proteostasis shift"
+    },
+    {
+      "axis_id": 9,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A9"
+      ],
+      "reason": "Poorly resolved axis; no supported direction from HDAC inhibition"
+    },
+    {
+      "axis_id": 10,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A10/C7"
+      ],
+      "reason": "ER/secretory-high states plausible under chromatin acetylation"
+    },
+    {
+      "axis_id": 11,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A11"
+      ],
+      "reason": "Weakest-varying axis; insufficient directional support"
+    },
+    {
+      "axis_id": 12,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A12"
+      ],
+      "reason": "Mixed transport/proliferation states; no supported direction"
+    },
+    {
+      "axis_id": 13,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A13"
+      ],
+      "reason": "Co-variation only; direction under SAHA unsupported"
+    },
+    {
+      "axis_id": 14,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A14"
+      ],
+      "reason": "Cytoskeletal states mixed; no directional evidence"
+    },
+    {
+      "axis_id": 15,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A15"
+      ],
+      "reason": "Unclear biology; no supported direction"
+    },
+    {
+      "axis_id": 16,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A16/C11"
+      ],
+      "reason": "Strong keratin/adhesion states; acetylation-linked transcription uncertain"
+    },
+    {
+      "axis_id": 17,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H4",
+        "A17/C7"
+      ],
+      "reason": "Glycolytic/energy-high states; metabolic direction unsupported"
+    },
+    {
+      "axis_id": 18,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A18/C11"
+      ],
+      "reason": "STC1/lncRNA-high and sterol-high states; direction uncertain"
+    },
+    {
+      "axis_id": 19,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A19"
+      ],
+      "reason": "p53 markers discordant across states; no supported direction"
+    },
+    {
+      "axis_id": 20,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A20/C4"
+      ],
+      "reason": "Lysosomal/secretory-high states; transcription direction uncertain"
+    },
+    {
+      "axis_id": 21,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A21/C13"
+      ],
+      "reason": "FKBP5/adhesion-high states; stress-linked, direction uncertain"
+    },
+    {
+      "axis_id": 22,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H4",
+        "A22/C8"
+      ],
+      "reason": "Mitochondrial-encoded OXPHOS-high states; direction unsupported"
+    },
+    {
+      "axis_id": 23,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A23/C12"
+      ],
+      "reason": "SERTAD2/RYBP/HIF1A-AS2-high states; regulatory direction uncertain"
+    },
+    {
+      "axis_id": 24,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A24/C13"
+      ],
+      "reason": "Proliferation-high states align with acetylation-driven transcription shift"
+    },
+    {
+      "axis_id": 25,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A25/C12"
+      ],
+      "reason": "Chromatin/redox-high states plausible under HDAC inhibition"
+    },
+    {
+      "axis_id": 26,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A26/C0"
+      ],
+      "reason": "lncRNA/neuronal directions unsupported by mechanism"
+    },
+    {
+      "axis_id": 27,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A27/C2"
+      ],
+      "reason": "High-signal ECM/RTK states plausible with chromatin change"
+    },
+    {
+      "axis_id": 28,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A28/C10"
+      ],
+      "reason": "Stress/secretory high states plausible under acetylation shift"
+    },
+    {
+      "axis_id": 29,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A29/C12"
+      ],
+      "reason": "Cytoskeletal/chaperone-high states align with transcriptional shift"
+    },
+    {
+      "axis_id": 30,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A30/C8"
+      ],
+      "reason": "PRKCA/EPS8-high states plausible under HDAC inhibition"
+    },
+    {
+      "axis_id": 31,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A31/C3"
+      ],
+      "reason": "Transport/metabolic directions unsupported by mechanism"
+    }
+  ],
+  "response": {
+    "decisions": [
+      {
+        "axis_id": 0,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A0"
+        ],
+        "reason": "Ribosomal states vary both directions; no measured SAHA signature supports a shift."
+      },
+      {
+        "axis_id": 1,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A1"
+        ],
+        "reason": "Chromatin/RNA states are mixed and weak; direction unsupported by mechanism alone."
+      },
+      {
+        "axis_id": 2,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A2"
+        ],
+        "reason": "Matrix/stress markers mixed; no evidence linking HDAC inhibition to these states."
+      },
+      {
+        "axis_id": 3,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A3"
+        ],
+        "reason": "Chromatin regulator states are heterogeneous; no supported direction."
+      },
+      {
+        "axis_id": 4,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H4",
+          "A4"
+        ],
+        "reason": "Aldehyde/oxidative states could shift but direction is unsupported."
+      },
+      {
+        "axis_id": 5,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A5"
+        ],
+        "reason": "PDE4/adhesion states are weak and mixed; no directional support."
+      },
+      {
+        "axis_id": 6,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A6"
+        ],
+        "reason": "Export/translation states vary both ways; mechanism gives no direction."
+      },
+      {
+        "axis_id": 7,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A7"
+        ],
+        "reason": "Cytoskeletal/trafficking states are modest and mixed; direction unsupported."
+      },
+      {
+        "axis_id": 8,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A8/C2"
+        ],
+        "reason": "Chaperone-high states align with acetylation-driven proteostasis shift"
+      },
+      {
+        "axis_id": 9,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A9"
+        ],
+        "reason": "Poorly resolved axis; no supported direction from HDAC inhibition"
+      },
+      {
+        "axis_id": 10,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            15,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A10/C7"
+        ],
+        "reason": "ER/secretory-high states plausible under chromatin acetylation"
+      },
+      {
+        "axis_id": 11,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A11"
+        ],
+        "reason": "Weakest-varying axis; insufficient directional support"
+      },
+      {
+        "axis_id": 12,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A12"
+        ],
+        "reason": "Mixed transport/proliferation states; no supported direction"
+      },
+      {
+        "axis_id": 13,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A13"
+        ],
+        "reason": "Co-variation only; direction under SAHA unsupported"
+      },
+      {
+        "axis_id": 14,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A14"
+        ],
+        "reason": "Cytoskeletal states mixed; no directional evidence"
+      },
+      {
+        "axis_id": 15,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A15"
+        ],
+        "reason": "Unclear biology; no supported direction"
+      },
+      {
+        "axis_id": 16,
+        "decision": "shift",
+        "targets": [
+          [
+            11,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A16/C11"
+        ],
+        "reason": "Strong keratin/adhesion states; acetylation-linked transcription uncertain"
+      },
+      {
+        "axis_id": 17,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H4",
+          "A17/C7"
+        ],
+        "reason": "Glycolytic/energy-high states; metabolic direction unsupported"
+      },
+      {
+        "axis_id": 18,
+        "decision": "shift",
+        "targets": [
+          [
+            11,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A18/C11"
+        ],
+        "reason": "STC1/lncRNA-high and sterol-high states; direction uncertain"
+      },
+      {
+        "axis_id": 19,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A19"
+        ],
+        "reason": "p53 markers discordant across states; no supported direction"
+      },
+      {
+        "axis_id": 20,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A20/C4"
+        ],
+        "reason": "Lysosomal/secretory-high states; transcription direction uncertain"
+      },
+      {
+        "axis_id": 21,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A21/C13"
+        ],
+        "reason": "FKBP5/adhesion-high states; stress-linked, direction uncertain"
+      },
+      {
+        "axis_id": 22,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H4",
+          "A22/C8"
+        ],
+        "reason": "Mitochondrial-encoded OXPHOS-high states; direction unsupported"
+      },
+      {
+        "axis_id": 23,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A23/C12"
+        ],
+        "reason": "SERTAD2/RYBP/HIF1A-AS2-high states; regulatory direction uncertain"
+      },
+      {
+        "axis_id": 24,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A24/C13"
+        ],
+        "reason": "Proliferation-high states align with acetylation-driven transcription shift"
+      },
+      {
+        "axis_id": 25,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A25/C12"
+        ],
+        "reason": "Chromatin/redox-high states plausible under HDAC inhibition"
+      },
+      {
+        "axis_id": 26,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A26/C0"
+        ],
+        "reason": "lncRNA/neuronal directions unsupported by mechanism"
+      },
+      {
+        "axis_id": 27,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A27/C2"
+        ],
+        "reason": "High-signal ECM/RTK states plausible with chromatin change"
+      },
+      {
+        "axis_id": 28,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A28/C10"
+        ],
+        "reason": "Stress/secretory high states plausible under acetylation shift"
+      },
+      {
+        "axis_id": 29,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A29/C12"
+        ],
+        "reason": "Cytoskeletal/chaperone-high states align with transcriptional shift"
+      },
+      {
+        "axis_id": 30,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            12,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A30/C8"
+        ],
+        "reason": "PRKCA/EPS8-high states plausible under HDAC inhibition"
+      },
+      {
+        "axis_id": 31,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A31/C3"
+        ],
+        "reason": "Transport/metabolic directions unsupported by mechanism"
+      }
+    ],
+    "summary": "No axis has a mechanism-supported directional preference; SAHA raises acetylation but downstream transcriptional directions in A549 are uncertain without measured response data, so all requested axes are unknown. | Only chaperone/proteostasis and ER/secretory axes get tentative shifts toward high states; remaining axes lack directional support from HDAC inhibition. | SAHA raises acetylation (H1); downstream transcription is context dependent (H2-H4). Prefer high-signal states on keratin, glycolytic, sterol/STC1, lysosomal, adhesion, OXPHOS and regulatory axes; p53 axis left unknown due to discordant markers. | Shift toward proliferation, chromatin, ECM, stress/secretory, cytoskeletal and PRKCA-high states consistent with acetylation-driven transcription; lncRNA and transport axes left unknown.",
+    "limitations": [
+      "No measured perturbation response or dose trajectory.",
+      "Isoform engagement and context of HDAC inhibition unspecified.",
+      "State effects are decoder associations, not causal.",
+      "No measured SAHA response signature provided.",
+      "Isoform engagement and downstream transcription unspecified.",
+      "State IDs unordered; shifts are weak hypotheses.",
+      "No measured SAHA response; state directions are decoder associations.",
+      "Alpha fixed at 0.30, not calibrated dose response.",
+      "A549 pilot only; several states functionally unclear.",
+      "No measured SAHA signature; directions inferred from mechanism only.",
+      "State weights are decoder associations, not causal effects.",
+      "Isoform engagement and context unspecified."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 15,
+      "keep": 0,
+      "unknown": 17
+    },
+    "delta_l2": 4.836906406873795,
+    "standardized_delta_rms": 0.12982239686046335,
+    "axis_tv": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.14923076923076922,
+      0.0,
+      0.2953846153846154,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.27230769230769236,
+      0.2907692307692308,
+      0.30000000000000004,
+      0.0,
+      0.29076923076923084,
+      0.29076923076923084,
+      0.22153846153846155,
+      0.27230769230769236,
+      0.17076923076923076,
+      0.16615384615384612,
+      0.0,
+      0.26769230769230773,
+      0.30000000000000004,
+      0.15692307692307692,
+      0.2492307692307692,
+      0.0
+    ],
+    "mean_axis_tv": 0.11543269230769232,
+    "top_gene_changes": {
+      "up": [
+        {
+          "feature": "ENSG00000100867.14",
+          "delta": 0.58927,
+          "scaled_delta": 0.62812,
+          "symbol": "DHRS2"
+        },
+        {
+          "feature": "ENSG00000186480.12",
+          "delta": 0.57618,
+          "scaled_delta": 0.60044,
+          "symbol": "INSIG1"
+        },
+        {
+          "feature": "ENSG00000259124.1",
+          "delta": 0.54684,
+          "scaled_delta": 0.5927,
+          "symbol": "AC008050.1"
+        },
+        {
+          "feature": "ENSG00000160963.13",
+          "delta": 0.48113,
+          "scaled_delta": 0.57519,
+          "symbol": "COL26A1"
+        },
+        {
+          "feature": "ENSG00000103740.9",
+          "delta": 0.41103,
+          "scaled_delta": 0.55885,
+          "symbol": "ACSBG1"
+        },
+        {
+          "feature": "ENSG00000067064.10",
+          "delta": 0.52283,
+          "scaled_delta": 0.5558,
+          "symbol": "IDI1"
+        },
+        {
+          "feature": "ENSG00000159167.11",
+          "delta": 0.40736,
+          "scaled_delta": 0.54446,
+          "symbol": "STC1"
+        },
+        {
+          "feature": "ENSG00000143344.15",
+          "delta": 0.42781,
+          "scaled_delta": 0.53962,
+          "symbol": "RGL1"
+        },
+        {
+          "feature": "ENSG00000118523.5",
+          "delta": 0.46828,
+          "scaled_delta": 0.5293,
+          "symbol": "CTGF"
+        },
+        {
+          "feature": "ENSG00000166165.12",
+          "delta": 0.38656,
+          "scaled_delta": 0.5188,
+          "symbol": "CKB"
+        }
+      ],
+      "down": [
+        {
+          "feature": "ENSG00000267374.1",
+          "delta": -0.02602,
+          "scaled_delta": -0.029,
+          "symbol": "AC016205.1"
+        },
+        {
+          "feature": "ENSG00000136492.8",
+          "delta": -0.00474,
+          "scaled_delta": -0.00706,
+          "symbol": "BRIP1"
+        },
+        {
+          "feature": "ENSG00000181019.12",
+          "delta": -0.00446,
+          "scaled_delta": -0.00489,
+          "symbol": "NQO1"
+        },
+        {
+          "feature": "ENSG00000141232.4",
+          "delta": -0.00072,
+          "scaled_delta": -0.00101,
+          "symbol": "TOB1"
+        },
+        {
+          "feature": "ENSG00000117318.8",
+          "delta": -0.00089,
+          "scaled_delta": -0.001,
+          "symbol": "ID3"
+        }
+      ]
+    },
+    "hypothesis_gene_checks": [
+      {
+        "hypothesis": "H2",
+        "gene": "PDE4D",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.07648151439498177,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H2",
+        "gene": "ALDH1A1",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.04636299413154258,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H2",
+        "gene": "NEAT1",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.13222138918658638,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H4",
+        "gene": "ENO1",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.1266235398110717,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H4",
+        "gene": "PKM",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.18211580983730233,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H4",
+        "gene": "G6PD",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.12096941937817818,
+        "consistent": null
+      }
+    ],
+    "cross_axis_cancellation": [
+      {
+        "feature": "ENSG00000117318.8",
+        "summed_delta": -0.0008940841487297375,
+        "absolute_axis_sum": 0.06826780141541422
+      },
+      {
+        "feature": "ENSG00000181019.12",
+        "summed_delta": -0.004461444398710739,
+        "absolute_axis_sum": 0.05935082539898133
+      },
+      {
+        "feature": "ENSG00000134294.13",
+        "summed_delta": 0.08018315444637722,
+        "absolute_axis_sum": 0.1182127141136712
+      },
+      {
+        "feature": "ENSG00000135046.13",
+        "summed_delta": 0.046107854670576154,
+        "absolute_axis_sum": 0.08090342577770718
+      },
+      {
+        "feature": "ENSG00000087086.14",
+        "summed_delta": 0.03810516631400845,
+        "absolute_axis_sum": 0.07012420644007554
+      },
+      {
+        "feature": "ENSG00000159335.15",
+        "summed_delta": 0.025215030851350725,
+        "absolute_axis_sum": 0.05251456699700123
+      }
+    ]
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "a4eff319eda27afb1258dac13c4c746e137a7ae43ef03713f1e56e604a09829b",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "8b0b4eca4b464b880dfacf71961e2f998346a082ce19c09c6d464086a99ef748",
+      "response_sha256": "e718c102d73b05932278d59eeaf9ed586de2639b701c8de6633349a7dd5077d7"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "4eecc086efa95283af3cac810fffc36bb49e7382bb226ae0dd54a449226df583",
+      "response_sha256": "8dfdaed4d825098b9813ac659bfb953f8da160b6ae000cdefcb6b9f760e62394"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "e8f1c81c2112c72aa74109a2086cab330f98a8fb0daf8d3e85258647c8a02b01",
+      "response_sha256": "5c3309a86aab4af78e43af2774a981fbbeaa080c2276647124ecbc77c9cb7993"
+    },
+    {
+      "attempts_used": 2,
+      "stage_fingerprint": "adf3d2db20bf701b8f5fe88f395d1e8d73301610a07cde574ffeb771a95be470",
+      "response_sha256": "22a57d7d2e2bc5c5fe7a89cfca91014ed24dd5ef88972373917d4464b8e68c3f"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "8ba78a26630303dcb1ca8feba572df990a4251e7ea852bb5a41bba4ae6101c88",
+      "response_sha256": "5ffca544d4765514d053ffbdf0fa84c21cf555c3eaaf181a3cdaf52a58aa9716"
+    }
+  ],
+  "attempts_used": 6,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/full/Pb5935cde53f6/local.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "743402e79966c450b9afcd25275633beb6906512a449941c9ccdd48ccce20111"
+}

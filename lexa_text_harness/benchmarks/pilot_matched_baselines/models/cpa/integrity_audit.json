@@ -1,0 +1,38 @@
+{
+  "all_passed": true,
+  "test_target_values_read": false,
+  "source_sha256": "b57dfe102f5a1989ee092cf4d8327364fec5e56ab13f000d454816051a6d6a4e",
+  "wrapper_sha256": "8cb5e26ba64ec27c2bae90f0f120ed16fc729afd3fec10e3b27e3756c687c15a",
+  "seeds": [
+    {
+      "seed": 0,
+      "reload_prediction_max_abs_difference": 0.0,
+      "case_ids_and_genes_match": true,
+      "all_input_hashes_match": true,
+      "best_epoch_is_minimum_validation_rmse": true,
+      "epochs": 109,
+      "best_epoch": 59,
+      "predictions_sha256": "d4ec88ceff4db1690518ea60679fae13b6e4118f903e33f49e1d5772589693c3"
+    },
+    {
+      "seed": 1,
+      "reload_prediction_max_abs_difference": 0.0,
+      "case_ids_and_genes_match": true,
+      "all_input_hashes_match": true,
+      "best_epoch_is_minimum_validation_rmse": true,
+      "epochs": 123,
+      "best_epoch": 73,
+      "predictions_sha256": "04ab01859e1662872be42065ac8ec3e1f99c2738f77949fe6d90eeef56fa0283"
+    },
+    {
+      "seed": 2,
+      "reload_prediction_max_abs_difference": 0.0,
+      "case_ids_and_genes_match": true,
+      "all_input_hashes_match": true,
+      "best_epoch_is_minimum_validation_rmse": true,
+      "epochs": 180,
+      "best_epoch": 130,
+      "predictions_sha256": "d4c9189ce5c5564b231a0c173bd61e5e1a8446420d73af86e46dfd96b9f20c28"
+    }
+  ]
+}

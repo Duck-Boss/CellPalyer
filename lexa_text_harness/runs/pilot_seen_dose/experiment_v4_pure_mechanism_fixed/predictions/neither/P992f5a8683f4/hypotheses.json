@@ -1,0 +1,46 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "transcriptional response to unknown perturbation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Perturbation identity and mechanism withheld; no treatment-specific direction can be inferred."
+    },
+    {
+      "id": "H2",
+      "program": "stress-responsive transcriptional programs",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549, 24 h exposure; unknown agent class",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Many agents induce stress programs at 24 h, but direction and genes are unsupported without mechanism."
+    },
+    {
+      "id": "H3",
+      "program": "cell-cycle and proliferation transcripts",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549, 5 uM, 24 h; unknown mechanism",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Cytostatic effects are plausible for many perturbations but cannot be attributed to this opaque agent."
+    }
+  ],
+  "summary": "Mechanism hidden; only baseline A549 context available, so all directions are explicitly uncertain and no gene-level predictions are warranted.",
+  "limitations": [
+    "No perturbation identity or mechanism; treatment-specific directions unknown.",
+    "Control feature semantics withheld; anonymous features cannot be mapped to genes.",
+    "Single dose/timepoint with no measured response data; no dose or kinetic inference possible."
+  ]
+}

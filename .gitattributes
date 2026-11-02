@@ -1,0 +1,4 @@
+# Preserve exact bytes for frozen checksums on every platform.
+* -text
+*.npz binary
+*.png binary

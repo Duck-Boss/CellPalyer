@@ -1,0 +1,1728 @@
+{
+  "status": "posthoc_development_diagnostic_complete",
+  "created_utc": "2026-10-26T12:29:06.195934+00:00",
+  "uses_previously_unblinded_ground_truth": true,
+  "not_new_prediction": true,
+  "not_independent_validation": true,
+  "raw_evaluation_file_opened": false,
+  "formula": "Per case: norm(final frozen prediction delta_mean)/actual_delta_l2 from existing representation_diagnostic.json; equal case means and medians.",
+  "interpretation_limits": [
+    "Amplitude measures size, not direction or correctness.",
+    "Low final prediction amplitude can reflect state choices, source occupancy, fraction, axis limit or representation; this analysis cannot attribute cause.",
+    "Posthoc changes require an independent test set."
+  ],
+  "reference_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/representation_diagnostic.json",
+  "reference_sha256": "f60bc7f14b672846640ec8ca85f510b8182c09aa0fac86bc1c92d574d833effe",
+  "summary": {
+    "one_shot": {
+      "n_cases": 16,
+      "ratio_mean": 0.06621502295399315,
+      "ratio_median": 0.06237692053564173,
+      "ratio_min": 0.008665299920462138,
+      "ratio_max": 0.13522453162783338,
+      "by_drug": {
+        "BMS": {
+          "n_cases": 4,
+          "ratio_mean": 0.02360891087008344,
+          "ratio_median": 0.024057877169591683
+        },
+        "Dex": {
+          "n_cases": 4,
+          "ratio_mean": 0.10302432008566925,
+          "ratio_median": 0.09716978762486833
+        },
+        "Nutlin": {
+          "n_cases": 4,
+          "ratio_mean": 0.10836547594109386,
+          "ratio_median": 0.10408284453887656
+        },
+        "SAHA": {
+          "n_cases": 4,
+          "ratio_mean": 0.02986138491912606,
+          "ratio_median": 0.03539773135373672
+        }
+      },
+      "proposed_axes_histogram": {
+        "3": 13,
+        "2": 3
+      },
+      "effective_axes_histogram": {
+        "3": 11,
+        "2": 4,
+        "1": 1
+      },
+      "fractions_histogram": {
+        "0.1": 6,
+        "0.15": 15,
+        "0.2": 5,
+        "0.25": 7,
+        "0.3": 4,
+        "0.35": 2,
+        "0.5": 6
+      },
+      "fractions_mean": 0.23333333333333328,
+      "fractions_median": 0.2,
+      "n_proposed_edits": 45,
+      "n_explicit_fractions": 45,
+      "n_zero_eligible_edits": 3,
+      "n_zero_changed_edits": 3,
+      "changed_cells_fraction_mean": 0.3846759564490524
+    },
+    "agent": {
+      "n_cases": 16,
+      "ratio_mean": 0.07578161794063651,
+      "ratio_median": 0.0587796508468493,
+      "ratio_min": 0.010132380122871694,
+      "ratio_max": 0.2200495248965585,
+      "by_drug": {
+        "BMS": {
+          "n_cases": 4,
+          "ratio_mean": 0.021659859123602028,
+          "ratio_median": 0.02219057100435426
+        },
+        "Dex": {
+          "n_cases": 4,
+          "ratio_mean": 0.10927226126430818,
+          "ratio_median": 0.10668904501840656
+        },
+        "Nutlin": {
+          "n_cases": 4,
+          "ratio_mean": 0.14400458447072473,
+          "ratio_median": 0.12216084109630937
+        },
+        "SAHA": {
+          "n_cases": 4,
+          "ratio_mean": 0.02818976690391111,
+          "ratio_median": 0.03320915270943595
+        }
+      },
+      "proposed_axes_histogram": {
+        "2": 5,
+        "3": 11
+      },
+      "effective_axes_histogram": {
+        "2": 5,
+        "3": 10,
+        "1": 1
+      },
+      "fractions_histogram": {
+        "0.1": 4,
+        "0.15": 11,
+        "0.2": 5,
+        "0.25": 7,
+        "0.3": 3,
+        "0.4": 1,
+        "0.5": 11,
+        "0.6": 1
+      },
+      "fractions_mean": 0.2837209302325581,
+      "fractions_median": 0.25,
+      "n_proposed_edits": 43,
+      "n_explicit_fractions": 43,
+      "n_zero_eligible_edits": 2,
+      "n_zero_changed_edits": 2,
+      "changed_cells_fraction_mean": 0.4335855399268337
+    }
+  },
+  "cases": [
+    {
+      "method": "one_shot",
+      "case_id": "drug=Dex|dose_uM=5|plate=B|replicate=3",
+      "drug": "Dex",
+      "actual_delta_l2": 9.513011949023978,
+      "predicted_delta_l2": 0.9624335056766955,
+      "predicted_over_actual_l2": 0.10117021936206438,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.35,
+        0.25,
+        0.2
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.6206896551724138,
+      "edits": [
+        {
+          "axis_id": 21,
+          "to_code": 13,
+          "fraction": 0.35,
+          "eligible_cells": 58,
+          "selected_cells": 20,
+          "changed_cells": 19,
+          "target_training_occupancy": 0.04597918689250946
+        },
+        {
+          "axis_id": 2,
+          "to_code": 9,
+          "fraction": 0.25,
+          "eligible_cells": 58,
+          "selected_cells": 15,
+          "changed_cells": 15,
+          "target_training_occupancy": 0.06471144407987595
+        },
+        {
+          "axis_id": 5,
+          "to_code": 11,
+          "fraction": 0.2,
+          "eligible_cells": 58,
+          "selected_cells": 12,
+          "changed_cells": 12,
+          "target_training_occupancy": 0.04862819239497185
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/123f238d50ef/agent_result.json",
+      "result_sha256": "722912dc4e72bd8f628843e8cc65856199fdd79ba74a42ba3e1264064455e178",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/123f238d50ef/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "e20d4fb71ebe3473499e167c756b01669c01611e0b652f410bf6f3be036eea06"
+    },
+    {
+      "method": "one_shot",
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=1",
+      "drug": "SAHA",
+      "actual_delta_l2": 21.598800418322803,
+      "predicted_delta_l2": 0.8300155748419534,
+      "predicted_over_actual_l2": 0.03842878117146869,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.37142857142857144,
+      "edits": [
+        {
+          "axis_id": 19,
+          "to_code": 4,
+          "fraction": 0.15,
+          "eligible_cells": 70,
+          "selected_cells": 11,
+          "changed_cells": 11,
+          "target_training_occupancy": 0.10879848897457123
+        },
+        {
+          "axis_id": 8,
+          "to_code": 7,
+          "fraction": 0.15,
+          "eligible_cells": 70,
+          "selected_cells": 11,
+          "changed_cells": 11,
+          "target_training_occupancy": 0.03386944159865379
+        },
+        {
+          "axis_id": 28,
+          "to_code": 13,
+          "fraction": 0.15,
+          "eligible_cells": 70,
+          "selected_cells": 11,
+          "changed_cells": 11,
+          "target_training_occupancy": 0.04654683172702789
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/1c3d4269941a/agent_result.json",
+      "result_sha256": "b38b183ae9905f6af78f101e1662fda28833fd053911d023881dffe1e6a84612",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/1c3d4269941a/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "782f91a3df496110ea4b03568c757cd2328af11dfc50fde2212ce79e28a858d8"
+    },
+    {
+      "method": "one_shot",
+      "case_id": "drug=BMS|dose_uM=5|plate=B|replicate=3",
+      "drug": "BMS",
+      "actual_delta_l2": 21.552854243022065,
+      "predicted_delta_l2": 0.8115638730543637,
+      "predicted_over_actual_l2": 0.037654589220688255,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.6274509803921569,
+      "edits": [
+        {
+          "axis_id": 2,
+          "to_code": 11,
+          "fraction": 0.3,
+          "eligible_cells": 102,
+          "selected_cells": 31,
+          "changed_cells": 29,
+          "target_training_occupancy": 0.04105960205197334
+        },
+        {
+          "axis_id": 28,
+          "to_code": 8,
+          "fraction": 0.3,
+          "eligible_cells": 102,
+          "selected_cells": 31,
+          "changed_cells": 31,
+          "target_training_occupancy": 0.09347209334373474
+        },
+        {
+          "axis_id": 31,
+          "to_code": 13,
+          "fraction": 0.3,
+          "eligible_cells": 102,
+          "selected_cells": 31,
+          "changed_cells": 31,
+          "target_training_occupancy": 0.0633869469165802
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/3a9d788519f1/agent_result.json",
+      "result_sha256": "261d50466a4b7824425012f5f5d46c0eaa2018a536bd3cb5d75346f28be1eb03",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/3a9d788519f1/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "ae9e416db7e926f0c1e4ea24760e5bb78cc110d65e391d09f7ac71217c77a254"
+    },
+    {
+      "method": "one_shot",
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=2",
+      "drug": "SAHA",
+      "actual_delta_l2": 21.491445341863418,
+      "predicted_delta_l2": 0.8010088076923384,
+      "predicted_over_actual_l2": 0.03727105343315578,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.4,
+      "edits": [
+        {
+          "axis_id": 19,
+          "to_code": 4,
+          "fraction": 0.15,
+          "eligible_cells": 50,
+          "selected_cells": 8,
+          "changed_cells": 7,
+          "target_training_occupancy": 0.10879848897457123
+        },
+        {
+          "axis_id": 8,
+          "to_code": 7,
+          "fraction": 0.15,
+          "eligible_cells": 50,
+          "selected_cells": 8,
+          "changed_cells": 7,
+          "target_training_occupancy": 0.03386944159865379
+        },
+        {
+          "axis_id": 24,
+          "to_code": 2,
+          "fraction": 0.15,
+          "eligible_cells": 50,
+          "selected_cells": 8,
+          "changed_cells": 8,
+          "target_training_occupancy": 0.07549668848514557
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/42e85e25927a/agent_result.json",
+      "result_sha256": "a7d5b84c97b5f1e816151630395a7294a9e31be379d310ff12cd3516ffdea10c",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/42e85e25927a/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "959e03cce1fa04e29cbf966f259e9c6946cde5955923c66a14e1f2a0dba1377a"
+    },
+    {
+      "method": "one_shot",
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=2",
+      "drug": "Nutlin",
+      "actual_delta_l2": 9.539662005274263,
+      "predicted_delta_l2": 0.8748969551104608,
+      "predicted_over_actual_l2": 0.09171152548452452,
+      "proposed_axes": 2,
+      "effective_axes": 2,
+      "fractions": [
+        0.15,
+        0.1
+      ],
+      "explicit_fraction_count": 2,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.24,
+      "edits": [
+        {
+          "axis_id": 19,
+          "to_code": 4,
+          "fraction": 0.15,
+          "eligible_cells": 50,
+          "selected_cells": 8,
+          "changed_cells": 8,
+          "target_training_occupancy": 0.10879848897457123
+        },
+        {
+          "axis_id": 9,
+          "to_code": 14,
+          "fraction": 0.1,
+          "eligible_cells": 50,
+          "selected_cells": 5,
+          "changed_cells": 4,
+          "target_training_occupancy": 0.05808893218636513
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/60426b731665/agent_result.json",
+      "result_sha256": "010837a61c2714ed4b30a9a3fcd3c6bc2f3dbcc06cf2694b37e609843b59f522",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/60426b731665/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "29031f50ba375d83ef4920fb52e010c6710baca8e9011c1158836c8315a581bc"
+    },
+    {
+      "method": "one_shot",
+      "case_id": "drug=Dex|dose_uM=5|plate=A|replicate=3",
+      "drug": "Dex",
+      "actual_delta_l2": 9.261336337372782,
+      "predicted_delta_l2": 0.8628727412121161,
+      "predicted_over_actual_l2": 0.09316935588767229,
+      "proposed_axes": 2,
+      "effective_axes": 2,
+      "fractions": [
+        0.25,
+        0.2
+      ],
+      "explicit_fraction_count": 2,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.375,
+      "edits": [
+        {
+          "axis_id": 21,
+          "to_code": 6,
+          "fraction": 0.25,
+          "eligible_cells": 32,
+          "selected_cells": 8,
+          "changed_cells": 8,
+          "target_training_occupancy": 0.06773888319730759
+        },
+        {
+          "axis_id": 24,
+          "to_code": 2,
+          "fraction": 0.2,
+          "eligible_cells": 32,
+          "selected_cells": 6,
+          "changed_cells": 6,
+          "target_training_occupancy": 0.07549668848514557
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/8eea66198f34/agent_result.json",
+      "result_sha256": "906fe12bfab6d0a532093a366eebbb1c0fdbc617bf4268ca0b332aed78db7883",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/8eea66198f34/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "dfc81438e2a298a7cfd05a5a6bd0032ca79a5831ad681f9d637d05ac136b6217"
+    },
+    {
+      "method": "one_shot",
+      "case_id": "drug=SAHA|dose_uM=5|plate=B|replicate=1",
+      "drug": "SAHA",
+      "actual_delta_l2": 22.178701168223157,
+      "predicted_delta_l2": 0.2266950650461453,
+      "predicted_over_actual_l2": 0.010221295797562115,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.15,
+        0.15,
+        0.1
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.30337078651685395,
+      "edits": [
+        {
+          "axis_id": 19,
+          "to_code": 8,
+          "fraction": 0.15,
+          "eligible_cells": 89,
+          "selected_cells": 13,
+          "changed_cells": 12,
+          "target_training_occupancy": 0.04030274227261543
+        },
+        {
+          "axis_id": 8,
+          "to_code": 6,
+          "fraction": 0.15,
+          "eligible_cells": 89,
+          "selected_cells": 13,
+          "changed_cells": 13,
+          "target_training_occupancy": 0.039356671273708344
+        },
+        {
+          "axis_id": 0,
+          "to_code": 5,
+          "fraction": 0.1,
+          "eligible_cells": 89,
+          "selected_cells": 9,
+          "changed_cells": 9,
+          "target_training_occupancy": 0.08155155926942825
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/901e42fea240/agent_result.json",
+      "result_sha256": "dbaab37d4776e1589df4ddf15c8ec30f7af3f78ee9ece5a37ad87c80427a46f9",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/901e42fea240/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "4fbf35e285cd9b041a80506f35486a8ab3a13b1ee4af52ad813ad8207d6638ac"
+    },
+    {
+      "method": "one_shot",
+      "case_id": "drug=Dex|dose_uM=5|plate=B|replicate=2",
+      "drug": "Dex",
+      "actual_delta_l2": 9.63861751814859,
+      "predicted_delta_l2": 1.2668289964150687,
+      "predicted_over_actual_l2": 0.1314326451931256,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.25,
+        0.2,
+        0.15
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.4716981132075472,
+      "edits": [
+        {
+          "axis_id": 21,
+          "to_code": 6,
+          "fraction": 0.25,
+          "eligible_cells": 53,
+          "selected_cells": 13,
+          "changed_cells": 13,
+          "target_training_occupancy": 0.06773888319730759
+        },
+        {
+          "axis_id": 2,
+          "to_code": 9,
+          "fraction": 0.2,
+          "eligible_cells": 53,
+          "selected_cells": 11,
+          "changed_cells": 11,
+          "target_training_occupancy": 0.06471144407987595
+        },
+        {
+          "axis_id": 19,
+          "to_code": 4,
+          "fraction": 0.15,
+          "eligible_cells": 53,
+          "selected_cells": 8,
+          "changed_cells": 8,
+          "target_training_occupancy": 0.10879848897457123
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/9904cf11828e/agent_result.json",
+      "result_sha256": "ab174586bb8f2649ccb36ca2305e009e8e34310bf36dc1af3aa8127b565f6543",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/9904cf11828e/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "e03c8d64d0990969ec4cb4c52977e74e47cb6dcc0c0b333d01bb5deeda0badb8"
+    },
+    {
+      "method": "one_shot",
+      "case_id": "drug=BMS|dose_uM=5|plate=B|replicate=2",
+      "drug": "BMS",
+      "actual_delta_l2": 23.00928701419502,
+      "predicted_delta_l2": 0.35536361125950694,
+      "predicted_over_actual_l2": 0.015444355622157001,
+      "proposed_axes": 3,
+      "effective_axes": 2,
+      "fractions": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 1,
+      "zero_changed_edits": 1,
+      "changed_cells_fraction": 0.13793103448275862,
+      "edits": [
+        {
+          "axis_id": 2,
+          "from_code": 9,
+          "to_code": 4,
+          "fraction": 0.5,
+          "eligible_cells": 0,
+          "selected_cells": 0,
+          "changed_cells": 0,
+          "target_training_occupancy": 0.058278147131204605
+        },
+        {
+          "axis_id": 31,
+          "from_code": 9,
+          "to_code": 6,
+          "fraction": 0.5,
+          "eligible_cells": 22,
+          "selected_cells": 11,
+          "changed_cells": 11,
+          "target_training_occupancy": 0.049574267119169235
+        },
+        {
+          "axis_id": 10,
+          "from_code": 9,
+          "to_code": 5,
+          "fraction": 0.5,
+          "eligible_cells": 4,
+          "selected_cells": 2,
+          "changed_cells": 2,
+          "target_training_occupancy": 0.07757805287837982
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/ac65d80bb3f0/agent_result.json",
+      "result_sha256": "668295a45bd2797e615f8dd2e760c1a2d329104e79e95743ecbb73098747945f",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/ac65d80bb3f0/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "95300286b53cdd77e819a38e434c762884c5dc67a0ed73385b0eb9fa9cc4f2f0"
+    },
+    {
+      "method": "one_shot",
+      "case_id": "drug=BMS|dose_uM=5|plate=A|replicate=2",
+      "drug": "BMS",
+      "actual_delta_l2": 23.261130766423907,
+      "predicted_delta_l2": 0.7599736778787246,
+      "predicted_over_actual_l2": 0.032671398717026366,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.35,
+        0.3,
+        0.25
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.6181818181818182,
+      "edits": [
+        {
+          "axis_id": 2,
+          "to_code": 4,
+          "fraction": 0.35,
+          "eligible_cells": 55,
+          "selected_cells": 19,
+          "changed_cells": 17,
+          "target_training_occupancy": 0.058278147131204605
+        },
+        {
+          "axis_id": 31,
+          "to_code": 6,
+          "fraction": 0.3,
+          "eligible_cells": 55,
+          "selected_cells": 17,
+          "changed_cells": 17,
+          "target_training_occupancy": 0.049574267119169235
+        },
+        {
+          "axis_id": 27,
+          "to_code": 8,
+          "fraction": 0.25,
+          "eligible_cells": 55,
+          "selected_cells": 14,
+          "changed_cells": 12,
+          "target_training_occupancy": 0.09914853423833847
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/b2e8eeadd4ec/agent_result.json",
+      "result_sha256": "0964838dedde023f440383e02749617b68231b8daa8edda688eb1f7472c45d82",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/b2e8eeadd4ec/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "4166551c582944bd4ba13c4cc509fb86e4ecfa409654b2c81be9869e81036fa2"
+    },
+    {
+      "method": "one_shot",
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=1",
+      "drug": "Nutlin",
+      "actual_delta_l2": 9.830584443386016,
+      "predicted_delta_l2": 1.3293361769847392,
+      "predicted_over_actual_l2": 0.13522453162783338,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.25,
+        0.15,
+        0.2
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.5208333333333334,
+      "edits": [
+        {
+          "axis_id": 19,
+          "to_code": 4,
+          "fraction": 0.25,
+          "eligible_cells": 48,
+          "selected_cells": 12,
+          "changed_cells": 12,
+          "target_training_occupancy": 0.10879848897457123
+        },
+        {
+          "axis_id": 9,
+          "to_code": 14,
+          "fraction": 0.15,
+          "eligible_cells": 48,
+          "selected_cells": 7,
+          "changed_cells": 7,
+          "target_training_occupancy": 0.05808893218636513
+        },
+        {
+          "axis_id": 24,
+          "to_code": 14,
+          "fraction": 0.2,
+          "eligible_cells": 48,
+          "selected_cells": 10,
+          "changed_cells": 10,
+          "target_training_occupancy": 0.0980132445693016
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/b81ab1c80851/agent_result.json",
+      "result_sha256": "11ab814a347870795e54a876801f78b1de27c1a8b213ac0551e23d11e49f43a7",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/b81ab1c80851/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "635425563a4673568f827a10ca4d73b9c95b7ad7fc8b7f0613bc1d860d078c05"
+    },
+    {
+      "method": "one_shot",
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=3",
+      "drug": "SAHA",
+      "actual_delta_l2": 20.74145818169153,
+      "predicted_delta_l2": 0.6953451330291714,
+      "predicted_over_actual_l2": 0.03352440927431766,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.15,
+        0.1,
+        0.1
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.23076923076923078,
+      "edits": [
+        {
+          "axis_id": 19,
+          "to_code": 4,
+          "fraction": 0.15,
+          "eligible_cells": 65,
+          "selected_cells": 10,
+          "changed_cells": 10,
+          "target_training_occupancy": 0.10879848897457123
+        },
+        {
+          "axis_id": 8,
+          "to_code": 7,
+          "fraction": 0.1,
+          "eligible_cells": 65,
+          "selected_cells": 7,
+          "changed_cells": 4,
+          "target_training_occupancy": 0.03386944159865379
+        },
+        {
+          "axis_id": 0,
+          "to_code": 1,
+          "fraction": 0.1,
+          "eligible_cells": 65,
+          "selected_cells": 7,
+          "changed_cells": 6,
+          "target_training_occupancy": 0.1233680248260498
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/bb8b59b73b81/agent_result.json",
+      "result_sha256": "01b2fb2ccac1ad2e03efc16aa0e667a106d61899941f2e6879f0e8dbc19bccc9",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/bb8b59b73b81/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "c1c8fe4592a913831653d6fa8c600e1d93a11fe27591105de59c411e7eb24471"
+    },
+    {
+      "method": "one_shot",
+      "case_id": "drug=BMS|dose_uM=5|plate=A|replicate=1",
+      "drug": "BMS",
+      "actual_delta_l2": 20.93520888355795,
+      "predicted_delta_l2": 0.18140986387355296,
+      "predicted_over_actual_l2": 0.008665299920462138,
+      "proposed_axes": 3,
+      "effective_axes": 1,
+      "fractions": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 2,
+      "zero_changed_edits": 2,
+      "changed_cells_fraction": 0.07547169811320754,
+      "edits": [
+        {
+          "axis_id": 2,
+          "from_code": 9,
+          "to_code": 11,
+          "fraction": 0.5,
+          "eligible_cells": 0,
+          "selected_cells": 0,
+          "changed_cells": 0,
+          "target_training_occupancy": 0.04105960205197334
+        },
+        {
+          "axis_id": 28,
+          "from_code": 13,
+          "to_code": 1,
+          "fraction": 0.5,
+          "eligible_cells": 0,
+          "selected_cells": 0,
+          "changed_cells": 0,
+          "target_training_occupancy": 0.07473982870578766
+        },
+        {
+          "axis_id": 8,
+          "from_code": 2,
+          "to_code": 3,
+          "fraction": 0.5,
+          "eligible_cells": 7,
+          "selected_cells": 4,
+          "changed_cells": 4,
+          "target_training_occupancy": 0.06906338781118393
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/bed7e88fc964/agent_result.json",
+      "result_sha256": "7ea793a4b18f4205a192a033c3a9a1ee723fedbdd6c97371461ad4768b6b5073",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/bed7e88fc964/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "9fc6fb974d35d4760a3850e86f8c4cb429481729f1bef89356eee9119fcc4a77"
+    },
+    {
+      "method": "one_shot",
+      "case_id": "drug=Dex|dose_uM=5|plate=A|replicate=1",
+      "drug": "Dex",
+      "actual_delta_l2": 9.565366572014419,
+      "predicted_delta_l2": 0.8257308422928306,
+      "predicted_over_actual_l2": 0.08632505989981476,
+      "proposed_axes": 2,
+      "effective_axes": 2,
+      "fractions": [
+        0.25,
+        0.15
+      ],
+      "explicit_fraction_count": 2,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.3142857142857143,
+      "edits": [
+        {
+          "axis_id": 21,
+          "to_code": 15,
+          "fraction": 0.25,
+          "eligible_cells": 35,
+          "selected_cells": 9,
+          "changed_cells": 8,
+          "target_training_occupancy": 0.08098391443490982
+        },
+        {
+          "axis_id": 19,
+          "to_code": 8,
+          "fraction": 0.15,
+          "eligible_cells": 35,
+          "selected_cells": 5,
+          "changed_cells": 5,
+          "target_training_occupancy": 0.04030274227261543
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/c6cad83efd26/agent_result.json",
+      "result_sha256": "743c8e64eaf33e26fdb4bc9eaf969bdfac2a8270e81567eacfeb3c49a347df8d",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/c6cad83efd26/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "2572eba673b496723eeb920525e409d78425004c8df1b48c586e0c93485d68f2"
+    },
+    {
+      "method": "one_shot",
+      "case_id": "drug=Nutlin|dose_uM=5|plate=B|replicate=1",
+      "drug": "Nutlin",
+      "actual_delta_l2": 11.851791707161517,
+      "predicted_delta_l2": 1.3801904903386573,
+      "predicted_over_actual_l2": 0.11645416359322859,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.25,
+        0.15,
+        0.2
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.5319148936170213,
+      "edits": [
+        {
+          "axis_id": 19,
+          "to_code": 4,
+          "fraction": 0.25,
+          "eligible_cells": 47,
+          "selected_cells": 12,
+          "changed_cells": 11,
+          "target_training_occupancy": 0.10879848897457123
+        },
+        {
+          "axis_id": 9,
+          "to_code": 14,
+          "fraction": 0.15,
+          "eligible_cells": 47,
+          "selected_cells": 7,
+          "changed_cells": 7,
+          "target_training_occupancy": 0.05808893218636513
+        },
+        {
+          "axis_id": 24,
+          "to_code": 14,
+          "fraction": 0.2,
+          "eligible_cells": 47,
+          "selected_cells": 9,
+          "changed_cells": 9,
+          "target_training_occupancy": 0.0980132445693016
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/d4270158cf4a/agent_result.json",
+      "result_sha256": "170d1608dc9756515ace5290615d27e6324e83e2af7d529f16abdd6c3dea5a81",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/d4270158cf4a/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "f1901028286fccbec359337cdcc49b03ddfdb40aa5c5041b69cc0ce05bb2c5f3"
+    },
+    {
+      "method": "one_shot",
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=3",
+      "drug": "Nutlin",
+      "actual_delta_l2": 10.565914843081801,
+      "predicted_delta_l2": 0.9516897329722175,
+      "predicted_over_actual_l2": 0.09007168305878892,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.15,
+        0.1,
+        0.1
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.3157894736842105,
+      "edits": [
+        {
+          "axis_id": 19,
+          "to_code": 4,
+          "fraction": 0.15,
+          "eligible_cells": 57,
+          "selected_cells": 9,
+          "changed_cells": 9,
+          "target_training_occupancy": 0.10879848897457123
+        },
+        {
+          "axis_id": 9,
+          "to_code": 14,
+          "fraction": 0.1,
+          "eligible_cells": 57,
+          "selected_cells": 6,
+          "changed_cells": 6,
+          "target_training_occupancy": 0.05808893218636513
+        },
+        {
+          "axis_id": 24,
+          "to_code": 14,
+          "fraction": 0.1,
+          "eligible_cells": 57,
+          "selected_cells": 6,
+          "changed_cells": 6,
+          "target_training_occupancy": 0.0980132445693016
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/db6be6175137/agent_result.json",
+      "result_sha256": "2c1534d9627bf769c4a9077f424ff9ea677da1f632eb2fc2816e94f46b8dab22",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/one_shot/db6be6175137/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "1d12b7a8a761063ef81c7ebc893efa595ecb6968b7de7d8cce9d2c6b2d1c364c"
+    },
+    {
+      "method": "agent",
+      "case_id": "drug=Dex|dose_uM=5|plate=B|replicate=3",
+      "drug": "Dex",
+      "actual_delta_l2": 9.513011949023978,
+      "predicted_delta_l2": 0.7738922704072254,
+      "predicted_over_actual_l2": 0.08135091961979778,
+      "proposed_axes": 2,
+      "effective_axes": 2,
+      "fractions": [
+        0.25,
+        0.2
+      ],
+      "explicit_fraction_count": 2,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.3793103448275862,
+      "edits": [
+        {
+          "axis_id": 21,
+          "to_code": 6,
+          "fraction": 0.25,
+          "eligible_cells": 58,
+          "selected_cells": 15,
+          "changed_cells": 13,
+          "target_training_occupancy": 0.06773888319730759
+        },
+        {
+          "axis_id": 24,
+          "to_code": 14,
+          "fraction": 0.2,
+          "eligible_cells": 58,
+          "selected_cells": 12,
+          "changed_cells": 12,
+          "target_training_occupancy": 0.0980132445693016
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/123f238d50ef/agent_result.json",
+      "result_sha256": "8587b7ccb1d982c0cadd266427c09a88b314fba0aac0d420cba63030bc32f00b",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/123f238d50ef/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "4110eeb6f3f58438da404e0a7c453aa767cf06728bbe25d9f03bf1f8ac97e3a0"
+    },
+    {
+      "method": "agent",
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=1",
+      "drug": "SAHA",
+      "actual_delta_l2": 21.598800418322803,
+      "predicted_delta_l2": 0.6553731908477197,
+      "predicted_over_actual_l2": 0.030343036564741358,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.25,
+        0.25,
+        0.2
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.5571428571428572,
+      "edits": [
+        {
+          "axis_id": 19,
+          "to_code": 8,
+          "fraction": 0.25,
+          "eligible_cells": 70,
+          "selected_cells": 18,
+          "changed_cells": 18,
+          "target_training_occupancy": 0.04030274227261543
+        },
+        {
+          "axis_id": 24,
+          "to_code": 2,
+          "fraction": 0.25,
+          "eligible_cells": 70,
+          "selected_cells": 18,
+          "changed_cells": 18,
+          "target_training_occupancy": 0.07549668848514557
+        },
+        {
+          "axis_id": 10,
+          "to_code": 4,
+          "fraction": 0.2,
+          "eligible_cells": 70,
+          "selected_cells": 14,
+          "changed_cells": 13,
+          "target_training_occupancy": 0.02951750159263611
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/1c3d4269941a/agent_result.json",
+      "result_sha256": "90ddf0384bab6a28ab39cb4eeb83d77141cb37569b2d2eed5d0f1147f71ad4df",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/1c3d4269941a/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "c317f75020dd1d3c1f0c61b7a4adb5789be1e3c62692038e6dc4316e00cb6553"
+    },
+    {
+      "method": "agent",
+      "case_id": "drug=BMS|dose_uM=5|plate=B|replicate=3",
+      "drug": "BMS",
+      "actual_delta_l2": 21.552854243022065,
+      "predicted_delta_l2": 0.45387306175379155,
+      "predicted_over_actual_l2": 0.02105860581786921,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.6,
+        0.5,
+        0.5
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.3431372549019608,
+      "edits": [
+        {
+          "axis_id": 31,
+          "fraction": 0.6,
+          "from_code": 9,
+          "to_code": 6,
+          "eligible_cells": 26,
+          "selected_cells": 16,
+          "changed_cells": 16,
+          "target_training_occupancy": 0.049574267119169235
+        },
+        {
+          "axis_id": 2,
+          "fraction": 0.5,
+          "from_code": 0,
+          "to_code": 4,
+          "eligible_cells": 39,
+          "selected_cells": 20,
+          "changed_cells": 20,
+          "target_training_occupancy": 0.058278147131204605
+        },
+        {
+          "axis_id": 28,
+          "fraction": 0.5,
+          "from_code": 8,
+          "to_code": 1,
+          "eligible_cells": 1,
+          "selected_cells": 1,
+          "changed_cells": 1,
+          "target_training_occupancy": 0.07473982870578766
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/3a9d788519f1/agent_result.json",
+      "result_sha256": "c78f5fb830cf6f9064050c020233753ab2a268922ec264e0cf0d482190f3f740",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/3a9d788519f1/attempts/001/evaluation_003.npz",
+      "prediction_artifact_sha256": "ff41bfb4f2ae2809d146fcd161247d0d3173c57e42bd3a5e9c378e9af7d7c3ba"
+    },
+    {
+      "method": "agent",
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=2",
+      "drug": "SAHA",
+      "actual_delta_l2": 21.491445341863418,
+      "predicted_delta_l2": 0.7753096687715744,
+      "predicted_over_actual_l2": 0.036075268854130545,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.15,
+        0.15,
+        0.1
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.38,
+      "edits": [
+        {
+          "axis_id": 19,
+          "to_code": 4,
+          "fraction": 0.15,
+          "eligible_cells": 50,
+          "selected_cells": 8,
+          "changed_cells": 7,
+          "target_training_occupancy": 0.10879848897457123
+        },
+        {
+          "axis_id": 8,
+          "to_code": 10,
+          "fraction": 0.15,
+          "eligible_cells": 50,
+          "selected_cells": 8,
+          "changed_cells": 8,
+          "target_training_occupancy": 0.05657521262764931
+        },
+        {
+          "axis_id": 4,
+          "to_code": 12,
+          "fraction": 0.1,
+          "eligible_cells": 50,
+          "selected_cells": 5,
+          "changed_cells": 5,
+          "target_training_occupancy": 0.06092715263366699
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/42e85e25927a/agent_result.json",
+      "result_sha256": "6697a8ca257e2d28d5410f53dcd5d643221c8cbeba76ffb45d45b7c3bf754dd2",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/42e85e25927a/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "0c5ed7c4f80abcce6b224185d1616bbbe6b2a2a3e4bf01432ccf983249f1fbb3"
+    },
+    {
+      "method": "agent",
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=2",
+      "drug": "Nutlin",
+      "actual_delta_l2": 9.539662005274263,
+      "predicted_delta_l2": 2.099198091934352,
+      "predicted_over_actual_l2": 0.2200495248965585,
+      "proposed_axes": 2,
+      "effective_axes": 2,
+      "fractions": [
+        0.5,
+        0.5
+      ],
+      "explicit_fraction_count": 2,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.5,
+      "edits": [
+        {
+          "axis_id": 19,
+          "to_code": 4,
+          "fraction": 0.5,
+          "eligible_cells": 50,
+          "selected_cells": 25,
+          "changed_cells": 22,
+          "target_training_occupancy": 0.10879848897457123
+        },
+        {
+          "axis_id": 9,
+          "to_code": 14,
+          "from_code": 7,
+          "fraction": 0.5,
+          "eligible_cells": 9,
+          "selected_cells": 5,
+          "changed_cells": 5,
+          "target_training_occupancy": 0.05808893218636513
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/60426b731665/agent_result.json",
+      "result_sha256": "7ab4ad3e7828aff46b6d6782296d00e60b32e33d79919cb27d868e6140a8d577",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/60426b731665/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "e896ff4df0304297629fe671ba89577109a4af2cb5c62005e8e73c17c668d132"
+    },
+    {
+      "method": "agent",
+      "case_id": "drug=Dex|dose_uM=5|plate=A|replicate=3",
+      "drug": "Dex",
+      "actual_delta_l2": 9.261336337372782,
+      "predicted_delta_l2": 1.0137250435971363,
+      "predicted_over_actual_l2": 0.10945775066027952,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.25,
+        0.2,
+        0.15
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.53125,
+      "edits": [
+        {
+          "axis_id": 21,
+          "to_code": 6,
+          "fraction": 0.25,
+          "eligible_cells": 32,
+          "selected_cells": 8,
+          "changed_cells": 8,
+          "target_training_occupancy": 0.06773888319730759
+        },
+        {
+          "axis_id": 2,
+          "to_code": 8,
+          "fraction": 0.2,
+          "eligible_cells": 32,
+          "selected_cells": 6,
+          "changed_cells": 6,
+          "target_training_occupancy": 0.07398296892642975
+        },
+        {
+          "axis_id": 19,
+          "to_code": 8,
+          "fraction": 0.15,
+          "eligible_cells": 32,
+          "selected_cells": 5,
+          "changed_cells": 5,
+          "target_training_occupancy": 0.04030274227261543
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/8eea66198f34/agent_result.json",
+      "result_sha256": "7924a802ffe51a9ef71b76a84c4ab36b22f6343d2cd53ce30d93b6241e722ed2",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/8eea66198f34/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "75aeb582a98fd4bb6630f74490c1a17dac5e1a5b27b2410eb0750250847ebf12"
+    },
+    {
+      "method": "agent",
+      "case_id": "drug=SAHA|dose_uM=5|plate=B|replicate=1",
+      "drug": "SAHA",
+      "actual_delta_l2": 22.178701168223157,
+      "predicted_delta_l2": 0.22472303086801554,
+      "predicted_over_actual_l2": 0.010132380122871694,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.15,
+        0.15,
+        0.1
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.3146067415730337,
+      "edits": [
+        {
+          "axis_id": 19,
+          "to_code": 10,
+          "fraction": 0.15,
+          "eligible_cells": 89,
+          "selected_cells": 13,
+          "changed_cells": 13,
+          "target_training_occupancy": 0.060737937688827515
+        },
+        {
+          "axis_id": 8,
+          "to_code": 7,
+          "fraction": 0.15,
+          "eligible_cells": 89,
+          "selected_cells": 13,
+          "changed_cells": 13,
+          "target_training_occupancy": 0.03386944159865379
+        },
+        {
+          "axis_id": 0,
+          "to_code": 5,
+          "fraction": 0.1,
+          "eligible_cells": 89,
+          "selected_cells": 9,
+          "changed_cells": 9,
+          "target_training_occupancy": 0.08155155926942825
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/901e42fea240/agent_result.json",
+      "result_sha256": "6da91723993f2dba4b8d8ab9338f5e397debc596c19a533b07b209eee54c1ec8",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/901e42fea240/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "ae0fe1d2ae855854c8bc90718684d3260aa57ef5f154151aab6eaf846a1de4b4"
+    },
+    {
+      "method": "agent",
+      "case_id": "drug=Dex|dose_uM=5|plate=B|replicate=2",
+      "drug": "Dex",
+      "actual_delta_l2": 9.63861751814859,
+      "predicted_delta_l2": 1.3721539310966873,
+      "predicted_over_actual_l2": 0.14236003540062184,
+      "proposed_axes": 2,
+      "effective_axes": 2,
+      "fractions": [
+        0.4,
+        0.3
+      ],
+      "explicit_fraction_count": 2,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.5660377358490566,
+      "edits": [
+        {
+          "axis_id": 21,
+          "fraction": 0.4,
+          "to_code": 6,
+          "eligible_cells": 53,
+          "selected_cells": 21,
+          "changed_cells": 19,
+          "target_training_occupancy": 0.06773888319730759
+        },
+        {
+          "axis_id": 24,
+          "fraction": 0.3,
+          "to_code": 2,
+          "eligible_cells": 53,
+          "selected_cells": 16,
+          "changed_cells": 15,
+          "target_training_occupancy": 0.07549668848514557
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/9904cf11828e/agent_result.json",
+      "result_sha256": "e99529bf3828c855711ff1b3c8579d7fcce70e35219fc1f1ac7bc54edbc3e39a",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/9904cf11828e/attempts/001/evaluation_003.npz",
+      "prediction_artifact_sha256": "afd950ffe40f9703a51f62b4ce992d089779c5c0d082d28fc23ab471f087fbd8"
+    },
+    {
+      "method": "agent",
+      "case_id": "drug=BMS|dose_uM=5|plate=B|replicate=2",
+      "drug": "BMS",
+      "actual_delta_l2": 23.00928701419502,
+      "predicted_delta_l2": 0.7250564010757624,
+      "predicted_over_actual_l2": 0.03151146754910122,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.8735632183908046,
+      "edits": [
+        {
+          "axis_id": 2,
+          "fraction": 0.5,
+          "to_code": 6,
+          "eligible_cells": 87,
+          "selected_cells": 44,
+          "changed_cells": 41,
+          "target_training_occupancy": 0.04370860755443573
+        },
+        {
+          "axis_id": 10,
+          "fraction": 0.5,
+          "to_code": 10,
+          "eligible_cells": 87,
+          "selected_cells": 44,
+          "changed_cells": 43,
+          "target_training_occupancy": 0.0633869469165802
+        },
+        {
+          "axis_id": 28,
+          "fraction": 0.5,
+          "to_code": 8,
+          "eligible_cells": 87,
+          "selected_cells": 44,
+          "changed_cells": 43,
+          "target_training_occupancy": 0.09347209334373474
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/ac65d80bb3f0/agent_result.json",
+      "result_sha256": "3a18bd700a6d0ebb1686fd9ed5f6d496ab9c30ad495c9232de4c02e00fe30ca4",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/ac65d80bb3f0/attempts/001/evaluation_002.npz",
+      "prediction_artifact_sha256": "e9cae53b971795ca87f27830abf4da6e34bcdf63630d1d946f3ffc5f3b1573a1"
+    },
+    {
+      "method": "agent",
+      "case_id": "drug=BMS|dose_uM=5|plate=A|replicate=2",
+      "drug": "BMS",
+      "actual_delta_l2": 23.261130766423907,
+      "predicted_delta_l2": 0.5425085641397673,
+      "predicted_over_actual_l2": 0.02332253619083931,
+      "proposed_axes": 3,
+      "effective_axes": 2,
+      "fractions": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 1,
+      "zero_changed_edits": 1,
+      "changed_cells_fraction": 0.2727272727272727,
+      "edits": [
+        {
+          "axis_id": 2,
+          "fraction": 0.5,
+          "from_code": 14,
+          "to_code": 6,
+          "eligible_cells": 0,
+          "selected_cells": 0,
+          "changed_cells": 0,
+          "target_training_occupancy": 0.04370860755443573
+        },
+        {
+          "axis_id": 28,
+          "fraction": 0.5,
+          "from_code": 15,
+          "to_code": 1,
+          "eligible_cells": 20,
+          "selected_cells": 10,
+          "changed_cells": 10,
+          "target_training_occupancy": 0.07473982870578766
+        },
+        {
+          "axis_id": 31,
+          "fraction": 0.5,
+          "from_code": 9,
+          "to_code": 6,
+          "eligible_cells": 15,
+          "selected_cells": 8,
+          "changed_cells": 8,
+          "target_training_occupancy": 0.049574267119169235
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/b2e8eeadd4ec/agent_result.json",
+      "result_sha256": "e38fb5de6e8498334026135290037c53916ecdc1d54924766484bd43fa5d9b8a",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/b2e8eeadd4ec/attempts/001/evaluation_003.npz",
+      "prediction_artifact_sha256": "6d4de1a83ed3ed52a3fd20105745073a396c518240a173fed890c97ff41e4b1c"
+    },
+    {
+      "method": "agent",
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=1",
+      "drug": "Nutlin",
+      "actual_delta_l2": 9.830584443386016,
+      "predicted_delta_l2": 1.102882719352059,
+      "predicted_over_actual_l2": 0.11218892688461414,
+      "proposed_axes": 2,
+      "effective_axes": 2,
+      "fractions": [
+        0.25,
+        0.2
+      ],
+      "explicit_fraction_count": 2,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.4583333333333333,
+      "edits": [
+        {
+          "axis_id": 19,
+          "to_code": 4,
+          "fraction": 0.25,
+          "eligible_cells": 48,
+          "selected_cells": 12,
+          "changed_cells": 12,
+          "target_training_occupancy": 0.10879848897457123
+        },
+        {
+          "axis_id": 24,
+          "to_code": 14,
+          "fraction": 0.2,
+          "eligible_cells": 48,
+          "selected_cells": 10,
+          "changed_cells": 10,
+          "target_training_occupancy": 0.0980132445693016
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/b81ab1c80851/agent_result.json",
+      "result_sha256": "b4bc92b13b8c752902a6df1ff794538a484080be2f629253cb087415b95c36fc",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/b81ab1c80851/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "42f60bdd0ec3a63e3d22e94e8abdbfae559165aa8ea76d4b023a3a2255968ca7"
+    },
+    {
+      "method": "agent",
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=3",
+      "drug": "SAHA",
+      "actual_delta_l2": 20.74145818169153,
+      "predicted_delta_l2": 0.7510146426125235,
+      "predicted_over_actual_l2": 0.036208382073900834,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.15,
+        0.1,
+        0.1
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.2923076923076923,
+      "edits": [
+        {
+          "axis_id": 19,
+          "to_code": 4,
+          "fraction": 0.15,
+          "eligible_cells": 65,
+          "selected_cells": 10,
+          "changed_cells": 10,
+          "target_training_occupancy": 0.10879848897457123
+        },
+        {
+          "axis_id": 8,
+          "to_code": 9,
+          "fraction": 0.1,
+          "eligible_cells": 65,
+          "selected_cells": 7,
+          "changed_cells": 7,
+          "target_training_occupancy": 0.06054872274398804
+        },
+        {
+          "axis_id": 4,
+          "to_code": 12,
+          "fraction": 0.1,
+          "eligible_cells": 65,
+          "selected_cells": 7,
+          "changed_cells": 6,
+          "target_training_occupancy": 0.06092715263366699
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/bb8b59b73b81/agent_result.json",
+      "result_sha256": "59464e906b5488c0c62c844609c3ea8ee70b1ffa28ac3e40b20c221dd6f3b15b",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/bb8b59b73b81/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "541f8f98f1f01a74b6f601388ad09d761a5a460633393b4f743d4b6f33a3abd7"
+    },
+    {
+      "method": "agent",
+      "case_id": "drug=BMS|dose_uM=5|plate=A|replicate=1",
+      "drug": "BMS",
+      "actual_delta_l2": 20.93520888355795,
+      "predicted_delta_l2": 0.22498706675313396,
+      "predicted_over_actual_l2": 0.010746826936598364,
+      "proposed_axes": 2,
+      "effective_axes": 1,
+      "fractions": [
+        0.5,
+        0.3
+      ],
+      "explicit_fraction_count": 2,
+      "zero_eligible_edits": 1,
+      "zero_changed_edits": 1,
+      "changed_cells_fraction": 0.03773584905660377,
+      "edits": [
+        {
+          "axis_id": 2,
+          "fraction": 0.5,
+          "from_code": 8,
+          "to_code": 11,
+          "eligible_cells": 0,
+          "selected_cells": 0,
+          "changed_cells": 0,
+          "target_training_occupancy": 0.04105960205197334
+        },
+        {
+          "axis_id": 24,
+          "fraction": 0.3,
+          "from_code": 13,
+          "to_code": 14,
+          "eligible_cells": 8,
+          "selected_cells": 2,
+          "changed_cells": 2,
+          "target_training_occupancy": 0.0980132445693016
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/bed7e88fc964/agent_result.json",
+      "result_sha256": "b2f7f7aaaf4a74a65d75da1eb38650e564a6646081fbad12a6aa123b530819e6",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/bed7e88fc964/attempts/001/evaluation_003.npz",
+      "prediction_artifact_sha256": "6bfb92814223cfeef17938db1aa95290ed2d497c5fe9814943fa0b5ccdf15fb4"
+    },
+    {
+      "method": "agent",
+      "case_id": "drug=Dex|dose_uM=5|plate=A|replicate=1",
+      "drug": "Dex",
+      "actual_delta_l2": 9.565366572014419,
+      "predicted_delta_l2": 0.9940361404246885,
+      "predicted_over_actual_l2": 0.10392033937653362,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.3,
+        0.2,
+        0.15
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.4857142857142857,
+      "edits": [
+        {
+          "axis_id": 21,
+          "to_code": 15,
+          "fraction": 0.3,
+          "eligible_cells": 35,
+          "selected_cells": 11,
+          "changed_cells": 10,
+          "target_training_occupancy": 0.08098391443490982
+        },
+        {
+          "axis_id": 2,
+          "to_code": 9,
+          "fraction": 0.2,
+          "eligible_cells": 35,
+          "selected_cells": 7,
+          "changed_cells": 6,
+          "target_training_occupancy": 0.06471144407987595
+        },
+        {
+          "axis_id": 19,
+          "to_code": 8,
+          "fraction": 0.15,
+          "eligible_cells": 35,
+          "selected_cells": 5,
+          "changed_cells": 5,
+          "target_training_occupancy": 0.04030274227261543
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/c6cad83efd26/agent_result.json",
+      "result_sha256": "24f601cd01def5cf0cdca7c983b3a47280268649eb42d6faf406da294f6423b2",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/c6cad83efd26/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "183ad31ba3c3ff37fef106aa8e52aac1f30a0d78be10e8b80ba6d074c5f240c4"
+    },
+    {
+      "method": "agent",
+      "case_id": "drug=Nutlin|dose_uM=5|plate=B|replicate=1",
+      "drug": "Nutlin",
+      "actual_delta_l2": 11.851791707161517,
+      "predicted_delta_l2": 1.323218538869408,
+      "predicted_over_actual_l2": 0.11164713079372168,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.25,
+        0.15,
+        0.15
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.48936170212765956,
+      "edits": [
+        {
+          "axis_id": 19,
+          "to_code": 4,
+          "fraction": 0.25,
+          "eligible_cells": 47,
+          "selected_cells": 12,
+          "changed_cells": 11,
+          "target_training_occupancy": 0.10879848897457123
+        },
+        {
+          "axis_id": 9,
+          "to_code": 14,
+          "fraction": 0.15,
+          "eligible_cells": 47,
+          "selected_cells": 7,
+          "changed_cells": 7,
+          "target_training_occupancy": 0.05808893218636513
+        },
+        {
+          "axis_id": 24,
+          "to_code": 14,
+          "fraction": 0.15,
+          "eligible_cells": 47,
+          "selected_cells": 7,
+          "changed_cells": 7,
+          "target_training_occupancy": 0.0980132445693016
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/d4270158cf4a/agent_result.json",
+      "result_sha256": "0436df0594d245db90a43174a97ca946920f8c702438153e67db70568da0369d",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/d4270158cf4a/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "3a0839e938485ab04b0a369cbb0d93c2a6a7215a613baa8789792f98ea20e753"
+    },
+    {
+      "method": "agent",
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=3",
+      "drug": "Nutlin",
+      "actual_delta_l2": 10.565914843081801,
+      "predicted_delta_l2": 1.3961034405661412,
+      "predicted_over_actual_l2": 0.13213275530800458,
+      "proposed_axes": 3,
+      "effective_axes": 3,
+      "fractions": [
+        0.25,
+        0.15,
+        0.15
+      ],
+      "explicit_fraction_count": 3,
+      "zero_eligible_edits": 0,
+      "zero_changed_edits": 0,
+      "changed_cells_fraction": 0.45614035087719296,
+      "edits": [
+        {
+          "axis_id": 19,
+          "to_code": 4,
+          "fraction": 0.25,
+          "eligible_cells": 57,
+          "selected_cells": 14,
+          "changed_cells": 13,
+          "target_training_occupancy": 0.10879848897457123
+        },
+        {
+          "axis_id": 9,
+          "to_code": 14,
+          "fraction": 0.15,
+          "eligible_cells": 57,
+          "selected_cells": 9,
+          "changed_cells": 9,
+          "target_training_occupancy": 0.05808893218636513
+        },
+        {
+          "axis_id": 24,
+          "to_code": 2,
+          "fraction": 0.15,
+          "eligible_cells": 57,
+          "selected_cells": 9,
+          "changed_cells": 9,
+          "target_training_occupancy": 0.07549668848514557
+        }
+      ],
+      "result_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/db6be6175137/agent_result.json",
+      "result_sha256": "e2055dd866c1a73f30999e815a0142df142567d8e132c751f7768c9d9093481a",
+      "prediction_artifact": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/agent/db6be6175137/attempts/001/evaluation_001.npz",
+      "prediction_artifact_sha256": "c616fab6ed1b7ec329fc6fd06f484e5593f2e0178850240de0b562b5cab9d511"
+    }
+  ]
+}

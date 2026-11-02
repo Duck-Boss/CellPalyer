@@ -1,0 +1,199 @@
+{
+  "status": "passed",
+  "n_models": 6,
+  "artifacts": [
+    {
+      "model": "cpa",
+      "seed": 0,
+      "n_epochs": 109,
+      "best_epoch": 59,
+      "best_val_rmse": 0.24676270658689475,
+      "sha256": {
+        "predictions.npz": "d4ec88ceff4db1690518ea60679fae13b6e4118f903e33f49e1d5772589693c3",
+        "best.pt": "3579881efe7b82637b7566db99b861c17c07e2e95c86b3db45ff72fc72da0624",
+        "config.json": "a266c5695a52dc701c973df6a7a9535b37c340c3bb1c301a76bcc1dc0377c9e8",
+        "history.jsonl": "fec599e891123f899ce41ebdbc498aa202050b619215ca4911bf3863de2f1d45"
+      }
+    },
+    {
+      "model": "cpa",
+      "seed": 1,
+      "n_epochs": 123,
+      "best_epoch": 73,
+      "best_val_rmse": 0.24333048157735165,
+      "sha256": {
+        "predictions.npz": "04ab01859e1662872be42065ac8ec3e1f99c2738f77949fe6d90eeef56fa0283",
+        "best.pt": "9a47b41adc9f51624325396385613521ff87995ff01e4762457167855cd7cfde",
+        "config.json": "4c4761459ba4f769cea1861f5778a3d9169a06173e1329513e782f2ec1f54d91",
+        "history.jsonl": "ff9a4cc08e27455b3867d13932875d27713730677ad72e52444bd2d7082d4c55"
+      }
+    },
+    {
+      "model": "cpa",
+      "seed": 2,
+      "n_epochs": 180,
+      "best_epoch": 130,
+      "best_val_rmse": 0.24037609780951402,
+      "sha256": {
+        "predictions.npz": "d4c9189ce5c5564b231a0c173bd61e5e1a8446420d73af86e46dfd96b9f20c28",
+        "best.pt": "6a088800f4a64306d87fba828b13233cbf746f2fb6259ba59ada697041966dbf",
+        "config.json": "4801b1edc3e897c46010a168a852220ed08712b230d43523fdec1c142728b1ac",
+        "history.jsonl": "8f748d53fcd8e17b04b4a216e14c5290093cd91f349985c7a61b854e61a1b838"
+      }
+    },
+    {
+      "model": "codex",
+      "seed": 0,
+      "n_epochs": 1000,
+      "best_epoch": 956,
+      "best_val_rmse": 0.2006330219040991,
+      "sha256": {
+        "predictions.npz": "bad4fecc5d79fbb43c8d068b1547d6b254d0a6b0e720789db04bb5d2906bd127",
+        "best.pt": "b7126aa89860a0d287776b84b45d8433628b5da5c10172836b2222d6e7a47367",
+        "config.json": "68c83c008d8dca0c3a6f831c20a4f188ab198292a7e4c66e76dde360f5368ed1",
+        "training.csv": "83bf1261cf62f28c3b2c6c9390d9f34e92872c718afc1dc5a909cea4d3bf0f7e"
+      }
+    },
+    {
+      "model": "codex",
+      "seed": 1,
+      "n_epochs": 1000,
+      "best_epoch": 999,
+      "best_val_rmse": 0.2000237809465916,
+      "sha256": {
+        "predictions.npz": "aca07a173534dee572f5d702904186df17d523ad737f3cc68a69d41bf74fc128",
+        "best.pt": "6bbf7e440ca3b9d4025023dde4382b2044f1a238a9d269e0e389fcd9a37a83b9",
+        "config.json": "01ec38c99ea83c0bd7b3f039755ce9289c029c3fe4e965ac431f69c67e6b4f2b",
+        "training.csv": "ccdb1cdfea6ee36387253b5ec8da45816532307c685c089db074712d57fc6dc4"
+      }
+    },
+    {
+      "model": "codex",
+      "seed": 2,
+      "n_epochs": 1000,
+      "best_epoch": 959,
+      "best_val_rmse": 0.2009332528055617,
+      "sha256": {
+        "predictions.npz": "c8fbe87992d023f49861fd02c345c32f1aecaea078fea08a0aaac1e61f96b14f",
+        "best.pt": "c00212acf5e1c08d2a390f5290bcee6b4d686254906332a6298f2a59784b524f",
+        "config.json": "c94ece59753afbc48f21b3330589abe4d3e6c6c8da3d3ac7d508d68015e758fb",
+        "training.csv": "41c5960f49e4dfcfa9f86290f4876bc3a2c8937b73f4f32f51f8b0c86bb0f657"
+      }
+    }
+  ],
+  "global_seal": {
+    "sha256": "94000da8529cea959d3b592512d747113a993839111e3440cc21e42084f71d85",
+    "n_files": 58
+  },
+  "target_expression_opened": false,
+  "source_data_review": {
+    "status": "passed",
+    "n_train": 5285,
+    "n_val": 2742,
+    "n_genes": 2000,
+    "n_ready_cases": 16,
+    "n_ready_treated": 786,
+    "n_unique_ready_controls": 951,
+    "n_all_available_controls": 1409,
+    "by_drug": {
+      "BMS": {
+        "wells": 4,
+        "treated": 95,
+        "unique_controls": 297
+      },
+      "Dex": {
+        "wells": 4,
+        "treated": 237,
+        "unique_controls": 178
+      },
+      "Nutlin": {
+        "wells": 4,
+        "treated": 274,
+        "unique_controls": 202
+      },
+      "SAHA": {
+        "wells": 4,
+        "treated": 180,
+        "unique_controls": 274
+      }
+    },
+    "all_control_splits": {
+      "train": 910,
+      "val": 499
+    },
+    "ready_control_splits": {
+      "train": 637,
+      "val": 314
+    },
+    "source_hashes": {
+      "prepared.npz": "920fb717e80976fb18f5557a17545689048a40972147de8ce3a304c1640d2106",
+      "cases.json": "493aa96ab615615a046148cf85ee57b68c5d2ea86b72443440de78e5e7d8b8c1",
+      "metadata.csv": "87ada983037aeb16b6ecd49a65cf17b53a94dbbb47598034f1c9ecd04d20304f",
+      "manifest.json": "f65cbb0358bf94c71a093eed9492d81c4c67081454275f82be2f8b9bc3b7ad8b"
+    },
+    "case_ids": [
+      "drug=BMS|dose_uM=5|plate=A|replicate=1",
+      "drug=BMS|dose_uM=5|plate=A|replicate=2",
+      "drug=BMS|dose_uM=5|plate=B|replicate=2",
+      "drug=BMS|dose_uM=5|plate=B|replicate=3",
+      "drug=Dex|dose_uM=5|plate=A|replicate=1",
+      "drug=Dex|dose_uM=5|plate=A|replicate=3",
+      "drug=Dex|dose_uM=5|plate=B|replicate=2",
+      "drug=Dex|dose_uM=5|plate=B|replicate=3",
+      "drug=Nutlin|dose_uM=5|plate=A|replicate=1",
+      "drug=Nutlin|dose_uM=5|plate=A|replicate=2",
+      "drug=Nutlin|dose_uM=5|plate=A|replicate=3",
+      "drug=Nutlin|dose_uM=5|plate=B|replicate=1",
+      "drug=SAHA|dose_uM=5|plate=A|replicate=1",
+      "drug=SAHA|dose_uM=5|plate=A|replicate=2",
+      "drug=SAHA|dose_uM=5|plate=A|replicate=3",
+      "drug=SAHA|dose_uM=5|plate=B|replicate=1"
+    ],
+    "genes_sha256": "fa791c3f0eea5a915eab908bbe46c0aad105c8524cc852771712f7b06686a354",
+    "target_expression_opened": false
+  },
+  "checkpoint_tensor_metadata_checks": [
+    {
+      "model": "cpa",
+      "seed": 0,
+      "checkpoint_epoch": 59,
+      "state_tensor_count": 88,
+      "finite_state": true
+    },
+    {
+      "model": "cpa",
+      "seed": 1,
+      "checkpoint_epoch": 73,
+      "state_tensor_count": 88,
+      "finite_state": true
+    },
+    {
+      "model": "cpa",
+      "seed": 2,
+      "checkpoint_epoch": 130,
+      "state_tensor_count": 88,
+      "finite_state": true
+    },
+    {
+      "model": "codex",
+      "seed": 0,
+      "checkpoint_epoch": 956,
+      "state_tensor_count": 18,
+      "finite_state": true
+    },
+    {
+      "model": "codex",
+      "seed": 1,
+      "checkpoint_epoch": 999,
+      "state_tensor_count": 18,
+      "finite_state": true
+    },
+    {
+      "model": "codex",
+      "seed": 2,
+      "checkpoint_epoch": 959,
+      "state_tensor_count": 18,
+      "finite_state": true
+    }
+  ]
+}

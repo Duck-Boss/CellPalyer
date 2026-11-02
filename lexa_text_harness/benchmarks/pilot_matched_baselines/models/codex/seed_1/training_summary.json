@@ -1,0 +1,10 @@
+{
+  "status": "complete_predictions_unscored",
+  "best_epoch": 999,
+  "epochs_ran": 1000,
+  "best_validation_rmse": 0.20002378094659162,
+  "training_wall_seconds": 343.6859811791219,
+  "parameter_count": 3200608,
+  "seed": 1,
+  "test_target_access": false
+}

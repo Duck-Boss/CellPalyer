@@ -1,0 +1,98 @@
+{
+  "status": "prepared",
+  "dataset": "GSE139944 / GSM4150377 sciPlex2 A549 Transcription Modulators",
+  "raw_files": {
+    "counts": {
+      "path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/data/raw/sciplex2/GSM4150377_sciPlex2_A549_Transcription_Modulators_UMI.count.matrix.gz",
+      "size_bytes": 182131666,
+      "sha256": "d295e38924d7b4cab0b9be1087c0ac7aeca2a3dac634359919e85bcc57696685"
+    },
+    "genes": {
+      "path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/data/raw/sciplex2/GSM4150377_sciPlex2_A549_Transcription_Modulators_gene.annotations.txt.gz",
+      "size_bytes": 430187,
+      "sha256": "fb60559c1e17fe2d0c8b903f8ae273aedfb8fd2440f649a432fc2812bce69363"
+    },
+    "cells": {
+      "path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/data/raw/sciplex2/GSM4150377_sciPlex2_A549_Transcription_Modulators_cell.annotations.txt.gz",
+      "size_bytes": 64843,
+      "sha256": "bd3a14187c2d56c87717f74811aad93bf971938adf941ab4d0b30af1645206a4"
+    },
+    "metadata": {
+      "path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/data/raw/sciplex2/GSM4150377_sciPlex2_pData.txt.gz",
+      "size_bytes": 886907,
+      "sha256": "47d6d2a72c907e11b4ebb30ceadf8fd3e7b8fa6ab2a6206550c3b877cefa267f"
+    },
+    "Notebook_1_small_screen_analysis.source.R": {
+      "path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/data/raw/sciplex2/Notebook_1_small_screen_analysis.source.R",
+      "size_bytes": 16175,
+      "sha256": "4d918ef9ed50aeaf755d0ff8f539af579ac2fafe50faf569237cd7f1043b111f"
+    },
+    "author_analysis_provenance.json": {
+      "path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/data/raw/sciplex2/author_analysis_provenance.json",
+      "size_bytes": 854,
+      "sha256": "0faeaf4a49bea6f30e63b3635d55fae9f7425bd23495a7d7a691ef4365d99c7c"
+    }
+  },
+  "protocol": "seen_drug_unseen_dose",
+  "holdout_drug": null,
+  "heldout_doses_uM": {
+    "BMS": 5.0,
+    "Dex": 5.0,
+    "Nutlin": 5.0,
+    "SAHA": 5.0
+  },
+  "normalization": "per-cell sum over all original genes to 10000, then log1p, before HVG selection",
+  "hvg": {
+    "method": "train-only log1p-CP10K variance descending; original annotation order breaks ties",
+    "requested": 2000,
+    "selected": 2000,
+    "min_train_cells_expressed": 10
+  },
+  "feature_namespace": "original unique versioned Ensembl gene IDs",
+  "duplicate_symbols": "not merged; symbol is a display annotation only",
+  "source_population_for_fitted_statistics": "split=train only; no validation/test expression used for gene selection",
+  "baseline_controls": "all quality-passing zero-dose cells, with exact drug+plate+author replicate matching",
+  "replicates": "author culture-well column labels; independence beyond author-defined triplicates unverified",
+  "time_hours": 24,
+  "dose_unit": "uM",
+  "author_source": "https://github.com/cole-trapnell-lab/sci-plex/blob/master/small_screen/Notebook_1_small_screen_analysis.R",
+  "synthetic": false,
+  "not_paper_reproduction": true,
+  "n_raw_cells": 24262,
+  "n_raw_genes": 58347,
+  "n_selected_genes": 2000,
+  "raw_duplicate_symbol_excess": 1699,
+  "count_nnz": 60135001,
+  "split_cell_counts": {
+    "excluded_qc": 14612,
+    "train": 5285,
+    "val": 2742,
+    "test": 1001,
+    "excluded_unassigned": 529,
+    "excluded_invalid_well": 93
+  },
+  "split_condition_well_counts": {
+    "test": 24,
+    "train": 107,
+    "val": 51
+  },
+  "n_conditioning_control_cells": 1409,
+  "case_status_counts": {
+    "ready": 16,
+    "small_sample": 8
+  },
+  "qc": {
+    "min_umi_inclusive": 500,
+    "min_detected_genes_inclusive": 720,
+    "max_mito_pct_inclusive": 10,
+    "hash_assignment": "top_to_second_best_ratio > 10 and qval < 0.01 and hash_umis > 30",
+    "expression_metrics_source": "recomputed from original integer UMI counts",
+    "gene_detection_count": "distinct original Ensembl features, before HVG selection",
+    "mitochondrial_definition": "gene_symbol starts with MT- (case insensitive)"
+  },
+  "excluded_condition_annotations": [
+    "SAHA_100_E09"
+  ],
+  "evaluation_boundary": "evaluation.npz contains held-out targets; fit_lexa and DeepSeek annotation/edit prompts must not read it",
+  "wall_seconds": 18.728
+}

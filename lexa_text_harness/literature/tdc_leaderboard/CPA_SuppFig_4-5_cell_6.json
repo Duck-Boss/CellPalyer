@@ -1,0 +1,23 @@
+{
+  "cell_type": "code",
+  "execution_count": 68,
+  "metadata": {},
+  "outputs": [],
+  "source": [
+    "cpa_api = cpa.api.API(\n",
+    "    adata, \n",
+    "    device='cuda', \n",
+    "    perturbation_key='condition',\n",
+    "    covariate_keys=['cell_type'],\n",
+    "    dose_key='dose_val',\n",
+    "    split_key='split',\n",
+    "    doser_type='logsigm',\n",
+    "    save_dir=os.getcwd(),\n",
+    "    hparams={\n",
+    "        'autoencoder_depth': 2,\n",
+    "        'autoencoder_width': 128,\n",
+    "        'adversary_depth': 2,\n",
+    "    },\n",
+    ")"
+  ]
+}

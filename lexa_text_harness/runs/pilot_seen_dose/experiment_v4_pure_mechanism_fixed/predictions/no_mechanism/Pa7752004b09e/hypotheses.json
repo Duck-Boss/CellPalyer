@@ -1,0 +1,90 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "oxidative stress response",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "TXNRD1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "ALDH1A1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "These detox/redox genes are basally expressed; direction depends on unknown perturbation."
+    },
+    {
+      "id": "H2",
+      "program": "PDE4D/cAMP signaling",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "PDE4D",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "PDE4D is the top expressed feature; mRNA direction cannot be inferred without mechanism."
+    },
+    {
+      "id": "H3",
+      "program": "lncRNA stress/architecture",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MALAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "NEAT1/MALAT1 are highly expressed; stress-linked changes are plausible but direction unknown."
+    },
+    {
+      "id": "H4",
+      "program": "glycolysis/one-carbon metabolism",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "ENO1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "ENO1 is basally expressed; metabolic shifts are context-dependent and mechanism unknown."
+    }
+  ],
+  "summary": "No treatment-specific mechanism is available; all directions are explicitly uncertain and framed as context-dependent hypotheses.",
+  "limitations": [
+    "Perturbation identity and mechanism withheld; no treatment-specific directions can be inferred.",
+    "Only untreated baseline expression is provided; no dose-response or measured responses.",
+    "Inhibiting a protein does not imply lowering its mRNA; transcript-level predictions remain speculative."
+  ]
+}

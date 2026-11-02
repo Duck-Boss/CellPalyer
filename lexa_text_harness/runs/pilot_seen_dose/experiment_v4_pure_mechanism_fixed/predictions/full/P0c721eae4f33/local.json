@@ -1,0 +1,1548 @@
+{
+  "status": "completed",
+  "case_id": "drug=SAHA|dose_uM=5|plate=B|replicate=1",
+  "opaque_id": "P0c721eae4f33",
+  "arm": "full",
+  "stage": "local",
+  "fingerprint": "1dfc357c23ed31b96c456a59f4bc42d8b7122ea7b14873c9f5d3847cdcb72477",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A0/C10"
+      ],
+      "reason": "HDAC inhibition may raise ribosomal/translation transcription; strongest up states."
+    },
+    {
+      "axis_id": 1,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A1/C1"
+      ],
+      "reason": "Acetylation-linked chromatin transcription favors positive chromatin states."
+    },
+    {
+      "axis_id": 2,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A2/C9"
+      ],
+      "reason": "Stress/secretory matrix states plausible under chromatin perturbation."
+    },
+    {
+      "axis_id": 3,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A3/C13"
+      ],
+      "reason": "Chromatin/transcription regulator up states align with HDAC inhibition."
+    },
+    {
+      "axis_id": 4,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H3",
+        "A4/C0"
+      ],
+      "reason": "Aldehyde/ketoreductase-high states plausible via stress program, uncertain."
+    },
+    {
+      "axis_id": 5,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A5"
+      ],
+      "reason": "PDE4/cAMP axis weak and mixed; no supported direction."
+    },
+    {
+      "axis_id": 6,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A6/C10"
+      ],
+      "reason": "Nucleolar/export up states align with increased transcription machinery."
+    },
+    {
+      "axis_id": 7,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A7/C7"
+      ],
+      "reason": "Cytoskeletal/transport up states weakly supported; direction uncertain."
+    },
+    {
+      "axis_id": 8,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A8/C2"
+      ],
+      "reason": "HDAC inhibition may raise chaperone/stress transcription; chaperone-high states favored"
+    },
+    {
+      "axis_id": 9,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A9"
+      ],
+      "reason": "Poorly resolved axis with no consistent theme or mechanism link"
+    },
+    {
+      "axis_id": 10,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A10/C7"
+      ],
+      "reason": "ER/secretory and redox states plausibly responsive to acetylation shifts"
+    },
+    {
+      "axis_id": 11,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A11"
+      ],
+      "reason": "Weakest-varying axis; small effects, no supported direction"
+    },
+    {
+      "axis_id": 12,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A12/C1"
+      ],
+      "reason": "Transport/proliferation states may shift with altered transcription"
+    },
+    {
+      "axis_id": 13,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A13/C6"
+      ],
+      "reason": "Coordinated PDE4D/ABCC3-high states plausibly acetylation-responsive"
+    },
+    {
+      "axis_id": 14,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A14/C2"
+      ],
+      "reason": "Cytoskeletal GTPase-regulator high states favored under HDAC inhibition"
+    },
+    {
+      "axis_id": 15,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A15"
+      ],
+      "reason": "Unclear biology; broad up/down shifts without supported direction"
+    },
+    {
+      "axis_id": 16,
+      "decision": "shift",
+      "targets": [
+        [
+          3,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A16/C3"
+      ],
+      "reason": "HDAC inhibition may raise acetylation-linked keratin/adhesion transcription; states 3/11/4 are keratin-high."
+    },
+    {
+      "axis_id": 17,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H4",
+        "A17/C7"
+      ],
+      "reason": "Glycolytic/energy states 7/11/15 show coordinated up-patterns; indirect metabolic transcription plausible."
+    },
+    {
+      "axis_id": 18,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A18/C4"
+      ],
+      "reason": "Sterol/lipid synthesis states 4 and 11 show strong coordinated up-patterns; acetylation-linked transcription plausible."
+    },
+    {
+      "axis_id": 19,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H3",
+        "A19/C4"
+      ],
+      "reason": "p53 markers are directionally discordant across states; no supported coherent shift."
+    },
+    {
+      "axis_id": 20,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A20/C4"
+      ],
+      "reason": "Lysosomal/secretory states 4/6/11 show coordinated up-patterns; transcription plausible but provisional."
+    },
+    {
+      "axis_id": 21,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A21/C6"
+      ],
+      "reason": "Adhesion/junction states 0/6/13 show strong coordinated up-patterns; acetylation-linked transcription plausible."
+    },
+    {
+      "axis_id": 22,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A22/C7"
+      ],
+      "reason": "Mitochondrial-encoded OXPHOS states 7/8/15 show coordinated up-patterns; direction uncertain but supported."
+    },
+    {
+      "axis_id": 23,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A23/C12"
+      ],
+      "reason": "Regulatory states 2/12/9 show coordinated up-patterns; acetylation-linked transcription plausible."
+    },
+    {
+      "axis_id": 24,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A24/C9"
+      ],
+      "reason": "HDAC inhibition may raise proliferation-linked transcription; states 9/13/10 show coordinated MKI67/TOP2A up."
+    },
+    {
+      "axis_id": 25,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A25/C12"
+      ],
+      "reason": "Acetylation-linked chromatin regulation supports KMT2A/TXNRD1-high states 12/6/13."
+    },
+    {
+      "axis_id": 26,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A26/C1"
+      ],
+      "reason": "MALAT1/NEAT1 direction under HDAC inhibition is unsupported; H1 leaves lncRNA direction uncertain."
+    },
+    {
+      "axis_id": 27,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A27/C2"
+      ],
+      "reason": "Chromatin remodeling may alter EGFR/ECM signaling; high-signal states 2/5/14 are plausible."
+    },
+    {
+      "axis_id": 28,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A28/C10"
+      ],
+      "reason": "Stress/secretory program could respond to HDAC inhibition; states 10/14/6 show coordinated up."
+    },
+    {
+      "axis_id": 29,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A29/C12"
+      ],
+      "reason": "Cytoskeletal/chaperone transcription may shift with acetylation; tubulin-high states 12/3/14."
+    },
+    {
+      "axis_id": 30,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A30/C8"
+      ],
+      "reason": "PRKCA/EPS8 signaling states 8/13/12 show coordinated up; plausible chromatin-linked shift."
+    },
+    {
+      "axis_id": 31,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H3",
+        "A31/C3"
+      ],
+      "reason": "Transport/metabolic program direction under HDAC inhibition is unsupported; H3 leaves it uncertain."
+    }
+  ],
+  "response": {
+    "decisions": [
+      {
+        "axis_id": 0,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A0/C10"
+        ],
+        "reason": "HDAC inhibition may raise ribosomal/translation transcription; strongest up states."
+      },
+      {
+        "axis_id": 1,
+        "decision": "shift",
+        "targets": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A1/C1"
+        ],
+        "reason": "Acetylation-linked chromatin transcription favors positive chromatin states."
+      },
+      {
+        "axis_id": 2,
+        "decision": "shift",
+        "targets": [
+          [
+            9,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A2/C9"
+        ],
+        "reason": "Stress/secretory matrix states plausible under chromatin perturbation."
+      },
+      {
+        "axis_id": 3,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A3/C13"
+        ],
+        "reason": "Chromatin/transcription regulator up states align with HDAC inhibition."
+      },
+      {
+        "axis_id": 4,
+        "decision": "shift",
+        "targets": [
+          [
+            0,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            12,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H3",
+          "A4/C0"
+        ],
+        "reason": "Aldehyde/ketoreductase-high states plausible via stress program, uncertain."
+      },
+      {
+        "axis_id": 5,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A5"
+        ],
+        "reason": "PDE4/cAMP axis weak and mixed; no supported direction."
+      },
+      {
+        "axis_id": 6,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            15,
+            1
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A6/C10"
+        ],
+        "reason": "Nucleolar/export up states align with increased transcription machinery."
+      },
+      {
+        "axis_id": 7,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A7/C7"
+        ],
+        "reason": "Cytoskeletal/transport up states weakly supported; direction uncertain."
+      },
+      {
+        "axis_id": 8,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A8/C2"
+        ],
+        "reason": "HDAC inhibition may raise chaperone/stress transcription; chaperone-high states favored"
+      },
+      {
+        "axis_id": 9,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A9"
+        ],
+        "reason": "Poorly resolved axis with no consistent theme or mechanism link"
+      },
+      {
+        "axis_id": 10,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            15,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A10/C7"
+        ],
+        "reason": "ER/secretory and redox states plausibly responsive to acetylation shifts"
+      },
+      {
+        "axis_id": 11,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A11"
+        ],
+        "reason": "Weakest-varying axis; small effects, no supported direction"
+      },
+      {
+        "axis_id": 12,
+        "decision": "shift",
+        "targets": [
+          [
+            1,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A12/C1"
+        ],
+        "reason": "Transport/proliferation states may shift with altered transcription"
+      },
+      {
+        "axis_id": 13,
+        "decision": "shift",
+        "targets": [
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A13/C6"
+        ],
+        "reason": "Coordinated PDE4D/ABCC3-high states plausibly acetylation-responsive"
+      },
+      {
+        "axis_id": 14,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A14/C2"
+        ],
+        "reason": "Cytoskeletal GTPase-regulator high states favored under HDAC inhibition"
+      },
+      {
+        "axis_id": 15,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A15"
+        ],
+        "reason": "Unclear biology; broad up/down shifts without supported direction"
+      },
+      {
+        "axis_id": 16,
+        "decision": "shift",
+        "targets": [
+          [
+            3,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A16/C3"
+        ],
+        "reason": "HDAC inhibition may raise acetylation-linked keratin/adhesion transcription; states 3/11/4 are keratin-high."
+      },
+      {
+        "axis_id": 17,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H4",
+          "A17/C7"
+        ],
+        "reason": "Glycolytic/energy states 7/11/15 show coordinated up-patterns; indirect metabolic transcription plausible."
+      },
+      {
+        "axis_id": 18,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A18/C4"
+        ],
+        "reason": "Sterol/lipid synthesis states 4 and 11 show strong coordinated up-patterns; acetylation-linked transcription plausible."
+      },
+      {
+        "axis_id": 19,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H3",
+          "A19/C4"
+        ],
+        "reason": "p53 markers are directionally discordant across states; no supported coherent shift."
+      },
+      {
+        "axis_id": 20,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A20/C4"
+        ],
+        "reason": "Lysosomal/secretory states 4/6/11 show coordinated up-patterns; transcription plausible but provisional."
+      },
+      {
+        "axis_id": 21,
+        "decision": "shift",
+        "targets": [
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A21/C6"
+        ],
+        "reason": "Adhesion/junction states 0/6/13 show strong coordinated up-patterns; acetylation-linked transcription plausible."
+      },
+      {
+        "axis_id": 22,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A22/C7"
+        ],
+        "reason": "Mitochondrial-encoded OXPHOS states 7/8/15 show coordinated up-patterns; direction uncertain but supported."
+      },
+      {
+        "axis_id": 23,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A23/C12"
+        ],
+        "reason": "Regulatory states 2/12/9 show coordinated up-patterns; acetylation-linked transcription plausible."
+      },
+      {
+        "axis_id": 24,
+        "decision": "shift",
+        "targets": [
+          [
+            9,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A24/C9"
+        ],
+        "reason": "HDAC inhibition may raise proliferation-linked transcription; states 9/13/10 show coordinated MKI67/TOP2A up."
+      },
+      {
+        "axis_id": 25,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A25/C12"
+        ],
+        "reason": "Acetylation-linked chromatin regulation supports KMT2A/TXNRD1-high states 12/6/13."
+      },
+      {
+        "axis_id": 26,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A26/C1"
+        ],
+        "reason": "MALAT1/NEAT1 direction under HDAC inhibition is unsupported; H1 leaves lncRNA direction uncertain."
+      },
+      {
+        "axis_id": 27,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A27/C2"
+        ],
+        "reason": "Chromatin remodeling may alter EGFR/ECM signaling; high-signal states 2/5/14 are plausible."
+      },
+      {
+        "axis_id": 28,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A28/C10"
+        ],
+        "reason": "Stress/secretory program could respond to HDAC inhibition; states 10/14/6 show coordinated up."
+      },
+      {
+        "axis_id": 29,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A29/C12"
+        ],
+        "reason": "Cytoskeletal/chaperone transcription may shift with acetylation; tubulin-high states 12/3/14."
+      },
+      {
+        "axis_id": 30,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            12,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A30/C8"
+        ],
+        "reason": "PRKCA/EPS8 signaling states 8/13/12 show coordinated up; plausible chromatin-linked shift."
+      },
+      {
+        "axis_id": 31,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H3",
+          "A31/C3"
+        ],
+        "reason": "Transport/metabolic program direction under HDAC inhibition is unsupported; H3 leaves it uncertain."
+      }
+    ],
+    "summary": "Favor chromatin/transcription-up and translation/export-up states under HDAC inhibition; metabolic and cytoskeletal axes weak. | Favor chaperone, ER/secretory, transport and cytoskeletal high states consistent with acetylation-linked transcription; leave poorly resolved axes 9, 11, 15 unknown. | Shift toward coordinated up-pattern states on keratin, glycolytic, sterol, lysosomal, adhesion, OXPHOS and regulatory axes; p53 axis left unknown due to discordant marker directions. | Proliferation, chromatin-regulator, ECM, stress/secretory, cytoskeletal and PRKCA states shifted up under HDAC-inhibition hypotheses; lncRNA and transport axes left unknown due to unsupported direction.",
+    "limitations": [
+      "No measured treatment signature; directions inferred from mechanism only.",
+      "States are unordered and effects are decoder associations.",
+      "Isoform engagement and per-gene direction remain uncertain.",
+      "No measured treatment signature; directions are hypothesis-based.",
+      "State IDs unordered; weights are decoder contributions, not causal.",
+      "State effects are decoder contributions, not causal observations.",
+      "Several axes mix functions and have weak or discordant states.",
+      "State effects are decoder associations, not causal."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 25,
+      "keep": 0,
+      "unknown": 7
+    },
+    "delta_l2": 6.22585493369418,
+    "standardized_delta_rms": 0.16779208704406187,
+    "axis_tv": [
+      0.25617977528089886,
+      0.18876404494382024,
+      0.28314606741573034,
+      0.20898876404494382,
+      0.2258426966292135,
+      0.0,
+      0.22247191011235956,
+      0.27640449438202247,
+      0.16516853932584272,
+      0.0,
+      0.28651685393258425,
+      0.0,
+      0.15842696629213482,
+      0.26629213483146075,
+      0.2966292134831461,
+      0.0,
+      0.28651685393258425,
+      0.23258426966292134,
+      0.2865168539325843,
+      0.0,
+      0.2966292134831461,
+      0.2966292134831461,
+      0.2157303370786517,
+      0.2865168539325843,
+      0.17865168539325843,
+      0.1752808988764045,
+      0.0,
+      0.25280898876404495,
+      0.2932584269662921,
+      0.16853932584269665,
+      0.25617977528089886,
+      0.0
+    ],
+    "mean_axis_tv": 0.18939606741573034,
+    "top_gene_changes": {
+      "up": [
+        {
+          "feature": "ENSG00000186480.12",
+          "delta": 0.57529,
+          "scaled_delta": 0.59952,
+          "symbol": "INSIG1"
+        },
+        {
+          "feature": "ENSG00000259124.1",
+          "delta": 0.53373,
+          "scaled_delta": 0.57849,
+          "symbol": "AC008050.1"
+        },
+        {
+          "feature": "ENSG00000160963.13",
+          "delta": 0.47915,
+          "scaled_delta": 0.57281,
+          "symbol": "COL26A1"
+        },
+        {
+          "feature": "ENSG00000100867.14",
+          "delta": 0.53552,
+          "scaled_delta": 0.57083,
+          "symbol": "DHRS2"
+        },
+        {
+          "feature": "ENSG00000143344.15",
+          "delta": 0.43721,
+          "scaled_delta": 0.55148,
+          "symbol": "RGL1"
+        },
+        {
+          "feature": "ENSG00000103740.9",
+          "delta": 0.40351,
+          "scaled_delta": 0.54863,
+          "symbol": "ACSBG1"
+        },
+        {
+          "feature": "ENSG00000067064.10",
+          "delta": 0.50906,
+          "scaled_delta": 0.54116,
+          "symbol": "IDI1"
+        },
+        {
+          "feature": "ENSG00000159167.11",
+          "delta": 0.39852,
+          "scaled_delta": 0.53264,
+          "symbol": "STC1"
+        },
+        {
+          "feature": "ENSG00000118523.5",
+          "delta": 0.46801,
+          "scaled_delta": 0.52899,
+          "symbol": "CTGF"
+        },
+        {
+          "feature": "ENSG00000123983.13",
+          "delta": 0.52762,
+          "scaled_delta": 0.51573,
+          "symbol": "ACSL3"
+        }
+      ],
+      "down": [
+        {
+          "feature": "ENSG00000267374.1",
+          "delta": -0.01149,
+          "scaled_delta": -0.01281,
+          "symbol": "AC016205.1"
+        }
+      ]
+    },
+    "hypothesis_gene_checks": [
+      {
+        "hypothesis": "H1",
+        "gene": "NEAT1",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.16485448981310868,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H1",
+        "gene": "MALAT1",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.12677055480445237,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H3",
+        "gene": "AKR1B10",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.18290401514101437,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H3",
+        "gene": "AKR1C2",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.23518623501452168,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H3",
+        "gene": "ALDH1A1",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.16831258829588863,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H4",
+        "gene": "PKM",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.20005608474517877,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H4",
+        "gene": "ENO1",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.19717358173567026,
+        "consistent": null
+      }
+    ],
+    "cross_axis_cancellation": [
+      {
+        "feature": "ENSG00000117318.8",
+        "summed_delta": 0.027320628843437875,
+        "absolute_axis_sum": 0.0769151647521468
+      },
+      {
+        "feature": "ENSG00000181019.12",
+        "summed_delta": 0.08516144129562729,
+        "absolute_axis_sum": 0.11436584571669442
+      },
+      {
+        "feature": "ENSG00000067704.9",
+        "summed_delta": 0.07746919732521397,
+        "absolute_axis_sum": 0.09155482959373912
+      },
+      {
+        "feature": "ENSG00000131389.16",
+        "summed_delta": 0.038227465467346296,
+        "absolute_axis_sum": 0.05217056229527127
+      },
+      {
+        "feature": "ENSG00000141232.4",
+        "summed_delta": 0.014432705045202755,
+        "absolute_axis_sum": 0.027410359818034347
+      },
+      {
+        "feature": "ENSG00000134294.13",
+        "summed_delta": 0.11204254926545953,
+        "absolute_axis_sum": 0.12569329251019867
+      }
+    ]
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "3c864a1044671be6d0c9f2d2c6286a15b39e3f9242ba4bb2b115952c67395390",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "4bafe5d53d2b00f671948bae11902902dbdef97e7f362604cc4772591f56c80e",
+      "response_sha256": "91e0306a2e5fdc8718479e778394852cc22eaecc431a83f58f0fa772d787b42c"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "690b429d8dddec45347f6728e81f3c50f4964797ec67ff227be83deee3cef126",
+      "response_sha256": "9f052f6a4d5c812c6c5de1a0aebf3f9fb4431ce42dcfd601cd2752eaef83a9d8"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "de75d8725db5db057ee012cc222bb3def821b168b1e83da10b7731aceb2086d1",
+      "response_sha256": "5be5d823ea7c63a308478f0a5ef208306c43564e9a8c4b9ea4ab32ff9b20622f"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "e38b0598dd5120ee21e08b795f892ee67ff870672e76a0ea007a89fbccb98dd1",
+      "response_sha256": "6c1964902f788bdce2588bfcb37a63fba00642810b112602a67a855592e94744"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "b680d93dae9e9afdcc0ec8823970fe4b8ab3f27e79a1dd3da3e08e082767b969",
+      "response_sha256": "e312e2ffa87a000c3da81c9b31ef9617e5b6cdd42093ea4b4eb23b52a93460b5"
+    }
+  ],
+  "attempts_used": 5,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/full/P0c721eae4f33/local.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "a6e8983bb8db703ea43b60d4b489dbe2138f7233dde81af9054dc8ccb01f8026"
+}

@@ -1,0 +1,91 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "canonical NF-kappa-B-dependent transcription",
+      "direction": "decrease",
+      "basis": "direct",
+      "conditions": "A549, 5 uM, 24 h; requires baseline NF-kappa-B activity",
+      "gene_expectations": [
+        {
+          "gene": "NEAT1",
+          "direction": "decrease"
+        },
+        {
+          "gene": "MALAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "IKK allosteric inhibition blocks I-kappa-B phosphorylation and nuclear NF-kappa-B transcription."
+    },
+    {
+      "id": "H2",
+      "program": "NF-kappa-B target inflammatory/antiapoptotic output",
+      "direction": "decrease",
+      "basis": "secondary",
+      "conditions": "only if NF-kappa-B pathway is basally active in A549",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M",
+        "C"
+      ],
+      "reason": "Downstream target transcripts may fall, but no measured response or target list is supplied."
+    },
+    {
+      "id": "H3",
+      "program": "IKK/CHUK-IKBKB transcript levels",
+      "direction": "uncertain",
+      "basis": "direct",
+      "conditions": "unknown; kinase inhibition does not imply transcript change",
+      "gene_expectations": [
+        {
+          "gene": "CHUK",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "IKBKB",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Allosteric inhibition is post-translational; mRNA direction is not established."
+    },
+    {
+      "id": "H4",
+      "program": "oxidative-stress / aldo-keto reductase and glycolytic metabolism",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549 baseline high AKR1B10/AKR1C/PKM/ENO1; effect unknown",
+      "gene_expectations": [
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "TXNRD1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "These are highly expressed baseline features; no mechanism link to IKK inhibition is supplied."
+    }
+  ],
+  "summary": "Direct expectation is reduced canonical NF-kappa-B transcription via IKK inhibition; magnitude and secondary metabolic effects are uncertain in A549 at 5 uM/24 h.",
+  "limitations": [
+    "No measured perturbation response, dose trajectory, or target gene list supplied.",
+    "Baseline NF-kappa-B activity in A549 is not quantified in the context.",
+    "Kinase inhibition does not predict direction of its own or downstream mRNA changes."
+  ]
+}

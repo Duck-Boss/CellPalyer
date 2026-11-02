@@ -1,0 +1,92 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "chromatin acetylation-dependent transcription",
+      "direction": "increase",
+      "basis": "direct",
+      "conditions": "A549, 5 uM, 24 h; pan-HDAC inhibition",
+      "gene_expectations": [
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MALAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "SAHA inhibits HDAC catalytic activity, raising acetylation and potentially altering transcription; direction per gene is unknown."
+    },
+    {
+      "id": "H2",
+      "program": "HDAC transcript abundance",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "unknown; transcript-level feedback not established",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Enzyme inhibition does not imply lowered mRNA; HDAC transcript changes are secondary and unmeasured."
+    },
+    {
+      "id": "H3",
+      "program": "oxidative/aldehyde metabolism and stress-response genes",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549 context; AKR1B10/AKR1C2/ALDH1A1 highly expressed",
+      "gene_expectations": [
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "ALDH1A1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C",
+        "M"
+      ],
+      "reason": "These are abundant in untreated A549; HDAC inhibition may perturb stress programs but direction is unsupported."
+    },
+    {
+      "id": "H4",
+      "program": "glycolytic metabolism",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549 context; PKM/ENO1 expressed",
+      "gene_expectations": [
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "ENO1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C",
+        "M"
+      ],
+      "reason": "Chromatin changes could indirectly affect metabolic transcription; no measured signature supports a direction."
+    }
+  ],
+  "summary": "SAHA directly inhibits HDAC catalytic activity, plausibly increasing acetylation-linked transcription, but specific gene directions in A549 at 5 uM/24 h are unmeasured and uncertain.",
+  "limitations": [
+    "No measured treatment response or dose trajectory provided.",
+    "Isoform engagement and homologue-based structural evidence limit inference.",
+    "Per-gene transcriptional direction from HDAC inhibition is context dependent."
+  ]
+}

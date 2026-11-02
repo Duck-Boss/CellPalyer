@@ -1,0 +1,115 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "oxidative phosphorylation / mitochondrial respiration",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "MT-CO3",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MT-CYB",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "High baseline mitochondrial transcripts; hidden mechanism prevents directional prediction."
+    },
+    {
+      "id": "H2",
+      "program": "glycolysis / pentose phosphate flux",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "G6PD",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "PKM and G6PD are expressed in controls; no mechanism to infer direction."
+    },
+    {
+      "id": "H3",
+      "program": "aldehyde/ketone oxidoreductase detoxification",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "ALDH1A1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Detoxification genes are basally expressed; treatment effect unknown."
+    },
+    {
+      "id": "H4",
+      "program": "cAMP phosphodiesterase signaling",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "PDE4D",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "PDE4D is the top expressed feature; no mechanism supplied to orient change."
+    },
+    {
+      "id": "H5",
+      "program": "lncRNA stress/transcriptional response",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MALAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "NEAT1/MALAT1 are abundant; stress-response direction cannot be inferred."
+    }
+  ],
+  "summary": "Mechanism withheld; only baseline A549 expression is known, so all programs are directionally uncertain.",
+  "limitations": [
+    "No treatment-specific response or dose trajectory provided.",
+    "Perturbation identity and mechanism hidden; no mechanism refs.",
+    "Baseline expression alone cannot establish causal direction."
+  ]
+}

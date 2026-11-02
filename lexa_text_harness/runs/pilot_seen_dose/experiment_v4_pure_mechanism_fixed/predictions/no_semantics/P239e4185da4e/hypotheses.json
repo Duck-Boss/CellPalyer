@@ -1,0 +1,65 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "NF-kappa-B transcriptional activity",
+      "direction": "decrease",
+      "basis": "direct",
+      "conditions": "A549, dexamethasone 5 uM, 24 h; GR-competent cells",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "GR transrepression can antagonize NF-kappa-B activity; magnitude gene-dependent."
+    },
+    {
+      "id": "H2",
+      "program": "glucocorticoid receptor transcriptional activation",
+      "direction": "increase",
+      "basis": "direct",
+      "conditions": "A549, dexamethasone 5 uM, 24 h; requires accessible GREs/cofactors",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Ligand-activated GR drives transcription at responsive loci; no signed gene list supplied."
+    },
+    {
+      "id": "H3",
+      "program": "NR3C1 mRNA level",
+      "direction": "uncertain",
+      "basis": "direct",
+      "conditions": "A549, dexamethasone 5 uM, 24 h",
+      "gene_expectations": [
+        {
+          "gene": "NR3C1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Receptor activation does not imply NR3C1 mRNA change; direction unknown."
+    },
+    {
+      "id": "H4",
+      "program": "context-dependent secondary transcriptional remodeling",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549 chromatin/cofactor context; unknown",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M",
+        "C"
+      ],
+      "reason": "Downstream effects depend on receptor abundance and chromatin; no A549 profile supplied."
+    }
+  ],
+  "summary": "Dexamethasone likely activates GR and may transrepress NF-kappa-B, but gene-level directions in A549 are unmeasured and uncertain.",
+  "limitations": [
+    "No A549 treatment expression profile or signed gene list supplied.",
+    "Anonymous features cannot be mapped to genes.",
+    "Receptor abundance/chromatin/cofactor context may alter direction and magnitude."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "transcriptional response to unknown perturbation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Perturbation identity and mechanism are withheld, so no treatment-specific direction can be inferred."
+    },
+    {
+      "id": "H2",
+      "program": "stress-responsive / cytostatic gene programs",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549, 24 h exposure; only if perturbation is cytotoxic or cytostatic",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "A549 context alone does not establish stress induction; direction depends on unknown mechanism."
+    },
+    {
+      "id": "H3",
+      "program": "baseline-expressed features in untreated A549",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "untreated control context only",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Feature semantics are withheld, so no gene-level expectations can be assigned to anonymous features."
+    }
+  ],
+  "summary": "No treatment-specific transcriptional direction is knowable; hypotheses remain explicitly uncertain pending mechanism disclosure.",
+  "limitations": [
+    "Perturbation identity and mechanism withheld; no dose-response or measured response data.",
+    "Feature-to-gene mapping withheld, preventing gene-level predictions.",
+    "Single cell line and timepoint; context dependencies cannot be resolved."
+  ]
+}

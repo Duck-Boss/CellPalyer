@@ -1,0 +1,112 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-26T12:40:07.966922+00:00",
+  "posthoc_observed_response_diagnostic": true,
+  "not_prediction": true,
+  "contains_training_cells": true,
+  "inputs_sha256": {
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/lexa/best.pt": "236afd12bb239736ca787002bf46969c51b507f6599a74c0e492bccdbb66399e",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/prepared/prepared.npz": "920fb717e80976fb18f5557a17545689048a40972147de8ce3a304c1640d2106",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/prepared/evaluation.npz": "42cdc42755f47eaea134ba1898ca56616d16dfa73839944ef961c90fd649a193",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/prepared/metadata.csv": "87ada983037aeb16b6ecd49a65cf17b53a94dbbb47598034f1c9ecd04d20304f",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/lexa/exact_code_effects.npz": "5bd0da54ddcceae0a4ea40d2f260b4d2acbd7b2d7a2eb2da97caeb75efb117fd",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/lexa/labels.json": "5ee78dadc0b1aaf061f3a023390644e0228b9c7e7faf737329cbb8dab8c3dde9",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/analyze_codec_changes.py": "0d2cd8317db2b3ba34714a6c08fb5e1ce65223704b727f7e1c49fbbed358a95e"
+  },
+  "samples": {
+    "n_unique_cells": 9028,
+    "n_genes": 2000,
+    "axes": 32,
+    "states": 16,
+    "archive_input_counts": {
+      "train": 5285,
+      "val": 2742,
+      "conditioning_control": 1409,
+      "test": 1001,
+      "evaluation_control": 1409
+    },
+    "identical_duplicates_removed": 2818,
+    "cell_splits": {
+      "train": 5285,
+      "val": 2742,
+      "test": 1001
+    },
+    "n_ready_cases": 111,
+    "n_low_sample_cases": 56,
+    "n_conditions": 25,
+    "n_valid_annotated_treatment_wells": 167,
+    "n_zero_qc_treatment_wells": 9,
+    "n_annotated_conditions": 28,
+    "invalid_annotated_treatment_wells": [
+      "SAHA_100_E09"
+    ],
+    "ready_treated_cells": 6644,
+    "ready_unique_control_cells": 1396
+  },
+  "invariants": {
+    "max_abs_cell_additive_reconstruction_error": 1.3633398339152336e-06,
+    "max_abs_occupancy_decomposition_error": 4.413483036813659e-07,
+    "identical_duplicate_expression": true,
+    "normalized_occupancy": true,
+    "old_5uM_diagnostic_consistency": {
+      "status": "passed",
+      "n_old_cases": 16,
+      "max_abs_error_by_metric": {
+        "n_genes": 0.0,
+        "delta_rmse": 0.0,
+        "zero_edit_delta_rmse": 0.0,
+        "delta_pearson": 0.0,
+        "delta_cosine": 0.0,
+        "direction_threshold": 0.0,
+        "n_direction_genes": 0.0,
+        "direction_agreement": 0.0,
+        "actual_delta_l2": 0.0,
+        "reconstructed_delta_l2": 0.0,
+        "response_l2_ratio": 0.0,
+        "response_projection_slope": 0.0
+      },
+      "reference_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v2_feedback/representation_diagnostic.json",
+      "reference_sha256": "f60bc7f14b672846640ec8ca85f510b8182c09aa0fac86bc1c92d574d833effe"
+    }
+  },
+  "definitions": {
+    "match": "same drug + plate + author replicate zero-dose control",
+    "min_group_cells": 20,
+    "occupancy": "cell fraction in each categorical axis/state",
+    "total_variation": "0.5 * sum_s abs(p_treated-p_control)",
+    "js_divergence_base2": "0.5*KL_base2(p_control||m)+0.5*KL_base2(p_treated||m), m=(p_control+p_treated)/2",
+    "axis_gene_delta": "sum_s (p_treated-p_control)*exact_axis_state_gene_contribution",
+    "condition_aggregation": "eligible culture wells equally weighted, then metrics computed on averaged vectors; reconstruction MSE averaged equally over wells",
+    "condition_metric_columns": "unprefixed metrics and mean_vector_* describe equally averaged delta vectors; mean_well_* average per-well metrics; total_variation uses mean occupancy whereas mean_well_total_variation averages per-well TV",
+    "delta_fraction_well_sd": "Sample SD (ddof=1) across included well-specific treated-minus-control fractions; NaN for one well",
+    "seen_in_training": "case: treatment cells are in train split; condition: at least one included treatment well is train",
+    "condition_seen_in_training": "drug-dose has any train treatment cells, including wells not passing analysis sample threshold",
+    "n_control_condition": "sum of control group sizes over included wells; same controls can recur across doses",
+    "top100": "100 largest absolute observed delta genes, not statistically significant DEGs",
+    "gene_units": "log1p(CP10K), whole-gene normalization then train-only selection of 2000 features"
+  },
+  "limitations": [
+    "Observed group comparison only; no same-cell before/after pairing or inferred transition matrix.",
+    "Code IDs are categorical, not numerical activity or dose scales.",
+    "All available doses include train/val; these curves are descriptive, not generalization estimates.",
+    "Author replicate labels are culture-well labels, not established independent biological replicates.",
+    "Cell-level significance and causal mechanisms are not established.",
+    "Condition occupancy/means do not determine full joint single-cell distributions.",
+    "Low-sample groups are excluded and selection can depend on drug response/viability."
+  ],
+  "outputs_sha256": {
+    "case_arrays.npz": "f2d2e5a8d3d391853ab57c69b9634434b9edfb561f83524ecd991f4da4808b2a",
+    "case_axis_changes.csv": "2e3b079b009d256755d546095675fcc76828ac7a37fa252a9b85c2114081ac26",
+    "case_codec_metrics.csv": "9637b3d5a6d09fbcdf2e7abf5276ddd7fa746f3ff34b3dd039c988d1d498b67f",
+    "case_state_occupancy.csv": "276e26a7b3e785c714b8b5199a5b86e6a6ee8808b72b09f39fe0efbcf6406eec",
+    "cell_codes.npz": "a7b580c9588411d2fe34e9fc7ee49c3c1cdb1ce554cc7d515c0ce4ea0e19c774",
+    "cell_metadata.csv": "cf126b4ff2302e1ec6be12015d6058e0996a3c0a38bdbff424c73c667ea0504a",
+    "condition_axis_changes.csv": "3c4fc1fb261bdf228d5a40e76f1c20d54343b21b1e5e9203cc12c4e5467a574f",
+    "condition_codec_metrics.csv": "236f3acfa82efedff16e65dc587ccf2d524cc1e04fad473c97d98ff09478d6c2",
+    "condition_eligibility.csv": "e4a2644b7343c660706b6bd0b629fe51b3994faaf03ad4b4969e5be51234fbc7",
+    "condition_gene_deltas.npz": "8ca853fa657a67af6427e236b2b4c09f55ceeaab9cdeda4d1319b89623d57ff1",
+    "condition_state_occupancy.csv": "11ad55ddd8705f3c415153f65ea7f1344119980d18be44656d1f46213a2b353c",
+    "low_sample_exclusions.csv": "f76875d6e5660db900a956cbbb639982ee91fe16ce25dc56df4867766b8308d2",
+    "ready_cases.csv": "e5a0401516921e5783a2f5d3c2c9a740f7af3fbe0956b4b67b24d2997325ed33"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "status": "complete",
+  "n_wells": 16,
+  "n_genes": 2000,
+  "n_treated": 786,
+  "units": "log1p(CP10K)",
+  "target_for_every_row": "Observed treated population mean for the same matched well",
+  "aggregation": "Per-well RMSE across2000genes, equal wells per drug, then equal four drugs",
+  "methods": {
+    "observed_control_unchanged": "mean(control)",
+    "decoded_control_unchanged": "mean(D(E(control)))",
+    "decoded_true_treated": "mean(D(E(treated)))",
+    "agent_direct_decoded": "mean(D(E(control))) + predicted_decoder_delta = mean(D(predicted_codes))",
+    "agent_observed_control_anchored": "mean(control) + predicted_decoder_delta; previous prediction-table convention",
+    "true_treated_observed_control_anchored": "mean(control) + mean(D(E(treated))) - mean(D(E(control))); previous codec delta convention"
+  },
+  "overall_rmse": {
+    "agent_direct_decoded": 0.1752331005609385,
+    "agent_observed_control_anchored": 0.21202336522155468,
+    "decoded_control_unchanged": 0.328794691185683,
+    "decoded_true_treated": 0.15089703343273747,
+    "observed_control_unchanged": 0.3557237161867365,
+    "true_treated_observed_control_anchored": 0.18977779152282112
+  },
+  "by_drug": [
+    {
+      "method": "agent_direct_decoded",
+      "drug": "BMS",
+      "rmse_to_observed_treated_mean": 0.3193949353527553
+    },
+    {
+      "method": "agent_direct_decoded",
+      "drug": "Dex",
+      "rmse_to_observed_treated_mean": 0.11884160894773
+    },
+    {
+      "method": "agent_direct_decoded",
+      "drug": "Nutlin",
+      "rmse_to_observed_treated_mean": 0.12274342981637326
+    },
+    {
+      "method": "agent_direct_decoded",
+      "drug": "SAHA",
+      "rmse_to_observed_treated_mean": 0.13995242812689537
+    },
+    {
+      "method": "agent_observed_control_anchored",
+      "drug": "BMS",
+      "rmse_to_observed_treated_mean": 0.3348522558110133
+    },
+    {
+      "method": "agent_observed_control_anchored",
+      "drug": "Dex",
+      "rmse_to_observed_treated_mean": 0.17411978964291214
+    },
+    {
+      "method": "agent_observed_control_anchored",
+      "drug": "Nutlin",
+      "rmse_to_observed_treated_mean": 0.16339343397974965
+    },
+    {
+      "method": "agent_observed_control_anchored",
+      "drug": "SAHA",
+      "rmse_to_observed_treated_mean": 0.1757279814525436
+    },
+    {
+      "method": "decoded_control_unchanged",
+      "drug": "BMS",
+      "rmse_to_observed_treated_mean": 0.4827271492469716
+    },
+    {
+      "method": "decoded_control_unchanged",
+      "drug": "Dex",
+      "rmse_to_observed_treated_mean": 0.17147916536210517
+    },
+    {
+      "method": "decoded_control_unchanged",
+      "drug": "Nutlin",
+      "rmse_to_observed_treated_mean": 0.20336568180860476
+    },
+    {
+      "method": "decoded_control_unchanged",
+      "drug": "SAHA",
+      "rmse_to_observed_treated_mean": 0.4576067683250505
+    },
+    {
+      "method": "decoded_true_treated",
+      "drug": "BMS",
+      "rmse_to_observed_treated_mean": 0.24493563406239932
+    },
+    {
+      "method": "decoded_true_treated",
+      "drug": "Dex",
+      "rmse_to_observed_treated_mean": 0.11217265258559815
+    },
+    {
+      "method": "decoded_true_treated",
+      "drug": "Nutlin",
+      "rmse_to_observed_treated_mean": 0.11315918473641318
+    },
+    {
+      "method": "decoded_true_treated",
+      "drug": "SAHA",
+      "rmse_to_observed_treated_mean": 0.1333206623465392
+    },
+    {
+      "method": "observed_control_unchanged",
+      "drug": "BMS",
+      "rmse_to_observed_treated_mean": 0.49617499222028505
+    },
+    {
+      "method": "observed_control_unchanged",
+      "drug": "Dex",
+      "rmse_to_observed_treated_mean": 0.21230533216517197
+    },
+    {
+      "method": "observed_control_unchanged",
+      "drug": "Nutlin",
+      "rmse_to_observed_treated_mean": 0.2336017588652866
+    },
+    {
+      "method": "observed_control_unchanged",
+      "drug": "SAHA",
+      "rmse_to_observed_treated_mean": 0.48081278149620227
+    },
+    {
+      "method": "true_treated_observed_control_anchored",
+      "drug": "BMS",
+      "rmse_to_observed_treated_mean": 0.26435517475332454
+    },
+    {
+      "method": "true_treated_observed_control_anchored",
+      "drug": "Dex",
+      "rmse_to_observed_treated_mean": 0.17118584204819776
+    },
+    {
+      "method": "true_treated_observed_control_anchored",
+      "drug": "Nutlin",
+      "rmse_to_observed_treated_mean": 0.15539816718929336
+    },
+    {
+      "method": "true_treated_observed_control_anchored",
+      "drug": "SAHA",
+      "rmse_to_observed_treated_mean": 0.1681719821004688
+    }
+  ],
+  "direct_agent_rmse_reduction_vs_decoded_unchanged_pct": 46.704400874289774,
+  "verification_max_agent_anchored_difference_from_prior_float32_score": 1.2332244642143664e-08,
+  "source_sha256": {
+    "cell_codes.npz": "a7b580c9588411d2fe34e9fc7ee49c3c1cdb1ce554cc7d515c0ce4ea0e19c774",
+    "cases.json": "493aa96ab615615a046148cf85ee57b68c5d2ea86b72443440de78e5e7d8b8c1",
+    "prediction_seal.json": "1057a9e6b435533bbb1b1dc7c075d35061f3cdfb61a6caf58a3a765cab8a35c1"
+  },
+  "limitations": [
+    "Control and treated cells are unpaired; comparison uses group means, not paired single cells.",
+    "Direct decoder outputs and observed-control-anchored outputs have different reconstruction bias.",
+    "Encoding true treated cells is a diagnostic using the answer, not a perturbation predictor or strict error bound."
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "oxidative stress response",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "TXNRD1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "TXNRD1 and NEAT1 are expressed in untreated A549; stress-responsive but direction depends on unknown mechanism."
+    },
+    {
+      "id": "H2",
+      "program": "aldehyde/ketone metabolism",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1C3",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        }
+      ],
+      "reason": "AKR1 family highly expressed at baseline; perturbation could shift detoxification capacity either way.",
+      "evidence_refs": [
+        "C"
+      ]
+    },
+    {
+      "id": "H3",
+      "program": "glycolysis",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        }
+      ],
+      "reason": "PKM is basally expressed; metabolic flux changes are plausible but direction is not inferable.",
+      "evidence_refs": [
+        "C"
+      ]
+    },
+    {
+      "id": "H4",
+      "program": "cAMP/PDE4D signaling",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "PDE4D",
+          "direction": "uncertain"
+        }
+      ],
+      "reason": "PDE4D is the top expressed feature; mRNA direction cannot be inferred from an opaque perturbation.",
+      "evidence_refs": [
+        "C"
+      ]
+    },
+    {
+      "id": "H5",
+      "program": "mitochondrial oxidative phosphorylation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "MT-CO3",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MT-CYB",
+          "direction": "uncertain"
+        }
+      ],
+      "reason": "High baseline mitochondrial transcripts; stress or metabolic perturbation may alter them bidirectionally.",
+      "evidence_refs": [
+        "C"
+      ]
+    }
+  ],
+  "summary": "No treatment-specific mechanism is available; all hypotheses are explicitly uncertain and anchored only to untreated A549 baseline expression.",
+  "limitations": [
+    "Perturbation identity and mechanism withheld; no treatment-specific directions can be inferred.",
+    "Only untreated context C is available; no dose-response or measured response data.",
+    "mRNA direction need not follow protein activity for inhibited targets."
+  ]
+}

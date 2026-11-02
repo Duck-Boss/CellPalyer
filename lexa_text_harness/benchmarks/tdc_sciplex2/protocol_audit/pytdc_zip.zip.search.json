@@ -1,0 +1,22 @@
+[
+  {
+    "path": "PyTDC-main/tdc_ml/dataset_configs/config_map.py",
+    "line": 7,
+    "text": "    \"scperturb_drug_SrivatsanTrapnell2020_sciplex2\","
+  },
+  {
+    "path": "PyTDC-main/tdc_ml/metadata.py",
+    "line": 168,
+    "text": "    \"scperturb_drug_SrivatsanTrapnell2020_sciplex2\","
+  },
+  {
+    "path": "PyTDC-main/tdc_ml/metadata.py",
+    "line": 867,
+    "text": "    \"scperturb_drug_SrivatsanTrapnell2020_sciplex2\": \"h5ad\","
+  },
+  {
+    "path": "PyTDC-main/tdc_ml/metadata.py",
+    "line": 1076,
+    "text": "    \"scperturb_drug_SrivatsanTrapnell2020_sciplex2\": 9845394,"
+  }
+]

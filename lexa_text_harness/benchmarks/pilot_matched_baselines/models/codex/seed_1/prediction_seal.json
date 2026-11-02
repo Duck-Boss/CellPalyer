@@ -1,0 +1,12 @@
+{
+  "created_unix": 1793084476.4514132,
+  "test_target_access": false,
+  "files": {
+    "config.json": "01ec38c99ea83c0bd7b3f039755ce9289c029c3fe4e965ac431f69c67e6b4f2b",
+    "best.pt": "6bbf7e440ca3b9d4025023dde4382b2044f1a238a9d269e0e389fcd9a37a83b9",
+    "training.csv": "ccdb1cdfea6ee36387253b5ec8da45816532307c685c089db074712d57fc6dc4",
+    "predictions.npz": "aca07a173534dee572f5d702904186df17d523ad737f3cc68a69d41bf74fc128",
+    "training_summary.json": "deeabeb073b6d5e2267c3ab8ef0821a4fb433324d2e4eaf55ea7900efcfd7762"
+  },
+  "adapter_sha256": "b148f8b9b58b2f3d9f47bc74f4db56ab3a5b2102fbca2e480a4b4a35d9476393"
+}

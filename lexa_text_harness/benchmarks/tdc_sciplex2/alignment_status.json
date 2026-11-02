@@ -1,0 +1,60 @@
+{
+  "status": "official_protocol_not_recovered",
+  "goal": "Comparable official TDC sciPlex2 unseen-chemical leaderboard evaluation of LEXA+DeepSeek",
+  "official_leaderboard": "https://tdcommons.ai/benchmark/counterfactual_group/scperturb_drug_SrivatsanTrapnell2020_sciplex2/",
+  "official_reference": {
+    "model": "ChemCPA",
+    "BMS_R2": [
+      0.906,
+      0.006
+    ],
+    "Dex_R2": [
+      0.54,
+      0.013
+    ],
+    "Nutlin_R2": [
+      0.835,
+      0.009
+    ],
+    "SAHA_R2": [
+      0.69,
+      0.021
+    ],
+    "mean_reported": 0.743
+  },
+  "known_requirements": {
+    "task": "unseen chemical perturbation, not unseen dose",
+    "metric": "Published R-squared; exact feature/normalization/dose/control/scorer invocation still needs original experiment archive",
+    "independent_runs_minimum": 5,
+    "old_checkpoint_eligible": false,
+    "old_feature_selection_eligible": false,
+    "public_submission_performed": false,
+    "four_drug_fold_recipe": "Not yet recovered from publication archive; do not invent split then call it official"
+  },
+  "pending": [
+    "Exact processed dataset/version and feature space",
+    "Exact loader/scorer release/commit and four drug splits",
+    "Exact reference checkpoint/training/evaluation recipe",
+    "Allowed control subsets and dose aggregation",
+    "Pin dependency compatibility before matching scorer",
+    "Fresh fold-specific codec/labels, independent seeds, then sealed predictions"
+  ],
+  "current_result_status": "No official benchmark scores computed; no new training or DeepSeek calls started",
+  "is_leaderboard_ready": false,
+  "official_api_audit": "protocol_audit/audit_results.json",
+  "raw_reproduction_archive_access": "Current environment cannot reach Google Drive; permissions/existence unknown",
+  "reference_package": "PyTDC 1.1.15, PyPI SHA verified",
+  "data_download": "Official scPerturb Zenodo source complete and published MD5 verified; TDC copy byte equivalence still unverified",
+  "pending_user_scope": "Resolved by latest user correction: any horizontally comparable existing leaderboard is acceptable; do not rerun now.",
+  "source_metadata": {
+    "report": "data/source_metadata_report.json",
+    "n_obs": 24262,
+    "n_vars": 58347,
+    "sha256": "0adabca03632ac9421a769fc9eaa4178447d4d572f4c2c54e4fde93a81acde67",
+    "expression_values_loaded": false
+  },
+  "last_recovery_attempt": "protocol_audit/final_recovery_attempt.json",
+  "alternative_published_protocol": "CPA/CODEX source recovered; original processed GSM_new.h5ad still unavailable; see literature/tdc_leaderboard/CPA_CODEX_reproduction_findings.txt",
+  "active_processes": "No model training or DeepSeek calls; bounded source downloads exited",
+  "execution_directive": "User explicitly said do not rerun yet; only select an existing comparable leaderboard/benchmark. No training, DeepSeek calls or experiments until user asks to proceed."
+}

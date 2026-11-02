@@ -1,0 +1,72 @@
+{
+  "model": "CODEXDose author architecture",
+  "author_commit": "0e5f8ff3b10d21b582cf91ea6cf5398fe8eeab99",
+  "author_files": {
+    "literature/tdc_leaderboard/CODEX-master/codex/CODEX_Dose.py": "820c3e56e7eb54ff32b772cd113edded1f04d2937b6c1478f70bc32b3beb4fbd",
+    "literature/tdc_leaderboard/CODEX-master/codex/Network_base.py": "c0862055cbfccf65e2ab0a77f4063abf6673ce357db702a3f3f0c6c87c658145"
+  },
+  "adapter_sha256": "b148f8b9b58b2f3d9f47bc74f4db56ab3a5b2102fbca2e480a4b4a35d9476393",
+  "seed": 1,
+  "device": "cpu",
+  "threads": 4,
+  "layers": [
+    512,
+    128,
+    64
+  ],
+  "batch_size": 1024,
+  "learning_rate": 0.0001,
+  "weight_decay": 1e-06,
+  "dropout": 0.0,
+  "batch_norm": false,
+  "fine_tuning": false,
+  "epochs_maximum": 1000,
+  "patience_epochs": 50,
+  "loss": "torch.nn.GaussianNLLLoss, mean reduction",
+  "selection": "validation drug-macro condition-mean all-gene absolute RMSE (no OOD outcomes)",
+  "drug_order": [
+    "BMS",
+    "Dex",
+    "Nutlin",
+    "SAHA"
+  ],
+  "dose_scale_uM_from_train": 100.0,
+  "n_train": 5285,
+  "n_train_treated": 4375,
+  "n_val": 2742,
+  "n_val_treated": 2243,
+  "n_genes": 2000,
+  "n_prediction_cases": 16,
+  "adaptations": [
+    "Author CODEXDose layers and GaussianNLLLoss reused without modification; isolated CPU training wrapper.",
+    "Frozen pilot 2000-gene log1pCP10K input and existing train/val/well split replace author's 4999-gene 50uM protocol.",
+    "Training control cells sampled with replacement within same drug+plate+replicate to match each treated batch size; no single-cell pairing assumed.",
+    "Only train/validation outcomes used for fitting and selection; author's evaluate_r2/fit_DNMLVAE_ES not called.",
+    "All training treated cells retained including final incomplete batch; no test-condition filtering by model performance.",
+    "For supplemental calibrated delta, exact zero-dose inference explicitly routes to the case's trained drug branch."
+  ],
+  "input_files": {
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/prepared/prepared.npz": "920fb717e80976fb18f5557a17545689048a40972147de8ce3a304c1640d2106",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/prepared/metadata.csv": "87ada983037aeb16b6ecd49a65cf17b53a94dbbb47598034f1c9ecd04d20304f",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/benchmarks/pilot_matched_baselines/data/prediction_cases.json": "5a6a778887a9c6fa8ab70605b8b06c85f260aebe3b65aecc19e4497d66cd2894"
+  },
+  "prediction_control_cell_ids_sha256": {
+    "drug=BMS|dose_uM=5|plate=A|replicate=1": "8ed408d6345c13ed768baa1192efeb3e6787e0ed5926a7aeeeadf85590c8a3ff",
+    "drug=Dex|dose_uM=5|plate=A|replicate=1": "28e7ae1bdf48af98073dfc6604b2c12bf608107e9a9a2bdeb3e82403409a43d0",
+    "drug=Nutlin|dose_uM=5|plate=A|replicate=1": "a43f5dccaab858b8df6a65b31fb6ef794caf429bbe567be9a83a29958edbbd57",
+    "drug=SAHA|dose_uM=5|plate=A|replicate=1": "4fbf1c262436b736996b24bcb40a57a23f72f4c790963eb388d65974c0b649c0",
+    "drug=BMS|dose_uM=5|plate=A|replicate=2": "2e13104d56a60b4cbaa6b9ddcd21d6e42ae01f7bbd4e16fde51abeef2de93239",
+    "drug=Dex|dose_uM=5|plate=A|replicate=3": "5b7c540d2400ccf0f0452aae8142db342dcee1732a4c2f5012cb6ac6591d4592",
+    "drug=Nutlin|dose_uM=5|plate=A|replicate=2": "067083aae665d706a2d46f0f5ba5b537c28815bdd28c8d44e0235dab8baaef17",
+    "drug=SAHA|dose_uM=5|plate=A|replicate=2": "724e2841acfffb80eb296c0445a03921ac9ef0d4d35901c999a21c3286e5b7fa",
+    "drug=BMS|dose_uM=5|plate=B|replicate=2": "1d1653b82ec2083e2a87d4523fadcb39cfd9191f3228f00c01859b7f6a1b7e50",
+    "drug=Dex|dose_uM=5|plate=B|replicate=2": "7461f2efa891a72eff3d60e36cb0de84abe3e4bf65644de781bc7adce00296c6",
+    "drug=Nutlin|dose_uM=5|plate=A|replicate=3": "a07004658513a1dabfbafdc51a4d3991264107714b629c262a7f6f6a5935d823",
+    "drug=SAHA|dose_uM=5|plate=A|replicate=3": "80dc38a1c9982e1c2ea44774047f26e0d9a3d966b7c242d5c97c3fc4574cc26c",
+    "drug=BMS|dose_uM=5|plate=B|replicate=3": "ef5baea3446a180c2dafce962f2a87523d39924055400175f403087f8d8f01eb",
+    "drug=Dex|dose_uM=5|plate=B|replicate=3": "7e181aa588b9e0ec5f96eb618d142d2c6fda14ef8fae655c98600508f180c018",
+    "drug=Nutlin|dose_uM=5|plate=B|replicate=1": "f2d02f43ba7e724012ce6efa0d2dd9d7605c626f0657604b0ef99a452e0946bd",
+    "drug=SAHA|dose_uM=5|plate=B|replicate=1": "184ebf9965cc33bdc1e9c6360ea70ffc2278afae75910ba777582874fd7b4da0"
+  },
+  "test_target_access": false
+}

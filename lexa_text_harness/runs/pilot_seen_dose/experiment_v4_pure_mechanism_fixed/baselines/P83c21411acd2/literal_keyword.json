@@ -1,0 +1,299 @@
+{
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A0"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 1,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A1"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 2,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A2"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 3,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A3"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 4,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A4"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 5,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A5"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 6,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A6"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 7,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A7"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 8,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A8"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 9,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A9"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 10,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A10"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 11,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A11"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 12,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A12"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 13,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A13"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 14,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A14"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 15,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A15"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 16,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A16"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 17,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A17"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 18,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A18"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 19,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1.0
+        ]
+      ],
+      "evidence_refs": [
+        "A19/C4"
+      ],
+      "reason": "Literal state-name phrase match: p53 up"
+    },
+    {
+      "axis_id": 20,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A20"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 21,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A21"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 22,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A22"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 23,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A23"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 24,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A24"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 25,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A25"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 26,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A26"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 27,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A27"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 28,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A28"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 29,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A29"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 30,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A30"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    },
+    {
+      "axis_id": 31,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A31"
+      ],
+      "reason": "Abstain: no unambiguous explicit directional program phrase in state names."
+    }
+  ],
+  "main_alpha": 0.3,
+  "description": "Prespecified conservative normalized literal program-term and signed wording match; no LLM or response data"
+}

@@ -1,0 +1,115 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "oxidative stress response",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MALAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "A549 expresses stress-linked lncRNAs; hidden mechanism prevents directional prediction."
+    },
+    {
+      "id": "H2",
+      "program": "aldehyde/ketone metabolism",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1C3",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "High baseline AKR family expression; no mechanism to infer direction."
+    },
+    {
+      "id": "H3",
+      "program": "glycolysis and pentose phosphate",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "G6PD",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Metabolic genes expressed at baseline; treatment effect unknown without mechanism."
+    },
+    {
+      "id": "H4",
+      "program": "cAMP/PDE4D signaling",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "PDE4D",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "PDE4D is top-expressed feature; no perturbation mechanism supplied."
+    },
+    {
+      "id": "H5",
+      "program": "mitochondrial oxidative phosphorylation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "MT-CO3",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MT-CYB",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Mitochondrial transcripts abundant at baseline; direction cannot be inferred."
+    }
+  ],
+  "summary": "Mechanism withheld; only baseline A549 expression informs hypotheses, all directions uncertain.",
+  "limitations": [
+    "No treatment-specific response or mechanism available.",
+    "Single dose/timepoint; no trajectory data.",
+    "Population mean predictions, unpaired cells."
+  ]
+}

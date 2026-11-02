@@ -1,0 +1,46 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "transcriptional response to an unknown perturbation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Perturbation identity and mechanism are withheld, so no treatment-specific direction can be inferred."
+    },
+    {
+      "id": "H2",
+      "program": "stress-responsive / immediate-early transcription",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "general cytotoxicity or cellular stress possible at 24 h",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Any chemical perturbation may secondarily induce stress programs, but direction is unknown without mechanism."
+    },
+    {
+      "id": "H3",
+      "program": "cell-cycle and proliferation",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549 proliferating cells; unknown drug class",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Growth arrest or proliferation changes are plausible secondary effects but cannot be assigned a direction."
+    }
+  ],
+  "summary": "No treatment-specific hypotheses are supportable; only generic secondary programs can be flagged as uncertain.",
+  "limitations": [
+    "Mechanism and drug identity withheld; no perturbation refs available.",
+    "Control features are anonymous, so gene-level expectations cannot be mapped.",
+    "Single dose/timepoint; no dose-response or kinetic information."
+  ]
+}

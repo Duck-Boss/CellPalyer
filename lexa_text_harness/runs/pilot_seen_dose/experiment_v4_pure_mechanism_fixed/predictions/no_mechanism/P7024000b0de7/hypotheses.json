@@ -1,0 +1,94 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "oxidative stress response",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "TXNRD1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "ALDH1A1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "TXNRD1 and ALDH1A1 are expressed in controls; hidden mechanism prevents direction inference."
+    },
+    {
+      "id": "H2",
+      "program": "glycolytic metabolism",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "PKM is highly expressed in untreated A549; no treatment-specific direction is available."
+    },
+    {
+      "id": "H3",
+      "program": "detoxification / aldo-keto reductase activity",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1C3",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Multiple AKR genes are expressed at baseline; hidden mechanism precludes directional prediction."
+    },
+    {
+      "id": "H4",
+      "program": "lncRNA stress/transcriptional regulation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MALAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "NEAT1 and MALAT1 are abundant in controls; no perturbation mechanism is supplied."
+    }
+  ],
+  "summary": "Mechanism withheld; only baseline A549 expression is known, so all directions are uncertain.",
+  "limitations": [
+    "No treatment-specific response or dose trajectory provided.",
+    "Perturbation identity and mechanism hidden; cannot infer named drug.",
+    "Hypotheses reflect baseline expression only, not measured effects."
+  ]
+}

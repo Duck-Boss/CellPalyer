@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "fingerprint": "bbc384820c3a3b468dda5e21d085ecbd9941e32370eb19076f82835e9207593e",
+  "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=3",
+  "local": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/predictions/bb8b59b73b81/local.json",
+  "joint": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/predictions/bb8b59b73b81/joint.json",
+  "local_sha256": "76f7702231073367a1ed83a710599b8267135093a2ed613ebe57dceeb9507c89",
+  "joint_sha256": "a747428476835c0030534c75640357032cf576970de49ca99303fb71149e18b3",
+  "api_attempts": 5
+}

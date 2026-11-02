@@ -1,0 +1,76 @@
+{
+  "cell_type": "code",
+  "execution_count": 69,
+  "metadata": {},
+  "outputs": [
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": [
+        "Results will be saved to the folder: /storage/groups/ml01/workspace/carlo.dedonno/cpa-reproducibility/notebooks\n"
+      ]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": [
+        "Rec: -1.5362, AdvPert: 0.49, AdvCov: 0.00: 100%|▉| 1999/2000 [19:21<00:00,  1.72"
+      ]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": [
+        "Model saved to: /storage/groups/ml01/workspace/carlo.dedonno/cpa-reproducibility/notebookssciplex2_other.pt\n",
+        "{'ellapsed_minutes': 19.231869947910308,\n",
+        " 'epoch': 1999,\n",
+        " 'evaluation_stats': {'cell_type disentanglement': 0.0,\n",
+        "                      'ood': [0.9190779323392534,\n",
+        "                              0.8173742033556065,\n",
+        "                              0.8167598394024294,\n",
+        "                              0.16047935741644553],\n",
+        "                      'optimal for cell_type': 1.0,\n",
+        "                      'optimal for perturbations': 0.2,\n",
+        "                      'perturbation disentanglement': 0.16428206861019135,\n",
+        "                      'test': [0.9561470673054203,\n",
+        "                               0.829674198827967,\n",
+        "                               0.8878998178875797,\n",
+        "                               0.30473546323989137],\n",
+        "                      'training': [0.9626807045677179,\n",
+        "                                   0.8440878023878462,\n",
+        "                                   0.9157139083924691,\n",
+        "                                   0.376325622413842]},\n",
+        " 'training_stats': defaultdict(<class 'float'>,\n",
+        "                               {'loss_adv_covariates': 0.0,\n",
+        "                                'loss_adv_drugs': 0.4945540378491084,\n",
+        "                                'loss_reconstruction': -1.5362054937415652,\n",
+        "                                'penalty_adv_covariates': 0.0,\n",
+        "                                'penalty_adv_drugs': 1.14070237502675e-07})}\n",
+        "Stop epoch: 1999\n"
+      ]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": [
+        "\n"
+      ]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": [
+        "Model saved to: /storage/groups/ml01/workspace/carlo.dedonno/cpa-reproducibility/notebookssciplex2_other.pt\n"
+      ]
+    }
+  ],
+  "source": [
+    "cpa_api.train(\n",
+    "    max_epochs=2000, \n",
+    "    checkpoint_freq=20,\n",
+    "    run_eval=True,\n",
+    "    filename='sciplex2_other.pt', \n",
+    "    max_minutes=60\n",
+    ")"
+  ]
+}

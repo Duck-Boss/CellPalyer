@@ -1,0 +1,17 @@
+{
+  "status": "fit_and_export_complete",
+  "prepared_sha256": "920fb717e80976fb18f5557a17545689048a40972147de8ce3a304c1640d2106",
+  "synthetic": false,
+  "smoke_only": false,
+  "files": [
+    "best.pt",
+    "last.pt",
+    "history.json",
+    "pilot_scaffold.npz",
+    "exact_code_effects.npz",
+    "baseline.npz",
+    "train_codes.npz",
+    "metadata.json"
+  ],
+  "exact_code_effects_sha256": "5bd0da54ddcceae0a4ea40d2f260b4d2acbd7b2d7a2eb2da97caeb75efb117fd"
+}

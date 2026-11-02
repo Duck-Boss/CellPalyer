@@ -1,0 +1,731 @@
+<!doctype html><meta charset="utf-8"><title>LEXA pure mechanism v4</title><style>body{font:16px system-ui;max-width:1300px;margin:32px auto}table{border-collapse:collapse}td,th{padding:7px;border:1px solid #ddd}pre{white-space:pre-wrap}img{max-width:100%}</style><h1>LEXA 纯机制文字预测 v4</h1><p><strong>预设主方案未优于不编辑：ΔRMSE 0.356299 vs 0.355724。</strong>16个已揭盲开发孔，786处理细胞、951对照，四药5µM/24h/A549。</p><img src="metrics_comparison.png"><p>主alpha=.3；.1/.6只作敏感性，不按答案选。相关性仅对非零、非恒定预测定义，下面标明有效孔/药数量；RMSE所有方法均覆盖16孔。</p><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>delta_rmse</th>
+      <th>delta_pearson</th>
+      <th>delta_cosine</th>
+      <th>top100_delta_rmse</th>
+      <th>top100_direction_accuracy</th>
+      <th>response_l2_ratio</th>
+      <th>correlation_defined_wells</th>
+      <th>correlation_defined_drugs</th>
+    </tr>
+    <tr>
+      <th>method</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>no_edit</th>
+      <td>0.355724</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.963622</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0/16</td>
+      <td>0/4</td>
+    </tr>
+    <tr>
+      <th>literal_keyword_a0.3</th>
+      <td>0.352798</td>
+      <td>0.468036</td>
+      <td>0.467383</td>
+      <td>0.946353</td>
+      <td>0.155625</td>
+      <td>0.030176</td>
+      <td>4/16</td>
+      <td>1/4</td>
+    </tr>
+    <tr>
+      <th>full_joint_a0.3</th>
+      <td>0.356299</td>
+      <td>0.178036</td>
+      <td>0.192438</td>
+      <td>0.935017</td>
+      <td>0.595000</td>
+      <td>0.232300</td>
+      <td>15/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>no_mechanism_joint_a0.3</th>
+      <td>0.386305</td>
+      <td>0.222138</td>
+      <td>0.030907</td>
+      <td>0.931294</td>
+      <td>0.513125</td>
+      <td>0.493435</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>no_semantics_joint_a0.3</th>
+      <td>0.396323</td>
+      <td>0.020432</td>
+      <td>-0.078928</td>
+      <td>0.959142</td>
+      <td>0.510000</td>
+      <td>0.491467</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>neither_joint_a0.3</th>
+      <td>0.372037</td>
+      <td>0.067064</td>
+      <td>-0.012015</td>
+      <td>0.953915</td>
+      <td>0.326875</td>
+      <td>0.259324</td>
+      <td>10/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>answer_codec_diagnostic</th>
+      <td>0.189778</td>
+      <td>0.767934</td>
+      <td>0.782928</td>
+      <td>0.372516</td>
+      <td>0.971250</td>
+      <td>0.729222</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+  </tbody>
+</table><h2>逐药结果</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>method</th>
+      <th>drug</th>
+      <th>delta_rmse</th>
+      <th>delta_pearson</th>
+      <th>delta_cosine</th>
+      <th>top100_delta_rmse</th>
+      <th>top100_direction_accuracy</th>
+      <th>response_l2_ratio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>full_joint_a0.3</td>
+      <td>BMS</td>
+      <td>0.483858</td>
+      <td>0.245146</td>
+      <td>0.433501</td>
+      <td>1.136495</td>
+      <td>0.765000</td>
+      <td>0.055905</td>
+    </tr>
+    <tr>
+      <td>full_joint_a0.3</td>
+      <td>Dex</td>
+      <td>0.217931</td>
+      <td>0.126169</td>
+      <td>0.159453</td>
+      <td>0.528577</td>
+      <td>0.697500</td>
+      <td>0.373403</td>
+    </tr>
+    <tr>
+      <td>full_joint_a0.3</td>
+      <td>Nutlin</td>
+      <td>0.244741</td>
+      <td>0.023030</td>
+      <td>0.032786</td>
+      <td>0.701672</td>
+      <td>0.555000</td>
+      <td>0.321172</td>
+    </tr>
+    <tr>
+      <td>full_joint_a0.3</td>
+      <td>SAHA</td>
+      <td>0.478664</td>
+      <td>0.317801</td>
+      <td>0.144013</td>
+      <td>1.373323</td>
+      <td>0.362500</td>
+      <td>0.178718</td>
+    </tr>
+    <tr>
+      <td>full_local_a0.3</td>
+      <td>BMS</td>
+      <td>0.489880</td>
+      <td>0.326821</td>
+      <td>0.205634</td>
+      <td>1.138474</td>
+      <td>0.620000</td>
+      <td>0.109305</td>
+    </tr>
+    <tr>
+      <td>full_local_a0.3</td>
+      <td>Dex</td>
+      <td>0.221564</td>
+      <td>0.094095</td>
+      <td>0.133079</td>
+      <td>0.528956</td>
+      <td>0.695000</td>
+      <td>0.429811</td>
+    </tr>
+    <tr>
+      <td>full_local_a0.3</td>
+      <td>Nutlin</td>
+      <td>0.248234</td>
+      <td>0.034752</td>
+      <td>0.049779</td>
+      <td>0.696687</td>
+      <td>0.560000</td>
+      <td>0.415715</td>
+    </tr>
+    <tr>
+      <td>full_local_a0.3</td>
+      <td>SAHA</td>
+      <td>0.472396</td>
+      <td>0.376122</td>
+      <td>0.193552</td>
+      <td>1.339883</td>
+      <td>0.490000</td>
+      <td>0.237018</td>
+    </tr>
+    <tr>
+      <td>literal_keyword_a0.3</td>
+      <td>BMS</td>
+      <td>0.496175</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.153759</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <td>literal_keyword_a0.3</td>
+      <td>Dex</td>
+      <td>0.212305</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.576017</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <td>literal_keyword_a0.3</td>
+      <td>Nutlin</td>
+      <td>0.221898</td>
+      <td>0.468036</td>
+      <td>0.467383</td>
+      <td>0.642094</td>
+      <td>0.622500</td>
+      <td>0.120703</td>
+    </tr>
+    <tr>
+      <td>literal_keyword_a0.3</td>
+      <td>SAHA</td>
+      <td>0.480813</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.413541</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <td>no_edit</td>
+      <td>BMS</td>
+      <td>0.496175</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.153759</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <td>no_edit</td>
+      <td>Dex</td>
+      <td>0.212305</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.576017</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <td>no_edit</td>
+      <td>Nutlin</td>
+      <td>0.233602</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.711170</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <td>no_edit</td>
+      <td>SAHA</td>
+      <td>0.480813</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.413541</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+  </tbody>
+</table><h2>全部预设强度与local/joint</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>delta_rmse</th>
+      <th>delta_pearson</th>
+      <th>delta_cosine</th>
+      <th>top100_delta_rmse</th>
+      <th>top100_direction_accuracy</th>
+      <th>response_l2_ratio</th>
+      <th>correlation_defined_wells</th>
+      <th>correlation_defined_drugs</th>
+    </tr>
+    <tr>
+      <th>method</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>answer_codec_diagnostic</th>
+      <td>0.189778</td>
+      <td>0.767934</td>
+      <td>0.782928</td>
+      <td>0.372516</td>
+      <td>0.971250</td>
+      <td>0.729222</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>full_joint_a0.1</th>
+      <td>0.353650</td>
+      <td>0.178036</td>
+      <td>0.192438</td>
+      <td>0.952402</td>
+      <td>0.595000</td>
+      <td>0.077433</td>
+      <td>15/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>full_joint_a0.3</th>
+      <td>0.356299</td>
+      <td>0.178036</td>
+      <td>0.192438</td>
+      <td>0.935017</td>
+      <td>0.595000</td>
+      <td>0.232300</td>
+      <td>15/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>full_joint_a0.6</th>
+      <td>0.374897</td>
+      <td>0.178036</td>
+      <td>0.192438</td>
+      <td>0.922626</td>
+      <td>0.595000</td>
+      <td>0.464599</td>
+      <td>15/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>full_local_a0.1</th>
+      <td>0.353320</td>
+      <td>0.207948</td>
+      <td>0.145511</td>
+      <td>0.948814</td>
+      <td>0.591250</td>
+      <td>0.099321</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>full_local_a0.3</th>
+      <td>0.358018</td>
+      <td>0.207948</td>
+      <td>0.145511</td>
+      <td>0.926000</td>
+      <td>0.591250</td>
+      <td>0.297962</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>full_local_a0.6</th>
+      <td>0.385611</td>
+      <td>0.207948</td>
+      <td>0.145511</td>
+      <td>0.910421</td>
+      <td>0.591250</td>
+      <td>0.595925</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>literal_keyword_a0.1</th>
+      <td>0.354670</td>
+      <td>0.468036</td>
+      <td>0.467383</td>
+      <td>0.957511</td>
+      <td>0.155625</td>
+      <td>0.010059</td>
+      <td>4/16</td>
+      <td>1/4</td>
+    </tr>
+    <tr>
+      <th>literal_keyword_a0.3</th>
+      <td>0.352798</td>
+      <td>0.468036</td>
+      <td>0.467383</td>
+      <td>0.946353</td>
+      <td>0.155625</td>
+      <td>0.030176</td>
+      <td>4/16</td>
+      <td>1/4</td>
+    </tr>
+    <tr>
+      <th>literal_keyword_a0.6</th>
+      <td>0.350640</td>
+      <td>0.468036</td>
+      <td>0.467383</td>
+      <td>0.932874</td>
+      <td>0.155625</td>
+      <td>0.060351</td>
+      <td>4/16</td>
+      <td>1/4</td>
+    </tr>
+    <tr>
+      <th>neither_joint_a0.1</th>
+      <td>0.357916</td>
+      <td>0.067064</td>
+      <td>-0.012015</td>
+      <td>0.958511</td>
+      <td>0.326875</td>
+      <td>0.086441</td>
+      <td>10/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>neither_joint_a0.3</th>
+      <td>0.372037</td>
+      <td>0.067064</td>
+      <td>-0.012015</td>
+      <td>0.953915</td>
+      <td>0.326875</td>
+      <td>0.259324</td>
+      <td>10/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>neither_joint_a0.6</th>
+      <td>0.411009</td>
+      <td>0.067064</td>
+      <td>-0.012015</td>
+      <td>0.962012</td>
+      <td>0.326875</td>
+      <td>0.518648</td>
+      <td>10/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>neither_local_a0.1</th>
+      <td>0.358467</td>
+      <td>0.024138</td>
+      <td>-0.064778</td>
+      <td>0.955123</td>
+      <td>0.519375</td>
+      <td>0.122036</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>neither_local_a0.3</th>
+      <td>0.377359</td>
+      <td>0.024138</td>
+      <td>-0.064778</td>
+      <td>0.945820</td>
+      <td>0.519375</td>
+      <td>0.366107</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>neither_local_a0.6</th>
+      <td>0.430689</td>
+      <td>0.024138</td>
+      <td>-0.064778</td>
+      <td>0.952657</td>
+      <td>0.519375</td>
+      <td>0.732214</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>no_edit</th>
+      <td>0.355724</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.963622</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0/16</td>
+      <td>0/4</td>
+    </tr>
+    <tr>
+      <th>no_mechanism_joint_a0.1</th>
+      <td>0.358384</td>
+      <td>0.222138</td>
+      <td>0.030907</td>
+      <td>0.947313</td>
+      <td>0.513125</td>
+      <td>0.164478</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>no_mechanism_joint_a0.3</th>
+      <td>0.386305</td>
+      <td>0.222138</td>
+      <td>0.030907</td>
+      <td>0.931294</td>
+      <td>0.513125</td>
+      <td>0.493435</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>no_mechanism_joint_a0.6</th>
+      <td>0.468632</td>
+      <td>0.222138</td>
+      <td>0.030907</td>
+      <td>0.951348</td>
+      <td>0.513125</td>
+      <td>0.986870</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>no_mechanism_local_a0.1</th>
+      <td>0.358384</td>
+      <td>0.222138</td>
+      <td>0.030907</td>
+      <td>0.947313</td>
+      <td>0.513125</td>
+      <td>0.164478</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>no_mechanism_local_a0.3</th>
+      <td>0.386305</td>
+      <td>0.222138</td>
+      <td>0.030907</td>
+      <td>0.931294</td>
+      <td>0.513125</td>
+      <td>0.493435</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>no_mechanism_local_a0.6</th>
+      <td>0.468632</td>
+      <td>0.222138</td>
+      <td>0.030907</td>
+      <td>0.951348</td>
+      <td>0.513125</td>
+      <td>0.986870</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>no_semantics_joint_a0.1</th>
+      <td>0.361707</td>
+      <td>0.020432</td>
+      <td>-0.078928</td>
+      <td>0.957296</td>
+      <td>0.510000</td>
+      <td>0.163822</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>no_semantics_joint_a0.3</th>
+      <td>0.396323</td>
+      <td>0.020432</td>
+      <td>-0.078928</td>
+      <td>0.959142</td>
+      <td>0.510000</td>
+      <td>0.491467</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>no_semantics_joint_a0.6</th>
+      <td>0.485527</td>
+      <td>0.020432</td>
+      <td>-0.078928</td>
+      <td>0.999030</td>
+      <td>0.510000</td>
+      <td>0.982934</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>no_semantics_local_a0.1</th>
+      <td>0.361707</td>
+      <td>0.020432</td>
+      <td>-0.078928</td>
+      <td>0.957296</td>
+      <td>0.510000</td>
+      <td>0.163822</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>no_semantics_local_a0.3</th>
+      <td>0.396323</td>
+      <td>0.020432</td>
+      <td>-0.078928</td>
+      <td>0.959142</td>
+      <td>0.510000</td>
+      <td>0.491467</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+    <tr>
+      <th>no_semantics_local_a0.6</th>
+      <td>0.485527</td>
+      <td>0.020432</td>
+      <td>-0.078928</td>
+      <td>0.999030</td>
+      <td>0.510000</td>
+      <td>0.982934</td>
+      <td>16/16</td>
+      <td>4/4</td>
+    </tr>
+  </tbody>
+</table><h2>解释与执行</h2><pre>纯机制 v4 实验解释
+
+主参数 alpha=0.3；full 相对 no-edit 的平均 ΔRMSE 降幅=-0.162%。
+这是四个已揭盲药物条件的开发实验，不能从16孔或786细胞推断有16/786种独立干预。
+
+逐药主结果：
+              method   drug  delta_rmse  delta_pearson  delta_cosine  top100_delta_rmse  top100_direction_accuracy  response_l2_ratio
+     full_joint_a0.3    BMS    0.483858       0.245146      0.433501           1.136495                   0.765000           0.055905
+     full_joint_a0.3    Dex    0.217931       0.126169      0.159453           0.528577                   0.697500           0.373403
+     full_joint_a0.3 Nutlin    0.244741       0.023030      0.032786           0.701672                   0.555000           0.321172
+     full_joint_a0.3   SAHA    0.478664       0.317801      0.144013           1.373323                   0.362500           0.178718
+     full_local_a0.3    BMS    0.489880       0.326821      0.205634           1.138474                   0.620000           0.109305
+     full_local_a0.3    Dex    0.221564       0.094095      0.133079           0.528956                   0.695000           0.429811
+     full_local_a0.3 Nutlin    0.248234       0.034752      0.049779           0.696687                   0.560000           0.415715
+     full_local_a0.3   SAHA    0.472396       0.376122      0.193552           1.339883                   0.490000           0.237018
+literal_keyword_a0.3    BMS    0.496175            NaN           NaN           1.153759                   0.000000           0.000000
+literal_keyword_a0.3    Dex    0.212305            NaN           NaN           0.576017                   0.000000           0.000000
+literal_keyword_a0.3 Nutlin    0.221898       0.468036      0.467383           0.642094                   0.622500           0.120703
+literal_keyword_a0.3   SAHA    0.480813            NaN           NaN           1.413541                   0.000000           0.000000
+             no_edit    BMS    0.496175            NaN           NaN           1.153759                   0.000000           0.000000
+             no_edit    Dex    0.212305            NaN           NaN           0.576017                   0.000000           0.000000
+             no_edit Nutlin    0.233602            NaN           NaN           0.711170                   0.000000           0.000000
+             no_edit   SAHA    0.480813            NaN           NaN           1.413541                   0.000000           0.000000
+
+四组决策（每例32轴）：
+{
+  &quot;full_joint&quot;: {
+    &quot;shift_axes&quot;: 13.625,
+    &quot;keep_axes&quot;: 0.0,
+    &quot;unknown_axes&quot;: 18.375
+  },
+  &quot;neither_joint&quot;: {
+    &quot;shift_axes&quot;: 17.0,
+    &quot;keep_axes&quot;: 0.5,
+    &quot;unknown_axes&quot;: 14.5
+  },
+  &quot;no_mechanism_joint&quot;: {
+    &quot;shift_axes&quot;: 28.9375,
+    &quot;keep_axes&quot;: 0.0,
+    &quot;unknown_axes&quot;: 3.0625
+  },
+  &quot;no_semantics_joint&quot;: {
+    &quot;shift_axes&quot;: 32.0,
+    &quot;keep_axes&quot;: 0.0,
+    &quot;unknown_axes&quot;: 0.0
+  }
+}
+
+解释边界：
+1. 只有 full 与隐藏组在同一次冻结实验中的比较，才能帮助判断机制/code文字是否有用；隐藏组允许弃权，因此若等于no-edit，应说明这是弃权结果。
+2. 词面匹配只识别明确的术语和方向，是弱的透明对照，不代表完整知识图谱或通路方法。
+3. alpha=.1/.6 复用以.3作反馈的同一组决策，只是幅度敏感性；不得从开发答案挑一个后声称是预设主结果。
+4. joint使用自己提出的假设作为检查依据，可能自洽却生物学错误；local/joint多一次调用，不是等预算反馈消融。
+5. 轴的shift数量、占用变化及主导code更换数量不同；群体边际预测不等于同一个细胞的前后转变。
+6. 词典训练含其他剂量；本实验限制推理输入，不证明表示或预训练LLM从未接触相关药物知识。
+7. answer-codec使用答案，是重建诊断，不是预测、理论最低误差或可提供给agent的提示。
+8. 零变化输出的Pearson/cosine未定义，以NaN/空值保留，不能记成相关性0。
+
+相关性汇总跳过未定义值：full joint为15/16孔、neither joint为10/16孔、literal为4/16孔且只Nutlin；相应均值不是相同样本范围，不能直接排序。RMSE覆盖全部16孔。
+
+具体失败模式：Nutlin固定样例正确提出p53/细胞周期停滞，却同时保留A24高增殖状态，理由甚至写明它与停滞矛盾。它可满足少数CDKN1A等基因检查，却在未被明确约束的程序上产生反向编辑。详见decision_analysis.txt；这属于预测内部矛盾诊断，不用实验答案给模型修正。
+
+执行与失败重试：
+{
+  &quot;fixed&quot;: {
+    &quot;requests_recorded&quot;: 402,
+    &quot;responses_recorded&quot;: 402,
+    &quot;complete_case_arms&quot;: 64,
+    &quot;status_counts&quot;: {
+      &quot;completed&quot;: 384,
+      &quot;failed&quot;: 18
+    },
+    &quot;failure_reasons&quot;: {
+      &quot;Evidence refs must cite supplied hypotheses or this axis/state&quot;: 1,
+      &quot;Response fields: updates, summary, limitations&quot;: 4,
+      &quot;shift requires one to three target states&quot;: 13
+    },
+    &quot;requests_without_status&quot;: 0,
+    &quot;reported_usage&quot;: {
+      &quot;prompt_tokens&quot;: 14900785,
+      &quot;completion_tokens&quot;: 195520,
+      &quot;total_tokens&quot;: 15096305
+    }
+  },
+  &quot;original_failed&quot;: {
+    &quot;requests_recorded&quot;: 67,
+    &quot;responses_recorded&quot;: 63,
+    &quot;complete_case_arms&quot;: 7,
+    &quot;status_counts&quot;: {
+      &quot;failed&quot;: 12,
+      &quot;completed&quot;: 51
+    },
+    &quot;failure_reasons&quot;: {
+      &quot;Hypothesis evidence refs must cite supplied M and/or C; M is absent when hidden&quot;: 10,
+      &quot;Response fields: updates, summary, limitations&quot;: 1,
+      &quot;shift requires one to three target states&quot;: 1
+    },
+    &quot;requests_without_status&quot;: 4,
+    &quot;reported_usage&quot;: {
+      &quot;prompt_tokens&quot;: 1907660,
+      &quot;completion_tokens&quot;: 32917,
+      &quot;total_tokens&quot;: 1940577
+    }
+  }
+}
+</pre><p><a href="decision_analysis.txt">决策样例与矛盾</a> · <a href="independent_prediction_audit.json">独立预测审核</a> · <a href="review_scores.json">独立评分审核</a> · <a href="protocol.json">冻结协议</a></p>

@@ -1,0 +1,83 @@
+{
+  "data_schema": {
+    "train_shape": [
+      5285,
+      2000
+    ],
+    "val_shape": [
+      2742,
+      2000
+    ],
+    "controls_shape": [
+      1409,
+      2000
+    ],
+    "genes": 2000
+  },
+  "counts": [
+    {
+      "drug": "BMS",
+      "ready_wells": 4,
+      "treated": 95,
+      "unique_controls": 297
+    },
+    {
+      "drug": "Dex",
+      "ready_wells": 4,
+      "treated": 237,
+      "unique_controls": 178
+    },
+    {
+      "drug": "Nutlin",
+      "ready_wells": 4,
+      "treated": 274,
+      "unique_controls": 202
+    },
+    {
+      "drug": "SAHA",
+      "ready_wells": 4,
+      "treated": 180,
+      "unique_controls": 274
+    }
+  ],
+  "n_ready_cases": 16,
+  "unique_ready_controls": 951,
+  "unique_ready_treated": 786,
+  "control_splits": {
+    "train": 910,
+    "val": 499
+  },
+  "ready_control_splits": {
+    "train": 637,
+    "val": 314
+  },
+  "train_controls": 910,
+  "val_controls": 499,
+  "assertions_passed": [
+    "train/val IDs disjoint",
+    "ready treated disjoint from train/val/controls",
+    "ready controls subset prepared controls",
+    "metadata sorted by explicit IDs, correct split labels",
+    "5uM absent from train and validation",
+    "control expression arrays match train/val control rows exactly"
+  ],
+  "metric_definition": {
+    "delta_rmse": "per-case sqrt(mean_g((pred_delta-(true_treated_mean-observed_matched_control_mean))^2)); mean within each drug, then across drugs",
+    "delta_pearson": "Pearson across same 2000 genes; constant/zero prediction -> NaN; report coverage, never treat undefined as0 or compare dropped subsets without qualification",
+    "top100": "100 genes with largest absolute true mean delta, not statistical DE test",
+    "absolute_r2": "1-sum_g((pred_abs-y)^2)/sum_g((y-mean_g(y))^2), across genes per case; pred_abs anchor must be declared"
+  },
+  "anchor_options": [
+    "native model treated mean - observed matched control mean",
+    "model treated mean - model control mean, added to observed matched control mean for residual-calibrated absolute estimate; explicit adapter, report separately"
+  ],
+  "data_boundary": "Model training uses prepared.npz and ID-mapped metadata train/val only. Prediction may condition on all per-case matched zero-dose controls, including validation controls already allowed to LEXA; these do not become fitting data. Treated 5uM targets are scorer-only.",
+  "information_limitation": "CPA/CODEX learn numerical drug-dose responses from train; pure-mechanism DeepSeek has no response retrieval at inference. Same permitted dataset and test does not imply identical supervision or evidence inputs.",
+  "files_sha256": {
+    "prepared.npz": "920fb717e80976fb18f5557a17545689048a40972147de8ce3a304c1640d2106",
+    "cases.json": "493aa96ab615615a046148cf85ee57b68c5d2ea86b72443440de78e5e7d8b8c1",
+    "metadata.csv": "87ada983037aeb16b6ecd49a65cf17b53a94dbbb47598034f1c9ecd04d20304f",
+    "manifest.json": "f65cbb0358bf94c71a093eed9492d81c4c67081454275f82be2f8b9bc3b7ad8b"
+  },
+  "no_training_or_api": true
+}

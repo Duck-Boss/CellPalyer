@@ -1,0 +1,51 @@
+LEXA + DeepSeek 接官方 TDC sciPlex2 cold-drug benchmark 的实施计划
+状态：只读代码审计与方案，未训练、未调用API、未修改任何预测源码。
+记录时间：2026-10-27T12:06:56+08:00
+
+目标
+官方 processed sciPlex2、官方 split/controls/gene order/normalization/scorer 完全对齐后，再给可与官方榜单并列的结果。当前原始QC小试验16孔/5µM/2000gene ΔRMSE不能重标为榜单结果。
+
+当前代码能复用什么
+- 原始 LEXA 模型支持 input_dim 任意G，固定32axes×16states×64code_dim；当前缩小模型encoder512/decoder256。
+- fit_lexa.py 的 train-only SVD+KMeans scaffold、fresh-fit、validation checkpoint、exact additive effects导出逻辑可复用。
+- pure_mechanism_agent.run_case 的纯文字调用/占用编辑/数组导出可在契约匹配时复用。
+- labels/effects SHA 绑定、source snapshots、预测封存后评分原则继续使用。
+
+必须新增/适配的边界
+1. 新 tdc_sciplex2_adapter.py，直接读取官方processed文件及官方split，不经过现有prepare_data.py的原始QC、CP10K再归一化或2000HVG选择。
+   官方var_names与次序原样保留。若重复，先明确官方处理约定，不能悄悄合并gene。传入模型的X保持官方单位；若官方X并非非负log值，必须显式适配模型输入而不是谎称CP10K。
+   明确matrix_location(X/raw/layer)、transform history、gene_names、cellIDs、control flag、drug/drugSMILES、dose单位、cellline、split、seed，并记录hash。
+2. 每个 heldout_drug=BMS/Dex/Nutlin/SAHA 创建独立fold目录，完全剔除该药处理细胞后训练scaffold/codec。
+   train/val须严格沿用官方切分/官方允许的训练内部验证规则；测试drug样本不得进入早停、PCA/SVD、标准差、码本初始化、调参或文字标注。
+   若官方固定了全局feature vocabulary，沿用并明确它是benchmark给定词表，不自行改成train-only新HVG导致指标维度不同。
+   不能复用pilot_seen_dose/lexa/best.pt：它已见过全部4药的其他剂量。
+3. 新 fit_lexa_tdc.py 或独立可配置fit适配层：现fit脚本doc/config/export硬编码CP10K/10000，load_prepared拒绝负值。保留官方单位及可审计metadata，禁止更改已封存v4源码来迁就新数据。
+   每fold x_train/x_val/control_x/genes/gene_symbols/cellIDs/provenance_json 满足明确接口，控制集只使用官方允许预测输入。
+4. 每fold重新生成512个state标签和32个axis解释。编号含义随新codec变动，旧labels/axis_annotations不能复制。
+   当前pure_mechanism_data.py硬编码v3 axisannotation路径、A549、CP10K，以及ready且dose==5筛选；新TDC builder应完全替代这些旧case规则。
+   将官方要求的全部drug/dose/cellline条件变成prediction cases；不要继承min20筛掉榜单条件，不得把真实处理组n/基因表达悄悄输入机制预测。
+5. 新 tdc_score_adapter.py：按官方scorer规定构造预测与聚合，严格使用官方controls和genes。
+   需要先明确榜单R2评的是gene表达均值还是delta、是否DEG、剂量如何聚合、是否负R2截断、repetition seeds及方差定义。
+   当前模型输出delta，转换绝对预测时必须事先固定anchor：observed_control_mean+delta 或decoded_control_mean+delta。不能看测试R2后挑anchor。
+   若官方只评均值，直接精确输出additive marginal mean；若需要单细胞分布，不可把独立边际采样当已验证联合分布，应另有明确生成/采样契约。
+6. 独立边界审核：train/val/test cellID分离、cold-drug排除、每fold sources/data/model绑定、完整预测seal先于评分、officialscorer一致性fixture。
+   输出official score作为主表，再提供我们自己的delta指标为补充；不同metric不换算冒充。
+
+建议最小阶段
+A. 先把官方no-change基线跑通并和官方接口一致，记录确切split/metric/hash，不训练。
+B. 单fold CPU smoke只校验加载/导出/scoreshape；正式4fold全部freshfit。
+C. 生成每fold新code说明后跑冻结纯机制主方案（不做响应检索）；全部预测封存后officialscore。
+D. 正式均值±标准差须按官方指定seed/repetition完成，不能把药物间标准差冒充seed标准差。验证集选参数，不利用cold-drug答案挑alpha或prompt。
+
+资源（2026-10-27 本地只读快照）
+- 现8×NVIDIA L20Z均有占用：GPU0/1约75.6GiB used；GPU2–7各99%利用率。不能把0%瞬时GPU0/1利用率解释为可占用卡。
+- CPU192 logical cores，MemAvailable约2TB。可显式--device cpu --threads4避免auto抢卡。
+- 已完成pilot训练metadata：CPU、5285train×2000genes、30epochs、2490updates、4threads，wall_seconds86.937。
+- 若官方fold约15–20k训练细胞×5k genes，同架构仅粗略预计每fold5–15分钟，4fold20–60分钟/seed；必须实测，不当承诺。
+- 20k×5k float32 dense约400MB，SVD最多4096×5000约82MB，原始effects32×16×5000 float32约10MB，导出三种中心化等会额外占用。
+- 当前best.pt/last.pt各32MB（2000genes版本），5k版本需重新测量。
+- 新词典标注：每fold32次state标注+4次轴解释=36 calls，4fold名义144；若每seed均freshcodec，不能跨seed复用编号标签。药物预测另按官方条件数×6计，4信息消融再倍增，API通常比CPU训练更值得控制预算。
+- 当前Python有torch/h5py；未找到anndata/scanpy/tdc/rdkit。官方适配依赖需隔离安装/锁版本，本任务未安装这些依赖。
+
+待官方数据/评测代理确认（不能用假设代替）
+官方 processed asset及checksum；split生成代码版本；四药fold定义；control候选集合；matrix单位/var_names；prediction格式；R2实现/DEG定义/剂量聚合；seed及repetition协议。

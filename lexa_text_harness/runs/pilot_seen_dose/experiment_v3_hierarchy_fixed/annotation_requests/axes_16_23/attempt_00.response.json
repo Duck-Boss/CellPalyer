@@ -1,0 +1,28 @@
+{
+  "id": "e6eb8b00-80dd-474e-8992-e3a804adacad",
+  "object": "chat.completion",
+  "created": 1793028047,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"axes\":[{\"axis_id\":16,\"name\":\"Keratin/adhesion cytoskeletal program\",\"summary\":\"States contrast keratin and catenin/adhesion transcripts (KRT8, KRT18, CTNNA3) with TMSB10 and stress markers, forming several distinct signed patterns rather than one ordered level.\",\"functions\":[\"keratin/cytoskeletal expression\",\"cell-cell adhesion-associated expression\",\"stress-marker co-expression\"],\"evidence_genes\":[\"ENSG00000170421.12\",\"ENSG00000111057.10\",\"ENSG00000183230.16\",\"ENSG00000034510.5\"],\"uncertainty\":\"A549 pilot only; states mix keratin-high and keratin-low patterns and some states have unclear function; no causal or enrichment claims.\"},{\"axis_id\":17,\"name\":\"Glycolytic/mitochondrial energy program\",\"summary\":\"States vary between coordinated up- and down-patterns of glycolytic and mitochondrial energy genes (ALDOA, PKM, TPI1, ATP5B/ATP5G3) alongside cytoskeletal CFL1.\",\"functions\":[\"glycolytic enzyme expression\",\"mitochondrial energy gene expression\",\"cytoskeletal/actin-associated expression\"],\"evidence_genes\":[\"ENSG00000149925.17\",\"ENSG00000067225.17\",\"ENSG00000111669.14\",\"ENSG00000110955.8\"],\"uncertainty\":\"A549 pilot; several states are weak or mixed and some combine metabolic with adhesion signals; interpretation is descriptive only.\"},{\"axis_id\":18,\"name\":\"Sterol/lipid and STC1-associated program\",\"summary\":\"States contrast sterol/lipid biosynthesis transcripts (INSIG1, ACSBG1) with STC1, RGL1 and long non-coding RNAs, giving several distinct signed patterns.\",\"functions\":[\"sterol/lipid biosynthesis-associated expression\",\"STC1/RGL1 co-expression\",\"lncRNA co-expression\"],\"evidence_genes\":[\"ENSG00000186480.12\",\"ENSG00000103740.9\",\"ENSG00000159167.11\",\"ENSG00000143344.15\"],\"uncertainty\":\"A549 pilot; many states are weak or mixed and lncRNA roles are unknown; no causal lipid or signaling claims.\"},{\"axis_id\":19,\"name\":\"p53-marker-associated stress program\",\"summary\":\"States show differing combinations of p53-responsive markers (FDXR, CDKN1A, TP53I3, MDM2, RPS27L), often with internally inconsistent directions across markers.\",\"functions\":[\"p53-responsive marker co-expression\",\"cell-cycle checkpoint-associated expression\",\"redox/stress marker expression\"],\"evidence_genes\":[\"ENSG00000161513.11\",\"ENSG00000124762.13\",\"ENSG00000115129.13\",\"ENSG00000135679.22\"],\"uncertainty\":\"A549 pilot; marker directions are frequently discordant across states, so a single p53 pathway interpretation is not supported.\"},{\"axis_id\":20,\"name\":\"Lysosomal/secretory program\",\"summary\":\"States vary in lysosomal and secretory transcripts (PSAP, CTSB, GRN, NUCB1, LGALS3BP) with some keratin (KRT19) and clusterin co-expression.\",\"functions\":[\"lysosomal enzyme expression\",\"secretory protein expression\",\"epithelial keratin-associated expression\"],\"evidence_genes\":[\"ENSG00000197746.13\",\"ENSG00000164733.20\",\"ENSG00000030582.17\",\"ENSG00000108679.12\"],\"uncertainty\":\"A549 pilot; several states are weak or unclear and lysosomal/secretory labels are provisional, not measured activity.\"},{\"axis_id\":21,\"name\":\"Adhesion/junction-associated program\",\"summary\":\"States contrast adhesion and junction transcripts (FKBP5, PCDH9, SDK2, EPB41L4A) with cytoskeletal genes, spanning coordinated high and low patterns.\",\"functions\":[\"cell adhesion-associated expression\",\"junctional/cytoskeletal expression\",\"epithelial marker co-expression\"],\"evidence_genes\":[\"ENSG00000096060.14\",\"ENSG00000184226.14\",\"ENSG00000069188.16\",\"ENSG00000129595.12\"],\"uncertainty\":\"A549 pilot; FKBP5 has stress-related roles and several states are weak or broadly down, limiting specificity.\"},{\"axis_id\":22,\"name\":\"Mitochondrial-encoded OXPHOS program\",\"summary\":\"States largely separate high versus low patterns of mitochondrial-encoded respiratory transcripts (MT-CO2, MT-ATP6, MT-CYB, MT-ND2) with few other markers.\",\"functions\":[\"mitochondrial-encoded oxidative phosphorylation expression\"],\"evidence_genes\":[\"ENSG00000198712.1\",\"ENSG00000198899.2\",\"ENSG00000198727.2\",\"ENSG00000198763.3\"],\"uncertainty\":\"A549 pilot; positive markers are almost entirely mitochondrial-encoded genes and negative markers are weak, so function beyond this transcript set is unresolved.\"},{\"axis_id\":23,\"name\":\"SERTAD2/RYBP/USP15 regulatory program\",\"summary\":\"States show varying combinations of SERTAD2, RYBP, USP15, TAF3 and HIF1A-AS2, with several weak or mixed patterns and no single dominant direction.\",\"functions\":[\"transcriptional/regulatory co-expression\",\"ubiquitin-proteasome-associated expression\",\"lncRNA co-expression\"],\"evidence_genes\":[\"ENSG00000179833.4\",\"ENSG00000163602.10\",\"ENSG00000135655.15\",\"ENSG00000258667.1\"],\"uncertainty\":\"A549 pilot; effects are modest and states are heterogeneous, so functional interpretation is tentative and non-causal.\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 12714,
+    "completion_tokens": 1242,
+    "total_tokens": 13956,
+    "prompt_tokens_details": {
+      "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 12586
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

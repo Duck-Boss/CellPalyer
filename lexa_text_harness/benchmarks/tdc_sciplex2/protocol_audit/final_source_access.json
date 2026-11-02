@@ -1,0 +1,26 @@
+[
+  {
+    "name": "tdc_examples_api",
+    "status": 200,
+    "bytes": 2260,
+    "excerpt": "[{\"name\":\"drugcombo\",\"path\":\"examples/multi_pred/drugcombo\",\"sha\":\"fdbc0dc93f4cbb8011d6e4ef005b5477d43170d7\",\"size\":0,\"url\":\"https://api.github.com/repos/mims-harvard/TDC/contents/examples/multi_pred/drugcombo?ref=main\",\"html_url\":\"https://github.com/mims-harvard/TDC/tree/main/examples/multi_pred/dr"
+  },
+  {
+    "name": "pytdc_examples_api",
+    "status": 404,
+    "bytes": 127,
+    "excerpt": "{\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}"
+  },
+  {
+    "name": "tdc_zip",
+    "status": 200,
+    "bytes": 5876433,
+    "excerpt": ""
+  },
+  {
+    "name": "pytdc_zip",
+    "status": 200,
+    "bytes": 1684599,
+    "excerpt": ""
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "exported_at": "2026-11-02T12:00:36+08:00",
+  "source_harness": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness",
+  "remote_target": "Duck-Boss/CellPalyer",
+  "scope": "existing completed experiments; no new fitting or API calls",
+  "replay_sha256": "790f0847af554dc743a52d78f6ebb7526bac8c43ab9540c3b7a588ff8f3e952f",
+  "source_prediction_hashes": {
+    "evaluation.npz": "42cdc42755f47eaea134ba1898ca56616d16dfa73839944ef961c90fd649a193",
+    "benchmarks/pilot_matched_baselines/models/cpa/seed_0/predictions.npz": "d4ec88ceff4db1690518ea60679fae13b6e4118f903e33f49e1d5772589693c3",
+    "benchmarks/pilot_matched_baselines/models/cpa/seed_1/predictions.npz": "04ab01859e1662872be42065ac8ec3e1f99c2738f77949fe6d90eeef56fa0283",
+    "benchmarks/pilot_matched_baselines/models/cpa/seed_2/predictions.npz": "d4c9189ce5c5564b231a0c173bd61e5e1a8446420d73af86e46dfd96b9f20c28",
+    "benchmarks/pilot_matched_baselines/models/codex/seed_0/predictions.npz": "bad4fecc5d79fbb43c8d068b1547d6b254d0a6b0e720789db04bb5d2906bd127",
+    "benchmarks/pilot_matched_baselines/models/codex/seed_1/predictions.npz": "aca07a173534dee572f5d702904186df17d523ad737f3cc68a69d41bf74fc128",
+    "benchmarks/pilot_matched_baselines/models/codex/seed_2/predictions.npz": "c8fbe87992d023f49861fd02c345c32f1aecaea078fea08a0aaac1e61f96b14f",
+    "benchmarks/pilot_matched_baselines/references/predictions.npz": "78fe93fec5ca65f4fab8e94dc732edf5f24d6fc3ff8bd64fbe3aa51583b0b197"
+  },
+  "original_score_manifest_sha256": "ae71ceeacea1fb7efaf07a165df5b6950b8e648de6bbdebef63c0f47185c55a6",
+  "omitted_local_artifacts": [
+    {
+      "relative_path": "benchmarks/pilot_matched_baselines/models/cpa_smoke/best.pt",
+      "local_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/benchmarks/pilot_matched_baselines/models/cpa_smoke/best.pt",
+      "size_bytes": 3849850,
+      "sha256": "21634cf9047e1eb534eb6cd8ff362980fb7d9717e130d2dd330d9ccc5cc3d735"
+    },
+    {
+      "relative_path": "benchmarks/pilot_matched_baselines/models/cpa/seed_1/best.pt",
+      "local_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/benchmarks/pilot_matched_baselines/models/cpa/seed_1/best.pt",
+      "size_bytes": 3849850,
+      "sha256": "9a47b41adc9f51624325396385613521ff87995ff01e4762457167855cd7cfde"
+    },
+    {
+      "relative_path": "benchmarks/pilot_matched_baselines/models/cpa/seed_2/best.pt",
+      "local_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/benchmarks/pilot_matched_baselines/models/cpa/seed_2/best.pt",
+      "size_bytes": 3849850,
+      "sha256": "6a088800f4a64306d87fba828b13233cbf746f2fb6259ba59ada697041966dbf"
+    },
+    {
+      "relative_path": "benchmarks/pilot_matched_baselines/models/cpa/seed_0/best.pt",
+      "local_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/benchmarks/pilot_matched_baselines/models/cpa/seed_0/best.pt",
+      "size_bytes": 3849850,
+      "sha256": "3579881efe7b82637b7566db99b861c17c07e2e95c86b3db45ff72fc72da0624"
+    },
+    {
+      "relative_path": "benchmarks/pilot_matched_baselines/models/codex/seed_1/best.pt",
+      "local_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/benchmarks/pilot_matched_baselines/models/codex/seed_1/best.pt",
+      "size_bytes": 12812638,
+      "sha256": "6bbf7e440ca3b9d4025023dde4382b2044f1a238a9d269e0e389fcd9a37a83b9"
+    },
+    {
+      "relative_path": "benchmarks/pilot_matched_baselines/models/codex/seed_2/best.pt",
+      "local_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/benchmarks/pilot_matched_baselines/models/codex/seed_2/best.pt",
+      "size_bytes": 12812638,
+      "sha256": "c00212acf5e1c08d2a390f5290bcee6b4d686254906332a6298f2a59784b524f"
+    },
+    {
+      "relative_path": "benchmarks/pilot_matched_baselines/models/codex/seed_0/best.pt",
+      "local_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/benchmarks/pilot_matched_baselines/models/codex/seed_0/best.pt",
+      "size_bytes": 12812638,
+      "sha256": "b7126aa89860a0d287776b84b45d8433628b5da5c10172836b2222d6e7a47367"
+    },
+    {
+      "relative_path": "benchmarks/pilot_matched_baselines/models/codex/smoke/best.pt",
+      "local_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/benchmarks/pilot_matched_baselines/models/codex/smoke/best.pt",
+      "size_bytes": 12812638,
+      "sha256": "53fca83824b8859f6a8fc962bb91174498fcb95a0c4406f9d4639ce5ef64876e"
+    },
+    {
+      "relative_path": "runs/pilot_seen_dose/lexa/last.pt",
+      "local_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/lexa/last.pt",
+      "size_bytes": 33362085,
+      "sha256": "236afd12bb239736ca787002bf46969c51b507f6599a74c0e492bccdbb66399e"
+    },
+    {
+      "relative_path": "runs/pilot_seen_dose/lexa/best.pt",
+      "local_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/lexa/best.pt",
+      "size_bytes": 33362085,
+      "sha256": "236afd12bb239736ca787002bf46969c51b507f6599a74c0e492bccdbb66399e"
+    },
+    {
+      "relative_path": "runs/pilot_seen_dose/prepared/evaluation.npz",
+      "local_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/prepared/evaluation.npz",
+      "size_bytes": 2693132,
+      "sha256": "42cdc42755f47eaea134ba1898ca56616d16dfa73839944ef961c90fd649a193"
+    },
+    {
+      "relative_path": "runs/pilot_seen_dose/prepared/prepared.npz",
+      "local_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/prepared/prepared.npz",
+      "size_bytes": 10611436,
+      "sha256": "920fb717e80976fb18f5557a17545689048a40972147de8ce3a304c1640d2106"
+    }
+  ],
+  "omissions": [
+    "raw public datasets",
+    "model checkpoints",
+    "raw API request/response traces",
+    "large third-party archives/notebooks",
+    "credentials"
+  ],
+  "historical_paths": "Original JSON records preserve their original absolute paths; use scripts/verify_results.py for portable result verification."
+}

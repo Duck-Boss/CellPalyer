@@ -1,0 +1,103 @@
+{
+  "status": "passed",
+  "created_asia_shanghai": "2026-10-27T01:28:08.878894+08:00",
+  "prediction_targets_read": false,
+  "n_actual_request_payloads": 18,
+  "stage_status_counts": {
+    "completed": 14,
+    "failed": 0
+  },
+  "format_or_transport_errors": {},
+  "checked_requests": [
+    {
+      "path": "predictions/full/P2573b4ab3d22/requests/local_00/attempt_01.request.json",
+      "sha256": "46af5f7ca755971d3283d03099c300cce132a14034b1a048e28519e87818cd2b",
+      "arm": "full"
+    },
+    {
+      "path": "predictions/full/P2573b4ab3d22/requests/local_01/attempt_01.request.json",
+      "sha256": "506ffc9b981132d30d84147682a62735e2fd2ced59c20a2fb08a8cb9e52cce58",
+      "arm": "full"
+    },
+    {
+      "path": "predictions/full/P2573b4ab3d22/requests/local_02/attempt_01.request.json",
+      "sha256": "4e1df712eb36d7b2cc372247975fca3899422d50c9f61dc4b08868c2cdf94034",
+      "arm": "full"
+    },
+    {
+      "path": "predictions/full/P2573b4ab3d22/requests/plan/attempt_01.request.json",
+      "sha256": "0ca2ec28af60b426c083340d1c8839e87b0635176b751868a4574dea47a07b12",
+      "arm": "full"
+    },
+    {
+      "path": "predictions/neither/P2573b4ab3d22/requests/local_00/attempt_01.request.json",
+      "sha256": "c51c640518afea8092f6ea080c2d466c41fa8c19f926e72d3f62a2f90ebc8afb",
+      "arm": "neither"
+    },
+    {
+      "path": "predictions/neither/P2573b4ab3d22/requests/local_01/attempt_01.request.json",
+      "sha256": "8dca0eaad1c62ee1474c5d0f92a7a45e55b3aa0660e09b6916b8621e1e9eaccf",
+      "arm": "neither"
+    },
+    {
+      "path": "predictions/neither/P2573b4ab3d22/requests/local_02/attempt_01.request.json",
+      "sha256": "eaf195977d5be58a77684a008036d474acdf29e0ec5102f7143c0c294fa08eed",
+      "arm": "neither"
+    },
+    {
+      "path": "predictions/neither/P2573b4ab3d22/requests/local_03/attempt_01.request.json",
+      "sha256": "4b6e87e2b63c93333ec2dc26816c83f707db143be4f74f7290ef8b8021b3926d",
+      "arm": "neither"
+    },
+    {
+      "path": "predictions/neither/P2573b4ab3d22/requests/plan/attempt_01.request.json",
+      "sha256": "60ead4f9e99db24fae72b0acc4b852acb26f896521c6cf8bb3156b33c8d8a18b",
+      "arm": "neither"
+    },
+    {
+      "path": "predictions/no_mechanism/P2573b4ab3d22/requests/local_00/attempt_01.request.json",
+      "sha256": "716a76e55516707a690a3f61893d4de64b35a0698683fe54ea4ec73ceda1f09c",
+      "arm": "no_mechanism"
+    },
+    {
+      "path": "predictions/no_mechanism/P2573b4ab3d22/requests/local_01/attempt_01.request.json",
+      "sha256": "c15a248feeb78caf1d60c461fabad3beb14cb584e1ecc0f0eef89ce3278e49c2",
+      "arm": "no_mechanism"
+    },
+    {
+      "path": "predictions/no_mechanism/P2573b4ab3d22/requests/local_02/attempt_01.request.json",
+      "sha256": "72e6d0b8fd2b3e5623cdc20bf6cf3984d565e64304450d51b15a9b64bf71cf26",
+      "arm": "no_mechanism"
+    },
+    {
+      "path": "predictions/no_mechanism/P2573b4ab3d22/requests/plan/attempt_01.request.json",
+      "sha256": "3c2ff27e15304ba6d1333779a71eb30687077023d08db69ddfdb6f147fba4b88",
+      "arm": "no_mechanism"
+    },
+    {
+      "path": "predictions/no_semantics/P2573b4ab3d22/requests/local_00/attempt_01.request.json",
+      "sha256": "d356bf858ac3e9644060c7f7b841e1afc01cb0083e339b6cea77161b7da72220",
+      "arm": "no_semantics"
+    },
+    {
+      "path": "predictions/no_semantics/P2573b4ab3d22/requests/local_01/attempt_01.request.json",
+      "sha256": "6636ce7a2973e762657f09418fdafa36f4ff793225e89051d37f5edb66898a83",
+      "arm": "no_semantics"
+    },
+    {
+      "path": "predictions/no_semantics/P2573b4ab3d22/requests/local_02/attempt_01.request.json",
+      "sha256": "cd32415297b9f5f13469451eda71989707f7c893505021bda2dc5845347aa627",
+      "arm": "no_semantics"
+    },
+    {
+      "path": "predictions/no_semantics/P2573b4ab3d22/requests/local_03/attempt_01.request.json",
+      "sha256": "3cd451aeb4b1955bf4c6696f0f1a34e591eddc9fbdfab44a02889a1a2e11d44e",
+      "arm": "no_semantics"
+    },
+    {
+      "path": "predictions/no_semantics/P2573b4ab3d22/requests/plan/attempt_01.request.json",
+      "sha256": "68166574b9e9a1cc383bad0179884fc4eacb82766840eae12e20e02777e2f775",
+      "arm": "no_semantics"
+    }
+  ]
+}

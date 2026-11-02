@@ -1,0 +1,20 @@
+{
+  "cell_type": "code",
+  "execution_count": 6,
+  "metadata": {},
+  "outputs": [
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": [
+        "Loaded pretrained model from:\t./sciplex2_other.pt\n"
+      ]
+    }
+  ],
+  "source": [
+    "cpa_api = cpa.api.API(\n",
+    "    adata,\n",
+    "    pretrained='./sciplex2_other.pt', \n",
+    ")"
+  ]
+}

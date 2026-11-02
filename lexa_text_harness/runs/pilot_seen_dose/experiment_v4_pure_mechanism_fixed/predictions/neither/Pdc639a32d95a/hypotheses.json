@@ -1,0 +1,46 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "transcriptional response to an unknown perturbation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Perturbation identity and mechanism are withheld, so no treatment-specific direction can be inferred."
+    },
+    {
+      "id": "H2",
+      "program": "stress-response / immediate-early transcription",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549, 24 h exposure; only if perturbation is cytotoxic or reactive",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "A549 stress programs are plausible secondary effects of many agents, but no mechanism is supplied."
+    },
+    {
+      "id": "H3",
+      "program": "cell-cycle progression",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549, 24 h; depends on unknown mechanism",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Proliferation changes are common downstream effects but direction depends on the hidden mechanism."
+    }
+  ],
+  "summary": "No mechanism is available; all directions are explicitly uncertain and no gene-level predictions are warranted from untreated context alone.",
+  "limitations": [
+    "Perturbation identity and mechanism withheld; no treatment-specific directions known.",
+    "Control feature semantics withheld, so anonymous features cannot be mapped to genes.",
+    "Only untreated A549 context (C) is available as evidence."
+  ]
+}

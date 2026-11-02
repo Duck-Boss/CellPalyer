@@ -1,0 +1,14 @@
+{
+  "status": "prepared",
+  "files": [
+    "prepared.npz",
+    "evaluation.npz",
+    "metadata.csv",
+    "selected_genes.csv",
+    "cases.json",
+    "manifest.json"
+  ],
+  "prepared_sha256": "920fb717e80976fb18f5557a17545689048a40972147de8ce3a304c1640d2106",
+  "protocol": "seen_drug_unseen_dose",
+  "synthetic": false
+}

@@ -1,0 +1,1504 @@
+{
+  "status": "completed",
+  "case_id": "drug=Dex|dose_uM=5|plate=A|replicate=3",
+  "opaque_id": "Pa085653ca876",
+  "arm": "neither",
+  "stage": "local",
+  "fingerprint": "299e9013345e6d797360febecfef0b742c8005a26f2c9c6c3dd769cf7a377359",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A0/C10"
+      ],
+      "reason": "Strongest up effect G1015; control occupancy zero"
+    },
+    {
+      "axis_id": 1,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A1/C1"
+      ],
+      "reason": "Large up G0642/G1680 effects"
+    },
+    {
+      "axis_id": 2,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A2/C9"
+      ],
+      "reason": "Largest up G0255/G1037 effects"
+    },
+    {
+      "axis_id": 3,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A3/C13"
+      ],
+      "reason": "Strong up G0700 effect"
+    },
+    {
+      "axis_id": 4,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A4/C12"
+      ],
+      "reason": "Largest up G1651 effects"
+    },
+    {
+      "axis_id": 5,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A5/C12"
+      ],
+      "reason": "Strong up G0522 effects"
+    },
+    {
+      "axis_id": 6,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A6/C10"
+      ],
+      "reason": "Strong up G0096/G1444 effects"
+    },
+    {
+      "axis_id": 7,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A7/C7"
+      ],
+      "reason": "Largest up G1773/G1961 effects"
+    },
+    {
+      "axis_id": 8,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A8/C11"
+      ],
+      "reason": "Strongest down G0574 effects in states 11,10,0"
+    },
+    {
+      "axis_id": 9,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A9/C13"
+      ],
+      "reason": "Largest magnitude state effects 13,14,10"
+    },
+    {
+      "axis_id": 10,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A10/C13"
+      ],
+      "reason": "Strong up G1776 in 13,9; down in 1"
+    },
+    {
+      "axis_id": 11,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A11/C4"
+      ],
+      "reason": "Largest magnitude effects states 4,6,14"
+    },
+    {
+      "axis_id": 12,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A12/C1"
+      ],
+      "reason": "Strong G0053 up in 1; down in 5,10"
+    },
+    {
+      "axis_id": 13,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A13/C12"
+      ],
+      "reason": "Largest magnitude down effects 12,14,1"
+    },
+    {
+      "axis_id": 14,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A14/C8"
+      ],
+      "reason": "Strongest magnitude effects states 8,11,2"
+    },
+    {
+      "axis_id": 15,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A15/C13"
+      ],
+      "reason": "Largest magnitude down effects 13,14,7"
+    },
+    {
+      "axis_id": 16,
+      "decision": "shift",
+      "targets": [
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A16/C3"
+      ],
+      "reason": "C3 strong up G1428/G1467; control occupancy low"
+    },
+    {
+      "axis_id": 17,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A17/C7"
+      ],
+      "reason": "C7 strong up G0403/G0695; control zero"
+    },
+    {
+      "axis_id": 18,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A18/C11"
+      ],
+      "reason": "C11 large up G1958/G1198; control low"
+    },
+    {
+      "axis_id": 19,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A19/C4"
+      ],
+      "reason": "C4 large up G0506/G1345; control zero"
+    },
+    {
+      "axis_id": 20,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A20/C4"
+      ],
+      "reason": "C4 strong up G0541/G1041; control low"
+    },
+    {
+      "axis_id": 21,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A21/C6"
+      ],
+      "reason": "C6 strong up G0372/G0066; control low"
+    },
+    {
+      "axis_id": 22,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A22/C2"
+      ],
+      "reason": "C2 up G1096/G0352; control zero"
+    },
+    {
+      "axis_id": 23,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A23/C2"
+      ],
+      "reason": "C2 strong up G1239/G1077; control low"
+    },
+    {
+      "axis_id": 24,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A24/C13"
+      ],
+      "reason": "Strong up G1200/G0592 in states 13,9,10; control occupancy low."
+    },
+    {
+      "axis_id": 25,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A25/C14"
+      ],
+      "reason": "State 14 dominant control; 6/13 show strong up G1281/G1424."
+    },
+    {
+      "axis_id": 26,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A26/C10"
+      ],
+      "reason": "Up G1787/G0348 in 10,11,0; control occupancy supports 10."
+    },
+    {
+      "axis_id": 27,
+      "decision": "shift",
+      "targets": [
+        [
+          15,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A27/C15"
+      ],
+      "reason": "Control dominated by 15/0; 14 strong up G1417."
+    },
+    {
+      "axis_id": 28,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A28/C0"
+      ],
+      "reason": "Control high at 0,1,15; 0 shows down G0975."
+    },
+    {
+      "axis_id": 29,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A29/C8"
+      ],
+      "reason": "Control high at 8,3,2; 8 strong down G1295."
+    },
+    {
+      "axis_id": 30,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A30/C0"
+      ],
+      "reason": "Control high at 0,3,8; 8 up G0685."
+    },
+    {
+      "axis_id": 31,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A31/C7"
+      ],
+      "reason": "Control high at 7,9,14; 7 up G1706/G0388."
+    }
+  ],
+  "response": {
+    "decisions": [
+      {
+        "axis_id": 0,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A0/C10"
+        ],
+        "reason": "Strongest up effect G1015; control occupancy zero"
+      },
+      {
+        "axis_id": 1,
+        "decision": "shift",
+        "targets": [
+          [
+            1,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A1/C1"
+        ],
+        "reason": "Large up G0642/G1680 effects"
+      },
+      {
+        "axis_id": 2,
+        "decision": "shift",
+        "targets": [
+          [
+            9,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A2/C9"
+        ],
+        "reason": "Largest up G0255/G1037 effects"
+      },
+      {
+        "axis_id": 3,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A3/C13"
+        ],
+        "reason": "Strong up G0700 effect"
+      },
+      {
+        "axis_id": 4,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A4/C12"
+        ],
+        "reason": "Largest up G1651 effects"
+      },
+      {
+        "axis_id": 5,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A5/C12"
+        ],
+        "reason": "Strong up G0522 effects"
+      },
+      {
+        "axis_id": 6,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A6/C10"
+        ],
+        "reason": "Strong up G0096/G1444 effects"
+      },
+      {
+        "axis_id": 7,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A7/C7"
+        ],
+        "reason": "Largest up G1773/G1961 effects"
+      },
+      {
+        "axis_id": 8,
+        "decision": "shift",
+        "targets": [
+          [
+            11,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A8/C11"
+        ],
+        "reason": "Strongest down G0574 effects in states 11,10,0"
+      },
+      {
+        "axis_id": 9,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A9/C13"
+        ],
+        "reason": "Largest magnitude state effects 13,14,10"
+      },
+      {
+        "axis_id": 10,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A10/C13"
+        ],
+        "reason": "Strong up G1776 in 13,9; down in 1"
+      },
+      {
+        "axis_id": 11,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A11/C4"
+        ],
+        "reason": "Largest magnitude effects states 4,6,14"
+      },
+      {
+        "axis_id": 12,
+        "decision": "shift",
+        "targets": [
+          [
+            1,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A12/C1"
+        ],
+        "reason": "Strong G0053 up in 1; down in 5,10"
+      },
+      {
+        "axis_id": 13,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A13/C12"
+        ],
+        "reason": "Largest magnitude down effects 12,14,1"
+      },
+      {
+        "axis_id": 14,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A14/C8"
+        ],
+        "reason": "Strongest magnitude effects states 8,11,2"
+      },
+      {
+        "axis_id": 15,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A15/C13"
+        ],
+        "reason": "Largest magnitude down effects 13,14,7"
+      },
+      {
+        "axis_id": 16,
+        "decision": "shift",
+        "targets": [
+          [
+            3,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A16/C3"
+        ],
+        "reason": "C3 strong up G1428/G1467; control occupancy low"
+      },
+      {
+        "axis_id": 17,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A17/C7"
+        ],
+        "reason": "C7 strong up G0403/G0695; control zero"
+      },
+      {
+        "axis_id": 18,
+        "decision": "shift",
+        "targets": [
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A18/C11"
+        ],
+        "reason": "C11 large up G1958/G1198; control low"
+      },
+      {
+        "axis_id": 19,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A19/C4"
+        ],
+        "reason": "C4 large up G0506/G1345; control zero"
+      },
+      {
+        "axis_id": 20,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A20/C4"
+        ],
+        "reason": "C4 strong up G0541/G1041; control low"
+      },
+      {
+        "axis_id": 21,
+        "decision": "shift",
+        "targets": [
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A21/C6"
+        ],
+        "reason": "C6 strong up G0372/G0066; control low"
+      },
+      {
+        "axis_id": 22,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A22/C2"
+        ],
+        "reason": "C2 up G1096/G0352; control zero"
+      },
+      {
+        "axis_id": 23,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A23/C2"
+        ],
+        "reason": "C2 strong up G1239/G1077; control low"
+      },
+      {
+        "axis_id": 24,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A24/C13"
+        ],
+        "reason": "Strong up G1200/G0592 in states 13,9,10; control occupancy low."
+      },
+      {
+        "axis_id": 25,
+        "decision": "shift",
+        "targets": [
+          [
+            14,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A25/C14"
+        ],
+        "reason": "State 14 dominant control; 6/13 show strong up G1281/G1424."
+      },
+      {
+        "axis_id": 26,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A26/C10"
+        ],
+        "reason": "Up G1787/G0348 in 10,11,0; control occupancy supports 10."
+      },
+      {
+        "axis_id": 27,
+        "decision": "shift",
+        "targets": [
+          [
+            15,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A27/C15"
+        ],
+        "reason": "Control dominated by 15/0; 14 strong up G1417."
+      },
+      {
+        "axis_id": 28,
+        "decision": "shift",
+        "targets": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A28/C0"
+        ],
+        "reason": "Control high at 0,1,15; 0 shows down G0975."
+      },
+      {
+        "axis_id": 29,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A29/C8"
+        ],
+        "reason": "Control high at 8,3,2; 8 strong down G1295."
+      },
+      {
+        "axis_id": 30,
+        "decision": "shift",
+        "targets": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A30/C0"
+        ],
+        "reason": "Control high at 0,3,8; 8 up G0685."
+      },
+      {
+        "axis_id": 31,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A31/C7"
+        ],
+        "reason": "Control high at 7,9,14; 7 up G1706/G0388."
+      }
+    ],
+    "summary": "Mechanism withheld; shifts favor states with largest positive decoder contributions per axis, consistent with generic uncertain perturbation response. | Mechanism withheld; shifts target states with largest-magnitude decoder effects per axis, reflecting generic uncertainty rather than treatment-specific direction. | Mechanism hidden; shifts favor states with strong positive decoder weights and low control occupancy, reflecting generic uncertainty rather than treatment-specific direction. | Shift toward states with strong decoder up/down effects and nonzero control occupancy across axes 24-31; mechanism hidden so directions are generic.",
+    "limitations": [
+      "No treatment-specific direction known.",
+      "Anonymous features lack gene mapping.",
+      "Only untreated context evidence available.",
+      "Perturbation mechanism hidden; no directional prior.",
+      "Only untreated context available.",
+      "Perturbation mechanism withheld; directions are not causal.",
+      "Perturbation mechanism withheld; no treatment-specific direction."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 32,
+      "keep": 0,
+      "unknown": 0
+    },
+    "delta_l2": 5.7661828112741675,
+    "standardized_delta_rms": 0.15858266451929787,
+    "axis_tv": [
+      0.25312500000000004,
+      0.24375000000000002,
+      0.28125,
+      0.30000000000000004,
+      0.253125,
+      0.27187500000000003,
+      0.30000000000000004,
+      0.30000000000000004,
+      0.1875,
+      0.234375,
+      0.28125,
+      0.26249999999999996,
+      0.28125,
+      0.290625,
+      0.30000000000000004,
+      0.196875,
+      0.2625,
+      0.30000000000000004,
+      0.290625,
+      0.290625,
+      0.290625,
+      0.27187500000000003,
+      0.27187500000000003,
+      0.29062499999999997,
+      0.234375,
+      0.17812500000000003,
+      0.290625,
+      0.140625,
+      0.140625,
+      0.103125,
+      0.16874999999999998,
+      0.159375
+    ],
+    "mean_axis_tv": 0.24755859375,
+    "top_gene_changes": {
+      "up": [
+        {
+          "feature": "G1958",
+          "delta": 0.53635,
+          "scaled_delta": 0.71686
+        },
+        {
+          "feature": "G1314",
+          "delta": 0.76738,
+          "scaled_delta": 0.68221
+        },
+        {
+          "feature": "G1345",
+          "delta": 0.56653,
+          "scaled_delta": 0.67935
+        },
+        {
+          "feature": "G0506",
+          "delta": 0.44562,
+          "scaled_delta": 0.64472
+        },
+        {
+          "feature": "G1198",
+          "delta": 0.5928,
+          "scaled_delta": 0.64252
+        },
+        {
+          "feature": "G1204",
+          "delta": 0.41982,
+          "scaled_delta": 0.57596
+        },
+        {
+          "feature": "G0384",
+          "delta": 0.4471,
+          "scaled_delta": 0.56396
+        },
+        {
+          "feature": "G1641",
+          "delta": 0.44919,
+          "scaled_delta": 0.53718
+        },
+        {
+          "feature": "G1780",
+          "delta": 0.39119,
+          "scaled_delta": 0.53342
+        },
+        {
+          "feature": "G0320",
+          "delta": 0.41958,
+          "scaled_delta": 0.52901
+        }
+      ],
+      "down": [
+        {
+          "feature": "G1066",
+          "delta": -0.16272,
+          "scaled_delta": -0.17631
+        },
+        {
+          "feature": "G0620",
+          "delta": -0.11906,
+          "scaled_delta": -0.11284
+        },
+        {
+          "feature": "G0704",
+          "delta": -0.10031,
+          "scaled_delta": -0.10667
+        },
+        {
+          "feature": "G0153",
+          "delta": -0.09691,
+          "scaled_delta": -0.10128
+        },
+        {
+          "feature": "G0437",
+          "delta": -0.0826,
+          "scaled_delta": -0.09518
+        },
+        {
+          "feature": "G0537",
+          "delta": -0.09161,
+          "scaled_delta": -0.09225
+        },
+        {
+          "feature": "G0822",
+          "delta": -0.08025,
+          "scaled_delta": -0.09192
+        },
+        {
+          "feature": "G1547",
+          "delta": -0.08452,
+          "scaled_delta": -0.09165
+        },
+        {
+          "feature": "G1609",
+          "delta": -0.09122,
+          "scaled_delta": -0.08909
+        },
+        {
+          "feature": "G0367",
+          "delta": -0.08166,
+          "scaled_delta": -0.08873
+        }
+      ]
+    },
+    "hypothesis_gene_checks": "Unavailable without feature semantics; anonymous IDs cannot be mapped to hypothesis gene names.",
+    "cross_axis_cancellation": [
+      {
+        "feature": "G0836",
+        "summed_delta": -0.06142095095510784,
+        "absolute_axis_sum": 0.36371757103825086
+      },
+      {
+        "feature": "G0620",
+        "summed_delta": -0.11906335865824093,
+        "absolute_axis_sum": 0.46535037935282164
+      },
+      {
+        "feature": "G0715",
+        "summed_delta": -0.021057465505521275,
+        "absolute_axis_sum": 0.3806461181355076
+      },
+      {
+        "feature": "G1495",
+        "summed_delta": -0.02123192140934697,
+        "absolute_axis_sum": 0.29985532775708346
+      },
+      {
+        "feature": "G0601",
+        "summed_delta": 0.028143917056922676,
+        "absolute_axis_sum": 0.3181775094583372
+      },
+      {
+        "feature": "G0308",
+        "summed_delta": -0.048518176000379935,
+        "absolute_axis_sum": 0.3297800868968807
+      }
+    ]
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "31425fe684049d439fe460e8f813d5d71cc60bea8b85c78e79e482c0bdbcb6b1",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "7c61344fecdfc65476aa2d1a32f1a7d06428890c769b22753493121f1e7ac212",
+      "response_sha256": "ab40743e082c9700443866bcb4be8d8c2188988bd82677dddf31dd52004d9257"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "f44aa1589acc21bdb76b206e631e0aa7b417b103b37b7f03e0336d818c79b2d0",
+      "response_sha256": "490c4bca25699229e2cb2c6b6251563d6e101c881977a79e7f2ab7001b6d8680"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "0f2e809350bebfc2f7aaaa387b14051d9f0d54fd754e967fa0f16023a49da168",
+      "response_sha256": "3d3d1db52cc0e60fa9c9fd675f0a27232b5cc3745351d39107888f7f07562656"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "e6fc66803adbee6d437f364fbd978f1777c920cca74d44657e424e87e467f185",
+      "response_sha256": "3baf5a27cff459e9dc5e47778886a08472969925070d2afeaf24593494238d58"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "5040dacb23995e9a69cb85fc22066031546036f36e13fa30f92939f193e98d0c",
+      "response_sha256": "82314cad08da4830e3460f7b6730f484a81ac6c8851f70729aeef984ed2c196c"
+    }
+  ],
+  "attempts_used": 5,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/neither/Pa085653ca876/local.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "81fd2894600096f83080012c1950f9373ae86995fd0cee0a2a918ae4b4d113d6"
+}

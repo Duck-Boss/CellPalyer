@@ -1,0 +1,98 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "p53 transcriptional activation",
+      "direction": "increase",
+      "basis": "direct",
+      "conditions": "requires functional p53; A549 p53 status not established by control profile",
+      "gene_expectations": [
+        {
+          "gene": "CDKN1A",
+          "direction": "increase"
+        },
+        {
+          "gene": "MDM2",
+          "direction": "increase"
+        },
+        {
+          "gene": "BBC3",
+          "direction": "increase"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M1",
+        "M2"
+      ],
+      "reason": "MDM2 antagonism stabilizes p53 and releases p53-dependent transcription of canonical targets."
+    },
+    {
+      "id": "H2",
+      "program": "p53 protein stabilization without TP53 mRNA change",
+      "direction": "uncertain",
+      "basis": "direct",
+      "conditions": "protein-level effect; mRNA may be unchanged",
+      "gene_expectations": [
+        {
+          "gene": "TP53",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Stabilization is post-translational; TP53 transcript need not rise and could even feedback-decrease."
+    },
+    {
+      "id": "H3",
+      "program": "cell-cycle arrest / apoptosis",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "depends on p53 functionality and A549 context",
+      "gene_expectations": [
+        {
+          "gene": "CDKN1A",
+          "direction": "increase"
+        },
+        {
+          "gene": "BAX",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M2"
+      ],
+      "reason": "Downstream arrest or apoptosis is context-dependent; direction of apoptotic programs is not assured."
+    },
+    {
+      "id": "H4",
+      "program": "stress/redox and detoxification transcripts",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549 baseline high AKR1B10/AKR1C/TXNRD1; no dose-response data",
+      "gene_expectations": [
+        {
+          "gene": "TXNRD1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C",
+        "M"
+      ],
+      "reason": "No supplied evidence links MDM2 antagonism to these transcripts; baseline expression alone is not predictive."
+    }
+  ],
+  "summary": "Nutlin-3a should activate p53-dependent transcription if A549 has functional p53; magnitude and downstream fate are uncertain.",
+  "limitations": [
+    "A549 p53 functional status is not established by the control profile.",
+    "No dose-response or expression signature is supplied to calibrate directions.",
+    "Protein stabilization does not imply matching mRNA changes."
+  ]
+}

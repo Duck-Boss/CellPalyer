@@ -1,0 +1,119 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "oxidative stress / NRF2 antioxidant response",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "ALDH1A1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "These detoxification genes are basally expressed; direction depends on the hidden perturbation."
+    },
+    {
+      "id": "H2",
+      "program": "glycolysis / central carbon metabolism",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "ENO1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "G6PD",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Glycolytic and PPP genes are basally high; no treatment-specific direction is known."
+    },
+    {
+      "id": "H3",
+      "program": "cAMP/PDE4D signaling",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "PDE4D",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "PDE4D is the top expressed feature; mRNA direction cannot be inferred from an opaque mechanism."
+    },
+    {
+      "id": "H4",
+      "program": "lncRNA stress response (NEAT1/MALAT1)",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MALAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Stress-responsive lncRNAs are basally expressed; response direction is unknown without mechanism."
+    },
+    {
+      "id": "H5",
+      "program": "mitochondrial oxidative phosphorylation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism hidden",
+      "gene_expectations": [
+        {
+          "gene": "MT-CO3",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MT-CYB",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "MT genes are basally expressed; no perturbation-specific direction can be asserted."
+    }
+  ],
+  "summary": "Mechanism withheld; only untreated A549 baseline expression is available, so all directions are explicitly uncertain.",
+  "limitations": [
+    "Perturbation identity and mechanism are hidden; no treatment-specific directions can be inferred.",
+    "No dose trajectory or measured response data are supplied.",
+    "Basal expression alone does not predict mRNA direction of a perturbation."
+  ]
+}

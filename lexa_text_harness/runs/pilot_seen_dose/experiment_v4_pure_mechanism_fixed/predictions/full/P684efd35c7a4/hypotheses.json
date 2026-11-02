@@ -1,0 +1,65 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "NF-kappa-B transcriptional activity",
+      "direction": "decrease",
+      "basis": "direct",
+      "conditions": "A549, dexamethasone 5 uM, 24 h",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "GR agonism transrepresses NF-kappa-B activity per mechanism card; no signed target genes supplied."
+    },
+    {
+      "id": "H2",
+      "program": "Glucocorticoid receptor target gene activation",
+      "direction": "increase",
+      "basis": "direct",
+      "conditions": "A549, dexamethasone 5 uM, 24 h",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Ligand-activated GR drives transcription at GR-responsive loci; specific genes not provided."
+    },
+    {
+      "id": "H3",
+      "program": "NR3C1 mRNA level",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549, dexamethasone 5 uM, 24 h",
+      "gene_expectations": [
+        {
+          "gene": "NR3C1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Receptor activation does not imply NR3C1 mRNA change; direction context-dependent."
+    },
+    {
+      "id": "H4",
+      "program": "Glucocorticoid-responsive metabolic/anti-inflammatory genes",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, dexamethasone 5 uM, 24 h",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M",
+        "C"
+      ],
+      "reason": "No A549 treatment profile or signed gene list supplied; direction cannot be inferred."
+    }
+  ],
+  "summary": "Dexamethasone likely activates GR and transrepresses NF-kappa-B; specific gene directions in A549 remain uncertain without measured profiles.",
+  "limitations": [
+    "No A549 dexamethasone expression profile or signed gene list provided.",
+    "Receptor abundance and chromatin context may alter response magnitude.",
+    "NR3C1 activation is not evidence of NR3C1 mRNA change."
+  ]
+}

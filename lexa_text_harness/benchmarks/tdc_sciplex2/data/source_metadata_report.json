@@ -1,0 +1,907 @@
+{
+  "source_file": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/benchmarks/tdc_sciplex2/data/SrivatsanTrapnell2020_sciplex2.h5ad",
+  "size_bytes": 145178504,
+  "md5": "12a48293a166a859f994551653a2ad8c",
+  "sha256": "0adabca03632ac9421a769fc9eaa4178447d4d572f4c2c54e4fde93a81acde67",
+  "source_md5_verified": true,
+  "tdc_dataverse_file_id": 9845394,
+  "tdc_dataverse_byte_equivalence": "unverified; access returned HTTP403",
+  "expression_values_loaded": false,
+  "model_scoring_performed": false,
+  "root": {
+    "kind": "group",
+    "attrs": {
+      "encoding-type": "anndata",
+      "encoding-version": "0.1.0"
+    },
+    "children": {
+      "X": {
+        "kind": "group"
+      },
+      "layers": {
+        "kind": "group"
+      },
+      "obs": {
+        "kind": "group"
+      },
+      "obsm": {
+        "kind": "group"
+      },
+      "obsp": {
+        "kind": "group"
+      },
+      "uns": {
+        "kind": "group"
+      },
+      "var": {
+        "kind": "group"
+      },
+      "varm": {
+        "kind": "group"
+      },
+      "varp": {
+        "kind": "group"
+      }
+    }
+  },
+  "n_obs": 24262,
+  "n_vars": 58347,
+  "obs_columns": [
+    "cancer",
+    "cell_line",
+    "celltype",
+    "chembl-ID",
+    "disease",
+    "dose_value",
+    "hash_umis",
+    "ncounts",
+    "ngenes",
+    "nperts",
+    "organism",
+    "percent_mito",
+    "percent_ribo",
+    "perturbation",
+    "perturbation_type",
+    "pval_demultiplexing",
+    "qval_demultiplexing",
+    "tissue_type",
+    "top_oligo",
+    "top_to_second_best_ratio",
+    "well"
+  ],
+  "obs_annotation_summary": {
+    "cancer": {
+      "representation": {
+        "kind": "dataset",
+        "attrs": {
+          "encoding-type": "array",
+          "encoding-version": "0.2.0"
+        },
+        "shape": [
+          24262
+        ],
+        "dtype": "bool",
+        "compression": "gzip"
+      },
+      "n_unique": 1,
+      "n_values": 24262,
+      "counts": {
+        "True": 24262
+      }
+    },
+    "cell_line": {
+      "representation": {
+        "kind": "group",
+        "attrs": {
+          "encoding-type": "categorical",
+          "encoding-version": "0.2.0",
+          "ordered": false
+        },
+        "children": {
+          "categories": {
+            "kind": "dataset",
+            "shape": [
+              1
+            ],
+            "dtype": "object"
+          },
+          "codes": {
+            "kind": "dataset",
+            "shape": [
+              24262
+            ],
+            "dtype": "int8"
+          }
+        }
+      },
+      "n_unique": 1,
+      "n_values": 24262,
+      "counts": {
+        "A549": 24262
+      }
+    },
+    "celltype": {
+      "representation": {
+        "kind": "group",
+        "attrs": {
+          "encoding-type": "categorical",
+          "encoding-version": "0.2.0",
+          "ordered": false
+        },
+        "children": {
+          "categories": {
+            "kind": "dataset",
+            "shape": [
+              1
+            ],
+            "dtype": "object"
+          },
+          "codes": {
+            "kind": "dataset",
+            "shape": [
+              24262
+            ],
+            "dtype": "int8"
+          }
+        }
+      },
+      "n_unique": 1,
+      "n_values": 24262,
+      "counts": {
+        "alveolar basal epithelial cells": 24262
+      }
+    },
+    "chembl-ID": {
+      "representation": {
+        "kind": "group",
+        "attrs": {
+          "encoding-type": "categorical",
+          "encoding-version": "0.2.0",
+          "ordered": false
+        },
+        "children": {
+          "categories": {
+            "kind": "dataset",
+            "shape": [
+              1
+            ],
+            "dtype": "object"
+          },
+          "codes": {
+            "kind": "dataset",
+            "shape": [
+              24262
+            ],
+            "dtype": "int8"
+          }
+        }
+      },
+      "n_unique": 2,
+      "n_values": 24262,
+      "counts": {
+        "CHEMBL407632;CHEMBL191334": 5956,
+        "None": 18306
+      }
+    },
+    "disease": {
+      "representation": {
+        "kind": "group",
+        "attrs": {
+          "encoding-type": "categorical",
+          "encoding-version": "0.2.0",
+          "ordered": false
+        },
+        "children": {
+          "categories": {
+            "kind": "dataset",
+            "shape": [
+              1
+            ],
+            "dtype": "object"
+          },
+          "codes": {
+            "kind": "dataset",
+            "shape": [
+              24262
+            ],
+            "dtype": "int8"
+          }
+        }
+      },
+      "n_unique": 1,
+      "n_values": 24262,
+      "counts": {
+        "lung adenocarcinoma": 24262
+      }
+    },
+    "dose_value": {
+      "representation": {
+        "kind": "group",
+        "attrs": {
+          "encoding-type": "categorical",
+          "encoding-version": "0.2.0",
+          "ordered": false
+        },
+        "children": {
+          "categories": {
+            "kind": "dataset",
+            "shape": [
+              8
+            ],
+            "dtype": "object"
+          },
+          "codes": {
+            "kind": "dataset",
+            "shape": [
+              24262
+            ],
+            "dtype": "int8"
+          }
+        }
+      },
+      "n_unique": 9,
+      "n_values": 24262,
+      "counts": {
+        "0": 3901,
+        "0.1": 3479,
+        "0.5": 3094,
+        "1": 3119,
+        "10": 2832,
+        "100": 2047,
+        "5": 2828,
+        "50": 2433,
+        "None": 529
+      }
+    },
+    "hash_umis": {
+      "representation": {
+        "kind": "dataset",
+        "attrs": {
+          "encoding-type": "array",
+          "encoding-version": "0.2.0"
+        },
+        "shape": [
+          24262
+        ],
+        "dtype": "float64",
+        "compression": "gzip"
+      },
+      "n_unique": 771,
+      "n_values": 24262
+    },
+    "ncounts": {
+      "representation": {
+        "kind": "dataset",
+        "attrs": {
+          "encoding-type": "array",
+          "encoding-version": "0.2.0"
+        },
+        "shape": [
+          24262
+        ],
+        "dtype": "int64",
+        "compression": "gzip"
+      },
+      "n_unique": 9881,
+      "n_values": 24262
+    },
+    "ngenes": {
+      "representation": {
+        "kind": "dataset",
+        "attrs": {
+          "encoding-type": "array",
+          "encoding-version": "0.2.0"
+        },
+        "shape": [
+          24262
+        ],
+        "dtype": "int64",
+        "compression": "gzip"
+      },
+      "n_unique": 5032,
+      "n_values": 24262
+    },
+    "nperts": {
+      "representation": {
+        "kind": "dataset",
+        "attrs": {
+          "encoding-type": "array",
+          "encoding-version": "0.2.0"
+        },
+        "shape": [
+          24262
+        ],
+        "dtype": "int64",
+        "compression": "gzip"
+      },
+      "n_unique": 1,
+      "n_values": 24262,
+      "counts": {
+        "1": 24262
+      }
+    },
+    "organism": {
+      "representation": {
+        "kind": "group",
+        "attrs": {
+          "encoding-type": "categorical",
+          "encoding-version": "0.2.0",
+          "ordered": false
+        },
+        "children": {
+          "categories": {
+            "kind": "dataset",
+            "shape": [
+              1
+            ],
+            "dtype": "object"
+          },
+          "codes": {
+            "kind": "dataset",
+            "shape": [
+              24262
+            ],
+            "dtype": "int8"
+          }
+        }
+      },
+      "n_unique": 1,
+      "n_values": 24262,
+      "counts": {
+        "human": 24262
+      }
+    },
+    "percent_mito": {
+      "representation": {
+        "kind": "dataset",
+        "attrs": {
+          "encoding-type": "array",
+          "encoding-version": "0.2.0"
+        },
+        "shape": [
+          24262
+        ],
+        "dtype": "float32",
+        "compression": "gzip"
+      },
+      "n_unique": 23483,
+      "n_values": 24262
+    },
+    "percent_ribo": {
+      "representation": {
+        "kind": "dataset",
+        "attrs": {
+          "encoding-type": "array",
+          "encoding-version": "0.2.0"
+        },
+        "shape": [
+          24262
+        ],
+        "dtype": "float32",
+        "compression": "gzip"
+      },
+      "n_unique": 21869,
+      "n_values": 24262
+    },
+    "perturbation": {
+      "representation": {
+        "kind": "group",
+        "attrs": {
+          "encoding-type": "categorical",
+          "encoding-version": "0.2.0",
+          "ordered": false
+        },
+        "children": {
+          "categories": {
+            "kind": "dataset",
+            "shape": [
+              5
+            ],
+            "dtype": "object"
+          },
+          "codes": {
+            "kind": "dataset",
+            "shape": [
+              24262
+            ],
+            "dtype": "int8"
+          }
+        }
+      },
+      "n_unique": 5,
+      "n_values": 24262,
+      "counts": {
+        "BMS": 4183,
+        "Dex": 8064,
+        "Nutlin": 5956,
+        "SAHA": 5530,
+        "control": 529
+      }
+    },
+    "perturbation_type": {
+      "representation": {
+        "kind": "group",
+        "attrs": {
+          "encoding-type": "categorical",
+          "encoding-version": "0.2.0",
+          "ordered": false
+        },
+        "children": {
+          "categories": {
+            "kind": "dataset",
+            "shape": [
+              1
+            ],
+            "dtype": "object"
+          },
+          "codes": {
+            "kind": "dataset",
+            "shape": [
+              24262
+            ],
+            "dtype": "int8"
+          }
+        }
+      },
+      "n_unique": 1,
+      "n_values": 24262,
+      "counts": {
+        "drug": 24262
+      }
+    },
+    "pval_demultiplexing": {
+      "representation": {
+        "kind": "dataset",
+        "attrs": {
+          "encoding-type": "array",
+          "encoding-version": "0.2.0"
+        },
+        "shape": [
+          24262
+        ],
+        "dtype": "float64",
+        "compression": "gzip"
+      },
+      "n_unique": 6177,
+      "n_values": 24262
+    },
+    "qval_demultiplexing": {
+      "representation": {
+        "kind": "dataset",
+        "attrs": {
+          "encoding-type": "array",
+          "encoding-version": "0.2.0"
+        },
+        "shape": [
+          24262
+        ],
+        "dtype": "float64",
+        "compression": "gzip"
+      },
+      "n_unique": 4862,
+      "n_values": 24262
+    },
+    "tissue_type": {
+      "representation": {
+        "kind": "group",
+        "attrs": {
+          "encoding-type": "categorical",
+          "encoding-version": "0.2.0",
+          "ordered": false
+        },
+        "children": {
+          "categories": {
+            "kind": "dataset",
+            "shape": [
+              1
+            ],
+            "dtype": "object"
+          },
+          "codes": {
+            "kind": "dataset",
+            "shape": [
+              24262
+            ],
+            "dtype": "int8"
+          }
+        }
+      },
+      "n_unique": 1,
+      "n_values": 24262,
+      "counts": {
+        "cell_line": 24262
+      }
+    },
+    "top_oligo": {
+      "representation": {
+        "kind": "group",
+        "attrs": {
+          "encoding-type": "categorical",
+          "encoding-version": "0.2.0",
+          "ordered": false
+        },
+        "children": {
+          "categories": {
+            "kind": "dataset",
+            "shape": [
+              192
+            ],
+            "dtype": "object"
+          },
+          "codes": {
+            "kind": "dataset",
+            "shape": [
+              24262
+            ],
+            "dtype": "int16"
+          }
+        }
+      },
+      "n_unique": 193,
+      "n_values": 24262
+    },
+    "top_to_second_best_ratio": {
+      "representation": {
+        "kind": "dataset",
+        "attrs": {
+          "encoding-type": "array",
+          "encoding-version": "0.2.0"
+        },
+        "shape": [
+          24262
+        ],
+        "dtype": "float64",
+        "compression": "gzip"
+      },
+      "n_unique": 22218,
+      "n_values": 24262
+    },
+    "well": {
+      "representation": {
+        "kind": "group",
+        "attrs": {
+          "encoding-type": "categorical",
+          "encoding-version": "0.2.0",
+          "ordered": false
+        },
+        "children": {
+          "categories": {
+            "kind": "dataset",
+            "shape": [
+              192
+            ],
+            "dtype": "object"
+          },
+          "codes": {
+            "kind": "dataset",
+            "shape": [
+              24262
+            ],
+            "dtype": "int16"
+          }
+        }
+      },
+      "n_unique": 193,
+      "n_values": 24262
+    }
+  },
+  "perturbation_by_dose_counts": [
+    {
+      "perturbation": "BMS",
+      "dose_value": "0",
+      "n_obs": 980
+    },
+    {
+      "perturbation": "BMS",
+      "dose_value": "0.1",
+      "n_obs": 930
+    },
+    {
+      "perturbation": "BMS",
+      "dose_value": "0.5",
+      "n_obs": 739
+    },
+    {
+      "perturbation": "BMS",
+      "dose_value": "1",
+      "n_obs": 512
+    },
+    {
+      "perturbation": "BMS",
+      "dose_value": "10",
+      "n_obs": 298
+    },
+    {
+      "perturbation": "BMS",
+      "dose_value": "100",
+      "n_obs": 129
+    },
+    {
+      "perturbation": "BMS",
+      "dose_value": "5",
+      "n_obs": 452
+    },
+    {
+      "perturbation": "BMS",
+      "dose_value": "50",
+      "n_obs": 143
+    },
+    {
+      "perturbation": "Dex",
+      "dose_value": "0",
+      "n_obs": 914
+    },
+    {
+      "perturbation": "Dex",
+      "dose_value": "0.1",
+      "n_obs": 918
+    },
+    {
+      "perturbation": "Dex",
+      "dose_value": "0.5",
+      "n_obs": 845
+    },
+    {
+      "perturbation": "Dex",
+      "dose_value": "1",
+      "n_obs": 1051
+    },
+    {
+      "perturbation": "Dex",
+      "dose_value": "10",
+      "n_obs": 898
+    },
+    {
+      "perturbation": "Dex",
+      "dose_value": "100",
+      "n_obs": 1296
+    },
+    {
+      "perturbation": "Dex",
+      "dose_value": "5",
+      "n_obs": 1011
+    },
+    {
+      "perturbation": "Dex",
+      "dose_value": "50",
+      "n_obs": 1131
+    },
+    {
+      "perturbation": "Nutlin",
+      "dose_value": "0",
+      "n_obs": 1002
+    },
+    {
+      "perturbation": "Nutlin",
+      "dose_value": "0.1",
+      "n_obs": 849
+    },
+    {
+      "perturbation": "Nutlin",
+      "dose_value": "0.5",
+      "n_obs": 792
+    },
+    {
+      "perturbation": "Nutlin",
+      "dose_value": "1",
+      "n_obs": 892
+    },
+    {
+      "perturbation": "Nutlin",
+      "dose_value": "10",
+      "n_obs": 1096
+    },
+    {
+      "perturbation": "Nutlin",
+      "dose_value": "100",
+      "n_obs": 86
+    },
+    {
+      "perturbation": "Nutlin",
+      "dose_value": "5",
+      "n_obs": 829
+    },
+    {
+      "perturbation": "Nutlin",
+      "dose_value": "50",
+      "n_obs": 410
+    },
+    {
+      "perturbation": "SAHA",
+      "dose_value": "0",
+      "n_obs": 1005
+    },
+    {
+      "perturbation": "SAHA",
+      "dose_value": "0.1",
+      "n_obs": 782
+    },
+    {
+      "perturbation": "SAHA",
+      "dose_value": "0.5",
+      "n_obs": 718
+    },
+    {
+      "perturbation": "SAHA",
+      "dose_value": "1",
+      "n_obs": 664
+    },
+    {
+      "perturbation": "SAHA",
+      "dose_value": "10",
+      "n_obs": 540
+    },
+    {
+      "perturbation": "SAHA",
+      "dose_value": "100",
+      "n_obs": 536
+    },
+    {
+      "perturbation": "SAHA",
+      "dose_value": "5",
+      "n_obs": 536
+    },
+    {
+      "perturbation": "SAHA",
+      "dose_value": "50",
+      "n_obs": 749
+    },
+    {
+      "perturbation": "control",
+      "dose_value": "None",
+      "n_obs": 529
+    }
+  ],
+  "control_annotation_caveat": "Explicit perturbation='control' and drug-labeled dose_value='0' are separate observed annotations. No relabeling was performed. Dose units are not encoded in the listed obs columns.",
+  "var_index_name": "gene_symbol",
+  "var_index_examples": [
+    "TSPAN6",
+    "TNMD",
+    "DPM1",
+    "SCYL3",
+    "C1orf112",
+    "FGR",
+    "CFH",
+    "FUCA2",
+    "GCLC",
+    "NFYA"
+  ],
+  "var_index_n_unique": 58347,
+  "var_columns": [
+    "ensembl_id",
+    "ncells",
+    "ncounts"
+  ],
+  "var_annotation_summary": {
+    "ensembl_id": {
+      "representation": {
+        "kind": "group",
+        "attrs": {
+          "encoding-type": "categorical",
+          "encoding-version": "0.2.0",
+          "ordered": false
+        },
+        "children": {
+          "categories": {
+            "kind": "dataset",
+            "shape": [
+              58302
+            ],
+            "dtype": "object"
+          },
+          "codes": {
+            "kind": "dataset",
+            "shape": [
+              58347
+            ],
+            "dtype": "int32"
+          }
+        }
+      },
+      "examples": [
+        "ENSG00000000003",
+        "ENSG00000000005",
+        "ENSG00000000419",
+        "ENSG00000000457",
+        "ENSG00000000460",
+        "ENSG00000000938",
+        "ENSG00000000971",
+        "ENSG00000001036",
+        "ENSG00000001084",
+        "ENSG00000001167"
+      ],
+      "n_unique": 58302
+    },
+    "ncells": {
+      "representation": {
+        "kind": "dataset",
+        "attrs": {
+          "encoding-type": "array",
+          "encoding-version": "0.2.0"
+        },
+        "shape": [
+          58347
+        ],
+        "dtype": "int64",
+        "compression": "gzip"
+      },
+      "examples": [
+        3426,
+        22,
+        7532,
+        2170,
+        3428,
+        24,
+        8211,
+        7765,
+        16173,
+        1873
+      ],
+      "n_unique": 7518
+    },
+    "ncounts": {
+      "representation": {
+        "kind": "dataset",
+        "attrs": {
+          "encoding-type": "array",
+          "encoding-version": "0.2.0"
+        },
+        "shape": [
+          58347
+        ],
+        "dtype": "float32",
+        "compression": "gzip"
+      },
+      "examples": [
+        4490.0,
+        22.0,
+        13945.0,
+        2739.0,
+        5086.0,
+        24.0,
+        12967.0,
+        12860.0,
+        55407.0,
+        2151.0
+      ],
+      "n_unique": 8689
+    }
+  },
+  "X": {
+    "kind": "group",
+    "attrs": {
+      "encoding-type": "csr_matrix",
+      "encoding-version": "0.1.0",
+      "shape": [
+        24262,
+        58347
+      ]
+    },
+    "children": {
+      "data": {
+        "kind": "dataset",
+        "shape": [
+          60135001
+        ],
+        "dtype": "float32"
+      },
+      "indices": {
+        "kind": "dataset",
+        "shape": [
+          60135001
+        ],
+        "dtype": "int32"
+      },
+      "indptr": {
+        "kind": "dataset",
+        "shape": [
+          24263
+        ],
+        "dtype": "int32"
+      }
+    }
+  },
+  "layers": {},
+  "raw": null,
+  "uns_keys": []
+}

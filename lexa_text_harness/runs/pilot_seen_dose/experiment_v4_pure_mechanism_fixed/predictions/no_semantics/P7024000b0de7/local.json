@@ -1,0 +1,1544 @@
+{
+  "status": "completed",
+  "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=1",
+  "opaque_id": "P7024000b0de7",
+  "arm": "no_semantics",
+  "stage": "local",
+  "fingerprint": "b657dd0e91e0ce50994fdd36dae3d7072042f52c56ba357a35d311ac9b36fd11",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A0/C10"
+      ],
+      "reason": "Strong up G1015/G0233/G0701 states fit p53 activation"
+    },
+    {
+      "axis_id": 1,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A1/C6"
+      ],
+      "reason": "Up G1680/G1582/G0642 states support p53 transcription"
+    },
+    {
+      "axis_id": 2,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A2/C9"
+      ],
+      "reason": "Strong up G0255/G1037 states align with p53 targets"
+    },
+    {
+      "axis_id": 3,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A3/C13"
+      ],
+      "reason": "Up G0700/G1381/G0331 states fit p53 activation"
+    },
+    {
+      "axis_id": 4,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A4/C12"
+      ],
+      "reason": "Up G1651/G1384 states support p53 transcription"
+    },
+    {
+      "axis_id": 5,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A5/C12"
+      ],
+      "reason": "Up G0522/G0836 states align with p53 program"
+    },
+    {
+      "axis_id": 6,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A6/C10"
+      ],
+      "reason": "Up G0096/G1033/G1444 states fit p53 activation"
+    },
+    {
+      "axis_id": 7,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A7/C7"
+      ],
+      "reason": "Up G1773/G1961 states support p53 transcription"
+    },
+    {
+      "axis_id": 8,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A8/C2"
+      ],
+      "reason": "G0574 up strongly in state 2; p53 activation expected"
+    },
+    {
+      "axis_id": 9,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A9/C10"
+      ],
+      "reason": "G0196 up strongly in state 10; p53 target induction"
+    },
+    {
+      "axis_id": 10,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A10/C9"
+      ],
+      "reason": "G1776 up strongly in state 9; p53 program activation"
+    },
+    {
+      "axis_id": 11,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A11/C4"
+      ],
+      "reason": "G1987 up strongly in state 4; p53 target induction"
+    },
+    {
+      "axis_id": 12,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A12/C1"
+      ],
+      "reason": "G0053 up strongly in state 1; p53 activation"
+    },
+    {
+      "axis_id": 13,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A13/C6"
+      ],
+      "reason": "G0836 up strongly in state 6; p53 target induction"
+    },
+    {
+      "axis_id": 14,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A14/C2"
+      ],
+      "reason": "G1660 up strongly in state 2; p53 program activation"
+    },
+    {
+      "axis_id": 15,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A15/C8"
+      ],
+      "reason": "G1907 up strongly in state 8; p53 target induction"
+    },
+    {
+      "axis_id": 16,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A16/C1"
+      ],
+      "reason": "Strong up G1428/G1467 in states 1,3,11 align with p53 activation"
+    },
+    {
+      "axis_id": 17,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A17/C7"
+      ],
+      "reason": "Up G0403/G1511/G0776 in states 7,11,15 support p53 program"
+    },
+    {
+      "axis_id": 18,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A18/C4"
+      ],
+      "reason": "Large up G1130/G1958/G1909 in states 4,11,7 fit p53 activation"
+    },
+    {
+      "axis_id": 19,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A19/C4"
+      ],
+      "reason": "Up G0506/G1345 in states 4,8,10 consistent with p53 targets"
+    },
+    {
+      "axis_id": 20,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A20/C4"
+      ],
+      "reason": "Up G0541/G0413/G1041 in states 4,10,11 support p53 transcription"
+    },
+    {
+      "axis_id": 21,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A21/C0"
+      ],
+      "reason": "Strong up G0372 in states 0,6,15 align with p53 activation"
+    },
+    {
+      "axis_id": 22,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A22/C2"
+      ],
+      "reason": "Up G1096/G1803 in states 2,7,15 consistent with p53 program"
+    },
+    {
+      "axis_id": 23,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A23/C2"
+      ],
+      "reason": "Up G1239/G0445/G1077 in states 2,9,12 fit p53 activation"
+    },
+    {
+      "axis_id": 24,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A24/C13"
+      ],
+      "reason": "Strong up G1200/G0592 states align with p53 target induction"
+    },
+    {
+      "axis_id": 25,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A25/C13"
+      ],
+      "reason": "Up G1424/G1281 states match p53 transcriptional activation"
+    },
+    {
+      "axis_id": 26,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A26/C10"
+      ],
+      "reason": "Up G1787/G0348 states consistent with p53 target upregulation"
+    },
+    {
+      "axis_id": 27,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A27/C14"
+      ],
+      "reason": "Up G1417/G1115 states support p53 pathway activation"
+    },
+    {
+      "axis_id": 28,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A28/C10"
+      ],
+      "reason": "Up G0192/G0442 states align with p53 target induction"
+    },
+    {
+      "axis_id": 29,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A29/C12"
+      ],
+      "reason": "Up G1295/G0451 states consistent with p53 activation"
+    },
+    {
+      "axis_id": 30,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A30/C8"
+      ],
+      "reason": "Up G0685/G1051 states match p53 transcriptional program"
+    },
+    {
+      "axis_id": 31,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A31/C12"
+      ],
+      "reason": "Up G0388 states support p53-dependent transcription"
+    }
+  ],
+  "response": {
+    "decisions": [
+      {
+        "axis_id": 0,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A0/C10"
+        ],
+        "reason": "Strong up G1015/G0233/G0701 states fit p53 activation"
+      },
+      {
+        "axis_id": 1,
+        "decision": "shift",
+        "targets": [
+          [
+            6,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A1/C6"
+        ],
+        "reason": "Up G1680/G1582/G0642 states support p53 transcription"
+      },
+      {
+        "axis_id": 2,
+        "decision": "shift",
+        "targets": [
+          [
+            9,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A2/C9"
+        ],
+        "reason": "Strong up G0255/G1037 states align with p53 targets"
+      },
+      {
+        "axis_id": 3,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            15,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A3/C13"
+        ],
+        "reason": "Up G0700/G1381/G0331 states fit p53 activation"
+      },
+      {
+        "axis_id": 4,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A4/C12"
+        ],
+        "reason": "Up G1651/G1384 states support p53 transcription"
+      },
+      {
+        "axis_id": 5,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A5/C12"
+        ],
+        "reason": "Up G0522/G0836 states align with p53 program"
+      },
+      {
+        "axis_id": 6,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A6/C10"
+        ],
+        "reason": "Up G0096/G1033/G1444 states fit p53 activation"
+      },
+      {
+        "axis_id": 7,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A7/C7"
+        ],
+        "reason": "Up G1773/G1961 states support p53 transcription"
+      },
+      {
+        "axis_id": 8,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A8/C2"
+        ],
+        "reason": "G0574 up strongly in state 2; p53 activation expected"
+      },
+      {
+        "axis_id": 9,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A9/C10"
+        ],
+        "reason": "G0196 up strongly in state 10; p53 target induction"
+      },
+      {
+        "axis_id": 10,
+        "decision": "shift",
+        "targets": [
+          [
+            9,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A10/C9"
+        ],
+        "reason": "G1776 up strongly in state 9; p53 program activation"
+      },
+      {
+        "axis_id": 11,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A11/C4"
+        ],
+        "reason": "G1987 up strongly in state 4; p53 target induction"
+      },
+      {
+        "axis_id": 12,
+        "decision": "shift",
+        "targets": [
+          [
+            1,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A12/C1"
+        ],
+        "reason": "G0053 up strongly in state 1; p53 activation"
+      },
+      {
+        "axis_id": 13,
+        "decision": "shift",
+        "targets": [
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A13/C6"
+        ],
+        "reason": "G0836 up strongly in state 6; p53 target induction"
+      },
+      {
+        "axis_id": 14,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A14/C2"
+        ],
+        "reason": "G1660 up strongly in state 2; p53 program activation"
+      },
+      {
+        "axis_id": 15,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A15/C8"
+        ],
+        "reason": "G1907 up strongly in state 8; p53 target induction"
+      },
+      {
+        "axis_id": 16,
+        "decision": "shift",
+        "targets": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A16/C1"
+        ],
+        "reason": "Strong up G1428/G1467 in states 1,3,11 align with p53 activation"
+      },
+      {
+        "axis_id": 17,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A17/C7"
+        ],
+        "reason": "Up G0403/G1511/G0776 in states 7,11,15 support p53 program"
+      },
+      {
+        "axis_id": 18,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A18/C4"
+        ],
+        "reason": "Large up G1130/G1958/G1909 in states 4,11,7 fit p53 activation"
+      },
+      {
+        "axis_id": 19,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A19/C4"
+        ],
+        "reason": "Up G0506/G1345 in states 4,8,10 consistent with p53 targets"
+      },
+      {
+        "axis_id": 20,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A20/C4"
+        ],
+        "reason": "Up G0541/G0413/G1041 in states 4,10,11 support p53 transcription"
+      },
+      {
+        "axis_id": 21,
+        "decision": "shift",
+        "targets": [
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A21/C0"
+        ],
+        "reason": "Strong up G0372 in states 0,6,15 align with p53 activation"
+      },
+      {
+        "axis_id": 22,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A22/C2"
+        ],
+        "reason": "Up G1096/G1803 in states 2,7,15 consistent with p53 program"
+      },
+      {
+        "axis_id": 23,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            12,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A23/C2"
+        ],
+        "reason": "Up G1239/G0445/G1077 in states 2,9,12 fit p53 activation"
+      },
+      {
+        "axis_id": 24,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A24/C13"
+        ],
+        "reason": "Strong up G1200/G0592 states align with p53 target induction"
+      },
+      {
+        "axis_id": 25,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            12,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A25/C13"
+        ],
+        "reason": "Up G1424/G1281 states match p53 transcriptional activation"
+      },
+      {
+        "axis_id": 26,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A26/C10"
+        ],
+        "reason": "Up G1787/G0348 states consistent with p53 target upregulation"
+      },
+      {
+        "axis_id": 27,
+        "decision": "shift",
+        "targets": [
+          [
+            14,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A27/C14"
+        ],
+        "reason": "Up G1417/G1115 states support p53 pathway activation"
+      },
+      {
+        "axis_id": 28,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A28/C10"
+        ],
+        "reason": "Up G0192/G0442 states align with p53 target induction"
+      },
+      {
+        "axis_id": 29,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A29/C12"
+        ],
+        "reason": "Up G1295/G0451 states consistent with p53 activation"
+      },
+      {
+        "axis_id": 30,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A30/C8"
+        ],
+        "reason": "Up G0685/G1051 states match p53 transcriptional program"
+      },
+      {
+        "axis_id": 31,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A31/C12"
+        ],
+        "reason": "Up G0388 states support p53-dependent transcription"
+      }
+    ],
+    "summary": "All axes shifted toward states with strong up-effects consistent with p53 transcriptional activation; magnitude uncertain given unestablished A549 p53 status. | Across axes, states with strong positive p53-program features are favored under MDM2 antagonism, consistent with H1 p53 transcriptional activation. | Shift toward states with strong positive p53-target-like up effects across axes 16-23, consistent with H1 p53 transcriptional activation; magnitude uncertain given unestablished A549 p53 status. | All eight axes shift toward states with strong positive weights on control-expressed features, consistent with p53 transcriptional activation by Nutlin-3a if A549 is p53-competent.",
+    "limitations": [
+      "A549 p53 function not established.",
+      "No measured perturbation response supplied.",
+      "Anonymous features cannot be mapped to genes.",
+      "A549 p53 functional status unverified.",
+      "Anonymous features cannot be mapped to p53 targets.",
+      "A549 p53 function not established from control profile.",
+      "Anonymous features cannot be mapped to canonical p53 genes.",
+      "No measured perturbation response or dose trajectory supplied.",
+      "Anonymous features cannot be mapped to canonical p53 targets.",
+      "No measured perturbation response to calibrate magnitude."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 32,
+      "keep": 0,
+      "unknown": 0
+    },
+    "delta_l2": 7.154342723152767,
+    "standardized_delta_rms": 0.19373153671563062,
+    "axis_tv": [
+      0.23125,
+      0.23124999999999998,
+      0.30000000000000004,
+      0.275,
+      0.25625,
+      0.21875,
+      0.3,
+      0.28125,
+      0.26875000000000004,
+      0.275,
+      0.275,
+      0.30000000000000004,
+      0.275,
+      0.30000000000000004,
+      0.3,
+      0.24375,
+      0.28750000000000003,
+      0.25625,
+      0.29375,
+      0.28125,
+      0.2625,
+      0.30000000000000004,
+      0.21875,
+      0.29375,
+      0.21874999999999997,
+      0.20625,
+      0.25625,
+      0.2625,
+      0.2875,
+      0.2,
+      0.2625,
+      0.21875
+    ],
+    "mean_axis_tv": 0.263671875,
+    "top_gene_changes": {
+      "up": [
+        {
+          "feature": "G0725",
+          "delta": 0.49767,
+          "scaled_delta": 0.53049
+        },
+        {
+          "feature": "G1909",
+          "delta": 0.44101,
+          "scaled_delta": 0.52722
+        },
+        {
+          "feature": "G1130",
+          "delta": 0.49996,
+          "scaled_delta": 0.52102
+        },
+        {
+          "feature": "G1808",
+          "delta": 0.58614,
+          "scaled_delta": 0.52014
+        },
+        {
+          "feature": "G0372",
+          "delta": 0.55544,
+          "scaled_delta": 0.5094
+        },
+        {
+          "feature": "G1840",
+          "delta": 0.44342,
+          "scaled_delta": 0.5012
+        },
+        {
+          "feature": "G1000",
+          "delta": 0.49287,
+          "scaled_delta": 0.48177
+        },
+        {
+          "feature": "G0192",
+          "delta": 0.61967,
+          "scaled_delta": 0.47411
+        },
+        {
+          "feature": "G0384",
+          "delta": 0.36373,
+          "scaled_delta": 0.4588
+        },
+        {
+          "feature": "G1045",
+          "delta": 0.3355,
+          "scaled_delta": 0.45027
+        }
+      ],
+      "down": []
+    },
+    "hypothesis_gene_checks": "Unavailable without feature semantics; anonymous IDs cannot be mapped to hypothesis gene names.",
+    "cross_axis_cancellation": [
+      {
+        "feature": "G0837",
+        "summed_delta": 0.05126567650463583,
+        "absolute_axis_sum": 0.07715852224087028
+      },
+      {
+        "feature": "G1275",
+        "summed_delta": 0.053502057930637614,
+        "absolute_axis_sum": 0.07462619871374157
+      },
+      {
+        "feature": "G0063",
+        "summed_delta": 0.04911526271415024,
+        "absolute_axis_sum": 0.07105455628894217
+      },
+      {
+        "feature": "G1826",
+        "summed_delta": 0.08047153574380557,
+        "absolute_axis_sum": 0.10073670377396977
+      },
+      {
+        "feature": "G1478",
+        "summed_delta": 0.05722793090262711,
+        "absolute_axis_sum": 0.07511037214226235
+      },
+      {
+        "feature": "G0160",
+        "summed_delta": 0.06098616420304094,
+        "absolute_axis_sum": 0.07665424408869509
+      }
+    ]
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "33107954fdd231c05b81b7c4b99dbedcd0dbf30a88201f6864844680b2c2a2c5",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "e7715886cbe3630056e476b3d4b17bf7eadb75ad7d63af8f8d472e6b0fba7ca1",
+      "response_sha256": "da84fee506ecc5d925129e9983f7715519ec28c40afc724557f8f4a034d38375"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "50812fc36e76cdc2ae607989e5e928fb66f8c1e20241dc376880cbd150264a79",
+      "response_sha256": "41c64439eb5ca3dbf673503420d7987468fd5342128b11219c08552b39f2719e"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "362e1ec2ccd782cdf023107974a2566d0ade772e7003a9ca365231753232b301",
+      "response_sha256": "203e4794a2130c07cd3405c54f97453119f7b41182732ea960b14fd3eee5c4a4"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "94fcd4fe6f5887a734303a1c5db5a9ca523ff96e42f7e828c16765bebc5d37bd",
+      "response_sha256": "e4bbd0a3e41654593f66714fcc9e29fec9de1696363be0f295bffc92da72acc6"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "5801c1e510eaa41fb54a0fabbc9d8d0b37c7db36ef0b67bde6066ad49d0c36b5",
+      "response_sha256": "0c332b890259227655fadbd3beaebcfaa9a177d95c4f1b45fef44b761b035983"
+    }
+  ],
+  "attempts_used": 5,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/no_semantics/P7024000b0de7/local.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "b45222085e7e07d69bf4e9e77a48b52e1a322550ab2671d4aacaef5f9a30cb0e"
+}

@@ -1,0 +1,65 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "NF-kappa-B transcriptional activity",
+      "direction": "decrease",
+      "basis": "direct",
+      "conditions": "A549, dexamethasone 5 uM, 24 h; GR- and cofactor-dependent",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "Activated GR transrepresses NF-kappa-B activity per mechanism card; no signed A549 gene list supplied."
+    },
+    {
+      "id": "H2",
+      "program": "glucocorticoid receptor transcriptional activation",
+      "direction": "increase",
+      "basis": "direct",
+      "conditions": "A549; depends on receptor abundance and chromatin accessibility",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Ligand-activated GR drives transcription at accessible GR-binding regulatory elements."
+    },
+    {
+      "id": "H3",
+      "program": "NR3C1 mRNA level",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "unknown",
+      "gene_expectations": [
+        {
+          "gene": "NR3C1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Receptor activation does not imply NR3C1 mRNA change; direction unsupported."
+    },
+    {
+      "id": "H4",
+      "program": "A549-specific downstream gene response",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549; no treatment expression profile available",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C",
+        "M"
+      ],
+      "reason": "No A549 dexamethasone expression data or gene mapping supplied; directions cannot be assigned."
+    }
+  ],
+  "summary": "Dexamethasone likely activates GR-dependent transcription and transrepresses NF-kappa-B activity in A549, but specific gene directions and NR3C1 mRNA effects are uncertain without treatment data.",
+  "limitations": [
+    "No A549 treatment expression profile or signed gene-response list provided.",
+    "Anonymous features lack gene mapping, preventing gene-level predictions.",
+    "Receptor/cofactor/chromatin context may alter direction and magnitude."
+  ]
+}

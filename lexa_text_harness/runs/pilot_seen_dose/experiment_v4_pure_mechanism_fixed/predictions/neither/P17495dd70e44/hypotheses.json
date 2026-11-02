@@ -1,0 +1,58 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "transcriptional response to an unknown perturbation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Perturbation identity and mechanism are withheld, so no treatment-specific direction can be inferred."
+    },
+    {
+      "id": "H2",
+      "program": "stress-responsive / cytoprotective gene induction",
+      "direction": "increase",
+      "basis": "secondary",
+      "conditions": "A549, 24 h exposure; only if the unknown agent causes cellular stress",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Generic secondary hypothesis for a 24 h chemical exposure; not supported by any known mechanism."
+    },
+    {
+      "id": "H3",
+      "program": "cell-cycle progression and proliferation",
+      "direction": "decrease",
+      "basis": "secondary",
+      "conditions": "A549, 24 h; only if the agent is antiproliferative",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Possible secondary growth arrest under chemical stress; speculative without mechanism."
+    },
+    {
+      "id": "H4",
+      "program": "baseline expression of anonymous features",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "untreated A549 control context",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Control features are anonymous with withheld semantics, so no gene-level expectation is possible."
+    }
+  ],
+  "summary": "Mechanism is hidden; only generic secondary hypotheses and explicit uncertainty can be stated for A549 at 5 uM/24 h.",
+  "limitations": [
+    "Perturbation identity and mechanism withheld; no treatment-specific directions known.",
+    "Control feature semantics withheld; anonymous features cannot be mapped to genes.",
+    "No dose trajectory or measured response data available."
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "status": "real_api_pilot_completed_scored",
+  "verified_at": "2026-10-26T20:44:31.498370+08:00",
+  "source_original_files_verified": 27,
+  "offline_test_count": 43,
+  "source_script_sha256": {
+    "README.txt": "bebea2633c18e6cafaed8bb77fb3283889e9974ea291a89c63b04672a2c489d0",
+    "agent.py": "e6f8170a3e6a502e9c4ded8a4324ed09b15d7beae9768e5916021b25b5c464d0",
+    "annotate_cards.py": "038b85f3b83e5b835f6cf9229df29ce218044c18c70d531b1ebbea891d67fc7b",
+    "download_data.py": "bd1629873b2800f3f80c908cc951d108030f2d0d091c42365193aa0f64c2552a",
+    "experiment.py": "727420e2b800c8ae32ff20a41dc60b27365dcadf51652d5509e03fa405579f7e",
+    "fit_lexa.py": "64f87476922f2301c63c9dbefeda0223f5b781b4f3cbf4f817c2d3fc5a18aee5",
+    "pipeline.py": "6d83cbcb98439faa43633a8deffd6f699fc938a1029d29622345a8f0bb234b4d",
+    "prepare_data.py": "33c62cc61ed555eaf0b29274ed53a7bdb7086ef9ddcc4950c4b93773c8933a96",
+    "report_results.py": "ee2dfed825d801cccc70532f0ec6c585d249ef656452fef742517388c2a19d03",
+    "representation_diagnostic.py": "2b1b114f87b984bd978d9cf1319d17312678c3171b152e1902ca5fd31f9514c6",
+    "requirements.txt": "35d611671320133b3f15038821a4eea594db1c99fcc830527744929f6b7cdc0e",
+    "run.sh": "4f42f154735b85a7ab385a238dc83f95bd3cf82290a647f35cce0d182168b5e4",
+    "test_agent.py": "0e5944fd18f60d04308c6673b1d5ff89ab5a80e6cd86e7e3c642b810d691b0e9",
+    "test_annotate_cards.py": "f87512f468fa105f9d06f187b0e110e81e906c705f3f3189449b97b504053527",
+    "test_experiment.py": "4114094b05e1f6890c45ee4a083f07cf22852be52e029529da9aaae7ef1197a9",
+    "test_fit_lexa.py": "afaa689373462a3cdd7cdfc52daff6ac55825f8f93400810b2cf6b5fabdd213f",
+    "test_prepare_data.py": "ec0b10608c0f4278fb839f81f9bc68c419ad743a9f132a9a56f091575071f2c9",
+    "test_representation_diagnostic.py": "2f6ebc2d4df50402892a12fa9b969a3c0e3513a81ca5dae7adf8ecfbf6ea0845",
+    "test_tools.py": "a839539920c10f7ba3b60087aac87aae6b8634528e5522ab3d200d84beed6993",
+    "tools.py": "1ee7b61995ff54f4af9ae6462ee6c8d57781980de4a3ae16e3910e2fb5d8bb66",
+    "实验设计.txt": "ba6b5375738c78679656aa86682dc08bb9572f68bc2446a7c54b093b3c1225f0",
+    "analyze_codec_changes.py": "0d2cd8317db2b3ba34714a6c08fb5e1ce65223704b727f7e1c49fbbed358a95e",
+    "plot_codec_changes.py": "86e49ff862b475aadd78920d7c34e3ae2d0fc0b8d650205eee2b5042434fbc49"
+  },
+  "source_raw_counts_sha256": "d295e38924d7b4cab0b9be1087c0ac7aeca2a3dac634359919e85bcc57696685",
+  "prepared_population": {
+    "excluded_qc": 14612,
+    "train": 5285,
+    "val": 2742,
+    "test": 1001,
+    "excluded_unassigned": 529,
+    "excluded_invalid_well": 93
+  },
+  "ready_case_count": 16,
+  "trained_epochs": 30,
+  "checkpoint_best_epoch": 30,
+  "cell_updates": 158550,
+  "lexicon_shape": [
+    32,
+    16,
+    2000
+  ],
+  "language_labels_generated": true,
+  "real_deepseek_api_calls": 273,
+  "real_perturbation_prediction_metrics_generated": true,
+  "raw_time_hours": 24,
+  "pipeline_replay_without_key": "passed; reused offline artifacts and stopped at annotation",
+  "state_label_count": 512,
+  "state_label_axes": 32,
+  "real_deepseek_api_call_breakdown": [
+    {
+      "phase": "current_prediction",
+      "api_requests_documented": 140
+    },
+    {
+      "phase": "previous_prediction_aborted",
+      "api_requests_documented": 100
+    },
+    {
+      "phase": "shared_state_annotation",
+      "api_requests_documented": 32
+    },
+    {
+      "phase": "connectivity_success_documented",
+      "api_requests_documented": 1
+    },
+    {
+      "phase": "documented_total",
+      "api_requests_documented": 273
+    }
+  ],
+  "active_experiment": "runs/pilot_seen_dose/experiment_v2_feedback",
+  "completed_prediction_count": 32,
+  "methods": [
+    "one_shot",
+    "agent"
+  ],
+  "evaluated_wells": 16,
+  "evaluated_treated_cells": 786,
+  "evaluated_genes": 2000,
+  "first_scoring_completed_at_utc": "2026-10-26T10:26:28.240479+00:00",
+  "results_by_method": [
+    {
+      "method": "agent",
+      "delta_rmse": 0.3496337234973907,
+      "delta_pearson": 0.2355149581703945,
+      "top100_delta_rmse": 0.9315579123795033,
+      "top100_direction_accuracy": 0.675,
+      "top100_abs_delta_overlap": 0.21875
+    },
+    {
+      "method": "nearest_training_dose",
+      "delta_rmse": 0.2047493522986769,
+      "delta_pearson": 0.7430718179181113,
+      "top100_delta_rmse": 0.3186108181253075,
+      "top100_direction_accuracy": 0.966875,
+      "top100_abs_delta_overlap": 0.57625
+    },
+    {
+      "method": "no_edit",
+      "delta_rmse": 0.3557237097993493,
+      "delta_pearson": null,
+      "top100_delta_rmse": 0.9636218398809432,
+      "top100_direction_accuracy": 0.0,
+      "top100_abs_delta_overlap": 0.0
+    },
+    {
+      "method": "one_shot",
+      "delta_rmse": 0.3497285731136799,
+      "delta_pearson": 0.2646611231803213,
+      "top100_delta_rmse": 0.9344381503760816,
+      "top100_direction_accuracy": 0.6756249999999999,
+      "top100_abs_delta_overlap": 0.218125
+    },
+    {
+      "method": "training_mean",
+      "delta_rmse": 0.3311894834041595,
+      "delta_pearson": 0.3810489555723175,
+      "top100_delta_rmse": 0.8096675164997578,
+      "top100_direction_accuracy": 0.81,
+      "top100_abs_delta_overlap": 0.279375
+    }
+  ],
+  "conclusion": "Agent RMSE improves 1.712% over no-edit but is 70.762% worse than same-drug nearest training dose. No material feedback improvement over one_shot.",
+  "previous_run": {
+    "path": "runs/pilot_seen_dose/experiment",
+    "status": "execution_incomplete_not_scored",
+    "reason": "Repeated duplicate-axis input; retained and uniformly restarted before first unblinding."
+  },
+  "verification": {
+    "original_repository_file_hashes_unchanged": 27,
+    "initial_offline_suite_tests_passed": 43,
+    "v2_targeted_agent_experiment_tests_passed": 20,
+    "pre_reveal_prediction_preflight": "passed",
+    "independent_execution_and_scoring_audit": "passed",
+    "tests_are_not_efficacy_metrics": true
+  },
+  "report": "runs/pilot_seen_dose/experiment_v2_feedback/report/RESULTS.html",
+  "artifact_sha256": {
+    "runs/pilot_seen_dose/experiment_v2_feedback/prediction_seal.json": "6522f6c1ebf9a3b76e98d4e6be6c883e632c2a67ca2cbd00ec8431760b2a98da",
+    "runs/pilot_seen_dose/experiment_v2_feedback/execution_audit.json": "c38c634db43eff0b3172ae085bde2bbb8cd88ead474b41aeed6fc1e7d7b64665",
+    "runs/pilot_seen_dose/experiment_v2_feedback/scores_summary.csv": "5c99b0d840a3a0b6ce1b3dd4cee79793c7f8bb692aca1107e539ba30d0ae1ea0",
+    "runs/pilot_seen_dose/experiment_v2_feedback/representation_diagnostic.json": "f60bc7f14b672846640ec8ca85f510b8182c09aa0fac86bc1c92d574d833effe",
+    "runs/pilot_seen_dose/experiment_v2_feedback/report/RESULTS.html": "b7de97e2292ec28f827a52b3709f139ba5cf2eea84192532723445317ef18a07",
+    "runs/pilot_seen_dose/experiment_v2_feedback/report/RESULTS.txt": "1222cd6b2653c499286aac1dad99c5596eec73e54dde8bf5ec2ed0d50ebc3e1c",
+    "runs/pilot_seen_dose/experiment_v2_feedback/report/metrics_comparison.png": "dba0c973e56977edab995c154a457b96bc180a5f08d3756197995ea6dc14be88",
+    "runs/pilot_seen_dose/experiment_v2_feedback/report/api_request_costs.csv": "9d1eca38df74912d6bdc7770986e278fd6349503af9275fea2f2476be5a02dc9"
+  },
+  "current_background_task": "none; API experiments and scoring have exited successfully",
+  "limits": [
+    "A549, four observed drugs, held-out 5uM, fixed24h, 16culture wells, 2000train-selected genes only",
+    "Unequal decoder evaluation budgets prevent isolated attribution to feedback",
+    "Pilot representation and coexpression scaffold are not paper-scale reproduction",
+    "This test is now revealed; future method tuning needs independent final evaluation"
+  ],
+  "observed_codec_diagnostic": {
+    "status": "completed_and_independently_verified",
+    "directory": "runs/pilot_seen_dose/codec_changes",
+    "report": "runs/pilot_seen_dose/codec_changes/report/RESULTS.html",
+    "samples": {
+      "n_unique_cells": 9028,
+      "n_genes": 2000,
+      "axes": 32,
+      "states": 16,
+      "archive_input_counts": {
+        "train": 5285,
+        "val": 2742,
+        "conditioning_control": 1409,
+        "test": 1001,
+        "evaluation_control": 1409
+      },
+      "identical_duplicates_removed": 2818,
+      "cell_splits": {
+        "train": 5285,
+        "val": 2742,
+        "test": 1001
+      },
+      "n_ready_cases": 111,
+      "n_low_sample_cases": 56,
+      "n_conditions": 25,
+      "n_valid_annotated_treatment_wells": 167,
+      "n_zero_qc_treatment_wells": 9,
+      "n_annotated_conditions": 28,
+      "invalid_annotated_treatment_wells": [
+        "SAHA_100_E09"
+      ],
+      "ready_treated_cells": 6644,
+      "ready_unique_control_cells": 1396
+    },
+    "uses_true_treated_expression": true,
+    "not_new_prediction": true,
+    "deepseek_calls": 0,
+    "new_training": false,
+    "source_sha256": {
+      "analyze_codec_changes.py": "0d2cd8317db2b3ba34714a6c08fb5e1ce65223704b727f7e1c49fbbed358a95e",
+      "plot_codec_changes.py": "86e49ff862b475aadd78920d7c34e3ae2d0fc0b8d650205eee2b5042434fbc49"
+    },
+    "manifest_sha256": "60c175c8adf1a392f74a42ae472dfdf9492769b4194fa98308aa40797fb4cb6a",
+    "verification_sha256": "8f3a69caa36c38e00203609b402958d84990cd4bf3f18084b3062a67c8bc28b3",
+    "report_sha256": "8717a8ca5949703948bb3a8bd9753769002f3d09c56f4a3e28729de1fe20a168"
+  },
+  "hierarchical_development_v3": {
+    "status": "complete_scored_independently_verified",
+    "verified_at": "2026-10-26T23:28:46+08:00",
+    "output": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed",
+    "report": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/RESULTS.html",
+    "n_cases": 16,
+    "n_treated": 786,
+    "n_genes": 2000,
+    "new_run_api_requests": 84,
+    "previous_failed_annotation_requests": 8,
+    "primary_result": {
+      "hierarchical_joint_delta_rmse": 0.212023,
+      "hierarchical_joint_delta_pearson": 0.740271,
+      "code_interpolate_delta_rmse": 0.211953,
+      "expression_interpolate_delta_rmse": 0.194145
+    },
+    "joint_changed_cases": 0,
+    "independent_test": false,
+    "source_sha256": {
+      "hierarchy_data.py": "e4f48c4aee3908febde9aba37f3ca1756b7f1ebb8d43bbf6f31421b6f6f1d1af",
+      "hierarchy_agent.py": "2d7d560e56f7fdbadb72f772b862d261fb9a8ccd858191598f5ab9f3771a2e3f",
+      "hierarchy_experiment.py": "e884d1342b087313426a98350f1d38eed38292a15550a2f41701022c04449a90",
+      "review_v3.py": "1d8c6d1f03cc8f8e6bc0fa4700b10c1804f162e4030374761a39990861a04fb5",
+      "summarize_hierarchy_run.py": "cc27c4986a3c36b721e3051bb3dcfebbc0ec5bc08dda716f4cbae92ac0d04a75"
+    },
+    "artifacts_sha256": {
+      "prediction_seal.json": "1057a9e6b435533bbb1b1dc7c075d35061f3cdfb61a6caf58a3a765cab8a35c1",
+      "scores_summary.csv": "904870a4cef353032d42e50682eab4d145c915a92d999c726f9bb3be4256989e",
+      "axis_annotations.json": "85f325f61fab0fee7322e947ce82d46cacd78e346c704f745378071a3f5174fd",
+      "independent_input_audit.json": "7e5b5ffd96e3502c9715b4cfedf3676821a412845029003c12d5379a86e11d13",
+      "independent_prediction_audit.json": "04b1c90616c7dd2d000fc6cf2b268ee77b4e3f1dc41ca98a2a63d36b1c3086fe",
+      "independent_score_audit.json": "6c2b4595146c568b1e4b91fedebbacb41ec8072b81e19b4d93dc79559767abf2",
+      "independent_execution_audit.json": "75dbe375e73cbc0e1c53e44ce562e4875ada53e3acfd7693b69b8cc58c10d500",
+      "RESULTS.html": "f4fd299958765c51188f74c719a202ab25053e686e053ea74937816777136ab6"
+    }
+  },
+  "latest_experiment": "experiment_v4_pure_mechanism_fixed",
+  "latest_verified_at": "2026-10-27T01:38:44+08:00",
+  "pure_mechanism_v4": {
+    "status": "completed_scored_independently_verified",
+    "output": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed",
+    "development_only": true,
+    "n_case_arms": 64,
+    "n_wells": 16,
+    "n_treated": 786,
+    "n_unique_controls": 951,
+    "primary_alpha": 0.3,
+    "full_delta_rmse": 0.3562988014837334,
+    "no_edit_delta_rmse": 0.3557237161867365,
+    "condition_response_retrieval": false,
+    "fixed_requests": 402,
+    "original_failed_requests": 67,
+    "new_tests_passed": 23,
+    "source_snapshot": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/source_snapshot",
+    "score_audit": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/review_scores.json",
+    "correlation_support": "Full joint15/16; neither10/16; literal4/16 onlyNutlin; summaries are conditional on defined correlations"
+  }
+}

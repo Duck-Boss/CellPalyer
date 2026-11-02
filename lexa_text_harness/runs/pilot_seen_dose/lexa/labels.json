@@ -1,0 +1,5170 @@
+{
+  "effects_sha256": "5bd0da54ddcceae0a4ea40d2f260b4d2acbd7b2d7a2eb2da97caeb75efb117fd",
+  "labels": {
+    "A0_C0": {
+      "axis_id": 0,
+      "state_id": 0,
+      "name": "Ribosomal-gene down, proteasome/mito up",
+      "summary": "Lower ribosomal protein transcripts with modestly higher proteasome and mitochondrial markers; weak, mixed signal.",
+      "evidence_genes": [
+        "ENSG00000063177.12",
+        "ENSG00000099341.11"
+      ]
+    },
+    "A0_C1": {
+      "axis_id": 0,
+      "state_id": 1,
+      "name": "Ribosomal-gene down",
+      "summary": "Strongly reduced ribosomal protein transcripts with negligible positive changes; unclear broader function.",
+      "evidence_genes": [
+        "ENSG00000137818.11",
+        "ENSG00000213741.9"
+      ]
+    },
+    "A0_C2": {
+      "axis_id": 0,
+      "state_id": 2,
+      "name": "Ribosomal-gene up",
+      "summary": "Elevated ribosomal protein and mitochondrial transcripts with minimal negative evidence; unclear specificity.",
+      "evidence_genes": [
+        "ENSG00000189043.9",
+        "ENSG00000149273.14"
+      ]
+    },
+    "A0_C3": {
+      "axis_id": 0,
+      "state_id": 3,
+      "name": "Ribosomal-gene down",
+      "summary": "Marked reduction in ribosomal protein transcripts with only trace positive changes; unclear function.",
+      "evidence_genes": [
+        "ENSG00000197756.9",
+        "ENSG00000172809.12"
+      ]
+    },
+    "A0_C4": {
+      "axis_id": 0,
+      "state_id": 4,
+      "name": "Ribosomal down, S100 down",
+      "summary": "Lower ribosomal and S100-family transcripts with negligible positive markers; weak signal.",
+      "evidence_genes": [
+        "ENSG00000156482.10",
+        "ENSG00000163191.5"
+      ]
+    },
+    "A0_C5": {
+      "axis_id": 0,
+      "state_id": 5,
+      "name": "Ribosomal-gene down",
+      "summary": "Reduced ribosomal protein transcripts with very small positive changes; unclear biological theme.",
+      "evidence_genes": [
+        "ENSG00000172809.12",
+        "ENSG00000105372.6"
+      ]
+    },
+    "A0_C6": {
+      "axis_id": 0,
+      "state_id": 6,
+      "name": "Ribosomal up, proteasome down",
+      "summary": "Higher ribosomal and ferritin transcripts with lower proteasome markers; weak, mixed evidence.",
+      "evidence_genes": [
+        "ENSG00000087086.14",
+        "ENSG00000013275.7"
+      ]
+    },
+    "A0_C7": {
+      "axis_id": 0,
+      "state_id": 7,
+      "name": "Ferritin/oxidative up, ribosomal mixed",
+      "summary": "Higher FTL, G6PD, and S100A6 with mixed ribosomal changes; unclear functional interpretation.",
+      "evidence_genes": [
+        "ENSG00000087086.14",
+        "ENSG00000160211.15"
+      ]
+    },
+    "A0_C8": {
+      "axis_id": 0,
+      "state_id": 8,
+      "name": "Ribosomal and S100 up",
+      "summary": "Elevated ribosomal protein, S100A6, S100A11, and ZFAS1 transcripts with negligible negative evidence.",
+      "evidence_genes": [
+        "ENSG00000177410.12",
+        "ENSG00000197956.9"
+      ]
+    },
+    "A0_C9": {
+      "axis_id": 0,
+      "state_id": 9,
+      "name": "Ribosomal-gene up",
+      "summary": "Higher ribosomal protein transcripts with small reductions in S100A11 and G6PD; unclear specificity.",
+      "evidence_genes": [
+        "ENSG00000131469.12",
+        "ENSG00000161016.17"
+      ]
+    },
+    "A0_C10": {
+      "axis_id": 0,
+      "state_id": 10,
+      "name": "Ribosomal-gene up",
+      "summary": "Broadly elevated ribosomal protein transcripts with no down genes listed; unclear broader function.",
+      "evidence_genes": [
+        "ENSG00000197756.9",
+        "ENSG00000142534.6"
+      ]
+    },
+    "A0_C11": {
+      "axis_id": 0,
+      "state_id": 11,
+      "name": "Ribosomal-gene up",
+      "summary": "Higher ribosomal protein and PSMC4 transcripts with negligible negative changes; unclear theme.",
+      "evidence_genes": [
+        "ENSG00000156482.10",
+        "ENSG00000142534.6"
+      ]
+    },
+    "A0_C12": {
+      "axis_id": 0,
+      "state_id": 12,
+      "name": "Ribosomal up, HMGA1 down",
+      "summary": "Modestly higher ribosomal transcripts with lower HMGA1 and metabolic markers; weak signal.",
+      "evidence_genes": [
+        "ENSG00000175061.17",
+        "ENSG00000137309.19"
+      ]
+    },
+    "A0_C13": {
+      "axis_id": 0,
+      "state_id": 13,
+      "name": "Ribosomal-gene down",
+      "summary": "Strongly reduced ribosomal protein transcripts with negligible positive changes; unclear function.",
+      "evidence_genes": [
+        "ENSG00000137818.11",
+        "ENSG00000142534.6"
+      ]
+    },
+    "A0_C14": {
+      "axis_id": 0,
+      "state_id": 14,
+      "name": "Ribosomal up, S100 down",
+      "summary": "Higher ribosomal and proteasome transcripts with lower S100A6/S100A11; weak, mixed evidence.",
+      "evidence_genes": [
+        "ENSG00000013275.7",
+        "ENSG00000197956.9"
+      ]
+    },
+    "A0_C15": {
+      "axis_id": 0,
+      "state_id": 15,
+      "name": "Ribosomal mixed, ferritin down",
+      "summary": "Lower FTL and some ribosomal transcripts with modestly higher PFKP and EIF6; unclear theme.",
+      "evidence_genes": [
+        "ENSG00000087086.14",
+        "ENSG00000067057.16"
+      ]
+    },
+    "A1_C0": {
+      "axis_id": 1,
+      "state_id": 0,
+      "name": "Mild mixed chromatin/RNA-processing shift",
+      "summary": "Weak positive associations with chromatin and RNA-processing genes (BPTF, TAOK1) and weak negative associations with trafficking/cycle genes; effects are small and function is unclear.",
+      "evidence_genes": [
+        "ENSG00000171634.16",
+        "ENSG00000160551.11"
+      ]
+    },
+    "A1_C1": {
+      "axis_id": 1,
+      "state_id": 1,
+      "name": "Positive chromatin/cycle-associated state",
+      "summary": "Moderate positive associations with chromatin and cell-cycle-related genes (CDC27, RPTOR) with minimal negative evidence; suggests a proliferative/chromatin-leaning profile but not causal.",
+      "evidence_genes": [
+        "ENSG00000004897.11",
+        "ENSG00000141564.13"
+      ]
+    },
+    "A1_C2": {
+      "axis_id": 1,
+      "state_id": 2,
+      "name": "Chromatin/RNA-processing positive state",
+      "summary": "Positive associations with chromatin and RNA-binding genes (BPTF, ATXN2) and negligible negative effects; function remains uncertain.",
+      "evidence_genes": [
+        "ENSG00000171634.16",
+        "ENSG00000204842.14"
+      ]
+    },
+    "A1_C3": {
+      "axis_id": 1,
+      "state_id": 3,
+      "name": "Chromatin/ubiquitin positive state",
+      "summary": "Positive associations with chromatin and ubiquitin-pathway genes (HP1BP3, UBE2R2) with weak negative evidence; unclear biological role.",
+      "evidence_genes": [
+        "ENSG00000127483.17",
+        "ENSG00000107341.4"
+      ]
+    },
+    "A1_C4": {
+      "axis_id": 1,
+      "state_id": 4,
+      "name": "Strong negative chromatin/RNA state",
+      "summary": "Marked negative associations with chromatin and RNA-processing genes (BPTF, ATXN2) and near-zero positive effects; a distinct low-chromatin profile.",
+      "evidence_genes": [
+        "ENSG00000171634.16",
+        "ENSG00000204842.14"
+      ]
+    },
+    "A1_C5": {
+      "axis_id": 1,
+      "state_id": 5,
+      "name": "Negative chromatin/coactivator state",
+      "summary": "Negative associations with chromatin and coactivator genes (CDC27, NCOA3) and only weak positive effects; function unclear.",
+      "evidence_genes": [
+        "ENSG00000004897.11",
+        "ENSG00000124151.18"
+      ]
+    },
+    "A1_C6": {
+      "axis_id": 1,
+      "state_id": 6,
+      "name": "Positive chromatin/cycle state",
+      "summary": "Positive associations with chromatin and cell-cycle genes (CLASP2, CDC27) with minimal negative evidence; suggests a chromatin/cycle-leaning profile.",
+      "evidence_genes": [
+        "ENSG00000163539.16",
+        "ENSG00000004897.11"
+      ]
+    },
+    "A1_C7": {
+      "axis_id": 1,
+      "state_id": 7,
+      "name": "Negative chromatin/RNA state",
+      "summary": "Strong negative associations with chromatin and RNA-processing genes (BPTF, ATXN2) and negligible positive effects; distinct low-chromatin profile.",
+      "evidence_genes": [
+        "ENSG00000171634.16",
+        "ENSG00000204842.14"
+      ]
+    },
+    "A1_C8": {
+      "axis_id": 1,
+      "state_id": 8,
+      "name": "Negative chromatin/transport state",
+      "summary": "Negative associations with chromatin and transport genes (IQCB1, CLASP2) with weak positive effects; unclear function.",
+      "evidence_genes": [
+        "ENSG00000173226.16",
+        "ENSG00000163539.16"
+      ]
+    },
+    "A1_C9": {
+      "axis_id": 1,
+      "state_id": 9,
+      "name": "Negative chromatin/cycle state",
+      "summary": "Negative associations with chromatin and cycle genes (IQCB1, CLASP2) and weak positive effects; function uncertain.",
+      "evidence_genes": [
+        "ENSG00000173226.16",
+        "ENSG00000163539.16"
+      ]
+    },
+    "A1_C10": {
+      "axis_id": 1,
+      "state_id": 10,
+      "name": "Mild mixed trafficking/cycle shift",
+      "summary": "Weak positive associations with trafficking and cycle genes (SLMAP, DLG1) and weak negative effects; unclear biological role.",
+      "evidence_genes": [
+        "ENSG00000163681.14",
+        "ENSG00000075711.20"
+      ]
+    },
+    "A1_C11": {
+      "axis_id": 1,
+      "state_id": 11,
+      "name": "Positive coactivator/kinase state",
+      "summary": "Positive associations with coactivator and kinase genes (NCOA3, RPTOR) and moderate negative effects (IBTK); suggests a growth-signaling-leaning profile.",
+      "evidence_genes": [
+        "ENSG00000124151.18",
+        "ENSG00000141564.13"
+      ]
+    },
+    "A1_C12": {
+      "axis_id": 1,
+      "state_id": 12,
+      "name": "Positive kinase/transport state",
+      "summary": "Positive associations with kinase and transport genes (TAOK1, SLC25A13) with weak negative evidence; function unclear.",
+      "evidence_genes": [
+        "ENSG00000160551.11",
+        "ENSG00000004864.13"
+      ]
+    },
+    "A1_C13": {
+      "axis_id": 1,
+      "state_id": 13,
+      "name": "Mixed trafficking/chromatin state",
+      "summary": "Weak positive associations with trafficking genes (SNX13, SLC25A13) and negative associations with chromatin/cycle genes (CLASP2, CDKAL1); unclear.",
+      "evidence_genes": [
+        "ENSG00000071189.21",
+        "ENSG00000163539.16"
+      ]
+    },
+    "A1_C14": {
+      "axis_id": 1,
+      "state_id": 14,
+      "name": "Negative chromatin/transport state",
+      "summary": "Negative associations with chromatin and transport genes (IQCB1, FNBP4) and negligible positive effects; distinct low-chromatin profile.",
+      "evidence_genes": [
+        "ENSG00000173226.16",
+        "ENSG00000109920.12"
+      ]
+    },
+    "A1_C15": {
+      "axis_id": 1,
+      "state_id": 15,
+      "name": "Positive RNA/chromatin state",
+      "summary": "Positive associations with RNA-binding and chromatin genes (ATXN2, TAF15) with weak negative effects; function uncertain.",
+      "evidence_genes": [
+        "ENSG00000204842.14",
+        "ENSG00000270647.5"
+      ]
+    },
+    "A2_C0": {
+      "axis_id": 2,
+      "state_id": 0,
+      "name": "AKAP12-high, TGM2-low",
+      "summary": "Higher AKAP12 and MPRIP with lower TGM2, SERPINE1, and metallothioneins; suggests a matrix/cytoskeletal-associated profile, though evidence is limited.",
+      "evidence_genes": [
+        "ENSG00000131016.16",
+        "ENSG00000198959.11"
+      ]
+    },
+    "A2_C1": {
+      "axis_id": 2,
+      "state_id": 1,
+      "name": "SREBF2/CHKA up, AKAP12 down",
+      "summary": "Modest lipid-synthesis and integrin signals (SREBF2, CHKA, ITGA2/ITGB4) with lower AKAP12 and DUSP1; weak, mixed evidence.",
+      "evidence_genes": [
+        "ENSG00000198911.11",
+        "ENSG00000131016.16"
+      ]
+    },
+    "A2_C2": {
+      "axis_id": 2,
+      "state_id": 2,
+      "name": "Metallothionein/TGM2-high",
+      "summary": "Strongly higher MT1X, MT2A, TGM2, and AKAP13 with few down genes; consistent with a stress/metal-response-like profile.",
+      "evidence_genes": [
+        "ENSG00000187193.8",
+        "ENSG00000125148.6"
+      ]
+    },
+    "A2_C3": {
+      "axis_id": 2,
+      "state_id": 3,
+      "name": "JAK1/AKAP13-low",
+      "summary": "Lower JAK1, AKAP13, TGM2, FLNB, and SERPINE1 with negligible up signal; function unclear from limited markers.",
+      "evidence_genes": [
+        "ENSG00000162434.11",
+        "ENSG00000170776.21"
+      ]
+    },
+    "A2_C4": {
+      "axis_id": 2,
+      "state_id": 4,
+      "name": "SERPINE1-low, weak up signal",
+      "summary": "Lower SERPINE1, AKAP13, TGM2, and FLNB with only very weak up genes (SCARB1, SLC45A4); unclear function.",
+      "evidence_genes": [
+        "ENSG00000106366.8",
+        "ENSG00000170776.21"
+      ]
+    },
+    "A2_C5": {
+      "axis_id": 2,
+      "state_id": 5,
+      "name": "CPEB4/AKAP13-high",
+      "summary": "Higher CPEB4, AKAP13, HPCAL1, and ANGPTL4 with mild down signals; suggests a distinct cytoskeletal/secretory profile, but evidence is modest.",
+      "evidence_genes": [
+        "ENSG00000113742.12",
+        "ENSG00000170776.21"
+      ]
+    },
+    "A2_C6": {
+      "axis_id": 2,
+      "state_id": 6,
+      "name": "AKAP13/SERPINE1-low",
+      "summary": "Lower AKAP13, SERPINE1, TGM2, and CPEB4 with negligible up genes; function unclear.",
+      "evidence_genes": [
+        "ENSG00000170776.21",
+        "ENSG00000106366.8"
+      ]
+    },
+    "A2_C7": {
+      "axis_id": 2,
+      "state_id": 7,
+      "name": "TGM2/CPEB4-high",
+      "summary": "Higher TGM2, CPEB4, DPYD, and MFGE8 with lower PACSIN2 and AKAP12; mixed matrix/cytoskeletal signals, uncertain.",
+      "evidence_genes": [
+        "ENSG00000198959.11",
+        "ENSG00000113742.12"
+      ]
+    },
+    "A2_C8": {
+      "axis_id": 2,
+      "state_id": 8,
+      "name": "TGM2/SERPINE1-high",
+      "summary": "Higher TGM2, SERPINE1, MT1X, DUSP1, and AKAP13 with negligible down genes; stress/matrix-associated profile.",
+      "evidence_genes": [
+        "ENSG00000198959.11",
+        "ENSG00000106366.8"
+      ]
+    },
+    "A2_C9": {
+      "axis_id": 2,
+      "state_id": 9,
+      "name": "SERPINE1/ANGPTL4-high",
+      "summary": "Strongly higher SERPINE1, ANGPTL4, KLF7, NAV2, MT2A, and JAK1 with negligible down genes; secretory/stress-like profile.",
+      "evidence_genes": [
+        "ENSG00000106366.8",
+        "ENSG00000167772.11"
+      ]
+    },
+    "A2_C10": {
+      "axis_id": 2,
+      "state_id": 10,
+      "name": "TGM2-high, SERPINE1-low",
+      "summary": "Mildly higher TGM2 and GIPC1 with lower SERPINE1, NAV2, HPCAL1, and AKAP12; mixed and weak evidence.",
+      "evidence_genes": [
+        "ENSG00000198959.11",
+        "ENSG00000106366.8"
+      ]
+    },
+    "A2_C11": {
+      "axis_id": 2,
+      "state_id": 11,
+      "name": "SERPINE1/AKAP13-low",
+      "summary": "Lower SERPINE1, AKAP13, HPCAL1, DUSP1, and JAK1 with negligible up genes; function unclear.",
+      "evidence_genes": [
+        "ENSG00000106366.8",
+        "ENSG00000170776.21"
+      ]
+    },
+    "A2_C12": {
+      "axis_id": 2,
+      "state_id": 12,
+      "name": "JAK1/FLNB-low",
+      "summary": "Lower JAK1, FLNB, PACSIN2, RTN4, and HPCAL1 with negligible up genes; unclear function.",
+      "evidence_genes": [
+        "ENSG00000162434.11",
+        "ENSG00000136068.14"
+      ]
+    },
+    "A2_C13": {
+      "axis_id": 2,
+      "state_id": 13,
+      "name": "HPCAL1/FLNB/SERPINE1-high",
+      "summary": "Higher HPCAL1, FLNB, SERPINE1, DUSP1, AKAP13, and CPEB4 with negligible down genes; cytoskeletal/stress-like profile.",
+      "evidence_genes": [
+        "ENSG00000115756.12",
+        "ENSG00000136068.14"
+      ]
+    },
+    "A2_C14": {
+      "axis_id": 2,
+      "state_id": 14,
+      "name": "SERPINE1/MFGE8-high",
+      "summary": "Higher SERPINE1, MFGE8, HPCAL1, AKAP13, NAV2, and ABHD2 with negligible down genes; secretory/matrix-associated profile.",
+      "evidence_genes": [
+        "ENSG00000106366.8",
+        "ENSG00000140545.14"
+      ]
+    },
+    "A2_C15": {
+      "axis_id": 2,
+      "state_id": 15,
+      "name": "GALNT10/PMEPA1-high, TGM2-low",
+      "summary": "Higher GALNT10, PMEPA1, FLNB, RTN4, and ADAM9 with lower TGM2, MT1X, and ABHD2; mixed adhesion/matrix signals, uncertain.",
+      "evidence_genes": [
+        "ENSG00000164574.15",
+        "ENSG00000198959.11"
+      ]
+    },
+    "A3_C0": {
+      "axis_id": 3,
+      "state_id": 0,
+      "name": "Mild splicing/RNA-processing shift",
+      "summary": "Weak positive RNA-processing and splicing regulators with modest negative cytoskeletal/transport genes; effects are small and the functional interpretation is uncertain.",
+      "evidence_genes": [
+        "ENSG00000104824.16",
+        "ENSG00000112531.16"
+      ]
+    },
+    "A3_C1": {
+      "axis_id": 3,
+      "state_id": 1,
+      "name": "Low-signal chromatin/transcription state",
+      "summary": "Up-gene effects are near zero; the main signal is reduced chromatin/transcription regulators, but overall evidence is weak and the label is uncertain.",
+      "evidence_genes": [
+        "ENSG00000112701.17",
+        "ENSG00000140262.17"
+      ]
+    },
+    "A3_C2": {
+      "axis_id": 3,
+      "state_id": 2,
+      "name": "Ras/transcription regulator up",
+      "summary": "Positive Ras-GEF and chromatin/transcription regulators with only weak negative genes; suggests a signaling-transcriptional program but causality is not implied.",
+      "evidence_genes": [
+        "ENSG00000156052.10",
+        "ENSG00000115904.12"
+      ]
+    },
+    "A3_C3": {
+      "axis_id": 3,
+      "state_id": 3,
+      "name": "NFAT5/RFX7-associated state",
+      "summary": "Positive NFAT5, RFX7 and WDFY3 with weak negative splicing/chromatin genes; a modest transcriptional-stress-like association of uncertain specificity.",
+      "evidence_genes": [
+        "ENSG00000102908.20",
+        "ENSG00000181827.14"
+      ]
+    },
+    "A3_C4": {
+      "axis_id": 3,
+      "state_id": 4,
+      "name": "Strong chromatin regulator down",
+      "summary": "Marked reduction of TCF12, SENP6, PVT1 and KANSL1 with negligible positive genes; consistent with a low chromatin/transcription-regulator profile.",
+      "evidence_genes": [
+        "ENSG00000140262.17",
+        "ENSG00000249859.9"
+      ]
+    },
+    "A3_C5": {
+      "axis_id": 3,
+      "state_id": 5,
+      "name": "RNA-binding up, weak negatives",
+      "summary": "Positive PTBP2, WDR43 and other RNA/chromatin regulators with very weak negative genes; suggests an RNA-processing-associated state but evidence is limited.",
+      "evidence_genes": [
+        "ENSG00000117569.18",
+        "ENSG00000163811.11"
+      ]
+    },
+    "A3_C6": {
+      "axis_id": 3,
+      "state_id": 6,
+      "name": "CPNE8/PVT1/CPEB2 up",
+      "summary": "Positive CPNE8, PVT1, CPEB2 and RFX7 with weak negative RNA-binding genes; a mixed growth/RNA-associated profile of uncertain mechanism.",
+      "evidence_genes": [
+        "ENSG00000139117.13",
+        "ENSG00000249859.9"
+      ]
+    },
+    "A3_C7": {
+      "axis_id": 3,
+      "state_id": 7,
+      "name": "FIGN/PTBP2 up",
+      "summary": "Positive FIGN, RPRD2, PTBP2 and PUM2 with modest negative PVT1/NFAT5; suggests cytoskeletal-RNA regulatory shifts without clear causal interpretation.",
+      "evidence_genes": [
+        "ENSG00000182263.13",
+        "ENSG00000117569.18"
+      ]
+    },
+    "A3_C8": {
+      "axis_id": 3,
+      "state_id": 8,
+      "name": "Chromatin regulators down",
+      "summary": "Near-zero positive genes and reduced JMJD1C, RFX7, SENP6, NFAT5 and TCF12; indicates a low chromatin/transcription-regulator profile.",
+      "evidence_genes": [
+        "ENSG00000171988.18",
+        "ENSG00000181827.14"
+      ]
+    },
+    "A3_C9": {
+      "axis_id": 3,
+      "state_id": 9,
+      "name": "WDR43 down, NFAT5 up",
+      "summary": "Reduced WDR43, KDM3B and YAP1 with modest positive NFAT5 and MAP4K4; a weak mixed signaling/RNA state with uncertain interpretation.",
+      "evidence_genes": [
+        "ENSG00000163811.11",
+        "ENSG00000102908.20"
+      ]
+    },
+    "A3_C10": {
+      "axis_id": 3,
+      "state_id": 10,
+      "name": "SENP6/UBE2E1 down",
+      "summary": "Strong reduction of SENP6, UBE2E1, USP3 and TCF12 with negligible positive genes; consistent with low ubiquitin/chromatin regulator activity.",
+      "evidence_genes": [
+        "ENSG00000112701.17",
+        "ENSG00000170142.11"
+      ]
+    },
+    "A3_C11": {
+      "axis_id": 3,
+      "state_id": 11,
+      "name": "YAP1/WDR43 up",
+      "summary": "Positive YAP1, KDM3B, WDR43 and PUM3 with weak negative genes; suggests a growth/RNA-processing-associated profile of uncertain specificity.",
+      "evidence_genes": [
+        "ENSG00000137693.13",
+        "ENSG00000163811.11"
+      ]
+    },
+    "A3_C12": {
+      "axis_id": 3,
+      "state_id": 12,
+      "name": "RBM39/USP47 down",
+      "summary": "Reduced RBM39, USP47, SPATS2L and SENP6 with near-zero positive genes; indicates a low RNA-processing/splicing-regulator profile.",
+      "evidence_genes": [
+        "ENSG00000131051.22",
+        "ENSG00000170242.17"
+      ]
+    },
+    "A3_C13": {
+      "axis_id": 3,
+      "state_id": 13,
+      "name": "Broad chromatin/transcription up",
+      "summary": "Strong positive TCF12, UBE2E1, USP3, KANSL1 and PVT1 with negligible negative genes; a high chromatin/transcription-regulator profile.",
+      "evidence_genes": [
+        "ENSG00000140262.17",
+        "ENSG00000170142.11"
+      ]
+    },
+    "A3_C14": {
+      "axis_id": 3,
+      "state_id": 14,
+      "name": "UBE2E1/YAP1 up, FIGN down",
+      "summary": "Modest positive UBE2E1, YAP1 and NCOA2 with reduced FIGN, MAP4K5 and WDFY3; a weak mixed signaling state with uncertain meaning.",
+      "evidence_genes": [
+        "ENSG00000170142.11",
+        "ENSG00000137693.13"
+      ]
+    },
+    "A3_C15": {
+      "axis_id": 3,
+      "state_id": 15,
+      "name": "WDR43/UBE2E1 up",
+      "summary": "Positive WDR43, UBE2E1, PVT1 and QKI with weak negative chromatin genes; suggests an RNA-processing/chromatin-associated state of limited specificity.",
+      "evidence_genes": [
+        "ENSG00000163811.11",
+        "ENSG00000170142.11"
+      ]
+    },
+    "A4_C0": {
+      "axis_id": 4,
+      "state_id": 0,
+      "name": "Aldehyde dehydrogenase/ketoreductase-high",
+      "summary": "Strong up ALDH3A1, AKR1B10, GPX2, AKR1C1/2; down effects negligible. Suggests aldehyde/ketone metabolism and oxidative-stress response, but marker-based.",
+      "evidence_genes": [
+        "ENSG00000108602.17",
+        "ENSG00000198074.9"
+      ]
+    },
+    "A4_C1": {
+      "axis_id": 4,
+      "state_id": 1,
+      "name": "Mucin/secretory with mixed metabolism",
+      "summary": "Up CPLX2, MUC5B, AKR1C3, AGR2, GPX2; modest down CA12, FN1. Weak, mixed secretory and metabolic signal.",
+      "evidence_genes": [
+        "ENSG00000117983.17",
+        "ENSG00000106541.11"
+      ]
+    },
+    "A4_C2": {
+      "axis_id": 4,
+      "state_id": 2,
+      "name": "Aldehyde dehydrogenase with keratin down",
+      "summary": "Up ALDH3A1, AKR1C1, CA12, AGR2; down KRT81, KRT7, SDC1. Mixed metabolic and epithelial-marker pattern; uncertain.",
+      "evidence_genes": [
+        "ENSG00000108602.17",
+        "ENSG00000205426.10"
+      ]
+    },
+    "A4_C3": {
+      "axis_id": 4,
+      "state_id": 3,
+      "name": "Low aldehyde dehydrogenase/AGR2",
+      "summary": "Down ALDH3A1, AGR2, AKR1B10, GPX2, AKR1C1, CA12; up effects near zero. Predominantly loss of the aldehyde-dehydrogenase program.",
+      "evidence_genes": [
+        "ENSG00000108602.17",
+        "ENSG00000106541.11"
+      ]
+    },
+    "A4_C4": {
+      "axis_id": 4,
+      "state_id": 4,
+      "name": "Aldehyde/ketoreductase-low",
+      "summary": "Strong down AKR1C3, AKR1B10, ALDH1A1, AKR1C2, AKR1C1, ALDH3A1; up effects negligible. Loss of carbonyl-metabolism markers.",
+      "evidence_genes": [
+        "ENSG00000196139.13",
+        "ENSG00000165092.12"
+      ]
+    },
+    "A4_C5": {
+      "axis_id": 4,
+      "state_id": 5,
+      "name": "AKR1B10-up with GPX2/AGR2 down",
+      "summary": "Up AKR1B10, KRT81, UGDH; down GPX2, AGR2, EPHX1, MUC5B. Mixed metabolic/epithelial signal, weak.",
+      "evidence_genes": [
+        "ENSG00000198074.9",
+        "ENSG00000176153.11"
+      ]
+    },
+    "A4_C6": {
+      "axis_id": 4,
+      "state_id": 6,
+      "name": "Squamous/keratin with GPX2 up",
+      "summary": "Up GPX2, S100A10, KRT81, KRT7, S100A4; down AKR1B10, ALDH3A1. Suggests keratinocyte-like markers; uncertain.",
+      "evidence_genes": [
+        "ENSG00000176153.11",
+        "ENSG00000205426.10"
+      ]
+    },
+    "A4_C7": {
+      "axis_id": 4,
+      "state_id": 7,
+      "name": "AKR1C2/ALDH1A1 with AGR2 down",
+      "summary": "Up AKR1C2, ALDH1A1, IGFBP4, KRT7, KRT81; down AGR2, ALDH3A1, EPHX1. Mixed metabolic and epithelial pattern.",
+      "evidence_genes": [
+        "ENSG00000151632.17",
+        "ENSG00000165092.12"
+      ]
+    },
+    "A4_C8": {
+      "axis_id": 4,
+      "state_id": 8,
+      "name": "Broad aldehyde/ketoreductase-high",
+      "summary": "Up AKR1C1, AKR1B10, AKR1C3, GPX2, AKR1C2, ALDH1A1; down effects negligible. Strong carbonyl-metabolism marker set.",
+      "evidence_genes": [
+        "ENSG00000187134.13",
+        "ENSG00000198074.9"
+      ]
+    },
+    "A4_C9": {
+      "axis_id": 4,
+      "state_id": 9,
+      "name": "Low ALDH3A1/AKR1B10 and keratins",
+      "summary": "Down ALDH3A1, AKR1B10, GPX2, KRT7, KRT81, IGFBP4; up effects negligible. Loss of metabolic and keratin markers.",
+      "evidence_genes": [
+        "ENSG00000108602.17",
+        "ENSG00000198074.9"
+      ]
+    },
+    "A4_C10": {
+      "axis_id": 4,
+      "state_id": 10,
+      "name": "AKR1C3/AKR1B10 with CPLX2 up",
+      "summary": "Up AKR1C3, AKR1B10, CPLX2, AKR1C2, IGFBP4, ALDH1A1; down effects small. Metabolic marker enrichment; uncertain.",
+      "evidence_genes": [
+        "ENSG00000196139.13",
+        "ENSG00000198074.9"
+      ]
+    },
+    "A4_C11": {
+      "axis_id": 4,
+      "state_id": 11,
+      "name": "Aldehyde/ketoreductase-low, keratin-low",
+      "summary": "Strong down AKR1B10, AKR1C3, AKR1C1, KRT7, IGFBP4, AKR1C2; up negligible. Broad loss of metabolic/keratin markers.",
+      "evidence_genes": [
+        "ENSG00000198074.9",
+        "ENSG00000196139.13"
+      ]
+    },
+    "A4_C12": {
+      "axis_id": 4,
+      "state_id": 12,
+      "name": "ALDH3A1/AKR1B10/GPX2-high",
+      "summary": "Up ALDH3A1, AKR1B10, GPX2, CA12, TSKU, AKR1C1; down effects negligible. Aldehyde-dehydrogenase and oxidative-stress markers.",
+      "evidence_genes": [
+        "ENSG00000108602.17",
+        "ENSG00000176153.11"
+      ]
+    },
+    "A4_C13": {
+      "axis_id": 4,
+      "state_id": 13,
+      "name": "GPX2/S100 with AGR2 up",
+      "summary": "Up GPX2, S100A10, S100A4, AGR2, KRT81, AKR1C3; down effects negligible. Mixed stress/epithelial markers; uncertain.",
+      "evidence_genes": [
+        "ENSG00000176153.11",
+        "ENSG00000106541.11"
+      ]
+    },
+    "A4_C14": {
+      "axis_id": 4,
+      "state_id": 14,
+      "name": "AKR1B10/CD44 with GPX2 down",
+      "summary": "Up AKR1B10, CD44, S100A10, ALDH3A1; down GPX2, FADS2, CPLX2, MUC5B. Mixed metabolic/adhesion signal.",
+      "evidence_genes": [
+        "ENSG00000198074.9",
+        "ENSG00000026508.17"
+      ]
+    },
+    "A4_C15": {
+      "axis_id": 4,
+      "state_id": 15,
+      "name": "Aldehyde dehydrogenase/CPLX2-high",
+      "summary": "Up AKR1B10, ALDH3A1, CPLX2, AGR2, AKR1C3, GPX2; down effects negligible. Metabolic and secretory marker enrichment.",
+      "evidence_genes": [
+        "ENSG00000198074.9",
+        "ENSG00000108602.17"
+      ]
+    },
+    "A5_C0": {
+      "axis_id": 5,
+      "state_id": 0,
+      "name": "PDE4D/MAML3-low state",
+      "summary": "Weak positive signal with modest down-weighting of PDE4D, MAML3, and related genes; effect sizes are small and function is unclear.",
+      "evidence_genes": [
+        "ENSG00000113448.18",
+        "ENSG00000196782.12"
+      ]
+    },
+    "A5_C1": {
+      "axis_id": 5,
+      "state_id": 1,
+      "name": "Weak DNM1-up state",
+      "summary": "Near-null positive effects with slight down-weighting of DANT2 and CACNA2D1; evidence is too weak to assign a function.",
+      "evidence_genes": [
+        "ENSG00000106976.20",
+        "ENSG00000235244.3"
+      ]
+    },
+    "A5_C2": {
+      "axis_id": 5,
+      "state_id": 2,
+      "name": "DOCK1/OPHN1-up state",
+      "summary": "Modest up-weighting of DOCK1 and OPHN1 with down-weighting of NR3C1 and PDE4D; suggests a cytoskeletal/regulatory profile but is uncertain.",
+      "evidence_genes": [
+        "ENSG00000150760.12",
+        "ENSG00000079482.12"
+      ]
+    },
+    "A5_C3": {
+      "axis_id": 5,
+      "state_id": 3,
+      "name": "CNTN1/PARD3-up state",
+      "summary": "Up-weighting of adhesion and polarity genes CNTN1, PARD3, and MAML3 with minimal down effects; function is unclear.",
+      "evidence_genes": [
+        "ENSG00000018236.14",
+        "ENSG00000148498.15"
+      ]
+    },
+    "A5_C4": {
+      "axis_id": 5,
+      "state_id": 4,
+      "name": "CACNA2D1/PDE4B-up state",
+      "summary": "Up-weighting of CACNA2D1, PDE4B, LGR4, and NFIB with weak down effects; a signaling/adhesion-associated profile of uncertain meaning.",
+      "evidence_genes": [
+        "ENSG00000153956.15",
+        "ENSG00000184588.17"
+      ]
+    },
+    "A5_C5": {
+      "axis_id": 5,
+      "state_id": 5,
+      "name": "PDE4B/ASPH-low state",
+      "summary": "Down-weighting of PDE4B, ASPH, PDE4D, and CACNA2D1 with negligible positive effects; function is unclear.",
+      "evidence_genes": [
+        "ENSG00000184588.17",
+        "ENSG00000198363.17"
+      ]
+    },
+    "A5_C6": {
+      "axis_id": 5,
+      "state_id": 6,
+      "name": "CNTN1/THSD7A-up state",
+      "summary": "Up-weighting of CNTN1, THSD7A, PDE4D, and ASPH with small down effects; adhesion-associated but uncertain.",
+      "evidence_genes": [
+        "ENSG00000018236.14",
+        "ENSG00000005108.15"
+      ]
+    },
+    "A5_C7": {
+      "axis_id": 5,
+      "state_id": 7,
+      "name": "PDE4D/KYNU-up state",
+      "summary": "Up-weighting of PDE4D, ASPH, KYNU, CACNA2D1, and MAML3 with minimal down effects; function is unclear.",
+      "evidence_genes": [
+        "ENSG00000113448.18",
+        "ENSG00000115919.14"
+      ]
+    },
+    "A5_C8": {
+      "axis_id": 5,
+      "state_id": 8,
+      "name": "PDE4D/ABCC2-up state",
+      "summary": "Up-weighting of PDE4D, ABCC2, ASPH, and LGR4 with down-weighting of COL5A2 and TARID; uncertain profile.",
+      "evidence_genes": [
+        "ENSG00000113448.18",
+        "ENSG00000023839.10"
+      ]
+    },
+    "A5_C9": {
+      "axis_id": 5,
+      "state_id": 9,
+      "name": "PDE4B/CACNA2D1-low state",
+      "summary": "Down-weighting of PDE4B, CACNA2D1, KYNU, and CUX1 with negligible positive effects; function is unclear.",
+      "evidence_genes": [
+        "ENSG00000184588.17",
+        "ENSG00000153956.15"
+      ]
+    },
+    "A5_C10": {
+      "axis_id": 5,
+      "state_id": 10,
+      "name": "NTN4/LINC-PINT-up state",
+      "summary": "Up-weighting of NTN4, LINC-PINT, TMEM117, and ATRX with down-weighting of CNTN1 and THSD7A; uncertain.",
+      "evidence_genes": [
+        "ENSG00000074527.11",
+        "ENSG00000231721.6"
+      ]
+    },
+    "A5_C11": {
+      "axis_id": 5,
+      "state_id": 11,
+      "name": "PDE4B/CACNA2D1-up state",
+      "summary": "Strong up-weighting of PDE4B and CACNA2D1 with DENND5B and GRIP1, and negligible down effects; function is unclear.",
+      "evidence_genes": [
+        "ENSG00000184588.17",
+        "ENSG00000153956.15"
+      ]
+    },
+    "A5_C12": {
+      "axis_id": 5,
+      "state_id": 12,
+      "name": "PDE4B/COL5A2-up state",
+      "summary": "Up-weighting of PDE4B, CACNA2D1, COL5A2, NTN4, and TARID with negligible down effects; uncertain.",
+      "evidence_genes": [
+        "ENSG00000184588.17",
+        "ENSG00000204262.11"
+      ]
+    },
+    "A5_C13": {
+      "axis_id": 5,
+      "state_id": 13,
+      "name": "CNTN1/PDE4D-up state",
+      "summary": "Up-weighting of CNTN1, PDE4D, TARID, and FNDC3B with down-weighting of CACNA2D1 and CSGALNACT1; uncertain.",
+      "evidence_genes": [
+        "ENSG00000018236.14",
+        "ENSG00000113448.18"
+      ]
+    },
+    "A5_C14": {
+      "axis_id": 5,
+      "state_id": 14,
+      "name": "DENND5B/TMEM117-up state",
+      "summary": "Up-weighting of DENND5B, TMEM117, COL5A2, and ETV6 with weak down effects; function is unclear.",
+      "evidence_genes": [
+        "ENSG00000170456.15",
+        "ENSG00000139173.9"
+      ]
+    },
+    "A5_C15": {
+      "axis_id": 5,
+      "state_id": 15,
+      "name": "RNF213-up state",
+      "summary": "Modest up-weighting of RNF213, CUX1, and PLA2G4A with down-weighting of DLEU1 and TFPI; weak and uncertain.",
+      "evidence_genes": [
+        "ENSG00000173821.19",
+        "ENSG00000257923.9"
+      ]
+    },
+    "A6_C0": {
+      "axis_id": 6,
+      "state_id": 0,
+      "name": "Nuclear transport and RNA-processing shift",
+      "summary": "Down-weighted nuclear transport and RNA-processing genes (PRPF40A, IPO7, YY1) with weak up-weighting of cytoskeletal/RNA genes; evidence is modest and directionally mixed.",
+      "evidence_genes": [
+        "ENSG00000196504.15",
+        "ENSG00000205339.9"
+      ]
+    },
+    "A6_C1": {
+      "axis_id": 6,
+      "state_id": 1,
+      "name": "Export and splicing machinery down",
+      "summary": "Strong down-weighting of export and splicing factors (XPO1, PRPF40A, KIF5B) with negligible up-genes; suggests reduced nuclear export/processing tone, though effects are decoder associations.",
+      "evidence_genes": [
+        "ENSG00000082898.16",
+        "ENSG00000196504.15"
+      ]
+    },
+    "A6_C2": {
+      "axis_id": 6,
+      "state_id": 2,
+      "name": "Transcription and splicing up, chaperone down",
+      "summary": "Up-weighting of transcription/splicing regulators (TRA2B, BRD4, YY1) and down-weighting of HSPH1; mixed but coherent RNA/transcription theme with moderate evidence.",
+      "evidence_genes": [
+        "ENSG00000136527.17",
+        "ENSG00000141867.17"
+      ]
+    },
+    "A6_C3": {
+      "axis_id": 6,
+      "state_id": 3,
+      "name": "Nucleosome assembly up, nucleolar down",
+      "summary": "Up-weighting of NAP1L4 and DDX21 with down-weighting of NOP58 and TRA2B; suggests opposing nucleolar/assembly signals, but evidence is limited.",
+      "evidence_genes": [
+        "ENSG00000205531.12",
+        "ENSG00000055044.10"
+      ]
+    },
+    "A6_C4": {
+      "axis_id": 6,
+      "state_id": 4,
+      "name": "Nuclear transport and RNA up",
+      "summary": "Up-weighting of HSPH1, HEATR1, RIF1, NOP58 and XPO1 with only weak down-genes; broad nuclear/RNA-processing up-shift, not a specific mechanism.",
+      "evidence_genes": [
+        "ENSG00000120694.19",
+        "ENSG00000082898.16"
+      ]
+    },
+    "A6_C5": {
+      "axis_id": 6,
+      "state_id": 5,
+      "name": "Export and translation machinery up",
+      "summary": "Up-weighting of XPO1, KIF5B, PRPF40A, EIF3A and UBA2 with negligible down-genes; consistent with increased export/translation-associated tone.",
+      "evidence_genes": [
+        "ENSG00000082898.16",
+        "ENSG00000107581.12"
+      ]
+    },
+    "A6_C6": {
+      "axis_id": 6,
+      "state_id": 6,
+      "name": "RNA helicase and proteasome up",
+      "summary": "Up-weighting of PSMD14, DHX9, DHX15 and NOP58 with weak down-genes; mixed proteasome/RNA-helicase theme, evidence modest.",
+      "evidence_genes": [
+        "ENSG00000115233.11",
+        "ENSG00000135829.16"
+      ]
+    },
+    "A6_C7": {
+      "axis_id": 6,
+      "state_id": 7,
+      "name": "Splicing up, polymerase and export down",
+      "summary": "Up-weighting of SRSF11 and MTDH with down-weighting of POLR2A, TRA2B and CSE1L; opposing transcription/export signals, uncertain interpretation.",
+      "evidence_genes": [
+        "ENSG00000116754.13",
+        "ENSG00000181222.15"
+      ]
+    },
+    "A6_C8": {
+      "axis_id": 6,
+      "state_id": 8,
+      "name": "Junction protein up, chaperone down",
+      "summary": "Up-weighting of TJP1 and DHX15 with strong down-weighting of HSPH1 and NOP58; mixed adhesion/chaperone signals, limited evidence.",
+      "evidence_genes": [
+        "ENSG00000104067.16",
+        "ENSG00000120694.19"
+      ]
+    },
+    "A6_C9": {
+      "axis_id": 6,
+      "state_id": 9,
+      "name": "Splicing factor up, RNA processing down",
+      "summary": "Up-weighting of HNRNPF and PAWR with down-weighting of U2SURP, NOP58 and HSPH1; opposing RNA-processing signals, unclear.",
+      "evidence_genes": [
+        "ENSG00000169813.16",
+        "ENSG00000163714.17"
+      ]
+    },
+    "A6_C10": {
+      "axis_id": 6,
+      "state_id": 10,
+      "name": "Nucleolar and RNA processing strongly up",
+      "summary": "Strong up-weighting of NOP58, HSPH1, IPO7, RIF1 and DDX21 with negligible down-genes; coherent nucleolar/RNA-processing up-shift, though decoder-derived.",
+      "evidence_genes": [
+        "ENSG00000055044.10",
+        "ENSG00000120694.19"
+      ]
+    },
+    "A6_C11": {
+      "axis_id": 6,
+      "state_id": 11,
+      "name": "Export and transcription machinery up",
+      "summary": "Up-weighting of XPO1, POLR2A, AP2B1 and EIF3A with weak down-genes; suggests increased export/transcription-associated tone, evidence moderate.",
+      "evidence_genes": [
+        "ENSG00000082898.16",
+        "ENSG00000181222.15"
+      ]
+    },
+    "A6_C12": {
+      "axis_id": 6,
+      "state_id": 12,
+      "name": "Export and RNA processing down",
+      "summary": "Down-weighting of XPO1, BCLAF1, PAPOLA and HNRNPR with weak up-genes; suggests reduced export/RNA-processing tone, but effects are modest.",
+      "evidence_genes": [
+        "ENSG00000082898.16",
+        "ENSG00000029363.16"
+      ]
+    },
+    "A6_C13": {
+      "axis_id": 6,
+      "state_id": 13,
+      "name": "Translation and export strongly down",
+      "summary": "Strong down-weighting of EIF3A, XPO1, DDX21, NOP58 and HSPH1 with negligible up-genes; coherent translation/export down-shift, decoder association only.",
+      "evidence_genes": [
+        "ENSG00000107581.12",
+        "ENSG00000082898.16"
+      ]
+    },
+    "A6_C14": {
+      "axis_id": 6,
+      "state_id": 14,
+      "name": "Export and translation machinery down",
+      "summary": "Strong down-weighting of XPO1, AP2B1, EIF3A, PRRC2C and PRKDC with negligible up-genes; broad export/translation down-shift, not causal.",
+      "evidence_genes": [
+        "ENSG00000082898.16",
+        "ENSG00000006125.17"
+      ]
+    },
+    "A6_C15": {
+      "axis_id": 6,
+      "state_id": 15,
+      "name": "Export and translation machinery up",
+      "summary": "Up-weighting of AP2B1, EIF3A, XPO1, RIF1 and DDX21 with weak down-genes; mirrors state 14 in opposite direction, evidence moderate.",
+      "evidence_genes": [
+        "ENSG00000006125.17",
+        "ENSG00000107581.12"
+      ]
+    },
+    "A7_C0": {
+      "axis_id": 7,
+      "state_id": 0,
+      "name": "WDPCP/SND1-high, TGFB1-low",
+      "summary": "Modest up-shift in WDPCP, SND1 and ciliary/transport genes with mild down-shift in TGFB1 and adhesion genes; effects are small and function is unclear.",
+      "evidence_genes": [
+        "ENSG00000143951.15",
+        "ENSG00000105329.9"
+      ]
+    },
+    "A7_C1": {
+      "axis_id": 7,
+      "state_id": 1,
+      "name": "ZSWIM6/CCDC88A-low",
+      "summary": "Strong relative down-shift in ZSWIM6, CCDC88A and WDPCP with near-zero up-genes; suggests reduced cytoskeletal/transport-associated signal, but mechanism is uncertain.",
+      "evidence_genes": [
+        "ENSG00000130449.5",
+        "ENSG00000115355.15"
+      ]
+    },
+    "A7_C2": {
+      "axis_id": 7,
+      "state_id": 2,
+      "name": "HECTD4/ATF6-high, PLEKHH2-low",
+      "summary": "Mild up-shift in HECTD4, ATF6 and ER-associated genes with down-shift in PLEKHH2 and LARGE1; weak, mixed evidence.",
+      "evidence_genes": [
+        "ENSG00000173064.12",
+        "ENSG00000152527.13"
+      ]
+    },
+    "A7_C3": {
+      "axis_id": 7,
+      "state_id": 3,
+      "name": "RNGTT/USP32/TAOK3-high",
+      "summary": "Up-shift in RNGTT, USP32, TAOK3 and UBR3 with negligible down-genes; consistent with a transcriptional/ubiquitin-associated program but not causal.",
+      "evidence_genes": [
+        "ENSG00000111880.15",
+        "ENSG00000135090.13"
+      ]
+    },
+    "A7_C4": {
+      "axis_id": 7,
+      "state_id": 4,
+      "name": "CCSER2/WDR70/TAOK3-low",
+      "summary": "Down-shift in CCSER2, WDR70, TAOK3 and EXT1 with near-zero up-genes; function unclear from these markers.",
+      "evidence_genes": [
+        "ENSG00000107771.15",
+        "ENSG00000082068.8"
+      ]
+    },
+    "A7_C5": {
+      "axis_id": 7,
+      "state_id": 5,
+      "name": "ZSWIM6/PTEN-high",
+      "summary": "Up-shift in ZSWIM6, BOD1L1, RB1CC1 and PTEN with mild down-shift in EPB41L2 and RCOR1; weak, mixed signal.",
+      "evidence_genes": [
+        "ENSG00000130449.5",
+        "ENSG00000171862.10"
+      ]
+    },
+    "A7_C6": {
+      "axis_id": 7,
+      "state_id": 6,
+      "name": "ERGIC2-high, ZSWIM6-low",
+      "summary": "Mild up-shift in ERGIC2 and RNA-processing genes with down-shift in ZSWIM6 and FBXL20; small effects, uncertain interpretation.",
+      "evidence_genes": [
+        "ENSG00000087502.17",
+        "ENSG00000130449.5"
+      ]
+    },
+    "A7_C7": {
+      "axis_id": 7,
+      "state_id": 7,
+      "name": "ZSWIM6/WDR70/EXT1-high",
+      "summary": "Strong up-shift in ZSWIM6, WDR70, DYNC1H1 and EXT1 with negligible down-genes; suggests a cytoskeletal/transport-associated state, not causal.",
+      "evidence_genes": [
+        "ENSG00000130449.5",
+        "ENSG00000182197.10"
+      ]
+    },
+    "A7_C8": {
+      "axis_id": 7,
+      "state_id": 8,
+      "name": "UBR3/CCSER2/TMEM135-high",
+      "summary": "Up-shift in UBR3, ZSWIM6, CCSER2 and TMEM135 with near-zero down-genes; mixed trafficking/ubiquitin signal, uncertain.",
+      "evidence_genes": [
+        "ENSG00000144357.16",
+        "ENSG00000107771.15"
+      ]
+    },
+    "A7_C9": {
+      "axis_id": 7,
+      "state_id": 9,
+      "name": "CCDC88A/SETX-high",
+      "summary": "Mild up-shift in CCDC88A, SETX, FOXK2 and PIK3C2A with modest down-shift in GMDS and NEDD4L; weak evidence.",
+      "evidence_genes": [
+        "ENSG00000115355.15",
+        "ENSG00000107290.13"
+      ]
+    },
+    "A7_C10": {
+      "axis_id": 7,
+      "state_id": 10,
+      "name": "ZSWIM6/LINC02506-high",
+      "summary": "Up-shift in ZSWIM6, LINC02506, LINC00540 and TNFRSF10B with down-shift in GRAMD1B and TTC3; mixed, uncertain function.",
+      "evidence_genes": [
+        "ENSG00000130449.5",
+        "ENSG00000251129.1"
+      ]
+    },
+    "A7_C11": {
+      "axis_id": 7,
+      "state_id": 11,
+      "name": "DHX57/AAK1-high, NUP98-low",
+      "summary": "Mild up-shift in DHX57, AAK1 and ITGA2 with down-shift in NUP98 and TRIM37; small effects, unclear.",
+      "evidence_genes": [
+        "ENSG00000163214.20",
+        "ENSG00000110713.15"
+      ]
+    },
+    "A7_C12": {
+      "axis_id": 7,
+      "state_id": 12,
+      "name": "SND1/NUP98/WDPCP-low",
+      "summary": "Down-shift in SND1, NUP98, WDPCP and RCOR1 with near-zero up-genes; suggests reduced nuclear/transport-associated signal, uncertain.",
+      "evidence_genes": [
+        "ENSG00000197157.10",
+        "ENSG00000110713.15"
+      ]
+    },
+    "A7_C13": {
+      "axis_id": 7,
+      "state_id": 13,
+      "name": "ZSWIM6/RHPN2/CDC14B-high",
+      "summary": "Up-shift in ZSWIM6, RHPN2, CDC14B and LARGE1 with mild down-shift in MORF4L1 and ZC3H13; weak, mixed evidence.",
+      "evidence_genes": [
+        "ENSG00000130449.5",
+        "ENSG00000131941.7"
+      ]
+    },
+    "A7_C14": {
+      "axis_id": 7,
+      "state_id": 14,
+      "name": "ZSWIM6/CCDC88A/CCSER2-low",
+      "summary": "Strong down-shift in ZSWIM6, CCDC88A, CCSER2 and UBR3 with negligible up-genes; cytoskeletal/transport-associated reduction, not causal.",
+      "evidence_genes": [
+        "ENSG00000130449.5",
+        "ENSG00000115355.15"
+      ]
+    },
+    "A7_C15": {
+      "axis_id": 7,
+      "state_id": 15,
+      "name": "CCDC88A/WDR70/CCSER2-low",
+      "summary": "Down-shift in CCDC88A, WDR70, CCSER2 and TASP1 with essentially no up-genes; function unclear from these markers.",
+      "evidence_genes": [
+        "ENSG00000115355.15",
+        "ENSG00000082068.8"
+      ]
+    },
+    "A8_C0": {
+      "axis_id": 8,
+      "state_id": 0,
+      "name": "Low chaperone/proliferation program",
+      "summary": "Down-weighted HSP90AA1, PCNA and chaperone genes with only weak positive markers; suggests reduced stress/proliferation-associated expression, though evidence is modest.",
+      "evidence_genes": [
+        "ENSG00000080824.18",
+        "ENSG00000132646.10"
+      ]
+    },
+    "A8_C1": {
+      "axis_id": 8,
+      "state_id": 1,
+      "name": "Chaperone-up, replication-down",
+      "summary": "Mildly higher HSP90AA1/DNAJA1 and FUS with lower TK1 and spliceosome genes; a weak mixed chaperone versus replication pattern.",
+      "evidence_genes": [
+        "ENSG00000080824.18",
+        "ENSG00000167900.11"
+      ]
+    },
+    "A8_C2": {
+      "axis_id": 8,
+      "state_id": 2,
+      "name": "Heat-shock/chaperone-high",
+      "summary": "Strong positive HSP90AA1, HSPA1A, CCT2 and DNAJA1 with negligible negative markers; consistent with a chaperone/stress-response-associated state.",
+      "evidence_genes": [
+        "ENSG00000080824.18",
+        "ENSG00000204389.9"
+      ]
+    },
+    "A8_C3": {
+      "axis_id": 8,
+      "state_id": 3,
+      "name": "Chaperone-low, mild transport-up",
+      "summary": "Lower HSPA1A, HSP90AA1, TUBB4B and DYNLL1 with weak SLC1A5/PRDX1 increases; suggests reduced chaperone/cytoskeletal signal.",
+      "evidence_genes": [
+        "ENSG00000204389.9",
+        "ENSG00000080824.18"
+      ]
+    },
+    "A8_C4": {
+      "axis_id": 8,
+      "state_id": 4,
+      "name": "Proliferation/chaperone-high",
+      "summary": "Elevated CKS2, HSPA1A, TUBB4B, HSP90AA1 and PCNA with few negative markers; points to a proliferation- and chaperone-associated program.",
+      "evidence_genes": [
+        "ENSG00000123975.4",
+        "ENSG00000132646.10"
+      ]
+    },
+    "A8_C5": {
+      "axis_id": 8,
+      "state_id": 5,
+      "name": "Weak chaperone-low state",
+      "summary": "Modest decreases in CKS2, HSP90AA1, TK1 and STIP1 with small positive H3F3B/GOT2 changes; overall weak and mixed.",
+      "evidence_genes": [
+        "ENSG00000123975.4",
+        "ENSG00000080824.18"
+      ]
+    },
+    "A8_C6": {
+      "axis_id": 8,
+      "state_id": 6,
+      "name": "Chaperone/replication-low",
+      "summary": "Lower HSP90AA1, CKS2, CCT2, TUBB4B and TK1 with only small positive COPB1/ARPC2 changes; suggests reduced chaperone and replication signal.",
+      "evidence_genes": [
+        "ENSG00000080824.18",
+        "ENSG00000123975.4"
+      ]
+    },
+    "A8_C7": {
+      "axis_id": 8,
+      "state_id": 7,
+      "name": "Chaperone/proteostasis-high",
+      "summary": "Higher HSPA1A, HSP90AA1, VCP, STIP1 and CCT2 with minimal negative markers; consistent with elevated proteostasis/chaperone-associated expression.",
+      "evidence_genes": [
+        "ENSG00000204389.9",
+        "ENSG00000165280.15"
+      ]
+    },
+    "A8_C8": {
+      "axis_id": 8,
+      "state_id": 8,
+      "name": "RNA-processing-up, replication-down",
+      "summary": "Higher CALM2, POLR1A, EPRS, NCL and EFTUD2 with lower CKS2/PCNA; suggests RNA-processing-associated signal with reduced replication markers.",
+      "evidence_genes": [
+        "ENSG00000143933.16",
+        "ENSG00000132646.10"
+      ]
+    },
+    "A8_C9": {
+      "axis_id": 8,
+      "state_id": 9,
+      "name": "Chaperone-high state",
+      "summary": "Elevated HSP90AA1, CCT2, STIP1, HSPA4 and NONO with negligible negative markers; points to a chaperone/proteostasis-associated program.",
+      "evidence_genes": [
+        "ENSG00000080824.18",
+        "ENSG00000166226.12"
+      ]
+    },
+    "A8_C10": {
+      "axis_id": 8,
+      "state_id": 10,
+      "name": "Chaperone/replication-low",
+      "summary": "Markedly lower HSP90AA1, PCNA, STIP1, HSPA1A and SLC1A5 with only weak positive markers; suggests reduced chaperone and proliferation signal.",
+      "evidence_genes": [
+        "ENSG00000080824.18",
+        "ENSG00000132646.10"
+      ]
+    },
+    "A8_C11": {
+      "axis_id": 8,
+      "state_id": 11,
+      "name": "Broad chaperone-low state",
+      "summary": "No positive markers and strong decreases in HSP90AA1, VCP, CALM2, PCNA and FUS; consistent with broadly reduced chaperone/proteostasis expression.",
+      "evidence_genes": [
+        "ENSG00000080824.18",
+        "ENSG00000165280.15"
+      ]
+    },
+    "A8_C12": {
+      "axis_id": 8,
+      "state_id": 12,
+      "name": "Proliferation/chaperone-up",
+      "summary": "Higher PCNA, EPRS, YWHAB, HSP90AA1 and HSPA4 with minimal negative markers; suggests a proliferation- and chaperone-associated program.",
+      "evidence_genes": [
+        "ENSG00000132646.10",
+        "ENSG00000080824.18"
+      ]
+    },
+    "A8_C13": {
+      "axis_id": 8,
+      "state_id": 13,
+      "name": "Replication/chaperone-high",
+      "summary": "Strongly higher TK1, TUBB4B, CKS2, STIP1 and PCNA with negligible negative markers; consistent with a replication/chaperone-associated state.",
+      "evidence_genes": [
+        "ENSG00000167900.11",
+        "ENSG00000132646.10"
+      ]
+    },
+    "A8_C14": {
+      "axis_id": 8,
+      "state_id": 14,
+      "name": "Chaperone-low, mild replication-up",
+      "summary": "Lower CCT2, HSPA1A, TUBB4B and DYNLL1 with small PCNA/LRRC59 increases; a weak mixed chaperone-low pattern.",
+      "evidence_genes": [
+        "ENSG00000166226.12",
+        "ENSG00000204389.9"
+      ]
+    },
+    "A8_C15": {
+      "axis_id": 8,
+      "state_id": 15,
+      "name": "Chaperone/spliceosome-low",
+      "summary": "Lower FUS, CCT2, PRPF8, STIP1 and HSP90AA1 with only weak POLR2A increase; suggests reduced chaperone and splicing-associated signal.",
+      "evidence_genes": [
+        "ENSG00000089280.18",
+        "ENSG00000166226.12"
+      ]
+    },
+    "A9_C0": {
+      "axis_id": 9,
+      "state_id": 0,
+      "name": "NFAT5/RAB1A up, MDM2/UBASH3B down",
+      "summary": "Weak positive NFAT5/RAB1A/MED13L signals with stronger negative MDM2 and UBASH3B; function unclear from these markers.",
+      "evidence_genes": [
+        "ENSG00000102908.20",
+        "ENSG00000135679.22"
+      ]
+    },
+    "A9_C1": {
+      "axis_id": 9,
+      "state_id": 1,
+      "name": "UBASH3B/TMEM131 up, weak down",
+      "summary": "Modest positive UBASH3B and TMEM131 with very small negative effects; overall weak and unclear.",
+      "evidence_genes": [
+        "ENSG00000154127.9",
+        "ENSG00000075568.16"
+      ]
+    },
+    "A9_C2": {
+      "axis_id": 9,
+      "state_id": 2,
+      "name": "PPFIBP1/CASK down, minimal up",
+      "summary": "Predominantly negative PPFIBP1, CASK, ASCC3 and ROR1 with negligible positive signals; unclear function.",
+      "evidence_genes": [
+        "ENSG00000110841.13",
+        "ENSG00000147044.20"
+      ]
+    },
+    "A9_C3": {
+      "axis_id": 9,
+      "state_id": 3,
+      "name": "PRKX/GNAI1 up, CERS6/MYO5A down",
+      "summary": "Small positive PRKX and GNAI1 alongside negative CERS6 and MYO5A; weak, nonspecific pattern.",
+      "evidence_genes": [
+        "ENSG00000183943.5",
+        "ENSG00000172292.14"
+      ]
+    },
+    "A9_C4": {
+      "axis_id": 9,
+      "state_id": 4,
+      "name": "CASK/FBXO22/MYO5A down",
+      "summary": "Strong negative CASK, FBXO22, MYO5A and TMEM131 with essentially no positive evidence; unclear.",
+      "evidence_genes": [
+        "ENSG00000147044.20",
+        "ENSG00000167196.13"
+      ]
+    },
+    "A9_C5": {
+      "axis_id": 9,
+      "state_id": 5,
+      "name": "WDR43/FAT1 up, MDM2 down",
+      "summary": "Modest positive WDR43 and FAT1 with negative UBASH3B and MDM2; function uncertain.",
+      "evidence_genes": [
+        "ENSG00000163811.11",
+        "ENSG00000083857.13"
+      ]
+    },
+    "A9_C6": {
+      "axis_id": 9,
+      "state_id": 6,
+      "name": "ASCC3/CASK/MYO5A up",
+      "summary": "Positive ASCC3, CASK, MYO5A and CERS6 with only small negative effects; unclear.",
+      "evidence_genes": [
+        "ENSG00000112249.13",
+        "ENSG00000147044.20"
+      ]
+    },
+    "A9_C7": {
+      "axis_id": 9,
+      "state_id": 7,
+      "name": "ASCC3/ROR1/MDM2 down",
+      "summary": "Only negative signals, led by ASCC3, ROR1, MDM2 and TMEM131; no positive markers, function unclear.",
+      "evidence_genes": [
+        "ENSG00000112249.13",
+        "ENSG00000185483.11"
+      ]
+    },
+    "A9_C8": {
+      "axis_id": 9,
+      "state_id": 8,
+      "name": "ROR1/UBASH3B/PPFIBP1 up",
+      "summary": "Positive ROR1, UBASH3B, PPFIBP1 and SH3KBP1 with negligible negative effects; unclear.",
+      "evidence_genes": [
+        "ENSG00000185483.11",
+        "ENSG00000154127.9"
+      ]
+    },
+    "A9_C9": {
+      "axis_id": 9,
+      "state_id": 9,
+      "name": "PTBP3/FAT1/PPFIBP1 up",
+      "summary": "Positive PTBP3, FAT1, PPFIBP1 and TNPO1 with modest negative MDM2; function uncertain.",
+      "evidence_genes": [
+        "ENSG00000119314.15",
+        "ENSG00000083857.13"
+      ]
+    },
+    "A9_C10": {
+      "axis_id": 9,
+      "state_id": 10,
+      "name": "TMEM131/MDM2/ASCC3 up",
+      "summary": "Strong positive TMEM131, MDM2, ASCC3 and PGAP1 with minimal negative effects; unclear.",
+      "evidence_genes": [
+        "ENSG00000075568.16",
+        "ENSG00000135679.22"
+      ]
+    },
+    "A9_C11": {
+      "axis_id": 9,
+      "state_id": 11,
+      "name": "CERS6 up, PPP4R3A/TMEM131 down",
+      "summary": "Small positive CERS6 and FMNL2 with stronger negative PPP4R3A and TMEM131; unclear.",
+      "evidence_genes": [
+        "ENSG00000172292.14",
+        "ENSG00000100796.17"
+      ]
+    },
+    "A9_C12": {
+      "axis_id": 9,
+      "state_id": 12,
+      "name": "ROR1/UBASH3B up, PRKX down",
+      "summary": "Positive ROR1 and UBASH3B with negative PRKX and FBXO22; modest, nonspecific pattern.",
+      "evidence_genes": [
+        "ENSG00000185483.11",
+        "ENSG00000154127.9"
+      ]
+    },
+    "A9_C13": {
+      "axis_id": 9,
+      "state_id": 13,
+      "name": "ASCC3/TMEM131/GPHN down",
+      "summary": "Strong negative ASCC3, TMEM131, GPHN and FAT1 with negligible positive signals; unclear.",
+      "evidence_genes": [
+        "ENSG00000112249.13",
+        "ENSG00000075568.16"
+      ]
+    },
+    "A9_C14": {
+      "axis_id": 9,
+      "state_id": 14,
+      "name": "MDM2/TMEM131/UBASH3B up",
+      "summary": "Strong positive MDM2, TMEM131, UBASH3B and PGAP1 with negligible negative effects; unclear.",
+      "evidence_genes": [
+        "ENSG00000135679.22",
+        "ENSG00000075568.16"
+      ]
+    },
+    "A9_C15": {
+      "axis_id": 9,
+      "state_id": 15,
+      "name": "MYO5A/PGAP1/CASK down",
+      "summary": "Negative MYO5A, PGAP1, CASK and TMEM131 with very small positive signals; function unclear.",
+      "evidence_genes": [
+        "ENSG00000197535.14",
+        "ENSG00000197121.14"
+      ]
+    },
+    "A10_C0": {
+      "axis_id": 10,
+      "state_id": 0,
+      "name": "ER/secretory and glycolytic shift",
+      "summary": "Mild up of ER/secretory and glycolytic markers (KDELR1, G6PD) with lower TMEM30A and ANXA1; effects are modest and function is uncertain.",
+      "evidence_genes": [
+        "ENSG00000105438.8",
+        "ENSG00000160211.15"
+      ]
+    },
+    "A10_C1": {
+      "axis_id": 10,
+      "state_id": 1,
+      "name": "Low DKK1/ANXA1, weak up signal",
+      "summary": "Strong down of DKK1 and ANXA1 with only negligible up effects; suggests a low-signaling state but mechanism is unclear.",
+      "evidence_genes": [
+        "ENSG00000107984.9",
+        "ENSG00000135046.13"
+      ]
+    },
+    "A10_C2": {
+      "axis_id": 10,
+      "state_id": 2,
+      "name": "Low NQO1 and ER chaperones",
+      "summary": "Down of NQO1 and ER chaperones (PDIA6, PDIA4) with near-zero up effects; interpretation is uncertain.",
+      "evidence_genes": [
+        "ENSG00000181019.12",
+        "ENSG00000143870.12"
+      ]
+    },
+    "A10_C3": {
+      "axis_id": 10,
+      "state_id": 3,
+      "name": "NTS-high, ID3-low",
+      "summary": "Up of NTS and cytoskeletal/mitochondrial markers with down of ID3 and PGRMC2; mixed profile, function unclear.",
+      "evidence_genes": [
+        "ENSG00000133636.10",
+        "ENSG00000117318.8"
+      ]
+    },
+    "A10_C4": {
+      "axis_id": 10,
+      "state_id": 4,
+      "name": "ID3/ANXA1-high stress-like",
+      "summary": "Up of ID3, ANXA1, PDIA4 and NQO1 with minimal down effects; resembles a stress/redox-associated profile but causality is unknown.",
+      "evidence_genes": [
+        "ENSG00000117318.8",
+        "ENSG00000135046.13"
+      ]
+    },
+    "A10_C5": {
+      "axis_id": 10,
+      "state_id": 5,
+      "name": "KDELR1-low secretory",
+      "summary": "Strong down of KDELR1, LMAN2 and SPP1 with negligible up effects; suggests reduced secretory/ER marker expression, mechanism uncertain.",
+      "evidence_genes": [
+        "ENSG00000105438.8",
+        "ENSG00000169223.14"
+      ]
+    },
+    "A10_C6": {
+      "axis_id": 10,
+      "state_id": 6,
+      "name": "ID3/FTL/NQO1-high",
+      "summary": "Up of ID3, FTL and NQO1 with down of NTS and GPI; redox/iron-associated profile, not a causal claim.",
+      "evidence_genes": [
+        "ENSG00000117318.8",
+        "ENSG00000087086.14"
+      ]
+    },
+    "A10_C7": {
+      "axis_id": 10,
+      "state_id": 7,
+      "name": "KDELR1/NTS/ER-high",
+      "summary": "Up of KDELR1, NTS, LMAN2 and ER chaperones with minimal down effects; ER/secretory-associated but uncertain.",
+      "evidence_genes": [
+        "ENSG00000105438.8",
+        "ENSG00000133636.10"
+      ]
+    },
+    "A10_C8": {
+      "axis_id": 10,
+      "state_id": 8,
+      "name": "ER chaperone-low",
+      "summary": "Down of PDIA6, RPN2 and KDELR1 with negligible up effects; consistent with lower ER chaperone markers, function unclear.",
+      "evidence_genes": [
+        "ENSG00000143870.12",
+        "ENSG00000118705.16"
+      ]
+    },
+    "A10_C9": {
+      "axis_id": 10,
+      "state_id": 9,
+      "name": "DKK1/SPP1/ANXA1-high",
+      "summary": "Strong up of DKK1, SPP1 and ANXA1 with essentially no down effects; distinct high-signaling profile, mechanism unknown.",
+      "evidence_genes": [
+        "ENSG00000107984.9",
+        "ENSG00000118785.13"
+      ]
+    },
+    "A10_C10": {
+      "axis_id": 10,
+      "state_id": 10,
+      "name": "Low DKK1/ANXA1/NQO1",
+      "summary": "Down of DKK1, ANXA1 and NQO1 with negligible up effects; low redox/secretory marker state, interpretation uncertain.",
+      "evidence_genes": [
+        "ENSG00000107984.9",
+        "ENSG00000135046.13"
+      ]
+    },
+    "A10_C11": {
+      "axis_id": 10,
+      "state_id": 11,
+      "name": "ER folding/translocation up",
+      "summary": "Up of TMED10, PPIB and PDIA3 with mild down of PTMS and NQO1; ER folding/translocation-associated, not causal.",
+      "evidence_genes": [
+        "ENSG00000170348.8",
+        "ENSG00000166794.4"
+      ]
+    },
+    "A10_C12": {
+      "axis_id": 10,
+      "state_id": 12,
+      "name": "FTL/ANXA1/NQO1-high",
+      "summary": "Up of FTL, ANXA1, NQO1 and GSR with mild down of NTS; redox/iron-associated profile, mechanism uncertain.",
+      "evidence_genes": [
+        "ENSG00000087086.14",
+        "ENSG00000135046.13"
+      ]
+    },
+    "A10_C13": {
+      "axis_id": 10,
+      "state_id": 13,
+      "name": "DKK1/ANXA1-high",
+      "summary": "Strong up of DKK1 and ANXA1 with NQO1 and FTL also up; minimal down effects, function unclear.",
+      "evidence_genes": [
+        "ENSG00000107984.9",
+        "ENSG00000135046.13"
+      ]
+    },
+    "A10_C14": {
+      "axis_id": 10,
+      "state_id": 14,
+      "name": "KDELR1/ID3/ER-high",
+      "summary": "Up of KDELR1, ID3, SPP1 and ER chaperones with negligible down effects; ER/secretory-associated but uncertain.",
+      "evidence_genes": [
+        "ENSG00000105438.8",
+        "ENSG00000117318.8"
+      ]
+    },
+    "A10_C15": {
+      "axis_id": 10,
+      "state_id": 15,
+      "name": "ER chaperone-high",
+      "summary": "Up of PDIA6, LMAN2 and TLN1 with mild down of NQO1 and FTL; ER/secretory-associated profile, not causal.",
+      "evidence_genes": [
+        "ENSG00000143870.12",
+        "ENSG00000169223.14"
+      ]
+    },
+    "A11_C0": {
+      "axis_id": 11,
+      "state_id": 0,
+      "name": "NIPBL/ROCK1-high",
+      "summary": "Higher NIPBL, ANKRD28, ROCK1 and FBXO11; down-gene effects are near zero, so the negative side is weak.",
+      "evidence_genes": [
+        "ENSG00000164190.17",
+        "ENSG00000067900.7"
+      ]
+    },
+    "A11_C1": {
+      "axis_id": 11,
+      "state_id": 1,
+      "name": "MARCH7/RNF38-high, NIPBL-low",
+      "summary": "Modest up MARCH7, RNF38, EPC1 and KDM6A with lower NIPBL and ABL2; effects are small.",
+      "evidence_genes": [
+        "ENSG00000136536.14",
+        "ENSG00000164190.17"
+      ]
+    },
+    "A11_C2": {
+      "axis_id": 11,
+      "state_id": 2,
+      "name": "ZEB1/NCOA1-high",
+      "summary": "Higher ZEB1, FAM168A, NCOA1 and POU2F1; down-gene effects are small, limiting interpretation.",
+      "evidence_genes": [
+        "ENSG00000148516.21",
+        "ENSG00000084676.15"
+      ]
+    },
+    "A11_C3": {
+      "axis_id": 11,
+      "state_id": 3,
+      "name": "GPATCH8/AGO3-high",
+      "summary": "Higher GPATCH8, AGO3, RAB6A and ARID4B with modestly lower QKI and FIGN.",
+      "evidence_genes": [
+        "ENSG00000186566.12",
+        "ENSG00000126070.19"
+      ]
+    },
+    "A11_C4": {
+      "axis_id": 11,
+      "state_id": 4,
+      "name": "MAP4K5/GPATCH8-high",
+      "summary": "Strongly higher MAP4K5, GPATCH8, CNOT4 and NIPBL; down-gene effects are negligible.",
+      "evidence_genes": [
+        "ENSG00000012983.11",
+        "ENSG00000186566.12"
+      ]
+    },
+    "A11_C5": {
+      "axis_id": 11,
+      "state_id": 5,
+      "name": "MON2/POU2F1-low",
+      "summary": "Lower MON2, POU2F1, ARID4B and KDM6A; up-gene effects are weak, so positive evidence is limited.",
+      "evidence_genes": [
+        "ENSG00000061987.15",
+        "ENSG00000143190.21"
+      ]
+    },
+    "A11_C6": {
+      "axis_id": 11,
+      "state_id": 6,
+      "name": "GPATCH8/AGO3-low",
+      "summary": "Lower GPATCH8, AGO3, RASA2 and MAP4K5; up-gene effects are near zero.",
+      "evidence_genes": [
+        "ENSG00000186566.12",
+        "ENSG00000126070.19"
+      ]
+    },
+    "A11_C7": {
+      "axis_id": 11,
+      "state_id": 7,
+      "name": "SMURF1/NIPBL-high",
+      "summary": "Modestly higher SMURF1, NIPBL, APPBP2 and EPC1 with lower QKI and SEPT7.",
+      "evidence_genes": [
+        "ENSG00000198742.9",
+        "ENSG00000164190.17"
+      ]
+    },
+    "A11_C8": {
+      "axis_id": 11,
+      "state_id": 8,
+      "name": "NIPBL/POU2F1-low",
+      "summary": "Lower NIPBL, POU2F1, ARID4B and CDK13; up-gene effects are very small.",
+      "evidence_genes": [
+        "ENSG00000164190.17",
+        "ENSG00000143190.21"
+      ]
+    },
+    "A11_C9": {
+      "axis_id": 11,
+      "state_id": 9,
+      "name": "MAP3K2/KMT2E-low",
+      "summary": "Lower MAP3K2, KMT2E, PUM1 and CUL3; up-gene effects are negligible.",
+      "evidence_genes": [
+        "ENSG00000169967.16",
+        "ENSG00000005483.20"
+      ]
+    },
+    "A11_C10": {
+      "axis_id": 11,
+      "state_id": 10,
+      "name": "ZEB1/POU2F1-high",
+      "summary": "Higher ZEB1, POU2F1, MAP4K5 and CDK13; down-gene effects are near zero.",
+      "evidence_genes": [
+        "ENSG00000148516.21",
+        "ENSG00000143190.21"
+      ]
+    },
+    "A11_C11": {
+      "axis_id": 11,
+      "state_id": 11,
+      "name": "ZEB1/GPATCH8-low",
+      "summary": "Lower ZEB1, GPATCH8, NIPBL and MARCH7; up-gene effects are negligible.",
+      "evidence_genes": [
+        "ENSG00000148516.21",
+        "ENSG00000186566.12"
+      ]
+    },
+    "A11_C12": {
+      "axis_id": 11,
+      "state_id": 12,
+      "name": "PUM1/LUC7L3-high",
+      "summary": "Higher PUM1, LUC7L3, MAP3K2 and PDS5A with modestly lower AGO3 and ADNP.",
+      "evidence_genes": [
+        "ENSG00000134644.15",
+        "ENSG00000108848.15"
+      ]
+    },
+    "A11_C13": {
+      "axis_id": 11,
+      "state_id": 13,
+      "name": "ARID4B/FBXO11-high",
+      "summary": "Higher ARID4B, FBXO11, KMT2E and PUM1; down-gene effects are small.",
+      "evidence_genes": [
+        "ENSG00000054267.21",
+        "ENSG00000138081.20"
+      ]
+    },
+    "A11_C14": {
+      "axis_id": 11,
+      "state_id": 14,
+      "name": "MARCH7/GPATCH8-low",
+      "summary": "Lower MARCH7, GPATCH8, POU2F1 and CELF1; up-gene effects are essentially absent.",
+      "evidence_genes": [
+        "ENSG00000136536.14",
+        "ENSG00000186566.12"
+      ]
+    },
+    "A11_C15": {
+      "axis_id": 11,
+      "state_id": 15,
+      "name": "FBXO11/ROCK1-low",
+      "summary": "Lower FBXO11, RC3H1, GPATCH8 and ROCK1; up-gene effects are very weak.",
+      "evidence_genes": [
+        "ENSG00000138081.20",
+        "ENSG00000067900.7"
+      ]
+    },
+    "A12_C0": {
+      "axis_id": 12,
+      "state_id": 0,
+      "name": "Low SLC38A1/DOCK10, weak up",
+      "summary": "Few strong positive markers; negative associations with SLC38A1, DOCK10, MAP1B and KPNB1. Function unclear from this evidence.",
+      "evidence_genes": [
+        "ENSG00000111371.15",
+        "ENSG00000135905.18"
+      ]
+    },
+    "A12_C1": {
+      "axis_id": 12,
+      "state_id": 1,
+      "name": "SLC38A1/LARP1-high",
+      "summary": "Positive associations with SLC38A1, LARP1, ANP32B, IGF2BP1 and TM4SF1; negative markers negligible. Suggests a distinct high-expression program, mechanism uncertain.",
+      "evidence_genes": [
+        "ENSG00000111371.15",
+        "ENSG00000155506.16"
+      ]
+    },
+    "A12_C2": {
+      "axis_id": 12,
+      "state_id": 2,
+      "name": "MAP3K20/CKAP4 up, MYOF down",
+      "summary": "Modest positive MAP3K20 and CKAP4 associations with negative MYOF, SMAD3 and MAP1B. Weak, mixed profile.",
+      "evidence_genes": [
+        "ENSG00000091436.16",
+        "ENSG00000136026.13"
+      ]
+    },
+    "A12_C3": {
+      "axis_id": 12,
+      "state_id": 3,
+      "name": "MAP1B/NPAS2-low",
+      "summary": "Strong negative associations with MAP1B, NPAS2, KPNB1, CSDE1 and ANP32B; positive markers near zero. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000131711.14",
+        "ENSG00000170485.16"
+      ]
+    },
+    "A12_C4": {
+      "axis_id": 12,
+      "state_id": 4,
+      "name": "CCND1/ITGB5 up",
+      "summary": "Positive CCND1, ITGB5, NPAS2 and DOCK5 associations with weak negative markers. Suggests a proliferative/adhesion-leaning profile, uncertain.",
+      "evidence_genes": [
+        "ENSG00000110092.3",
+        "ENSG00000082781.11"
+      ]
+    },
+    "A12_C5": {
+      "axis_id": 12,
+      "state_id": 5,
+      "name": "SLC38A1/CCND1-low",
+      "summary": "Strong negative associations with SLC38A1, CCND1, IGF2BP1 and ANP32B; positive markers small. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000111371.15",
+        "ENSG00000110092.3"
+      ]
+    },
+    "A12_C6": {
+      "axis_id": 12,
+      "state_id": 6,
+      "name": "MYOF/MAP1B up, ANP32B down",
+      "summary": "Positive MYOF, MAP1B, CKAP4 and EIF2AK2 with negative ANP32B, CCND1 and IGF2BP1. Mixed, modest effects.",
+      "evidence_genes": [
+        "ENSG00000138119.16",
+        "ENSG00000131711.14"
+      ]
+    },
+    "A12_C7": {
+      "axis_id": 12,
+      "state_id": 7,
+      "name": "DOCK10/NPAS2 up",
+      "summary": "Positive DOCK10, NPAS2, CKAP4 and GPD2 associations; negative markers negligible. Suggests a distinct program, mechanism uncertain.",
+      "evidence_genes": [
+        "ENSG00000135905.18",
+        "ENSG00000170485.16"
+      ]
+    },
+    "A12_C8": {
+      "axis_id": 12,
+      "state_id": 8,
+      "name": "ANP32A/DOCK10/SLC38A1 up",
+      "summary": "Positive ANP32A, DOCK10, SLC38A1, HACD2 and LARP1 with near-zero negative markers. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000140350.15",
+        "ENSG00000135905.18"
+      ]
+    },
+    "A12_C9": {
+      "axis_id": 12,
+      "state_id": 9,
+      "name": "MYOF/DOCK5/CCND1 up",
+      "summary": "Positive MYOF, DOCK5, CCND1, ASPH and MAP1B; modest negative EIF2AK2 and CKAP4. Mixed profile.",
+      "evidence_genes": [
+        "ENSG00000138119.16",
+        "ENSG00000147459.17"
+      ]
+    },
+    "A12_C10": {
+      "axis_id": 12,
+      "state_id": 10,
+      "name": "SLC38A1/CSDE1/MYOF-low",
+      "summary": "Strong negative associations with SLC38A1, CSDE1, MYOF, CCND1 and DOCK5; positive markers near zero. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000111371.15",
+        "ENSG00000009307.15"
+      ]
+    },
+    "A12_C11": {
+      "axis_id": 12,
+      "state_id": 11,
+      "name": "DOCK10/CKAP4-low",
+      "summary": "Negative DOCK10, DNAJC7, CKAP4 and NUCKS1 with weak positive YBX3. Modest, mixed effects.",
+      "evidence_genes": [
+        "ENSG00000135905.18",
+        "ENSG00000136026.13"
+      ]
+    },
+    "A12_C12": {
+      "axis_id": 12,
+      "state_id": 12,
+      "name": "MAP1B/DOCK5/TM4SF1-low",
+      "summary": "Only negative markers: MAP1B, DOCK5, LARP1, TM4SF1 and MYOF. No positive evidence; function unclear.",
+      "evidence_genes": [
+        "ENSG00000131711.14",
+        "ENSG00000147459.17"
+      ]
+    },
+    "A12_C13": {
+      "axis_id": 12,
+      "state_id": 13,
+      "name": "TM4SF1/MAP1B/DOCK5 up",
+      "summary": "Positive TM4SF1, MAP1B, DOCK5, MYOF and KIFC3; negative markers negligible. Suggests a distinct program, uncertain.",
+      "evidence_genes": [
+        "ENSG00000169908.11",
+        "ENSG00000131711.14"
+      ]
+    },
+    "A12_C14": {
+      "axis_id": 12,
+      "state_id": 14,
+      "name": "ANP32B/CCND1/SLC38A1 up",
+      "summary": "Positive ANP32B, CCND1, SLC38A1, CSDE1 and IGF2BP1 with near-zero negative markers. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000136938.8",
+        "ENSG00000110092.3"
+      ]
+    },
+    "A12_C15": {
+      "axis_id": 12,
+      "state_id": 15,
+      "name": "IGF2BP1/CCND1/DOCK5 up",
+      "summary": "Positive IGF2BP1, CCND1, DOCK5, ACTR3 and MYOF; negative markers negligible. Suggests a distinct program, uncertain.",
+      "evidence_genes": [
+        "ENSG00000159217.9",
+        "ENSG00000110092.3"
+      ]
+    },
+    "A13_C0": {
+      "axis_id": 13,
+      "state_id": 0,
+      "name": "ABCC3/TFPI-high, no down markers",
+      "summary": "Positive associations with ABCC3, TFPI, ANK3, PAPPA, COL4A5 and DAPK1; no negative markers listed. Function unclear from these few genes.",
+      "evidence_genes": [
+        "ENSG00000108846.15",
+        "ENSG00000003436.15"
+      ]
+    },
+    "A13_C1": {
+      "axis_id": 13,
+      "state_id": 1,
+      "name": "Weak up, EHBP1/ABCC3 down",
+      "summary": "Only weak positive associations (RBPMS, RAB27B) alongside stronger negative associations with EHBP1, ABCC3, FTX and NFIA. Mixed, uncertain profile.",
+      "evidence_genes": [
+        "ENSG00000115504.14",
+        "ENSG00000108846.15"
+      ]
+    },
+    "A13_C2": {
+      "axis_id": 13,
+      "state_id": 2,
+      "name": "PDE4D/MTUS1-low, weak up",
+      "summary": "Negative associations with PDE4D, EHBP1, MTUS1, ABCC3 and FTX; positive markers are very weak. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000113448.18",
+        "ENSG00000129422.14"
+      ]
+    },
+    "A13_C3": {
+      "axis_id": 13,
+      "state_id": 3,
+      "name": "PAPPA/LRMDA/ABCC3-high",
+      "summary": "Positive associations with PAPPA, LRMDA, ABCC3, COL4A5, EHBP1 and ANK3; negative markers negligible. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000182752.9",
+        "ENSG00000148655.14"
+      ]
+    },
+    "A13_C4": {
+      "axis_id": 13,
+      "state_id": 4,
+      "name": "MTUS1/SLC22A3/EHBP1-high",
+      "summary": "Positive associations with MTUS1, SLC22A3, PATJ, EHBP1 and ABCC3; negative markers negligible. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000129422.14",
+        "ENSG00000146477.5"
+      ]
+    },
+    "A13_C5": {
+      "axis_id": 13,
+      "state_id": 5,
+      "name": "EHBP1/ABCC3/PAPPA-high",
+      "summary": "Positive associations with EHBP1, ABCC3, PAPPA, THSD4, MTUS1 and PDE4D; weak negative markers. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000115504.14",
+        "ENSG00000108846.15"
+      ]
+    },
+    "A13_C6": {
+      "axis_id": 13,
+      "state_id": 6,
+      "name": "PDE4D/ABCC3/THSD4-high",
+      "summary": "Positive associations with PDE4D, ABCC3, THSD4, FTX, PTPRM and EHBP1; negative markers negligible. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000113448.18",
+        "ENSG00000108846.15"
+      ]
+    },
+    "A13_C7": {
+      "axis_id": 13,
+      "state_id": 7,
+      "name": "PDE4D/MTUS1/ABCC3-high",
+      "summary": "Positive associations with PDE4D, MTUS1, ABCC3, EHBP1, ZBTB20 and FTX; weak negative markers. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000113448.18",
+        "ENSG00000129422.14"
+      ]
+    },
+    "A13_C8": {
+      "axis_id": 13,
+      "state_id": 8,
+      "name": "THSD4/RBFOX3 up, FN1 down",
+      "summary": "Moderate positive associations with THSD4, RBFOX3, ABCC2, PDE4D and ABCC3; negative with FN1, CA12 and IQGAP2. Mixed, uncertain.",
+      "evidence_genes": [
+        "ENSG00000187720.14",
+        "ENSG00000115414.18"
+      ]
+    },
+    "A13_C9": {
+      "axis_id": 13,
+      "state_id": 9,
+      "name": "ABCC3/PDE4D/MTUS1-low",
+      "summary": "Strong negative associations with ABCC3, PDE4D, MTUS1, DAPK1, MAML3 and FTX; positive markers negligible. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000108846.15",
+        "ENSG00000113448.18"
+      ]
+    },
+    "A13_C10": {
+      "axis_id": 13,
+      "state_id": 10,
+      "name": "LRMDA/COL4A5 up, FN1 down",
+      "summary": "Moderate positive associations with LRMDA, COL4A5, FTX and THSD4; negative with FN1, RHOBTB1, RNF43 and CACNA1D. Mixed, uncertain.",
+      "evidence_genes": [
+        "ENSG00000148655.14",
+        "ENSG00000115414.18"
+      ]
+    },
+    "A13_C11": {
+      "axis_id": 13,
+      "state_id": 11,
+      "name": "PDE4D up, LINC00511/ANK3 down",
+      "summary": "Positive associations with PDE4D and MTUS1; negative with LINC00511, ANK3, BTBD11, LRMDA and PTPRK. Mixed, uncertain.",
+      "evidence_genes": [
+        "ENSG00000113448.18",
+        "ENSG00000227036.6"
+      ]
+    },
+    "A13_C12": {
+      "axis_id": 13,
+      "state_id": 12,
+      "name": "PDE4D/ABCC3/EHBP1-low",
+      "summary": "Strong negative associations with PDE4D, ABCC3, EHBP1, MTUS1, FTX and MIR31HG; positive markers negligible. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000113448.18",
+        "ENSG00000108846.15"
+      ]
+    },
+    "A13_C13": {
+      "axis_id": 13,
+      "state_id": 13,
+      "name": "PDE4D/FTX/MTUS1-low",
+      "summary": "Negative associations with PDE4D, FTX, MTUS1, ZBTB20, EHBP1 and THSD4; positive markers negligible. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000113448.18",
+        "ENSG00000230590.9"
+      ]
+    },
+    "A13_C14": {
+      "axis_id": 13,
+      "state_id": 14,
+      "name": "ABCC3/ABCC2/PAPPA-low",
+      "summary": "Strong negative associations with ABCC3, ABCC2, EHBP1, PAPPA, SLC22A3 and THSD7A; positive markers negligible. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000108846.15",
+        "ENSG00000023839.10"
+      ]
+    },
+    "A13_C15": {
+      "axis_id": 13,
+      "state_id": 15,
+      "name": "ABCC3/PAPPA/NRP1-high",
+      "summary": "Positive associations with ABCC3, PAPPA, NRP1, EHBP1, PDE4D and DIAPH2; no negative markers listed. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000108846.15",
+        "ENSG00000182752.9"
+      ]
+    },
+    "A14_C0": {
+      "axis_id": 14,
+      "state_id": 0,
+      "name": "Cytoskeletal GTPase-regulator low",
+      "summary": "Weak positive signal for LIMCH1 and DNM1; stronger negative association with FGD6, ASAP1, TRIO and related GTPase/cytoskeletal regulators. Evidence is modest and not mechanistic.",
+      "evidence_genes": [
+        "ENSG00000064042.17",
+        "ENSG00000180263.13"
+      ]
+    },
+    "A14_C1": {
+      "axis_id": 14,
+      "state_id": 1,
+      "name": "Adhesion/cytoskeletal regulator up",
+      "summary": "Positive association with AKAP13, FGD6, VEZT and PTPN12; negative effects are small. Suggests a modest cytoskeletal-adhesion program with uncertain specificity.",
+      "evidence_genes": [
+        "ENSG00000170776.21",
+        "ENSG00000180263.13"
+      ]
+    },
+    "A14_C2": {
+      "axis_id": 14,
+      "state_id": 2,
+      "name": "TRIO/MBNL1-high cytoskeletal state",
+      "summary": "Strong positive association with TRIO, MBNL1, PTK2, MYO1E and SRGAP1, with negligible negative effects. Consistent with an active cytoskeletal/adhesion program, though causality is unknown.",
+      "evidence_genes": [
+        "ENSG00000038382.18",
+        "ENSG00000152601.17"
+      ]
+    },
+    "A14_C3": {
+      "axis_id": 14,
+      "state_id": 3,
+      "name": "MBNL1/FGD6-high state",
+      "summary": "Positive association with MBNL1, FGD6, MYO1E and NEBL; modest negative effects on MKL1 and chromatin-related genes. Suggests cytoskeletal and splicing-related activity with uncertainty.",
+      "evidence_genes": [
+        "ENSG00000152601.17",
+        "ENSG00000180263.13"
+      ]
+    },
+    "A14_C4": {
+      "axis_id": 14,
+      "state_id": 4,
+      "name": "Adhesion/cytoskeletal up",
+      "summary": "Positive association with PKP4, ZCCHC11, FGD6, PTK2 and CLASP1; negative effects are weak. Points to a modest adhesion/cytoskeletal program without clear mechanism.",
+      "evidence_genes": [
+        "ENSG00000144283.21",
+        "ENSG00000169398.19"
+      ]
+    },
+    "A14_C5": {
+      "axis_id": 14,
+      "state_id": 5,
+      "name": "Mixed low-signal state",
+      "summary": "Few strong positives (MYO1E modest); negative association with FAM222B, CLASP1, ZCCHC11 and NEBL. Overall weak and heterogeneous, so function is unclear.",
+      "evidence_genes": [
+        "ENSG00000157483.8",
+        "ENSG00000173065.13"
+      ]
+    },
+    "A14_C6": {
+      "axis_id": 14,
+      "state_id": 6,
+      "name": "DGKH/FGD6-high state",
+      "summary": "Strong positive association with DGKH, FGD6, NEBL, SRGAP1 and UBE2E2; negative effects negligible. Suggests a lipid-signaling/cytoskeletal program, but evidence is limited.",
+      "evidence_genes": [
+        "ENSG00000102780.16",
+        "ENSG00000180263.13"
+      ]
+    },
+    "A14_C7": {
+      "axis_id": 14,
+      "state_id": 7,
+      "name": "NEBL/SRGAP1-low state",
+      "summary": "Positive effects are near zero; negative association with NEBL, SRGAP1, UBE2E2, ARHGAP32 and MBNL1. Suggests reduced cytoskeletal/adhesion signal with uncertain meaning.",
+      "evidence_genes": [
+        "ENSG00000078114.18",
+        "ENSG00000196935.8"
+      ]
+    },
+    "A14_C8": {
+      "axis_id": 14,
+      "state_id": 8,
+      "name": "Cytoskeletal program strongly low",
+      "summary": "No positive markers; strong negative association with MYO1E, MBNL1, UBE2E2, PTK2 and FGD6. Consistent with suppressed cytoskeletal/adhesion expression, though decoder-derived.",
+      "evidence_genes": [
+        "ENSG00000157483.8",
+        "ENSG00000152601.17"
+      ]
+    },
+    "A14_C9": {
+      "axis_id": 14,
+      "state_id": 9,
+      "name": "Weak mixed metabolic/transport",
+      "summary": "Small positive effects for KIAA0232, DPYD and AKAP10; modest negative effects on MYO1E, PKP4 and TRIO. Signal is weak and function unclear.",
+      "evidence_genes": [
+        "ENSG00000170871.11",
+        "ENSG00000188641.12"
+      ]
+    },
+    "A14_C10": {
+      "axis_id": 14,
+      "state_id": 10,
+      "name": "MYO1E-up, NEBL-down mixed",
+      "summary": "Modest positive association with MYO1E and ZMYM2; negative association with ZCCHC11, NEBL, LDLRAD3 and PPARG. Mixed and weak, so interpretation is uncertain.",
+      "evidence_genes": [
+        "ENSG00000157483.8",
+        "ENSG00000078114.18"
+      ]
+    },
+    "A14_C11": {
+      "axis_id": 14,
+      "state_id": 11,
+      "name": "TRIO/PTK2-low state",
+      "summary": "Positive effects negligible; strong negative association with TRIO, PTK2, SRGAP1, MBNL1 and UBE2E2. Suggests reduced cytoskeletal/adhesion program with uncertain specificity.",
+      "evidence_genes": [
+        "ENSG00000038382.18",
+        "ENSG00000169398.19"
+      ]
+    },
+    "A14_C12": {
+      "axis_id": 14,
+      "state_id": 12,
+      "name": "VWA8/WNK1-up state",
+      "summary": "Modest positive association with VWA8, WNK1, PSD3 and FAM135A; negative effects small. Suggests a weak signaling/transport program, but evidence is limited.",
+      "evidence_genes": [
+        "ENSG00000102763.17",
+        "ENSG00000060237.16"
+      ]
+    },
+    "A14_C13": {
+      "axis_id": 14,
+      "state_id": 13,
+      "name": "TRIO/UBE2E2-high state",
+      "summary": "Positive association with TRIO, LDLRAD3, UBE2E2, FGD6 and CARMIL1; negative effects negligible. Consistent with a cytoskeletal regulator program, though causality is unknown.",
+      "evidence_genes": [
+        "ENSG00000038382.18",
+        "ENSG00000182247.9"
+      ]
+    },
+    "A14_C14": {
+      "axis_id": 14,
+      "state_id": 14,
+      "name": "LCLAT1/PKP4-up state",
+      "summary": "Positive association with LCLAT1, PKP4, PIAS1 and LDLRAD3; modest negative effects on MBNL1 and MYO1E. Mixed lipid/adhesion signal with uncertainty.",
+      "evidence_genes": [
+        "ENSG00000172954.13",
+        "ENSG00000144283.21"
+      ]
+    },
+    "A14_C15": {
+      "axis_id": 14,
+      "state_id": 15,
+      "name": "MBNL1/FGD6-low state",
+      "summary": "Small positive effects for NINL, P3H2 and UBE2E2; negative association with MBNL1, FGD6, PTK2 and VEZT. Suggests reduced cytoskeletal signal, but evidence is modest.",
+      "evidence_genes": [
+        "ENSG00000152601.17",
+        "ENSG00000180263.13"
+      ]
+    },
+    "A15_C0": {
+      "axis_id": 15,
+      "state_id": 0,
+      "name": "DNAH14/RABGAP1L-high, weak down",
+      "summary": "Modest up-shift in DNAH14, RABGAP1L, IMMP2L and other genes; down genes near zero, so function is unclear.",
+      "evidence_genes": [
+        "ENSG00000185842.15",
+        "ENSG00000152061.23"
+      ]
+    },
+    "A15_C1": {
+      "axis_id": 15,
+      "state_id": 1,
+      "name": "BCAS3-high, RANBP17-low",
+      "summary": "BCAS3 up with modest down-shift in RANBP17 and FUT8; weak, non-specific association.",
+      "evidence_genes": [
+        "ENSG00000141376.22",
+        "ENSG00000204764.13"
+      ]
+    },
+    "A15_C2": {
+      "axis_id": 15,
+      "state_id": 2,
+      "name": "lncRNA/RFX3-high state",
+      "summary": "Strong up-shift in several lncRNAs plus RANBP17 and RFX3, with negligible down genes; unclear biology.",
+      "evidence_genes": [
+        "ENSG00000251574.6",
+        "ENSG00000080298.15"
+      ]
+    },
+    "A15_C3": {
+      "axis_id": 15,
+      "state_id": 3,
+      "name": "MBD5/BCAS3-high, SUPT3H-low",
+      "summary": "Up-shift in MBD5, BCAS3, IMMP2L and FHIT with modest SUPT3H decrease; broad, non-specific pattern.",
+      "evidence_genes": [
+        "ENSG00000204406.12",
+        "ENSG00000196284.15"
+      ]
+    },
+    "A15_C4": {
+      "axis_id": 15,
+      "state_id": 4,
+      "name": "NBEA/AKT3-high, weak down",
+      "summary": "Modest up-shift in NBEA, IMMP2L, AKT3 and EIF4G3; down genes small, so function is unclear.",
+      "evidence_genes": [
+        "ENSG00000172915.18",
+        "ENSG00000117020.16"
+      ]
+    },
+    "A15_C5": {
+      "axis_id": 15,
+      "state_id": 5,
+      "name": "LINC01376/FHIT-low state",
+      "summary": "Weak up genes but notable down-shift in LINC01376, FHIT, RFX3 and SUPT3H; unclear function.",
+      "evidence_genes": [
+        "ENSG00000236204.5",
+        "ENSG00000189283.9"
+      ]
+    },
+    "A15_C6": {
+      "axis_id": 15,
+      "state_id": 6,
+      "name": "MBD5/LMCD1-AS1-low state",
+      "summary": "Up genes near zero while MBD5, LMCD1-AS1, GALNT13 and RFX3 are down; unclear biology.",
+      "evidence_genes": [
+        "ENSG00000204406.12",
+        "ENSG00000227110.6"
+      ]
+    },
+    "A15_C7": {
+      "axis_id": 15,
+      "state_id": 7,
+      "name": "METTL15/WWOX-low state",
+      "summary": "Up genes negligible; strong down-shift in METTL15, WWOX, RAD51B and IMMP2L; function unclear.",
+      "evidence_genes": [
+        "ENSG00000169519.20",
+        "ENSG00000186153.16"
+      ]
+    },
+    "A15_C8": {
+      "axis_id": 15,
+      "state_id": 8,
+      "name": "WWOX/FHIT-high state",
+      "summary": "Strong up-shift in WWOX, FHIT, IMMP2L and BCAS3 with near-zero down genes; broad association.",
+      "evidence_genes": [
+        "ENSG00000186153.16",
+        "ENSG00000189283.9"
+      ]
+    },
+    "A15_C9": {
+      "axis_id": 15,
+      "state_id": 9,
+      "name": "SBF2/RAD51B-high, weak down",
+      "summary": "Modest up-shift in SBF2, RAD51B, SUPT3H and METTL15; down genes small, so unclear.",
+      "evidence_genes": [
+        "ENSG00000133812.15",
+        "ENSG00000182185.18"
+      ]
+    },
+    "A15_C10": {
+      "axis_id": 15,
+      "state_id": 10,
+      "name": "WWOX/ELP4-high, LGSN-low",
+      "summary": "Modest up-shift in WWOX and ELP4 with down-shift in LGSN, APTX and BCAS3; weak, non-specific.",
+      "evidence_genes": [
+        "ENSG00000186153.16",
+        "ENSG00000146166.16"
+      ]
+    },
+    "A15_C11": {
+      "axis_id": 15,
+      "state_id": 11,
+      "name": "RANBP17/GALNT13-high state",
+      "summary": "Strong up-shift in RANBP17, GALNT13, MIPOL1 and LINC01376 with negligible down genes; unclear biology.",
+      "evidence_genes": [
+        "ENSG00000204764.13",
+        "ENSG00000144278.14"
+      ]
+    },
+    "A15_C12": {
+      "axis_id": 15,
+      "state_id": 12,
+      "name": "WWOX/CEP112-high, LGSN-low",
+      "summary": "Up-shift in WWOX, CEP112 and RANBP17 with modest LGSN and FER decrease; broad pattern.",
+      "evidence_genes": [
+        "ENSG00000186153.16",
+        "ENSG00000154240.16"
+      ]
+    },
+    "A15_C13": {
+      "axis_id": 15,
+      "state_id": 13,
+      "name": "WWOX/IMMP2L-low state",
+      "summary": "No up genes; strong down-shift in WWOX, IMMP2L, BCAS3 and RAD51B; function unclear.",
+      "evidence_genes": [
+        "ENSG00000186153.16",
+        "ENSG00000184903.9"
+      ]
+    },
+    "A15_C14": {
+      "axis_id": 15,
+      "state_id": 14,
+      "name": "WWOX/IMMP2L-low state",
+      "summary": "No up genes; strong down-shift in WWOX, IMMP2L, BCAS3 and METTL15; function unclear.",
+      "evidence_genes": [
+        "ENSG00000186153.16",
+        "ENSG00000184903.9"
+      ]
+    },
+    "A15_C15": {
+      "axis_id": 15,
+      "state_id": 15,
+      "name": "WWOX/LMCD1-AS1-high state",
+      "summary": "Strong up-shift in WWOX, LMCD1-AS1, RANBP17 and AHI1 with negligible down genes; unclear biology.",
+      "evidence_genes": [
+        "ENSG00000186153.16",
+        "ENSG00000227110.6"
+      ]
+    },
+    "A16_C0": {
+      "axis_id": 16,
+      "state_id": 0,
+      "name": "S100P/TGM2-high, keratin-low",
+      "summary": "Weakly higher S100P, TGM2 and mitochondrial COX genes with lower KRT8/KRT18/CTNNA3; evidence modest and mixed.",
+      "evidence_genes": [
+        "ENSG00000163993.6",
+        "ENSG00000183230.16"
+      ]
+    },
+    "A16_C1": {
+      "axis_id": 16,
+      "state_id": 1,
+      "name": "Keratin/CTNNA3-high",
+      "summary": "Higher KRT8, KRT18, CTNNA3, S100P and PYGB with near-zero down effects; suggests a keratinocyte-like profile.",
+      "evidence_genes": [
+        "ENSG00000170421.12",
+        "ENSG00000183230.16"
+      ]
+    },
+    "A16_C2": {
+      "axis_id": 16,
+      "state_id": 2,
+      "name": "DDIT4-low, keratin-low",
+      "summary": "Lower DDIT4, KRT8, KRT18, CD151 and CTNNA3 with only weak positive ANXA2/CAV1; unclear function.",
+      "evidence_genes": [
+        "ENSG00000168209.4",
+        "ENSG00000170421.12"
+      ]
+    },
+    "A16_C3": {
+      "axis_id": 16,
+      "state_id": 3,
+      "name": "Keratin/TMSB10-high",
+      "summary": "Strongly higher KRT8, KRT18, CTNNA3, TMSB10, LDHB and EMP2 with negligible down effects; adhesion/cytoskeletal profile.",
+      "evidence_genes": [
+        "ENSG00000170421.12",
+        "ENSG00000034510.5"
+      ]
+    },
+    "A16_C4": {
+      "axis_id": 16,
+      "state_id": 4,
+      "name": "Keratin/HSPB1-high",
+      "summary": "Higher KRT8, KRT18, CTNNA3, CHCHD10, HSPB1 and S100P with essentially no down effects; stress-keratin profile.",
+      "evidence_genes": [
+        "ENSG00000170421.12",
+        "ENSG00000106211.8"
+      ]
+    },
+    "A16_C5": {
+      "axis_id": 16,
+      "state_id": 5,
+      "name": "Keratin-low, weak up genes",
+      "summary": "Lower KRT8, KRT18, CTNNA3, TMSB10, CD151 and PYGB while up effects are near zero; unclear function.",
+      "evidence_genes": [
+        "ENSG00000170421.12",
+        "ENSG00000183230.16"
+      ]
+    },
+    "A16_C6": {
+      "axis_id": 16,
+      "state_id": 6,
+      "name": "Metallothionein-high",
+      "summary": "Higher MT2A, MT1X, S100A4 and FAM129B with lower S100P, ITGB4, HSPB1 and DDIT4; metal/stress-associated.",
+      "evidence_genes": [
+        "ENSG00000125148.6",
+        "ENSG00000187193.8"
+      ]
+    },
+    "A16_C7": {
+      "axis_id": 16,
+      "state_id": 7,
+      "name": "Keratin/TMSB10-low",
+      "summary": "Lower TMSB10, CD151, KRT8, KRT18, CTNNA3 and ANXA2 with negligible up effects; unclear function.",
+      "evidence_genes": [
+        "ENSG00000034510.5",
+        "ENSG00000170421.12"
+      ]
+    },
+    "A16_C8": {
+      "axis_id": 16,
+      "state_id": 8,
+      "name": "AHNAK/CD151-high",
+      "summary": "Higher AHNAK, CD151, LDHB, ANXA2, TMSB10 and CAV1 with lower ITGB4, ALDH2 and S100P; adhesion-associated.",
+      "evidence_genes": [
+        "ENSG00000124942.13",
+        "ENSG00000177697.17"
+      ]
+    },
+    "A16_C9": {
+      "axis_id": 16,
+      "state_id": 9,
+      "name": "HSPB1/ITGB4-high",
+      "summary": "Higher HSPB1, KRT8, ITGB4, ACTN4, CHCHD10 and KRT18 with weak down effects; stress/adhesion profile.",
+      "evidence_genes": [
+        "ENSG00000106211.8",
+        "ENSG00000132470.13"
+      ]
+    },
+    "A16_C10": {
+      "axis_id": 16,
+      "state_id": 10,
+      "name": "S100A10/ANXA2-high",
+      "summary": "Weakly higher S100A10, ANXA2, GLUD1 and CCND3 with lower ALDH2, ITGB4, PYGB and TGM2; effects small.",
+      "evidence_genes": [
+        "ENSG00000197747.8",
+        "ENSG00000182718.16"
+      ]
+    },
+    "A16_C11": {
+      "axis_id": 16,
+      "state_id": 11,
+      "name": "Keratin/TMSB10-high",
+      "summary": "Strongly higher KRT8, KRT18, CTNNA3, TMSB10, HSPB1 and CD151 with negligible down effects; cytoskeletal profile.",
+      "evidence_genes": [
+        "ENSG00000170421.12",
+        "ENSG00000034510.5"
+      ]
+    },
+    "A16_C12": {
+      "axis_id": 16,
+      "state_id": 12,
+      "name": "Keratin-low, weak up genes",
+      "summary": "Lower KRT18, KRT8, CTNNA3, TMSB10, ANXA2 and CD151 while up effects are near zero; unclear function.",
+      "evidence_genes": [
+        "ENSG00000111057.10",
+        "ENSG00000170421.12"
+      ]
+    },
+    "A16_C13": {
+      "axis_id": 16,
+      "state_id": 13,
+      "name": "Keratin-low, weak up genes",
+      "summary": "Lower KRT8, TMSB10, CTNNA3, KRT18, HSPB1 and ITGB4 with only weak SLC7A7/NNMT up effects; unclear.",
+      "evidence_genes": [
+        "ENSG00000170421.12",
+        "ENSG00000034510.5"
+      ]
+    },
+    "A16_C14": {
+      "axis_id": 16,
+      "state_id": 14,
+      "name": "AHNAK/DDIT4-high",
+      "summary": "Higher AHNAK, DDIT4, PRDX6, ACTN1, MVP and CAV1 with lower MT2A, TGM2, CTNNA3 and EMP2; mixed profile.",
+      "evidence_genes": [
+        "ENSG00000124942.13",
+        "ENSG00000168209.4"
+      ]
+    },
+    "A16_C15": {
+      "axis_id": 16,
+      "state_id": 15,
+      "name": "Keratin-low, weak up genes",
+      "summary": "Lower CTNNA3, KRT8, KRT18, PYGB, TMSB10 and LDHB with near-zero up effects; unclear function.",
+      "evidence_genes": [
+        "ENSG00000183230.16",
+        "ENSG00000170421.12"
+      ]
+    },
+    "A17_C0": {
+      "axis_id": 17,
+      "state_id": 0,
+      "name": "Low oxidative/glycolytic metabolism",
+      "summary": "Weak positive JAG1/RAB27B signal with lower ATP synthase, calmodulin, and glycolytic genes; effects are modest and function is uncertain.",
+      "evidence_genes": [
+        "ENSG00000101384.11",
+        "ENSG00000110955.8"
+      ]
+    },
+    "A17_C1": {
+      "axis_id": 17,
+      "state_id": 1,
+      "name": "Adhesion/cytoskeletal and transport up",
+      "summary": "Higher SLC25A5, FLNA, SLC1A5, and actin-related genes with mild ATP5B decrease; suggests adhesion/transport shift but evidence is limited.",
+      "evidence_genes": [
+        "ENSG00000005022.5",
+        "ENSG00000196924.14"
+      ]
+    },
+    "A17_C2": {
+      "axis_id": 17,
+      "state_id": 2,
+      "name": "Broad metabolic/cytoskeletal down",
+      "summary": "No positive markers; strong decreases in PKM, ATP5B, ACTG1, and other glycolytic/mitochondrial genes, consistent with a low-metabolism profile.",
+      "evidence_genes": [
+        "ENSG00000067225.17",
+        "ENSG00000184009.9"
+      ]
+    },
+    "A17_C3": {
+      "axis_id": 17,
+      "state_id": 3,
+      "name": "Mild metabolic down with weak AKR1B1 up",
+      "summary": "Small AKR1B1 increase alongside lower ATP synthase, MDH2, and CYCS; overall signal is weak and function unclear.",
+      "evidence_genes": [
+        "ENSG00000085662.13",
+        "ENSG00000154518.9"
+      ]
+    },
+    "A17_C4": {
+      "axis_id": 17,
+      "state_id": 4,
+      "name": "Metabolic/cytoskeletal down",
+      "summary": "Negligible positive markers; marked decreases in ATP5B, ATP5G3, CFL1, and TPI1 suggest reduced metabolic and cytoskeletal expression.",
+      "evidence_genes": [
+        "ENSG00000110955.8",
+        "ENSG00000172757.12"
+      ]
+    },
+    "A17_C5": {
+      "axis_id": 17,
+      "state_id": 5,
+      "name": "Oxidative phosphorylation up",
+      "summary": "Higher ATP5B, ATP5G3, COX6C, and LDHA with lower PRDX1 and AKR1B1; points to increased mitochondrial/energy gene signal.",
+      "evidence_genes": [
+        "ENSG00000110955.8",
+        "ENSG00000154518.9"
+      ]
+    },
+    "A17_C6": {
+      "axis_id": 17,
+      "state_id": 6,
+      "name": "Translation/redox up",
+      "summary": "Higher EEF2, SLC1A5, PRDX1, and RPL23 with mild CALM1 decrease; suggests translation and redox-associated expression, though modest.",
+      "evidence_genes": [
+        "ENSG00000167658.15",
+        "ENSG00000105281.12"
+      ]
+    },
+    "A17_C7": {
+      "axis_id": 17,
+      "state_id": 7,
+      "name": "Glycolytic/cytoskeletal up",
+      "summary": "Strong increases in TPI1, POLR2L, CFL1, ALDOA, and ATP5B with negligible negative markers; a high energy/cytoskeletal profile.",
+      "evidence_genes": [
+        "ENSG00000111669.14",
+        "ENSG00000172757.12"
+      ]
+    },
+    "A17_C8": {
+      "axis_id": 17,
+      "state_id": 8,
+      "name": "Glycolytic/adhesion up",
+      "summary": "Higher ALDOA, RPS5, LDHA, FLNA, and POLR2L with small decreases in NEDD8 and LAPTM4A; function is suggestive but uncertain.",
+      "evidence_genes": [
+        "ENSG00000149925.17",
+        "ENSG00000134333.13"
+      ]
+    },
+    "A17_C9": {
+      "axis_id": 17,
+      "state_id": 9,
+      "name": "Cytoskeletal/mitochondrial up",
+      "summary": "Higher ACTB, TAGLN2, CALM1, MDH2, and ATP5B with minimal negative signal; suggests cytoskeletal and mitochondrial gene elevation.",
+      "evidence_genes": [
+        "ENSG00000075624.13",
+        "ENSG00000198668.10"
+      ]
+    },
+    "A17_C10": {
+      "axis_id": 17,
+      "state_id": 10,
+      "name": "Mitochondrial/energy up",
+      "summary": "Higher ATP5B, ATP5G3, DDT, CALM1, and SUCLG1 with lower PRDX1 and AKR1B1; consistent with increased mitochondrial gene signal.",
+      "evidence_genes": [
+        "ENSG00000110955.8",
+        "ENSG00000154518.9"
+      ]
+    },
+    "A17_C11": {
+      "axis_id": 17,
+      "state_id": 11,
+      "name": "Glycolytic/cytoskeletal up",
+      "summary": "Strong increases in ALDOA, CFL1, POLR2L, PKM, and ACTG1 with essentially no negative markers; high energy/cytoskeletal profile.",
+      "evidence_genes": [
+        "ENSG00000149925.17",
+        "ENSG00000172757.12"
+      ]
+    },
+    "A17_C12": {
+      "axis_id": 17,
+      "state_id": 12,
+      "name": "Metabolic down with weak MGST3 up",
+      "summary": "Small MGST3 increase but clear decreases in PKM, PRDX1, ALDOA, and GSTP1; suggests reduced metabolic/redox expression.",
+      "evidence_genes": [
+        "ENSG00000143198.12",
+        "ENSG00000067225.17"
+      ]
+    },
+    "A17_C13": {
+      "axis_id": 17,
+      "state_id": 13,
+      "name": "Glycolytic/redox up",
+      "summary": "Higher PKM, PRDX1, ATP5G3, DAD1, and G6PD with mild CYCS decrease; points to increased glycolytic and redox gene signal.",
+      "evidence_genes": [
+        "ENSG00000067225.17",
+        "ENSG00000117450.13"
+      ]
+    },
+    "A17_C14": {
+      "axis_id": 17,
+      "state_id": 14,
+      "name": "Metabolic/cytoskeletal down",
+      "summary": "Negligible positive markers; strong decreases in CFL1, POLR2L, PKM, FLNA, and ALDOA indicate a low metabolic/cytoskeletal profile.",
+      "evidence_genes": [
+        "ENSG00000172757.12",
+        "ENSG00000177700.5"
+      ]
+    },
+    "A17_C15": {
+      "axis_id": 17,
+      "state_id": 15,
+      "name": "Energy/cytoskeletal up",
+      "summary": "Higher TPI1, OAZ1, SLC25A5, ATP5B, and CFL1 with negligible negative markers; suggests elevated energy and cytoskeletal gene signal.",
+      "evidence_genes": [
+        "ENSG00000111669.14",
+        "ENSG00000104904.12"
+      ]
+    },
+    "A18_C0": {
+      "axis_id": 18,
+      "state_id": 0,
+      "name": "Lipid synthesis down, TNFRSF10B up",
+      "summary": "Lower lipid/cholesterol genes (HMGCS1, FASN) with modest TNFRSF10B up; weak mixed signal.",
+      "evidence_genes": [
+        "ENSG00000112972.14",
+        "ENSG00000120889.12"
+      ]
+    },
+    "A18_C1": {
+      "axis_id": 18,
+      "state_id": 1,
+      "name": "Adhesion/ECM mixed, sterol down",
+      "summary": "Modest up of KCNQ1OT1/AKAP12 and down of DHRS2/STC1 with FDFT1 lower; unclear function.",
+      "evidence_genes": [
+        "ENSG00000269821.1",
+        "ENSG00000100867.14"
+      ]
+    },
+    "A18_C2": {
+      "axis_id": 18,
+      "state_id": 2,
+      "name": "Sterol biosynthesis down",
+      "summary": "FASN, FDFT1, HMGCS1, IDI1, LDLR, DHCR7 all lower; up genes weak.",
+      "evidence_genes": [
+        "ENSG00000169710.8",
+        "ENSG00000112972.14"
+      ]
+    },
+    "A18_C3": {
+      "axis_id": 18,
+      "state_id": 3,
+      "name": "Sterol and stress genes down",
+      "summary": "HMGCS1, STC1, RGL1, TNFRSF10B lower with near-zero up genes; unclear.",
+      "evidence_genes": [
+        "ENSG00000112972.14",
+        "ENSG00000159167.11"
+      ]
+    },
+    "A18_C4": {
+      "axis_id": 18,
+      "state_id": 4,
+      "name": "Sterol/lipid synthesis up",
+      "summary": "Strong up of INSIG1, ACSBG1, IDI1, HMGCS1, COL26A1; AKAP12/TGFB1 lower.",
+      "evidence_genes": [
+        "ENSG00000186480.12",
+        "ENSG00000112972.14"
+      ]
+    },
+    "A18_C5": {
+      "axis_id": 18,
+      "state_id": 5,
+      "name": "TNFRSF10B up, ECM down",
+      "summary": "TNFRSF10B/TNFRSF10D up while AC010197.1, RGL1, COL26A1, CTGF lower; mixed.",
+      "evidence_genes": [
+        "ENSG00000120889.12",
+        "ENSG00000118523.5"
+      ]
+    },
+    "A18_C6": {
+      "axis_id": 18,
+      "state_id": 6,
+      "name": "Cytoskeletal up, lipid mixed",
+      "summary": "VCL/SPTAN1 up with FASN up but IDI1/ACSBG1 down; unclear.",
+      "evidence_genes": [
+        "ENSG00000035403.17",
+        "ENSG00000197694.15"
+      ]
+    },
+    "A18_C7": {
+      "axis_id": 18,
+      "state_id": 7,
+      "name": "COL26A1/DHRS2 up, FASN down",
+      "summary": "Up of COL26A1, DHRS2, DNM3, INSIG1, SREBF1; FASN and TFRC lower.",
+      "evidence_genes": [
+        "ENSG00000160963.13",
+        "ENSG00000100867.14"
+      ]
+    },
+    "A18_C8": {
+      "axis_id": 18,
+      "state_id": 8,
+      "name": "STAT3 down, transport up",
+      "summary": "STAT3 and COL26A1 lower; NUP98/TFRC modestly up; weak mixed signal.",
+      "evidence_genes": [
+        "ENSG00000168610.14",
+        "ENSG00000110713.15"
+      ]
+    },
+    "A18_C9": {
+      "axis_id": 18,
+      "state_id": 9,
+      "name": "TGFB1/CADM2 up, ACSBG1 down",
+      "summary": "Modest up of CADM2, TGFB1, MACROD2; ACSBG1, DHRS2, RHOB lower; unclear.",
+      "evidence_genes": [
+        "ENSG00000175161.13",
+        "ENSG00000103740.9"
+      ]
+    },
+    "A18_C10": {
+      "axis_id": 18,
+      "state_id": 10,
+      "name": "STAT1 up, INSIG1 down",
+      "summary": "STAT1, KCNQ1OT1, SPTAN1, FASN up; INSIG1, STC1, TNFRSF10B lower.",
+      "evidence_genes": [
+        "ENSG00000115415.18",
+        "ENSG00000186480.12"
+      ]
+    },
+    "A18_C11": {
+      "axis_id": 18,
+      "state_id": 11,
+      "name": "STC1/RGL1/BIRC3 up",
+      "summary": "Strong up of STC1, AC008050.1, RGL1, LINC02328, BIRC3; down genes negligible.",
+      "evidence_genes": [
+        "ENSG00000159167.11",
+        "ENSG00000023445.13"
+      ]
+    },
+    "A18_C12": {
+      "axis_id": 18,
+      "state_id": 12,
+      "name": "HMGCS1/BIRC3 down",
+      "summary": "HMGCS1, AC010197.1, BIRC3, RHOB lower with near-zero up genes; unclear.",
+      "evidence_genes": [
+        "ENSG00000112972.14",
+        "ENSG00000023445.13"
+      ]
+    },
+    "A18_C13": {
+      "axis_id": 18,
+      "state_id": 13,
+      "name": "Lipid genes down, AKAP12 up",
+      "summary": "RGL1, LINC02506, ACSL3, LPIN1 lower; AKAP12 modestly up; weak.",
+      "evidence_genes": [
+        "ENSG00000143344.15",
+        "ENSG00000131016.16"
+      ]
+    },
+    "A18_C14": {
+      "axis_id": 18,
+      "state_id": 14,
+      "name": "MAP2K1 up, FASN/GOLGB1 down",
+      "summary": "MAP2K1, OSBPL8, ORC4 up; GOLGB1, FASN, TMEM135, BIRC3 lower.",
+      "evidence_genes": [
+        "ENSG00000169032.9",
+        "ENSG00000169710.8"
+      ]
+    },
+    "A18_C15": {
+      "axis_id": 18,
+      "state_id": 15,
+      "name": "Sterol genes up, STC1 down",
+      "summary": "DHCR24, DHCR7, POR, ACSL4 up; STC1, NR4A1, AREG lower; mixed.",
+      "evidence_genes": [
+        "ENSG00000116133.11",
+        "ENSG00000159167.11"
+      ]
+    },
+    "A19_C0": {
+      "axis_id": 19,
+      "state_id": 0,
+      "name": "FDXR/CDKN1A up, TP53I3 down",
+      "summary": "Moderate positive FDXR and CDKN1A with negative TP53I3, LRP10, ITGA3; mixed p53-associated markers, directionally inconsistent.",
+      "evidence_genes": [
+        "ENSG00000161513.11",
+        "ENSG00000115129.13"
+      ]
+    },
+    "A19_C1": {
+      "axis_id": 19,
+      "state_id": 1,
+      "name": "Weak up, CDKN1A/LRP10 down",
+      "summary": "Near-zero positive effects; strongest signal is negative CDKN1A, LRP10, RPS27L and FDXR. Weak overall.",
+      "evidence_genes": [
+        "ENSG00000124762.13",
+        "ENSG00000197324.8"
+      ]
+    },
+    "A19_C2": {
+      "axis_id": 19,
+      "state_id": 2,
+      "name": "ITGA3/LINC01021 up, CDKN1A down",
+      "summary": "Positive MAST4, ITGA3, LINC01021, PRSS23 with negative CDKN1A and FDXR; adhesion/ECM-leaning mixed profile.",
+      "evidence_genes": [
+        "ENSG00000005884.17",
+        "ENSG00000124762.13"
+      ]
+    },
+    "A19_C3": {
+      "axis_id": 19,
+      "state_id": 3,
+      "name": "ITGA3/TP53I3 up, FDXR/MDM2 down",
+      "summary": "Positive ITGA3 and TP53I3 but negative FDXR, CDKN1A, MDM2, CTSL; mixed and not a coherent single program.",
+      "evidence_genes": [
+        "ENSG00000115129.13",
+        "ENSG00000161513.11"
+      ]
+    },
+    "A19_C4": {
+      "axis_id": 19,
+      "state_id": 4,
+      "name": "Strong p53-marker up state",
+      "summary": "Large positive FDXR, CDKN1A, TP53I3, MDM2, MAST4, LRP10; strongest coordinated marker set on this axis.",
+      "evidence_genes": [
+        "ENSG00000161513.11",
+        "ENSG00000124762.13"
+      ]
+    },
+    "A19_C5": {
+      "axis_id": 19,
+      "state_id": 5,
+      "name": "LINC01021/CDKN1A up, TP53I3 down",
+      "summary": "Positive LINC01021 and CDKN1A with negative TP53I3, LRP10, CTSL; mixed p53-marker directions.",
+      "evidence_genes": [
+        "ENSG00000250337.5",
+        "ENSG00000115129.13"
+      ]
+    },
+    "A19_C6": {
+      "axis_id": 19,
+      "state_id": 6,
+      "name": "Broad marker down state",
+      "summary": "Negative FDXR, CDKN1A, ITGA3, MDM2, LINC01021, MAST4 with negligible positive PSEN1.",
+      "evidence_genes": [
+        "ENSG00000161513.11",
+        "ENSG00000124762.13"
+      ]
+    },
+    "A19_C7": {
+      "axis_id": 19,
+      "state_id": 7,
+      "name": "CTSL/GPC1/LRP10 up",
+      "summary": "Positive CTSL, GPC1, LRP10 with negative CDKN1A, MAST4, MDM2; lysosomal/adhesion-leaning mixed profile.",
+      "evidence_genes": [
+        "ENSG00000135047.14",
+        "ENSG00000063660.8"
+      ]
+    },
+    "A19_C8": {
+      "axis_id": 19,
+      "state_id": 8,
+      "name": "CDKN1A/FDXR up, TP53I3 down",
+      "summary": "Positive CDKN1A, FDXR, GPC1, CTSL, RPS27L with negative TP53I3 and MDM2; mixed p53 markers.",
+      "evidence_genes": [
+        "ENSG00000124762.13",
+        "ENSG00000161513.11"
+      ]
+    },
+    "A19_C9": {
+      "axis_id": 19,
+      "state_id": 9,
+      "name": "CTSL/GPC1/LRP10 down",
+      "summary": "Negative CTSL, GPC1, LRP10, CDKN1A, RPS27L, FDXR with weak positive LINC01021 and MAST4.",
+      "evidence_genes": [
+        "ENSG00000135047.14",
+        "ENSG00000063660.8"
+      ]
+    },
+    "A19_C10": {
+      "axis_id": 19,
+      "state_id": 10,
+      "name": "CDKN1A/MDM2 up, TP53I3 down",
+      "summary": "Positive CDKN1A and MDM2 with negative TP53I3, LRP10, PLD5, GPC1; mixed p53-marker directions.",
+      "evidence_genes": [
+        "ENSG00000124762.13",
+        "ENSG00000135679.22"
+      ]
+    },
+    "A19_C11": {
+      "axis_id": 19,
+      "state_id": 11,
+      "name": "Weak up, CDKN1A/FDXR/CTSL down",
+      "summary": "Near-zero positive effects; negative CDKN1A, FDXR, CTSL, MAST4, CAST, GPC1 dominate.",
+      "evidence_genes": [
+        "ENSG00000124762.13",
+        "ENSG00000161513.11"
+      ]
+    },
+    "A19_C12": {
+      "axis_id": 19,
+      "state_id": 12,
+      "name": "LRP10/CTSL up, CDKN1A down",
+      "summary": "Positive LRP10, MORC4, CTSL, PLD5 with negative CDKN1A, FDXR, MDM2; mixed profile.",
+      "evidence_genes": [
+        "ENSG00000197324.8",
+        "ENSG00000124762.13"
+      ]
+    },
+    "A19_C13": {
+      "axis_id": 19,
+      "state_id": 13,
+      "name": "ITGA3/CDKN1A down",
+      "summary": "Negative ITGA3, CDKN1A, TP53I3, FDXR, PRSS23, PLXNB2 with only weak positive IGFBP3, FBXO22.",
+      "evidence_genes": [
+        "ENSG00000005884.17",
+        "ENSG00000124762.13"
+      ]
+    },
+    "A19_C14": {
+      "axis_id": 19,
+      "state_id": 14,
+      "name": "TP53I3 up, CDKN1A/MDM2 down",
+      "summary": "Positive TP53I3, PLXNB2, ITGA3 with negative CDKN1A, FDXR, LINC01021, MDM2; mixed p53 markers.",
+      "evidence_genes": [
+        "ENSG00000115129.13",
+        "ENSG00000124762.13"
+      ]
+    },
+    "A19_C15": {
+      "axis_id": 19,
+      "state_id": 15,
+      "name": "CTSL/LRP10/RPS27L up",
+      "summary": "Positive CTSL, LRP10, RPS27L, LINC01021, ITGA3, EPHX1 with mildly negative CDKN1A and TP53I3.",
+      "evidence_genes": [
+        "ENSG00000135047.14",
+        "ENSG00000197324.8"
+      ]
+    },
+    "A20_C0": {
+      "axis_id": 20,
+      "state_id": 0,
+      "name": "GRINA/IDH1-high, IGFBP3-low",
+      "summary": "Weak positive lipid/redox markers (GRINA, IDH1) with lower IGFBP3 and B2M; evidence modest and function unclear.",
+      "evidence_genes": [
+        "ENSG00000178719.16",
+        "ENSG00000146674.14"
+      ]
+    },
+    "A20_C1": {
+      "axis_id": 20,
+      "state_id": 1,
+      "name": "Lysosomal/secretory-low",
+      "summary": "Marked down-weighting of PSAP, NUCB1, CALR and GRN with negligible up-genes; suggests reduced lysosomal/secretory program but uncertain.",
+      "evidence_genes": [
+        "ENSG00000197746.13",
+        "ENSG00000104805.15"
+      ]
+    },
+    "A20_C2": {
+      "axis_id": 20,
+      "state_id": 2,
+      "name": "CLU/PSAP-low",
+      "summary": "Lower CLU, PSAP and KRT19 with only weak positive markers; unclear biological interpretation.",
+      "evidence_genes": [
+        "ENSG00000120885.21",
+        "ENSG00000197746.13"
+      ]
+    },
+    "A20_C3": {
+      "axis_id": 20,
+      "state_id": 3,
+      "name": "LGALS3BP/PSAP-low",
+      "summary": "Strong down-weighting of LGALS3BP, PSAP and CD59 with near-zero up-genes; unclear function.",
+      "evidence_genes": [
+        "ENSG00000108679.12",
+        "ENSG00000197746.13"
+      ]
+    },
+    "A20_C4": {
+      "axis_id": 20,
+      "state_id": 4,
+      "name": "KRT19/PSAP-high",
+      "summary": "Strong positive KRT19, PSAP, B2M and CD59 with minimal negative evidence; epithelial/secretory association but uncertain.",
+      "evidence_genes": [
+        "ENSG00000171345.13",
+        "ENSG00000197746.13"
+      ]
+    },
+    "A20_C5": {
+      "axis_id": 20,
+      "state_id": 5,
+      "name": "CLU-low, IDH1-high",
+      "summary": "Modest IDH1/SAT1/CST3 up-weighting with lower CLU and ITM2B; weak and unclear.",
+      "evidence_genes": [
+        "ENSG00000138413.13",
+        "ENSG00000120885.21"
+      ]
+    },
+    "A20_C6": {
+      "axis_id": 20,
+      "state_id": 6,
+      "name": "PSAP/LGALS3BP-high",
+      "summary": "Elevated PSAP, LGALS3BP, GRN and NUCB1 with mild KRT19 down-weighting; lysosomal/secretory-like but uncertain.",
+      "evidence_genes": [
+        "ENSG00000197746.13",
+        "ENSG00000108679.12"
+      ]
+    },
+    "A20_C7": {
+      "axis_id": 20,
+      "state_id": 7,
+      "name": "PSAP/SCD-low",
+      "summary": "No positive markers and broad down-weighting of PSAP, SCD, CLU and TMBIM6; unclear.",
+      "evidence_genes": [
+        "ENSG00000197746.13",
+        "ENSG00000099194.5"
+      ]
+    },
+    "A20_C8": {
+      "axis_id": 20,
+      "state_id": 8,
+      "name": "Glycolytic/CLU-high",
+      "summary": "Positive PKM, CLU, ALDOA and CALR with lower AHNAK2 and KRT19; glycolytic-like association, uncertain.",
+      "evidence_genes": [
+        "ENSG00000067225.17",
+        "ENSG00000120885.21"
+      ]
+    },
+    "A20_C9": {
+      "axis_id": 20,
+      "state_id": 9,
+      "name": "CEACAM6/KRT19-high",
+      "summary": "Elevated CEACAM6, KRT19 and G6PD with mild GRINA/PLEC down-weighting; epithelial-like but weak.",
+      "evidence_genes": [
+        "ENSG00000086548.8",
+        "ENSG00000171345.13"
+      ]
+    },
+    "A20_C10": {
+      "axis_id": 20,
+      "state_id": 10,
+      "name": "LGALS3BP/CD59-high",
+      "summary": "Strong positive LGALS3BP, CD59, TIMP1 and PSAP with negligible negative markers; unclear.",
+      "evidence_genes": [
+        "ENSG00000108679.12",
+        "ENSG00000085063.14"
+      ]
+    },
+    "A20_C11": {
+      "axis_id": 20,
+      "state_id": 11,
+      "name": "PSAP/ITM2B-high",
+      "summary": "Elevated PSAP, ITM2B, GRN and SCD with minimal down-weighting; lysosomal-like association, uncertain.",
+      "evidence_genes": [
+        "ENSG00000197746.13",
+        "ENSG00000136156.12"
+      ]
+    },
+    "A20_C12": {
+      "axis_id": 20,
+      "state_id": 12,
+      "name": "PKM/NUCB1-low",
+      "summary": "Lower PKM, NUCB1, HSP90B1 and CALR with only weak positive markers; unclear.",
+      "evidence_genes": [
+        "ENSG00000067225.17",
+        "ENSG00000104805.15"
+      ]
+    },
+    "A20_C13": {
+      "axis_id": 20,
+      "state_id": 13,
+      "name": "PSAP/CLU-high",
+      "summary": "Positive PSAP, CLU, OS9 and SCD with minimal negative evidence; unclear function.",
+      "evidence_genes": [
+        "ENSG00000197746.13",
+        "ENSG00000120885.21"
+      ]
+    },
+    "A20_C14": {
+      "axis_id": 20,
+      "state_id": 14,
+      "name": "PSAP/KRT19-low",
+      "summary": "Down-weighting of PSAP, KRT19, PLD3 and AHNAK2 with negligible up-genes; unclear.",
+      "evidence_genes": [
+        "ENSG00000197746.13",
+        "ENSG00000171345.13"
+      ]
+    },
+    "A20_C15": {
+      "axis_id": 20,
+      "state_id": 15,
+      "name": "PKM/CTSD-high",
+      "summary": "Modest PKM, CTSD, G6PD and CALR up-weighting with mild SERINC3/ITM2B down-weighting; weak.",
+      "evidence_genes": [
+        "ENSG00000067225.17",
+        "ENSG00000117984.13"
+      ]
+    },
+    "A21_C0": {
+      "axis_id": 21,
+      "state_id": 0,
+      "name": "Adhesion/ECM-high, FKBP5-high",
+      "summary": "Positive adhesion and junction genes (FKBP5, EMP2, PLEKHA7) with negligible negative evidence; suggests an adhesion-associated program, though weak down-genes limit interpretation.",
+      "evidence_genes": [
+        "ENSG00000096060.14",
+        "ENSG00000213853.9"
+      ]
+    },
+    "A21_C1": {
+      "axis_id": 21,
+      "state_id": 1,
+      "name": "Epithelial/cytoskeletal, SDK2-low",
+      "summary": "Modest up-regulation of KRT18, NNMT, TNS3 and down-regulation of SDK2, STARD13; weak, mixed epithelial-cytoskeletal signal.",
+      "evidence_genes": [
+        "ENSG00000111057.10",
+        "ENSG00000069188.16"
+      ]
+    },
+    "A21_C2": {
+      "axis_id": 21,
+      "state_id": 2,
+      "name": "PCDH9/TNS3-low, adhesion-low",
+      "summary": "Strong down-regulation of PCDH9, TNS3, KRT18 and PHLDB2 with near-zero positive effects; consistent with reduced adhesion/cytoskeletal expression.",
+      "evidence_genes": [
+        "ENSG00000184226.14",
+        "ENSG00000136205.16"
+      ]
+    },
+    "A21_C3": {
+      "axis_id": 21,
+      "state_id": 3,
+      "name": "FKBP5/KRT-low",
+      "summary": "Down-regulation of FKBP5, KRT18, PCDH9 and KRT7 with essentially no positive evidence; unclear functional identity.",
+      "evidence_genes": [
+        "ENSG00000096060.14",
+        "ENSG00000135480.15"
+      ]
+    },
+    "A21_C4": {
+      "axis_id": 21,
+      "state_id": 4,
+      "name": "Broadly down, FKBP5/PCDH9-low",
+      "summary": "No positive genes and coordinated down-regulation of FKBP5, PCDH9, BTBD11 and ERRFI1; a broadly suppressed profile of uncertain specificity.",
+      "evidence_genes": [
+        "ENSG00000096060.14",
+        "ENSG00000184226.14"
+      ]
+    },
+    "A21_C5": {
+      "axis_id": 21,
+      "state_id": 5,
+      "name": "Weak mixed, FKBP5-low",
+      "summary": "Small positive effects (RNF145, DSP) alongside modest FKBP5 and HGD down-regulation; weak and mixed evidence.",
+      "evidence_genes": [
+        "ENSG00000145860.11",
+        "ENSG00000096060.14"
+      ]
+    },
+    "A21_C6": {
+      "axis_id": 21,
+      "state_id": 6,
+      "name": "FKBP5/PCDH9-high",
+      "summary": "Strong up-regulation of FKBP5, PCDH9, SDK2 and CALD1 with negligible negative effects; adhesion/cytoskeletal-associated profile.",
+      "evidence_genes": [
+        "ENSG00000096060.14",
+        "ENSG00000184226.14"
+      ]
+    },
+    "A21_C7": {
+      "axis_id": 21,
+      "state_id": 7,
+      "name": "FKBP5/HGD-low",
+      "summary": "Down-regulation of FKBP5, HGD, TBC1D8 and FGD4 with near-zero positive effects; unclear functional identity.",
+      "evidence_genes": [
+        "ENSG00000096060.14",
+        "ENSG00000113924.11"
+      ]
+    },
+    "A21_C8": {
+      "axis_id": 21,
+      "state_id": 8,
+      "name": "DIAPH2/ELMO1-up, FKBP5-low",
+      "summary": "Modest up-regulation of DIAPH2, ELMO1 and CACNA1D with mild FKBP5 and SYBU down-regulation; weak, mixed signal.",
+      "evidence_genes": [
+        "ENSG00000147202.17",
+        "ENSG00000096060.14"
+      ]
+    },
+    "A21_C9": {
+      "axis_id": 21,
+      "state_id": 9,
+      "name": "PCDH9/FKBP5-low, CAPN2-up",
+      "summary": "Down-regulation of PCDH9, FKBP5, IQGAP2 and EPB41L4A with modest CAPN2 up-regulation; adhesion-low profile.",
+      "evidence_genes": [
+        "ENSG00000184226.14",
+        "ENSG00000096060.14"
+      ]
+    },
+    "A21_C10": {
+      "axis_id": 21,
+      "state_id": 10,
+      "name": "TNS3/IQGAP2-up",
+      "summary": "Up-regulation of TNS3, IQGAP2, HGD and PCDH9 with modest ITGB4 down-regulation; adhesion/cytoskeletal-associated.",
+      "evidence_genes": [
+        "ENSG00000136205.16",
+        "ENSG00000145703.15"
+      ]
+    },
+    "A21_C11": {
+      "axis_id": 21,
+      "state_id": 11,
+      "name": "FKBP5/EPB41L4A-low",
+      "summary": "Down-regulation of FKBP5, EPB41L4A, SDK2 and FGD4 with near-zero positive effects; unclear functional identity.",
+      "evidence_genes": [
+        "ENSG00000096060.14",
+        "ENSG00000129595.12"
+      ]
+    },
+    "A21_C12": {
+      "axis_id": 21,
+      "state_id": 12,
+      "name": "FKBP5/PCDH9-low",
+      "summary": "Down-regulation of FKBP5, PCDH9, TNS3 and ERRFI1 with negligible positive effects; broadly reduced adhesion-associated expression.",
+      "evidence_genes": [
+        "ENSG00000096060.14",
+        "ENSG00000184226.14"
+      ]
+    },
+    "A21_C13": {
+      "axis_id": 21,
+      "state_id": 13,
+      "name": "FKBP5/EPB41L4A-high",
+      "summary": "Strong up-regulation of FKBP5, EPB41L4A, SDK2 and PCDH9 with negligible negative effects; adhesion/cytoskeletal-associated profile.",
+      "evidence_genes": [
+        "ENSG00000096060.14",
+        "ENSG00000129595.12"
+      ]
+    },
+    "A21_C14": {
+      "axis_id": 21,
+      "state_id": 14,
+      "name": "PCDH9/BTBD11-up",
+      "summary": "Modest up-regulation of PCDH9, BTBD11, PHLDB2 and IQGAP2 with mild STOM and ITGB4 down-regulation; weak, mixed signal.",
+      "evidence_genes": [
+        "ENSG00000184226.14",
+        "ENSG00000151136.14"
+      ]
+    },
+    "A21_C15": {
+      "axis_id": 21,
+      "state_id": 15,
+      "name": "FKBP5/PCDH9-high",
+      "summary": "Strong up-regulation of FKBP5, PCDH9, SDK2 and SYBU with negligible negative effects; adhesion/cytoskeletal-associated profile.",
+      "evidence_genes": [
+        "ENSG00000096060.14",
+        "ENSG00000184226.14"
+      ]
+    },
+    "A22_C0": {
+      "axis_id": 22,
+      "state_id": 0,
+      "name": "Mitochondrial-encoded genes low",
+      "summary": "Strong negative association with mitochondrial-encoded oxidative phosphorylation transcripts; positive markers are weak and heterogeneous, so the functional interpretation is uncertain.",
+      "evidence_genes": [
+        "ENSG00000198727.2",
+        "ENSG00000198763.3"
+      ]
+    },
+    "A22_C1": {
+      "axis_id": 22,
+      "state_id": 1,
+      "name": "Mitochondrial transcripts mildly high",
+      "summary": "Mild positive association with mitochondrial-encoded respiratory transcripts, with small negative effects on other mitochondrial genes; overall signal is modest.",
+      "evidence_genes": [
+        "ENSG00000198727.2",
+        "ENSG00000198712.1"
+      ]
+    },
+    "A22_C2": {
+      "axis_id": 22,
+      "state_id": 2,
+      "name": "Mitochondrial transcripts high",
+      "summary": "Positive association with mitochondrial-encoded oxidative phosphorylation transcripts and negligible negative effects elsewhere; interpretation remains descriptive.",
+      "evidence_genes": [
+        "ENSG00000198938.2",
+        "ENSG00000198899.2"
+      ]
+    },
+    "A22_C3": {
+      "axis_id": 22,
+      "state_id": 3,
+      "name": "Mitochondrial transcripts moderately high",
+      "summary": "Moderate positive association with mitochondrial-encoded respiratory transcripts and small negative effects on iron/metabolism markers; uncertain biology.",
+      "evidence_genes": [
+        "ENSG00000198727.2",
+        "ENSG00000198938.2"
+      ]
+    },
+    "A22_C4": {
+      "axis_id": 22,
+      "state_id": 4,
+      "name": "Mitochondrial transcripts moderately high",
+      "summary": "Moderate positive association with mitochondrial-encoded respiratory transcripts and weak negative effects on adhesion/secretory markers; uncertain.",
+      "evidence_genes": [
+        "ENSG00000198899.2",
+        "ENSG00000198763.3"
+      ]
+    },
+    "A22_C5": {
+      "axis_id": 22,
+      "state_id": 5,
+      "name": "Mitochondrial transcripts low",
+      "summary": "Strong negative association with mitochondrial-encoded oxidative phosphorylation transcripts; positive markers are very weak, so function is unclear.",
+      "evidence_genes": [
+        "ENSG00000198938.2",
+        "ENSG00000198899.2"
+      ]
+    },
+    "A22_C6": {
+      "axis_id": 22,
+      "state_id": 6,
+      "name": "Mitochondrial transcripts mildly high",
+      "summary": "Mild positive association with mitochondrial-encoded respiratory transcripts and small negative effects on transport/adhesion markers; uncertain.",
+      "evidence_genes": [
+        "ENSG00000198938.2",
+        "ENSG00000198712.1"
+      ]
+    },
+    "A22_C7": {
+      "axis_id": 22,
+      "state_id": 7,
+      "name": "Mitochondrial transcripts high",
+      "summary": "Positive association with mitochondrial-encoded oxidative phosphorylation transcripts; negative effects are negligible, limiting functional interpretation.",
+      "evidence_genes": [
+        "ENSG00000198899.2",
+        "ENSG00000198727.2"
+      ]
+    },
+    "A22_C8": {
+      "axis_id": 22,
+      "state_id": 8,
+      "name": "Mitochondrial transcripts high",
+      "summary": "Positive association with mitochondrial-encoded respiratory transcripts and near-zero negative effects; biology is not well resolved.",
+      "evidence_genes": [
+        "ENSG00000198763.3",
+        "ENSG00000198727.2"
+      ]
+    },
+    "A22_C9": {
+      "axis_id": 22,
+      "state_id": 9,
+      "name": "Mitochondrial transcripts high",
+      "summary": "Positive association with mitochondrial-encoded oxidative phosphorylation transcripts and negligible negative effects; interpretation uncertain.",
+      "evidence_genes": [
+        "ENSG00000198763.3",
+        "ENSG00000198727.2"
+      ]
+    },
+    "A22_C10": {
+      "axis_id": 22,
+      "state_id": 10,
+      "name": "Mitochondrial transcripts low",
+      "summary": "Negative association with mitochondrial-encoded respiratory transcripts; positive markers are weak and heterogeneous, so function is unclear.",
+      "evidence_genes": [
+        "ENSG00000198727.2",
+        "ENSG00000198938.2"
+      ]
+    },
+    "A22_C11": {
+      "axis_id": 22,
+      "state_id": 11,
+      "name": "Mitochondrial transcripts low",
+      "summary": "Strong negative association with mitochondrial-encoded oxidative phosphorylation transcripts; positive markers are very weak, limiting interpretation.",
+      "evidence_genes": [
+        "ENSG00000198899.2",
+        "ENSG00000228253.1"
+      ]
+    },
+    "A22_C12": {
+      "axis_id": 22,
+      "state_id": 12,
+      "name": "Mitochondrial transcripts low, adhesion up",
+      "summary": "Negative association with mitochondrial-encoded respiratory transcripts alongside weak positive adhesion/secretory markers; uncertain biology.",
+      "evidence_genes": [
+        "ENSG00000150687.11",
+        "ENSG00000198727.2"
+      ]
+    },
+    "A22_C13": {
+      "axis_id": 22,
+      "state_id": 13,
+      "name": "Mitochondrial transcripts low",
+      "summary": "Negative association with mitochondrial-encoded oxidative phosphorylation transcripts; positive markers are very weak, so function is unclear.",
+      "evidence_genes": [
+        "ENSG00000198938.2",
+        "ENSG00000198899.2"
+      ]
+    },
+    "A22_C14": {
+      "axis_id": 22,
+      "state_id": 14,
+      "name": "Mitochondrial transcripts mildly high",
+      "summary": "Mild positive association with mitochondrial-encoded respiratory transcripts and small negative effects on adhesion/metabolism markers; uncertain.",
+      "evidence_genes": [
+        "ENSG00000198899.2",
+        "ENSG00000228253.1"
+      ]
+    },
+    "A22_C15": {
+      "axis_id": 22,
+      "state_id": 15,
+      "name": "Mitochondrial transcripts high",
+      "summary": "Positive association with mitochondrial-encoded oxidative phosphorylation transcripts and small negative effects on transport/adhesion markers; uncertain.",
+      "evidence_genes": [
+        "ENSG00000198938.2",
+        "ENSG00000198899.2"
+      ]
+    },
+    "A23_C0": {
+      "axis_id": 23,
+      "state_id": 0,
+      "name": "GOLGA4/USP15-low state",
+      "summary": "Few strong positive markers; negative associations with GOLGA4, USP15, CRIM1 and AFF4. Weak, uncertain signal.",
+      "evidence_genes": [
+        "ENSG00000144674.16",
+        "ENSG00000135655.15"
+      ]
+    },
+    "A23_C1": {
+      "axis_id": 23,
+      "state_id": 1,
+      "name": "RYBP/SERTAD2-high state",
+      "summary": "Modest positive RYBP, SERTAD2 and CERS6 associations with mild negative NCEH1/ATAD1; weak overall.",
+      "evidence_genes": [
+        "ENSG00000163602.10",
+        "ENSG00000179833.4"
+      ]
+    },
+    "A23_C2": {
+      "axis_id": 23,
+      "state_id": 2,
+      "name": "HIF1A-AS2-high state",
+      "summary": "Strong positive associations with HIF1A-AS2, SERTAD2, RYBP, USP15 and CRIM1; no down genes listed.",
+      "evidence_genes": [
+        "ENSG00000258667.1",
+        "ENSG00000179833.4"
+      ]
+    },
+    "A23_C3": {
+      "axis_id": 23,
+      "state_id": 3,
+      "name": "RALGAPB/AFF4-high state",
+      "summary": "Mild positive RALGAPB, AFF4, RIC1 and GSK3B with negative SERTAD2 and TAF3; modest, uncertain.",
+      "evidence_genes": [
+        "ENSG00000170471.14",
+        "ENSG00000072364.12"
+      ]
+    },
+    "A23_C4": {
+      "axis_id": 23,
+      "state_id": 4,
+      "name": "TNFRSF10D/PSME4-high state",
+      "summary": "Positive TNFRSF10D and PSME4 associations; negative HIF1A-AS2, PPP2R2A and CRIM1. Moderate strength.",
+      "evidence_genes": [
+        "ENSG00000173530.5",
+        "ENSG00000068878.14"
+      ]
+    },
+    "A23_C5": {
+      "axis_id": 23,
+      "state_id": 5,
+      "name": "GOLGA4/USP15-low state",
+      "summary": "Negligible positive markers; negative GOLGA4, USP15, ARIH1 and SERTAD2 associations. Weak signal.",
+      "evidence_genes": [
+        "ENSG00000144674.16",
+        "ENSG00000135655.15"
+      ]
+    },
+    "A23_C6": {
+      "axis_id": 23,
+      "state_id": 6,
+      "name": "broadly down-weighted state",
+      "summary": "No positive markers; negative TAF3, USP15, PSME4, SERTAD2 and RYBP associations. Uncertain interpretation.",
+      "evidence_genes": [
+        "ENSG00000165632.7",
+        "ENSG00000135655.15"
+      ]
+    },
+    "A23_C7": {
+      "axis_id": 23,
+      "state_id": 7,
+      "name": "RBM25/IWS1-high state",
+      "summary": "Very small positive RBM25/IWS1 effects; negative HIF1A-AS2, MARK3 and CRIM1. Weak, unclear.",
+      "evidence_genes": [
+        "ENSG00000119707.13",
+        "ENSG00000163166.14"
+      ]
+    },
+    "A23_C8": {
+      "axis_id": 23,
+      "state_id": 8,
+      "name": "EPB41L2/TAF3-high state",
+      "summary": "Mild positive EPB41L2, TAF3 and ADAM17; negative TNFRSF10D, GOLGA4 and KMT2C. Modest, uncertain.",
+      "evidence_genes": [
+        "ENSG00000079819.18",
+        "ENSG00000165632.7"
+      ]
+    },
+    "A23_C9": {
+      "axis_id": 23,
+      "state_id": 9,
+      "name": "USP15/GOLGA4-high state",
+      "summary": "Positive USP15, GOLGA4, FAM13B, TAF3 and CRIM1; down genes negligible. Moderate positive signal.",
+      "evidence_genes": [
+        "ENSG00000135655.15",
+        "ENSG00000144674.16"
+      ]
+    },
+    "A23_C10": {
+      "axis_id": 23,
+      "state_id": 10,
+      "name": "CRIM1-high state",
+      "summary": "Strong positive CRIM1 with SPRED2, FAM13B and KMT2C; negative MEF2A and TOP1. Moderate, uncertain.",
+      "evidence_genes": [
+        "ENSG00000150938.9",
+        "ENSG00000198369.9"
+      ]
+    },
+    "A23_C11": {
+      "axis_id": 23,
+      "state_id": 11,
+      "name": "RALGAPB/USP15-high state",
+      "summary": "Mild positive RALGAPB, USP15 and KAT6A; negative SERTAD2, TNFRSF10D and IER3. Modest, uncertain.",
+      "evidence_genes": [
+        "ENSG00000170471.14",
+        "ENSG00000135655.15"
+      ]
+    },
+    "A23_C12": {
+      "axis_id": 23,
+      "state_id": 12,
+      "name": "SERTAD2/RYBP-high state",
+      "summary": "Strong positive SERTAD2, RYBP, TNFRSF10D and TAF3; down genes negligible. Clear positive profile.",
+      "evidence_genes": [
+        "ENSG00000179833.4",
+        "ENSG00000163602.10"
+      ]
+    },
+    "A23_C13": {
+      "axis_id": 23,
+      "state_id": 13,
+      "name": "CRIM1-high state",
+      "summary": "Small positive CRIM1, BZW2 and GOLIM4; negative HIF1A-AS2, TAF3 and FAM13B. Weak, uncertain.",
+      "evidence_genes": [
+        "ENSG00000150938.9",
+        "ENSG00000258667.1"
+      ]
+    },
+    "A23_C14": {
+      "axis_id": 23,
+      "state_id": 14,
+      "name": "KLHDC10/FBXW7-high state",
+      "summary": "Small positive KLHDC10 and FBXW7; negative RALGAPB, RYBP, FAR1 and SERTAD2. Weak, unclear.",
+      "evidence_genes": [
+        "ENSG00000128607.13",
+        "ENSG00000109670.13"
+      ]
+    },
+    "A23_C15": {
+      "axis_id": 23,
+      "state_id": 15,
+      "name": "USP15/TAF3-low state",
+      "summary": "Negligible positive markers; negative USP15, TAF3, RAB1A and SERTAD2 associations. Weak signal.",
+      "evidence_genes": [
+        "ENSG00000135655.15",
+        "ENSG00000165632.7"
+      ]
+    },
+    "A24_C0": {
+      "axis_id": 24,
+      "state_id": 0,
+      "name": "Low proliferation, DNA-repair genes up",
+      "summary": "Proliferation markers TOP2A and MKI67 are down while DNA-repair/replication genes are modestly up; consistent with a less cycling state, though effects are small.",
+      "evidence_genes": [
+        "ENSG00000131747.14",
+        "ENSG00000148773.13"
+      ]
+    },
+    "A24_C1": {
+      "axis_id": 24,
+      "state_id": 1,
+      "name": "Replication/repair program up",
+      "summary": "Strong up-shift in replication and repair genes (BRIP1, ATAD2, CEP128) with negligible down effects; suggests an active replication-associated state.",
+      "evidence_genes": [
+        "ENSG00000136492.8",
+        "ENSG00000156802.12"
+      ]
+    },
+    "A24_C2": {
+      "axis_id": 24,
+      "state_id": 2,
+      "name": "Low proliferation, weak up signal",
+      "summary": "Proliferation markers MKI67, CENPF and TOP2A are down with only tiny positive effects; a low-cycling state with weak evidence.",
+      "evidence_genes": [
+        "ENSG00000148773.13",
+        "ENSG00000117724.12"
+      ]
+    },
+    "A24_C3": {
+      "axis_id": 24,
+      "state_id": 3,
+      "name": "Mixed replication/repair signals",
+      "summary": "Modest up of CEP128 and POLA1 alongside mild down of ASPM and MKI67; mixed and weak, function unclear.",
+      "evidence_genes": [
+        "ENSG00000100629.16",
+        "ENSG00000101868.10"
+      ]
+    },
+    "A24_C4": {
+      "axis_id": 24,
+      "state_id": 4,
+      "name": "Low proliferation, negligible up",
+      "summary": "Proliferation genes ASPM, MKI67 and TOP2A are down while positive effects are near zero; low-cycling state with weak positive evidence.",
+      "evidence_genes": [
+        "ENSG00000066279.17",
+        "ENSG00000148773.13"
+      ]
+    },
+    "A24_C5": {
+      "axis_id": 24,
+      "state_id": 5,
+      "name": "Low proliferation, sparse up",
+      "summary": "Only RTTN is modestly up while TOP2A, ASPM and CENPF are down; sparse evidence for a low-cycling state.",
+      "evidence_genes": [
+        "ENSG00000176225.13",
+        "ENSG00000131747.14"
+      ]
+    },
+    "A24_C6": {
+      "axis_id": 24,
+      "state_id": 6,
+      "name": "Replication/repair up, low down",
+      "summary": "Strong up of AC016205.1, BRIP1, DIAPH3 and POLA1 with minimal down effects; replication/repair-associated, though marker set is limited.",
+      "evidence_genes": [
+        "ENSG00000267374.1",
+        "ENSG00000136492.8"
+      ]
+    },
+    "A24_C7": {
+      "axis_id": 24,
+      "state_id": 7,
+      "name": "Mild replication up, mitotic down",
+      "summary": "Modest up of POLA1 and BRIP1 with mild down of CENPE and KIF20B; weak, mixed mitotic/replication signal.",
+      "evidence_genes": [
+        "ENSG00000101868.10",
+        "ENSG00000138778.11"
+      ]
+    },
+    "A24_C8": {
+      "axis_id": 24,
+      "state_id": 8,
+      "name": "Low proliferation, negligible up",
+      "summary": "CENPF, MKI67 and TOP2A are down with essentially no positive effects; low-cycling state with weak positive evidence.",
+      "evidence_genes": [
+        "ENSG00000117724.12",
+        "ENSG00000148773.13"
+      ]
+    },
+    "A24_C9": {
+      "axis_id": 24,
+      "state_id": 9,
+      "name": "High proliferation program",
+      "summary": "Strong coordinated up of TOP2A, MKI67, CENPE and CENPF with almost no down effects; a clear proliferation-associated state.",
+      "evidence_genes": [
+        "ENSG00000131747.14",
+        "ENSG00000148773.13"
+      ]
+    },
+    "A24_C10": {
+      "axis_id": 24,
+      "state_id": 10,
+      "name": "Proliferation up, repair down",
+      "summary": "CENPF, MKI67 and TOP2A are up while AC016205.1 and BRIP1 are down; proliferation-associated with reduced repair markers.",
+      "evidence_genes": [
+        "ENSG00000117724.12",
+        "ENSG00000148773.13"
+      ]
+    },
+    "A24_C11": {
+      "axis_id": 24,
+      "state_id": 11,
+      "name": "Low proliferation, weak up",
+      "summary": "TOP2A, MKI67 and TPX2 are down with only tiny positive effects; low-cycling state with weak evidence.",
+      "evidence_genes": [
+        "ENSG00000131747.14",
+        "ENSG00000148773.13"
+      ]
+    },
+    "A24_C12": {
+      "axis_id": 24,
+      "state_id": 12,
+      "name": "Low proliferation, weak up",
+      "summary": "TOP2A, MKI67 and CENPF are down with small positive effects; low-cycling state, function unclear.",
+      "evidence_genes": [
+        "ENSG00000131747.14",
+        "ENSG00000148773.13"
+      ]
+    },
+    "A24_C13": {
+      "axis_id": 24,
+      "state_id": 13,
+      "name": "High proliferation program",
+      "summary": "Strong up of MKI67, ASPM, TOP2A and CENPF with negligible down effects; a clear proliferation-associated state.",
+      "evidence_genes": [
+        "ENSG00000148773.13",
+        "ENSG00000066279.17"
+      ]
+    },
+    "A24_C14": {
+      "axis_id": 24,
+      "state_id": 14,
+      "name": "Low proliferation, no up signal",
+      "summary": "CENPF, MKI67 and TOP2A are down with no positive genes listed; low-cycling state, limited evidence.",
+      "evidence_genes": [
+        "ENSG00000117724.12",
+        "ENSG00000148773.13"
+      ]
+    },
+    "A24_C15": {
+      "axis_id": 24,
+      "state_id": 15,
+      "name": "Low proliferation, weak up",
+      "summary": "CENPP, ASPM and CENPF are down with only a negligible positive effect; low-cycling state with weak evidence.",
+      "evidence_genes": [
+        "ENSG00000188312.13",
+        "ENSG00000066279.17"
+      ]
+    },
+    "A25_C0": {
+      "axis_id": 25,
+      "state_id": 0,
+      "name": "PPP6R3/ITCH-high, weak down",
+      "summary": "Modest positive associations with PPP6R3, ITCH, VMP1 and PTPRA; negative evidence is very small, so the functional interpretation is unclear.",
+      "evidence_genes": [
+        "ENSG00000110075.14",
+        "ENSG00000078747.14"
+      ]
+    },
+    "A25_C1": {
+      "axis_id": 25,
+      "state_id": 1,
+      "name": "TXNRD1/ROCK2-low",
+      "summary": "Strong negative associations with TXNRD1, ROCK2, TCF7L2 and RERE, with only weak positive markers; suggests reduced expression of these genes relative to the axis average.",
+      "evidence_genes": [
+        "ENSG00000198431.15",
+        "ENSG00000134318.13"
+      ]
+    },
+    "A25_C2": {
+      "axis_id": 25,
+      "state_id": 2,
+      "name": "ROCK2/TXNRD1-high",
+      "summary": "Positive associations with ROCK2, TXNRD1, ARHGAP35 and ACACA; negative markers are modest, so the biological theme is uncertain.",
+      "evidence_genes": [
+        "ENSG00000134318.13",
+        "ENSG00000198431.15"
+      ]
+    },
+    "A25_C3": {
+      "axis_id": 25,
+      "state_id": 3,
+      "name": "KMT2A/PPP6R3-low",
+      "summary": "Strong negative associations with KMT2A, PPP6R3, CEP350 and UBE2D2, while positive markers are near zero; interpretation remains unclear.",
+      "evidence_genes": [
+        "ENSG00000118058.20",
+        "ENSG00000110075.14"
+      ]
+    },
+    "A25_C4": {
+      "axis_id": 25,
+      "state_id": 4,
+      "name": "HERC2/ACACA-high, weak down",
+      "summary": "Modest positive associations with HERC2, FAM208B, ACACA and SPEN; negative evidence is comparatively weak, limiting interpretation.",
+      "evidence_genes": [
+        "ENSG00000128731.15",
+        "ENSG00000278540.4"
+      ]
+    },
+    "A25_C5": {
+      "axis_id": 25,
+      "state_id": 5,
+      "name": "RAP1B/LRP6-high, KMT2A-low",
+      "summary": "Positive associations with RAP1B and LRP6 alongside negative associations with KMT2A, NUFIP2 and ROCK2; mixed pattern with unclear function.",
+      "evidence_genes": [
+        "ENSG00000127314.17",
+        "ENSG00000118058.20"
+      ]
+    },
+    "A25_C6": {
+      "axis_id": 25,
+      "state_id": 6,
+      "name": "TXNRD1/RERE/ITCH-high",
+      "summary": "Strong positive associations with TXNRD1, RERE, ITCH and ROCK2, with minimal negative evidence; suggests elevated expression of these genes.",
+      "evidence_genes": [
+        "ENSG00000198431.15",
+        "ENSG00000142599.17"
+      ]
+    },
+    "A25_C7": {
+      "axis_id": 25,
+      "state_id": 7,
+      "name": "CDK12/GLG1-low",
+      "summary": "Negative associations with CDK12, GLG1, LRP6 and CEP350, with weak positive markers; functional interpretation is unclear.",
+      "evidence_genes": [
+        "ENSG00000167258.13",
+        "ENSG00000090863.11"
+      ]
+    },
+    "A25_C8": {
+      "axis_id": 25,
+      "state_id": 8,
+      "name": "KMT2A/TXNRD1-low",
+      "summary": "Strong negative associations with KMT2A, TXNRD1, RERE and NPLOC4, while positive markers are near zero; suggests reduced expression of these genes.",
+      "evidence_genes": [
+        "ENSG00000118058.20",
+        "ENSG00000198431.15"
+      ]
+    },
+    "A25_C9": {
+      "axis_id": 25,
+      "state_id": 9,
+      "name": "SRPK1/PPP6R3-low",
+      "summary": "Negative associations with SRPK1, PPP6R3, TXNRD1 and CDK12, with negligible positive evidence; interpretation remains unclear.",
+      "evidence_genes": [
+        "ENSG00000096063.15",
+        "ENSG00000110075.14"
+      ]
+    },
+    "A25_C10": {
+      "axis_id": 25,
+      "state_id": 10,
+      "name": "SRPK1/SMARCC1/PPP6R3-high",
+      "summary": "Positive associations with SRPK1, SMARCC1, PPP6R3 and CEP350, with minimal negative evidence; suggests elevated expression of these genes.",
+      "evidence_genes": [
+        "ENSG00000096063.15",
+        "ENSG00000173473.10"
+      ]
+    },
+    "A25_C11": {
+      "axis_id": 25,
+      "state_id": 11,
+      "name": "PPP6R3-high, ITCH/UBE3C-low",
+      "summary": "Modest positive associations with PPP6R3 and KIAA1958 alongside negative associations with ANKIB1, ITCH and UBE3C; mixed and unclear.",
+      "evidence_genes": [
+        "ENSG00000110075.14",
+        "ENSG00000078747.14"
+      ]
+    },
+    "A25_C12": {
+      "axis_id": 25,
+      "state_id": 12,
+      "name": "KMT2A/TXNRD1/CEP290-high",
+      "summary": "Strong positive associations with KMT2A, TXNRD1, CEP290 and SRPK1, with negligible negative evidence; suggests elevated expression of these genes.",
+      "evidence_genes": [
+        "ENSG00000118058.20",
+        "ENSG00000198431.15"
+      ]
+    },
+    "A25_C13": {
+      "axis_id": 25,
+      "state_id": 13,
+      "name": "PPP6R3/TXNRD1-high",
+      "summary": "Positive associations with PPP6R3, TXNRD1, RALGAPA1 and FAF2, with near-zero negative markers; functional theme is uncertain.",
+      "evidence_genes": [
+        "ENSG00000110075.14",
+        "ENSG00000198431.15"
+      ]
+    },
+    "A25_C14": {
+      "axis_id": 25,
+      "state_id": 14,
+      "name": "TXNRD1/PPP6R3/ITCH-low",
+      "summary": "Strong negative associations with TXNRD1, PPP6R3, ITCH and NUFIP2, with negligible positive evidence; suggests reduced expression of these genes.",
+      "evidence_genes": [
+        "ENSG00000198431.15",
+        "ENSG00000110075.14"
+      ]
+    },
+    "A25_C15": {
+      "axis_id": 25,
+      "state_id": 15,
+      "name": "SLC4A7/KMT2A-high",
+      "summary": "Positive associations with SLC4A7, KMT2A, ASXL2 and GRAMD1B, with modest negative markers; interpretation remains unclear.",
+      "evidence_genes": [
+        "ENSG00000033867.16",
+        "ENSG00000118058.20"
+      ]
+    },
+    "A26_C0": {
+      "axis_id": 26,
+      "state_id": 0,
+      "name": "Neuronal MAP2/PTEN-high state",
+      "summary": "Up MALAT1, PTEN, MAP2 and RORA with negligible down genes; weak evidence for a neuronal-like profile, uncertain.",
+      "evidence_genes": [
+        "ENSG00000078018.19",
+        "ENSG00000171862.10"
+      ]
+    },
+    "A26_C1": {
+      "axis_id": 26,
+      "state_id": 1,
+      "name": "MALAT1/NEAT1 neuronal state",
+      "summary": "Up MALAT1, NEAT1, MAP2 and synaptic PCLO with only tiny down effects; uncertain neuronal-associated state.",
+      "evidence_genes": [
+        "ENSG00000278217.1",
+        "ENSG00000245532.7"
+      ]
+    },
+    "A26_C2": {
+      "axis_id": 26,
+      "state_id": 2,
+      "name": "Synaptic SYT1/PLCB1 state",
+      "summary": "Up SYT1, PLCB1, RORA and NEAT1 with minimal down effects; weak synaptic/neuronal association.",
+      "evidence_genes": [
+        "ENSG00000067715.13",
+        "ENSG00000182621.17"
+      ]
+    },
+    "A26_C3": {
+      "axis_id": 26,
+      "state_id": 3,
+      "name": "MALAT1/NEAT1-low state",
+      "summary": "Strong down MALAT1, NEAT1, SYT1 and SMYD3 with near-zero up effects; unclear function.",
+      "evidence_genes": [
+        "ENSG00000278217.1",
+        "ENSG00000245532.7"
+      ]
+    },
+    "A26_C4": {
+      "axis_id": 26,
+      "state_id": 4,
+      "name": "SYT1/NEAT1 up state",
+      "summary": "Modest up SYT1, NEAT1, MALAT1 and ARHGAP26 with modest down CADM1/DNM3; weak, uncertain.",
+      "evidence_genes": [
+        "ENSG00000067715.13",
+        "ENSG00000245532.7"
+      ]
+    },
+    "A26_C5": {
+      "axis_id": 26,
+      "state_id": 5,
+      "name": "MALAT1/CBLB up state",
+      "summary": "Up MALAT1, CBLB, VPS13C and NEAT1 with modest down LUCAT1 and SYT1; unclear function.",
+      "evidence_genes": [
+        "ENSG00000278217.1",
+        "ENSG00000114423.18"
+      ]
+    },
+    "A26_C6": {
+      "axis_id": 26,
+      "state_id": 6,
+      "name": "MALAT1 up, AC008014 down",
+      "summary": "Up MALAT1/NEAT1 but down AC008014.1, USP25 and MAN1A2; mixed weak evidence, unclear.",
+      "evidence_genes": [
+        "ENSG00000278217.1",
+        "ENSG00000257261.5"
+      ]
+    },
+    "A26_C7": {
+      "axis_id": 26,
+      "state_id": 7,
+      "name": "MALAT1/NEAT1-low state",
+      "summary": "Down MALAT1, NEAT1, CBLB and SYT1 with only tiny up effects; unclear function.",
+      "evidence_genes": [
+        "ENSG00000278217.1",
+        "ENSG00000245532.7"
+      ]
+    },
+    "A26_C8": {
+      "axis_id": 26,
+      "state_id": 8,
+      "name": "SYT1/NEAT1-low state",
+      "summary": "Down SYT1, NEAT1, MACROD2 and AC008014.1 with negligible up effects; unclear.",
+      "evidence_genes": [
+        "ENSG00000067715.13",
+        "ENSG00000245532.7"
+      ]
+    },
+    "A26_C9": {
+      "axis_id": 26,
+      "state_id": 9,
+      "name": "MALAT1/NEAT1-low, CTGF up",
+      "summary": "Down MALAT1, NEAT1, SYT1 and RORA with tiny up CTGF/SAT1; weak, uncertain.",
+      "evidence_genes": [
+        "ENSG00000278217.1",
+        "ENSG00000118523.5"
+      ]
+    },
+    "A26_C10": {
+      "axis_id": 26,
+      "state_id": 10,
+      "name": "NEAT1/MALAT1-high state",
+      "summary": "Up NEAT1, MALAT1, VPS13C and SYT1 with modest down TMTC2/MAP2; unclear function.",
+      "evidence_genes": [
+        "ENSG00000245532.7",
+        "ENSG00000278217.1"
+      ]
+    },
+    "A26_C11": {
+      "axis_id": 26,
+      "state_id": 11,
+      "name": "NEAT1/AC008014 up state",
+      "summary": "Up NEAT1, AC008014.1, MALAT1 and RORA with negligible down effects; weak, uncertain.",
+      "evidence_genes": [
+        "ENSG00000245532.7",
+        "ENSG00000257261.5"
+      ]
+    },
+    "A26_C12": {
+      "axis_id": 26,
+      "state_id": 12,
+      "name": "MALAT1/NEAT1-low state",
+      "summary": "Down MALAT1, NEAT1, RORA and TRAPPC9 with only tiny up effects; unclear function.",
+      "evidence_genes": [
+        "ENSG00000278217.1",
+        "ENSG00000245532.7"
+      ]
+    },
+    "A26_C13": {
+      "axis_id": 26,
+      "state_id": 13,
+      "name": "MALAT1/EXOC6B up state",
+      "summary": "Up MALAT1, EXOC6B, TANC2 and CADM1 with modest down PLEKHH2/RORA; weak, uncertain.",
+      "evidence_genes": [
+        "ENSG00000278217.1",
+        "ENSG00000144036.15"
+      ]
+    },
+    "A26_C14": {
+      "axis_id": 26,
+      "state_id": 14,
+      "name": "AC138305/MACROD2 up state",
+      "summary": "Up AC138305.1, MACROD2, SMYD3 and LUCAT1 with modest down MALAT1/PTEN; unclear.",
+      "evidence_genes": [
+        "ENSG00000260658.5",
+        "ENSG00000172264.16"
+      ]
+    },
+    "A26_C15": {
+      "axis_id": 26,
+      "state_id": 15,
+      "name": "NEAT1/MALAT1-low state",
+      "summary": "Down NEAT1, MALAT1, LIPE-AS1 and SYT1 with small up RARB/CADM2; unclear function.",
+      "evidence_genes": [
+        "ENSG00000245532.7",
+        "ENSG00000278217.1"
+      ]
+    },
+    "A27_C0": {
+      "axis_id": 27,
+      "state_id": 0,
+      "name": "EGFR-low, SETBP1-high",
+      "summary": "Weak positive SETBP1/NDRG1 signal with stronger negative EGFR/BICC1/DCBLD2 associations; overall effect magnitudes are modest.",
+      "evidence_genes": [
+        "ENSG00000152217.16",
+        "ENSG00000146648.17"
+      ]
+    },
+    "A27_C1": {
+      "axis_id": 27,
+      "state_id": 1,
+      "name": "BICC1/EGFR-high, matrix-low",
+      "summary": "Mild positive BICC1, WWC1, EGFR and DCBLD2 with negative TGFBI/PLOD2/PCSK5; effects are small and mixed.",
+      "evidence_genes": [
+        "ENSG00000122870.11",
+        "ENSG00000120708.16"
+      ]
+    },
+    "A27_C2": {
+      "axis_id": 27,
+      "state_id": 2,
+      "name": "EGFR/TGFBI/BICC1-high",
+      "summary": "Strong coordinated positive EGFR, TGFBI, BICC1, SLC35F3 and TRAM1 with negligible negative genes; a distinct high-signal state.",
+      "evidence_genes": [
+        "ENSG00000146648.17",
+        "ENSG00000120708.16"
+      ]
+    },
+    "A27_C3": {
+      "axis_id": 27,
+      "state_id": 3,
+      "name": "EGFR/BICC1-low, weak up",
+      "summary": "Negative GRIN2B, BICC1, NTRK3, INPP4B and EGFR with only weak positive ZFP36L1; unclear function.",
+      "evidence_genes": [
+        "ENSG00000122870.11",
+        "ENSG00000146648.17"
+      ]
+    },
+    "A27_C4": {
+      "axis_id": 27,
+      "state_id": 4,
+      "name": "HIF1A/DCBLD2-high",
+      "summary": "Strong positive HIF1A, DCBLD2, TGFBR2, EGFR and WWC1 with minimal negative signal; hypoxia/ECM-associated pattern.",
+      "evidence_genes": [
+        "ENSG00000100644.16",
+        "ENSG00000057019.15"
+      ]
+    },
+    "A27_C5": {
+      "axis_id": 27,
+      "state_id": 5,
+      "name": "NTRK3/BICC1/TGFBI-high",
+      "summary": "Strong positive NTRK3, BICC1, TGFBI, GRIN2B and TRAM1 with negligible negative genes; high-signal state.",
+      "evidence_genes": [
+        "ENSG00000140538.16",
+        "ENSG00000122870.11"
+      ]
+    },
+    "A27_C6": {
+      "axis_id": 27,
+      "state_id": 6,
+      "name": "TGFBI/SEMA3C-high, HIF1A-low",
+      "summary": "Modest positive TGFBI, SEMA3C, GALNT10 and RDX with negative HIF1A, NTRK3 and BCL2L1; mixed weak pattern.",
+      "evidence_genes": [
+        "ENSG00000120708.16",
+        "ENSG00000100644.16"
+      ]
+    },
+    "A27_C7": {
+      "axis_id": 27,
+      "state_id": 7,
+      "name": "TGFBI/EGFR-low",
+      "summary": "Negative TGFBI, EGFR, RDX, BCL2L1 and JAG1 with only weak positive ANK3/PCSK5; unclear function.",
+      "evidence_genes": [
+        "ENSG00000120708.16",
+        "ENSG00000146648.17"
+      ]
+    },
+    "A27_C8": {
+      "axis_id": 27,
+      "state_id": 8,
+      "name": "DCBLD2/BICC1/HIF1A-low",
+      "summary": "Strong negative DCBLD2, BICC1, HIF1A, EGFR and TGFBI with negligible positive DDIT4/INSIG1; low-signal state.",
+      "evidence_genes": [
+        "ENSG00000057019.15",
+        "ENSG00000122870.11"
+      ]
+    },
+    "A27_C9": {
+      "axis_id": 27,
+      "state_id": 9,
+      "name": "BCL2L1/EGFR-high, DCBLD2-low",
+      "summary": "Positive BCL2L1, EGFR, CAMK1D and TRAM1 with negative DCBLD2 and RNF43; moderate mixed signal.",
+      "evidence_genes": [
+        "ENSG00000171552.12",
+        "ENSG00000146648.17"
+      ]
+    },
+    "A27_C10": {
+      "axis_id": 27,
+      "state_id": 10,
+      "name": "GRIN2B/HIF1A/RNF43-high",
+      "summary": "Modest positive GRIN2B, HIF1A, RNF43, CDK6 and TGFBR2 with negative TRAM1/JAG1; weak mixed pattern.",
+      "evidence_genes": [
+        "ENSG00000273079.5",
+        "ENSG00000100644.16"
+      ]
+    },
+    "A27_C11": {
+      "axis_id": 27,
+      "state_id": 11,
+      "name": "EGFR/TGFBI/BCL2L1-low",
+      "summary": "Strong negative EGFR, TGFBI, BCL2L1, TRAM1 and BICC1 with negligible positive MT1X/KLHL29; low-signal state.",
+      "evidence_genes": [
+        "ENSG00000146648.17",
+        "ENSG00000120708.16"
+      ]
+    },
+    "A27_C12": {
+      "axis_id": 27,
+      "state_id": 12,
+      "name": "TRAM1/EGFR/DCBLD2-low",
+      "summary": "Strong negative TRAM1, EGFR, DCBLD2, HIF1A and BCL2L1 with negligible positive ID1/CADM2; low-signal state.",
+      "evidence_genes": [
+        "ENSG00000067167.7",
+        "ENSG00000146648.17"
+      ]
+    },
+    "A27_C13": {
+      "axis_id": 27,
+      "state_id": 13,
+      "name": "NTRK3/DCBLD2/GRIN2B-high",
+      "summary": "Strong positive NTRK3, DCBLD2, GRIN2B, BICC1 and WWC1 with negligible negative genes; high-signal state.",
+      "evidence_genes": [
+        "ENSG00000140538.16",
+        "ENSG00000057019.15"
+      ]
+    },
+    "A27_C14": {
+      "axis_id": 27,
+      "state_id": 14,
+      "name": "NTRK3/TRAM1/TGFBI-high",
+      "summary": "Strong positive NTRK3, TRAM1, TGFBI, BICC1 and RDX with negligible negative genes; high-signal state.",
+      "evidence_genes": [
+        "ENSG00000140538.16",
+        "ENSG00000067167.7"
+      ]
+    },
+    "A27_C15": {
+      "axis_id": 27,
+      "state_id": 15,
+      "name": "TGFBI/BICC1/NTRK3-low",
+      "summary": "Negative TGFBI, BICC1, JAG1, NTRK3 and CDK6 with weak positive IGFL2-AS1/MUC5B; unclear function.",
+      "evidence_genes": [
+        "ENSG00000120708.16",
+        "ENSG00000122870.11"
+      ]
+    },
+    "A28_C0": {
+      "axis_id": 28,
+      "state_id": 0,
+      "name": "Weak mixed, JPT1/ARL6IP1 down",
+      "summary": "Few small positive effects; modest negative associations with JPT1, ARL6IP1, and TFPI2. Evidence is weak and function unclear.",
+      "evidence_genes": [
+        "ENSG00000189159.15",
+        "ENSG00000170540.14"
+      ]
+    },
+    "A28_C1": {
+      "axis_id": 28,
+      "state_id": 1,
+      "name": "Stress/ER-associated down state",
+      "summary": "No positive markers; negative associations with SQSTM1, HSPA5, CALU, and TIMP2 suggest reduced stress/secretory programs, but evidence is limited.",
+      "evidence_genes": [
+        "ENSG00000161011.19",
+        "ENSG00000044574.7"
+      ]
+    },
+    "A28_C2": {
+      "axis_id": 28,
+      "state_id": 2,
+      "name": "Weak mixed, SQSTM1/TFPI2 down",
+      "summary": "Very small positive effects; negative associations with SQSTM1, TFPI2, and H1FX. Function unclear from sparse evidence.",
+      "evidence_genes": [
+        "ENSG00000161011.19",
+        "ENSG00000105825.11"
+      ]
+    },
+    "A28_C3": {
+      "axis_id": 28,
+      "state_id": 3,
+      "name": "Weak mixed, SAT1/CTGF down",
+      "summary": "Small positive effects on GGH, CLTC, and others; negative associations with SAT1, CTGF, and CAVIN1. Weak, nonspecific pattern.",
+      "evidence_genes": [
+        "ENSG00000130066.16",
+        "ENSG00000118523.5"
+      ]
+    },
+    "A28_C4": {
+      "axis_id": 28,
+      "state_id": 4,
+      "name": "H1FX/UBB/TUBA1A up",
+      "summary": "Positive associations with H1FX, UBB, TUBA1A, and EIF4A3; modest negative CTGF. Suggests chromatin/cytoskeletal-related program but uncertain.",
+      "evidence_genes": [
+        "ENSG00000184897.5",
+        "ENSG00000170315.13"
+      ]
+    },
+    "A28_C5": {
+      "axis_id": 28,
+      "state_id": 5,
+      "name": "SQSTM1/NORAD up, ARL6IP1 down",
+      "summary": "Positive associations with SQSTM1, NORAD, and SAT1; negative with ARL6IP1 and PEG10. Mixed stress/autophagy-linked pattern, low confidence.",
+      "evidence_genes": [
+        "ENSG00000161011.19",
+        "ENSG00000170540.14"
+      ]
+    },
+    "A28_C6": {
+      "axis_id": 28,
+      "state_id": 6,
+      "name": "TFPI2/CAVIN1/GPRC5A up",
+      "summary": "Positive associations with TFPI2, CAVIN1, GPRC5A, and CALU; few weak negatives. Suggests secretory/adhesion-related program, uncertain.",
+      "evidence_genes": [
+        "ENSG00000105825.11",
+        "ENSG00000177469.12"
+      ]
+    },
+    "A28_C7": {
+      "axis_id": 28,
+      "state_id": 7,
+      "name": "SAT1/CTGF up, SREBF1 down",
+      "summary": "Positive associations with SAT1, CTGF, NORAD, and GRB2; negative with SREBF1 and UBB. Mixed growth/lipid pattern, low confidence.",
+      "evidence_genes": [
+        "ENSG00000130066.16",
+        "ENSG00000072310.16"
+      ]
+    },
+    "A28_C8": {
+      "axis_id": 28,
+      "state_id": 8,
+      "name": "TFPI2/SQSTM1 down state",
+      "summary": "Very small positive effects; strong negative associations with TFPI2, SQSTM1, ARL6IP1, and H1FX. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000105825.11",
+        "ENSG00000161011.19"
+      ]
+    },
+    "A28_C9": {
+      "axis_id": 28,
+      "state_id": 9,
+      "name": "ARL6IP1/DIAPH1/H3F3B up",
+      "summary": "Positive associations with ARL6IP1, DIAPH1, H3F3B, and RARS; weak negative DHRS2/CTGF. Suggests cytoskeletal/chromatin program, uncertain.",
+      "evidence_genes": [
+        "ENSG00000170540.14",
+        "ENSG00000131504.15"
+      ]
+    },
+    "A28_C10": {
+      "axis_id": 28,
+      "state_id": 10,
+      "name": "TFPI2/CTGF/SREBF1 up",
+      "summary": "Strong positive associations with TFPI2, CTGF, SREBF1, PEG10, and ARL6IP1; almost no negative markers. Distinct high-effect state, mechanism unclear.",
+      "evidence_genes": [
+        "ENSG00000105825.11",
+        "ENSG00000118523.5"
+      ]
+    },
+    "A28_C11": {
+      "axis_id": 28,
+      "state_id": 11,
+      "name": "ARL6IP1/SQSTM1/UBB down",
+      "summary": "Negligible positive markers; negative associations with ARL6IP1, SQSTM1, UBB, and H1FX. Function unclear from sparse evidence.",
+      "evidence_genes": [
+        "ENSG00000170540.14",
+        "ENSG00000161011.19"
+      ]
+    },
+    "A28_C12": {
+      "axis_id": 28,
+      "state_id": 12,
+      "name": "Weak mixed, TFPI2/CAVIN1 down",
+      "summary": "Very small positive effects; negative associations with TFPI2, CAVIN1, EIF4A3, and JPT1. Nonspecific, low-confidence pattern.",
+      "evidence_genes": [
+        "ENSG00000105825.11",
+        "ENSG00000177469.12"
+      ]
+    },
+    "A28_C13": {
+      "axis_id": 28,
+      "state_id": 13,
+      "name": "UBB/EIF4A3/SQSTM1 up",
+      "summary": "Positive associations with UBB, EIF4A3, SQSTM1, ARL6IP1, and H1FX; weak negatives. Suggests stress/proteostasis-linked program, uncertain.",
+      "evidence_genes": [
+        "ENSG00000170315.13",
+        "ENSG00000141543.9"
+      ]
+    },
+    "A28_C14": {
+      "axis_id": 28,
+      "state_id": 14,
+      "name": "SLC9A3R1/PNPLA2/SREBF1 up",
+      "summary": "Strong positive associations with SLC9A3R1, PNPLA2, ARL6IP1, SREBF1, and DHRS2; negligible negatives. Distinct high-effect state, mechanism unclear.",
+      "evidence_genes": [
+        "ENSG00000109062.11",
+        "ENSG00000177666.16"
+      ]
+    },
+    "A28_C15": {
+      "axis_id": 28,
+      "state_id": 15,
+      "name": "Weak mixed, TFPI2/SQSTM1 down",
+      "summary": "Small positive effects on CKS2, GGH, and HLTF; negative associations with TFPI2, SQSTM1, and PNPLA2. Weak, nonspecific pattern.",
+      "evidence_genes": [
+        "ENSG00000123975.4",
+        "ENSG00000105825.11"
+      ]
+    },
+    "A29_C0": {
+      "axis_id": 29,
+      "state_id": 0,
+      "name": "SLC3A2/SLC7A5-high, tubulin-low",
+      "summary": "Higher amino-acid transporter and translation-associated genes with lower tubulin and splicing factors; weak, mixed signal.",
+      "evidence_genes": [
+        "ENSG00000168003.16",
+        "ENSG00000103257.8"
+      ]
+    },
+    "A29_C1": {
+      "axis_id": 29,
+      "state_id": 1,
+      "name": "Tubulin-low, weak up signal",
+      "summary": "Marked down-weighting of tubulin and chaperone/nucleolar genes with only negligible positive effects; unclear function.",
+      "evidence_genes": [
+        "ENSG00000123416.15",
+        "ENSG00000096384.19"
+      ]
+    },
+    "A29_C2": {
+      "axis_id": 29,
+      "state_id": 2,
+      "name": "Mitochondrial/chaperone up, tubulin mildly down",
+      "summary": "C1QBP, PHB2 and translation factors up with modest tubulin down; suggests a metabolic/translational tilt but uncertain.",
+      "evidence_genes": [
+        "ENSG00000108561.8",
+        "ENSG00000215021.8"
+      ]
+    },
+    "A29_C3": {
+      "axis_id": 29,
+      "state_id": 3,
+      "name": "Tubulin/chaperone-high",
+      "summary": "Strong up-weighting of tubulin, CCT5, NPM1 and SLC7A5 with near-zero negative effects; cytoskeletal/proliferative tilt.",
+      "evidence_genes": [
+        "ENSG00000123416.15",
+        "ENSG00000150753.11"
+      ]
+    },
+    "A29_C4": {
+      "axis_id": 29,
+      "state_id": 4,
+      "name": "Cytoskeletal/migration-associated",
+      "summary": "TUBA1B, TUBB, PFN1 and VIM up with weak negative effects; actin/cytoskeleton-associated pattern, low confidence.",
+      "evidence_genes": [
+        "ENSG00000108518.7",
+        "ENSG00000026025.15"
+      ]
+    },
+    "A29_C5": {
+      "axis_id": 29,
+      "state_id": 5,
+      "name": "Tubulin/SLC-low",
+      "summary": "Broad down-weighting of tubulin, VIM and SLC3A2/SLC7A5 with negligible positives; unclear, possibly low biosynthetic state.",
+      "evidence_genes": [
+        "ENSG00000123416.15",
+        "ENSG00000168003.16"
+      ]
+    },
+    "A29_C6": {
+      "axis_id": 29,
+      "state_id": 6,
+      "name": "Weak chaperone-down",
+      "summary": "Mild down-weighting of BTF3, CCT5, HSP90AB1 and HSPD1 with minimal positives; unclear function.",
+      "evidence_genes": [
+        "ENSG00000145741.15",
+        "ENSG00000096384.19"
+      ]
+    },
+    "A29_C7": {
+      "axis_id": 29,
+      "state_id": 7,
+      "name": "Tubulin-low, proliferation markers up",
+      "summary": "Tubulin down while CCND3, PCNA and LDHA are mildly up; weak proliferative/metabolic hint, uncertain.",
+      "evidence_genes": [
+        "ENSG00000132646.10",
+        "ENSG00000112576.12"
+      ]
+    },
+    "A29_C8": {
+      "axis_id": 29,
+      "state_id": 8,
+      "name": "Tubulin/PFN1-low",
+      "summary": "Strong down-weighting of TUBA1B, TUBB, PFN1 and CCT5 with essentially no positive signal; unclear.",
+      "evidence_genes": [
+        "ENSG00000123416.15",
+        "ENSG00000108518.7"
+      ]
+    },
+    "A29_C9": {
+      "axis_id": 29,
+      "state_id": 9,
+      "name": "Tubulin/chaperone-low",
+      "summary": "Down-weighting of tubulin, ENO1, CCT5 and C1QBP with negligible positives; unclear metabolic/cytoskeletal state.",
+      "evidence_genes": [
+        "ENSG00000123416.15",
+        "ENSG00000074800.13"
+      ]
+    },
+    "A29_C10": {
+      "axis_id": 29,
+      "state_id": 10,
+      "name": "ANXA1/CAV1 up, tubulin down",
+      "summary": "ANXA1 and CAV1 mildly up with tubulin, VIM and PFN1 down; weak membrane/cytoskeletal association.",
+      "evidence_genes": [
+        "ENSG00000135046.13",
+        "ENSG00000105974.11"
+      ]
+    },
+    "A29_C11": {
+      "axis_id": 29,
+      "state_id": 11,
+      "name": "Tubulin/ENO1-low",
+      "summary": "Tubulin, ENO1, PFN1 and SLC7A5 down with negligible positives; unclear.",
+      "evidence_genes": [
+        "ENSG00000196230.12",
+        "ENSG00000074800.13"
+      ]
+    },
+    "A29_C12": {
+      "axis_id": 29,
+      "state_id": 12,
+      "name": "Tubulin/VIM-high",
+      "summary": "Strong up-weighting of TUBA1B, TUBB, VIM, NPM1 and PFN1 with near-zero negatives; cytoskeletal-high pattern.",
+      "evidence_genes": [
+        "ENSG00000123416.15",
+        "ENSG00000026025.15"
+      ]
+    },
+    "A29_C13": {
+      "axis_id": 29,
+      "state_id": 13,
+      "name": "Tubulin/chaperone-high",
+      "summary": "TUBA1B, TUBB, HNRNPA2B1, HSP90AB1 and CCT5 up with minimal negatives; cytoskeletal/chaperone tilt.",
+      "evidence_genes": [
+        "ENSG00000123416.15",
+        "ENSG00000096384.19"
+      ]
+    },
+    "A29_C14": {
+      "axis_id": 29,
+      "state_id": 14,
+      "name": "Tubulin/PTBP1-high",
+      "summary": "Strong up-weighting of tubulin, PTBP1, CCT5, H2AFZ and VIM with negligible negatives; cytoskeletal/splicing tilt.",
+      "evidence_genes": [
+        "ENSG00000123416.15",
+        "ENSG00000011304.19"
+      ]
+    },
+    "A29_C15": {
+      "axis_id": 29,
+      "state_id": 15,
+      "name": "Tubulin/PFN1/HSP90 up",
+      "summary": "TUBA1B, TUBB, PFN1, HSP90AB1 and YWHAE up with mild negatives; cytoskeletal/chaperone pattern, low confidence.",
+      "evidence_genes": [
+        "ENSG00000108518.7",
+        "ENSG00000096384.19"
+      ]
+    },
+    "A30_C0": {
+      "axis_id": 30,
+      "state_id": 0,
+      "name": "ADK/RASAL2-high, SETBP1-low",
+      "summary": "Modest up ADK, RASAL2, CAMKMT, PRKCA; weak down SETBP1 and IGFL2-AS1. Effects are small and function is unclear.",
+      "evidence_genes": [
+        "ENSG00000156110.13",
+        "ENSG00000075391.16"
+      ]
+    },
+    "A30_C1": {
+      "axis_id": 30,
+      "state_id": 1,
+      "name": "MAGI3/MCU-high, TACC1-low",
+      "summary": "Up MAGI3, MCU, USP53; down TACC1 and ITSN1. Low occupancy; biological interpretation uncertain.",
+      "evidence_genes": [
+        "ENSG00000081026.18",
+        "ENSG00000156026.14"
+      ]
+    },
+    "A30_C2": {
+      "axis_id": 30,
+      "state_id": 2,
+      "name": "TMTC2/PRKCA-low, weak up",
+      "summary": "Strong down TMTC2, PRKCA, DPYD, KIF13B; up effects are small. Suggests reduced PRKCA-associated program.",
+      "evidence_genes": [
+        "ENSG00000179104.8",
+        "ENSG00000154229.11"
+      ]
+    },
+    "A30_C3": {
+      "axis_id": 30,
+      "state_id": 3,
+      "name": "CAMKMT/PRKCA-low",
+      "summary": "Down CAMKMT, PPP1R12B, VTI1A, PRKCA, STK3; up genes near zero. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000143919.14",
+        "ENSG00000077157.21"
+      ]
+    },
+    "A30_C4": {
+      "axis_id": 30,
+      "state_id": 4,
+      "name": "FAM214A/ELL2-low",
+      "summary": "Down FAM214A, ELL2, SLC23A2, PRKCA, EPS8; up effects weak. Interpretation uncertain.",
+      "evidence_genes": [
+        "ENSG00000047346.12",
+        "ENSG00000118985.15"
+      ]
+    },
+    "A30_C5": {
+      "axis_id": 30,
+      "state_id": 5,
+      "name": "PRKCA/EPS8-low",
+      "summary": "Marked down PRKCA, EPS8, SLC23A2, CAMKMT, MAGI3, ADK; up genes negligible. Suggests suppressed PRKCA/EPS8 program.",
+      "evidence_genes": [
+        "ENSG00000154229.11",
+        "ENSG00000151491.12"
+      ]
+    },
+    "A30_C6": {
+      "axis_id": 30,
+      "state_id": 6,
+      "name": "PRKCA/MAGI3-low",
+      "summary": "Down PRKCA, MAGI3, RAPH1, FMN1, STK3; up effects very small. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000154229.11",
+        "ENSG00000081026.18"
+      ]
+    },
+    "A30_C7": {
+      "axis_id": 30,
+      "state_id": 7,
+      "name": "FAM214A/USP53-high",
+      "summary": "Up FAM214A, USP53, DPYD, BICDL1, PRKCA, RAPH1; down effects negligible. Suggests activated PRKCA-associated program.",
+      "evidence_genes": [
+        "ENSG00000047346.12",
+        "ENSG00000145390.11"
+      ]
+    },
+    "A30_C8": {
+      "axis_id": 30,
+      "state_id": 8,
+      "name": "PRKCA/EPS8-high",
+      "summary": "Up PRKCA, EPS8, STK3, MAGI3, MCU, CAMKMT; down effects weak. Suggests activated PRKCA/EPS8 program.",
+      "evidence_genes": [
+        "ENSG00000154229.11",
+        "ENSG00000151491.12"
+      ]
+    },
+    "A30_C9": {
+      "axis_id": 30,
+      "state_id": 9,
+      "name": "BICDL1/ITSN1-high",
+      "summary": "Up BICDL1, ITSN1, KIF13B, VTI1A; down ARHGEF3, KDM4C, RAPH1. Modest effects; function unclear.",
+      "evidence_genes": [
+        "ENSG00000135127.11",
+        "ENSG00000205726.14"
+      ]
+    },
+    "A30_C10": {
+      "axis_id": 30,
+      "state_id": 10,
+      "name": "PRKCA/STK3-low",
+      "summary": "Down PRKCA, STK3, VTI1A, CAMKMT, EPS8, FAM214A; up genes negligible. Suggests suppressed PRKCA-associated program.",
+      "evidence_genes": [
+        "ENSG00000154229.11",
+        "ENSG00000104375.15"
+      ]
+    },
+    "A30_C11": {
+      "axis_id": 30,
+      "state_id": 11,
+      "name": "MAGI3/SSH2-high",
+      "summary": "Up MAGI3, SSH2, PPP1R12B, FTO, DIP2C, ADK; down FAM214A, BICDL1, DPYD. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000081026.18",
+        "ENSG00000141298.17"
+      ]
+    },
+    "A30_C12": {
+      "axis_id": 30,
+      "state_id": 12,
+      "name": "PRKCA/SLC41A2-high",
+      "summary": "Up PRKCA, SLC41A2, FMN1, KIF13B, FAM214A, VTI1A; down effects weak. Suggests activated PRKCA-associated program.",
+      "evidence_genes": [
+        "ENSG00000154229.11",
+        "ENSG00000136052.9"
+      ]
+    },
+    "A30_C13": {
+      "axis_id": 30,
+      "state_id": 13,
+      "name": "PRKCA/EPS8-high",
+      "summary": "Up PRKCA, EPS8, SLC23A2, SLC41A2, ADAMTSL4-AS1, FAM214A; down effects negligible. Suggests activated PRKCA/EPS8 program.",
+      "evidence_genes": [
+        "ENSG00000154229.11",
+        "ENSG00000151491.12"
+      ]
+    },
+    "A30_C14": {
+      "axis_id": 30,
+      "state_id": 14,
+      "name": "SCFD2/DPYD-low",
+      "summary": "Down SCFD2, DPYD, ADAMTSL4-AS1, TMTC2, LRBA, SLC41A2; up effects weak. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000184178.15",
+        "ENSG00000188641.12"
+      ]
+    },
+    "A30_C15": {
+      "axis_id": 30,
+      "state_id": 15,
+      "name": "CAMKMT/DPYD-high",
+      "summary": "Up LINC00486, CAMKMT, DPYD, TMTC2, LRBA, LONP2; down effects weak. Function unclear.",
+      "evidence_genes": [
+        "ENSG00000143919.14",
+        "ENSG00000188641.12"
+      ]
+    },
+    "A31_C0": {
+      "axis_id": 31,
+      "state_id": 0,
+      "name": "ANTXR1/RSPO3-high, SLC12A2-low",
+      "summary": "Weak positive ANTXR1, RSPO3, BASP1 and negative SLC12A2, PTGS2 associations; modest and mixed, function unclear.",
+      "evidence_genes": [
+        "ENSG00000169604.19",
+        "ENSG00000064651.13"
+      ]
+    },
+    "A31_C1": {
+      "axis_id": 31,
+      "state_id": 1,
+      "name": "CYP24A1/BASP1-low",
+      "summary": "Strong negative CYP24A1, BASP1, PDE10A and SLC12A2 associations with negligible positive genes; function unclear.",
+      "evidence_genes": [
+        "ENSG00000019186.9",
+        "ENSG00000176788.8"
+      ]
+    },
+    "A31_C2": {
+      "axis_id": 31,
+      "state_id": 2,
+      "name": "CYP24A1/SLC7A11-low",
+      "summary": "Strong negative CYP24A1, MAP7, SLC7A11, PDE10A associations; positive genes near zero, so function unclear.",
+      "evidence_genes": [
+        "ENSG00000019186.9",
+        "ENSG00000151012.13"
+      ]
+    },
+    "A31_C3": {
+      "axis_id": 31,
+      "state_id": 3,
+      "name": "SLC12A2/CYP24A1-high",
+      "summary": "Positive SLC12A2, CYP24A1, BASP1, SLC7A11 associations with weak negative genes; function unclear.",
+      "evidence_genes": [
+        "ENSG00000064651.13",
+        "ENSG00000019186.9"
+      ]
+    },
+    "A31_C4": {
+      "axis_id": 31,
+      "state_id": 4,
+      "name": "SLC12A2/CYP24A1-low",
+      "summary": "Strong negative SLC12A2, CYP24A1, BASP1, SLC7A11 associations; positive genes negligible, function unclear.",
+      "evidence_genes": [
+        "ENSG00000064651.13",
+        "ENSG00000019186.9"
+      ]
+    },
+    "A31_C5": {
+      "axis_id": 31,
+      "state_id": 5,
+      "name": "CYP24A1/NFE2L2-high",
+      "summary": "Positive CYP24A1, NCOA7, BASP1, NFE2L2 associations with modest negative ST6GAL2; function unclear.",
+      "evidence_genes": [
+        "ENSG00000019186.9",
+        "ENSG00000116044.15"
+      ]
+    },
+    "A31_C6": {
+      "axis_id": 31,
+      "state_id": 6,
+      "name": "SLC12A2/BASP1-low",
+      "summary": "Negative SLC12A2, BASP1, PDE10A, PTGS2 associations with negligible positive genes; function unclear.",
+      "evidence_genes": [
+        "ENSG00000064651.13",
+        "ENSG00000176788.8"
+      ]
+    },
+    "A31_C7": {
+      "axis_id": 31,
+      "state_id": 7,
+      "name": "PDE10A/SLC12A2-high",
+      "summary": "Positive PDE10A, SLC12A2, MAP7, SLC7A11 associations with near-zero negative genes; function unclear.",
+      "evidence_genes": [
+        "ENSG00000112541.13",
+        "ENSG00000064651.13"
+      ]
+    },
+    "A31_C8": {
+      "axis_id": 31,
+      "state_id": 8,
+      "name": "SLC12A2/PDE10A-low",
+      "summary": "Only negative associations, led by SLC12A2, PDE10A, CYP24A1, BASP1; no positive genes, function unclear.",
+      "evidence_genes": [
+        "ENSG00000064651.13",
+        "ENSG00000112541.13"
+      ]
+    },
+    "A31_C9": {
+      "axis_id": 31,
+      "state_id": 9,
+      "name": "SLC12A2/BASP1-high",
+      "summary": "Positive SLC12A2, BASP1, PTGS2, PDE10A associations with negligible negative genes; function unclear.",
+      "evidence_genes": [
+        "ENSG00000064651.13",
+        "ENSG00000176788.8"
+      ]
+    },
+    "A31_C10": {
+      "axis_id": 31,
+      "state_id": 10,
+      "name": "Weak mixed, RNF19A-up",
+      "summary": "Small positive RNF19A, PDE7B and negative LPGAT1, CYP24A1 associations; overall weak, function unclear.",
+      "evidence_genes": [
+        "ENSG00000034677.12",
+        "ENSG00000123684.12"
+      ]
+    },
+    "A31_C11": {
+      "axis_id": 31,
+      "state_id": 11,
+      "name": "SLC12A2/PDE10A-high",
+      "summary": "Positive SLC12A2, PDE10A, ST6GAL2, BASP1 associations with negligible negative genes; function unclear.",
+      "evidence_genes": [
+        "ENSG00000064651.13",
+        "ENSG00000112541.13"
+      ]
+    },
+    "A31_C12": {
+      "axis_id": 31,
+      "state_id": 12,
+      "name": "SLC12A2/MAP7-high",
+      "summary": "Positive SLC12A2, MAP7, PDE10A, ST6GAL2 associations with near-zero negative genes; function unclear.",
+      "evidence_genes": [
+        "ENSG00000064651.13",
+        "ENSG00000135525.18"
+      ]
+    },
+    "A31_C13": {
+      "axis_id": 31,
+      "state_id": 13,
+      "name": "CYP24A1/PDE10A-low",
+      "summary": "Negative CYP24A1, PDE10A, SLC7A11, MAP7 associations with negligible positive genes; function unclear.",
+      "evidence_genes": [
+        "ENSG00000019186.9",
+        "ENSG00000112541.13"
+      ]
+    },
+    "A31_C14": {
+      "axis_id": 31,
+      "state_id": 14,
+      "name": "SLC12A2/BASP1-low, MID1-up",
+      "summary": "Negative SLC12A2, BASP1, GPCPD1, GCLM associations with weak positive MID1; function unclear.",
+      "evidence_genes": [
+        "ENSG00000064651.13",
+        "ENSG00000101871.14"
+      ]
+    },
+    "A31_C15": {
+      "axis_id": 31,
+      "state_id": 15,
+      "name": "CYP24A1/MAP7-high",
+      "summary": "Positive CYP24A1, MAP7, PDE10A, BASP1 associations with near-zero negative genes; function unclear.",
+      "evidence_genes": [
+        "ENSG00000019186.9",
+        "ENSG00000135525.18"
+      ]
+    }
+  },
+  "meta": {
+    "effects_sha256": "5bd0da54ddcceae0a4ea40d2f260b4d2acbd7b2d7a2eb2da97caeb75efb117fd",
+    "model": "deepseek-flash",
+    "prompt_version": "lexa-state-labels-v1",
+    "complete_axes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "complete": true,
+    "num_axes": 32,
+    "states_per_axis": 16,
+    "api_requests_total": 32,
+    "requests_this_run": 31,
+    "status": "complete"
+  }
+}

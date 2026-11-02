@@ -1,0 +1,3 @@
+-r lexa_text_harness/requirements.txt
+matplotlib>=3.6
+h5py>=3.8

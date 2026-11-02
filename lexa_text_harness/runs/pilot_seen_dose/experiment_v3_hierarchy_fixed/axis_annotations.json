@@ -1,0 +1,547 @@
+{
+  "status": "complete",
+  "created": "2026-10-26T23:21:01+08:00",
+  "fingerprint": {
+    "cards": "c636e0d7f5667f17b88158d088cf1311c32b20ddcda6b5a1ebbd60e560ebfdb2",
+    "prompt": "5cffb03417dac7f8dfcad22a1204dd8319dfad8aa67b85095e37efb74b35d817",
+    "model": "deepseek-flash",
+    "endpoint": "https://api.deepseek.com/chat/completions",
+    "max_retries": 2,
+    "source": "e884d1342b087313426a98350f1d38eed38292a15550a2f41701022c04449a90"
+  },
+  "annotation_method": "DeepSeek scope descriptions grounded in supplied training-derived genes and existing state labels; no formal GO enrichment or biological review",
+  "axes": [
+    {
+      "axis_id": 0,
+      "name": "Ribosomal protein gene expression program",
+      "summary": "Categorical states differ mainly in the signed pattern of ribosomal protein transcripts, with some states also showing mixed proteasome, mitochondrial, S100, or ferritin signals.",
+      "functions": [
+        "ribosomal protein gene expression",
+        "translation-associated machinery",
+        "mixed proteasome/mitochondrial marker co-variation"
+      ],
+      "evidence_genes": [
+        "ENSG00000197756.9",
+        "ENSG00000142534.6",
+        "ENSG00000137818.11",
+        "ENSG00000213741.9"
+      ],
+      "uncertainty": "A549 pilot features only; states are unordered and may mix functions; no causal or enrichment claims."
+    },
+    {
+      "axis_id": 1,
+      "name": "Chromatin, RNA-processing and cell-cycle associated program",
+      "summary": "States vary in signed patterns of chromatin, RNA-processing, transport, and cell-cycle-associated transcripts, with several states showing coordinated positive or negative shifts.",
+      "functions": [
+        "chromatin regulation",
+        "RNA processing",
+        "cell-cycle/transport-associated expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000173226.16",
+        "ENSG00000171634.16",
+        "ENSG00000127483.17",
+        "ENSG00000204842.14"
+      ],
+      "uncertainty": "A549 pilot features; weak effect sizes in many states; functional interpretation provisional and not causal."
+    },
+    {
+      "axis_id": 2,
+      "name": "Matrix, stress and secretory associated program",
+      "summary": "States differ in signed patterns of SERPINE1, TGM2, metallothionein, and cytoskeletal/secretory transcripts, with some states showing coordinated stress/matrix-like marker shifts.",
+      "functions": [
+        "matrix/secretory marker expression",
+        "stress and metallothionein-associated expression",
+        "cytoskeletal-associated expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000106366.8",
+        "ENSG00000198959.11",
+        "ENSG00000170776.21",
+        "ENSG00000187193.8"
+      ],
+      "uncertainty": "A549 pilot features; mixed and modest signals; no causal regulation or formal pathway enrichment implied."
+    },
+    {
+      "axis_id": 3,
+      "name": "Chromatin, transcription and RNA-processing associated program",
+      "summary": "States vary in signed patterns of chromatin/transcription regulators and RNA-processing genes, with some states showing broad positive or negative shifts in these markers.",
+      "functions": [
+        "chromatin/transcription regulation",
+        "RNA processing and splicing",
+        "ubiquitin-associated regulation"
+      ],
+      "evidence_genes": [
+        "ENSG00000112701.17",
+        "ENSG00000140262.17",
+        "ENSG00000120071.13",
+        "ENSG00000249859.9"
+      ],
+      "uncertainty": "A549 pilot features; several states have weak or near-null signals; interpretation provisional and non-causal."
+    },
+    {
+      "axis_id": 4,
+      "name": "Aldehyde/ketoreductase and oxidative-stress marker program",
+      "summary": "States differ mainly in signed patterns of aldehyde dehydrogenase, ketoreductase, and glutathione peroxidase transcripts, with some mixed keratin or secretory markers.",
+      "functions": [
+        "carbonyl/aldehyde metabolism markers",
+        "oxidative-stress-associated markers",
+        "mixed epithelial/keratin marker expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000198074.9",
+        "ENSG00000196139.13",
+        "ENSG00000108602.17",
+        "ENSG00000176153.11"
+      ],
+      "uncertainty": "A549 pilot features; marker-based interpretation only; states are unordered and not causal."
+    },
+    {
+      "axis_id": 5,
+      "name": "PDE4/cAMP and adhesion-associated expression program",
+      "summary": "States vary in signed patterns of PDE4D, PDE4B, CACNA2D1, MAML3, and adhesion/cytoskeletal transcripts, with generally modest and mixed signals.",
+      "functions": [
+        "cAMP phosphodiesterase-associated expression",
+        "adhesion/cytoskeletal-associated expression",
+        "mixed signaling marker expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000113448.18",
+        "ENSG00000184588.17",
+        "ENSG00000153956.15",
+        "ENSG00000196782.12"
+      ],
+      "uncertainty": "A549 pilot features; many states weak or near-null; functional themes uncertain and not causal."
+    },
+    {
+      "axis_id": 6,
+      "name": "Nuclear export, RNA processing and translation-associated program",
+      "summary": "States differ in signed patterns of nuclear export, RNA-processing, nucleolar, and translation-associated transcripts, with some states showing coordinated up or down shifts.",
+      "functions": [
+        "nuclear export",
+        "RNA processing/splicing",
+        "translation and nucleolar-associated expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000055044.10",
+        "ENSG00000120694.19",
+        "ENSG00000082898.16",
+        "ENSG00000205339.9"
+      ],
+      "uncertainty": "A549 pilot features; decoder-derived associations; direction is state-specific, not axis-wide, and not causal."
+    },
+    {
+      "axis_id": 7,
+      "name": "Cytoskeletal, transport and trafficking associated program",
+      "summary": "States vary in signed patterns of ZSWIM6, CCDC88A, WDR70, EXT1, and related trafficking/cytoskeletal transcripts, with several states showing coordinated shifts.",
+      "functions": [
+        "cytoskeletal/transport-associated expression",
+        "trafficking and ubiquitin-associated expression",
+        "mixed ciliary/adhesion marker expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000130449.5",
+        "ENSG00000115355.15",
+        "ENSG00000082068.8",
+        "ENSG00000182197.10"
+      ],
+      "uncertainty": "A549 pilot features; effects modest and mixed; interpretation provisional and not causal."
+    },
+    {
+      "axis_id": 8,
+      "name": "Chaperone/proteostasis and replication-marker program",
+      "summary": "States contrast expression of heat-shock/chaperone genes (HSP90AA1, HSPA1A, STIP1, DNAJA1) with replication markers (PCNA, TK1, CKS2), often in mixed patterns.",
+      "functions": [
+        "protein folding/chaperone-associated expression",
+        "DNA replication/proliferation-associated expression",
+        "proteostasis-associated expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000080824.18",
+        "ENSG00000204389.9",
+        "ENSG00000168439.16",
+        "ENSG00000132646.10"
+      ],
+      "uncertainty": "A549 pilot axis; states mix chaperone and replication signals and are unordered, so no single direction or causal role is implied."
+    },
+    {
+      "axis_id": 9,
+      "name": "Poorly resolved membrane/ubiquitin-ligase-associated program",
+      "summary": "States show weak, heterogeneous signed patterns around TMEM131, MDM2, ASCC3 and UBASH3B with no consistent functional theme.",
+      "functions": [
+        "unknown"
+      ],
+      "evidence_genes": [
+        "ENSG00000075568.16",
+        "ENSG00000135679.22",
+        "ENSG00000112249.13",
+        "ENSG00000154127.9"
+      ],
+      "uncertainty": "Most state labels are explicitly unclear; evidence supports only that these genes vary, not any pathway."
+    },
+    {
+      "axis_id": 10,
+      "name": "ER/secretory and redox-associated program",
+      "summary": "States contrast ER/secretory markers (KDELR1, LMAN2, PDIA4/PDIA6, TMED10) and redox/iron genes (NQO1, FTL) with DKK1/ANXA1/SPP1 signals.",
+      "functions": [
+        "ER folding and secretory-pathway-associated expression",
+        "redox/iron-associated expression",
+        "secreted signaling-marker expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000105438.8",
+        "ENSG00000155660.10",
+        "ENSG00000181019.12",
+        "ENSG00000107984.9"
+      ],
+      "uncertainty": "A549 pilot axis; ER, redox and secreted-marker patterns co-occur across states and are not shown to be causally linked."
+    },
+    {
+      "axis_id": 11,
+      "name": "Chromatin/transcriptional-regulator-associated program",
+      "summary": "States vary in expression of chromatin and RNA-processing regulators (NIPBL, ARID4B, GPATCH8, CNOT4) with generally small effect sizes.",
+      "functions": [
+        "chromatin/transcriptional-regulation-associated expression",
+        "RNA-processing-associated expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000164190.17",
+        "ENSG00000054267.21",
+        "ENSG00000186566.12",
+        "ENSG00000080802.18"
+      ],
+      "uncertainty": "Weakest-varying axis; small effects and mixed regulators limit functional interpretation."
+    },
+    {
+      "axis_id": 12,
+      "name": "Nutrient-transport and proliferation/adhesion program",
+      "summary": "States contrast amino-acid transporter SLC38A1 and RNA-binding LARP1/IGF2BP1 with cell-cycle (CCND1) and adhesion/cytoskeletal (MYOF, DOCK5) markers.",
+      "functions": [
+        "amino-acid transport-associated expression",
+        "cell-cycle/proliferation-associated expression",
+        "adhesion/cytoskeletal-associated expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000111371.15",
+        "ENSG00000110092.3",
+        "ENSG00000138119.16",
+        "ENSG00000147459.17"
+      ],
+      "uncertainty": "A549 pilot axis; transport, proliferation and adhesion signals appear in separate states and are not demonstrated to be coordinated."
+    },
+    {
+      "axis_id": 13,
+      "name": "Epithelial transport/adhesion-associated program",
+      "summary": "States show coordinated signed variation in PDE4D, ABCC3, EHBP1 and MTUS1, with several states dominated by joint decreases or increases.",
+      "functions": [
+        "membrane transport-associated expression",
+        "epithelial adhesion/junction-associated expression",
+        "cAMP/PDE4D-associated signaling expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000113448.18",
+        "ENSG00000108846.15",
+        "ENSG00000115504.14",
+        "ENSG00000129422.14"
+      ],
+      "uncertainty": "A549 pilot axis; many state labels are marked unclear and the shared regulation of these genes is inferred only from co-variation."
+    },
+    {
+      "axis_id": 14,
+      "name": "Cytoskeletal/adhesion GTPase-regulator program",
+      "summary": "States contrast expression of cytoskeletal and Rho-GTPase regulators (TRIO, FGD6, PTK2, MBNL1), with several states showing coordinated increases or decreases.",
+      "functions": [
+        "cytoskeletal/adhesion-associated expression",
+        "Rho-GTPase signaling-regulator expression",
+        "RNA-binding/splicing-associated expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000038382.18",
+        "ENSG00000180263.13",
+        "ENSG00000169398.19",
+        "ENSG00000152601.17"
+      ],
+      "uncertainty": "A549 pilot axis; decoder-derived states and mixed splicing/cytoskeletal genes mean no causal signaling role is established."
+    },
+    {
+      "axis_id": 15,
+      "name": "Poorly resolved WWOX/neurodevelopmental-gene program",
+      "summary": "States vary in WWOX, IMMP2L, BCAS3 and MBD5 expression, often as broad up- or down-shifts without a clear shared function.",
+      "functions": [
+        "unknown"
+      ],
+      "evidence_genes": [
+        "ENSG00000186153.16",
+        "ENSG00000184903.9",
+        "ENSG00000141376.22",
+        "ENSG00000204406.12"
+      ],
+      "uncertainty": "State labels repeatedly note unclear biology; evidence supports co-variation only, not a defined pathway."
+    },
+    {
+      "axis_id": 16,
+      "name": "Keratin/adhesion cytoskeletal program",
+      "summary": "States contrast keratin and catenin/adhesion transcripts (KRT8, KRT18, CTNNA3) with TMSB10 and stress markers, forming several distinct signed patterns rather than one ordered level.",
+      "functions": [
+        "keratin/cytoskeletal expression",
+        "cell-cell adhesion-associated expression",
+        "stress-marker co-expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000170421.12",
+        "ENSG00000111057.10",
+        "ENSG00000183230.16",
+        "ENSG00000034510.5"
+      ],
+      "uncertainty": "A549 pilot only; states mix keratin-high and keratin-low patterns and some states have unclear function; no causal or enrichment claims."
+    },
+    {
+      "axis_id": 17,
+      "name": "Glycolytic/mitochondrial energy program",
+      "summary": "States vary between coordinated up- and down-patterns of glycolytic and mitochondrial energy genes (ALDOA, PKM, TPI1, ATP5B/ATP5G3) alongside cytoskeletal CFL1.",
+      "functions": [
+        "glycolytic enzyme expression",
+        "mitochondrial energy gene expression",
+        "cytoskeletal/actin-associated expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000149925.17",
+        "ENSG00000067225.17",
+        "ENSG00000111669.14",
+        "ENSG00000110955.8"
+      ],
+      "uncertainty": "A549 pilot; several states are weak or mixed and some combine metabolic with adhesion signals; interpretation is descriptive only."
+    },
+    {
+      "axis_id": 18,
+      "name": "Sterol/lipid and STC1-associated program",
+      "summary": "States contrast sterol/lipid biosynthesis transcripts (INSIG1, ACSBG1) with STC1, RGL1 and long non-coding RNAs, giving several distinct signed patterns.",
+      "functions": [
+        "sterol/lipid biosynthesis-associated expression",
+        "STC1/RGL1 co-expression",
+        "lncRNA co-expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000186480.12",
+        "ENSG00000103740.9",
+        "ENSG00000159167.11",
+        "ENSG00000143344.15"
+      ],
+      "uncertainty": "A549 pilot; many states are weak or mixed and lncRNA roles are unknown; no causal lipid or signaling claims."
+    },
+    {
+      "axis_id": 19,
+      "name": "p53-marker-associated stress program",
+      "summary": "States show differing combinations of p53-responsive markers (FDXR, CDKN1A, TP53I3, MDM2, RPS27L), often with internally inconsistent directions across markers.",
+      "functions": [
+        "p53-responsive marker co-expression",
+        "cell-cycle checkpoint-associated expression",
+        "redox/stress marker expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000161513.11",
+        "ENSG00000124762.13",
+        "ENSG00000115129.13",
+        "ENSG00000135679.22"
+      ],
+      "uncertainty": "A549 pilot; marker directions are frequently discordant across states, so a single p53 pathway interpretation is not supported."
+    },
+    {
+      "axis_id": 20,
+      "name": "Lysosomal/secretory program",
+      "summary": "States vary in lysosomal and secretory transcripts (PSAP, CTSB, GRN, NUCB1, LGALS3BP) with some keratin (KRT19) and clusterin co-expression.",
+      "functions": [
+        "lysosomal enzyme expression",
+        "secretory protein expression",
+        "epithelial keratin-associated expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000197746.13",
+        "ENSG00000164733.20",
+        "ENSG00000030582.17",
+        "ENSG00000108679.12"
+      ],
+      "uncertainty": "A549 pilot; several states are weak or unclear and lysosomal/secretory labels are provisional, not measured activity."
+    },
+    {
+      "axis_id": 21,
+      "name": "Adhesion/junction-associated program",
+      "summary": "States contrast adhesion and junction transcripts (FKBP5, PCDH9, SDK2, EPB41L4A) with cytoskeletal genes, spanning coordinated high and low patterns.",
+      "functions": [
+        "cell adhesion-associated expression",
+        "junctional/cytoskeletal expression",
+        "epithelial marker co-expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000096060.14",
+        "ENSG00000184226.14",
+        "ENSG00000069188.16",
+        "ENSG00000129595.12"
+      ],
+      "uncertainty": "A549 pilot; FKBP5 has stress-related roles and several states are weak or broadly down, limiting specificity."
+    },
+    {
+      "axis_id": 22,
+      "name": "Mitochondrial-encoded OXPHOS program",
+      "summary": "States largely separate high versus low patterns of mitochondrial-encoded respiratory transcripts (MT-CO2, MT-ATP6, MT-CYB, MT-ND2) with few other markers.",
+      "functions": [
+        "mitochondrial-encoded oxidative phosphorylation expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000198712.1",
+        "ENSG00000198899.2",
+        "ENSG00000198727.2",
+        "ENSG00000198763.3"
+      ],
+      "uncertainty": "A549 pilot; positive markers are almost entirely mitochondrial-encoded genes and negative markers are weak, so function beyond this transcript set is unresolved."
+    },
+    {
+      "axis_id": 23,
+      "name": "SERTAD2/RYBP/USP15 regulatory program",
+      "summary": "States show varying combinations of SERTAD2, RYBP, USP15, TAF3 and HIF1A-AS2, with several weak or mixed patterns and no single dominant direction.",
+      "functions": [
+        "transcriptional/regulatory co-expression",
+        "ubiquitin-proteasome-associated expression",
+        "lncRNA co-expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000179833.4",
+        "ENSG00000163602.10",
+        "ENSG00000135655.15",
+        "ENSG00000258667.1"
+      ],
+      "uncertainty": "A549 pilot; effects are modest and states are heterogeneous, so functional interpretation is tentative and non-causal."
+    },
+    {
+      "axis_id": 24,
+      "name": "Cell-cycle/proliferation-associated program",
+      "summary": "States contrast coordinated expression of proliferation and mitotic genes (MKI67, TOP2A, CENPF, ASPM) against replication/repair-leaning patterns, with several low-proliferation states.",
+      "functions": [
+        "cell-cycle and mitotic progression",
+        "DNA replication and repair"
+      ],
+      "evidence_genes": [
+        "ENSG00000148773.13",
+        "ENSG00000131747.14",
+        "ENSG00000117724.12",
+        "ENSG00000066279.17"
+      ],
+      "uncertainty": "A549 pilot only; states mix proliferation and repair signals and are not ordered activity levels; no causal claim."
+    },
+    {
+      "axis_id": 25,
+      "name": "Redox/ubiquitin-chromatin regulatory program",
+      "summary": "States vary in expression of TXNRD1, KMT2A, PPP6R3, RERE and ITCH, suggesting a mixed redox, chromatin and ubiquitin-ligase-associated program.",
+      "functions": [
+        "oxidative/reductase balance",
+        "chromatin regulation",
+        "ubiquitin-mediated regulation"
+      ],
+      "evidence_genes": [
+        "ENSG00000198431.15",
+        "ENSG00000118058.20",
+        "ENSG00000110075.14",
+        "ENSG00000078747.14"
+      ],
+      "uncertainty": "A549 pilot; many states have weak or near-zero opposing effects and the theme is heterogeneous; no causal or pathway claim."
+    },
+    {
+      "axis_id": 26,
+      "name": "Long noncoding RNA / neuronal-like program",
+      "summary": "States center on MALAT1 and NEAT1 along with neuronal-associated genes such as SYT1, MAP2 and RORA, with several low-lncRNA states.",
+      "functions": [
+        "long noncoding RNA expression",
+        "neuronal/synaptic-associated expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000278217.1",
+        "ENSG00000245532.7",
+        "ENSG00000067715.13",
+        "ENSG00000078018.19"
+      ],
+      "uncertainty": "A549 pilot; neuronal interpretation is tentative and many states show weak or mixed effects; not a universal axis."
+    },
+    {
+      "axis_id": 27,
+      "name": "EGFR/TGFBI/ECM signaling-associated program",
+      "summary": "States contrast coordinated high expression of EGFR, TGFBI, BICC1, NTRK3 and DCBLD2 against low-signal states, with some HIF1A-linked patterns.",
+      "functions": [
+        "receptor tyrosine kinase signaling",
+        "extracellular matrix/adhesion-associated expression",
+        "hypoxia-linked expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000146648.17",
+        "ENSG00000120708.16",
+        "ENSG00000122870.11",
+        "ENSG00000140538.16"
+      ],
+      "uncertainty": "A549 pilot; states mix signaling, matrix and hypoxia signals; no causal regulation or formal enrichment implied."
+    },
+    {
+      "axis_id": 28,
+      "name": "Stress/secretory and cytoskeletal program",
+      "summary": "States vary in TFPI2, ARL6IP1, H1FX, SLC9A3R1 and SQSTM1, suggesting a mixed stress, secretory and chromatin/cytoskeletal program.",
+      "functions": [
+        "stress/autophagy-associated expression",
+        "secretory/adhesion-associated expression",
+        "chromatin/cytoskeletal-associated expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000105825.11",
+        "ENSG00000170540.14",
+        "ENSG00000184897.5",
+        "ENSG00000109062.11"
+      ],
+      "uncertainty": "A549 pilot; many states are weak or nonspecific and functions are heterogeneous; interpretation is provisional."
+    },
+    {
+      "axis_id": 29,
+      "name": "Cytoskeletal/chaperone expression program",
+      "summary": "States contrast high expression of tubulins, VIM, CCT5 and NPM1 against tubulin-low states, consistent with a cytoskeletal and chaperone-associated program.",
+      "functions": [
+        "cytoskeletal/tubulin expression",
+        "chaperone/proteostasis-associated expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000123416.15",
+        "ENSG00000196230.12",
+        "ENSG00000026025.15",
+        "ENSG00000150753.11"
+      ],
+      "uncertainty": "A549 pilot; several states are low-signal or mixed with metabolic/translational hints; no causal claim."
+    },
+    {
+      "axis_id": 30,
+      "name": "PRKCA/EPS8 signaling-associated program",
+      "summary": "States vary in PRKCA, EPS8, FAM214A, STK3 and related genes, with some states showing coordinated high and others coordinated low expression.",
+      "functions": [
+        "kinase signaling-associated expression",
+        "cytoskeletal/adhesion-associated expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000154229.11",
+        "ENSG00000151491.12",
+        "ENSG00000047346.12",
+        "ENSG00000104375.15"
+      ],
+      "uncertainty": "A549 pilot; effect sizes are modest and several states are mixed or unclear; no causal regulation implied."
+    },
+    {
+      "axis_id": 31,
+      "name": "SLC12A2/CYP24A1 transport-metabolic program",
+      "summary": "States center on SLC12A2, CYP24A1, BASP1 and PDE10A, with coordinated high or low patterns and some SLC7A11/MAP7 co-variation.",
+      "functions": [
+        "ion/transporter-associated expression",
+        "metabolic/vitamin-D-associated expression"
+      ],
+      "evidence_genes": [
+        "ENSG00000064651.13",
+        "ENSG00000019186.9",
+        "ENSG00000176788.8",
+        "ENSG00000112541.13"
+      ],
+      "uncertainty": "A549 pilot; most states are described as functionally unclear and effects are mixed; interpretation is provisional."
+    }
+  ]
+}

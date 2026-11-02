@@ -1,0 +1,46 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "transcriptional response to unknown perturbation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Perturbation identity and mechanism are withheld, so no treatment-specific direction can be inferred."
+    },
+    {
+      "id": "H2",
+      "program": "stress-responsive transcriptional programs",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549, 24 h exposure; unknown agent",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Lung adenocarcinoma cells may mount generic stress responses, but no mechanism or measured response is supplied."
+    },
+    {
+      "id": "H3",
+      "program": "cell-cycle and proliferation transcripts",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549, 24 h exposure; unknown agent",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Many perturbations alter proliferation, but direction depends on the hidden mechanism."
+    }
+  ],
+  "summary": "No treatment-specific direction is knowable; only generic, explicitly uncertain hypotheses are offered for an opaque perturbation in A549 cells.",
+  "limitations": [
+    "Perturbation identity and mechanism are withheld.",
+    "Control features are anonymous with no gene mapping.",
+    "No measured perturbation responses or dose trajectories are available."
+  ]
+}

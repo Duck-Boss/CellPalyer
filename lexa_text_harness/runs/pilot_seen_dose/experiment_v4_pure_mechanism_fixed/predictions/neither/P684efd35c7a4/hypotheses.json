@@ -1,0 +1,46 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "transcriptional response to unknown perturbation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Perturbation identity and mechanism withheld; no treatment-specific direction can be inferred."
+    },
+    {
+      "id": "H2",
+      "program": "baseline expression of anonymous features",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "untreated A549 context only",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Feature semantics withheld; cannot map anonymous features to genes or pathways."
+    },
+    {
+      "id": "H3",
+      "program": "cell stress / viability response",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "any chemical exposure at 5 uM, 24 h",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Generic stress is plausible for many perturbations but unsupported without mechanism."
+    }
+  ],
+  "summary": "No mechanism or feature mapping is available; only explicit uncertainty can be stated.",
+  "limitations": [
+    "Perturbation identity and mechanism withheld.",
+    "Anonymous features lack gene mapping.",
+    "No dose-response or replicate data supplied."
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "url": "https://codeload.github.com/theislab/cpa/zip/refs/tags/v0.8.5",
+  "sha256": "1488300fda917946f37f6af93811842d2872f4565e44542ae77fd05d7478aea8",
+  "commit": "7cda37e9cca2078af1b2373dc6f9422a5bc6f87d",
+  "archive": "benchmarks/pilot_matched_baselines/vendor/cpa_v0.8.5.zip"
+}

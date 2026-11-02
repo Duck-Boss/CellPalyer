@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "tracked_file_count_before_report": 1063,
+  "tracked_bytes_before_report": 74765298,
+  "credential_pattern_findings": [],
+  "files_over_100MiB": [],
+  "readme_missing_local_links": [],
+  "original_cpa_snapshot_exact": true,
+  "portable_result_recompute": {
+    "status": "passed",
+    "max_absolute_error": 2.220446049250313e-16,
+    "well_rows": 288
+  },
+  "unit_tests": {
+    "count": 93,
+    "status": "passed",
+    "runtime_seconds": 6.506
+  },
+  "baseline_cli_help": [
+    "CPA --prepared",
+    "CODEX --prepared"
+  ],
+  "formal_training_or_api_calls_this_export": false,
+  "authentication": "Repository-specific SSH deploy key, user confirmed write access; secret material outside Git"
+}

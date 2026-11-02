@@ -1,0 +1,14 @@
+CPA baseline uses the original facebookresearch/CPA torch model, unchanged.
+Source commit: 50e283a7a1b3d43470d8adc5e11d3be4c10a534c
+Source model.py SHA256: b57dfe102f5a1989ee092cf4d8327364fec5e56ab13f000d454816051a6d6a4e
+Architecture/loss/optimizer: official defaults, Gaussian observation loss, MLP dosers, linear decoder, 4 drug embeddings, constant A549 categorical covariate.
+The wrapper directly imports model.py rather than the optional AnnData/Scanpy API. No global environment packages were installed.
+Input: original frozen prepared.npz, 5285 train cells, 2742 validation cells, 2000 genes, log1p CP10K; dose = uM / training max100.
+Validation: all43 nonempty drug-dose-plate-replicate groups; strict matched zero-dose controls, same vehicle. Per-group expression RMSE, within-drug mean, then equal drugs. No minimum-cell exclusion.
+Training: seeds0/1/2, CPU4threads each; up to1000 epochs, patience50 validation epochs. Original learning-rate scheduler stepped once per20epochs, consistent with original train.py default checkpoint_freq20.
+No evaluation.npz or held-out treated-expression values were loaded. Test controls are used only for prediction after checkpoint selection.
+Output: each seed predictions.npz contains case_ids, genes, pred_treated_mean, pred_control_mean; no clipping. Root will seal all models before shared scoring.
+This is an adapted author implementation under our existing pilot protocol, not a paper-number or official-leaderboard reproduction.
+Reproduce from project root:
+env OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 MKL_NUM_THREADS=4 /cpfs_speech/user/hejia.hj/code/anaconda/bin/python -u benchmarks/pilot_matched_baselines/run_cpa.py --seed 0 --output <new_output_directory>
+Repeat for seed1/2. Existing completed outputs are protected from overwrite.

@@ -1,0 +1,145 @@
+{
+  "public_case_id": "P7024000b0de7",
+  "request": {
+    "dose_uM": 5.0,
+    "exposure_hours": 24.0,
+    "cell_context": "A549 human lung adenocarcinoma cell line"
+  },
+  "mechanism_card": {
+    "drug_name": "Nutlin-3a",
+    "targets": [
+      "MDM2-p53 protein interaction"
+    ],
+    "action": "Antagonist of the MDM2-p53 interaction.",
+    "mechanism": "Blocking MDM2 binding can stabilize p53 and release its transcriptional activity. Downstream arrest or apoptosis depends on functional p53 and cellular context.",
+    "context_caveats": [
+      "Functional p53 is a prerequisite for the intended pathway mechanism; the control transcript profile does not establish p53 genotype.",
+      "Stabilization of p53 protein is not evidence that TP53 mRNA increases.",
+      "No drug-response expression array, gene signature or dose-specific magnitude is supplied."
+    ],
+    "literal_program_terms": [
+      {
+        "text": "p53",
+        "direction": "up"
+      }
+    ],
+    "sources": [
+      {
+        "id": "M1",
+        "title": "In vivo activation of the p53 pathway by small-molecule antagonists of MDM2",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14704432/",
+        "doi": "10.1126/science.1092472"
+      },
+      {
+        "id": "M2",
+        "title": "Small-molecule MDM2 antagonists reveal aberrant p53 signaling in cancer: implications for therapy",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16443686/",
+        "doi": "10.1073/pnas.0507493103"
+      }
+    ]
+  },
+  "control_summary": {
+    "n_control": 48,
+    "normalization": "log1p(CP10K)",
+    "most_abundant_genes": [
+      {
+        "gene_id": "ENSG00000113448.18",
+        "symbol": "PDE4D",
+        "anonymous_id": "G0836",
+        "mean_expression": 4.28529
+      },
+      {
+        "gene_id": "ENSG00000165092.12",
+        "symbol": "ALDH1A1",
+        "anonymous_id": "G1935",
+        "mean_expression": 3.80338
+      },
+      {
+        "gene_id": "ENSG00000198938.2",
+        "symbol": "MT-CO3",
+        "anonymous_id": "G1096",
+        "mean_expression": 3.72326
+      },
+      {
+        "gene_id": "ENSG00000245532.7",
+        "symbol": "NEAT1",
+        "anonymous_id": "G1787",
+        "mean_expression": 3.42578
+      },
+      {
+        "gene_id": "ENSG00000198727.2",
+        "symbol": "MT-CYB",
+        "anonymous_id": "G0352",
+        "mean_expression": 3.40326
+      },
+      {
+        "gene_id": "ENSG00000278217.1",
+        "symbol": "MALAT1",
+        "anonymous_id": "G0348",
+        "mean_expression": 3.38267
+      },
+      {
+        "gene_id": "ENSG00000151632.17",
+        "symbol": "AKR1C2",
+        "anonymous_id": "G0953",
+        "mean_expression": 3.23727
+      },
+      {
+        "gene_id": "ENSG00000198363.17",
+        "symbol": "ASPH",
+        "anonymous_id": "G1140",
+        "mean_expression": 3.12538
+      },
+      {
+        "gene_id": "ENSG00000198074.9",
+        "symbol": "AKR1B10",
+        "anonymous_id": "G1633",
+        "mean_expression": 3.10005
+      },
+      {
+        "gene_id": "ENSG00000196139.13",
+        "symbol": "AKR1C3",
+        "anonymous_id": "G1956",
+        "mean_expression": 3.06763
+      },
+      {
+        "gene_id": "ENSG00000198431.15",
+        "symbol": "TXNRD1",
+        "anonymous_id": "G1281",
+        "mean_expression": 2.93134
+      },
+      {
+        "gene_id": "ENSG00000067225.17",
+        "symbol": "PKM",
+        "anonymous_id": "G0971",
+        "mean_expression": 2.91314
+      }
+    ],
+    "limitation": "Untreated population only; expression does not establish protein activity or genotype"
+  },
+  "provenance": {
+    "version": "pure-mechanism-inputs-v1",
+    "work": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose",
+    "source_paths": {
+      "effects": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/lexa/exact_code_effects.npz",
+      "baseline": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/lexa/baseline.npz",
+      "state_labels": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/lexa/labels.json",
+      "cases": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/prepared/cases.json",
+      "axis_annotations": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/axis_annotations.json",
+      "mechanisms": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/mechanism_cards_v4.json"
+    },
+    "source_sha256": {
+      "effects": "5bd0da54ddcceae0a4ea40d2f260b4d2acbd7b2d7a2eb2da97caeb75efb117fd",
+      "baseline": "fc7bf87c95b105da613b312fd76a3b4ee459f1aa064a9d7e495852c22e598f75",
+      "state_labels": "5ee78dadc0b1aaf061f3a023390644e0228b9c7e7faf737329cbb8dab8c3dde9",
+      "cases": "493aa96ab615615a046148cf85ee57b68c5d2ea86b72443440de78e5e7d8b8c1",
+      "axis_annotations": "85f325f61fab0fee7322e947ce82d46cacd78e346c704f745378071a3f5174fd",
+      "mechanisms": "9675927a4d025f7437964d50f66f1fb9dfab395ebdc890b5abfb4f0162442424"
+    },
+    "implementation_sha256": "904306ca7feb6ecdfc7ed57262f8a36929e668dc7a9184d5a15ff4a77ce0baf2",
+    "anonymous_gene_seed": 20261027,
+    "condition_response_retrieval": false,
+    "heldout_expression_accessed": false
+  },
+  "information_boundary": "Control+frozen code meanings+general drug mechanism only; no treatment responses or dose interpolation"
+}

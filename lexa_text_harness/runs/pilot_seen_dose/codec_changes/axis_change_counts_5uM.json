@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-10-26T22:27:40.640449+08:00",
+  "definitions": {
+    "population": "Matched treatment/control, four culture wells equally weighted per drug,5uM,24h",
+    "dominant_code_changed_axes": "argmax state(control mean occupancy) differs from argmax state(treated mean occupancy); no ties observed",
+    "tv": "0.5*sum_s(abs(treated_fraction-control_fraction)), range0to1",
+    "thresholds": "0.2 and0.5 are descriptive cutoffs, not hypothesis tests",
+    "scope": "Population distribution changes; no same-cell before/after pairing"
+  },
+  "counts": [
+    {
+      "drug": "BMS",
+      "dose_uM": 5,
+      "n_wells": 4,
+      "total_axes": 32,
+      "dominant_code_changed_axes": 31,
+      "tv_gt_0_2_axes": 32,
+      "tv_gt_0_5_axes": 31,
+      "tv_mean": 0.7117029626348175
+    },
+    {
+      "drug": "Dex",
+      "dose_uM": 5,
+      "n_wells": 4,
+      "total_axes": 32,
+      "dominant_code_changed_axes": 29,
+      "tv_gt_0_2_axes": 32,
+      "tv_gt_0_5_axes": 12,
+      "tv_mean": 0.4621108173264643
+    },
+    {
+      "drug": "Nutlin",
+      "dose_uM": 5,
+      "n_wells": 4,
+      "total_axes": 32,
+      "dominant_code_changed_axes": 31,
+      "tv_gt_0_2_axes": 32,
+      "tv_gt_0_5_axes": 30,
+      "tv_mean": 0.6537261526860788
+    },
+    {
+      "drug": "SAHA",
+      "dose_uM": 5,
+      "n_wells": 4,
+      "total_axes": 32,
+      "dominant_code_changed_axes": 32,
+      "tv_gt_0_2_axes": 32,
+      "tv_gt_0_5_axes": 32,
+      "tv_mean": 0.8414852123773202
+    }
+  ],
+  "independent_case_array_crosscheck": "passed",
+  "sources_sha256": {
+    "condition_state_occupancy.csv": "11ad55ddd8705f3c415153f65ea7f1344119980d18be44656d1f46213a2b353c",
+    "condition_axis_changes.csv": "3c4fc1fb261bdf228d5a40e76f1c20d54343b21b1e5e9203cc12c4e5467a574f",
+    "case_arrays.npz": "f2d2e5a8d3d391853ab57c69b9634434b9edfb561f83524ecd991f4da4808b2a"
+  }
+}

@@ -1,0 +1,957 @@
+{
+  "status": "completed",
+  "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=2",
+  "opaque_id": "Pa7752004b09e",
+  "arm": "no_mechanism",
+  "stage": "joint",
+  "fingerprint": "aef4f4a19d31f6a19c0011daaf20d9d5746a1f86cc3b98f52b61f1040116f207",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A0/C10",
+        "A0/C8"
+      ],
+      "reason": "Strong ribosomal-up states; H1 redox uncertain but A0 supports up-shift"
+    },
+    {
+      "axis_id": 1,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A1/C6",
+        "A1/C1"
+      ],
+      "reason": "Positive chromatin/cycle states with coherent up markers"
+    },
+    {
+      "axis_id": 2,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A2/C9",
+        "A2/C8"
+      ],
+      "reason": "SERPINE1/TGM2 stress-matrix high states supported by A2"
+    },
+    {
+      "axis_id": 3,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A3/C13",
+        "A3/C15"
+      ],
+      "reason": "Broad chromatin/transcription up states; A3 supports positive shift"
+    },
+    {
+      "axis_id": 4,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A4/C12",
+        "A4/C0"
+      ],
+      "reason": "Aldehyde/ketoreductase-high states; H1 redox direction uncertain"
+    },
+    {
+      "axis_id": 5,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A5/C11",
+        "A5/C12"
+      ],
+      "reason": "PDE4B/CACNA2D1 up states; H2 direction uncertain but A5 supports"
+    },
+    {
+      "axis_id": 6,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A6/C10",
+        "A6/C15"
+      ],
+      "reason": "Nucleolar/export-translation up states supported by A6"
+    },
+    {
+      "axis_id": 7,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A7/C7",
+        "A7/C8"
+      ],
+      "reason": "ZSWIM6/WDR70/UBR3 up states; A7 supports cytoskeletal up-shift"
+    },
+    {
+      "axis_id": 8,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A8/C2",
+        "A8/C4"
+      ],
+      "reason": "Chaperone-high states 2,4,9 supported by HSP90AA1/HSPA1A up"
+    },
+    {
+      "axis_id": 9,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A9",
+        "H1"
+      ],
+      "reason": "Poorly resolved axis; no consistent functional theme or direction"
+    },
+    {
+      "axis_id": 10,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A10/C9",
+        "A10/C13"
+      ],
+      "reason": "DKK1/ANXA1-high states 9,13 and ER-high 7 supported"
+    },
+    {
+      "axis_id": 11,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A11",
+        "H2"
+      ],
+      "reason": "Weakest-varying axis; small mixed effects, no clear direction"
+    },
+    {
+      "axis_id": 12,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A12/C1",
+        "A12/C14"
+      ],
+      "reason": "SLC38A1/CCND1/IGF2BP1-high states 1,14,15 supported"
+    },
+    {
+      "axis_id": 13,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A13/C6",
+        "A13/C7"
+      ],
+      "reason": "PDE4D/ABCC3/MTUS1-high states 6,7,3 supported"
+    },
+    {
+      "axis_id": 14,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A14/C2",
+        "A14/C13"
+      ],
+      "reason": "TRIO/MBNL1/FGD6-high states 2,13,3 supported"
+    },
+    {
+      "axis_id": 15,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A15",
+        "H3"
+      ],
+      "reason": "Poorly resolved WWOX program; broad shifts, unclear biology"
+    },
+    {
+      "axis_id": 16,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A16/C11",
+        "A16/C3"
+      ],
+      "reason": "Keratin-high states with strong KRT8/KRT18/CTNNA3 up-weighting"
+    },
+    {
+      "axis_id": 17,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A17/C7",
+        "A17/C11"
+      ],
+      "reason": "Glycolytic/cytoskeletal up states with strong TPI1/ALDOA/POLR2L"
+    },
+    {
+      "axis_id": 18,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A18/C11",
+        "A18/C4"
+      ],
+      "reason": "STC1/RGL1-high and sterol-synthesis-high states dominate"
+    },
+    {
+      "axis_id": 19,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A19/C4"
+      ],
+      "reason": "Only coherent coordinated p53-marker up state"
+    },
+    {
+      "axis_id": 20,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A20/C6",
+        "A20/C11"
+      ],
+      "reason": "PSAP/LGALS3BP/GRN-high lysosomal-secretory states"
+    },
+    {
+      "axis_id": 21,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A21/C6",
+        "A21/C13"
+      ],
+      "reason": "FKBP5/PCDH9/SDK2 coordinated adhesion-high states"
+    },
+    {
+      "axis_id": 22,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A22/C8",
+        "A22/C7"
+      ],
+      "reason": "Mitochondrial-encoded OXPHOS-high states with negligible down"
+    },
+    {
+      "axis_id": 23,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A23/C2",
+        "A23/C12"
+      ],
+      "reason": "HIF1A-AS2/SERTAD2/RYBP coordinated high states"
+    },
+    {
+      "axis_id": 24,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A24/C9",
+        "A24/C13"
+      ],
+      "reason": "High-proliferation states up TOP2A/MKI67/CENPF; supported by A24"
+    },
+    {
+      "axis_id": 25,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A25/C6",
+        "A25/C12"
+      ],
+      "reason": "TXNRD1/KMT2A/PPP6R3-high states; redox-chromatin up"
+    },
+    {
+      "axis_id": 26,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A26/C1",
+        "A26/C10"
+      ],
+      "reason": "MALAT1/NEAT1-high states; lncRNA program up"
+    },
+    {
+      "axis_id": 27,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A27/C2",
+        "A27/C14"
+      ],
+      "reason": "EGFR/TGFBI/NTRK3-high coordinated states"
+    },
+    {
+      "axis_id": 28,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A28/C10",
+        "A28/C14"
+      ],
+      "reason": "TFPI2/SLC9A3R1/UBB-high stress-secretory states"
+    },
+    {
+      "axis_id": 29,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A29/C12",
+        "A29/C14"
+      ],
+      "reason": "Tubulin/VIM/CCT5-high cytoskeletal states"
+    },
+    {
+      "axis_id": 30,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A30/C8",
+        "A30/C13"
+      ],
+      "reason": "PRKCA/EPS8-high coordinated states"
+    },
+    {
+      "axis_id": 31,
+      "decision": "shift",
+      "targets": [
+        [
+          3,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A31/C3",
+        "A31/C12"
+      ],
+      "reason": "SLC12A2/CYP24A1-high transport-metabolic states"
+    }
+  ],
+  "response": {
+    "updates": [],
+    "summary": "Local shifts are directionally consistent with axis evidence and fixed uncertain hypotheses; no cross-axis cancellation or contradiction justifies revision.",
+    "limitations": [
+      "Mechanism withheld; directions are decoder-consistent, not treatment-validated.",
+      "Several axes (9,11,15) remain unknown due to weak/mixed evidence.",
+      "Cross-axis cancellation noted for a few features but not decision-changing."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 29,
+      "keep": 0,
+      "unknown": 3
+    },
+    "delta_l2": 6.795880387307046,
+    "standardized_delta_rms": 0.1828214956433248,
+    "axis_tv": [
+      0.24,
+      0.18,
+      0.29400000000000004,
+      0.28800000000000003,
+      0.246,
+      0.21600000000000003,
+      0.21000000000000002,
+      0.30000000000000004,
+      0.13199999999999995,
+      0.0,
+      0.282,
+      0.0,
+      0.18,
+      0.252,
+      0.30000000000000004,
+      0.0,
+      0.30000000000000004,
+      0.22799999999999998,
+      0.288,
+      0.276,
+      0.29400000000000004,
+      0.30000000000000004,
+      0.192,
+      0.294,
+      0.198,
+      0.17999999999999997,
+      0.27,
+      0.23400000000000004,
+      0.30000000000000004,
+      0.16799999999999998,
+      0.27,
+      0.21600000000000003
+    ],
+    "mean_axis_tv": 0.22275,
+    "top_gene_changes": {
+      "up": [
+        {
+          "feature": "ENSG00000100867.14",
+          "delta": 0.58536,
+          "scaled_delta": 0.62395,
+          "symbol": "DHRS2"
+        },
+        {
+          "feature": "ENSG00000124762.13",
+          "delta": 0.51265,
+          "scaled_delta": 0.61474,
+          "symbol": "CDKN1A"
+        },
+        {
+          "feature": "ENSG00000186480.12",
+          "delta": 0.57574,
+          "scaled_delta": 0.59999,
+          "symbol": "INSIG1"
+        },
+        {
+          "feature": "ENSG00000161513.11",
+          "delta": 0.41169,
+          "scaled_delta": 0.59563,
+          "symbol": "FDXR"
+        },
+        {
+          "feature": "ENSG00000259124.1",
+          "delta": 0.5478,
+          "scaled_delta": 0.59375,
+          "symbol": "AC008050.1"
+        },
+        {
+          "feature": "ENSG00000160963.13",
+          "delta": 0.49664,
+          "scaled_delta": 0.59373,
+          "symbol": "COL26A1"
+        },
+        {
+          "feature": "ENSG00000115129.13",
+          "delta": 0.41522,
+          "scaled_delta": 0.56966,
+          "symbol": "TP53I3"
+        },
+        {
+          "feature": "ENSG00000103740.9",
+          "delta": 0.41577,
+          "scaled_delta": 0.5653,
+          "symbol": "ACSBG1"
+        },
+        {
+          "feature": "ENSG00000143344.15",
+          "delta": 0.44563,
+          "scaled_delta": 0.5621,
+          "symbol": "RGL1"
+        },
+        {
+          "feature": "ENSG00000067064.10",
+          "delta": 0.52709,
+          "scaled_delta": 0.56032,
+          "symbol": "IDI1"
+        }
+      ],
+      "down": [
+        {
+          "feature": "ENSG00000267374.1",
+          "delta": -0.01466,
+          "scaled_delta": -0.01634,
+          "symbol": "AC016205.1"
+        },
+        {
+          "feature": "ENSG00000136492.8",
+          "delta": -0.00083,
+          "scaled_delta": -0.00124,
+          "symbol": "BRIP1"
+        }
+      ]
+    },
+    "hypothesis_gene_checks": [
+      {
+        "hypothesis": "H1",
+        "gene": "TXNRD1",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.20756104515842133,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H1",
+        "gene": "AKR1B10",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.21372726482097612,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H1",
+        "gene": "ALDH1A1",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.2074971201332515,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H2",
+        "gene": "PDE4D",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.27771019246522294,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H3",
+        "gene": "NEAT1",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.38949891138193166,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H3",
+        "gene": "MALAT1",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.3152265964457762,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H4",
+        "gene": "ENO1",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.21028027200140037,
+        "consistent": null
+      }
+    ],
+    "cross_axis_cancellation": [
+      {
+        "feature": "ENSG00000278259.4",
+        "summed_delta": 0.026486795383432703,
+        "absolute_axis_sum": 0.046627590763309856
+      },
+      {
+        "feature": "ENSG00000188158.14",
+        "summed_delta": 0.0501290960201804,
+        "absolute_axis_sum": 0.06909804675977646
+      },
+      {
+        "feature": "ENSG00000169604.19",
+        "summed_delta": 0.04229944818590224,
+        "absolute_axis_sum": 0.05850456730399674
+      },
+      {
+        "feature": "ENSG00000154678.16",
+        "summed_delta": 0.04643487116903629,
+        "absolute_axis_sum": 0.06176442918390603
+      },
+      {
+        "feature": "ENSG00000184220.11",
+        "summed_delta": 0.09982722064544203,
+        "absolute_axis_sum": 0.11421926816989428
+      },
+      {
+        "feature": "ENSG00000135905.18",
+        "summed_delta": 0.03630498169837114,
+        "absolute_axis_sum": 0.050388846178420876
+      }
+    ]
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "e83702b9737e86d8adf982aca438b4d699649736a490e8621b8d546809300aa9",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "cd70fae4e6b04658196fc2a3130ef1f3b4d5e9135e62a6bf7b812fe8d7480371",
+      "response_sha256": "621c53c833328765f69b444904467c4b93bce62d9f87e72dbe8b9ed223bd6a67"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "5e39c3f6faaa836caf2b3549557c906b6f7f4d6ae65919444750bae06d74c702",
+      "response_sha256": "73d58b31f7540261c078a6ce6d327ea6e29ad913962b5febb11a48c653defd88"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "f59fcf9f0c455d3e82de3942e71b6c31664cdcb25b66d2346c662f654ac94f81",
+      "response_sha256": "619435f5964466d5ee5bca4cd7536c299d559056dd21f850aef5e77eef93ae5b"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "980d0e2fb31d966681b0f3601d6bdfc0469b4cc2bfae22ae99afb26dc3201370",
+      "response_sha256": "d58a4eb1855ce0a2c25495e921fadc499bf111478977861d220741f5ab1788f5"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "3a4482aaa58e95bb0853b13e32c4cb9d1964ecb802e274d1a430b01634fcf893",
+      "response_sha256": "ec89461bf292357f86c74cf83054ac2cf3e59128b64a8710d73654dc8e644263"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "20f16072443f988de59f8b555f37404f2bc62c3d64148436636c2e5ce27bfc0c",
+      "response_sha256": "59a9b563cc9fccb3548da4fd12cb72bc8b4a5bb94ecb86c9508adb814fbf93dd"
+    }
+  ],
+  "attempts_used": 6,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/no_mechanism/Pa7752004b09e/joint.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "00e7ebf579ccadb4f71623dbea184e2c2eff1f4a287f7b0129ada4775db5727d"
+}

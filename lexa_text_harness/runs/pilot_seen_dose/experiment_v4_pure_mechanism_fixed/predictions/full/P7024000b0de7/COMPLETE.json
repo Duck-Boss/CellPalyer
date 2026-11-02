@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=1",
+  "opaque_id": "P7024000b0de7",
+  "arm": "full",
+  "fingerprint": "ce8368c63c0348c4ace0269e857a02eecda8d7015056d8b29b9bcb79d6e349fc",
+  "api_attempts": 6,
+  "local": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/full/P7024000b0de7/local.json",
+  "joint": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/full/P7024000b0de7/joint.json",
+  "local_sha256": "ca39eb98d37a4713901bf994c36eac0180f6d0026dacf5c7b099ea7b443e2464",
+  "joint_sha256": "058f0fd51ab7e0ab78ae7b443b5dffa36958d15d1ab0cd5144b1f68347ef45e1",
+  "hypotheses_sha256": "c8f72f05a0b3148b5b95206c63587784656402e075c6aa4c2e4e8e540349c9c4"
+}

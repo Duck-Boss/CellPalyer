@@ -1,0 +1,92 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "NF-kappa-B transcriptional activity",
+      "direction": "decrease",
+      "basis": "direct",
+      "conditions": "A549, dexamethasone 5 uM, 24 h; GR- and NF-kB-dependent context",
+      "gene_expectations": [
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MALAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "GR transrepresses NF-kB activity; downstream NF-kB target mRNA changes are context-dependent and not supplied."
+    },
+    {
+      "id": "H2",
+      "program": "Glucocorticoid receptor signaling",
+      "direction": "uncertain",
+      "basis": "direct",
+      "conditions": "A549; receptor abundance and cofactor context unknown",
+      "gene_expectations": [
+        {
+          "gene": "NR3C1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "GR activation does not imply NR3C1 mRNA change; direction of receptor autoregulation is context-dependent."
+    },
+    {
+      "id": "H3",
+      "program": "Glycolytic metabolism",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549; high baseline glycolytic gene expression",
+      "gene_expectations": [
+        {
+          "gene": "ENO1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        }
+      ],
+      "reason": "Glucocorticoids can modulate metabolism, but no A549 treatment profile supports a signed direction.",
+      "evidence_refs": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "H4",
+      "program": "Detoxification / aldehyde dehydrogenase",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549; baseline ALDH1A1 and AKR1C2 expression",
+      "gene_expectations": [
+        {
+          "gene": "ALDH1A1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        }
+      ],
+      "reason": "No supplied evidence links GR agonism to these genes in A549; direction cannot be inferred.",
+      "evidence_refs": [
+        "C"
+      ]
+    }
+  ],
+  "summary": "Dexamethasone activates GR and may transrepress NF-kB, but no A549 treatment expression data are supplied; most gene-level directions remain uncertain.",
+  "limitations": [
+    "No measured perturbation response or signed gene list is available.",
+    "Only 24 h at 5 uM; dose and time dependence unknown.",
+    "A549-specific GR, cofactor and chromatin context is not characterized."
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "p53 transcriptional activation",
+      "direction": "increase",
+      "basis": "direct",
+      "conditions": "requires functional p53; A549 p53 status not established by control profile",
+      "gene_expectations": [
+        {
+          "gene": "CDKN1A",
+          "direction": "increase"
+        },
+        {
+          "gene": "MDM2",
+          "direction": "increase"
+        },
+        {
+          "gene": "BBC3",
+          "direction": "increase"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M1",
+        "M2"
+      ],
+      "reason": "MDM2 antagonism stabilizes p53 and releases p53-dependent transcription of canonical targets."
+    },
+    {
+      "id": "H2",
+      "program": "cell cycle arrest",
+      "direction": "increase",
+      "basis": "secondary",
+      "conditions": "downstream of p53 activation; magnitude context-dependent",
+      "gene_expectations": [
+        {
+          "gene": "CDKN1A",
+          "direction": "increase"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "p53-driven CDKN1A induction can mediate G1 arrest, but arrest magnitude is not supplied."
+    },
+    {
+      "id": "H3",
+      "program": "apoptosis",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "depends on cellular context and p53 competence",
+      "gene_expectations": [
+        {
+          "gene": "BBC3",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "BAX",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M2"
+      ],
+      "reason": "Apoptotic outcome is context-dependent; no dose-response or viability data supplied."
+    },
+    {
+      "id": "H4",
+      "program": "TP53 transcript level",
+      "direction": "uncertain",
+      "basis": "direct",
+      "conditions": "protein stabilization does not imply mRNA change",
+      "gene_expectations": [
+        {
+          "gene": "TP53",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Mechanism acts on protein interaction; TP53 mRNA direction is not implied."
+    }
+  ],
+  "summary": "Nutlin-3a is predicted to activate p53-dependent transcription if A549 has functional p53; downstream arrest/apoptosis magnitude is uncertain.",
+  "limitations": [
+    "A549 p53 functional status is not established by the control profile.",
+    "No measured perturbation response or dose trajectory is supplied.",
+    "Protein stabilization does not predict mRNA direction for TP53."
+  ]
+}

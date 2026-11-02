@@ -1,0 +1,1410 @@
+{
+  "status": "completed",
+  "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=3",
+  "opaque_id": "P83c21411acd2",
+  "arm": "full",
+  "stage": "joint",
+  "fingerprint": "d3efae2bee15cdd0e10e44fd1bebe5fa427ce4a28e5bf3c770af4e32d30aa192",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A0/C10"
+      ],
+      "reason": "Ribosomal-up states plausible under p53; keep"
+    },
+    {
+      "axis_id": 1,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A1/C1"
+      ],
+      "reason": "Chromatin/RNA positive states; weak but consistent"
+    },
+    {
+      "axis_id": 2,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A2/C8"
+      ],
+      "reason": "Stress/secretory high states fit p53 stress"
+    },
+    {
+      "axis_id": 3,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A3/C13"
+      ],
+      "reason": "Chromatin/RNA up states; modest support"
+    },
+    {
+      "axis_id": 4,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A4/C0"
+      ],
+      "reason": "Oxidative-stress markers rise with p53"
+    },
+    {
+      "axis_id": 5,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A5/C11"
+      ],
+      "reason": "No p53-linked direction for PDE4/adhesion"
+    },
+    {
+      "axis_id": 6,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A6/C10"
+      ],
+      "reason": "Nucleolar/export up states; plausible"
+    },
+    {
+      "axis_id": 7,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A7/C7"
+      ],
+      "reason": "Cytoskeletal/trafficking lacks p53 link"
+    },
+    {
+      "axis_id": 8,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A8/C2"
+      ],
+      "reason": "Chaperone-high states plausible stress response"
+    },
+    {
+      "axis_id": 9,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A9"
+      ],
+      "reason": "Poorly resolved; no supported direction"
+    },
+    {
+      "axis_id": 10,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A10/C9"
+      ],
+      "reason": "DKK1/ANXA1-high stress states plausible"
+    },
+    {
+      "axis_id": 11,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A11"
+      ],
+      "reason": "Weakest axis; no supported direction"
+    },
+    {
+      "axis_id": 12,
+      "decision": "shift",
+      "targets": [
+        [
+          5,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A12/C5"
+      ],
+      "reason": "SLC38A1/CCND1-low fits p53 arrest"
+    },
+    {
+      "axis_id": 13,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A13/C12"
+      ],
+      "reason": "PDE4D/ABCC3-low fits reduced proliferation"
+    },
+    {
+      "axis_id": 14,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A14"
+      ],
+      "reason": "Mixed cytoskeletal; no p53 direction"
+    },
+    {
+      "axis_id": 15,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A15"
+      ],
+      "reason": "Unclear WWOX program; insufficient"
+    },
+    {
+      "axis_id": 16,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A16/C3"
+      ],
+      "reason": "Keratin states lack p53 mechanistic link"
+    },
+    {
+      "axis_id": 17,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A17/C7",
+        "A17/C11"
+      ],
+      "reason": "Glycolytic/energy up; weak secondary support"
+    },
+    {
+      "axis_id": 18,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A18/C4",
+        "A18/C11"
+      ],
+      "reason": "Sterol/STC1 states; weak indirect support"
+    },
+    {
+      "axis_id": 19,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A19/C4"
+      ],
+      "reason": "Strong p53-marker state matches mechanism"
+    },
+    {
+      "axis_id": 20,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A20/C4"
+      ],
+      "reason": "Lysosomal/secretory indirect; weak"
+    },
+    {
+      "axis_id": 21,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A21/C0"
+      ],
+      "reason": "Adhesion states lack direct p53 link"
+    },
+    {
+      "axis_id": 22,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "A22/C7",
+        "A22/C15"
+      ],
+      "reason": "OXPHOS-high; secondary metabolic possibility"
+    },
+    {
+      "axis_id": 23,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A23/C2"
+      ],
+      "reason": "Regulatory states weak; uncertain"
+    },
+    {
+      "axis_id": 24,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          10,
+          0.6
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A24/C9"
+      ],
+      "reason": "p53 arrest suppresses high-proliferation states"
+    },
+    {
+      "axis_id": 25,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ],
+        [
+          8,
+          0.8
+        ],
+        [
+          3,
+          0.6
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A25/C14"
+      ],
+      "reason": "Low TXNRD1/KMT2A favored under p53 stress"
+    },
+    {
+      "axis_id": 26,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A26/C3"
+      ],
+      "reason": "lncRNA/neuronal lacks p53 direction"
+    },
+    {
+      "axis_id": 27,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          11,
+          0.8
+        ],
+        [
+          12,
+          0.6
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A27/C8"
+      ],
+      "reason": "Low EGFR/ECM signaling favored with p53"
+    },
+    {
+      "axis_id": 28,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          0.8
+        ],
+        [
+          6,
+          0.5
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A28/C10"
+      ],
+      "reason": "Stress/secretory high states plausible"
+    },
+    {
+      "axis_id": 29,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          0.8
+        ],
+        [
+          5,
+          0.6
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A29/C8"
+      ],
+      "reason": "Tubulin-low fits p53 growth arrest"
+    },
+    {
+      "axis_id": 30,
+      "decision": "shift",
+      "targets": [
+        [
+          5,
+          1
+        ],
+        [
+          10,
+          0.8
+        ],
+        [
+          3,
+          0.6
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A30/C5"
+      ],
+      "reason": "PRKCA/EPS8-low favored with arrest"
+    },
+    {
+      "axis_id": 31,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A31/C2"
+      ],
+      "reason": "Transport/metabolic lacks clear p53 direction"
+    }
+  ],
+  "response": {
+    "updates": [
+      {
+        "axis_id": 0,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A0/C10"
+        ],
+        "reason": "Ribosomal-up states plausible under p53; keep"
+      },
+      {
+        "axis_id": 1,
+        "decision": "shift",
+        "targets": [
+          [
+            1,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A1/C1"
+        ],
+        "reason": "Chromatin/RNA positive states; weak but consistent"
+      },
+      {
+        "axis_id": 2,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A2/C8"
+        ],
+        "reason": "Stress/secretory high states fit p53 stress"
+      },
+      {
+        "axis_id": 3,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A3/C13"
+        ],
+        "reason": "Chromatin/RNA up states; modest support"
+      },
+      {
+        "axis_id": 4,
+        "decision": "shift",
+        "targets": [
+          [
+            0,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A4/C0"
+        ],
+        "reason": "Oxidative-stress markers rise with p53"
+      },
+      {
+        "axis_id": 5,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A5/C11"
+        ],
+        "reason": "No p53-linked direction for PDE4/adhesion"
+      },
+      {
+        "axis_id": 6,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            15,
+            1
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A6/C10"
+        ],
+        "reason": "Nucleolar/export up states; plausible"
+      },
+      {
+        "axis_id": 7,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A7/C7"
+        ],
+        "reason": "Cytoskeletal/trafficking lacks p53 link"
+      },
+      {
+        "axis_id": 8,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A8/C2"
+        ],
+        "reason": "Chaperone-high states plausible stress response"
+      },
+      {
+        "axis_id": 9,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A9"
+        ],
+        "reason": "Poorly resolved; no supported direction"
+      },
+      {
+        "axis_id": 10,
+        "decision": "shift",
+        "targets": [
+          [
+            9,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A10/C9"
+        ],
+        "reason": "DKK1/ANXA1-high stress states plausible"
+      },
+      {
+        "axis_id": 11,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A11"
+        ],
+        "reason": "Weakest axis; no supported direction"
+      },
+      {
+        "axis_id": 12,
+        "decision": "shift",
+        "targets": [
+          [
+            5,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A12/C5"
+        ],
+        "reason": "SLC38A1/CCND1-low fits p53 arrest"
+      },
+      {
+        "axis_id": 13,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A13/C12"
+        ],
+        "reason": "PDE4D/ABCC3-low fits reduced proliferation"
+      },
+      {
+        "axis_id": 14,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A14"
+        ],
+        "reason": "Mixed cytoskeletal; no p53 direction"
+      },
+      {
+        "axis_id": 15,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A15"
+        ],
+        "reason": "Unclear WWOX program; insufficient"
+      },
+      {
+        "axis_id": 16,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A16/C3"
+        ],
+        "reason": "Keratin states lack p53 mechanistic link"
+      },
+      {
+        "axis_id": 17,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "A17/C7",
+          "A17/C11"
+        ],
+        "reason": "Glycolytic/energy up; weak secondary support"
+      },
+      {
+        "axis_id": 18,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "A18/C4",
+          "A18/C11"
+        ],
+        "reason": "Sterol/STC1 states; weak indirect support"
+      },
+      {
+        "axis_id": 19,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A19/C4"
+        ],
+        "reason": "Strong p53-marker state matches mechanism"
+      },
+      {
+        "axis_id": 20,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A20/C4"
+        ],
+        "reason": "Lysosomal/secretory indirect; weak"
+      },
+      {
+        "axis_id": 21,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A21/C0"
+        ],
+        "reason": "Adhesion states lack direct p53 link"
+      },
+      {
+        "axis_id": 22,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "A22/C7",
+          "A22/C15"
+        ],
+        "reason": "OXPHOS-high; secondary metabolic possibility"
+      },
+      {
+        "axis_id": 23,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A23/C2"
+        ],
+        "reason": "Regulatory states weak; uncertain"
+      },
+      {
+        "axis_id": 24,
+        "decision": "shift",
+        "targets": [
+          [
+            9,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            10,
+            0.6
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A24/C9"
+        ],
+        "reason": "p53 arrest suppresses high-proliferation states"
+      },
+      {
+        "axis_id": 25,
+        "decision": "shift",
+        "targets": [
+          [
+            14,
+            1
+          ],
+          [
+            8,
+            0.8
+          ],
+          [
+            3,
+            0.6
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A25/C14"
+        ],
+        "reason": "Low TXNRD1/KMT2A favored under p53 stress"
+      },
+      {
+        "axis_id": 26,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A26/C3"
+        ],
+        "reason": "lncRNA/neuronal lacks p53 direction"
+      },
+      {
+        "axis_id": 27,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            11,
+            0.8
+          ],
+          [
+            12,
+            0.6
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A27/C8"
+        ],
+        "reason": "Low EGFR/ECM signaling favored with p53"
+      },
+      {
+        "axis_id": 28,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            14,
+            0.8
+          ],
+          [
+            6,
+            0.5
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A28/C10"
+        ],
+        "reason": "Stress/secretory high states plausible"
+      },
+      {
+        "axis_id": 29,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            0.8
+          ],
+          [
+            5,
+            0.6
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A29/C8"
+        ],
+        "reason": "Tubulin-low fits p53 growth arrest"
+      },
+      {
+        "axis_id": 30,
+        "decision": "shift",
+        "targets": [
+          [
+            5,
+            1
+          ],
+          [
+            10,
+            0.8
+          ],
+          [
+            3,
+            0.6
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A30/C5"
+        ],
+        "reason": "PRKCA/EPS8-low favored with arrest"
+      },
+      {
+        "axis_id": 31,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A31/C2"
+        ],
+        "reason": "Transport/metabolic lacks clear p53 direction"
+      }
+    ],
+    "summary": "Revised axis 16 to unknown (keratin states lack p53 link); retained other shifts/unknowns consistent with H1/H2 and decoder directions. No cross-axis cancellation contradicts p53-marker increases.",
+    "limitations": [
+      "A549 p53 functional status unestablished.",
+      "No dose-response or expression data; magnitudes hypothetical.",
+      "Many axes have weak/indirect p53 links."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 20,
+      "keep": 0,
+      "unknown": 12
+    },
+    "delta_l2": 4.117346009063458,
+    "standardized_delta_rms": 0.11014935446013642,
+    "axis_tv": [
+      0.2631578947368421,
+      0.15263157894736842,
+      0.30000000000000004,
+      0.2736842105263158,
+      0.23684210526315788,
+      0.0,
+      0.21578947368421048,
+      0.0,
+      0.20526315789473681,
+      0.0,
+      0.2894736842105263,
+      0.0,
+      0.30000000000000004,
+      0.2947368421052632,
+      0.0,
+      0.0,
+      0.0,
+      0.2631578947368421,
+      0.2947368421052632,
+      0.2894736842105263,
+      0.0,
+      0.0,
+      0.1631578947368421,
+      0.0,
+      0.22631578947368422,
+      0.23157894736842105,
+      0.0,
+      0.19473684210526318,
+      0.2947368421052632,
+      0.24210526315789477,
+      0.26315789473684215,
+      0.0
+    ],
+    "mean_axis_tv": 0.15608552631578948,
+    "top_gene_changes": {
+      "up": [
+        {
+          "feature": "ENSG00000186480.12",
+          "delta": 0.56946,
+          "scaled_delta": 0.59345,
+          "symbol": "INSIG1"
+        },
+        {
+          "feature": "ENSG00000100867.14",
+          "delta": 0.55657,
+          "scaled_delta": 0.59326,
+          "symbol": "DHRS2"
+        },
+        {
+          "feature": "ENSG00000160963.13",
+          "delta": 0.48365,
+          "scaled_delta": 0.5782,
+          "symbol": "COL26A1"
+        },
+        {
+          "feature": "ENSG00000259124.1",
+          "delta": 0.5225,
+          "scaled_delta": 0.56632,
+          "symbol": "AC008050.1"
+        },
+        {
+          "feature": "ENSG00000103740.9",
+          "delta": 0.39766,
+          "scaled_delta": 0.54067,
+          "symbol": "ACSBG1"
+        },
+        {
+          "feature": "ENSG00000118523.5",
+          "delta": 0.47786,
+          "scaled_delta": 0.54013,
+          "symbol": "CTGF"
+        },
+        {
+          "feature": "ENSG00000067064.10",
+          "delta": 0.49619,
+          "scaled_delta": 0.52748,
+          "symbol": "IDI1"
+        },
+        {
+          "feature": "ENSG00000143344.15",
+          "delta": 0.41497,
+          "scaled_delta": 0.52343,
+          "symbol": "RGL1"
+        },
+        {
+          "feature": "ENSG00000159167.11",
+          "delta": 0.37722,
+          "scaled_delta": 0.50418,
+          "symbol": "STC1"
+        },
+        {
+          "feature": "ENSG00000166165.12",
+          "delta": 0.36178,
+          "scaled_delta": 0.48554,
+          "symbol": "CKB"
+        }
+      ],
+      "down": [
+        {
+          "feature": "ENSG00000123416.15",
+          "delta": -0.2452,
+          "scaled_delta": -0.21741,
+          "symbol": "TUBA1B"
+        },
+        {
+          "feature": "ENSG00000113448.18",
+          "delta": -0.18964,
+          "scaled_delta": -0.21261,
+          "symbol": "PDE4D"
+        },
+        {
+          "feature": "ENSG00000115504.14",
+          "delta": -0.1766,
+          "scaled_delta": -0.19135,
+          "symbol": "EHBP1"
+        },
+        {
+          "feature": "ENSG00000136938.8",
+          "delta": -0.1292,
+          "scaled_delta": -0.18646,
+          "symbol": "ANP32B"
+        },
+        {
+          "feature": "ENSG00000196230.12",
+          "delta": -0.16638,
+          "scaled_delta": -0.18362,
+          "symbol": "TUBB"
+        },
+        {
+          "feature": "ENSG00000230590.9",
+          "delta": -0.16056,
+          "scaled_delta": -0.17074,
+          "symbol": "FTX"
+        },
+        {
+          "feature": "ENSG00000171889.3",
+          "delta": -0.16558,
+          "scaled_delta": -0.1691,
+          "symbol": "MIR31HG"
+        },
+        {
+          "feature": "ENSG00000099250.17",
+          "delta": -0.16119,
+          "scaled_delta": -0.16384,
+          "symbol": "NRP1"
+        },
+        {
+          "feature": "ENSG00000108846.15",
+          "delta": -0.16734,
+          "scaled_delta": -0.15859,
+          "symbol": "ABCC3"
+        },
+        {
+          "feature": "ENSG00000023839.10",
+          "delta": -0.153,
+          "scaled_delta": -0.15761,
+          "symbol": "ABCC2"
+        }
+      ]
+    },
+    "hypothesis_gene_checks": [
+      {
+        "hypothesis": "H1",
+        "gene": "CDKN1A",
+        "expected": "increase",
+        "decoded_direction": "increase",
+        "delta": 0.2915418163118038,
+        "consistent": true
+      },
+      {
+        "hypothesis": "H1",
+        "gene": "MDM2",
+        "expected": "increase",
+        "decoded_direction": "increase",
+        "delta": 0.21533711200013736,
+        "consistent": true
+      },
+      {
+        "hypothesis": "H1",
+        "gene": "BBC3",
+        "status": "unmeasured_or_ambiguous"
+      },
+      {
+        "hypothesis": "H2",
+        "gene": "CDKN1A",
+        "expected": "increase",
+        "decoded_direction": "increase",
+        "delta": 0.2915418163118038,
+        "consistent": true
+      },
+      {
+        "hypothesis": "H3",
+        "gene": "BAX",
+        "status": "unmeasured_or_ambiguous"
+      },
+      {
+        "hypothesis": "H3",
+        "gene": "BBC3",
+        "status": "unmeasured_or_ambiguous"
+      },
+      {
+        "hypothesis": "H4",
+        "gene": "TP53",
+        "status": "unmeasured_or_ambiguous"
+      }
+    ],
+    "cross_axis_cancellation": [
+      {
+        "feature": "ENSG00000074800.13",
+        "summed_delta": 0.005090700619279875,
+        "absolute_axis_sum": 0.21745896632412
+      },
+      {
+        "feature": "ENSG00000165092.12",
+        "summed_delta": -0.005077597389206135,
+        "absolute_axis_sum": 0.19972835362853328
+      },
+      {
+        "feature": "ENSG00000136810.12",
+        "summed_delta": 0.01123522628775379,
+        "absolute_axis_sum": 0.22595005788178235
+      },
+      {
+        "feature": "ENSG00000198431.15",
+        "summed_delta": -0.005423613132050742,
+        "absolute_axis_sum": 0.1755193375352726
+      },
+      {
+        "feature": "ENSG00000110321.16",
+        "summed_delta": 0.0030382625184000385,
+        "absolute_axis_sum": 0.17809913115348444
+      },
+      {
+        "feature": "ENSG00000125835.18",
+        "summed_delta": -0.013207987746171901,
+        "absolute_axis_sum": 0.18267887646499642
+      }
+    ]
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "9f4c9f5589e0bb3f73f5ae132b90d4e472aa9fec4bb3ca01d5a83e2ab93d1104",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "84c57d689fcbba8c149aa95f20462eda8999fe11a3bb3218e2f4514c0b32c2f3",
+      "response_sha256": "d23b646439c84238b14210f56e0aee92cdb87442aa9b822806f380318e6f5009"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "9dc32a72dc4bb07a0ec60127e8208115f2c534292019d079d8915f8537fea5ae",
+      "response_sha256": "0e821a2b9750550c0bb9d8e20733af5e184f0f86842bf57ec44a4173de9877c2"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "15d700cf572cef883a6f5902f505a220be0d3ac9dd9ee7543754b60eb9139a85",
+      "response_sha256": "00842d4cbd2fff546767587d0d01af6823fa360367d8ddf67bff695ac4960988"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "8081ae3dab7d146a15353c8dbe0cc70f69ddcf0391ad7a2ec2f7bcb430c738b0",
+      "response_sha256": "0391d1f244e3498ed720b0d67ea043a4e3c4fda91f8e55534af502fa4757329b"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "ef82db0fec67af883402ac47c7e288793bfd229dfc6ca0c22e236e77f6559986",
+      "response_sha256": "a30bef6a8d20d0e25cb602983d5649b17e6be006a9e3a7ba50be71b9ecafda46"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "d45ad9dcd7f04a785a0cff6b1572ba2cdc59daa5fa1fadd823cb15f3a8b20e61",
+      "response_sha256": "c4a73d8df4346d0f11de544fbd52d589dbca6f953b63e07a859802af84c4e6a4"
+    }
+  ],
+  "attempts_used": 6,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/full/P83c21411acd2/joint.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "7403c1e6ac6251037d05f36dd8b84ac81d00d2f45cc64c8c6df99a99be37a243"
+}

@@ -1,0 +1,6 @@
+{
+  "url": "https://codeload.github.com/facebookresearch/CPA/zip/refs/heads/main",
+  "sha256": "a6e8d5eca4ef636a99661ecbb5cb691b51f76335fec157cc602669dc03abef03",
+  "commit": "50e283a7a1b3d43470d8adc5e11d3be4c10a534c",
+  "archive": "benchmarks/pilot_matched_baselines/vendor/cpa_original.zip"
+}

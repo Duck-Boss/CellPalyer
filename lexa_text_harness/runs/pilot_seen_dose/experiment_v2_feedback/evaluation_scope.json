@@ -1,0 +1,15 @@
+{
+  "selected_cases": 16,
+  "reported_methods": [
+    "agent",
+    "nearest_training_dose",
+    "no_edit",
+    "one_shot",
+    "training_mean"
+  ],
+  "evaluated_gene_count": 2000,
+  "gene_population": "Training-selected feature vocabulary only; not all genes in the raw assay.",
+  "evaluation_sha256": "42cdc42755f47eaea134ba1898ca56616d16dfa73839944ef961c90fd649a193",
+  "aggregation": "Equal well means within drug-dose condition, then equal condition means.",
+  "limitation": "Pilot point estimates; correlated culture replicates and selected subset do not establish general biological efficacy. No hypothesis tests or cell-level independent confidence intervals."
+}

@@ -1,0 +1,676 @@
+{
+  "status": "completed",
+  "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=3",
+  "opaque_id": "Pb5935cde53f6",
+  "arm": "neither",
+  "stage": "joint",
+  "fingerprint": "6ddcc3f7ef048f814744931fd419b229b6fe1b82c08b7a871b4596375f47af06",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A0"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 1,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A1"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 2,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A2"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 3,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A3"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 4,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A4"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 5,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A5"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 6,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A6"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 7,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A7"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 8,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A8"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 9,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A9"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 10,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A10"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 11,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A11"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 12,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A12"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 13,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A13"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 14,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A14"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 15,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A15"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 16,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A16"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 17,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A17"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 18,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A18"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 19,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A19"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 20,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A20"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 21,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A21"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 22,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A22"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 23,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A23"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 24,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A24"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 25,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A25"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 26,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A26"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 27,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A27"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 28,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A28"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 29,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A29"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 30,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A30"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 31,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A31"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    }
+  ],
+  "response": {
+    "updates": [
+      {
+        "axis_id": 8,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A8"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 9,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A9"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 10,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A10"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 11,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A11"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 12,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A12"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 13,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A13"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 14,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A14"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 15,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A15"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 16,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A16"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 17,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A17"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 18,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A18"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 19,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A19"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 20,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A20"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 21,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A21"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 22,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A22"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 23,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A23"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 24,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A24"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 25,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A25"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 26,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A26"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 27,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A27"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 28,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A28"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 29,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A29"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 30,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A30"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 31,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A31"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      }
+    ],
+    "summary": "All 24 shift rows lack a mechanism-based directional basis (H1 uncertain); reverting to unknown avoids unsupported state targeting. Cross-axis cancellation noted but not resolvable without semantics.",
+    "limitations": [
+      "Mechanism and drug identity hidden; no perturbation response data.",
+      "Anonymous features cannot be mapped to hypothesis genes.",
+      "Shift targets were chosen from effect magnitudes, not directional evidence."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 0,
+      "keep": 0,
+      "unknown": 32
+    },
+    "delta_l2": 0.0,
+    "standardized_delta_rms": 0.0,
+    "axis_tv": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_axis_tv": 0.0,
+    "top_gene_changes": {
+      "up": [],
+      "down": []
+    },
+    "hypothesis_gene_checks": "Unavailable without feature semantics; anonymous IDs cannot be mapped to hypothesis gene names.",
+    "cross_axis_cancellation": []
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "8854c1f28c6f741c6cee577185806a30a6ee2638083c438a282fabe5d4a6f1ec",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "97fc77c8194062f702c0d8e848ddd646afa5b5d9b5b3f2507f90fee2b0f610b1",
+      "response_sha256": "536dfeccb16017c6529e817e85950e953af8ca3821338f7a8052c855d2b3be4c"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "2be2f2ce865805c7ab04dcb8738b26a5b11c44310e9f37e8a4ab476af4b435ed",
+      "response_sha256": "93fb6e5da9361152203b8bbba8627d46c0080793259698f43ecdc6fa62445e13"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "7a4c20c6906dce5198ee2817edf229e558f79b1f5ff6acd62162996d04403beb",
+      "response_sha256": "90957a876fbc291f389e93ca9846ba092a56b5714e4f36e722e92300f5afcb3e"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "62696a4acb857c383273deff58387d02c7a2064aa39f3284f30e288dcb9d0857",
+      "response_sha256": "33b7613d176dc7d876a3e46e06f151cfaf6bac9d630d989e28e38bb5b3a8ebab"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "0d4800d4498527aab9cdc605200f8b7548624418c018c35a2985fd20ef804341",
+      "response_sha256": "e92399c62e2fe919507bb79a51b74af1393dff7cd94b4e36a25b52a5352d3438"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "496288c75361eaa4fdeb02f7edb4b4f9e96e12c0755da1a1d7acb8868e80bcbd",
+      "response_sha256": "f0d4392181cd3b16df159a33621c4bf2080a8ccd549a91dfb8f1638f6f4e1892"
+    }
+  ],
+  "attempts_used": 6,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/neither/Pb5935cde53f6/joint.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "ba91c06b75dd6b7e0fce27f199e4e8542743a01505d0717f0247ce6e9cbbd442"
+}

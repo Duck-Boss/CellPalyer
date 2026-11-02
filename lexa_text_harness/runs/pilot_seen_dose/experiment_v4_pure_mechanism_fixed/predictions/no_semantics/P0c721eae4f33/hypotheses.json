@@ -1,0 +1,48 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "histone acetylation-dependent transcription",
+      "direction": "increase",
+      "basis": "direct",
+      "conditions": "A549, 5 uM SAHA, 24 h",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "HDAC catalytic inhibition raises acetylation, plausibly increasing some acetylation-sensitive transcription."
+    },
+    {
+      "id": "H2",
+      "program": "HDAC target gene mRNA levels",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "isoform engagement unspecified",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Inhibiting enzyme activity does not require lowering HDAC transcripts; direction unknown."
+    },
+    {
+      "id": "H3",
+      "program": "global transcriptional output",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "context dependent, no measured signature",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M",
+        "C"
+      ],
+      "reason": "Acetylation changes do not imply uniform gene increases; net direction is context dependent."
+    }
+  ],
+  "summary": "SAHA inhibits HDAC catalytic activity, plausibly altering acetylation-linked transcription; specific gene directions remain uncertain without measured responses.",
+  "limitations": [
+    "No measured treatment signature or dose trajectory provided.",
+    "Isoform engagement and anonymous feature-to-gene mapping withheld.",
+    "Direction and magnitude are context dependent."
+  ]
+}

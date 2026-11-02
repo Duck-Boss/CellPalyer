@@ -1,0 +1,94 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "oxidative stress response",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "TXNRD1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1C3",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Baseline high aldo-keto reductases and TXNRD1 suggest stress-responsive context; direction unknown without mechanism."
+    },
+    {
+      "id": "H2",
+      "program": "glycolytic metabolism",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "ENO1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Glycolytic genes are expressed at baseline; perturbation effect on glycolysis cannot be inferred."
+    },
+    {
+      "id": "H3",
+      "program": "cAMP/PDE4D signaling",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "PDE4D",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "PDE4D is the top expressed feature; no mechanism information to predict mRNA direction."
+    },
+    {
+      "id": "H4",
+      "program": "lncRNA stress/transcriptional regulation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MALAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "NEAT1 and MALAT1 are abundant; their response depends on unknown perturbation mechanism."
+    }
+  ],
+  "summary": "No treatment-specific mechanism is available; all directional hypotheses remain uncertain and are framed from untreated A549 expression context only.",
+  "limitations": [
+    "Perturbation identity and mechanism withheld; no treatment-specific directions can be inferred.",
+    "Only untreated baseline expression provided; no dose-response or measured perturbation data.",
+    "Inhibiting a protein does not imply lowering its mRNA, so expression directions remain unknown."
+  ]
+}

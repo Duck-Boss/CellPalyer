@@ -1,0 +1,897 @@
+{
+  "status": "completed",
+  "case_id": "drug=Nutlin|dose_uM=5|plate=B|replicate=1",
+  "opaque_id": "Pc7e2f668d509",
+  "arm": "no_semantics",
+  "stage": "joint",
+  "fingerprint": "26686ba716784979512f3ced58ebd6df8635e285d6740dddb0d80c1442bddb93",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A0/C10"
+      ],
+      "reason": "Strong up G1015/G0233 states align with p53 target induction"
+    },
+    {
+      "axis_id": 1,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A1/C6"
+      ],
+      "reason": "Up G1680/G1582/G0642 states support p53 transcriptional activation"
+    },
+    {
+      "axis_id": 2,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A2/C9"
+      ],
+      "reason": "Strong up G0255/G0764 states consistent with p53 target rise"
+    },
+    {
+      "axis_id": 3,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A3/C13"
+      ],
+      "reason": "Up G0700/G1381/G0331 states align with p53 activation"
+    },
+    {
+      "axis_id": 4,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A4/C12"
+      ],
+      "reason": "Up G1651/G1384/G0543 states support p53 target induction"
+    },
+    {
+      "axis_id": 5,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A5/C12"
+      ],
+      "reason": "Up G0522/G0836 states consistent with p53 transcriptional program"
+    },
+    {
+      "axis_id": 6,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A6/C10"
+      ],
+      "reason": "Up G0096/G1444/G1033 states align with p53 target activation"
+    },
+    {
+      "axis_id": 7,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A7/C7"
+      ],
+      "reason": "Up G1773/G1961 states support p53-driven transcription"
+    },
+    {
+      "axis_id": 8,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A8/C2"
+      ],
+      "reason": "p53 activation states with strong up effects"
+    },
+    {
+      "axis_id": 9,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A9/C10"
+      ],
+      "reason": "states with strong positive up effects"
+    },
+    {
+      "axis_id": 10,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A10/C13"
+      ],
+      "reason": "strong up-effect states"
+    },
+    {
+      "axis_id": 11,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A11/C4"
+      ],
+      "reason": "up-weighted states"
+    },
+    {
+      "axis_id": 12,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A12/C1"
+      ],
+      "reason": "strong up-effect states"
+    },
+    {
+      "axis_id": 13,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A13/C0"
+      ],
+      "reason": "up-weighted states"
+    },
+    {
+      "axis_id": 14,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A14/C2"
+      ],
+      "reason": "strong up-effect states"
+    },
+    {
+      "axis_id": 15,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A15/C8"
+      ],
+      "reason": "up-weighted states"
+    },
+    {
+      "axis_id": 16,
+      "decision": "shift",
+      "targets": [
+        [
+          3,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A16/C3"
+      ],
+      "reason": "Strong up G1428/G1467 consistent with p53 target induction"
+    },
+    {
+      "axis_id": 17,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A17/C7"
+      ],
+      "reason": "Up G0403/G0776/G1511 align with p53 transcriptional activation"
+    },
+    {
+      "axis_id": 18,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A18/C11"
+      ],
+      "reason": "Large up G1958/G1130/G1909 support p53 program"
+    },
+    {
+      "axis_id": 19,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A19/C4"
+      ],
+      "reason": "Up G0506/G1345 consistent with p53 target induction"
+    },
+    {
+      "axis_id": 20,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A20/C4"
+      ],
+      "reason": "Up G0541/G1041/G0413 align with p53 activation"
+    },
+    {
+      "axis_id": 21,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A21/C0"
+      ],
+      "reason": "Strong up G0372/G0894 consistent with p53 targets"
+    },
+    {
+      "axis_id": 22,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A22/C7"
+      ],
+      "reason": "Up G1803/G1298/G1096 support p53 program"
+    },
+    {
+      "axis_id": 23,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A23/C2"
+      ],
+      "reason": "Up G1239/G1077/G0445 align with p53 activation"
+    },
+    {
+      "axis_id": 24,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A24/C13"
+      ],
+      "reason": "C13 up G1200 and down G1204; p53 activation expected"
+    },
+    {
+      "axis_id": 25,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A25/C13"
+      ],
+      "reason": "C13 up G1424/G1281; C0 up G1424"
+    },
+    {
+      "axis_id": 26,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A26/C0"
+      ],
+      "reason": "C0/C11 up G0348/G1787 strongly"
+    },
+    {
+      "axis_id": 27,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A27/C14"
+      ],
+      "reason": "C14/C5 up G1417 strongly"
+    },
+    {
+      "axis_id": 28,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A28/C10"
+      ],
+      "reason": "C10 up G0192; C14 up G0442"
+    },
+    {
+      "axis_id": 29,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A29/C12"
+      ],
+      "reason": "C12/C14 up G1295 strongly"
+    },
+    {
+      "axis_id": 30,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A30/C8"
+      ],
+      "reason": "C8/C12 up G0685 strongly"
+    },
+    {
+      "axis_id": 31,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A31/C9"
+      ],
+      "reason": "C9/C12 up G0388 strongly"
+    }
+  ],
+  "response": {
+    "updates": [],
+    "summary": "All 32 axes shift toward states with positive up-effects, consistent with H1 p53 target induction; no direction contradictions or cross-axis cancellations require revision. Anonymous features cannot be mapped to H1 genes, so support is program-level only.",
+    "limitations": [
+      "Anonymous feature IDs cannot be mapped to CDKN1A/MDM2/BBC3, so H1 gene checks are unavailable.",
+      "A549 p53 functionality is unestablished; shifts assume competent p53.",
+      "No dose-response or expression data; magnitudes are decoder arithmetic, not observed effects."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 32,
+      "keep": 0,
+      "unknown": 0
+    },
+    "delta_l2": 7.912019524723127,
+    "standardized_delta_rms": 0.21361141506992176,
+    "axis_tv": [
+      0.23617021276595743,
+      0.2106382978723404,
+      0.2936170212765957,
+      0.2553191489361702,
+      0.24255319148936172,
+      0.274468085106383,
+      0.2680851063829787,
+      0.2936170212765957,
+      0.21702127659574466,
+      0.2808510638297872,
+      0.24255319148936172,
+      0.24255319148936172,
+      0.19148936170212766,
+      0.274468085106383,
+      0.28723404255319146,
+      0.1851063829787234,
+      0.2936170212765957,
+      0.26808510638297867,
+      0.28723404255319146,
+      0.24893617021276593,
+      0.2936170212765958,
+      0.3,
+      0.19148936170212766,
+      0.2808510638297872,
+      0.22978723404255322,
+      0.2042553191489362,
+      0.2808510638297872,
+      0.25531914893617025,
+      0.3,
+      0.2170212765957447,
+      0.25531914893617025,
+      0.24255319148936172
+    ],
+    "mean_axis_tv": 0.2545212765957447,
+    "top_gene_changes": {
+      "up": [
+        {
+          "feature": "G0725",
+          "delta": 0.55942,
+          "scaled_delta": 0.5963
+        },
+        {
+          "feature": "G1909",
+          "delta": 0.48165,
+          "scaled_delta": 0.5758
+        },
+        {
+          "feature": "G1130",
+          "delta": 0.54572,
+          "scaled_delta": 0.5687
+        },
+        {
+          "feature": "G1840",
+          "delta": 0.49154,
+          "scaled_delta": 0.55559
+        },
+        {
+          "feature": "G0442",
+          "delta": 0.46867,
+          "scaled_delta": 0.52943
+        },
+        {
+          "feature": "G0192",
+          "delta": 0.68247,
+          "scaled_delta": 0.52216
+        },
+        {
+          "feature": "G1000",
+          "delta": 0.52728,
+          "scaled_delta": 0.5154
+        },
+        {
+          "feature": "G1808",
+          "delta": 0.57789,
+          "scaled_delta": 0.51282
+        },
+        {
+          "feature": "G0372",
+          "delta": 0.55489,
+          "scaled_delta": 0.5089
+        },
+        {
+          "feature": "G1515",
+          "delta": 0.48756,
+          "scaled_delta": 0.50682
+        }
+      ],
+      "down": []
+    },
+    "hypothesis_gene_checks": "Unavailable without feature semantics; anonymous IDs cannot be mapped to hypothesis gene names.",
+    "cross_axis_cancellation": [
+      {
+        "feature": "G0877",
+        "summed_delta": 0.0723233982611031,
+        "absolute_axis_sum": 0.07562632717345738
+      },
+      {
+        "feature": "G1744",
+        "summed_delta": 0.08333310608596795,
+        "absolute_axis_sum": 0.0862867673984162
+      },
+      {
+        "feature": "G1826",
+        "summed_delta": 0.1305597513468513,
+        "absolute_axis_sum": 0.13275943695213382
+      },
+      {
+        "feature": "G1275",
+        "summed_delta": 0.0878275501438033,
+        "absolute_axis_sum": 0.08967532615249393
+      },
+      {
+        "feature": "G0937",
+        "summed_delta": 0.07446798458871505,
+        "absolute_axis_sum": 0.0763685117770713
+      },
+      {
+        "feature": "G0334",
+        "summed_delta": 0.06863601612579819,
+        "absolute_axis_sum": 0.07009795837004001
+      }
+    ]
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "0f784021fb139687865fc9de5a3fdb3dbb7bf0abd9380ed249f3014d9a74bef8",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "e974e362cec1e1a4681950ddb056d6203049878dd0baeb2da0a61595bda9bc5d",
+      "response_sha256": "c322a07aa93b9d07eb4b93331653d64207a09640014216468f63383e53c9d6ac"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "9cb24eb4437fbcb85f5ec628d9f9fb5d8e990a5bb74a46136ba4211d0bc396f3",
+      "response_sha256": "29353b3462f5f1596e5c40f8ed8662fa7861a29f149b1cfa3806ca5e4d10a248"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "42301a1c8009c48def03ea44060512375aa485a07e7bee1764a31fe071be5eb3",
+      "response_sha256": "3e19d70169ab9b58f7d25c8014ec6d30cab4f0958de255726c574efb094fb75d"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "2ce508d0e59dc075fbd787aa6d2bf73e279fce686e8f2fc3a87177a4f2737e4a",
+      "response_sha256": "2efcbdfb9f7c6e9a6f3dbd2a05df56ad4567ad35b8c27696c34e5c751f11ad8e"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "842a833f7a9781c9d53a8eaae0e048047b4a3fb8286daa5f98de8d6594b33271",
+      "response_sha256": "7adf681a940fe166be6289e476ce7220987fbdbe69ba45f45cc6ac7daf292745"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "84afb261807bb37b43846bbca31af10e5df83ae879ad14690dc71646428d370d",
+      "response_sha256": "8c65976492bc121408096d8a81146ba2eab46f95db92ae77b8b589c9f8b0be83"
+    }
+  ],
+  "attempts_used": 6,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/no_semantics/Pc7e2f668d509/joint.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "bff0d90a9844108f0b2c2d9eeee8bd8e79e90f6c290e99767e2c0014334432f7"
+}

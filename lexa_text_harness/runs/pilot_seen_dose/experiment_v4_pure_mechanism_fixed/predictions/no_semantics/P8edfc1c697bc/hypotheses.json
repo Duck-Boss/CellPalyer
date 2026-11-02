@@ -1,0 +1,70 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "histone acetylation-dependent transcription",
+      "direction": "increase",
+      "basis": "direct",
+      "conditions": "A549, 5 uM SAHA, 24 h",
+      "gene_expectations": [
+        {
+          "gene": "G0836",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "G1096",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "HDAC catalytic inhibition raises acetylation, plausibly increasing some transcripts; specific genes unknown."
+    },
+    {
+      "id": "H2",
+      "program": "HDAC transcript abundance",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "unknown",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Enzyme inhibition does not imply lowered HDAC mRNA; direction unsupported without measured signature."
+    },
+    {
+      "id": "H3",
+      "program": "global transcriptional remodeling",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "context dependent",
+      "gene_expectations": [
+        {
+          "gene": "G1935",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "G1787",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "G0352",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "C"
+      ],
+      "reason": "Chromatin effects are context dependent; no measured treatment response to assign directions."
+    }
+  ],
+  "summary": "SAHA inhibits HDAC catalytic activity, plausibly increasing acetylation-linked transcription, but specific gene directions are uncertain in A549 at 24 h.",
+  "limitations": [
+    "No measured perturbation response or dose trajectory provided.",
+    "Anonymous features lack gene mapping; directions cannot be assigned.",
+    "Isoform engagement and downstream magnitude are context dependent."
+  ]
+}

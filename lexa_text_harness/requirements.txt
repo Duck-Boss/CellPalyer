@@ -1,0 +1,10 @@
+# Minimal runtime dependencies. No environment installation was performed.
+# Session versions observed: numpy 1.26.4, pandas 2.2.2, scipy 1.15.1,
+# torch 2.6.0+cu124, scikit-learn 1.3.2, requests 2.34.2.
+# These lower bounds are not an exact reproducibility lock or a CUDA selection.
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+torch>=2.1
+scikit-learn>=1.3
+requests>=2.31

@@ -1,0 +1,22 @@
+digraph G {
+ graph [rankdir=TB, bgcolor="white", pad="0.3", nodesep="0.35", ranksep="0.55", fontname="sans-serif"];
+ node [shape=box, style="rounded,filled", fillcolor="#F4F7FB", color="#6B7C93", fontname="sans-serif", fontsize=15, margin="0.18,0.13"];
+ edge [color="#52667A", arrowsize=0.7, fontname="sans-serif", fontsize=12];
+ D [label="sciPlex2 · A549四药 · 24小时"];
+ S [label="原实验数据划分\n训练5285／验证2742／5µM留出"];
+ T [label="训练集拟合，验证集选模型\n冻结LEXA：32轴×16状态", fillcolor="#DCEFFC"];
+ L [label="轴与状态的文字说明\n基因证据与正负方向", fillcolor="#DCEFFC"];
+ C [label="匹配对照细胞群"];
+ E [label="LEXA编码\n各轴状态占用比例", fillcolor="#DCEFFC"];
+ M [label="药物机制＋剂量＋时间", fillcolor="#FFF0C2"];
+ H [label="DeepSeek\n机制假设 → 逐轴选择 → 联合复核", fillcolor="#FFE3A3"];
+ Q [label="编辑各轴的状态占用比例", fillcolor="#FFE3A3"];
+ U [label="冻结解码器\n预测基因表达变化Δ", fillcolor="#DCEFFC"];
+ B [label="CPA／CODEX\n相同训练、验证集；各3个种子", fillcolor="#DDF2E5"];
+ Y [label="真实5µM处理组\n仅最终评分使用", fillcolor="#F0F0F0", style="rounded,filled,dashed"];
+ V [label="统一评价\n同16孔／2000基因／ΔRMSE", fillcolor="#DDF2E5", penwidth=1.5];
+ D -> S; S -> T; T -> L; T -> E; C -> E; M -> H; E -> H; L -> H;
+ H -> Q; Q -> U; S -> B; C -> B; U -> V; B -> V; S -> Y;
+ Y -> V [style=dashed];
+ {rank=same; E; L; M;}
+}

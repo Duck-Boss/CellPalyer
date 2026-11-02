@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "fingerprint": "9c8f77e6413565f536dd6a781f6d2f92a77280aba29dd09a406eb863c915fa8a",
+  "case_id": "drug=BMS|dose_uM=5|plate=B|replicate=3",
+  "local": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/predictions/3a9d788519f1/local.json",
+  "joint": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/predictions/3a9d788519f1/joint.json",
+  "local_sha256": "5c971011fc5020940a6be217ae97f72d19629252cf99ab9dc157632187e85575",
+  "joint_sha256": "e34ffb86e889d3a1c68ccb10a857c4eeea481c5cea2a94e56120e18275fc80a4",
+  "api_attempts": 5
+}

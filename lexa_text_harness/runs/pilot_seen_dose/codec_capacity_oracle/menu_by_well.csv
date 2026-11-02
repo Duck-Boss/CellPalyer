@@ -1,0 +1,17 @@
+case_id,drug,menu_feasible_rmse,best_start
+drug=BMS|dose_uM=5|plate=A|replicate=1,BMS,0.25823018397111663,nearest
+drug=BMS|dose_uM=5|plate=A|replicate=2,BMS,0.28568669500641153,nearest
+drug=BMS|dose_uM=5|plate=B|replicate=2,BMS,0.28784727992793546,interpolate
+drug=BMS|dose_uM=5|plate=B|replicate=3,BMS,0.24823064379999757,nearest
+drug=Dex|dose_uM=5|plate=A|replicate=1,Dex,0.16794025521816244,nearest
+drug=Dex|dose_uM=5|plate=A|replicate=3,Dex,0.16935431311994545,nearest
+drug=Dex|dose_uM=5|plate=B|replicate=2,Dex,0.1773382278689262,nearest
+drug=Dex|dose_uM=5|plate=B|replicate=3,Dex,0.1634393945941355,nearest
+drug=Nutlin|dose_uM=5|plate=A|replicate=1,Nutlin,0.13919427348776087,interpolate
+drug=Nutlin|dose_uM=5|plate=A|replicate=2,Nutlin,0.14688128041911996,nearest
+drug=Nutlin|dose_uM=5|plate=A|replicate=3,Nutlin,0.14201351860575326,interpolate
+drug=Nutlin|dose_uM=5|plate=B|replicate=1,Nutlin,0.19244146122910463,nearest
+drug=SAHA|dose_uM=5|plate=A|replicate=1,SAHA,0.15573229326889565,nearest
+drug=SAHA|dose_uM=5|plate=A|replicate=2,SAHA,0.16262278052946194,nearest
+drug=SAHA|dose_uM=5|plate=A|replicate=3,SAHA,0.15821690754922937,nearest
+drug=SAHA|dose_uM=5|plate=B|replicate=1,SAHA,0.17432620281088584,interpolate

@@ -1,0 +1,94 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "oxidative stress / aldehyde detoxification",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "ALDH1A1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "These detox genes are basally expressed; direction depends on unknown perturbation mechanism."
+    },
+    {
+      "id": "H2",
+      "program": "glycolytic metabolism",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "ENO1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Glycolytic genes are expressed at baseline; no mechanism information to predict direction."
+    },
+    {
+      "id": "H3",
+      "program": "cAMP/PDE4D signaling",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "PDE4D",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "PDE4D is top-expressed feature; mRNA direction cannot be inferred without mechanism."
+    },
+    {
+      "id": "H4",
+      "program": "mitochondrial oxidative phosphorylation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "MT-CO3",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MT-CYB",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Mitochondrial transcripts are basally expressed; response direction unknown."
+    }
+  ],
+  "summary": "Perturbation identity and mechanism are withheld; only baseline A549 expression is available, so all directions are explicitly uncertain.",
+  "limitations": [
+    "No treatment-specific mechanism or measured response provided.",
+    "Only untreated baseline context available; no dose-response data.",
+    "Gene directions cannot be inferred from basal expression alone."
+  ]
+}

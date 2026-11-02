@@ -1,0 +1,96 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "canonical NF-kappa-B-dependent transcription",
+      "direction": "decrease",
+      "basis": "direct",
+      "conditions": "requires baseline NF-kappa-B activity in A549; 5 uM, 24 h",
+      "gene_expectations": [
+        {
+          "gene": "NFKBIA",
+          "direction": "decrease"
+        },
+        {
+          "gene": "CXCL8",
+          "direction": "decrease"
+        },
+        {
+          "gene": "TNFAIP3",
+          "direction": "decrease"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "IKK allosteric inhibition blocks I-kappa-B phosphorylation, lowering NF-kappa-B-driven transcripts if pathway is active."
+    },
+    {
+      "id": "H2",
+      "program": "IKK kinase transcript levels",
+      "direction": "uncertain",
+      "basis": "direct",
+      "conditions": "kinase inhibition does not imply transcript change",
+      "gene_expectations": [
+        {
+          "gene": "CHUK",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "IKBKB",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "Allosteric inhibition is post-translational; no basis to predict mRNA direction for IKK subunits."
+    },
+    {
+      "id": "H3",
+      "program": "inflammatory cytokine/chemokine secretion program",
+      "direction": "decrease",
+      "basis": "secondary",
+      "conditions": "depends on active NF-kappa-B and autocrine signaling",
+      "gene_expectations": [
+        {
+          "gene": "IL6",
+          "direction": "decrease"
+        },
+        {
+          "gene": "CCL2",
+          "direction": "decrease"
+        }
+      ],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Secondary consequence of reduced NF-kappa-B transcription; magnitude depends on baseline activation."
+    },
+    {
+      "id": "H4",
+      "program": "compensatory NF-kappa-B feedback (I-kappa-B resynthesis)",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "feedback dynamics over 24 h unknown",
+      "gene_expectations": [
+        {
+          "gene": "NFKBIA",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "NFKBIA is both NF-kappa-B target and feedback regulator; net direction at 24 h is unresolved."
+    }
+  ],
+  "summary": "IKK inhibition is expected to lower NF-kappa-B-dependent transcription if A549 has active baseline pathway; transcript-level effects on IKK subunits and feedback genes are uncertain.",
+  "limitations": [
+    "No measured perturbation response or dose trajectory supplied.",
+    "Anonymous feature IDs cannot be mapped to genes.",
+    "Baseline NF-kappa-B activity in A549 at this dose/duration is unknown."
+  ]
+}

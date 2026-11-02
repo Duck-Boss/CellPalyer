@@ -1,0 +1,63 @@
+LEXA分层占用预测v3：已揭盲开发验证
+{
+  "status": "complete",
+  "scored": "2026-10-26T23:25:36+08:00",
+  "role": "development;5uM previously unblinded",
+  "n_cases": 16,
+  "n_treated": 786,
+  "n_genes": 2000,
+  "aggregation": "equal wells within drug, then equal four drugs; per-well metrics averaged",
+  "prediction_seal_sha256": "1057a9e6b435533bbb1b1dc7c075d35061f3cdfb61a6caf58a3a765cab8a35c1",
+  "evaluation_sha256": "42cdc42755f47eaea134ba1898ca56616d16dfa73839944ef961c90fd649a193",
+  "observed_codes_sha256": "f2d2e5a8d3d391853ab57c69b9634434b9edfb561f83524ecd991f4da4808b2a",
+  "limitations": [
+    "No new independent test; no significance claim.",
+    "Fixed24h A549 only.",
+    "Top100 is largest observed mean shifts, not statistical DEGs.",
+    "Old v2 baseline used nonempty train wells; new retrieval requires >=20 per treatment/control.",
+    "Code marginals do not specify individual cell transitions."
+  ]
+}
+
+                           delta_rmse  delta_pearson  top100_delta_rmse  top100_direction_accuracy  top100_abs_delta_overlap  response_l2_ratio
+method                                                                                                                                         
+code_interpolate             0.211953       0.740438           0.455105                   0.971250                  0.535000           0.596985
+code_nearest                 0.198008       0.759806           0.410113                   0.970625                  0.556875           0.673668
+expression_interpolate       0.194145       0.760182           0.330836                   0.976250                  0.586250           0.823284
+expression_nearest           0.197424       0.761393           0.302300                   0.975625                  0.581875           0.955013
+hierarchical_joint           0.212023       0.740271           0.455171                   0.971250                  0.535000           0.596862
+hierarchical_local           0.212023       0.740271           0.455171                   0.971250                  0.535000           0.596862
+no_edit                      0.355724            NaN           0.963622                   0.000000                  0.000000           0.000000
+old_agent                    0.349634       0.235515           0.931558                   0.675000                  0.218750           0.075782
+old_nearest_training_dose    0.204749       0.743072           0.318611                   0.966875                  0.576250           0.997215
+old_one_shot                 0.349729       0.264661           0.934438                   0.675625                  0.218125           0.066215
+old_training_mean            0.331189       0.381049           0.809668                   0.810000                  0.279375           0.459683
+
+主导code变化轴数（条件等权占用）
+  drug             method  dominant_changed_axes  tv_gt_0_2_axes  mean_tv
+   BMS           observed                     31              32 0.711703
+   BMS       code_nearest                     32              32 0.659865
+   BMS   code_interpolate                     32              32 0.635676
+   BMS hierarchical_local                     32              32 0.630483
+   BMS hierarchical_joint                     32              32 0.630483
+   Dex           observed                     29              32 0.462111
+   Dex       code_nearest                     28              32 0.422533
+   Dex   code_interpolate                     28              32 0.413737
+   Dex hierarchical_local                     28              32 0.413737
+   Dex hierarchical_joint                     28              32 0.413737
+Nutlin           observed                     31              32 0.653726
+Nutlin       code_nearest                     31              32 0.679497
+Nutlin   code_interpolate                     31              32 0.531367
+Nutlin hierarchical_local                     31              32 0.531367
+Nutlin hierarchical_joint                     31              32 0.531367
+  SAHA           observed                     32              32 0.841485
+  SAHA       code_nearest                     32              32 0.802006
+  SAHA   code_interpolate                     32              32 0.790037
+  SAHA hierarchical_local                     32              32 0.790037
+  SAHA hierarchical_joint                     32              32 0.790037
+
+已核实的主要结果
+新版相对旧agent的ΔRMSE降低39.36%，但比纯code插值高0.033%，比直接表达插值高9.21%。当前提升不能归因于语言推理。
+16组×32轴共512次局部选择，510次保留interpolate、2次选择half；两次均为BMS的axis11。其余14组与纯code插值的表达预测完全一致。联合复核在全部16组均未改变候选、占用分布或最终基因变化。
+本轮固定成功运行84次真实API请求：4次轴标注、64次局部选择、16次联合复核，全部首次校验通过；前一版本另有8次标注请求后因基因引用格式失败而停止，未运行药物预测。两次运行的源码、请求和失败记录均保留。
+独立审计核对全部输入、64份数值预测、实际API返回选择以及176行逐孔评分通过。21项针对测试通过；标注格式修复后6项相关测试再次通过。正式泛化结论仍需新的未触碰测试集。

@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "test_target_access": false,
+  "models": [
+    {
+      "seed": 0,
+      "best_epoch": 956,
+      "best_val_rmse": 0.20063302190409915,
+      "epochs_ran": 1000,
+      "prediction_max_abs_diff": 0.0,
+      "zero_dose_max_abs_diff": 0.0,
+      "prediction_seal_valid": true,
+      "input_and_author_source_hashes_valid": true
+    },
+    {
+      "seed": 1,
+      "best_epoch": 999,
+      "best_val_rmse": 0.20002378094659162,
+      "epochs_ran": 1000,
+      "prediction_max_abs_diff": 0.0,
+      "zero_dose_max_abs_diff": 0.0,
+      "prediction_seal_valid": true,
+      "input_and_author_source_hashes_valid": true
+    },
+    {
+      "seed": 2,
+      "best_epoch": 959,
+      "best_val_rmse": 0.20093325280556174,
+      "epochs_ran": 1000,
+      "prediction_max_abs_diff": 0.0,
+      "zero_dose_max_abs_diff": 0.0,
+      "prediction_seal_valid": true,
+      "input_and_author_source_hashes_valid": true
+    }
+  ],
+  "audit_source_sha256": "90c69f53a9d7d6bb2fecf8cc40d7a7bb735638102f3499239c52adc5d41d2605"
+}

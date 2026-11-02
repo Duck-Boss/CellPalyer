@@ -1,0 +1,20 @@
+{
+  "status": "complete_source_file_md5_verified",
+  "source_url": "https://zenodo.org/records/10044268/files/SrivatsanTrapnell2020_sciplex2.h5ad?download=1",
+  "record_url": "https://zenodo.org/records/10044268",
+  "official_size_bytes": 145178504,
+  "official_md5": "12a48293a166a859f994551653a2ad8c",
+  "complete_parts": 139,
+  "total_parts": 139,
+  "complete_bytes": 145178504,
+  "missing_parts": [],
+  "failures": [],
+  "workers": 24,
+  "wall_budget_seconds": 180,
+  "wall_seconds": 82.57450355403125,
+  "tdc_dataverse_file_id": 9845394,
+  "tdc_dataverse_byte_equivalence": "unverified: HTTP403",
+  "is_leaderboard_ready": false,
+  "sha256": "0adabca03632ac9421a769fc9eaa4178447d4d572f4c2c54e4fde93a81acde67",
+  "file": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/benchmarks/tdc_sciplex2/data/SrivatsanTrapnell2020_sciplex2.h5ad"
+}

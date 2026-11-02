@@ -1,0 +1,28 @@
+{
+  "id": "58295663-18ea-4dc5-974d-0cf0181da309",
+  "object": "chat.completion",
+  "created": 1793028055,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"axes\":[{\"axis_id\":24,\"name\":\"Cell-cycle/proliferation-associated program\",\"summary\":\"States contrast coordinated expression of proliferation and mitotic genes (MKI67, TOP2A, CENPF, ASPM) against replication/repair-leaning patterns, with several low-proliferation states.\",\"functions\":[\"cell-cycle and mitotic progression\",\"DNA replication and repair\"],\"evidence_genes\":[\"ENSG00000148773.13\",\"ENSG00000131747.14\",\"ENSG00000117724.12\",\"ENSG00000066279.17\"],\"uncertainty\":\"A549 pilot only; states mix proliferation and repair signals and are not ordered activity levels; no causal claim.\"},{\"axis_id\":25,\"name\":\"Redox/ubiquitin-chromatin regulatory program\",\"summary\":\"States vary in expression of TXNRD1, KMT2A, PPP6R3, RERE and ITCH, suggesting a mixed redox, chromatin and ubiquitin-ligase-associated program.\",\"functions\":[\"oxidative/reductase balance\",\"chromatin regulation\",\"ubiquitin-mediated regulation\"],\"evidence_genes\":[\"ENSG00000198431.15\",\"ENSG00000118058.20\",\"ENSG00000110075.14\",\"ENSG00000078747.14\"],\"uncertainty\":\"A549 pilot; many states have weak or near-zero opposing effects and the theme is heterogeneous; no causal or pathway claim.\"},{\"axis_id\":26,\"name\":\"Long noncoding RNA / neuronal-like program\",\"summary\":\"States center on MALAT1 and NEAT1 along with neuronal-associated genes such as SYT1, MAP2 and RORA, with several low-lncRNA states.\",\"functions\":[\"long noncoding RNA expression\",\"neuronal/synaptic-associated expression\"],\"evidence_genes\":[\"ENSG00000278217.1\",\"ENSG00000245532.7\",\"ENSG00000067715.13\",\"ENSG00000078018.19\"],\"uncertainty\":\"A549 pilot; neuronal interpretation is tentative and many states show weak or mixed effects; not a universal axis.\"},{\"axis_id\":27,\"name\":\"EGFR/TGFBI/ECM signaling-associated program\",\"summary\":\"States contrast coordinated high expression of EGFR, TGFBI, BICC1, NTRK3 and DCBLD2 against low-signal states, with some HIF1A-linked patterns.\",\"functions\":[\"receptor tyrosine kinase signaling\",\"extracellular matrix/adhesion-associated expression\",\"hypoxia-linked expression\"],\"evidence_genes\":[\"ENSG00000146648.17\",\"ENSG00000120708.16\",\"ENSG00000122870.11\",\"ENSG00000140538.16\"],\"uncertainty\":\"A549 pilot; states mix signaling, matrix and hypoxia signals; no causal regulation or formal enrichment implied.\"},{\"axis_id\":28,\"name\":\"Stress/secretory and cytoskeletal program\",\"summary\":\"States vary in TFPI2, ARL6IP1, H1FX, SLC9A3R1 and SQSTM1, suggesting a mixed stress, secretory and chromatin/cytoskeletal program.\",\"functions\":[\"stress/autophagy-associated expression\",\"secretory/adhesion-associated expression\",\"chromatin/cytoskeletal-associated expression\"],\"evidence_genes\":[\"ENSG00000105825.11\",\"ENSG00000170540.14\",\"ENSG00000184897.5\",\"ENSG00000109062.11\"],\"uncertainty\":\"A549 pilot; many states are weak or nonspecific and functions are heterogeneous; interpretation is provisional.\"},{\"axis_id\":29,\"name\":\"Cytoskeletal/chaperone expression program\",\"summary\":\"States contrast high expression of tubulins, VIM, CCT5 and NPM1 against tubulin-low states, consistent with a cytoskeletal and chaperone-associated program.\",\"functions\":[\"cytoskeletal/tubulin expression\",\"chaperone/proteostasis-associated expression\"],\"evidence_genes\":[\"ENSG00000123416.15\",\"ENSG00000196230.12\",\"ENSG00000026025.15\",\"ENSG00000150753.11\"],\"uncertainty\":\"A549 pilot; several states are low-signal or mixed with metabolic/translational hints; no causal claim.\"},{\"axis_id\":30,\"name\":\"PRKCA/EPS8 signaling-associated program\",\"summary\":\"States vary in PRKCA, EPS8, FAM214A, STK3 and related genes, with some states showing coordinated high and others coordinated low expression.\",\"functions\":[\"kinase signaling-associated expression\",\"cytoskeletal/adhesion-associated expression\"],\"evidence_genes\":[\"ENSG00000154229.11\",\"ENSG00000151491.12\",\"ENSG00000047346.12\",\"ENSG00000104375.15\"],\"uncertainty\":\"A549 pilot; effect sizes are modest and several states are mixed or unclear; no causal regulation implied.\"},{\"axis_id\":31,\"name\":\"SLC12A2/CYP24A1 transport-metabolic program\",\"summary\":\"States center on SLC12A2, CYP24A1, BASP1 and PDE10A, with coordinated high or low patterns and some SLC7A11/MAP7 co-variation.\",\"functions\":[\"ion/transporter-associated expression\",\"metabolic/vitamin-D-associated expression\"],\"evidence_genes\":[\"ENSG00000064651.13\",\"ENSG00000019186.9\",\"ENSG00000176788.8\",\"ENSG00000112541.13\"],\"uncertainty\":\"A549 pilot; most states are described as functionally unclear and effects are mixed; interpretation is provisional.\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13112,
+    "completion_tokens": 1195,
+    "total_tokens": 14307,
+    "prompt_tokens_details": {
+      "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 12984
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

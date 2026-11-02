@@ -1,0 +1,123 @@
+{
+  "status": "passed",
+  "created_asia_shanghai": "2026-10-26T23:26:08.682698+08:00",
+  "heldout_expression_read_only_after_prediction_seal_and_existing_scores": true,
+  "independent_float64_observed_mean_computation": true,
+  "n_well_method_rows": 176,
+  "n_cases": 16,
+  "n_treated": 786,
+  "max_absolute_errors": {
+    "scores_by_well": 1.6587849094307217e-07,
+    "scores_by_condition": 1.1143008737946047e-07,
+    "scores_summary": 6.853234935100261e-08,
+    "occupancy_by_well": 8.326672684688674e-17,
+    "axis_changes_by_condition": 5.551115123125783e-17
+  },
+  "independently_recomputed_summary": [
+    {
+      "method": "code_interpolate",
+      "delta_rmse": 0.21195341836493387,
+      "delta_pearson": 0.7404380362679657,
+      "top100_delta_rmse": 0.4551047446732237,
+      "top100_direction_accuracy": 0.97125,
+      "top100_abs_delta_overlap": 0.5349999999999999,
+      "response_l2_ratio": 0.5969854214080934
+    },
+    {
+      "method": "code_nearest",
+      "delta_rmse": 0.19800773005556024,
+      "delta_pearson": 0.759806138789471,
+      "top100_delta_rmse": 0.4101135091724866,
+      "top100_direction_accuracy": 0.970625,
+      "top100_abs_delta_overlap": 0.556875,
+      "response_l2_ratio": 0.6736676648081726
+    },
+    {
+      "method": "expression_interpolate",
+      "delta_rmse": 0.1941446344866492,
+      "delta_pearson": 0.7601819195000392,
+      "top100_delta_rmse": 0.33083635629141606,
+      "top100_direction_accuracy": 0.9762500000000001,
+      "top100_abs_delta_overlap": 0.5862499999999999,
+      "response_l2_ratio": 0.8232843048500924
+    },
+    {
+      "method": "expression_nearest",
+      "delta_rmse": 0.19742406248631936,
+      "delta_pearson": 0.7613932670228287,
+      "top100_delta_rmse": 0.30229973667900134,
+      "top100_direction_accuracy": 0.975625,
+      "top100_abs_delta_overlap": 0.581875,
+      "response_l2_ratio": 0.9550132749448185
+    },
+    {
+      "method": "hierarchical_joint",
+      "delta_rmse": 0.21202336522155465,
+      "delta_pearson": 0.7402705980526856,
+      "top100_delta_rmse": 0.45517081682275545,
+      "top100_direction_accuracy": 0.97125,
+      "top100_abs_delta_overlap": 0.5349999999999999,
+      "response_l2_ratio": 0.5968621416032462
+    },
+    {
+      "method": "hierarchical_local",
+      "delta_rmse": 0.21202336522155465,
+      "delta_pearson": 0.7402705980526856,
+      "top100_delta_rmse": 0.45517081682275545,
+      "top100_direction_accuracy": 0.97125,
+      "top100_abs_delta_overlap": 0.5349999999999999,
+      "response_l2_ratio": 0.5968621416032462
+    },
+    {
+      "method": "no_edit",
+      "delta_rmse": 0.3557237161867365,
+      "delta_pearson": null,
+      "top100_delta_rmse": 0.9636218493588631,
+      "top100_direction_accuracy": 0.0,
+      "top100_abs_delta_overlap": 0.0,
+      "response_l2_ratio": 0.0
+    },
+    {
+      "method": "old_agent",
+      "delta_rmse": 0.34963372834360684,
+      "delta_pearson": 0.23551496498559593,
+      "top100_delta_rmse": 0.9315579118418363,
+      "top100_direction_accuracy": 0.675,
+      "top100_abs_delta_overlap": 0.21875,
+      "response_l2_ratio": 0.07578161790026308
+    },
+    {
+      "method": "old_nearest_training_dose",
+      "delta_rmse": 0.2047493511198061,
+      "delta_pearson": 0.7430718142400343,
+      "top100_delta_rmse": 0.31861083410539426,
+      "top100_direction_accuracy": 0.966875,
+      "top100_abs_delta_overlap": 0.57625,
+      "response_l2_ratio": 0.9972149156163914
+    },
+    {
+      "method": "old_one_shot",
+      "delta_rmse": 0.3497285771659957,
+      "delta_pearson": 0.2646611309871405,
+      "top100_delta_rmse": 0.9344381623529849,
+      "top100_direction_accuracy": 0.6756249999999999,
+      "top100_abs_delta_overlap": 0.218125,
+      "response_l2_ratio": 0.06621502301536532
+    },
+    {
+      "method": "old_training_mean",
+      "delta_rmse": 0.33118949123296815,
+      "delta_pearson": 0.38104893336324175,
+      "top100_delta_rmse": 0.8096675197498133,
+      "top100_direction_accuracy": 0.81,
+      "top100_abs_delta_overlap": 0.27937500000000004,
+      "response_l2_ratio": 0.45968300146826124
+    }
+  ],
+  "prediction_seal_sha256": "1057a9e6b435533bbb1b1dc7c075d35061f3cdfb61a6caf58a3a765cab8a35c1",
+  "implementation_sha256": "1d8c6d1f03cc8f8e6bc0fa4700b10c1804f162e4030374761a39990861a04fb5",
+  "limitations": [
+    "5uM is development data already unblinded before this version.",
+    "Point estimates do not establish independent biological replication or causality."
+  ]
+}

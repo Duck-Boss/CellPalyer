@@ -1,0 +1,98 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "oxidative stress response",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, 5 uM, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "TXNRD1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MT-CYB",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MT-CO3",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "A549 expresses TXNRD1 and mitochondrial genes; direction depends on unknown perturbation."
+    },
+    {
+      "id": "H2",
+      "program": "aldehyde/ketone metabolism",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, 5 uM, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "ALDH1A1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "High baseline aldo-keto reductase expression; no mechanism to infer direction."
+    },
+    {
+      "id": "H3",
+      "program": "cAMP/PDE signaling",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, 5 uM, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "PDE4D",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "PDE4D is top-expressed feature; mRNA direction cannot be inferred from unknown mechanism."
+    },
+    {
+      "id": "H4",
+      "program": "stress-associated noncoding RNA",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, 5 uM, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "MALAT1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "MALAT1/NEAT1 are expressed; stress-linked changes possible but direction unknown."
+    }
+  ],
+  "summary": "No perturbation identity or mechanism is available; only baseline A549 expression supports candidate programs, all directions uncertain.",
+  "limitations": [
+    "Mechanism hidden; no treatment-specific direction can be inferred.",
+    "Only untreated context C available; no dose or time response data.",
+    "Population mean predictions, not single-cell resolved."
+  ]
+}

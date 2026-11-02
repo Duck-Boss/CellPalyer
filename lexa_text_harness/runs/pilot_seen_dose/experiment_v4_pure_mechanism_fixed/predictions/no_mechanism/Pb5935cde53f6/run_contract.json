@@ -1,0 +1,64 @@
+{
+  "fingerprint": "ae513308348f8663f84f92c99880a9215960de9d466998e063a0ed7436d39c53",
+  "identity": {
+    "version": "pure-mechanism-code-v1.1-source-refs",
+    "arm": "no_mechanism",
+    "plan_prompt": "Form cautious transcriptional hypotheses for the supplied perturbation.\nOnly mechanism information and untreated cellular context are available. There\nare no measured perturbation responses, dose trajectories, or correct answer\nprofiles. Do not invent missing drug identities. If the perturbation mechanism\nis hidden, treatment-specific directions are unknown; do not infer a named drug\nfrom an opaque identifier. Inhibiting a protein does not imply lowering its mRNA.\nDistinguish direct mechanism from secondary hypotheses and context dependencies.\nCode meanings are not yet supplied; do not mention axis or code identifiers.\nReturn only JSON:\n{\"hypotheses\":[{\"id\":\"H1\",\"program\":\"short process\",\"direction\":\"increase|decrease|uncertain\",\"basis\":\"direct|secondary|unknown\",\"conditions\":\"brief condition or unknown\",\"gene_expectations\":[{\"gene\":\"symbol or gene ID\",\"direction\":\"increase|decrease|uncertain\"}],\"evidence_refs\":[\"M\"],\"reason\":\"brief evidence-based justification\"}],\"summary\":\"brief\",\"limitations\":[\"brief\"]}\nUse one to five hypotheses with sequential IDs H1,H2,...; at most three gene\nexpectations per hypothesis, and at most three short limitations. Evidence refs\nmust be drawn from available_evidence_refs in the payload. C refers to untreated\ncontext; M refers to the whole mechanism card, and the exact source IDs listed\nin that card may also be cited. Mechanism refs are unavailable when hidden.\nAn uncertain hypothesis may have no gene expectations. Keep program/conditions/\nreason under 120 characters each. State explicit uncertainty rather than a\nconfident biological story unsupported by the supplied context.",
+    "decision_prompt": "Predict code-state preferences using the supplied fixed mechanism\nhypotheses and axis/state evidence. No perturbation-response examples are present.\nState IDs are unordered categories. Signed effects are decoder contributions,\nnot causal observations; read their directions and changes from current control.\nEvery axis can change. Use shift, keep (supported unchanged), or unknown\n(insufficient information). Do not infer a named drug when its mechanism is\nhidden. Anonymous feature IDs have no supplied gene identity; do not invent one.\nFor shift choose one to three displayed state IDs with positive relative weights.\nLocal arithmetic normalizes weights to r and computes q=(1-alpha)*p0+alpha*r.\nAlpha is fixed at 0.30 for the main result, not a confidence score or calibrated\ndose response. Current zero occupancy does not prevent selecting a supported state.\nFor keep/unknown use targets: []. Supply a short evidence-based reason, not a\nreasoning trace. Use at least one supplied hypothesis or current-axis evidence ref.\nLocal stages must return every requested axis exactly once:\n{\"decisions\":[{\"axis_id\":0,\"decision\":\"shift\",\"targets\":[[2,1]],\"evidence_refs\":[\"H1\",\"A0/C2\"],\"reason\":\"under 80 characters\"}],\"summary\":\"brief\",\"limitations\":[\"brief\"]}\nThe joint stage instead returns only axes requiring revision, using the same row\nschema and field updates in place of decisions. Return updates: [] if no specific\nrevision is justified. Do not rewrite the frozen hypotheses. Check direction\ncontradictions, cross-axis cancellation and evidence support. Feedback can test\nconsistency with your hypotheses, never true treatment accuracy. Keep at most two\nevidence refs per row, short reasons, summary under 300 characters, and at most\nthree short limitations. Return only JSON so that all axes fit the output budget.",
+    "model": "deepseek-flash",
+    "endpoint": "https://api.deepseek.com/chat/completions",
+    "thinking_disabled": true,
+    "max_retries": 2,
+    "main_alpha": 0.3,
+    "alphas": [
+      0.1,
+      0.3,
+      0.6
+    ],
+    "batch_size": 8,
+    "source_sha256": {
+      "pure_mechanism_agent.py": "608f3683f5a358fbae76c03d51cebfe2002e9c596b1a6e70eee40058d248dfa5",
+      "pure_mechanism_data.py": "904306ca7feb6ecdfc7ed57262f8a36929e668dc7a9184d5a15ff4a77ce0baf2",
+      "agent.py": "e6f8170a3e6a502e9c4ded8a4324ed09b15d7beae9768e5916021b25b5c464d0",
+      "annotate_cards.py": "038b85f3b83e5b835f6cf9229df29ce218044c18c70d531b1ebbea891d67fc7b"
+    },
+    "context_digest": "e2b80e8aa8340b6b8621a4cb07459601a708770d8b4b638a591c08272b8ca260",
+    "cards_digest": "f17e8f48a9da6c9435b2c872f2701a87b43a8ca513f1d6412dc7c64a12f85531",
+    "array_sha256": {
+      "p0": "07b8589b3cf9a37de3e0f5c2ed670d4efd05129e737ed4a18582d409774f26fe",
+      "effects": "e73d797552cbdd442cf067c5109e60c10ccf0a3f254b0951cb99705445b76c92",
+      "genes": "9ef9949c134c2e3206d7c60be4e01d50c87d20100cf541b89c83d0af86819be7",
+      "symbols": "afdc16fed438aec0c28c351c626465b3308e0204702cc4b9b10bdc4c06dc0e5d",
+      "std": "e9ab95a7106e933472e9fa87ba9f13b3df6c69ac1250be3784550850c5be566b",
+      "train_occupancy": "9d4d066387a6bd06066e10ee326118a03381bc6ce3b5da77656d278ed71045fb",
+      "anonymous_gene_ids": "ac4d9d487cbec29ef4452faf6d44b58edb3699f2be98cf9432e557e6ecf458b4"
+    },
+    "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=3"
+  },
+  "provenance": {
+    "version": "pure-mechanism-inputs-v1",
+    "work": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose",
+    "source_paths": {
+      "effects": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/lexa/exact_code_effects.npz",
+      "baseline": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/lexa/baseline.npz",
+      "state_labels": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/lexa/labels.json",
+      "cases": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/prepared/cases.json",
+      "axis_annotations": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/axis_annotations.json",
+      "mechanisms": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/mechanism_cards_v4.json"
+    },
+    "source_sha256": {
+      "effects": "5bd0da54ddcceae0a4ea40d2f260b4d2acbd7b2d7a2eb2da97caeb75efb117fd",
+      "baseline": "fc7bf87c95b105da613b312fd76a3b4ee459f1aa064a9d7e495852c22e598f75",
+      "state_labels": "5ee78dadc0b1aaf061f3a023390644e0228b9c7e7faf737329cbb8dab8c3dde9",
+      "cases": "493aa96ab615615a046148cf85ee57b68c5d2ea86b72443440de78e5e7d8b8c1",
+      "axis_annotations": "85f325f61fab0fee7322e947ce82d46cacd78e346c704f745378071a3f5174fd",
+      "mechanisms": "9675927a4d025f7437964d50f66f1fb9dfab395ebdc890b5abfb4f0162442424"
+    },
+    "implementation_sha256": "904306ca7feb6ecdfc7ed57262f8a36929e668dc7a9184d5a15ff4a77ce0baf2",
+    "anonymous_gene_seed": 20261027,
+    "condition_response_retrieval": false,
+    "heldout_expression_accessed": false,
+    "case_npz_sha256": "1cfe27395dba8a14b8a941fbb8ff92d1e7134b9cc0ac94eba73403a29576c1aa",
+    "case_context_sha256": "71bf8be5f4782914490f7fdaf43f4c7bf86ba4e9f077d2812be2f831d3863a7e"
+  }
+}

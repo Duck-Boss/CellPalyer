@@ -1,0 +1,338 @@
+纯机制预测：决策与内部一致性分析（complete）
+2026-10-27T01:34:28.717775+08:00
+已完成 64/64 case×arm；主强度 alpha=0.30。
+仅读取预测与原始请求；没有读取真实处理表达或评分。以下方向一致性不等于实验准确率。
+
+各组平均轴数：shift / keep / unknown；每个case共32轴。
+BMS | full | n=4 | local 15.00/0.00/17.00 | joint 7.75/0.00/24.25 | 联合复核实际改变q 3/4例、平均7.50轴
+BMS | no_mechanism | n=4 | local 29.00/0.00/3.00 | joint 29.00/0.00/3.00 | 联合复核实际改变q 0/4例、平均0.00轴
+BMS | no_semantics | n=4 | local 32.00/0.00/0.00 | joint 32.00/0.00/0.00 | 联合复核实际改变q 0/4例、平均0.00轴
+BMS | neither | n=4 | local 24.00/0.00/8.00 | joint 18.00/0.00/14.00 | 联合复核实际改变q 1/4例、平均6.00轴
+Dex | full | n=4 | local 18.50/0.00/13.50 | joint 16.00/0.00/16.00 | 联合复核实际改变q 2/4例、平均2.75轴
+Dex | no_mechanism | n=4 | local 29.00/0.00/3.00 | joint 29.00/0.00/3.00 | 联合复核实际改变q 0/4例、平均0.00轴
+Dex | no_semantics | n=4 | local 32.00/0.00/0.00 | joint 32.00/0.00/0.00 | 联合复核实际改变q 0/4例、平均0.00轴
+Dex | neither | n=4 | local 28.00/0.00/4.00 | joint 22.00/0.00/10.00 | 联合复核实际改变q 1/4例、平均6.00轴
+Nutlin | full | n=4 | local 19.00/0.00/13.00 | joint 15.00/0.00/17.00 | 联合复核实际改变q 3/4例、平均4.00轴
+Nutlin | no_mechanism | n=4 | local 29.00/0.00/3.00 | joint 29.00/0.00/3.00 | 联合复核实际改变q 0/4例、平均0.00轴
+Nutlin | no_semantics | n=4 | local 32.00/0.00/0.00 | joint 32.00/0.00/0.00 | 联合复核实际改变q 0/4例、平均0.00轴
+Nutlin | neither | n=4 | local 28.00/0.00/4.00 | joint 22.00/0.00/10.00 | 联合复核实际改变q 1/4例、平均6.00轴
+SAHA | full | n=4 | local 19.50/0.00/12.50 | joint 15.75/0.00/16.25 | 联合复核实际改变q 1/4例、平均3.75轴
+SAHA | no_mechanism | n=4 | local 28.75/0.00/3.25 | joint 28.75/0.00/3.25 | 联合复核实际改变q 0/4例、平均0.00轴
+SAHA | no_semantics | n=4 | local 32.00/0.00/0.00 | joint 32.00/0.00/0.00 | 联合复核实际改变q 0/4例、平均0.00轴
+SAHA | neither | n=4 | local 22.00/2.00/8.00 | joint 6.00/2.00/24.00 | 联合复核实际改变q 3/4例、平均16.00轴
+
+shift轴所引假设覆盖（平均轴数；引用不等于机制证据成立）：
+BMS | full | joint引用方向性假设 7.75；只引uncertain假设 0.00；未引任何假设 0.00
+BMS | no_mechanism | joint引用方向性假设 0.00；只引uncertain假设 0.00；未引任何假设 29.00
+BMS | no_semantics | joint引用方向性假设 32.00；只引uncertain假设 0.00；未引任何假设 0.00
+BMS | neither | joint引用方向性假设 0.00；只引uncertain假设 18.00；未引任何假设 0.00
+Dex | full | joint引用方向性假设 16.00；只引uncertain假设 0.00；未引任何假设 0.00
+Dex | no_mechanism | joint引用方向性假设 0.00；只引uncertain假设 0.00；未引任何假设 29.00
+Dex | no_semantics | joint引用方向性假设 32.00；只引uncertain假设 0.00；未引任何假设 0.00
+Dex | neither | joint引用方向性假设 0.00；只引uncertain假设 20.00；未引任何假设 2.00
+Nutlin | full | joint引用方向性假设 13.75；只引uncertain假设 0.50；未引任何假设 0.75
+Nutlin | no_mechanism | joint引用方向性假设 0.00；只引uncertain假设 0.25；未引任何假设 28.75
+Nutlin | no_semantics | joint引用方向性假设 32.00；只引uncertain假设 0.00；未引任何假设 0.00
+Nutlin | neither | joint引用方向性假设 0.00；只引uncertain假设 22.00；未引任何假设 0.00
+SAHA | full | joint引用方向性假设 13.50；只引uncertain假设 2.25；未引任何假设 0.00
+SAHA | no_mechanism | joint引用方向性假设 0.00；只引uncertain假设 2.25；未引任何假设 26.50
+SAHA | no_semantics | joint引用方向性假设 29.25；只引uncertain假设 2.75；未引任何假设 0.00
+SAHA | neither | joint引用方向性假设 0.00；只引uncertain假设 4.50；未引任何假设 1.50
+
+冻结假设的基因方向检查（同一gene可出现在不同假设中，逐条计数）：
+BMS | full | local不一致 0/3；joint不一致 0/3；joint未建模或名称不唯一 8条
+BMS | no_mechanism | local不一致 0/0；joint不一致 0/0；joint未建模或名称不唯一 0条
+Dex | full | local不一致 0/0；joint不一致 0/0；joint未建模或名称不唯一 0条
+Dex | no_mechanism | local不一致 0/0；joint不一致 0/0；joint未建模或名称不唯一 0条
+Nutlin | full | local不一致 0/12；joint不一致 0/12；joint未建模或名称不唯一 15条
+Nutlin | no_mechanism | local不一致 0/0；joint不一致 0/0；joint未建模或名称不唯一 0条
+SAHA | full | local不一致 0/0；joint不一致 0/0；joint未建模或名称不唯一 0条
+SAHA | no_mechanism | local不一致 0/0；joint不一致 0/0；joint未建模或名称不唯一 0条
+
+是否只是偏好训练高频状态（joint；按实际展示的训练占用计算）：
+BMS | full | 所选state属于训练top3比例 28.1%；平均频率排名 7.34/16；编辑后靠近/远离训练先验的轴 12/19，共31个shift轴
+BMS | no_mechanism | 所选state属于训练top3比例 15.2%；平均频率排名 8.63/16；编辑后靠近/远离训练先验的轴 67/49，共116个shift轴
+BMS | no_semantics | 所选state属于训练top3比例 20.5%；平均频率排名 8.22/16；编辑后靠近/远离训练先验的轴 56/72，共128个shift轴
+BMS | neither | 所选state属于训练top3比例 24.3%；平均频率排名 7.44/16；编辑后靠近/远离训练先验的轴 23/49，共72个shift轴
+Dex | full | 所选state属于训练top3比例 22.3%；平均频率排名 7.89/16；编辑后靠近/远离训练先验的轴 36/28，共64个shift轴
+Dex | no_mechanism | 所选state属于训练top3比例 14.1%；平均频率排名 8.87/16；编辑后靠近/远离训练先验的轴 60/56，共116个shift轴
+Dex | no_semantics | 所选state属于训练top3比例 9.5%；平均频率排名 9.30/16；编辑后靠近/远离训练先验的轴 63/65，共128个shift轴
+Dex | neither | 所选state属于训练top3比例 21.0%；平均频率排名 8.12/16；编辑后靠近/远离训练先验的轴 35/53，共88个shift轴
+Nutlin | full | 所选state属于训练top3比例 26.2%；平均频率排名 7.49/16；编辑后靠近/远离训练先验的轴 33/27，共60个shift轴
+Nutlin | no_mechanism | 所选state属于训练top3比例 14.0%；平均频率排名 8.64/16；编辑后靠近/远离训练先验的轴 69/47，共116个shift轴
+Nutlin | no_semantics | 所选state属于训练top3比例 12.0%；平均频率排名 9.19/16；编辑后靠近/远离训练先验的轴 65/63，共128个shift轴
+Nutlin | neither | 所选state属于训练top3比例 21.3%；平均频率排名 8.10/16；编辑后靠近/远离训练先验的轴 37/51，共88个shift轴
+SAHA | full | 所选state属于训练top3比例 12.9%；平均频率排名 8.48/16；编辑后靠近/远离训练先验的轴 34/29，共63个shift轴
+SAHA | no_mechanism | 所选state属于训练top3比例 15.4%；平均频率排名 8.60/16；编辑后靠近/远离训练先验的轴 66/49，共115个shift轴
+SAHA | no_semantics | 所选state属于训练top3比例 19.8%；平均频率排名 8.32/16；编辑后靠近/远离训练先验的轴 56/72，共128个shift轴
+SAHA | neither | 所选state属于训练top3比例 21.7%；平均频率排名 7.02/16；编辑后靠近/远离训练先验的轴 11/13，共24个shift轴
+
+固定样例：BMS / P2573b4ab3d22（按manifest顺序，未按效果挑选）
+  H1 canonical NF-kappa-B-dependent transcription → decrease；模型分类direct；NEAT1:decrease, MALAT1:uncertain
+  H2 NF-kappa-B target inflammatory/anti-apoptotic output → decrease；模型分类secondary；未指定基因
+  H3 IKK kinase transcript abundance → uncertain；模型分类direct；CHUK:uncertain, IKBKB:uncertain
+  H4 glycolytic/oxidative-stress metabolic state → uncertain；模型分类unknown；PKM:uncertain, G6PD:uncertain, ALDH1A1:uncertain
+  joint选择（下列基因效应为单state相对当前对照的展示值，尚未乘0.30）：
+    A26: H1 predicts NEAT1 decrease; low-lncRNA states 3,9,12 fit
+      C3 权重0.333 MALAT1/NEAT1-low state；MAP3K14↑+0.00415、IGFL2-AS1↑+0.00324、NEAT1↓-0.663、MALAT1↓-0.5514
+      C9 权重0.333 MALAT1/NEAT1-low, CTGF up；SAT1↑+0.00717、CTGF↑+0.00553、MALAT1↓-0.3281、NEAT1↓-0.3296
+      C12 权重0.333 MALAT1/NEAT1-low state；DYNC2H1↑+0.04819、PHF3↑+0.04265、MALAT1↓-0.2956、NEAT1↓-0.1824
+  最终预测的较大基因变化：AC090833.1↑+5e-05、TNFRSF10D↑+4e-05、GRIN2B↑+4e-05、STRN↑+4e-05、PTPRG↑+3e-05、LRPAP1↑+1e-05、THRB↑+1e-05、H1FX↑+1e-05、MYLK↑+1e-05、DUSP16↑+1e-05、MALAT1↓-0.1175、NEAT1↓-0.1175、SYT1↓-0.08091、EXOC6B↓-0.06536、SMYD3↓-0.06808、RORA↓-0.06232、AC008014.1↓-0.05999、TRAPPC9↓-0.05659、MAGI1↓-0.05399、LIPE-AS1↓-0.04153
+  联合复核说明：Retained only axis 26 shift, which matches H1 NEAT1 decrease. Other shifts lacked supplied NF-kB evidence and risked direction contradictions with decoder feedback.
+
+固定样例：Dex / P17495dd70e44（按manifest顺序，未按效果挑选）
+  H1 NF-kappa-B transcriptional activity → decrease；模型分类direct；NEAT1:uncertain, MALAT1:uncertain
+  H2 Glucocorticoid receptor signaling → uncertain；模型分类direct；NR3C1:uncertain
+  H3 Glycolytic metabolism → uncertain；模型分类secondary；ENO1:uncertain, PKM:uncertain
+  H4 Detoxification / aldehyde dehydrogenase → uncertain；模型分类unknown；ALDH1A1:uncertain, AKR1C2:uncertain
+  joint选择（下列基因效应为单state相对当前对照的展示值，尚未乘0.30）：
+    A0: GR/NF-kB context; ribosomal states 10,1,3 supported
+      C10 权重0.333 Ribosomal-gene up；RPL37A↑+0.6434、RPS11↑+0.6185
+      C1 权重0.333 Ribosomal-gene down；CYCS↑+0.0011、TUBA1A↑+0.00041、RPLP1↓-0.3664、RPS29↓-0.3672
+      C3 权重0.333 Ribosomal-gene down；GPI↑+0.00323、LINC01572↑+0.00026、RPL37A↓-0.4188、RPS11↓-0.3564
+    A1: NF-kB transrepression favors low chromatin/RNA states
+      C4 权重0.333 Strong negative chromatin/RNA state；TMEM65↑+0.00117、ITGB4↑+0.00026、ATXN2↓-0.2509、SKIL↓-0.1882
+      C7 权重0.333 Negative chromatin/RNA state；XRN1↑+0.00266、FILIP1↑+0.00116、BPTF↓-0.2047、CDC27↓-0.1915
+      C1 权重0.333 Positive chromatin/cycle-associated state；IQCB1↑+0.164、PHACTR4↑+0.146、KLHL5↓-0.03018、TRIP11↓-0.02828
+    A2: Stress/secretory states supported; NF-kB-linked SERPINE1
+      C9 权重0.333 SERPINE1/ANGPTL4-high；SERPINE1↑+1.207、ANGPTL4↑+0.5492、NTS↓-0.00943、SLC45A4↓-0.00921
+      C8 权重0.333 TGM2/SERPINE1-high；TGM2↑+0.7048、SERPINE1↑+0.5577、AC090833.1↓-0.00275、ESF1↓-0.00059
+      C2 权重0.333 Metallothionein/TGM2-high；MT1X↑+0.626、TGM2↑+0.6176、SERPINE1↓-0.06794、TIMP1↓-0.0058
+    A3: Chromatin/transcription states; direction context-dependent
+      C13 权重0.333 Broad chromatin/transcription up；TCF12↑+0.5355、USP3↑+0.5139、MUC5B↓-0.00287、NTS↓-0.003
+      C4 权重0.333 Strong chromatin regulator down；SCFD2↑+0.0023、NDRG1↑+0.00018、TCF12↓-0.5192、SENP6↓-0.4701
+      C8 权重0.333 Chromatin regulators down；SENP6↓-0.2371、TCF12↓-0.2336
+    A5: PDE4/cAMP states; NF-kB context modest
+      C11 权重0.333 PDE4B/CACNA2D1-up state；PDE4B↑+0.4196、CACNA2D1↑+0.3914、RHOBTB1↓-0.00067、LINC02328↓-0.00063
+      C12 权重0.333 PDE4B/COL5A2-up state；PDE4B↑+0.5004、COL5A2↑+0.423、TP53I3↓-0.00097、GNAS↓-0.00071
+      C5 权重0.333 PDE4B/ASPH-low state；CTGF↑+0.00023、S100P↑+9e-05、ASPH↓-0.5071、PDE4B↓-0.6266
+    A6: Export/RNA states; GR transcriptional effects plausible
+      C10 权重0.333 Nucleolar and RNA processing strongly up；HSPH1↑+0.6038、NOP58↑+0.5825、MUC5B↓-0.00062、DNM2↓-0.00046
+      C13 权重0.333 Translation and export strongly down；CEBPZ↑+0.0329、IER3↑+0.02662、EIF3A↓-0.2156、XPO1↓-0.1859
+      C1 权重0.333 Export and splicing machinery down；COL26A1↑+0.00039、DHRS2↑+0.00033、XPO1↓-0.2459、UBA2↓-0.1915
+    A7: Cytoskeletal/transport states; weak directional support
+      C7 权重0.333 ZSWIM6/WDR70/EXT1-high；ZSWIM6↑+0.6843、WDR70↑+0.5128、AC099520.1↓-0.00036、FIGN↓-5e-05
+      C14 权重0.333 ZSWIM6/CCDC88A/CCSER2-low；AATF↑+0.01416、MGAT5↑+0.00826、ZSWIM6↓-0.1788、UBR3↓-0.1533
+      C1 权重0.333 ZSWIM6/CCDC88A-low；TFRC↑+0.01832、HEATR5B↑+0.01469、ZSWIM6↓-0.3221、CCDC88A↓-0.2514
+    A8: GR/NF-kB context; chaperone-high states 2,7,9 plausible
+      C2 权重0.333 Heat-shock/chaperone-high；HSP90AA1↑+0.635、HSPA1A↑+0.452、ATP6V0E1↓-0.0158、ACOT7↓-0.01155
+      C7 权重0.333 Chaperone/proteostasis-high；HSPA1A↑+0.336、HSP90AA1↑+0.4013、PRKCSH↓-0.00563、DHX15↓-0.00324
+      C9 权重0.333 Chaperone-high state；HSP90AA1↑+0.4836、CCT2↑+0.3538、PCBP2↓-0.01047、MRFAP1↓-0.00946
+    A10: DKK1/ANXA1-high states; NF-kB-linked secretory markers
+      C9 权重0.500 DKK1/SPP1/ANXA1-high；DKK1↑+0.5847、ANXA1↑+0.3769、NTS↓-0.00174、TMEM117↓-0.00035
+      C13 权重0.500 DKK1/ANXA1-high；DKK1↑+0.6981、ANXA1↑+0.5807、NTS↓-0.04229、RDH11↓-0.03181
+    A16: GR/NF-kB context; keratin-high adhesion states supported
+      C3 权重0.333 Keratin/TMSB10-high；KRT8↑+0.6272、CTNNA3↑+0.5306、SCAPER↓-0.00026、CLSTN1↓-0.00012
+      C11 权重0.333 Keratin/TMSB10-high；KRT8↑+0.7399、KRT18↑+0.7029、KIAA0232↓-0.00936、PROCR↓-0.00326
+      C4 权重0.333 Keratin/HSPB1-high；CTNNA3↑+0.5165、KRT8↑+0.5198、CCND1↓-0.00388、PTMS↓-0.00231
+    A20: Lysosomal/secretory states plausible under GR context
+      C6 权重0.333 PSAP/LGALS3BP-high；PSAP↑+0.8801、LGALS3BP↑+0.649、KRT19↓-0.03888、MUC5B↓-0.00171
+      C10 权重0.333 LGALS3BP/CD59-high；LGALS3BP↑+0.7494、PSAP↑+0.6703
+      C11 权重0.333 PSAP/ITM2B-high；PSAP↑+0.6878、GRN↑+0.4396、SYPL1↓-0.00014、UBE2E1↓-2e-05
+    A21: Adhesion-high states; FKBP5 stress-linked, direction uncertain
+      C0 权重0.333 Adhesion/ECM-high, FKBP5-high；FKBP5↑+0.8928、EMP2↑+0.5276、MUC5B↓-0.03104、NTS↓-0.01748
+      C6 权重0.333 FKBP5/PCDH9-high；FKBP5↑+0.9138、SDK2↑+0.4558、N4BP2L2↓-0.00232、TACC1↓-0.00079
+      C13 权重0.333 FKBP5/EPB41L4A-high；FKBP5↑+0.6168、EPB41L4A↑+0.5023、SLC7A7↓-0.06012、PTPRG↓-0.04537
+    A27: Drop weak 0.8 weight; keep low EGFR/ECM states under NF-kB transrepression
+      C8 权重0.500 DCBLD2/BICC1/HIF1A-low；DCBLD2↓-0.4719、BICC1↓-0.4946
+      C11 权重0.500 EGFR/TGFBI/BCL2L1-low；AC008050.1↑+0.00017、EPB41L2↑+0.00013、TGFBI↓-0.5241、EGFR↓-0.5023
+  最终预测的较大基因变化：TGM2↑+0.3231、MT1X↑+0.1807、AHNAK2↑+0.2598、MT2A↑+0.1944、PYGB↑+0.2205、PSAP↑+0.2281、STOM↑+0.2216、KRT18↑+0.2746、FKBP5↑+0.2626、DKK1↑+0.2354、EGFR↓-0.1256、TGFBI↓-0.128、BICC1↓-0.1281、BCL2L1↓-0.09772、GRIN2B↓-0.07584、JAG1↓-0.07246、DCBLD2↓-0.09057、HIF1A↓-0.08835、NTRK3↓-0.07241、MIR100HG↓-0.09164
+  联合复核说明：Revised axes 4,17,18,24 to unknown because their frozen hypotheses are explicitly uncertain and no signed GR evidence supports a direction; trimmed axis 27 to two supported low-EGFR/ECM states. Other shifts retained as hypothesis-consistent, not observed accuracy.
+
+固定样例：Nutlin / P7024000b0de7（按manifest顺序，未按效果挑选）
+  H1 p53 transcriptional activation → increase；模型分类direct；CDKN1A:increase, MDM2:increase, BBC3:increase
+  H2 cell cycle arrest → increase；模型分类secondary；CDKN1A:increase
+  H3 apoptosis → uncertain；模型分类secondary；BBC3:uncertain, BAX:uncertain
+  H4 TP53 transcript level → uncertain；模型分类direct；TP53:uncertain
+  joint选择（下列基因效应为单state相对当前对照的展示值，尚未乘0.30）：
+    A0: Ribosomal up states plausible under p53; keep
+      C10 权重0.500 Ribosomal-gene up；RPL37A↑+0.619、RPS11↑+0.5934
+      C8 权重0.300 Ribosomal and S100 up；ZFAS1↑+0.3674、RPS19↑+0.3982、UBE3A↓-0.00015、BRIP1↓-0.0001
+      C2 权重0.200 Ribosomal-gene up；RPS3↑+0.1771、NDUFA4↑+0.1766、S100A11↓-0.04244、NME1↓-0.02553
+    A1: Low chromatin/cycle states fit arrest; keep
+      C4 权重0.500 Strong negative chromatin/RNA state；TMEM65↑+0.00057、TRA2A↑+0.0003、ATXN2↓-0.2422、BPTF↓-0.2259
+      C7 权重0.300 Negative chromatin/RNA state；XRN1↑+0.00495、GNAS↑+0.00241、BPTF↓-0.2209、IQCB1↓-0.1781
+      C1 权重0.200 Positive chromatin/cycle-associated state；IQCB1↑+0.1454、PHACTR4↑+0.1361、TRIP11↓-0.01832、KLHL5↓-0.01724
+    A2: Stress/secretory states align with p53 stress; keep
+      C8 权重0.476 TGM2/SERPINE1-high；TGM2↑+0.9357、SERPINE1↑+0.7638、AC090833.1↓-0.00131、UBE3A↓-0.00022
+      C9 权重0.333 SERPINE1/ANGPTL4-high；SERPINE1↑+1.413、ANGPTL4↑+0.6792、NTS↓-0.00517、ANP32B↓-6e-05
+      C2 权重0.190 Metallothionein/TGM2-high；MT1X↑+0.7323、TGM2↑+0.8485、TIMP1↓-0.00293、MUC5B↓-0.00066
+    A3: Chromatin regulator down states fit arrest; keep
+      C4 权重0.500 Strong chromatin regulator down；SCFD2↑+0.00267、PMEPA1↑+0.00055、TCF12↓-0.4884、SENP6↓-0.4486
+      C8 权重0.300 Chromatin regulators down；SRSF2↑+3e-05、SENP6↓-0.2156、JMJD1C↓-0.2229
+      C10 权重0.200 SENP6/UBE2E1 down；SENP6↓-0.3942、AC016831.1↓-0.315
+    A4: Aldehyde/oxidative states align with p53 stress; keep
+      C0 权重0.476 Aldehyde dehydrogenase/ketoreductase-high；ALDH3A1↑+0.8301、GPX2↑+0.7204、CCAR1↓-0.00073、SLC45A4↓-0.00058
+      C12 权重0.333 ALDH3A1/AKR1B10/GPX2-high；ALDH3A1↑+1.175、GPX2↑+0.6936、RNF43↓-0.0038、KLF5↓-0.00343
+      C8 权重0.190 Broad aldehyde/ketoreductase-high；AKR1C1↑+0.4647、GPX2↑+0.4882、MSN↓-0.02516、MARCKS↓-0.02013
+    A5: PDE4/adhesion-low states fit arrest; keep
+      C5 权重0.500 PDE4B/ASPH-low state；CTGF↑+0.00025、INSIG1↑+8e-05、PDE4B↓-0.6739、ASPH↓-0.5159
+      C9 权重0.300 PDE4B/CACNA2D1-low state；MUC5B↑+0.00073、LINC02328↑+0.0003、PDE4B↓-0.5759、CACNA2D1↓-0.4594
+      C0 权重0.200 PDE4D/MAML3-low state；TRA2A↑+0.00119、MUC5B↑+0.00022、PDE4D↓-0.9067、MAML3↓-0.8889
+    A6: Export/translation down states fit arrest; keep
+      C13 权重0.476 Translation and export strongly down；CEBPZ↑+0.01962、SMCHD1↑+0.01098、EIF3A↓-0.2316、XPO1↓-0.2327
+      C14 权重0.333 Export and translation machinery down；ATP5E↑+0.00047、MT1X↑+0.00014、AP2B1↓-0.3329、XPO1↓-0.3592
+      C1 权重0.190 Export and splicing machinery down；COL26A1↑+0.00019、DHRS2↑+0.00011、XPO1↓-0.2926、UBA2↓-0.2267
+    A7: Cytoskeletal/transport down states fit arrest; keep
+      C14 权重0.500 ZSWIM6/CCDC88A/CCSER2-low；AATF↑+0.00562、CFDP1↑+0.00297、ZSWIM6↓-0.254、CCDC88A↓-0.23
+      C15 权重0.300 CCDC88A/WDR70/CCSER2-low；LINC02328↑+0.00358、SLC7A7↑+0、CCDC88A↓-0.2708、WDPCP↓-0.2306
+      C1 权重0.200 ZSWIM6/CCDC88A-low；THRAP3↑+0.00485、ATF6↑+0.00467、ZSWIM6↓-0.3973、CCDC88A↓-0.3242
+    A8: Chaperone/replication states plausible but p53 link indirect; keep
+      C2 权重0.333 Heat-shock/chaperone-high；HSP90AA1↑+0.4114、HSPA1A↑+0.2838、ATP6V0E1↓-0.01623、ACOT7↓-0.0095
+      C4 权重0.333 Proliferation/chaperone-high；CKS2↑+0.3653、HSPA1A↑+0.3537、EPRS↓-0.05449、GSPT1↓-0.02564
+      C9 权重0.333 Chaperone-high state；STIP1↑+0.1893、CCT2↑+0.2098、MRFAP1↓-0.0137、PCBP2↓-0.01355
+    A10: DKK1/ANXA1-high states plausible under p53 stress; keep
+      C9 权重0.500 DKK1/SPP1/ANXA1-high；DKK1↑+0.4468、MARCKS↑+0.1997、GGH↓-0.00045、TMEM117↓-0.00034
+      C13 权重0.500 DKK1/ANXA1-high；DKK1↑+0.5601、ANXA1↑+0.4535、JUP↓-0.09892、G6PD↓-0.06913
+    A12: SLC38A1/CCND1-low states fit arrest; keep
+      C5 权重0.500 SLC38A1/CCND1-low；ZC3HAV1↑+0.03428、YWHAZ↑+0.02479、SLC38A1↓-0.4341、CCND1↓-0.3711
+      C10 权重0.500 SLC38A1/CSDE1/MYOF-low；FANCL↑+0.0004、MUC5B↑+0.00017、SLC38A1↓-0.4218、CSDE1↓-0.3461
+    A13: Transport/adhesion-low states fit reduced growth; keep
+      C12 权重0.500 PDE4D/ABCC3/EHBP1-low；S100P↑+0.00152、KIF13B↑+0.00148、PDE4D↓-0.9785、ABCC3↓-0.9941
+      C14 权重0.500 ABCC3/ABCC2/PAPPA-low；BMPR2↑+0.00206、S100P↑+0.00138、ABCC3↓-0.88、EHBP1↓-0.6521
+    A19: p53-marker-high states consistent with H1; keep
+      C4 权重0.333 Strong p53-marker up state；CDKN1A↑+1.715、FDXR↑+1.383、SLC7A7↓-1e-05
+      C8 权重0.333 CDKN1A/FDXR up, TP53I3 down；CDKN1A↑+0.4663、FDXR↑+0.2602、LRP10↓-0.1718、TP53I3↓-0.1591
+      C10 权重0.333 CDKN1A/MDM2 up, TP53I3 down；CDKN1A↑+0.5017、MDM2↑+0.2525、LRP10↓-0.282、GPC1↓-0.2
+    A24: Proliferation states favored but direction conflicts with arrest; retain high-proliferation per decoder
+      C9 权重0.333 High proliferation program；TOP2A↑+1.065、MKI67↑+1.051、AC016205.1↓-0.1209、PBX3↓-0.0327
+      C13 权重0.333 High proliferation program；MKI67↑+1.387、TOP2A↑+1.297、TP53I3↓-8e-05
+      C10 权重0.333 Proliferation up, repair down；CENPF↑+0.8406、MKI67↑+0.6867、AC016205.1↓-0.4922、DIAPH3↓-0.2585
+  最终预测的较大基因变化：CDKN1A↑+0.2697、MKI67↑+0.313、CENPF↑+0.3006、TOP2A↑+0.2952、CENPE↑+0.2007、SERPINE1↑+0.2575、TPX2↑+0.1844、TGM2↑+0.2629、FDXR↑+0.1612、ALDH3A1↑+0.2816、PDE4D↓-0.3768、MAML3↓-0.3392、ABCC2↓-0.3214、EHBP1↓-0.3026、FTX↓-0.2981、PDE4B↓-0.3209、EFNA5↓-0.3064、THSD7A↓-0.3433、THSD4↓-0.3048、DOCK5↓-0.287
+  联合复核说明：Retained p53-linked shifts on axes 0-8,10,12,13,19,24; reverted axis 16 to unknown for weak p53 support. No cross-axis cancellation contradicts retained directions.
+
+固定样例：SAHA / P8edfc1c697bc（按manifest顺序，未按效果挑选）
+  H1 histone acetylation / chromatin-mediated transcription → increase；模型分类direct；NEAT1:uncertain, PDE4D:uncertain
+  H2 glycolytic / metabolic enzyme expression → uncertain；模型分类secondary；PKM:uncertain, ENO1:uncertain, G6PD:uncertain
+  H3 aldehyde dehydrogenase / aldo-keto reductase detoxification → uncertain；模型分类secondary；ALDH1A1:uncertain, AKR1C2:uncertain, AKR1B10:uncertain
+  H4 HDAC transcript levels → uncertain；模型分类unknown；未指定基因
+  joint选择（下列基因效应为单state相对当前对照的展示值，尚未乘0.30）：
+    A0: HDAC inhibition may raise ribosomal/translation transcripts; state 10 strongest up
+      C10 权重0.476 Ribosomal-gene up；RPL37A↑+0.6439、RPS11↑+0.6304
+      C8 权重0.286 Ribosomal and S100 up；ZFAS1↑+0.3827、S100A6↑+0.4362、UBE3A↓-0.00012、BRIP1↓-7e-05
+      C2 权重0.238 Ribosomal-gene up；NDUFA4↑+0.1999、RPS3↑+0.1877、DYNLL1↓-0.00863、S100A11↓-0.00701
+    A1: Chromatin/transcription states with positive regulators fit acetylation shift
+      C1 权重0.400 Positive chromatin/cycle-associated state；IQCB1↑+0.1572、PHACTR4↑+0.1374、DDX17↓-0.01085、TRIP11↓-0.00916
+      C6 权重0.333 Positive chromatin/cycle state；CLASP2↑+0.1634、HP1BP3↑+0.1434、XRN1↓-0.0093、THRAP3↓-0.00736
+      C2 权重0.267 Chromatin/RNA-processing positive state；ATXN2↑+0.1829、BPTF↑+0.1431、MAPK1IP1L↓-0.01725、BACH1↓-0.01448
+    A2: Stress/matrix states up; direction uncertain but positive markers supported
+      C8 权重0.400 TGM2/SERPINE1-high；TGM2↑+0.934、SERPINE1↑+0.8142、AC090833.1↓-0.00113、UBE3A↓-0.00021
+      C9 权重0.333 SERPINE1/ANGPTL4-high；SERPINE1↑+1.463、ANGPTL4↑+0.6853、NTS↓-0.00644、ANP32B↓-6e-05
+      C2 权重0.267 Metallothionein/TGM2-high；MT1X↑+0.7306、TGM2↑+0.8469、TIMP1↓-0.00194、AC016205.1↓-0.00027
+    A3: Broad chromatin/transcription up state aligns with HDAC inhibition
+      C13 权重0.500 Broad chromatin/transcription up；TCF12↑+0.5979、UBE2E1↑+0.5045、GGNBP2↓-0.00439、NTS↓-0.0035
+      C15 权重0.286 WDR43/UBE2E1 up；WDR43↑+0.2443、PVT1↑+0.1852、CHD2↓-0.04653、ZZZ3↓-0.03254
+      C6 权重0.214 CPNE8/PVT1/CPEB2 up；PVT1↑+0.2237、CPEB2↑+0.1789、QKI↓-0.06152、KCMF1↓-0.04715
+    A6: Nucleolar/export up states plausible with altered transcription
+      C10 权重0.462 Nucleolar and RNA processing strongly up；HSPH1↑+0.5981、NOP58↑+0.5655、MUC5B↓-0.00065、DNM2↓-0.00055
+      C15 权重0.308 Export and translation machinery up；EIF3A↑+0.2197、DDX21↑+0.1981、POLR2A↓-0.03556、IER3↓-0.01966
+      C5 权重0.231 Export and translation machinery up；KIF5B↑+0.2056、XPO1↑+0.2088、TPD52↓-0.01017、CERS6↓-0.01055
+    A8: HDAC inhibition may raise chaperone/proteostasis states; C2/C4/C9 up HSP90AA1
+      C2 权重0.333 Heat-shock/chaperone-high；HSP90AA1↑+0.3673、DNAJA1↑+0.2272、ATP6V0E1↓-0.02036、ACOT7↓-0.01656
+      C4 权重0.333 Proliferation/chaperone-high；CKS2↑+0.3138、HSPA1A↑+0.3156、EPRS↓-0.04351、GSPT1↓-0.02224
+      C9 权重0.333 Chaperone-high state；HSPA4↑+0.1861、CCT2↑+0.1966、CKS2↓-0.05183、POLR2A↓-0.02034
+    A10: ER/secretory states up KDELR1/LMAN2/PDIA6; chromatin changes plausible
+      C7 权重0.333 KDELR1/NTS/ER-high；NTS↑+0.2203、LMAN2↑+0.2233、ID3↓-0.09157、GLUD1↓-0.01007
+      C15 权重0.333 ER chaperone-high；TLN1↑+0.1897、LMAN2↑+0.1795、NQO1↓-0.124、G6PD↓-0.08871
+      C11 权重0.333 ER folding/translocation up；PDIA3↑+0.09024、DDOST↑+0.08098、PTMS↓-0.1088、NQO1↓-0.1101
+    A12: Metabolic/transport states up SLC38A1/LARP1; HDAC inhibition may reshape metabolism
+      C1 权重0.333 SLC38A1/LARP1-high；SLC38A1↑+0.3118、LARP1↑+0.2783、TRA2A↓-0.00078、ELP4↓-0.00074
+      C14 权重0.333 ANP32B/CCND1/SLC38A1 up；CCND1↑+0.2182、CSDE1↑+0.1876、NHSL1↓-0.02688、DOCK10↓-0.02991
+      C8 权重0.333 ANP32A/DOCK10/SLC38A1 up；KIFC3↑+0.1618、DOCK10↑+0.1542、FILIP1↓-0.00448、DNM1↓-0.00282
+    A13: PDE4D/ABCC3-high states; cAMP/transport program plausibly modulated
+      C6 权重0.333 PDE4D/ABCC3/THSD4-high；PDE4D↑+0.4152、ABCC3↑+0.4343、EPDR1↓-0.03054、CNTLN↓-0.02274
+      C7 权重0.333 PDE4D/MTUS1/ABCC3-high；PDE4D↑+0.3867、ABCC3↑+0.4409、P3H2↓-0.01563、CAMK1D↓-0.01145
+      C5 权重0.333 EHBP1/ABCC3/PAPPA-high；PAPPA↑+0.3264、ABCC3↑+0.2775、LINC00486↓-0.03852、BBX↓-0.03326
+    A14: Cytoskeletal GTPase-regulator states up TRIO/MBNL1; chromatin-linked
+      C2 权重0.333 TRIO/MBNL1-high cytoskeletal state；TRIO↑+0.4351、MBNL1↑+0.4135
+      C13 权重0.333 TRIO/UBE2E2-high state；UBE2E2↑+0.3168、TRIO↑+0.3135、ANGPTL4↓-0.00259、DDIT4↓-0.00043
+      C3 权重0.333 MBNL1/FGD6-high state；MBNL1↑+0.4498、FGD6↑+0.315、LCLAT1↓-0.03131、ZMYM2↓-0.02673
+    A16: HDAC inhibition may raise keratin/adhesion expression; strong KRT8/CTNNA3 states favored
+      C1 权重0.333 Keratin/CTNNA3-high；KRT8↑+0.7327、S100P↑+0.4799、SLC45A4↓-0.00958、ID1↓-0.00911
+      C3 权重0.333 Keratin/TMSB10-high；KRT8↑+0.9027、CTNNA3↑+0.7416、SCAPER↓-0.00027、CFDP1↓-0.00015
+      C11 权重0.333 Keratin/TMSB10-high；KRT8↑+1.015、KRT18↑+0.9322、KIAA0232↓-0.00249、SEC62↓-0.00016
+    A17: Metabolic program direction uncertain; glycolytic-high states weakly favored
+      C7 权重0.333 Glycolytic/cytoskeletal up；TPI1↑+0.5188、POLR2L↑+0.4894、ESF1↓-0.00047、DNM1L↓-0.00033
+      C11 权重0.333 Glycolytic/cytoskeletal up；ALDOA↑+0.4363、POLR2L↑+0.4406、EIF4A3↓-0.00049、ACSBG1↓-0.00036
+      C15 权重0.333 Energy/cytoskeletal up；ATP5B↑+0.3386、TPI1↑+0.3044、TUBB↓-0.00101、NR4A1↓-0.00071
+    A20: Lysosomal/secretory states with PSAP up weakly favored under chromatin change
+      C4 权重0.333 KRT19/PSAP-high；KRT19↑+0.9142、PSAP↑+0.6829、SCAPER↓-0.00018、TCERG1↓-3e-05
+      C6 权重0.333 PSAP/LGALS3BP-high；PSAP↑+0.8546、LGALS3BP↑+0.6178、KRT19↓-0.04654、ELF3↓-0.0064
+      C11 权重0.333 PSAP/ITM2B-high；PSAP↑+0.6623、GRN↑+0.4096、SYPL1↓-0.00019、UBE2E1↓-5e-05
+    A21: Adhesion/junction high states weakly favored; direction uncertain
+      C0 权重0.333 Adhesion/ECM-high, FKBP5-high；FKBP5↑+1.602、EPB41L4A↑+0.9905、NTS↓-0.01218、AC016205.1↓-0.00025
+      C6 权重0.333 FKBP5/PCDH9-high；FKBP5↑+1.623、SDK2↑+0.7919、ERGIC2↓-3e-05
+      C13 权重0.333 FKBP5/EPB41L4A-high；FKBP5↑+1.326、EPB41L4A↑+0.9288、PPP4R3B↓-0.00133、ZNF280D↓-0.00058
+    A24: HDAC inhibition may raise proliferation-marker states; C9/C13 high TOP2A/MKI67
+      C9 权重0.333 High proliferation program；TOP2A↑+0.8504、CENPE↑+0.6128、AC016205.1↓-0.2113、PBX3↓-0.04775
+      C13 权重0.333 High proliferation program；ASPM↑+0.9817、MKI67↑+1.156、TP53I3↓-0.00014
+      C10 权重0.333 Proliferation up, repair down；CENPF↑+0.6538、MKI67↑+0.4562、AC016205.1↓-0.5826、DIAPH3↓-0.3624
+    A25: Chromatin/redox states with TXNRD1/KMT2A up fit acetylation-linked transcription
+      C6 权重0.333 TXNRD1/RERE/ITCH-high；TXNRD1↑+0.2495、ITCH↑+0.198、RAB3GAP2↓-0.01517、KIF16B↓-0.01302
+      C12 权重0.333 KMT2A/TXNRD1/CEP290-high；KMT2A↑+0.2064、TXNRD1↑+0.2076、LIPE-AS1↓-0.00439、PSEN1↓-0.00113
+      C13 权重0.333 PPP6R3/TXNRD1-high；PPP6R3↑+0.2307、TXNRD1↑+0.175、RNF130↓-0.00136、UBASH3B↓-0.00089
+    A26: MALAT1/NEAT1-high states plausible under chromatin-mediated transcription
+      C1 权重0.333 MALAT1/NEAT1 neuronal state；MALAT1↑+0.5861、NEAT1↑+0.6296、TNFRSF10D↓-0.00282、LDAH↓-0.00182
+      C10 权重0.333 NEAT1/MALAT1-high state；NEAT1↑+0.8082、MALAT1↑+0.6094、TMTC2↓-0.1559、MAGI1↓-0.05013
+      C11 权重0.333 NEAT1/AC008014 up state；NEAT1↑+0.6887、MALAT1↑+0.5713
+    A27: High EGFR/TGFBI/NTRK3 signaling states may respond to HDAC inhibition
+      C2 权重0.333 EGFR/TGFBI/BICC1-high；EGFR↑+0.5574、BICC1↑+0.527、MT1X↓-0.00016、ACSBG1↓-0.0001
+      C5 权重0.333 NTRK3/BICC1/TGFBI-high；NTRK3↑+0.6096、BICC1↑+0.6839、MAST4↓-0.00013、LARP4↓-0.00013
+      C14 权重0.333 NTRK3/TRAM1/TGFBI-high；NTRK3↑+0.656、TRAM1↑+0.8024、AC099520.1↓-0.0002
+    A28: Stress/secretory high states plausible; TFPI2/SLC9A3R1 up
+      C10 权重0.333 TFPI2/CTGF/SREBF1 up；TFPI2↑+1.781、CTGF↑+1.022
+      C14 权重0.333 SLC9A3R1/PNPLA2/SREBF1 up；SLC9A3R1↑+1.002、PNPLA2↑+0.8347、AC006064.4↓-6e-05、AC016205.1↓-0
+      C13 权重0.333 UBB/EIF4A3/SQSTM1 up；EIF4A3↑+0.5176、UBB↑+0.5364、BAZ2A↓-0.05004、CRIM1↓-0.0612
+    A29: Cytoskeletal/chaperone-high states may shift with chromatin changes
+      C12 权重0.333 Tubulin/VIM-high；TUBA1B↑+0.8048、TUBB↑+0.5409、ERGIC2↓-0.00027、LINC02328↓-0.00029
+      C14 权重0.333 Tubulin/PTBP1-high；TUBB↑+0.5758、TUBA1B↑+0.6816、YME1L1↓-0.0109、PTMS↓-0.00826
+      C3 权重0.333 Tubulin/chaperone-high；C1QBP↑+0.3349、SLC7A5↑+0.3835、HMGA1↓-0.02858、TUBB4B↓-0.02095
+    A30: PRKCA/EPS8-high states plausible under altered transcription
+      C8 权重0.333 PRKCA/EPS8-high；PRKCA↑+0.4225、EPS8↑+0.3519、NTS↓-0.01002、SIL1↓-0.00523
+      C13 权重0.333 PRKCA/EPS8-high；PRKCA↑+0.2949、EPS8↑+0.279、NDRG1↓-0.00366、SYPL1↓-0.00299
+      C12 权重0.333 PRKCA/SLC41A2-high；PRKCA↑+0.4031、SLC41A2↑+0.2853、LINC02328↓-0.00041、YY1↓-6e-05
+    A31: SLC12A2/CYP24A1-high states may shift; direction uncertain
+      C3 权重0.333 SLC12A2/CYP24A1-high；SLC12A2↑+0.3125、CYP24A1↑+0.3588、RNF19A↓-0.09474、DOCK10↓-0.07633
+      C9 权重0.333 SLC12A2/BASP1-high；SLC12A2↑+0.3648、BASP1↑+0.2139、NRG1↓-0.05806、ANTXR1↓-0.02941
+      C11 权重0.333 SLC12A2/PDE10A-high；ST6GAL2↑+0.2274、PDE10A↑+0.2822、ACBD6↓-0.02304、SEMA3A↓-0.01626
+  最终预测的较大基因变化：FKBP5↑+0.4986、DOCK4↑+0.3991、TGM2↑+0.4389、KRT18↑+0.4619、BTBD11↑+0.3977、PYGB↑+0.3427、FGD4↑+0.3541、STOM↑+0.3462、AKAP13↑+0.307、AHNAK2↑+0.3615、AC016205.1↓-0.00656
+  联合复核说明：Local shifts are directionally consistent with HDAC-inhibition hypotheses but many rest on uncertain per-gene directions; no specific revision is justified.
+
+消融组固定样例（显示其决策理由，不代表这些理由科学上成立）：
+no_mechanism / P2573b4ab3d22
+  H1 oxidative stress / NRF2 antioxidant response → uncertain
+  H2 glycolysis / central carbon metabolism → uncertain
+  H3 cAMP/PDE4D signaling → uncertain
+  H4 lncRNA stress response (NEAT1/MALAT1) → uncertain
+  H5 mitochondrial oxidative phosphorylation → uncertain
+  A0 [[10, 1], [2, 1], [9, 1]] / ['A0/C10', 'A0/C2']: Strong ribosomal-up states; H1/H2 uncertain, no contradiction
+  A1 [[4, 1], [7, 1], [14, 1]] / ['A1/C4', 'A1/C7']: Strong negative chromatin/RNA states; direction supported
+  A2 [[9, 1], [8, 1], [14, 1]] / ['A2/C9', 'A2/C8']: SERPINE1/TGM2-high stress-matrix states
+  Local shifts are direction-consistent with axis evidence and frozen hypotheses remain uncertain, so no specific revision is justified.
+no_semantics / P2573b4ab3d22
+  H1 canonical NF-kappa-B-dependent transcription → decrease
+  H2 IKK kinase transcript levels → uncertain
+  H3 inflammatory cytokine/chemokine secretion program → decrease
+  H4 NF-kappa-B-independent or compensatory signaling → uncertain
+  A0 [[1, 1], [3, 1], [4, 1]] / ['H1', 'A0/C1']: Strong down effects in states 1,3,4 align with NF-kB decrease
+  A1 [[4, 1], [5, 1], [7, 1]] / ['H1', 'A1/C4']: Down-dominant states 4,5,7 consistent with reduced transcription
+  A2 [[3, 1], [4, 1], [6, 1]] / ['H1', 'A2/C3']: States 3,4,6 show net down effects matching NF-kB inhibition
+  Local shifts are directionally consistent with H1 for down-dominant axes; up-dominant axes reflect program redistribution rather than contradiction. No cross-axis cancellation or evidence conflict justifies revision.
+neither / P2573b4ab3d22
+  H1 transcriptional response to an unspecified perturbation → uncertain
+  H2 stress-response / cytostasis programs → uncertain
+  H3 baseline expression of highly expressed features → uncertain
+  A8 [[2, 1], [13, 1]] / ['H1', 'A8/C2']: Strong up G0574 in state 2; state 13 up G1838
+  A9 [[14, 1], [10, 1]] / ['H1', 'A9/C14']: State 14 strong up G1314; state 10 up G0196
+  A10 [[13, 1], [9, 1]] / ['H1', 'A10/C13']: State 13 strong up G1776; state 9 up G1776
+  No revisions justified: all shifts cite supplied axis/state evidence and H1 uncertainty; no direction contradictions or cross-axis cancellation require changes.
+
+解释限制：
+- Agreement with a model-generated hypothesis is internal consistency, not biological or predictive accuracy.
+- Hypothesis gene checks are deliberately unavailable when code semantics are hidden.
+- Displayed state effects are sparse full-state-minus-control decoder contributions; final mixed predictions use alpha=0.3.
+- Axis counts do not measure the number of true biological programs changed; axes may overlap in genes.
+- A positive unknown count denotes missing evidence; numerically unknown retains control occupancy.
+- Source labels direct/secondary are the model's claims; this diagnostic does not validate their biological evidence.
+- Citing a directional hypothesis does not establish that a selected axis or state implements it; reference coverage is a weaker diagnostic.
+- No formal functional enrichment or pathway consistency score is computed here.

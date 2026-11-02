@@ -1,0 +1,97 @@
+{
+  "audit_date": "2026-10-27",
+  "status": "published_scores_verified; exact_published_protocol_not_yet_recovered",
+  "leaderboard": {
+    "url": "https://tdcommons.ai/benchmark/counterfactual_group/scperturb_drug_SrivatsanTrapnell2020_sciplex2/",
+    "task": "unseen chemical perturbation",
+    "metric": "R-squared; larger is better",
+    "ChemCPA": {
+      "BMS": {
+        "mean": 0.906,
+        "std": 0.006
+      },
+      "Dex": {
+        "mean": 0.54,
+        "std": 0.013
+      },
+      "Nutlin": {
+        "mean": 0.835,
+        "std": 0.009
+      },
+      "SAHA": {
+        "mean": 0.69,
+        "std": 0.021
+      },
+      "average": 0.743
+    }
+  },
+  "data_identity": {
+    "loader_name": "scperturb_drug_SrivatsanTrapnell2020_sciplex2",
+    "loader_file_id": 9845394,
+    "expected_download_url": "https://dataverse.harvard.edu/api/access/datafile/9845394",
+    "incorrect_leaderboard_description_file_id": 9845396,
+    "incorrect_description_target": "scperturb_drug_AissaBenevolenskaya2021",
+    "primary_preprocessing_source": "https://github.com/sanderlab/scPerturb/blob/master/dataset_processing/scripts/SrivatsanTrapnell2020.py",
+    "source_geo": "GSM4150377_A549_Transcription_Modulators",
+    "cell_line": "A549",
+    "paper_mismatch": "Paper describes A549/K562/MCF7; original scPerturb preprocessing explicitly sets sciPlex2 cell_line=A549."
+  },
+  "verified_current_api": {
+    "version": "PyTDC 1.1.15 (not established as version used for published Table 6)",
+    "drug_preprocessing": "No normalization, log1p, or HVG selection in PerturbOutcome drug branch; 5000-HVG code is genetic-perturbation branch only. Upstream h5ad state still needs inspection.",
+    "split": "Default 80/10/10, random_state=42. Cold split groups drug identity within cell_line; doses are not split separately. Returns AnnData.obs subsets, not expression.",
+    "controls": "All control cells separated before splitting; high-level returns train/dev only but control exists in self.split.",
+    "predict_format_as_coded": "dict[cell_line] -> pandas.DataFrame. Numeric columns are averaged across rows; row pairing is not used. Gene names/order are not checked beyond numeric-vector length. Intended biological output should be cells x genes in exact frozen gene order.",
+    "score_as_coded": "For each cell line, mean all numeric columns over cells, then sklearn.metrics.r2_score(y_true_mean,y_pred_mean); arithmetic average across cell lines. Does not subtract control. Does not group drug/dose unless caller scopes each test separately.",
+    "multi_run": "evaluate_many requires len(preds)>=5, returns mean_R^2 and std_R^2 with numpy.std(ddof=0).",
+    "breakages": [
+      "4-drug default unseen split raises ValueError when splitting 1 heldout drug between validation and test.",
+      "Default seen remove_unseen=True removes drugs present in training and empties synthetic validation/test.",
+      "Data splits contain metadata only, not expression.",
+      "Ignored DataFrame.drop result retains numeric metadata and contaminates score.",
+      "No high-level seed parameter; default dataset is Aissa, not sciPlex2."
+    ]
+  },
+  "submission": {
+    "guidelines": "https://tdcommons.ai/benchmark/overview/",
+    "form": "https://forms.gle/HYupGaV7WDuutbr9A",
+    "requirements": [
+      "Use TDC specified test set unchanged.",
+      "Train with train/validation only; train/validation split may be customized.",
+      "At least five independent model runs; report mean and standard deviation.",
+      "Submit scores plus model summary incl parameter count and hardware."
+    ],
+    "form_fields_verified": false,
+    "public_submission_performed": false
+  },
+  "reproduction_archive": {
+    "paper": "https://wenhao-gao.github.io/assets/publications/2024_TDC2/paper.pdf",
+    "section": "Appendix B.1, PDF page 33 (zero indexed 32)",
+    "url": "https://drive.google.com/drive/folders/1RlBnRPmWFRQ6M_1EQ_FMwFb1Y8IjXoyC?usp=sharing",
+    "description": "Paper says each chemical model has run_chemical_sc.py, default model repo settings, A100 hardware.",
+    "access_status": "Not retrieved: local Google connections unreachable; web tool inaccessible; file permissions/existence not determined.",
+    "alternate_ocr_id_tried": "1R1BnRPmWFRQ6M_1EQ_FMwFb1Y8IjXoyC"
+  },
+  "not_yet_verified": [
+    "Published exact train/val/test cell IDs and drug folds.",
+    "Published gene universe/order and feature count.",
+    "Published normalization/count layer and QC.",
+    "Published dose inclusion/exclusion, dose scaling and per-dose score aggregation.",
+    "Published control pool and matching.",
+    "Published model hyperparameters, checkpoint/commit, seed list.",
+    "Whether published four drug scores used leave-one-drug-out retraining, and exact aggregation."
+  ],
+  "next_steps": [
+    "Retrieve original run_chemical_sc.py archive and record exact URL/hash.",
+    "Extract immutable split manifest, preprocessing/gene manifest and scorer; verify agreement with paper columns before model fitting.",
+    "Rerun ChemCPA baseline with identical data/splits/scorer and five training seeds.",
+    "Train new LEXA folds and generate code annotations using only permitted training cells; current all-drug LEXA checkpoint is not automatically eligible for unseen-drug comparison.",
+    "If original protocol remains unavailable, label any repaired/new protocol as a separate reproducibility experiment, not certified leaderboard-equivalent."
+  ],
+  "sources": [
+    "https://arxiv.org/html/2505.05577v1#A2.SS4",
+    "https://tdcommons.ai/benchmark/counterfactual_group/overview/",
+    "https://github.com/mims-harvard/TDC/blob/main/tdc/multi_pred/perturboutcome.py",
+    "https://github.com/mims-harvard/TDC/blob/main/tdc/benchmark_group/counterfactual_group.py"
+  ]
+}

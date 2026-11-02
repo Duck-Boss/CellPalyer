@@ -1,0 +1,46 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "transcriptional response to unknown perturbation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Perturbation identity and mechanism are withheld, so no treatment-specific direction can be inferred."
+    },
+    {
+      "id": "H2",
+      "program": "stress-responsive transcriptional programs",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549, 24 h exposure; unknown agent class",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Many agents induce stress programs at 24 h, but without mechanism this remains speculative."
+    },
+    {
+      "id": "H3",
+      "program": "cell-cycle progression",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549, 5 uM, 24 h; unknown mechanism",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Cytostatic effects are common but cannot be attributed without knowing the perturbation."
+    }
+  ],
+  "summary": "No mechanism information is available; all directions are explicitly uncertain and no gene-level predictions are justified.",
+  "limitations": [
+    "Perturbation identity and mechanism withheld.",
+    "Control feature semantics withheld; anonymous features cannot be mapped to genes.",
+    "Only untreated context (C) is available as evidence."
+  ]
+}

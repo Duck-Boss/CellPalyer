@@ -1,0 +1,16 @@
+{
+  "method": "CPA",
+  "seed": 0,
+  "epochs": 109,
+  "best_epoch": 59,
+  "best_validation_rmse": 0.24676270658689475,
+  "wall_seconds": 37.64074206352234,
+  "prediction_shape": [
+    16,
+    2000
+  ],
+  "predictions_sha256": "d4ec88ceff4db1690518ea60679fae13b6e4118f903e33f49e1d5772589693c3",
+  "config_sha256": "a266c5695a52dc701c973df6a7a9535b37c340c3bb1c301a76bcc1dc0377c9e8",
+  "source_sha256": "b57dfe102f5a1989ee092cf4d8327364fec5e56ab13f000d454816051a6d6a4e",
+  "no_test_targets_loaded": true
+}

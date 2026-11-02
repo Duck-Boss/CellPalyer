@@ -1,0 +1,46 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "transcriptional stress response",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, 5 uM, mechanism withheld",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Perturbation identity and mechanism withheld; no treatment-specific direction can be inferred."
+    },
+    {
+      "id": "H2",
+      "program": "cell-cycle progression",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, 5 uM, mechanism withheld",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Without mechanism, proliferation arrest or acceleration cannot be predicted."
+    },
+    {
+      "id": "H3",
+      "program": "apoptotic signaling",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, 5 uM, mechanism withheld",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "No mechanism or measured response available to support a death/survival direction."
+    }
+  ],
+  "summary": "Mechanism hidden; only untreated A549 context available, so all directions are explicitly uncertain.",
+  "limitations": [
+    "Perturbation identity and mechanism withheld; no treatment-specific directions known.",
+    "Control feature semantics withheld; anonymous features cannot be mapped to genes.",
+    "No dose trajectory or measured perturbation response supplied."
+  ]
+}

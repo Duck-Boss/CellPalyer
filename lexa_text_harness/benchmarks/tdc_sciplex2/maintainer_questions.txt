@@ -1,0 +1,18 @@
+UNSENT DRAFT — no issue, email, form or other external message has been sent.
+
+Subject: Reproducing the sciPlex2 unseen-chemical leaderboard protocol
+
+We are preparing an evaluation against the TDC sciPlex2 unseen-chemical leaderboard and want to use the exact data and evaluation protocol behind the reported ChemCPA scores (BMS .906, Dex .540, Nutlin .835, SAHA .690).
+
+Could you point us to a working copy of the run_chemical_sc.py reproduction archive referenced in TDC-2 Appendix B.1, or provide its repository/commit? Our execution environment currently cannot reach the linked Google Drive folder, so we cannot establish its availability or permissions.
+
+We need to pin the following before training:
+- Processed dataset version and checksum. PyTDC1.1.15 maps sciPlex2 to Dataverse9845394, while the leaderboard Dataset Description link points to9845396 (Aissa).
+- Exact train/validation/test cell identities for each drug, including which doses are included and how controls are selected.
+- Gene set/order, normalization, and expression layer.
+- The four-drug evaluation loop: pooled versus per-dose scoring, weighting, and whether each unseen drug uses a separately trained model.
+- Training seeds/configurations and the exact scoring implementation behind the published means and standard deviations.
+
+We also isolated reproducible issues in the current PyTDC1.1.15 generic API using synthetic data only: the default four-drug cold split fails when dividing the single held-out drug; splits return observation metadata; and ignored DataFrame.drop return values allow numeric metadata into evaluate(). These may not apply to your original standalone experiment scripts, and we are not inferring that the published results used these paths. A minimal local reproduction is available in protocol_audit/audit_official_api.py.
+
+We would appreciate the canonical protocol so that a submission is directly comparable rather than a repaired or newly defined benchmark.

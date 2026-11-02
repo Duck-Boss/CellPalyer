@@ -1,0 +1,222 @@
+{
+  "status": "complete",
+  "created_asia_shanghai": "2026-10-26T23:20:09.173465+08:00",
+  "provenance": {
+    "source_sha256": {
+      "effects": "5bd0da54ddcceae0a4ea40d2f260b4d2acbd7b2d7a2eb2da97caeb75efb117fd",
+      "train_codes": "b197205c937784571e06a3a796621d6f62b91bf1bddb69a96176b3f83b9a2bad",
+      "baseline": "fc7bf87c95b105da613b312fd76a3b4ee459f1aa064a9d7e495852c22e598f75",
+      "prepared": "920fb717e80976fb18f5557a17545689048a40972147de8ce3a304c1640d2106",
+      "metadata": "87ada983037aeb16b6ecd49a65cf17b53a94dbbb47598034f1c9ecd04d20304f",
+      "cases": "493aa96ab615615a046148cf85ee57b68c5d2ea86b72443440de78e5e7d8b8c1",
+      "labels": "5ee78dadc0b1aaf061f3a023390644e0228b9c7e7faf737329cbb8dab8c3dde9"
+    },
+    "implementation_sha256": "e4f48c4aee3908febde9aba37f3ca1756b7f1ebb8d43bbf6f31421b6f6f1d1af",
+    "min_cells": 20,
+    "work": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose",
+    "effects_sha256": "5bd0da54ddcceae0a4ea40d2f260b4d2acbd7b2d7a2eb2da97caeb75efb117fd"
+  },
+  "cases": [
+    {
+      "case_id": "drug=BMS|dose_uM=5|plate=A|replicate=1",
+      "slug": "bed7e88fc964",
+      "drug": "BMS",
+      "dose_uM": 5.0,
+      "n_control": 53,
+      "npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/bed7e88fc964/case.npz",
+      "context": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/bed7e88fc964/context.json"
+    },
+    {
+      "case_id": "drug=BMS|dose_uM=5|plate=A|replicate=2",
+      "slug": "b2e8eeadd4ec",
+      "drug": "BMS",
+      "dose_uM": 5.0,
+      "n_control": 55,
+      "npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/b2e8eeadd4ec/case.npz",
+      "context": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/b2e8eeadd4ec/context.json"
+    },
+    {
+      "case_id": "drug=BMS|dose_uM=5|plate=B|replicate=2",
+      "slug": "ac65d80bb3f0",
+      "drug": "BMS",
+      "dose_uM": 5.0,
+      "n_control": 87,
+      "npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/ac65d80bb3f0/case.npz",
+      "context": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/ac65d80bb3f0/context.json"
+    },
+    {
+      "case_id": "drug=BMS|dose_uM=5|plate=B|replicate=3",
+      "slug": "3a9d788519f1",
+      "drug": "BMS",
+      "dose_uM": 5.0,
+      "n_control": 102,
+      "npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/3a9d788519f1/case.npz",
+      "context": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/3a9d788519f1/context.json"
+    },
+    {
+      "case_id": "drug=Dex|dose_uM=5|plate=A|replicate=1",
+      "slug": "c6cad83efd26",
+      "drug": "Dex",
+      "dose_uM": 5.0,
+      "n_control": 35,
+      "npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/c6cad83efd26/case.npz",
+      "context": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/c6cad83efd26/context.json"
+    },
+    {
+      "case_id": "drug=Dex|dose_uM=5|plate=A|replicate=3",
+      "slug": "8eea66198f34",
+      "drug": "Dex",
+      "dose_uM": 5.0,
+      "n_control": 32,
+      "npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/8eea66198f34/case.npz",
+      "context": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/8eea66198f34/context.json"
+    },
+    {
+      "case_id": "drug=Dex|dose_uM=5|plate=B|replicate=2",
+      "slug": "9904cf11828e",
+      "drug": "Dex",
+      "dose_uM": 5.0,
+      "n_control": 53,
+      "npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/9904cf11828e/case.npz",
+      "context": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/9904cf11828e/context.json"
+    },
+    {
+      "case_id": "drug=Dex|dose_uM=5|plate=B|replicate=3",
+      "slug": "123f238d50ef",
+      "drug": "Dex",
+      "dose_uM": 5.0,
+      "n_control": 58,
+      "npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/123f238d50ef/case.npz",
+      "context": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/123f238d50ef/context.json"
+    },
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=1",
+      "slug": "b81ab1c80851",
+      "drug": "Nutlin",
+      "dose_uM": 5.0,
+      "n_control": 48,
+      "npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/b81ab1c80851/case.npz",
+      "context": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/b81ab1c80851/context.json"
+    },
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=2",
+      "slug": "60426b731665",
+      "drug": "Nutlin",
+      "dose_uM": 5.0,
+      "n_control": 50,
+      "npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/60426b731665/case.npz",
+      "context": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/60426b731665/context.json"
+    },
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=3",
+      "slug": "db6be6175137",
+      "drug": "Nutlin",
+      "dose_uM": 5.0,
+      "n_control": 57,
+      "npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/db6be6175137/case.npz",
+      "context": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/db6be6175137/context.json"
+    },
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=B|replicate=1",
+      "slug": "d4270158cf4a",
+      "drug": "Nutlin",
+      "dose_uM": 5.0,
+      "n_control": 47,
+      "npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/d4270158cf4a/case.npz",
+      "context": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/d4270158cf4a/context.json"
+    },
+    {
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=1",
+      "slug": "1c3d4269941a",
+      "drug": "SAHA",
+      "dose_uM": 5.0,
+      "n_control": 70,
+      "npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/1c3d4269941a/case.npz",
+      "context": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/1c3d4269941a/context.json"
+    },
+    {
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=2",
+      "slug": "42e85e25927a",
+      "drug": "SAHA",
+      "dose_uM": 5.0,
+      "n_control": 50,
+      "npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/42e85e25927a/case.npz",
+      "context": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/42e85e25927a/context.json"
+    },
+    {
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=3",
+      "slug": "bb8b59b73b81",
+      "drug": "SAHA",
+      "dose_uM": 5.0,
+      "n_control": 65,
+      "npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/bb8b59b73b81/case.npz",
+      "context": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/bb8b59b73b81/context.json"
+    },
+    {
+      "case_id": "drug=SAHA|dose_uM=5|plate=B|replicate=1",
+      "slug": "901e42fea240",
+      "drug": "SAHA",
+      "dose_uM": 5.0,
+      "n_control": 89,
+      "npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/901e42fea240/case.npz",
+      "context": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/901e42fea240/context.json"
+    }
+  ],
+  "cards_path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/axis_cards.json",
+  "training_library_json": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/training_library.json",
+  "training_library_npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/training_library.npz",
+  "train_support_npz": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/train_support.npz",
+  "n_training_conditions": 21,
+  "n_ready_training_wells": 61,
+  "n_excluded_training_wells": 30,
+  "candidate_ids": [
+    "keep",
+    "nearest",
+    "interpolate",
+    "lower",
+    "upper",
+    "half",
+    "onehalf"
+  ],
+  "heldout_expression_accessed": false,
+  "output_sha256": {
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/axis_cards.json": "738054edd666380fce00fb6cee797df742cfb84d13da74c738452f18b10b3587",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/training_library.json": "e9dd0e14d38fbb74f3985719e7830f72de053c81ce14de7908e25f96c15362fc",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/training_library.npz": "a096d3f580d996bc784a4c993dcacd38ae4b932bb28d963238ce519e0df8eda9",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/training_wells.npz": "b2c86ef3895f932edbce2e15fdd21dabebb8204320a691fea0eaa814005b2b57",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/train_support.npz": "fba8b01e0c2632431dede0cd116b143409a880ffb2d6a3b516634e3f8e96cd27",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/bed7e88fc964/case.npz": "a1366d8630ee439202a8a83c2b451f2485f6a35432410fa0890f0b41144538fe",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/bed7e88fc964/context.json": "8f269de0562f5c1a66b8ac4db57b8ca47b9dc95a96fd111f8e9e72e9a8ce3435",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/b2e8eeadd4ec/case.npz": "be697303b45cfc2b74e56d7388df85168c31e3b4ce20d35de8d50c255bdbe9c9",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/b2e8eeadd4ec/context.json": "88d21f081d20358cf4d35ea1906bed3a8f21f97c2ec69f769b392be1ff8be64a",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/ac65d80bb3f0/case.npz": "0f93944e19889c1331b2b0ad88251747d5872aab47572e3dd0a5bb4988cc2361",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/ac65d80bb3f0/context.json": "e4d74328f494b803dbf3adbd033a9d2e18507cd3d5b4711c4c8b177931f6e9c7",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/3a9d788519f1/case.npz": "c4b3debc53ff7a25d926af87c590e0282d83182033a30d5e0a7f42b67d3e986b",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/3a9d788519f1/context.json": "d6ddf54a0ca9d86f3b94357b5c185eeda6c7d903dec5e39a086967c2703223f8",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/c6cad83efd26/case.npz": "0053e69f4875628bb24f09a4077832dc32ab8ee6313e6ddd7f1f09b718e13015",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/c6cad83efd26/context.json": "4f56eb23046c843d26a25dcaa3aada3ef2c20fbdb22b6ca58c3dd1a435ddedb6",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/8eea66198f34/case.npz": "75bcfef9e550cfed75749f5d7612d2cf84688f037ef0abb047c3fa742706fd56",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/8eea66198f34/context.json": "e495f2692e07ee9c80f226c572ee89c50104ef435dd4d8cf0ceab8dfe64123db",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/9904cf11828e/case.npz": "020f7b72a4dae81437605b2c351127b4b5244f22ff55e83180420f1180cbfbbb",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/9904cf11828e/context.json": "d39aad53c0ffb72f145837d728af2038d894266f3ecc6f0b7ee311286c409160",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/123f238d50ef/case.npz": "e18fc20c0836fef89f5fafd7bce257435e219c08b3171233deee03105cdfe1b8",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/123f238d50ef/context.json": "c80847e46b620061f3d83ede188740615338047ba30913f1e3083e385df3897f",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/b81ab1c80851/case.npz": "16d521a43ebfb00f302759a9197932e4c2dae6cf4da9ee11a97b8d10acc30f24",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/b81ab1c80851/context.json": "4d8165b5b65925208a94da0d475bed74809f31326960b05e3e7591afbc9233c5",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/60426b731665/case.npz": "0a56d9b0549fd7671db6c23a44d0ec1cda0a3abdade0656540ebda927db49f57",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/60426b731665/context.json": "7ac34d84d51d57a6d742bc59beaf9cdbdea50e34cb2159cebfe194204fcd23c1",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/db6be6175137/case.npz": "5e7aa9393bae843ebb0757285668ac473a76936e1c9f7262c612ac28adf185c1",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/db6be6175137/context.json": "32f85dadae90ed3c24bd45d57b792ce0b750cb895a4f47a760c357a889bd8228",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/d4270158cf4a/case.npz": "053da414e6b199641de3b1eeb6057d7c3a9565354c44e482f763f0b7fc047588",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/d4270158cf4a/context.json": "0e7aa74d3c042d09d8d4594d985be525c56381c2c74d28c7baa5396628075df5",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/1c3d4269941a/case.npz": "ce23e1f5a16330165500640a692403c961043a07c8f70ffb8c058359ed958b8f",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/1c3d4269941a/context.json": "a53313fe36d1e7037caeadc06a09f9750d46b60e42d692da680ea8fb8839dd58",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/42e85e25927a/case.npz": "1445ff17fc9a03cf73d19acb5a08bc52bb73b6b40327087d43cfaf34ae60ea51",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/42e85e25927a/context.json": "0feb0397b9326ccdbad9011c487ddd7495195b7c3c400630e186aff4088435bb",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/bb8b59b73b81/case.npz": "fea0594b066b6757188742c11d06684479d7f31ee92b39c35a14e0fb1f2eece4",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/bb8b59b73b81/context.json": "74bb29accbf1db57383c612306e0138e230f97bd762714848988c1b5ab7d28e6",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/901e42fea240/case.npz": "750c75d129ae3491295b94506e020f6631af670271bf56db69ecd5f56e7366e4",
+    "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/inputs/901e42fea240/context.json": "a5ba0c4d2be10dabd66c898a61b0b337dd265b6ac43e9d2996a51fa3a9aa5ced"
+  },
+  "development_status": "Existing 5uM outcomes were previously unblinded; this is development, not an independent confirmatory test."
+}

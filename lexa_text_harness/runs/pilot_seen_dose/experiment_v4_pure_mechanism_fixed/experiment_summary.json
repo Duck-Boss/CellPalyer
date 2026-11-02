@@ -1,0 +1,314 @@
+{
+  "development_only": true,
+  "primary_alpha": 0.3,
+  "main_vs_no_edit_relative_rmse_reduction": -0.0016166627942653458,
+  "primary_by_arm": {
+    "full_joint_a0.3": {
+      "delta_rmse": 0.3562988014837334,
+      "delta_pearson": 0.1780363681399012,
+      "delta_cosine": 0.1924382934247527,
+      "top100_delta_rmse": 0.9350168053608648,
+      "top100_direction_accuracy": 0.595,
+      "response_l2_ratio": 0.2322996310753188
+    },
+    "no_mechanism_joint_a0.3": {
+      "delta_rmse": 0.3863045739114232,
+      "delta_pearson": 0.2221381418008248,
+      "delta_cosine": 0.0309071505547101,
+      "top100_delta_rmse": 0.9312937187783208,
+      "top100_direction_accuracy": 0.513125,
+      "response_l2_ratio": 0.493434964732089
+    },
+    "no_semantics_joint_a0.3": {
+      "delta_rmse": 0.3963228810481281,
+      "delta_pearson": 0.0204318777559324,
+      "delta_cosine": -0.0789283850299989,
+      "top100_delta_rmse": 0.9591417777325068,
+      "top100_direction_accuracy": 0.51,
+      "response_l2_ratio": 0.4914671639392635
+    },
+    "neither_joint_a0.3": {
+      "delta_rmse": 0.3720369461168892,
+      "delta_pearson": 0.0670635319612009,
+      "delta_cosine": -0.01201493143728,
+      "top100_delta_rmse": 0.9539145229149736,
+      "top100_direction_accuracy": 0.326875,
+      "response_l2_ratio": 0.259324148818212
+    }
+  },
+  "primary_mean_decision_counts": {
+    "full_joint": {
+      "shift_axes": 13.625,
+      "keep_axes": 0.0,
+      "unknown_axes": 18.375
+    },
+    "neither_joint": {
+      "shift_axes": 17.0,
+      "keep_axes": 0.5,
+      "unknown_axes": 14.5
+    },
+    "no_mechanism_joint": {
+      "shift_axes": 28.9375,
+      "keep_axes": 0.0,
+      "unknown_axes": 3.0625
+    },
+    "no_semantics_joint": {
+      "shift_axes": 32.0,
+      "keep_axes": 0.0,
+      "unknown_axes": 0.0
+    }
+  },
+  "mean_dominant_code_changes": {
+    "full_joint_a0.3": 7.0,
+    "neither_joint_a0.3": 8.125,
+    "no_mechanism_joint_a0.3": 13.0625,
+    "no_semantics_joint_a0.3": 14.875
+  },
+  "semantics_rmse_gain_with_mechanism": 0.04002407956439469,
+  "mechanism_rmse_gain_with_semantics": 0.030005772427689814,
+  "factorial_interaction_rmse": -0.05429170735892869,
+  "interaction_note": "Descriptive signed interaction only, not a significance or causal mediation claim.",
+  "correlation_coverage": {
+    "answer_codec_diagnostic": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "full_joint_a0.1": {
+      "defined_wells": 15,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "full_joint_a0.3": {
+      "defined_wells": 15,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "full_joint_a0.6": {
+      "defined_wells": 15,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "full_local_a0.1": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "full_local_a0.3": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "full_local_a0.6": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "literal_keyword_a0.1": {
+      "defined_wells": 4,
+      "defined_drugs": 1,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "literal_keyword_a0.3": {
+      "defined_wells": 4,
+      "defined_drugs": 1,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "literal_keyword_a0.6": {
+      "defined_wells": 4,
+      "defined_drugs": 1,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "neither_joint_a0.1": {
+      "defined_wells": 10,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "neither_joint_a0.3": {
+      "defined_wells": 10,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "neither_joint_a0.6": {
+      "defined_wells": 10,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "neither_local_a0.1": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "neither_local_a0.3": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "neither_local_a0.6": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "no_edit": {
+      "defined_wells": 0,
+      "defined_drugs": 0,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "no_mechanism_joint_a0.1": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "no_mechanism_joint_a0.3": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "no_mechanism_joint_a0.6": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "no_mechanism_local_a0.1": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "no_mechanism_local_a0.3": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "no_mechanism_local_a0.6": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "no_semantics_joint_a0.1": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "no_semantics_joint_a0.3": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "no_semantics_joint_a0.6": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "no_semantics_local_a0.1": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "no_semantics_local_a0.3": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    },
+    "no_semantics_local_a0.6": {
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "total_wells": 16,
+      "total_drugs": 4
+    }
+  },
+  "correlation_note": "Pearson/cosine summaries skip undefined correlations within drugs, then average available drug means. Full joint15/16, neither joint10/16, literal4/16(Nutlin only). Not identical comparison populations.",
+  "execution": {
+    "fixed": {
+      "requests_recorded": 402,
+      "responses_recorded": 402,
+      "complete_case_arms": 64,
+      "status_counts": {
+        "completed": 384,
+        "failed": 18
+      },
+      "failure_reasons": {
+        "Evidence refs must cite supplied hypotheses or this axis/state": 1,
+        "Response fields: updates, summary, limitations": 4,
+        "shift requires one to three target states": 13
+      },
+      "requests_without_status": 0,
+      "reported_usage": {
+        "prompt_tokens": 14900785,
+        "completion_tokens": 195520,
+        "total_tokens": 15096305
+      }
+    },
+    "original_failed": {
+      "requests_recorded": 67,
+      "responses_recorded": 63,
+      "complete_case_arms": 7,
+      "status_counts": {
+        "failed": 12,
+        "completed": 51
+      },
+      "failure_reasons": {
+        "Hypothesis evidence refs must cite supplied M and/or C; M is absent when hidden": 10,
+        "Response fields: updates, summary, limitations": 1,
+        "shift requires one to three target states": 1
+      },
+      "requests_without_status": 4,
+      "reported_usage": {
+        "prompt_tokens": 1907660,
+        "completion_tokens": 32917,
+        "total_tokens": 1940577
+      }
+    }
+  },
+  "reported_usage_total": {
+    "prompt_tokens": 16808445,
+    "completion_tokens": 228437,
+    "total_tokens": 17036882
+  },
+  "usage_note": "Provider-reported tokens; not a billing estimate. Original interrupted requests may have unrecorded usage.",
+  "historical_comparisons": {
+    "old_agent": {
+      "delta_rmse": 0.3496337234973907,
+      "delta_pearson": 0.2355149581703945,
+      "response_l2_ratio": 0.0757816198747605
+    },
+    "hierarchical_joint": {
+      "delta_rmse": 0.2120233624520357,
+      "delta_pearson": 0.7402705958248077,
+      "response_l2_ratio": 0.5968621565524768
+    },
+    "expression_interpolate": {
+      "delta_rmse": 0.1941446327741191,
+      "delta_pearson": 0.7601819200335418,
+      "response_l2_ratio": 0.8232843244051637
+    }
+  },
+  "historical_comparison_note": "v3 hierarchy and expression interpolation receive matched training perturbation responses; these are different information settings, not language-only baselines. Old agent also differs in editing space and API budget."
+}

@@ -1,0 +1,100 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "canonical NF-kappa-B-dependent transcription",
+      "direction": "decrease",
+      "basis": "direct",
+      "conditions": "A549, 5 uM, 24 h; requires baseline NF-kappa-B activity",
+      "gene_expectations": [
+        {
+          "gene": "NFKBIA",
+          "direction": "decrease"
+        },
+        {
+          "gene": "CXCL8",
+          "direction": "decrease"
+        },
+        {
+          "gene": "TNFAIP3",
+          "direction": "decrease"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "Allosteric IKK inhibition blocks I-kappa-B phosphorylation and NF-kappa-B target transcription."
+    },
+    {
+      "id": "H2",
+      "program": "IKK kinase transcript levels",
+      "direction": "uncertain",
+      "basis": "direct",
+      "conditions": "A549, 5 uM, 24 h",
+      "gene_expectations": [
+        {
+          "gene": "CHUK",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "IKBKB",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "Kinase inhibition does not imply lowered mRNA; transcript direction is unknown."
+    },
+    {
+      "id": "H3",
+      "program": "inflammatory cytokine/chemokine secretion program",
+      "direction": "decrease",
+      "basis": "secondary",
+      "conditions": "only if NF-kappa-B is basally active in A549",
+      "gene_expectations": [
+        {
+          "gene": "IL6",
+          "direction": "decrease"
+        },
+        {
+          "gene": "CCL2",
+          "direction": "decrease"
+        }
+      ],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Secondary consequence of reduced NF-kappa-B transcription; depends on pathway activity."
+    },
+    {
+      "id": "H4",
+      "program": "compensatory NF-kappa-B feedback (A20/I-kappa-B-alpha negative feedback)",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "unknown; feedback dynamics at 24 h",
+      "gene_expectations": [
+        {
+          "gene": "NFKBIA",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "TNFAIP3",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Feedback genes are NF-kappa-B targets but also feedback regulators; net direction unclear."
+    }
+  ],
+  "summary": "IKK allosteric inhibition is expected to lower canonical NF-kappa-B-dependent transcription if the pathway is active in A549; kinase transcript and feedback directions remain uncertain.",
+  "limitations": [
+    "No measured perturbation response or dose trajectory supplied.",
+    "Baseline NF-kappa-B activity in A549 at 24 h is unknown.",
+    "Anonymous control features cannot be mapped to genes."
+  ]
+}

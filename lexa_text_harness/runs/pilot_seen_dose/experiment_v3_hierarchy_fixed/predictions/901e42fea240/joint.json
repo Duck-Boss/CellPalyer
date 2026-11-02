@@ -1,0 +1,914 @@
+{
+  "status": "completed",
+  "method": "hierarchical_joint",
+  "case_id": "drug=SAHA|dose_uM=5|plate=B|replicate=1",
+  "fingerprint": "5a37994ed665b658120b887abc495a79502f5239d67ac39bb723fc6a53c5ffff",
+  "response": {
+    "selections": [
+      {
+        "axis_id": 0,
+        "candidate_id": "interpolate",
+        "reason": "Log-dose interpolation; ribosomal down-shift matches nearest/lower trend.",
+        "evidence_refs": [
+          "A0/interpolate"
+        ]
+      },
+      {
+        "axis_id": 1,
+        "candidate_id": "interpolate",
+        "reason": "Interpolated chromatin/RNA state; nearest and lower agree on down-shift.",
+        "evidence_refs": [
+          "A1/interpolate"
+        ]
+      },
+      {
+        "axis_id": 2,
+        "candidate_id": "interpolate",
+        "reason": "Interpolated matrix/stress state retains TGM2/MT1X up pattern.",
+        "evidence_refs": [
+          "A2/interpolate"
+        ]
+      },
+      {
+        "axis_id": 3,
+        "candidate_id": "interpolate",
+        "reason": "Interpolated chromatin/transcription down-shift; nearest/lower agree.",
+        "evidence_refs": [
+          "A3/interpolate"
+        ]
+      },
+      {
+        "axis_id": 4,
+        "candidate_id": "interpolate",
+        "reason": "Strong AKR1B10/AKR1C3 down-shift; matches nearest and lower.",
+        "evidence_refs": [
+          "A4/interpolate"
+        ]
+      },
+      {
+        "axis_id": 5,
+        "candidate_id": "interpolate",
+        "reason": "PDE4B/PDE4D down-shift; interpolate between nearest and lower.",
+        "evidence_refs": [
+          "A5/interpolate"
+        ]
+      },
+      {
+        "axis_id": 6,
+        "candidate_id": "interpolate",
+        "reason": "Nuclear export/RNA state; interpolate near nearest with modest shift.",
+        "evidence_refs": [
+          "A6/interpolate"
+        ]
+      },
+      {
+        "axis_id": 7,
+        "candidate_id": "interpolate",
+        "reason": "Cytoskeletal/transport up-shift; consistent direction across doses.",
+        "evidence_refs": [
+          "A7/interpolate"
+        ]
+      },
+      {
+        "axis_id": 8,
+        "candidate_id": "interpolate",
+        "reason": "Log-dose interpolation; mixed chaperone/replication shift.",
+        "evidence_refs": [
+          "A8/interpolate"
+        ]
+      },
+      {
+        "axis_id": 9,
+        "candidate_id": "interpolate",
+        "reason": "Weakly resolved axis; interpolated MDM2/UBASH3B-low shift.",
+        "evidence_refs": [
+          "A9/interpolate"
+        ]
+      },
+      {
+        "axis_id": 10,
+        "candidate_id": "interpolate",
+        "reason": "Interpolated ER/redox shift with NQO1 down; consistent trend.",
+        "evidence_refs": [
+          "A10/interpolate"
+        ]
+      },
+      {
+        "axis_id": 11,
+        "candidate_id": "interpolate",
+        "reason": "Weakest axis; interpolated modest GPATCH8/AGO3-low shift retained.",
+        "evidence_refs": [
+          "A11/interpolate"
+        ]
+      },
+      {
+        "axis_id": 12,
+        "candidate_id": "interpolate",
+        "reason": "Interpolated strong SLC38A1/CCND1-low state; matches nearest.",
+        "evidence_refs": [
+          "A12/interpolate"
+        ]
+      },
+      {
+        "axis_id": 13,
+        "candidate_id": "interpolate",
+        "reason": "Interpolated PDE4D/ABCC3/EHBP1-low dominance; large coherent effect.",
+        "evidence_refs": [
+          "A13/interpolate"
+        ]
+      },
+      {
+        "axis_id": 14,
+        "candidate_id": "interpolate",
+        "reason": "Interpolated TRIO/PTK2-low cytoskeletal shift between doses.",
+        "evidence_refs": [
+          "A14/interpolate"
+        ]
+      },
+      {
+        "axis_id": 15,
+        "candidate_id": "interpolate",
+        "reason": "Poorly resolved axis; interpolated broad WWOX/RABGAP1L pattern.",
+        "evidence_refs": [
+          "A15/interpolate"
+        ]
+      },
+      {
+        "axis_id": 16,
+        "candidate_id": "interpolate",
+        "reason": "Log-dose interpolation; keratin/adhesion shifts modest and mixed.",
+        "evidence_refs": [
+          "A16/interpolate"
+        ]
+      },
+      {
+        "axis_id": 17,
+        "candidate_id": "interpolate",
+        "reason": "Interpolated metabolic shift; nearest and interpolate nearly coincide.",
+        "evidence_refs": [
+          "A17/interpolate"
+        ]
+      },
+      {
+        "axis_id": 18,
+        "candidate_id": "interpolate",
+        "reason": "Strong sterol/lipid up state; graded INSIG1/ACSBG1 rise retained.",
+        "evidence_refs": [
+          "A18/interpolate"
+        ]
+      },
+      {
+        "axis_id": 19,
+        "candidate_id": "interpolate",
+        "reason": "p53 markers discordant; interpolated CDKN1A/FDXR up closest.",
+        "evidence_refs": [
+          "A19/interpolate"
+        ]
+      },
+      {
+        "axis_id": 20,
+        "candidate_id": "interpolate",
+        "reason": "Lysosomal/secretory PSAP/KRT19 up; graded rise fits interpolation.",
+        "evidence_refs": [
+          "A20/interpolate"
+        ]
+      },
+      {
+        "axis_id": 21,
+        "candidate_id": "interpolate",
+        "reason": "Adhesion program broadly down; interpolate preserves mixed low pattern.",
+        "evidence_refs": [
+          "A21/interpolate"
+        ]
+      },
+      {
+        "axis_id": 22,
+        "candidate_id": "interpolate",
+        "reason": "OXPHOS transcripts down; interpolate keeps graded MT-ATP6/MT-ND1 decrease.",
+        "evidence_refs": [
+          "A22/interpolate"
+        ]
+      },
+      {
+        "axis_id": 23,
+        "candidate_id": "interpolate",
+        "reason": "Heterogeneous axis; interpolated SERTAD2/RYBP/USP15 shift intermediate.",
+        "evidence_refs": [
+          "A23/interpolate"
+        ]
+      },
+      {
+        "axis_id": 24,
+        "candidate_id": "interpolate",
+        "reason": "Log-dose interpolation; proliferation genes down, consistent with nearest.",
+        "evidence_refs": [
+          "A24/interpolate"
+        ]
+      },
+      {
+        "axis_id": 25,
+        "candidate_id": "interpolate",
+        "reason": "Weak axis; nearest and interpolate both shift TXNRD1/RERE up.",
+        "evidence_refs": [
+          "A25/interpolate"
+        ]
+      },
+      {
+        "axis_id": 26,
+        "candidate_id": "interpolate",
+        "reason": "Retains MALAT1/NEAT1 up pattern seen in nearest and lower.",
+        "evidence_refs": [
+          "A26/interpolate"
+        ]
+      },
+      {
+        "axis_id": 27,
+        "candidate_id": "interpolate",
+        "reason": "TGFBI/EGFR down pattern shared with nearest and lower doses.",
+        "evidence_refs": [
+          "A27/interpolate"
+        ]
+      },
+      {
+        "axis_id": 28,
+        "candidate_id": "interpolate",
+        "reason": "Captures SLC9A3R1/PNPLA2 up state seen at both bracketing doses.",
+        "evidence_refs": [
+          "A28/interpolate"
+        ]
+      },
+      {
+        "axis_id": 29,
+        "candidate_id": "interpolate",
+        "reason": "Tubulin/VIM down pattern consistent across nearest and lower doses.",
+        "evidence_refs": [
+          "A29/interpolate"
+        ]
+      },
+      {
+        "axis_id": 30,
+        "candidate_id": "interpolate",
+        "reason": "Weak axis; interpolation between bracketing doses, modest shifts.",
+        "evidence_refs": [
+          "A30/interpolate"
+        ]
+      },
+      {
+        "axis_id": 31,
+        "candidate_id": "interpolate",
+        "reason": "Retains CYP24A1/PDE10A down pattern shared by nearest and lower.",
+        "evidence_refs": [
+          "A31/interpolate"
+        ]
+      }
+    ],
+    "summary": "Kept log-dose interpolation for all 32 axes, reflecting the 5 uM target between 1 and 10 uM training conditions. Interpolated occupancies track nearest-dose direction while blending toward lower-dose profile; strongest coherent signals include sterol/lipid up (A18), lysosomal/secretory up (A20), and OXPHOS down (A22).",
+    "limitations": [
+      "No target-dose (5 uM) treatment data; interpolation is a hypothesis.",
+      "Population marginals do not establish paired single-cell transitions.",
+      "Several axes have weak or discordant marker directions."
+    ]
+  },
+  "selections": [
+    {
+      "axis_id": 0,
+      "candidate_id": "interpolate",
+      "reason": "Log-dose interpolation; ribosomal down-shift matches nearest/lower trend.",
+      "evidence_refs": [
+        "A0/interpolate"
+      ]
+    },
+    {
+      "axis_id": 1,
+      "candidate_id": "interpolate",
+      "reason": "Interpolated chromatin/RNA state; nearest and lower agree on down-shift.",
+      "evidence_refs": [
+        "A1/interpolate"
+      ]
+    },
+    {
+      "axis_id": 2,
+      "candidate_id": "interpolate",
+      "reason": "Interpolated matrix/stress state retains TGM2/MT1X up pattern.",
+      "evidence_refs": [
+        "A2/interpolate"
+      ]
+    },
+    {
+      "axis_id": 3,
+      "candidate_id": "interpolate",
+      "reason": "Interpolated chromatin/transcription down-shift; nearest/lower agree.",
+      "evidence_refs": [
+        "A3/interpolate"
+      ]
+    },
+    {
+      "axis_id": 4,
+      "candidate_id": "interpolate",
+      "reason": "Strong AKR1B10/AKR1C3 down-shift; matches nearest and lower.",
+      "evidence_refs": [
+        "A4/interpolate"
+      ]
+    },
+    {
+      "axis_id": 5,
+      "candidate_id": "interpolate",
+      "reason": "PDE4B/PDE4D down-shift; interpolate between nearest and lower.",
+      "evidence_refs": [
+        "A5/interpolate"
+      ]
+    },
+    {
+      "axis_id": 6,
+      "candidate_id": "interpolate",
+      "reason": "Nuclear export/RNA state; interpolate near nearest with modest shift.",
+      "evidence_refs": [
+        "A6/interpolate"
+      ]
+    },
+    {
+      "axis_id": 7,
+      "candidate_id": "interpolate",
+      "reason": "Cytoskeletal/transport up-shift; consistent direction across doses.",
+      "evidence_refs": [
+        "A7/interpolate"
+      ]
+    },
+    {
+      "axis_id": 8,
+      "candidate_id": "interpolate",
+      "reason": "Log-dose interpolation; mixed chaperone/replication shift.",
+      "evidence_refs": [
+        "A8/interpolate"
+      ]
+    },
+    {
+      "axis_id": 9,
+      "candidate_id": "interpolate",
+      "reason": "Weakly resolved axis; interpolated MDM2/UBASH3B-low shift.",
+      "evidence_refs": [
+        "A9/interpolate"
+      ]
+    },
+    {
+      "axis_id": 10,
+      "candidate_id": "interpolate",
+      "reason": "Interpolated ER/redox shift with NQO1 down; consistent trend.",
+      "evidence_refs": [
+        "A10/interpolate"
+      ]
+    },
+    {
+      "axis_id": 11,
+      "candidate_id": "interpolate",
+      "reason": "Weakest axis; interpolated modest GPATCH8/AGO3-low shift retained.",
+      "evidence_refs": [
+        "A11/interpolate"
+      ]
+    },
+    {
+      "axis_id": 12,
+      "candidate_id": "interpolate",
+      "reason": "Interpolated strong SLC38A1/CCND1-low state; matches nearest.",
+      "evidence_refs": [
+        "A12/interpolate"
+      ]
+    },
+    {
+      "axis_id": 13,
+      "candidate_id": "interpolate",
+      "reason": "Interpolated PDE4D/ABCC3/EHBP1-low dominance; large coherent effect.",
+      "evidence_refs": [
+        "A13/interpolate"
+      ]
+    },
+    {
+      "axis_id": 14,
+      "candidate_id": "interpolate",
+      "reason": "Interpolated TRIO/PTK2-low cytoskeletal shift between doses.",
+      "evidence_refs": [
+        "A14/interpolate"
+      ]
+    },
+    {
+      "axis_id": 15,
+      "candidate_id": "interpolate",
+      "reason": "Poorly resolved axis; interpolated broad WWOX/RABGAP1L pattern.",
+      "evidence_refs": [
+        "A15/interpolate"
+      ]
+    },
+    {
+      "axis_id": 16,
+      "candidate_id": "interpolate",
+      "reason": "Log-dose interpolation; keratin/adhesion shifts modest and mixed.",
+      "evidence_refs": [
+        "A16/interpolate"
+      ]
+    },
+    {
+      "axis_id": 17,
+      "candidate_id": "interpolate",
+      "reason": "Interpolated metabolic shift; nearest and interpolate nearly coincide.",
+      "evidence_refs": [
+        "A17/interpolate"
+      ]
+    },
+    {
+      "axis_id": 18,
+      "candidate_id": "interpolate",
+      "reason": "Strong sterol/lipid up state; graded INSIG1/ACSBG1 rise retained.",
+      "evidence_refs": [
+        "A18/interpolate"
+      ]
+    },
+    {
+      "axis_id": 19,
+      "candidate_id": "interpolate",
+      "reason": "p53 markers discordant; interpolated CDKN1A/FDXR up closest.",
+      "evidence_refs": [
+        "A19/interpolate"
+      ]
+    },
+    {
+      "axis_id": 20,
+      "candidate_id": "interpolate",
+      "reason": "Lysosomal/secretory PSAP/KRT19 up; graded rise fits interpolation.",
+      "evidence_refs": [
+        "A20/interpolate"
+      ]
+    },
+    {
+      "axis_id": 21,
+      "candidate_id": "interpolate",
+      "reason": "Adhesion program broadly down; interpolate preserves mixed low pattern.",
+      "evidence_refs": [
+        "A21/interpolate"
+      ]
+    },
+    {
+      "axis_id": 22,
+      "candidate_id": "interpolate",
+      "reason": "OXPHOS transcripts down; interpolate keeps graded MT-ATP6/MT-ND1 decrease.",
+      "evidence_refs": [
+        "A22/interpolate"
+      ]
+    },
+    {
+      "axis_id": 23,
+      "candidate_id": "interpolate",
+      "reason": "Heterogeneous axis; interpolated SERTAD2/RYBP/USP15 shift intermediate.",
+      "evidence_refs": [
+        "A23/interpolate"
+      ]
+    },
+    {
+      "axis_id": 24,
+      "candidate_id": "interpolate",
+      "reason": "Log-dose interpolation; proliferation genes down, consistent with nearest.",
+      "evidence_refs": [
+        "A24/interpolate"
+      ]
+    },
+    {
+      "axis_id": 25,
+      "candidate_id": "interpolate",
+      "reason": "Weak axis; nearest and interpolate both shift TXNRD1/RERE up.",
+      "evidence_refs": [
+        "A25/interpolate"
+      ]
+    },
+    {
+      "axis_id": 26,
+      "candidate_id": "interpolate",
+      "reason": "Retains MALAT1/NEAT1 up pattern seen in nearest and lower.",
+      "evidence_refs": [
+        "A26/interpolate"
+      ]
+    },
+    {
+      "axis_id": 27,
+      "candidate_id": "interpolate",
+      "reason": "TGFBI/EGFR down pattern shared with nearest and lower doses.",
+      "evidence_refs": [
+        "A27/interpolate"
+      ]
+    },
+    {
+      "axis_id": 28,
+      "candidate_id": "interpolate",
+      "reason": "Captures SLC9A3R1/PNPLA2 up state seen at both bracketing doses.",
+      "evidence_refs": [
+        "A28/interpolate"
+      ]
+    },
+    {
+      "axis_id": 29,
+      "candidate_id": "interpolate",
+      "reason": "Tubulin/VIM down pattern consistent across nearest and lower doses.",
+      "evidence_refs": [
+        "A29/interpolate"
+      ]
+    },
+    {
+      "axis_id": 30,
+      "candidate_id": "interpolate",
+      "reason": "Weak axis; interpolation between bracketing doses, modest shifts.",
+      "evidence_refs": [
+        "A30/interpolate"
+      ]
+    },
+    {
+      "axis_id": 31,
+      "candidate_id": "interpolate",
+      "reason": "Retains CYP24A1/PDE10A down pattern shared by nearest and lower.",
+      "evidence_refs": [
+        "A31/interpolate"
+      ]
+    }
+  ],
+  "feedback": {
+    "definition": "Exact frozen-decoder delta relative to current control. Prior agreement is not treatment accuracy.",
+    "delta_l2": 18.417313941825814,
+    "standardized_delta_rms": 0.4809957654548635,
+    "mean_axis_tv_from_control": 0.8015992617041806,
+    "axes_tv_gt_0_01": 32,
+    "axes_tv_gt_0_1": 32,
+    "axis_tv": [
+      0.8182748070759462,
+      0.7590561592518922,
+      0.859966858162653,
+      0.9019202929278121,
+      0.9091778117410788,
+      0.8550328378338999,
+      0.816424691275625,
+      0.851935215497002,
+      0.7801222368615447,
+      0.7364505660886689,
+      0.738750241027708,
+      0.8171489626084945,
+      0.7915956484399549,
+      0.8853162862358513,
+      0.862313817268851,
+      0.775274966280024,
+      0.6586696256593603,
+      0.6457443077181347,
+      0.8862595934231594,
+      0.7482134978581744,
+      0.8239198656477658,
+      0.6222473441942826,
+      0.7390837004513789,
+      0.8381974913021831,
+      0.731565665347869,
+      0.8800012492817377,
+      0.8259700590508134,
+      0.8366560947085785,
+      0.8897090475832784,
+      0.7834153265508221,
+      0.7365663647646467,
+      0.8461957424145887
+    ],
+    "top_gene_changes": {
+      "up": [
+        {
+          "gene": "ENSG00000186480.12",
+          "symbol": "INSIG1",
+          "delta": 2.164817,
+          "scaled_delta": 2.255994
+        },
+        {
+          "gene": "ENSG00000160963.13",
+          "symbol": "COL26A1",
+          "delta": 1.744554,
+          "scaled_delta": 2.085588
+        },
+        {
+          "gene": "ENSG00000100867.14",
+          "symbol": "DHRS2",
+          "delta": 1.833329,
+          "scaled_delta": 1.954208
+        },
+        {
+          "gene": "ENSG00000067064.10",
+          "symbol": "IDI1",
+          "delta": 1.782805,
+          "scaled_delta": 1.895207
+        },
+        {
+          "gene": "ENSG00000118523.5",
+          "symbol": "CTGF",
+          "delta": 1.63517,
+          "scaled_delta": 1.848245
+        },
+        {
+          "gene": "ENSG00000103740.9",
+          "symbol": "ACSBG1",
+          "delta": 1.339934,
+          "scaled_delta": 1.821828
+        },
+        {
+          "gene": "ENSG00000072310.16",
+          "symbol": "SREBF1",
+          "delta": 1.643032,
+          "scaled_delta": 1.707945
+        },
+        {
+          "gene": "ENSG00000109062.11",
+          "symbol": "SLC9A3R1",
+          "delta": 1.500448,
+          "scaled_delta": 1.694972
+        },
+        {
+          "gene": "ENSG00000123983.13",
+          "symbol": "ACSL3",
+          "delta": 1.728313,
+          "scaled_delta": 1.68937
+        },
+        {
+          "gene": "ENSG00000112972.14",
+          "symbol": "HMGCS1",
+          "delta": 1.665465,
+          "scaled_delta": 1.617146
+        }
+      ],
+      "down": [
+        {
+          "gene": "ENSG00000198074.9",
+          "symbol": "AKR1B10",
+          "delta": -2.393399,
+          "scaled_delta": -1.832033
+        },
+        {
+          "gene": "ENSG00000196139.13",
+          "symbol": "AKR1C3",
+          "delta": -1.687852,
+          "scaled_delta": -1.635156
+        },
+        {
+          "gene": "ENSG00000113448.18",
+          "symbol": "PDE4D",
+          "delta": -1.38206,
+          "scaled_delta": -1.549484
+        },
+        {
+          "gene": "ENSG00000165092.12",
+          "symbol": "ALDH1A1",
+          "delta": -1.205066,
+          "scaled_delta": -1.512062
+        },
+        {
+          "gene": "ENSG00000115919.14",
+          "symbol": "KYNU",
+          "delta": -1.519822,
+          "scaled_delta": -1.472087
+        },
+        {
+          "gene": "ENSG00000151632.17",
+          "symbol": "AKR1C2",
+          "delta": -1.345695,
+          "scaled_delta": -1.392863
+        },
+        {
+          "gene": "ENSG00000023839.10",
+          "symbol": "ABCC2",
+          "delta": -1.348561,
+          "scaled_delta": -1.389157
+        },
+        {
+          "gene": "ENSG00000108846.15",
+          "symbol": "ABCC3",
+          "delta": -1.438885,
+          "scaled_delta": -1.363633
+        },
+        {
+          "gene": "ENSG00000135480.15",
+          "symbol": "KRT7",
+          "delta": -1.548466,
+          "scaled_delta": -1.346278
+        },
+        {
+          "gene": "ENSG00000187134.13",
+          "symbol": "AKR1C1",
+          "delta": -1.304231,
+          "scaled_delta": -1.328288
+        }
+      ]
+    },
+    "candidate_counts": {
+      "keep": 0,
+      "nearest": 0,
+      "interpolate": 32,
+      "lower": 0,
+      "upper": 0,
+      "half": 0,
+      "onehalf": 0
+    },
+    "prior_comparisons": {
+      "nearest": {
+        "mean_occupancy_tv": 0.12186794144012801,
+        "gene_delta_cosine": 0.9982642131630266,
+        "delta_l2_ratio": 0.9639635627537075
+      },
+      "interpolate": {
+        "mean_occupancy_tv": 0.0,
+        "gene_delta_cosine": 1.0000000000000002,
+        "delta_l2_ratio": 1.0
+      }
+    },
+    "interpolated_training_expression_prior": {
+      "definition": "Agreement with training-only interpolated response, not a measured response at the requested dose",
+      "gene_delta_cosine": 0.9786356966841613,
+      "delta_l2_ratio": 0.9004076061644883,
+      "top_gene_changes": {
+        "up": [
+          {
+            "gene": "ENSG00000186480.12",
+            "symbol": "INSIG1",
+            "delta": 2.599183,
+            "scaled_delta": 2.708654
+          },
+          {
+            "gene": "ENSG00000160963.13",
+            "symbol": "COL26A1",
+            "delta": 2.076379,
+            "scaled_delta": 2.48228
+          },
+          {
+            "gene": "ENSG00000118523.5",
+            "symbol": "CTGF",
+            "delta": 2.131481,
+            "scaled_delta": 2.409228
+          },
+          {
+            "gene": "ENSG00000103740.9",
+            "symbol": "ACSBG1",
+            "delta": 1.514208,
+            "scaled_delta": 2.058777
+          },
+          {
+            "gene": "ENSG00000067064.10",
+            "symbol": "IDI1",
+            "delta": 1.924572,
+            "scaled_delta": 2.045912
+          },
+          {
+            "gene": "ENSG00000072310.16",
+            "symbol": "SREBF1",
+            "delta": 1.954899,
+            "scaled_delta": 2.032133
+          },
+          {
+            "gene": "ENSG00000100867.14",
+            "symbol": "DHRS2",
+            "delta": 1.847933,
+            "scaled_delta": 1.969774
+          },
+          {
+            "gene": "ENSG00000112972.14",
+            "symbol": "HMGCS1",
+            "delta": 1.963359,
+            "scaled_delta": 1.906398
+          }
+        ],
+        "down": [
+          {
+            "gene": "ENSG00000113448.18",
+            "symbol": "PDE4D",
+            "delta": -1.924235,
+            "scaled_delta": -2.157339
+          },
+          {
+            "gene": "ENSG00000198074.9",
+            "symbol": "AKR1B10",
+            "delta": -2.527985,
+            "scaled_delta": -1.935053
+          },
+          {
+            "gene": "ENSG00000115919.14",
+            "symbol": "KYNU",
+            "delta": -1.917145,
+            "scaled_delta": -1.856931
+          },
+          {
+            "gene": "ENSG00000196139.13",
+            "symbol": "AKR1C3",
+            "delta": -1.896341,
+            "scaled_delta": -1.837136
+          },
+          {
+            "gene": "ENSG00000135480.15",
+            "symbol": "KRT7",
+            "delta": -1.899734,
+            "scaled_delta": -1.651679
+          },
+          {
+            "gene": "ENSG00000023839.10",
+            "symbol": "ABCC2",
+            "delta": -1.522342,
+            "scaled_delta": -1.568169
+          },
+          {
+            "gene": "ENSG00000165092.12",
+            "symbol": "ALDH1A1",
+            "delta": -1.215714,
+            "scaled_delta": -1.525423
+          },
+          {
+            "gene": "ENSG00000151632.17",
+            "symbol": "AKR1C2",
+            "delta": -1.452967,
+            "scaled_delta": -1.503896
+          }
+        ]
+      }
+    },
+    "largest_cross_axis_cancellation": [
+      {
+        "gene": "ENSG00000198431.15",
+        "symbol": "TXNRD1",
+        "summed_delta": -0.06836304356307511,
+        "absolute_axis_effect_sum": 0.5676916764626083
+      },
+      {
+        "gene": "ENSG00000160211.15",
+        "symbol": "G6PD",
+        "summed_delta": 0.03507057510073702,
+        "absolute_axis_effect_sum": 0.4782181853849415
+      },
+      {
+        "gene": "ENSG00000134318.13",
+        "symbol": "ROCK2",
+        "summed_delta": 0.013429834519306363,
+        "absolute_axis_effect_sum": 0.42734726494313935
+      },
+      {
+        "gene": "ENSG00000167900.11",
+        "symbol": "TK1",
+        "summed_delta": 0.17069794084785772,
+        "absolute_axis_effect_sum": 0.48537503333948895
+      },
+      {
+        "gene": "ENSG00000115414.18",
+        "symbol": "FN1",
+        "summed_delta": -0.22513802887370832,
+        "absolute_axis_effect_sum": 0.6774847275695528
+      },
+      {
+        "gene": "ENSG00000172915.18",
+        "symbol": "NBEA",
+        "summed_delta": 0.0028252839569209848,
+        "absolute_axis_effect_sum": 0.33362551138404545
+      },
+      {
+        "gene": "ENSG00000145375.7",
+        "symbol": "SPATA5",
+        "summed_delta": 0.020377173403836605,
+        "absolute_axis_effect_sum": 0.28863517247841447
+      },
+      {
+        "gene": "ENSG00000134294.13",
+        "symbol": "SLC38A2",
+        "summed_delta": 0.19144595891388355,
+        "absolute_axis_effect_sum": 0.5256022011664336
+      }
+    ],
+    "selected_projection_l1_mean": 0.17140910133136222,
+    "train_pair_support_diagnostic": {
+      "definition": "Mean negative log training pair frequency under independently sampled candidate marginals; does not identify a joint cell distribution or prove realism",
+      "candidate": 4.976634682121971,
+      "control": 5.730319640932252,
+      "interpolate": 4.976634682121971
+    }
+  },
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "11dc49f2624a2ef13d85f51daa411833a6d79d51148c049aaa5c9e9b4a5c4d7c",
+      "response_sha256": "3497918079b0d13180868e05b4a72aba6c4aee196d394e64a4351b3355b919bc"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "77def213cf409a1aefbcddf6954329fb1df2fd3434cbf706b39944fe8c299ee6",
+      "response_sha256": "28e1d731d568ddb5d3d43a4e00799678517de2f07918625ec3df03b5c35640df"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "cdb8b3f19eb8d8c16e8fafcd026f273bba43603c250fdbc97b21bfd37df4d176",
+      "response_sha256": "89b6a291d40507e671dd51783c4c36badcf09dd42d85019fd78b4d55d7e70cdc"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "413befaa6451d96f125c2a251d50e929b633ea1a9ac6a747cf872c017ad06cc1",
+      "response_sha256": "615ffa1558d72dfccfa0f132f9f10f9bf2cd46afdc0503788284c88ded635ae1"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "3e06dc056f3f5abeddfdbf71b7ffc100fa50899b9fa173936e3ea0efae6d3872",
+      "response_sha256": "0ce6bf4d1166c6f4494f4825de69812564ce165348b0b87164ce5c5fd91ad5fa"
+    }
+  ],
+  "attempts_used": 5,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/predictions/901e42fea240/joint.npz",
+  "biological_effect_validated": false,
+  "arrays_sha256": "b58bc6299255d8db69939d78517fdb1263cc04bc853cc5171d9bd26d555eceb4"
+}

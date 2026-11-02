@@ -1,0 +1,35 @@
+{
+  "status": "completed_and_independently_verified",
+  "completed_at": "2026-10-27T15:05:33+08:00",
+  "n_new_models": 6,
+  "methods": [
+    "CPA original author implementation",
+    "CODEXDose original author implementation"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "n_wells": 16,
+  "n_treated": 786,
+  "n_unique_controls": 951,
+  "n_genes": 2000,
+  "new_deepseek_requests": 0,
+  "new_gpu_jobs": 0,
+  "training_all_exited": true,
+  "data_protocol": "original custom seen-drug unseen-5uM development pilot",
+  "global_prediction_seal_sha256": "94000da8529cea959d3b592512d747113a993839111e3440cc21e42084f71d85",
+  "score_manifest_sha256": "ae71ceeacea1fb7efaf07a165df5b6950b8e648de6bbdebef63c0f47185c55a6",
+  "independent_audit_max_error": 9.992007221626409e-16,
+  "presentation_failure_and_fix": "Frozen score_baselines.py report failed on pandas Series.view attribute collision; independent report_matched_baselines.py uses explicit column access; sealed scorer and numeric outputs preserved.",
+  "files_sha256": {
+    "RESULTS.html": "30b71cc82a12ca6b0b7ac9787738865964ffdfddab425503020c63acb8501873",
+    "RESULTS.txt": "63ab6412cd4e2f76a6d4ad7e340d9aa59e87e4c89b8bd8fde0b6031a78abe132",
+    "comparison.png": "5398b201fa69e77a6b83c910ccf815f30414284d3c75da77c08a38020b5804e8",
+    "training_curves.png": "31a46c26414f7897acc9379e7a7526a413fa4ca1900bdc0823ec16909359b950",
+    "report_matched_baselines.py": "cad2e580c1caa5390633d2e112f9a8a84c2d606a3d0d04879ea7299d3482cbdb",
+    "independent_score_audit.json": "603c5bdb722f61c56907f182286690db3e9508cfaf43e8c37bb0eb6790db72a4",
+    "models_independent_recheck.json": "ba756aebd250840f6ebf53cbd65af8a1af8ec697a6dc8d1c46061dd8f0e866a0"
+  }
+}

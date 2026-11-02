@@ -1,0 +1,92 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "canonical NF-kappa-B transcriptional output",
+      "direction": "decrease",
+      "basis": "direct",
+      "conditions": "requires baseline NF-kappa-B activity in A549; 5 uM, 24 h",
+      "gene_expectations": [
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MALAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "IKK allosteric inhibition blocks I-kappa-B phosphorylation, reducing NF-kappa-B-dependent transcription if active."
+    },
+    {
+      "id": "H2",
+      "program": "IKK kinase transcript levels",
+      "direction": "uncertain",
+      "basis": "direct",
+      "conditions": "unknown; kinase inhibition need not alter own mRNA",
+      "gene_expectations": [
+        {
+          "gene": "CHUK",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "IKBKB",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "Allosteric inhibition of catalytic activity does not imply lowered CHUK/IKBKB mRNA; direction unknown."
+    },
+    {
+      "id": "H3",
+      "program": "NF-kappa-B target inflammatory/antiapoptotic genes",
+      "direction": "decrease",
+      "basis": "secondary",
+      "conditions": "only if NF-kappa-B-driven in A549 baseline",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Secondary consequence of reduced NF-kappa-B activity; specific target set in A549 not supplied."
+    },
+    {
+      "id": "H4",
+      "program": "stress/antioxidant and glycolytic housekeeping expression",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549 baseline; indirect and context-dependent",
+      "gene_expectations": [
+        {
+          "gene": "G6PD",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C",
+        "M"
+      ],
+      "reason": "No supplied evidence links IKK inhibition to these highly expressed A549 genes; direction unknown."
+    }
+  ],
+  "summary": "Direct hypothesis: reduced canonical NF-kappa-B transcription via IKK inhibition; transcript-level and downstream gene directions remain uncertain in A549.",
+  "limitations": [
+    "No measured perturbation response, dose trajectory, or A549-specific NF-kappa-B activity data supplied.",
+    "Kinase inhibition does not establish direction of target or downstream mRNA changes.",
+    "Specific NF-kappa-B target genes in this context are not provided."
+  ]
+}

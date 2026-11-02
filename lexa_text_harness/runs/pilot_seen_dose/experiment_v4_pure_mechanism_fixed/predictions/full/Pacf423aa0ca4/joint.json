@@ -1,0 +1,895 @@
+{
+  "status": "completed",
+  "case_id": "drug=BMS|dose_uM=5|plate=B|replicate=3",
+  "opaque_id": "Pacf423aa0ca4",
+  "arm": "full",
+  "stage": "joint",
+  "fingerprint": "acf8cc25a9b004c5d8d271a508a5ebd463ff1ce3021951bf29ce409c99561821",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A0/C1"
+      ],
+      "reason": "NF-kB inhibition may lower ribosomal/translation tone; strong-down states favored"
+    },
+    {
+      "axis_id": 1,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A1/C4"
+      ],
+      "reason": "NF-kB-dependent chromatin/RNA programs reduced; strong-negative states favored"
+    },
+    {
+      "axis_id": 2,
+      "decision": "shift",
+      "targets": [
+        [
+          3,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A2/C3"
+      ],
+      "reason": "Stress/secretory NF-kB output may fall; low-signal states favored"
+    },
+    {
+      "axis_id": 3,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A3/C4"
+      ],
+      "reason": "Chromatin/transcription regulators down with NF-kB blockade"
+    },
+    {
+      "axis_id": 4,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H4",
+        "A4"
+      ],
+      "reason": "Aldo-keto reductase baseline high; no supplied IKK link to direction"
+    },
+    {
+      "axis_id": 5,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A5"
+      ],
+      "reason": "PDE4/adhesion signals weak and mixed; no mechanism support"
+    },
+    {
+      "axis_id": 6,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A6/C1"
+      ],
+      "reason": "Export/translation machinery down states align with reduced NF-kB output"
+    },
+    {
+      "axis_id": 7,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A7"
+      ],
+      "reason": "Cytoskeletal/trafficking effects modest and not mechanism-linked"
+    },
+    {
+      "axis_id": 8,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A8/C2"
+      ],
+      "reason": "Chaperone-high states align with stress/proteostasis; NF-kB link weak"
+    },
+    {
+      "axis_id": 9,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A9"
+      ],
+      "reason": "Poorly resolved, no consistent theme or mechanism link"
+    },
+    {
+      "axis_id": 10,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A10/C9"
+      ],
+      "reason": "DKK1/ANXA1-high secretory states; NF-kB output plausible"
+    },
+    {
+      "axis_id": 11,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A11"
+      ],
+      "reason": "Weakest axis, small effects, no mechanism support"
+    },
+    {
+      "axis_id": 12,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A12"
+      ],
+      "reason": "Mixed transport/proliferation states, no IKK link"
+    },
+    {
+      "axis_id": 13,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A13"
+      ],
+      "reason": "Unclear co-variation, no supplied mechanism connection"
+    },
+    {
+      "axis_id": 14,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A14"
+      ],
+      "reason": "Cytoskeletal states, no NF-kB direction evidence"
+    },
+    {
+      "axis_id": 15,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A15"
+      ],
+      "reason": "Unclear biology, co-variation only, no mechanism link"
+    },
+    {
+      "axis_id": 16,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A16/C3"
+      ],
+      "reason": "Keratin program lacks supplied NF-kB direction; adhesion link weak"
+    },
+    {
+      "axis_id": 17,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H4",
+        "A17/C7"
+      ],
+      "reason": "Glycolytic direction uncertain per H4; no supported shift"
+    },
+    {
+      "axis_id": 18,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A18/C4"
+      ],
+      "reason": "Sterol/STC1 direction uncertain; H2 gives no target list"
+    },
+    {
+      "axis_id": 19,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A19/C4"
+      ],
+      "reason": "p53-marker states discordant; no supported NF-kB direction"
+    },
+    {
+      "axis_id": 20,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A20/C6"
+      ],
+      "reason": "Lysosomal/secretory direction not established by H2"
+    },
+    {
+      "axis_id": 21,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A21/C6"
+      ],
+      "reason": "FKBP5/adhesion link to NF-kB not supplied; direction unclear"
+    },
+    {
+      "axis_id": 22,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H4",
+        "A22/C7"
+      ],
+      "reason": "OXPHOS direction uncertain per H4; no supported shift"
+    },
+    {
+      "axis_id": 23,
+      "decision": "shift",
+      "targets": [
+        [
+          3,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A23/C2"
+      ],
+      "reason": "NEAT1-linked NF-kB output may fall; low-lncRNA states favored"
+    },
+    {
+      "axis_id": 24,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A24/C9"
+      ],
+      "reason": "Proliferation direction not established by IKK inhibition"
+    },
+    {
+      "axis_id": 25,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H4",
+        "A25/C14"
+      ],
+      "reason": "Redox/chromatin direction uncertain per H4"
+    },
+    {
+      "axis_id": 26,
+      "decision": "shift",
+      "targets": [
+        [
+          3,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A26/C3"
+      ],
+      "reason": "NEAT1 is NF-kB-linked; low-lncRNA states 3/9 favored"
+    },
+    {
+      "axis_id": 27,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A27/C8"
+      ],
+      "reason": "ECM/signaling direction not established; H2 lacks targets"
+    },
+    {
+      "axis_id": 28,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A28/C8"
+      ],
+      "reason": "Stress/secretory direction not established by H2"
+    },
+    {
+      "axis_id": 29,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H4",
+        "A29/C8"
+      ],
+      "reason": "Cytoskeletal/chaperone program has no supplied IKK link"
+    },
+    {
+      "axis_id": 30,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H4",
+        "A30/C5"
+      ],
+      "reason": "PRKCA/EPS8 signaling not linked to IKK inhibition in hypotheses"
+    },
+    {
+      "axis_id": 31,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H4",
+        "A31/C2"
+      ],
+      "reason": "Transport/metabolic program lacks supplied mechanism connection"
+    }
+  ],
+  "response": {
+    "updates": [
+      {
+        "axis_id": 8,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A8/C2"
+        ],
+        "reason": "Chaperone-high states align with stress/proteostasis; NF-kB link weak"
+      },
+      {
+        "axis_id": 16,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A16/C3"
+        ],
+        "reason": "Keratin program lacks supplied NF-kB direction; adhesion link weak"
+      },
+      {
+        "axis_id": 17,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H4",
+          "A17/C7"
+        ],
+        "reason": "Glycolytic direction uncertain per H4; no supported shift"
+      },
+      {
+        "axis_id": 18,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A18/C4"
+        ],
+        "reason": "Sterol/STC1 direction uncertain; H2 gives no target list"
+      },
+      {
+        "axis_id": 19,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A19/C4"
+        ],
+        "reason": "p53-marker states discordant; no supported NF-kB direction"
+      },
+      {
+        "axis_id": 20,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A20/C6"
+        ],
+        "reason": "Lysosomal/secretory direction not established by H2"
+      },
+      {
+        "axis_id": 21,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A21/C6"
+        ],
+        "reason": "FKBP5/adhesion link to NF-kB not supplied; direction unclear"
+      },
+      {
+        "axis_id": 22,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H4",
+          "A22/C7"
+        ],
+        "reason": "OXPHOS direction uncertain per H4; no supported shift"
+      },
+      {
+        "axis_id": 23,
+        "decision": "shift",
+        "targets": [
+          [
+            3,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A23/C2"
+        ],
+        "reason": "NEAT1-linked NF-kB output may fall; low-lncRNA states favored"
+      },
+      {
+        "axis_id": 24,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A24/C9"
+        ],
+        "reason": "Proliferation direction not established by IKK inhibition"
+      },
+      {
+        "axis_id": 25,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H4",
+          "A25/C14"
+        ],
+        "reason": "Redox/chromatin direction uncertain per H4"
+      },
+      {
+        "axis_id": 27,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A27/C8"
+        ],
+        "reason": "ECM/signaling direction not established; H2 lacks targets"
+      },
+      {
+        "axis_id": 28,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A28/C8"
+        ],
+        "reason": "Stress/secretory direction not established by H2"
+      }
+    ],
+    "summary": "Revisions remove unsupported shifts on axes with uncertain or non-mechanism-linked directions (H2/H4), keep NEAT1-linked axis 23 and chaperone axis 8, and align targets to low-lncRNA/chaperone-high states.",
+    "limitations": [
+      "No measured perturbation response; directions are hypothesis-consistent only.",
+      "H2/H4 provide no target lists, limiting axis-level support.",
+      "Cross-axis cancellation noted for NEAT1/MALAT1/SQSTM1/UBB."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 9,
+      "keep": 0,
+      "unknown": 23
+    },
+    "delta_l2": 1.3026450993294405,
+    "standardized_delta_rms": 0.036755424846711175,
+    "axis_tv": [
+      0.23823529411764707,
+      0.2735294117647059,
+      0.19411764705882356,
+      0.29411764705882354,
+      0.0,
+      0.0,
+      0.2647058823529412,
+      0.0,
+      0.1941176470588235,
+      0.0,
+      0.28823529411764703,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.27941176470588236,
+      0.0,
+      0.0,
+      0.2,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_axis_tv": 0.06957720588235294,
+    "top_gene_changes": {
+      "up": [
+        {
+          "feature": "ENSG00000107984.9",
+          "delta": 0.17484,
+          "scaled_delta": 0.17519,
+          "symbol": "DKK1"
+        },
+        {
+          "feature": "ENSG00000135046.13",
+          "delta": 0.10421,
+          "scaled_delta": 0.11741,
+          "symbol": "ANXA1"
+        },
+        {
+          "feature": "ENSG00000164040.16",
+          "delta": 0.05774,
+          "scaled_delta": 0.07834,
+          "symbol": "PGRMC2"
+        },
+        {
+          "feature": "ENSG00000181019.12",
+          "delta": 0.07108,
+          "scaled_delta": 0.07795,
+          "symbol": "NQO1"
+        },
+        {
+          "feature": "ENSG00000105438.8",
+          "delta": 0.06191,
+          "scaled_delta": 0.07372,
+          "symbol": "KDELR1"
+        },
+        {
+          "feature": "ENSG00000118785.13",
+          "delta": 0.05546,
+          "scaled_delta": 0.06915,
+          "symbol": "SPP1"
+        },
+        {
+          "feature": "ENSG00000277443.2",
+          "delta": 0.04669,
+          "scaled_delta": 0.0674,
+          "symbol": "MARCKS"
+        },
+        {
+          "feature": "ENSG00000117318.8",
+          "delta": 0.04914,
+          "scaled_delta": 0.05517,
+          "symbol": "ID3"
+        },
+        {
+          "feature": "ENSG00000125968.8",
+          "delta": 0.04611,
+          "scaled_delta": 0.05355,
+          "symbol": "ID1"
+        },
+        {
+          "feature": "ENSG00000166226.12",
+          "delta": 0.0416,
+          "scaled_delta": 0.05272,
+          "symbol": "CCT2"
+        }
+      ],
+      "down": [
+        {
+          "feature": "ENSG00000278217.1",
+          "delta": -0.11803,
+          "scaled_delta": -0.15536,
+          "symbol": "MALAT1"
+        },
+        {
+          "feature": "ENSG00000245532.7",
+          "delta": -0.13673,
+          "scaled_delta": -0.15128,
+          "symbol": "NEAT1"
+        },
+        {
+          "feature": "ENSG00000112701.17",
+          "delta": -0.11515,
+          "scaled_delta": -0.14282,
+          "symbol": "SENP6"
+        },
+        {
+          "feature": "ENSG00000120071.13",
+          "delta": -0.12301,
+          "scaled_delta": -0.13875,
+          "symbol": "KANSL1"
+        },
+        {
+          "feature": "ENSG00000140262.17",
+          "delta": -0.11596,
+          "scaled_delta": -0.13717,
+          "symbol": "TCF12"
+        },
+        {
+          "feature": "ENSG00000171634.16",
+          "delta": -0.10901,
+          "scaled_delta": -0.13382,
+          "symbol": "BPTF"
+        },
+        {
+          "feature": "ENSG00000197756.9",
+          "delta": -0.10182,
+          "scaled_delta": -0.12519,
+          "symbol": "RPL37A"
+        },
+        {
+          "feature": "ENSG00000055917.15",
+          "delta": -0.1062,
+          "scaled_delta": -0.12379,
+          "symbol": "PUM2"
+        },
+        {
+          "feature": "ENSG00000141027.20",
+          "delta": -0.10483,
+          "scaled_delta": -0.12096,
+          "symbol": "NCOR1"
+        },
+        {
+          "feature": "ENSG00000137818.11",
+          "delta": -0.08302,
+          "scaled_delta": -0.11585,
+          "symbol": "RPLP1"
+        }
+      ]
+    },
+    "hypothesis_gene_checks": [
+      {
+        "hypothesis": "H1",
+        "gene": "NEAT1",
+        "expected": "decrease",
+        "decoded_direction": "decrease",
+        "delta": -0.13672933414824973,
+        "consistent": true
+      },
+      {
+        "hypothesis": "H1",
+        "gene": "MALAT1",
+        "expected": "uncertain",
+        "decoded_direction": "decrease",
+        "delta": -0.11802990601247412,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H3",
+        "gene": "CHUK",
+        "status": "unmeasured_or_ambiguous"
+      },
+      {
+        "hypothesis": "H3",
+        "gene": "IKBKB",
+        "status": "unmeasured_or_ambiguous"
+      },
+      {
+        "hypothesis": "H4",
+        "gene": "AKR1B10",
+        "expected": "uncertain",
+        "decoded_direction": "decrease",
+        "delta": -0.0026465596670545125,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H4",
+        "gene": "PKM",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.003374582261655125,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H4",
+        "gene": "TXNRD1",
+        "expected": "uncertain",
+        "decoded_direction": "decrease",
+        "delta": -0.030929830048562028,
+        "consistent": null
+      }
+    ],
+    "cross_axis_cancellation": [
+      {
+        "feature": "ENSG00000087086.14",
+        "summed_delta": 0.0012896966505863007,
+        "absolute_axis_sum": 0.1380663889527033
+      },
+      {
+        "feature": "ENSG00000198431.15",
+        "summed_delta": -0.030929830048562028,
+        "absolute_axis_sum": 0.10578635639291911
+      },
+      {
+        "feature": "ENSG00000074696.12",
+        "summed_delta": -0.006272533698938841,
+        "absolute_axis_sum": 0.07750153048922688
+      },
+      {
+        "feature": "ENSG00000110321.16",
+        "summed_delta": -0.0019015652031693043,
+        "absolute_axis_sum": 0.07860250293674381
+      },
+      {
+        "feature": "ENSG00000126247.10",
+        "summed_delta": -0.00673967820561413,
+        "absolute_axis_sum": 0.07687184591777622
+      },
+      {
+        "feature": "ENSG00000126777.17",
+        "summed_delta": -0.005418550266596711,
+        "absolute_axis_sum": 0.07096629177240707
+      }
+    ]
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "b3a1efc97d807b3779b5a270df8a596dcec10cb25d6faeb93e52d4d44f0a149c",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "fcee9e1534b58b0182be5aec9872274e3a68fe08906dea7f4ed2ee2b4353ae40",
+      "response_sha256": "e72b3dd9c55afc7f0ddc0c2f55b7bacffda04429ffdc0112261e62e0714d4130"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "41a36ede1fc0adc1646dc86deb057fccd0e9941e2a269079d5d147445d96b049",
+      "response_sha256": "327d7a6960bd891cdabc659742da326f64ca7248207e24a3dce23e0f71512d70"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "b96f46a4f7be3c70ae59fae3044cd4b8dce42e5fab4bf0934838b140fc589003",
+      "response_sha256": "7cbf5222715a3dcd11d5af9f429922388944c347fbb343595997cea551cfc6a6"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "f48453758c54c9086c60ca0616b3c6751aa9105321f1800574a3bc1b83f824a5",
+      "response_sha256": "eb6bac6712d187843c54faa13824c6e8baeaea1a35a3f25f0206f62af65d42cc"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "1b6457da9ed6ac455a21c67f0445554a51a3d4602c08c80286beacd02ed9f23f",
+      "response_sha256": "c5748ed05e33c65a813de3f832eb829ea7aca50ac3a56ab572f08c98ed755f4b"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "59d6f995cd249ab41f9b7f9227a57e3caab9291e49e6c1f6c2f75ffa02914c43",
+      "response_sha256": "b395f7805e080615c24031dd8721a477d6dfb8930c8b8dd7545964f2e5b3c06a"
+    }
+  ],
+  "attempts_used": 6,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/full/Pacf423aa0ca4/joint.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "21be568aa93e5774f98ecab4a3454e65d6f9537f59a583ef68297a1732c06ad6"
+}

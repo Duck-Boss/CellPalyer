@@ -1,0 +1,752 @@
+{
+  "status": "completed",
+  "case_id": "drug=BMS|dose_uM=5|plate=B|replicate=3",
+  "opaque_id": "Pacf423aa0ca4",
+  "arm": "neither",
+  "stage": "joint",
+  "fingerprint": "09eb5a4eefa5daac4de17754be0351bde59c8a99f00336383fb8501c1c03b723",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A0/C14"
+      ],
+      "reason": "Highest control occupancy; mixed up/down effects support shift"
+    },
+    {
+      "axis_id": 1,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A1/C1"
+      ],
+      "reason": "Largest control occupancy with strong up effect"
+    },
+    {
+      "axis_id": 2,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A2/C0"
+      ],
+      "reason": "Dominant control occupancy; strong bidirectional effects"
+    },
+    {
+      "axis_id": 3,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A3/C2"
+      ],
+      "reason": "Highest control occupancy; up/down effects present"
+    },
+    {
+      "axis_id": 4,
+      "decision": "shift",
+      "targets": [
+        [
+          5,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A4/C5"
+      ],
+      "reason": "Largest control occupancy; strong bidirectional effects"
+    },
+    {
+      "axis_id": 5,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A5/C4"
+      ],
+      "reason": "Highest control occupancy; up/down effects present"
+    },
+    {
+      "axis_id": 6,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A6/C6"
+      ],
+      "reason": "Largest control occupancy; strong up effect"
+    },
+    {
+      "axis_id": 7,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A7/C0"
+      ],
+      "reason": "Dominant control occupancy; bidirectional effects"
+    },
+    {
+      "axis_id": 8,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A8/C4"
+      ],
+      "reason": "Strong up G0289/G0133 and G0574 up in states 4,2,9"
+    },
+    {
+      "axis_id": 9,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A9/C10"
+      ],
+      "reason": "Large up G0196/G1314 in states 10,14,8"
+    },
+    {
+      "axis_id": 10,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A10/C13"
+      ],
+      "reason": "Strong up G1776/G0392 in states 13,9,14"
+    },
+    {
+      "axis_id": 11,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A11/C4"
+      ],
+      "reason": "Up G1987/G0644 in states 4,2,0"
+    },
+    {
+      "axis_id": 12,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A12/C1"
+      ],
+      "reason": "Up G0053/G0063/G1463 in states 1,7,13"
+    },
+    {
+      "axis_id": 13,
+      "decision": "shift",
+      "targets": [
+        [
+          15,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A13/C15"
+      ],
+      "reason": "Up G0620/G0836 in states 15,0,6"
+    },
+    {
+      "axis_id": 14,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A14/C2"
+      ],
+      "reason": "Up G1660/G1047/G0106 in states 2,6,3"
+    },
+    {
+      "axis_id": 15,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A15/C8"
+      ],
+      "reason": "Up G1907/G1087 in states 8,12,3"
+    },
+    {
+      "axis_id": 16,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A16/C8"
+      ],
+      "reason": "Highest control occupancy; mixed up/down effects support state 8"
+    },
+    {
+      "axis_id": 17,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A17/C1"
+      ],
+      "reason": "Highest control occupancy with modest bidirectional effects"
+    },
+    {
+      "axis_id": 18,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A18/C8"
+      ],
+      "reason": "Highest control occupancy; mixed effects support state 8"
+    },
+    {
+      "axis_id": 19,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A19/C7"
+      ],
+      "reason": "Highest control occupancy; bidirectional effects support state 7"
+    },
+    {
+      "axis_id": 20,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A20/C14"
+      ],
+      "reason": "Highest control occupancy; mixed effects support state 14"
+    },
+    {
+      "axis_id": 21,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A21/C11"
+      ],
+      "reason": "Highest control occupancy; bidirectional effects support state 11"
+    },
+    {
+      "axis_id": 22,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A22/C10"
+      ],
+      "reason": "Highest control occupancy; mixed effects support state 10"
+    },
+    {
+      "axis_id": 23,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A23/C8"
+      ],
+      "reason": "Highest control occupancy; bidirectional effects support state 8"
+    },
+    {
+      "axis_id": 24,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A24"
+      ],
+      "reason": "Mechanism hidden; no directional basis for state shift."
+    },
+    {
+      "axis_id": 25,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A25"
+      ],
+      "reason": "Mechanism hidden; no directional basis for state shift."
+    },
+    {
+      "axis_id": 26,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A26"
+      ],
+      "reason": "Mechanism hidden; no directional basis for state shift."
+    },
+    {
+      "axis_id": 27,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A27"
+      ],
+      "reason": "Mechanism hidden; no directional basis for state shift."
+    },
+    {
+      "axis_id": 28,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A28"
+      ],
+      "reason": "Mechanism hidden; no directional basis for state shift."
+    },
+    {
+      "axis_id": 29,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A29"
+      ],
+      "reason": "Mechanism hidden; no directional basis for state shift."
+    },
+    {
+      "axis_id": 30,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A30"
+      ],
+      "reason": "Mechanism hidden; no directional basis for state shift."
+    },
+    {
+      "axis_id": 31,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A31"
+      ],
+      "reason": "Mechanism hidden; no directional basis for state shift."
+    }
+  ],
+  "response": {
+    "updates": [],
+    "summary": "Local shifts are supported by occupancy and bidirectional state effects; no direction contradictions or cross-axis cancellations justify revision. Unknowns for axes 24-31 remain consistent with hidden mechanism.",
+    "limitations": [
+      "Feature semantics withheld; no gene-level validation.",
+      "Decoder changes are not observed treatment accuracy.",
+      "Cross-axis cancellation noted but small relative to shifts."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 24,
+      "keep": 0,
+      "unknown": 8
+    },
+    "delta_l2": 2.25460712641074,
+    "standardized_delta_rms": 0.06177489487909286,
+    "axis_tv": [
+      0.24411764705882355,
+      0.2235294117647059,
+      0.18529411764705883,
+      0.19411764705882356,
+      0.22647058823529415,
+      0.23529411764705882,
+      0.2411764705882353,
+      0.21764705882352944,
+      0.13529411764705881,
+      0.27352941176470585,
+      0.22941176470588237,
+      0.24117647058823527,
+      0.20588235294117646,
+      0.27058823529411763,
+      0.29117647058823526,
+      0.16764705882352943,
+      0.2088235294117647,
+      0.2147058823529412,
+      0.21176470588235297,
+      0.20000000000000004,
+      0.2088235294117647,
+      0.22647058823529415,
+      0.22647058823529412,
+      0.2205882352941176,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_axis_tv": 0.165625,
+    "top_gene_changes": {
+      "up": [
+        {
+          "feature": "G0106",
+          "delta": 0.15748,
+          "scaled_delta": 0.18303
+        },
+        {
+          "feature": "G0196",
+          "delta": 0.14965,
+          "scaled_delta": 0.1772
+        },
+        {
+          "feature": "G0845",
+          "delta": 0.14339,
+          "scaled_delta": 0.16764
+        },
+        {
+          "feature": "G1289",
+          "delta": 0.14147,
+          "scaled_delta": 0.16423
+        },
+        {
+          "feature": "G0836",
+          "delta": 0.14501,
+          "scaled_delta": 0.16258
+        },
+        {
+          "feature": "G1547",
+          "delta": 0.14826,
+          "scaled_delta": 0.16076
+        },
+        {
+          "feature": "G0704",
+          "delta": 0.15034,
+          "scaled_delta": 0.15987
+        },
+        {
+          "feature": "G1468",
+          "delta": 0.1156,
+          "scaled_delta": 0.15969
+        },
+        {
+          "feature": "G0195",
+          "delta": 0.13322,
+          "scaled_delta": 0.15958
+        },
+        {
+          "feature": "G1056",
+          "delta": 0.13138,
+          "scaled_delta": 0.15825
+        }
+      ],
+      "down": [
+        {
+          "feature": "G1096",
+          "delta": -0.08866,
+          "scaled_delta": -0.12393
+        },
+        {
+          "feature": "G0352",
+          "delta": -0.07889,
+          "scaled_delta": -0.11641
+        },
+        {
+          "feature": "G1412",
+          "delta": -0.08699,
+          "scaled_delta": -0.1096
+        },
+        {
+          "feature": "G1803",
+          "delta": -0.0811,
+          "scaled_delta": -0.09913
+        },
+        {
+          "feature": "G1900",
+          "delta": -0.07763,
+          "scaled_delta": -0.09911
+        },
+        {
+          "feature": "G1915",
+          "delta": -0.07277,
+          "scaled_delta": -0.08497
+        },
+        {
+          "feature": "G1384",
+          "delta": -0.08335,
+          "scaled_delta": -0.07767
+        },
+        {
+          "feature": "G0604",
+          "delta": -0.06618,
+          "scaled_delta": -0.07561
+        },
+        {
+          "feature": "G1298",
+          "delta": -0.05478,
+          "scaled_delta": -0.06898
+        },
+        {
+          "feature": "G0011",
+          "delta": -0.05551,
+          "scaled_delta": -0.06776
+        }
+      ]
+    },
+    "hypothesis_gene_checks": "Unavailable without feature semantics; anonymous IDs cannot be mapped to hypothesis gene names.",
+    "cross_axis_cancellation": [
+      {
+        "feature": "G0543",
+        "summed_delta": -0.02427474617280131,
+        "absolute_axis_sum": 0.14684780463336644
+      },
+      {
+        "feature": "G1855",
+        "summed_delta": 0.02659780897023769,
+        "absolute_axis_sum": 0.1608417527516448
+      },
+      {
+        "feature": "G0953",
+        "summed_delta": 0.023454483387553276,
+        "absolute_axis_sum": 0.13984331256600438
+      },
+      {
+        "feature": "G0216",
+        "summed_delta": 0.0455031230558233,
+        "absolute_axis_sum": 0.1719937817051901
+      },
+      {
+        "feature": "G0945",
+        "summed_delta": -0.028173268596519398,
+        "absolute_axis_sum": 0.14238360879909825
+      },
+      {
+        "feature": "G0861",
+        "summed_delta": 0.017600378861029362,
+        "absolute_axis_sum": 0.10824245611679277
+      }
+    ]
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "5971059f6e0f9f6b603856b51785177dbf77fda0df9ecb23deea890c2654c5e8",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "7dacb19214864f31fd80ab6c54e39e41b1c1843821c2f82332dc96e6a6705772",
+      "response_sha256": "6f2f300b05c8f2e67bec154655b5d9ae3a761ffe902fd632f8e095d03714107f"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "4f542b4c726e55ddeab4f443fcb76c028e1f0edf75e1fbf1f091804ea3bfd3ba",
+      "response_sha256": "c26840257ed395edd38d9d1c3ed1b9ecc94d0517ceeb7d011715adaa362690eb"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "e61a21987b53b5663760a525ed03bae24addca15ec313768a965617c9fa87520",
+      "response_sha256": "044a729f5e02e5c741fedc9c65d1a20b0351e8bc71dfdfd7498c9a83a3100432"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "95a22e2aef17075d3d0eaae3c86beef5dd81fa537c3d3094a9b6fca65a4d748b",
+      "response_sha256": "f0d5db0b1035465685d2211f3140a7d8fa03fad7942707e1108ff8cf086d6977"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "292ff10801f11b7976c7a2a31115836db88e1b123040af8869db93843c5c1e76",
+      "response_sha256": "d39202e8430f6ba6bd23f7552ff8712a894136eb542ca88265f16f1ffe74d33b"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "c38a3001d1434c9901b1673f4e09368b6608371456e72f1b756ce972563935e6",
+      "response_sha256": "a597fa7f88b18c8f60c197364f258190c871446814a3ca82222b4474bd0b8057"
+    }
+  ],
+  "attempts_used": 6,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/neither/Pacf423aa0ca4/joint.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "0232210a1717eb588e88dc672a9328919521dae0a079d507410601d1e1fdc50a"
+}

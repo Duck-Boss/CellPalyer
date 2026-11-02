@@ -1,0 +1,9 @@
+{
+  "cell_type": "code",
+  "execution_count": 94,
+  "metadata": {},
+  "outputs": [],
+  "source": [
+    "df_plot = df_ood.melt(id_vars=['cell_type', 'condition', 'dose_val', 'model', 'num_cells', 'split'])"
+  ]
+}

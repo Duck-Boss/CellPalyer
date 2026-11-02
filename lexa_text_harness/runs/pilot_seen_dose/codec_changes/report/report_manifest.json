@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-10-26T20:42:56+08:00",
+  "analysis": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/codec_changes",
+  "kind": "observed_codec_diagnostic_not_llm_prediction",
+  "reads_raw_heldout_expression": false,
+  "n_genes": 2000,
+  "n_conditions": 25,
+  "axis_additivity_max_abs_error": 3.4669199067138834e-07,
+  "observations": [
+    "BMS 5 µM：占用变化最大的两个轴为轴12（TV=0.853）、轴0（TV=0.848）；孔等权平均基因变化向量经过编解码后 Pearson=0.872，L2幅度保留=0.764，沿真实响应方向的投影系数=0.697。",
+    "Dex 5 µM：占用变化最大的两个轴为轴2（TV=0.588）、轴31（TV=0.582）；孔等权平均基因变化向量经过编解码后 Pearson=0.780，L2幅度保留=0.729，沿真实响应方向的投影系数=0.570。",
+    "Nutlin 5 µM：占用变化最大的两个轴为轴19（TV=0.910）、轴9（TV=0.760）；孔等权平均基因变化向量经过编解码后 Pearson=0.878，L2幅度保留=0.860，沿真实响应方向的投影系数=0.755。",
+    "SAHA 5 µM：占用变化最大的两个轴为轴18（TV=0.947）、轴4（TV=0.945）；孔等权平均基因变化向量经过编解码后 Pearson=0.971，L2幅度保留=0.935，沿真实响应方向的投影系数=0.907。"
+  ]
+}

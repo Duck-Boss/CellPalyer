@@ -1,0 +1,52 @@
+Author-source reproduction audit, 2026-10-27
+
+Accessible public artifacts:
+- CPA final-figure reproducibility repository commit d5d1e567a1c54abca94e27db3b3985cac2faa506, full archive downloaded.
+- CODEX repository commit 0e5f8ff3b10d21b582cf91ea6cf5398fe8eeab99, full archive downloaded.
+- ZIP SHA256 and URLs in CPA_CODEX_source_manifest.json. Archive ZIP comments identify commits.
+
+Exact recipe exists in code, but exact processed data is NOT available locally yet:
+- CPA preprocessing/GSM.ipynb writes datasets/GSM_new.h5ad.
+- CODEX data/README.md points to CPA Drive folder 1yFB0gBr72_KLLp1asojxTgTqgz6cwpju for this same file.
+- No h5ad files or selected CPA checkpoint are bundled in either ZIP.
+- Original raw dataset here is sciPlex2 GSM4150377, A549 four drugs, not sciPlex3.
+- Direct curl to author Drive folder timed out at15seconds (HTTP000); web open also inaccessible.
+
+Published protocol recovered:
+- Final 14811 cells, actual 4999 HVGs (article prose says 5000).
+- Author size_factor division, then log1p, NOT our existing CP10K normalization.
+- All four drugs at normalized dose 0.5 (50 micromolar) held out as ood.
+- Remaining cells train_test_split(test_size=.3,random_state=42).
+- Saved counts train9130/test3914/ood1767.
+- Pool Vehicle controls; CODEX trains from train_vehicle and predicts from test_vehicle.
+- Preserve file var_names order, obs split labels and uns rank_genes_groups_cov.
+- CODEX predicts population mean then sklearn r2_score across all4999 genes and top50 DEG, not squared Pearson and not delta-expression RMSE.
+- CODEX evaluates categories with n>30; all four OOD groups qualify, BMS barely with34 cells.
+- CODEX early stops on held-in test top50DEG R2. OOD not used for best-model selection.
+
+Runnable source when data arrives:
+CODEX-master/CODEX_dose_experiment.py
+  python CODEX_dose_experiment.py --layers 512 128 64 --epochs 1000 --seed 42
+  (Argparse syntax verified; these layers are source example, not established as exact figure-selected architecture. Set --save_folder to a new writable run directory.)
+CPA final source: cpa-reproducibility-main/notebooks/SuppFig_4-5.ipynb.
+  Cell6 sets doser=logsigm, AE depth2 width128, adversary depth2.
+  Cells7-8 overwrite model by loading sciplex2.pt then sciplex2_other.pt.
+  Cell9 trains2000epochs, checkpoint20, max60minutes. Weights are absent; therefore saved results do not establish a fully reproducible from-scratch seed/config.
+
+Recovered numerical reference, saved author notebook output (rounded to 2 decimals, NOT paper five-seed aggregate):
+Condition | all-gene mean R2 | top50DEG mean R2 | OOD n
+BMS       | .86             | .63             | 34
+Dex       | 1.00            | .98             | 864
+Nutlin    | .86             | .81             | 265
+SAHA      | .97             | .85             | 604
+Source cell43 includes explicit CPA and baseline labels and is the preferred numeric evidence. Cell47 saved output prints only the matching CPA rows, but its current source has no filter; this reveals notebook execution-state inconsistency. Preserved full cells43-47 as JSON. Saved output is historical evidence, not a clean executable guarantee.
+
+Exact reconstruction status:
+- Direct author processed file plus these scripts would permit a matched published-protocol benchmark immediately after environment/adapter work.
+- Exact saved CPA values cannot be guaranteed without original selected weights and version/seed configuration.
+- Regenerating GSM_new.h5ad from raw is NOT automatically exact: notebook filters min_genes750 vs paper720, runs Louvain then removes cluster named2, requiring matching preprocessing version/cell order. It also needs author raw h5ad size_factor values.
+- Can run a new same-data, same-split, same-genes, same-normalization CPA/CODEX/LEXA comparison after reconstruction, but label it a new matched-protocol reproduction, not leaderboard-equivalent until data/fold identity verified.
+- Do not silently reuse our old 2000-gene 5micromolar replicate-heldout split or old codec trained with OOD samples.
+
+Recommendation:
+Prioritize official GSM_new.h5ad; it is closer to current task and provides full exact dose split and metric code. TDC cold-drug is a separate task. Once artifact verified, rerun CODEX plus simple pooled-control and linear baselines and fresh LEXA codec under identical artifact/protocol, reporting both published R2 and our delta metrics. No training or API prediction was started in this audit.

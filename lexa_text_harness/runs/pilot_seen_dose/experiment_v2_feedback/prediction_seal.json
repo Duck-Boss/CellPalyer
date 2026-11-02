@@ -1,0 +1,53 @@
+{
+  "status": "all_32_predictions_frozen_before_first_scoring",
+  "sealed_at_utc": "2026-10-26T10:25:08.477227+00:00",
+  "cases": 16,
+  "predictions": 32,
+  "methods": [
+    "one_shot",
+    "agent"
+  ],
+  "source_hash_checks": {
+    "agent.py": true,
+    "tools.py": true,
+    "experiment.py": true,
+    "pipeline.py": true
+  },
+  "score_files_present": false,
+  "prediction_result_sha256": {
+    "agent/b2e8eeadd4ec/agent_result.json": "e38fb5de6e8498334026135290037c53916ecdc1d54924766484bd43fa5d9b8a",
+    "agent/60426b731665/agent_result.json": "7ab4ad3e7828aff46b6d6782296d00e60b32e33d79919cb27d868e6140a8d577",
+    "agent/ac65d80bb3f0/agent_result.json": "3a18bd700a6d0ebb1686fd9ed5f6d496ab9c30ad495c9232de4c02e00fe30ca4",
+    "agent/8eea66198f34/agent_result.json": "7924a802ffe51a9ef71b76a84c4ab36b22f6343d2cd53ce30d93b6241e722ed2",
+    "agent/b81ab1c80851/agent_result.json": "b4bc92b13b8c752902a6df1ff794538a484080be2f629253cb087415b95c36fc",
+    "agent/bb8b59b73b81/agent_result.json": "59464e906b5488c0c62c844609c3ea8ee70b1ffa28ac3e40b20c221dd6f3b15b",
+    "agent/3a9d788519f1/agent_result.json": "c78f5fb830cf6f9064050c020233753ab2a268922ec264e0cf0d482190f3f740",
+    "agent/d4270158cf4a/agent_result.json": "0436df0594d245db90a43174a97ca946920f8c702438153e67db70568da0369d",
+    "agent/123f238d50ef/agent_result.json": "8587b7ccb1d982c0cadd266427c09a88b314fba0aac0d420cba63030bc32f00b",
+    "agent/1c3d4269941a/agent_result.json": "90ddf0384bab6a28ab39cb4eeb83d77141cb37569b2d2eed5d0f1147f71ad4df",
+    "agent/bed7e88fc964/agent_result.json": "b2f7f7aaaf4a74a65d75da1eb38650e564a6646081fbad12a6aa123b530819e6",
+    "agent/db6be6175137/agent_result.json": "e2055dd866c1a73f30999e815a0142df142567d8e132c751f7768c9d9093481a",
+    "agent/901e42fea240/agent_result.json": "6da91723993f2dba4b8d8ab9338f5e397debc596c19a533b07b209eee54c1ec8",
+    "agent/9904cf11828e/agent_result.json": "e99529bf3828c855711ff1b3c8579d7fcce70e35219fc1f1ac7bc54edbc3e39a",
+    "agent/42e85e25927a/agent_result.json": "6697a8ca257e2d28d5410f53dcd5d643221c8cbeba76ffb45d45b7c3bf754dd2",
+    "agent/c6cad83efd26/agent_result.json": "24f601cd01def5cf0cdca7c983b3a47280268649eb42d6faf406da294f6423b2",
+    "one_shot/b2e8eeadd4ec/agent_result.json": "0964838dedde023f440383e02749617b68231b8daa8edda688eb1f7472c45d82",
+    "one_shot/60426b731665/agent_result.json": "010837a61c2714ed4b30a9a3fcd3c6bc2f3dbcc06cf2694b37e609843b59f522",
+    "one_shot/ac65d80bb3f0/agent_result.json": "668295a45bd2797e615f8dd2e760c1a2d329104e79e95743ecbb73098747945f",
+    "one_shot/8eea66198f34/agent_result.json": "906fe12bfab6d0a532093a366eebbb1c0fdbc617bf4268ca0b332aed78db7883",
+    "one_shot/b81ab1c80851/agent_result.json": "11ab814a347870795e54a876801f78b1de27c1a8b213ac0551e23d11e49f43a7",
+    "one_shot/bb8b59b73b81/agent_result.json": "01b2fb2ccac1ad2e03efc16aa0e667a106d61899941f2e6879f0e8dbc19bccc9",
+    "one_shot/3a9d788519f1/agent_result.json": "261d50466a4b7824425012f5f5d46c0eaa2018a536bd3cb5d75346f28be1eb03",
+    "one_shot/d4270158cf4a/agent_result.json": "170d1608dc9756515ace5290615d27e6324e83e2af7d529f16abdd6c3dea5a81",
+    "one_shot/123f238d50ef/agent_result.json": "722912dc4e72bd8f628843e8cc65856199fdd79ba74a42ba3e1264064455e178",
+    "one_shot/1c3d4269941a/agent_result.json": "b38b183ae9905f6af78f101e1662fda28833fd053911d023881dffe1e6a84612",
+    "one_shot/bed7e88fc964/agent_result.json": "7ea793a4b18f4205a192a033c3a9a1ee723fedbdd6c97371461ad4768b6b5073",
+    "one_shot/db6be6175137/agent_result.json": "2c1534d9627bf769c4a9077f424ff9ea677da1f632eb2fc2816e94f46b8dab22",
+    "one_shot/901e42fea240/agent_result.json": "dbaab37d4776e1589df4ddf15c8ec30f7af3f78ee9ece5a37ad87c80427a46f9",
+    "one_shot/9904cf11828e/agent_result.json": "ab174586bb8f2649ccb36ca2305e009e8e34310bf36dc1af3aa8127b565f6543",
+    "one_shot/42e85e25927a/agent_result.json": "a7d5b84c97b5f1e816151630395a7294a9e31be379d310ff12cd3516ffdea10c",
+    "one_shot/c6cad83efd26/agent_result.json": "743c8e64eaf33e26fdb4bc9eaf969bdfac2a8270e81567eacfeb3c49a347df8d"
+  },
+  "run_plan_sha256": "d31ef7ecbc8ff46c7372c6b51e6187f614ca29b12a1a31b3d0e1da033b213fae",
+  "target_values_loaded_by_sealing": false
+}

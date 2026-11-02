@@ -1,0 +1,119 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "oxidative stress / NRF2 antioxidant response",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "ALDH1A1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "High baseline AKR/ALDH expression suggests stress-responsive context; direction unknown without mechanism."
+    },
+    {
+      "id": "H2",
+      "program": "glycolysis / central carbon metabolism",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "ENO1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "G6PD",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Glycolytic and PPP genes are highly expressed at baseline; perturbation effect on their mRNA is unknown."
+    },
+    {
+      "id": "H3",
+      "program": "cAMP/PDE4D signaling",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "PDE4D",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "PDE4D is the top expressed feature; no mechanism given to infer direction of change."
+    },
+    {
+      "id": "H4",
+      "program": "non-coding RNA stress response",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MALAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "NEAT1/MALAT1 are abundant; stress-linked lncRNA changes are plausible but direction is unknown."
+    },
+    {
+      "id": "H5",
+      "program": "mitochondrial oxidative phosphorylation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "MT-CO3",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MT-CYB",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "High mt-encoded transcripts at baseline; no mechanism to predict up or down shift."
+    }
+  ],
+  "summary": "Mechanism withheld; only baseline A549 expression context is available, so all directions are explicitly uncertain.",
+  "limitations": [
+    "No perturbation identity or mechanism provided.",
+    "No dose-response or measured treatment effects available.",
+    "Single timepoint and cell line limit generalization."
+  ]
+}

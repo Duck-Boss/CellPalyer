@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+runs/
+lexa/atlas_checkpoint.pt
+lexa/atlas_effects.npz

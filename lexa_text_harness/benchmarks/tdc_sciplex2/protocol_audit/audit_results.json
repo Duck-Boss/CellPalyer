@@ -1,0 +1,30 @@
+{
+  "package": "PyTDC 1.1.15",
+  "data": "synthetic only, 100 cells per control/drug",
+  "source_sha256": {
+    "multi_pred/perturboutcome.py": "a452ca2869d6d8ed8af6e516abaaedfaa02d41e8487635419d06af81805adbac",
+    "benchmark_group/counterfactual_group.py": "81d8a6dc8e1196fff6ecbbcedb7a0ec013198cc93684359382a903507be60e9e"
+  },
+  "default_seen": {
+    "control": 100,
+    "train": 320,
+    "test": 0,
+    "dev": 0,
+    "adj": 80
+  },
+  "returned_train_columns": [
+    "cell_line",
+    "perturbation",
+    "ncounts"
+  ],
+  "default_unseen": {
+    "error_type": "ValueError",
+    "error": "With n_samples=1, test_size=0.5 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters."
+  },
+  "numeric_metadata_drop_probe": {
+    "official_evaluate": 0.9999925138802018,
+    "expression_only_r2": -9.0,
+    "interpretation": "Official ignored drop() retains ncounts/ngenes, contaminating score."
+  },
+  "caution": "These are API regression probes, not biological benchmark scores."
+}

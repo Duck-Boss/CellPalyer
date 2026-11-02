@@ -1,0 +1,1545 @@
+{
+  "status": "completed",
+  "case_id": "drug=Dex|dose_uM=5|plate=A|replicate=1",
+  "opaque_id": "P17495dd70e44",
+  "arm": "no_semantics",
+  "stage": "local",
+  "fingerprint": "c5de8ac39be0686845cd0d2167c5b8bbfd2700d50895969e23e4bdfca8673d08",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A0/C10"
+      ],
+      "reason": "Strongest up effect G1015; GR activation may induce transcription"
+    },
+    {
+      "axis_id": 1,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A1/C6"
+      ],
+      "reason": "Largest up effect G1680; consistent with GR transactivation"
+    },
+    {
+      "axis_id": 2,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A2/C9"
+      ],
+      "reason": "Largest up effect G0255; GR-driven activation plausible"
+    },
+    {
+      "axis_id": 3,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A3/C13"
+      ],
+      "reason": "Largest up effect G0700; consistent with GR activation"
+    },
+    {
+      "axis_id": 4,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A4/C12"
+      ],
+      "reason": "Largest up effect G1651; GR transactivation support"
+    },
+    {
+      "axis_id": 5,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A5/C12"
+      ],
+      "reason": "Largest up effect G0522; GR activation plausible"
+    },
+    {
+      "axis_id": 6,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A6/C10"
+      ],
+      "reason": "Largest up effect G0096; consistent with GR activation"
+    },
+    {
+      "axis_id": 7,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A7/C7"
+      ],
+      "reason": "Largest up effect G1773; GR transactivation support"
+    },
+    {
+      "axis_id": 8,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A8/C11"
+      ],
+      "reason": "Strongest down NF-kB-like repression states 11,10,0 favored"
+    },
+    {
+      "axis_id": 9,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A9/C14"
+      ],
+      "reason": "GR-activation up states 14,10,13 favored"
+    },
+    {
+      "axis_id": 10,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A10/C13"
+      ],
+      "reason": "Up-weighted states 13,9,7 match GR activation"
+    },
+    {
+      "axis_id": 11,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A11/C4"
+      ],
+      "reason": "Up states 4,10,2 consistent with GR transactivation"
+    },
+    {
+      "axis_id": 12,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A12/C1"
+      ],
+      "reason": "Up states 1,7,14 favored for GR activation"
+    },
+    {
+      "axis_id": 13,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A13/C0"
+      ],
+      "reason": "Up states 0,15,6 match GR induction"
+    },
+    {
+      "axis_id": 14,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A14/C2"
+      ],
+      "reason": "Up states 2,6,3 consistent with GR activation"
+    },
+    {
+      "axis_id": 15,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A15/C8"
+      ],
+      "reason": "Up states 8,11,15 favored for GR transactivation"
+    },
+    {
+      "axis_id": 16,
+      "decision": "shift",
+      "targets": [
+        [
+          3,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A16/C3"
+      ],
+      "reason": "Strong up effects on G1428/G1467 consistent with GR activation"
+    },
+    {
+      "axis_id": 17,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A17/C7"
+      ],
+      "reason": "Large up effects on G0403/G1511 support GR-driven transcription"
+    },
+    {
+      "axis_id": 18,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A18/C11"
+      ],
+      "reason": "Strong up effects on G1958/G1130/G1909"
+    },
+    {
+      "axis_id": 19,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A19/C4"
+      ],
+      "reason": "Large up effects on G0506/G1345"
+    },
+    {
+      "axis_id": 20,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A20/C4"
+      ],
+      "reason": "Strong up effects on G0541/G0413/G1041"
+    },
+    {
+      "axis_id": 21,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A21/C0"
+      ],
+      "reason": "Large up effects on G0372"
+    },
+    {
+      "axis_id": 22,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A22/C8"
+      ],
+      "reason": "Up effects on G1298/G1803"
+    },
+    {
+      "axis_id": 23,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A23/C2"
+      ],
+      "reason": "Up effects on G1239/G1077"
+    },
+    {
+      "axis_id": 24,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A24/C13"
+      ],
+      "reason": "Strong up-effects (G1200/G0592) support GR activation states"
+    },
+    {
+      "axis_id": 25,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A25/C6"
+      ],
+      "reason": "Up G1281/G1424 consistent with GR transcriptional activation"
+    },
+    {
+      "axis_id": 26,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A26/C10"
+      ],
+      "reason": "Up G1787/G0348 support GR-activated states"
+    },
+    {
+      "axis_id": 27,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A27/C14"
+      ],
+      "reason": "Up G1417/G1869 align with GR activation program"
+    },
+    {
+      "axis_id": 28,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A28/C10"
+      ],
+      "reason": "Up G0192/G0442 support GR-driven transcription"
+    },
+    {
+      "axis_id": 29,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A29/C12"
+      ],
+      "reason": "Up G1295/G0451 consistent with GR activation"
+    },
+    {
+      "axis_id": 30,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A30/C8"
+      ],
+      "reason": "Up G0685/G1051 support GR-activated states"
+    },
+    {
+      "axis_id": 31,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A31/C9"
+      ],
+      "reason": "Up G0388/G1177 align with GR activation"
+    }
+  ],
+  "response": {
+    "decisions": [
+      {
+        "axis_id": 0,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A0/C10"
+        ],
+        "reason": "Strongest up effect G1015; GR activation may induce transcription"
+      },
+      {
+        "axis_id": 1,
+        "decision": "shift",
+        "targets": [
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A1/C6"
+        ],
+        "reason": "Largest up effect G1680; consistent with GR transactivation"
+      },
+      {
+        "axis_id": 2,
+        "decision": "shift",
+        "targets": [
+          [
+            9,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A2/C9"
+        ],
+        "reason": "Largest up effect G0255; GR-driven activation plausible"
+      },
+      {
+        "axis_id": 3,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A3/C13"
+        ],
+        "reason": "Largest up effect G0700; consistent with GR activation"
+      },
+      {
+        "axis_id": 4,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A4/C12"
+        ],
+        "reason": "Largest up effect G1651; GR transactivation support"
+      },
+      {
+        "axis_id": 5,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A5/C12"
+        ],
+        "reason": "Largest up effect G0522; GR activation plausible"
+      },
+      {
+        "axis_id": 6,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A6/C10"
+        ],
+        "reason": "Largest up effect G0096; consistent with GR activation"
+      },
+      {
+        "axis_id": 7,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A7/C7"
+        ],
+        "reason": "Largest up effect G1773; GR transactivation support"
+      },
+      {
+        "axis_id": 8,
+        "decision": "shift",
+        "targets": [
+          [
+            11,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A8/C11"
+        ],
+        "reason": "Strongest down NF-kB-like repression states 11,10,0 favored"
+      },
+      {
+        "axis_id": 9,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A9/C14"
+        ],
+        "reason": "GR-activation up states 14,10,13 favored"
+      },
+      {
+        "axis_id": 10,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A10/C13"
+        ],
+        "reason": "Up-weighted states 13,9,7 match GR activation"
+      },
+      {
+        "axis_id": 11,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A11/C4"
+        ],
+        "reason": "Up states 4,10,2 consistent with GR transactivation"
+      },
+      {
+        "axis_id": 12,
+        "decision": "shift",
+        "targets": [
+          [
+            1,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A12/C1"
+        ],
+        "reason": "Up states 1,7,14 favored for GR activation"
+      },
+      {
+        "axis_id": 13,
+        "decision": "shift",
+        "targets": [
+          [
+            0,
+            1
+          ],
+          [
+            15,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A13/C0"
+        ],
+        "reason": "Up states 0,15,6 match GR induction"
+      },
+      {
+        "axis_id": 14,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A14/C2"
+        ],
+        "reason": "Up states 2,6,3 consistent with GR activation"
+      },
+      {
+        "axis_id": 15,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A15/C8"
+        ],
+        "reason": "Up states 8,11,15 favored for GR transactivation"
+      },
+      {
+        "axis_id": 16,
+        "decision": "shift",
+        "targets": [
+          [
+            3,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A16/C3"
+        ],
+        "reason": "Strong up effects on G1428/G1467 consistent with GR activation"
+      },
+      {
+        "axis_id": 17,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A17/C7"
+        ],
+        "reason": "Large up effects on G0403/G1511 support GR-driven transcription"
+      },
+      {
+        "axis_id": 18,
+        "decision": "shift",
+        "targets": [
+          [
+            11,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A18/C11"
+        ],
+        "reason": "Strong up effects on G1958/G1130/G1909"
+      },
+      {
+        "axis_id": 19,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A19/C4"
+        ],
+        "reason": "Large up effects on G0506/G1345"
+      },
+      {
+        "axis_id": 20,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A20/C4"
+        ],
+        "reason": "Strong up effects on G0541/G0413/G1041"
+      },
+      {
+        "axis_id": 21,
+        "decision": "shift",
+        "targets": [
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A21/C0"
+        ],
+        "reason": "Large up effects on G0372"
+      },
+      {
+        "axis_id": 22,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A22/C8"
+        ],
+        "reason": "Up effects on G1298/G1803"
+      },
+      {
+        "axis_id": 23,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A23/C2"
+        ],
+        "reason": "Up effects on G1239/G1077"
+      },
+      {
+        "axis_id": 24,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A24/C13"
+        ],
+        "reason": "Strong up-effects (G1200/G0592) support GR activation states"
+      },
+      {
+        "axis_id": 25,
+        "decision": "shift",
+        "targets": [
+          [
+            6,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A25/C6"
+        ],
+        "reason": "Up G1281/G1424 consistent with GR transcriptional activation"
+      },
+      {
+        "axis_id": 26,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A26/C10"
+        ],
+        "reason": "Up G1787/G0348 support GR-activated states"
+      },
+      {
+        "axis_id": 27,
+        "decision": "shift",
+        "targets": [
+          [
+            14,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A27/C14"
+        ],
+        "reason": "Up G1417/G1869 align with GR activation program"
+      },
+      {
+        "axis_id": 28,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A28/C10"
+        ],
+        "reason": "Up G0192/G0442 support GR-driven transcription"
+      },
+      {
+        "axis_id": 29,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A29/C12"
+        ],
+        "reason": "Up G1295/G0451 consistent with GR activation"
+      },
+      {
+        "axis_id": 30,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A30/C8"
+        ],
+        "reason": "Up G0685/G1051 support GR-activated states"
+      },
+      {
+        "axis_id": 31,
+        "decision": "shift",
+        "targets": [
+          [
+            9,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A31/C9"
+        ],
+        "reason": "Up G0388/G1177 align with GR activation"
+      }
+    ],
+    "summary": "Shift each axis toward its strongest positive-weight state, consistent with GR transcriptional activation (H2); NF-kB transrepression (H1) not resolvable at state level. | Favor GR-activation up states and NF-kB-repression down states across axes 8-15; directions follow H1/H2 with anonymous features unmapped. | Shift toward states with strong positive GR-activation signatures (H2) across axes 16-23; NF-kB transrepression (H1) not resolvable at anonymous state level. | Shift toward states with strong positive GR-activation signatures across axes 24-31; NF-kB transrepression direction not resolvable from anonymous features.",
+    "limitations": [
+      "Anonymous features unmapped to genes; no signed A549 response list.",
+      "State effects are decoder contributions, not causal observations.",
+      "NF-kB transrepression direction not identifiable from these axes.",
+      "No A549 dexamethasone expression profile or signed gene list.",
+      "Anonymous features cannot be mapped to genes.",
+      "State weights are decoder contributions, not causal effects.",
+      "Anonymous features unmapped to genes; directions inferred from signed effects only.",
+      "No A549 dexamethasone expression profile supplied.",
+      "State weights are decoder contributions, not causal observations.",
+      "Anonymous features unmapped to genes; directions inferred from effect signs only.",
+      "NF-kB transrepression (H1) not separable from GR activation in these states."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 32,
+      "keep": 0,
+      "unknown": 0
+    },
+    "delta_l2": 7.669886104771325,
+    "standardized_delta_rms": 0.20937018455975046,
+    "axis_tv": [
+      0.24857142857142858,
+      0.23142857142857146,
+      0.2742857142857143,
+      0.2828571428571428,
+      0.2914285714285714,
+      0.27428571428571424,
+      0.30000000000000004,
+      0.30000000000000004,
+      0.20571428571428568,
+      0.28285714285714286,
+      0.2914285714285715,
+      0.2485714285714286,
+      0.24857142857142858,
+      0.26571428571428574,
+      0.27428571428571435,
+      0.24857142857142858,
+      0.23142857142857143,
+      0.26571428571428574,
+      0.2914285714285715,
+      0.26571428571428574,
+      0.2914285714285715,
+      0.20571428571428574,
+      0.2142857142857143,
+      0.2742857142857143,
+      0.22285714285714286,
+      0.28285714285714286,
+      0.30000000000000004,
+      0.18,
+      0.30000000000000004,
+      0.2914285714285714,
+      0.28285714285714286,
+      0.2571428571428571
+    ],
+    "mean_axis_tv": 0.2633035714285714,
+    "top_gene_changes": {
+      "up": [
+        {
+          "feature": "G0725",
+          "delta": 0.51307,
+          "scaled_delta": 0.5469
+        },
+        {
+          "feature": "G1909",
+          "delta": 0.44277,
+          "scaled_delta": 0.52932
+        },
+        {
+          "feature": "G1130",
+          "delta": 0.50193,
+          "scaled_delta": 0.52307
+        },
+        {
+          "feature": "G0192",
+          "delta": 0.67978,
+          "scaled_delta": 0.5201
+        },
+        {
+          "feature": "G1000",
+          "delta": 0.51846,
+          "scaled_delta": 0.50677
+        },
+        {
+          "feature": "G1840",
+          "delta": 0.43555,
+          "scaled_delta": 0.49231
+        },
+        {
+          "feature": "G1773",
+          "delta": 0.45202,
+          "scaled_delta": 0.48691
+        },
+        {
+          "feature": "G0442",
+          "delta": 0.42881,
+          "scaled_delta": 0.4844
+        },
+        {
+          "feature": "G1045",
+          "delta": 0.35284,
+          "scaled_delta": 0.47354
+        },
+        {
+          "feature": "G1014",
+          "delta": 0.44101,
+          "scaled_delta": 0.46882
+        }
+      ],
+      "down": []
+    },
+    "hypothesis_gene_checks": "Unavailable without feature semantics; anonymous IDs cannot be mapped to hypothesis gene names.",
+    "cross_axis_cancellation": [
+      {
+        "feature": "G0574",
+        "summed_delta": 0.12493779784450963,
+        "absolute_axis_sum": 0.29961587213628393
+      },
+      {
+        "feature": "G0210",
+        "summed_delta": 0.1714809332449554,
+        "absolute_axis_sum": 0.301222907478472
+      },
+      {
+        "feature": "G0197",
+        "summed_delta": 0.1906092413914406,
+        "absolute_axis_sum": 0.28526810872505715
+      },
+      {
+        "feature": "G0754",
+        "summed_delta": 0.02505078950262288,
+        "absolute_axis_sum": 0.09253626486250663
+      },
+      {
+        "feature": "G0881",
+        "summed_delta": 0.05378147008142795,
+        "absolute_axis_sum": 0.12230402616497096
+      },
+      {
+        "feature": "G0756",
+        "summed_delta": 0.08282789779860253,
+        "absolute_axis_sum": 0.1617630805743725
+      }
+    ]
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "44f436a6dd09a1b0cb4be03616fef28f21c96a84e6020776e7b421a32fb561fd",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "af7f1aa20fa3928e2123c6f2099e51441d6a7a884033cefef9a621c0d908e18e",
+      "response_sha256": "96828373b9a1b32e4731bf65ae161bbb982ca6fe16b365ac249246dd6d01f655"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "875e81f60458682740e6880a523d81d86779bc37662be7448c772888e7e3de00",
+      "response_sha256": "1c95ebf26ffaa4bd23801b9ffc57aa7ac0d71099318c0c95600c5759e4711c2a"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "a66a376f55a132f342870dc5ee0d2f5bb74c6b0d44b2c769f5beb539c5d2e57f",
+      "response_sha256": "430495d784cf433e876b4287201997c20f629c7d7c8ce9556256bd7e683a863b"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "ed36a677601f5d6e78abe55c16adaed455794071cc285b090474ae3d039073fe",
+      "response_sha256": "546444c1425582afaf11cd021ce0d747a01aacf2fea5a61d909fb367041b536f"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "b5a583f3b2c15b9cfffafe183d99f78bc815bfa2d01240d59c8508e640164447",
+      "response_sha256": "c0c57cce09b2f52b15a54afd08afb44a5e8d114b50549bf24c237efd235e98ee"
+    }
+  ],
+  "attempts_used": 5,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/no_semantics/P17495dd70e44/local.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "e76bc6f4f832cc86204cd63137249444214a901d882ddd1916e3ab9819a26a72"
+}

@@ -1,0 +1,140 @@
+{
+  "public_case_id": "P2573b4ab3d22",
+  "request": {
+    "dose_uM": 5.0,
+    "exposure_hours": 24.0,
+    "cell_context": "A549 human lung adenocarcinoma cell line"
+  },
+  "mechanism_card": {
+    "drug_name": "BMS-345541",
+    "targets": [
+      "IKK alpha / CHUK",
+      "IKK beta / IKBKB"
+    ],
+    "action": "Allosteric inhibition of I-kappa-B kinase catalytic activity.",
+    "mechanism": "IKK inhibition can impede canonical NF-kappa-B activation and thereby reduce NF-kappa-B-dependent transcription when this pathway is active.",
+    "context_caveats": [
+      "Baseline pathway activation and exposure influence response.",
+      "Inhibition of a kinase does not establish a decrease in its own transcript.",
+      "No quantitative expression response is supplied for A549 at this dose or duration."
+    ],
+    "literal_program_terms": [
+      {
+        "text": "NF-kappa-B",
+        "direction": "down"
+      }
+    ],
+    "sources": [
+      {
+        "id": "M1",
+        "title": "BMS-345541 is a highly selective inhibitor of I kappa B kinase that binds at an allosteric site",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12403772/",
+        "doi": "10.1074/jbc.M209677200"
+      }
+    ]
+  },
+  "control_summary": {
+    "n_control": 53,
+    "normalization": "log1p(CP10K)",
+    "most_abundant_genes": [
+      {
+        "gene_id": "ENSG00000113448.18",
+        "symbol": "PDE4D",
+        "anonymous_id": "G0836",
+        "mean_expression": 4.44873
+      },
+      {
+        "gene_id": "ENSG00000165092.12",
+        "symbol": "ALDH1A1",
+        "anonymous_id": "G1935",
+        "mean_expression": 3.85048
+      },
+      {
+        "gene_id": "ENSG00000198938.2",
+        "symbol": "MT-CO3",
+        "anonymous_id": "G1096",
+        "mean_expression": 3.82595
+      },
+      {
+        "gene_id": "ENSG00000245532.7",
+        "symbol": "NEAT1",
+        "anonymous_id": "G1787",
+        "mean_expression": 3.37553
+      },
+      {
+        "gene_id": "ENSG00000198727.2",
+        "symbol": "MT-CYB",
+        "anonymous_id": "G0352",
+        "mean_expression": 3.19049
+      },
+      {
+        "gene_id": "ENSG00000151632.17",
+        "symbol": "AKR1C2",
+        "anonymous_id": "G0953",
+        "mean_expression": 3.15173
+      },
+      {
+        "gene_id": "ENSG00000278217.1",
+        "symbol": "MALAT1",
+        "anonymous_id": "G0348",
+        "mean_expression": 3.13377
+      },
+      {
+        "gene_id": "ENSG00000198074.9",
+        "symbol": "AKR1B10",
+        "anonymous_id": "G1633",
+        "mean_expression": 3.05741
+      },
+      {
+        "gene_id": "ENSG00000067225.17",
+        "symbol": "PKM",
+        "anonymous_id": "G0971",
+        "mean_expression": 3.04512
+      },
+      {
+        "gene_id": "ENSG00000074800.13",
+        "symbol": "ENO1",
+        "anonymous_id": "G0474",
+        "mean_expression": 3.01715
+      },
+      {
+        "gene_id": "ENSG00000160211.15",
+        "symbol": "G6PD",
+        "anonymous_id": "G1512",
+        "mean_expression": 2.9664
+      },
+      {
+        "gene_id": "ENSG00000087086.14",
+        "symbol": "FTL",
+        "anonymous_id": "G0701",
+        "mean_expression": 2.93562
+      }
+    ],
+    "limitation": "Untreated population only; expression does not establish protein activity or genotype"
+  },
+  "provenance": {
+    "version": "pure-mechanism-inputs-v1",
+    "work": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose",
+    "source_paths": {
+      "effects": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/lexa/exact_code_effects.npz",
+      "baseline": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/lexa/baseline.npz",
+      "state_labels": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/lexa/labels.json",
+      "cases": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/prepared/cases.json",
+      "axis_annotations": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/axis_annotations.json",
+      "mechanisms": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/mechanism_cards_v4.json"
+    },
+    "source_sha256": {
+      "effects": "5bd0da54ddcceae0a4ea40d2f260b4d2acbd7b2d7a2eb2da97caeb75efb117fd",
+      "baseline": "fc7bf87c95b105da613b312fd76a3b4ee459f1aa064a9d7e495852c22e598f75",
+      "state_labels": "5ee78dadc0b1aaf061f3a023390644e0228b9c7e7faf737329cbb8dab8c3dde9",
+      "cases": "493aa96ab615615a046148cf85ee57b68c5d2ea86b72443440de78e5e7d8b8c1",
+      "axis_annotations": "85f325f61fab0fee7322e947ce82d46cacd78e346c704f745378071a3f5174fd",
+      "mechanisms": "9675927a4d025f7437964d50f66f1fb9dfab395ebdc890b5abfb4f0162442424"
+    },
+    "implementation_sha256": "904306ca7feb6ecdfc7ed57262f8a36929e668dc7a9184d5a15ff4a77ce0baf2",
+    "anonymous_gene_seed": 20261027,
+    "condition_response_retrieval": false,
+    "heldout_expression_accessed": false
+  },
+  "information_boundary": "Control+frozen code meanings+general drug mechanism only; no treatment responses or dose interpolation"
+}

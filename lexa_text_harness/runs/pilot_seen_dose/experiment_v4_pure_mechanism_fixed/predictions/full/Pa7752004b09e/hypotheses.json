@@ -1,0 +1,87 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "histone acetylation / chromatin regulation",
+      "direction": "increase",
+      "basis": "direct",
+      "conditions": "A549, 5 uM SAHA, 24 h",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "SAHA inhibits zinc-dependent HDAC catalytic activity, expected to raise acetylation-dependent chromatin regulation."
+    },
+    {
+      "id": "H2",
+      "program": "HDAC target gene transcription",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "context dependent; no measured signature",
+      "gene_expectations": [
+        {
+          "gene": "PDE4D",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "ALDH1A1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "TXNRD1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "C"
+      ],
+      "reason": "Acetylation changes may alter transcription, but direction/magnitude is context dependent and unmeasured."
+    },
+    {
+      "id": "H3",
+      "program": "HDAC transcript levels",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "unknown isoform engagement",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "Catalytic inhibition does not imply lowered HDAC mRNA; transcript direction is unknown."
+    },
+    {
+      "id": "H4",
+      "program": "oxidative/metabolic stress response",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549 baseline expression only",
+      "gene_expectations": [
+        {
+          "gene": "TXNRD1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "ENO1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "These genes are expressed at baseline; no treatment-linked direction can be inferred."
+    }
+  ],
+  "summary": "Direct expectation is increased acetylation-dependent chromatin regulation; downstream transcriptional directions remain uncertain and context dependent.",
+  "limitations": [
+    "No measured treatment response or dose trajectory provided.",
+    "Structural source uses an HDAC homologue; isoform engagement unspecified.",
+    "Baseline expression does not establish perturbation direction."
+  ]
+}

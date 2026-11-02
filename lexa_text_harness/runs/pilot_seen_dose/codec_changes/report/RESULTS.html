@@ -1,0 +1,90 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>真实扰动code与编解码诊断</title><style>body{font-family:system-ui,sans-serif;max-width:1400px;margin:32px auto;padding:0 24px;line-height:1.6;color:#24303c}figure{margin:28px 0}img{width:100%;height:auto;border:1px solid #edf0f4}figcaption{color:#52616e;font-size:14px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;background:#f4f6f8;padding:18px;border-radius:8px}h2{margin-top:32px}</style><h1>真实扰动前后code及编解码趋势</h1><section><h2>这次检查了什么</h2><pre>直接比较真实处理细胞与匹配对照的离散code占用，再把两组都送入同一个冻结LEXA编解码器，检查真实基因变化有多少保留下来。这里没有DeepSeek生成或修改code，也不评价LLM的扰动预测。
+来源：/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/codec_changes
+报告时间（Asia/Shanghai）：2026-10-26T20:42:56+08:00
+固定24小时，A549，4种药物，32轴×16状态，训练选出的2000个基因。优先看留出的5 µM；其余剂量仅用于观察数据中的剂量趋势。
+复现绘图命令：python plot_codec_changes.py --analysis /cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/codec_changes --output /cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/codec_changes/report</pre></section><section><h2>5 µM的可核验观察</h2><pre>BMS 5 µM：占用变化最大的两个轴为轴12（TV=0.853）、轴0（TV=0.848）；孔等权平均基因变化向量经过编解码后 Pearson=0.872，L2幅度保留=0.764，沿真实响应方向的投影系数=0.697。
+Dex 5 µM：占用变化最大的两个轴为轴2（TV=0.588）、轴31（TV=0.582）；孔等权平均基因变化向量经过编解码后 Pearson=0.780，L2幅度保留=0.729，沿真实响应方向的投影系数=0.570。
+Nutlin 5 µM：占用变化最大的两个轴为轴19（TV=0.910）、轴9（TV=0.760）；孔等权平均基因变化向量经过编解码后 Pearson=0.878，L2幅度保留=0.860，沿真实响应方向的投影系数=0.755。
+SAHA 5 µM：占用变化最大的两个轴为轴18（TV=0.947）、轴4（TV=0.945）；孔等权平均基因变化向量经过编解码后 Pearson=0.971，L2幅度保留=0.935，沿真实响应方向的投影系数=0.907。</pre></section><figure><a href="01_axis_tv_5uM.png"><img src="01_axis_tv_5uM.png" alt="先看哪些轴的状态分布改变：四种药物×32轴；各轴TV由孔等权平均占用计算。白框为各药物的前两个轴。"></a><figcaption>先看哪些轴的状态分布改变：四种药物×32轴；各轴TV由孔等权平均占用计算。白框为各药物的前两个轴。</figcaption></figure><figure><a href="02_state_occupancy_delta_5uM.png"><img src="02_state_occupancy_delta_5uM.png" alt="再看哪些状态变多/变少：每个药物展示32×16状态，共用同一正负色标；颜色是比例差，不是基因表达方向。"></a><figcaption>再看哪些状态变多/变少：每个药物展示32×16状态，共用同一正负色标；颜色是比例差，不是基因表达方向。</figcaption></figure><figure><a href="03_top_axes_state_distributions_5uM.png"><img src="03_top_axes_state_distributions_5uM.png" alt="每种药物的前两个轴展示全部16状态，对照与真实处理组并排；同时标TV及基因效应L2。"></a><figcaption>每种药物的前两个轴展示全部16状态，对照与真实处理组并排；同时标TV及基因效应L2。</figcaption></figure><figure><a href="04_observed_dose_trends.png"><img src="04_observed_dose_trends.png" alt="描述性剂量趋势：相对各自matched control的TV和状态占用差；横轴log10(1+剂量/µM)，每点标well数。浅色线为可用plate/replicate轨迹；粉红为留出5 µM，灰色为已见剂量。轴/状态由5 µM变化选择，不用于预测评分。"></a><figcaption>描述性剂量趋势：相对各自matched control的TV和状态占用差；横轴log10(1+剂量/µM)，每点标well数。浅色线为可用plate/replicate轨迹；粉红为留出5 µM，灰色为已见剂量。轴/状态由5 µM变化选择，不用于预测评分。</figcaption></figure><figure><a href="05_gene_delta_retention_5uM.png"><img src="05_gene_delta_retention_5uM.png" alt="真实基因变化与编解码后变化的散点；每点一个基因。标的是孔等权平均变化向量的相关、幅度比和投影，不是逐孔metric均值。"></a><figcaption>真实基因变化与编解码后变化的散点；每点一个基因。标的是孔等权平均变化向量的相关、幅度比和投影，不是逐孔metric均值。</figcaption></figure><figure><a href="06_top_signed_gene_deltas_5uM.png"><img src="06_top_signed_gene_deltas_5uM.png" alt="每药物真实变化幅度最大的12个基因，保留正负方向比较原始响应与重建响应；不是统计显著差异基因名单。"></a><figcaption>每药物真实变化幅度最大的12个基因，保留正负方向比较原始响应与重建响应；不是统计显著差异基因名单。</figcaption></figure><section><h2>全剂量中的状态变化</h2><pre>Nutlin 轴9状态10：相对匹配对照的占用差在5 µM为+0.633，到50 µM为-0.018；该高剂量轴TV仍为0.803。单一状态的占用并不随剂量一直增加，其他状态可能承担高剂量响应；这里只描述观测，不推定单细胞转移或剂量因果关系。
+SAHA 轴18状态4：相对匹配对照的占用差在10 µM为+0.839，到100 µM为+0.003；该高剂量轴TV仍为0.879。单一状态的占用并不随剂量一直增加，其他状态可能承担高剂量响应；这里只描述观测，不推定单细胞转移或剂量因果关系。
+SAHA 轴4状态11：相对匹配对照的占用差在1 µM为+0.926，到100 µM为+0.099；该高剂量轴TV仍为0.898。单一状态的占用并不随剂量一直增加，其他状态可能承担高剂量响应；这里只描述观测，不推定单细胞转移或剂量因果关系。</pre></section><section><h2>各剂量样本范围</h2><pre>  drug   dose_uM     split  seen_in_training  n_wells  n_control  n_treated  training_wells  validation_wells  test_wells
+   BMS   0.10000 train+val              True        6        416        419               4                 2           0
+   BMS   0.50000 train+val              True        6        416        329               4                 2           0
+   BMS   1.00000 train+val              True        6        416        231               4                 2           0
+   BMS   5.00000      test             False        4        297         95               0                 0           4
+   BMS  10.00000 train+val              True        2        147         42               1                 1           0
+   Dex   0.10000     train              True        1         35         33               1                 0           0
+   Dex   0.50000 train+val              True        3        125        133               1                 2           0
+   Dex   1.00000 train+val              True        3        125        289               1                 2           0
+   Dex   5.00000      test             False        4        178        237               0                 0           4
+   Dex  10.00000 train+val              True        3        120        224               2                 1           0
+   Dex  50.00000 train+val              True        5        233        509               3                 2           0
+   Dex 100.00000 train+val              True        5        233        459               3                 2           0
+Nutlin   0.10000 train+val              True        5        268        231               3                 2           0
+Nutlin   0.50000 train+val              True        4        212        183               2                 2           0
+Nutlin   1.00000 train+val              True        5        258        341               4                 1           0
+Nutlin   5.00000      test             False        4        202        274               0                 0           4
+Nutlin  10.00000 train+val              True        4        211        377               3                 1           0
+Nutlin  50.00000 train+val              True        5        265        171               3                 2           0
+  SAHA   0.10000 train+val              True        6        432        367               4                 2           0
+  SAHA   0.50000 train+val              True        5        364        259               4                 1           0
+  SAHA   1.00000 train+val              True        5        342        342               3                 2           0
+  SAHA   5.00000      test             False        4        274        180               0                 0           4
+  SAHA  10.00000 train+val              True        5        342        243               3                 2           0
+  SAHA  50.00000 train+val              True        6        432        419               4                 2           0
+  SAHA 100.00000 train+val              True        5        367        257               4                 1           0
+完整条件可用性（无ready孔的条件只列缺失，不计算响应指标）：
+           condition_id   drug   dose_uM  n_annotated_valid_wells  n_ready_wells  n_excluded_wells  n_zero_qc_cells_wells  n_qc_surviving_treated_cells  n_ready_treated_cells  condition_seen_in_training         status
+   drug=BMS|dose_uM=0.1    BMS   0.10000                        6              6                 0                      0                           419                    419                        True          ready
+   drug=BMS|dose_uM=0.5    BMS   0.50000                        6              6                 0                      0                           329                    329                        True          ready
+     drug=BMS|dose_uM=1    BMS   1.00000                        6              6                 0                      0                           231                    231                        True          ready
+     drug=BMS|dose_uM=5    BMS   5.00000                        6              4                 2                      0                           112                     95                       False          ready
+    drug=BMS|dose_uM=10    BMS  10.00000                        6              2                 4                      0                            95                     42                        True          ready
+    drug=BMS|dose_uM=50    BMS  50.00000                        6              0                 6                      3                             8                      0                        True no_ready_wells
+   drug=BMS|dose_uM=100    BMS 100.00000                        6              0                 6                      1                             8                      0                        True no_ready_wells
+   drug=Dex|dose_uM=0.1    Dex   0.10000                        6              1                 5                      0                           141                     33                        True          ready
+   drug=Dex|dose_uM=0.5    Dex   0.50000                        6              3                 3                      1                           183                    133                        True          ready
+     drug=Dex|dose_uM=1    Dex   1.00000                        6              3                 3                      0                           390                    289                        True          ready
+     drug=Dex|dose_uM=5    Dex   5.00000                        6              4                 2                      0                           395                    237                       False          ready
+    drug=Dex|dose_uM=10    Dex  10.00000                        6              3                 3                      0                           327                    224                        True          ready
+    drug=Dex|dose_uM=50    Dex  50.00000                        6              5                 1                      0                           618                    509                        True          ready
+   drug=Dex|dose_uM=100    Dex 100.00000                        6              5                 1                      0                           562                    459                        True          ready
+drug=Nutlin|dose_uM=0.1 Nutlin   0.10000                        6              5                 1                      0                           245                    231                        True          ready
+drug=Nutlin|dose_uM=0.5 Nutlin   0.50000                        6              4                 2                      0                           199                    183                        True          ready
+  drug=Nutlin|dose_uM=1 Nutlin   1.00000                        6              5                 1                      0                           359                    341                        True          ready
+  drug=Nutlin|dose_uM=5 Nutlin   5.00000                        6              4                 2                      0                           294                    274                       False          ready
+ drug=Nutlin|dose_uM=10 Nutlin  10.00000                        6              4                 2                      0                           397                    377                        True          ready
+ drug=Nutlin|dose_uM=50 Nutlin  50.00000                        6              5                 1                      0                           178                    171                        True          ready
+drug=Nutlin|dose_uM=100 Nutlin 100.00000                        6              0                 6                      4                             3                      0                        True no_ready_wells
+  drug=SAHA|dose_uM=0.1   SAHA   0.10000                        6              6                 0                      0                           367                    367                        True          ready
+  drug=SAHA|dose_uM=0.5   SAHA   0.50000                        6              5                 1                      0                           266                    259                        True          ready
+    drug=SAHA|dose_uM=1   SAHA   1.00000                        6              5                 1                      0                           361                    342                        True          ready
+    drug=SAHA|dose_uM=5   SAHA   5.00000                        6              4                 2                      0                           200                    180                       False          ready
+   drug=SAHA|dose_uM=10   SAHA  10.00000                        6              5                 1                      0                           256                    243                        True          ready
+   drug=SAHA|dose_uM=50   SAHA  50.00000                        6              6                 0                      0                           419                    419                        True          ready
+  drug=SAHA|dose_uM=100   SAHA 100.00000                        5              5                 0                      0                           257                    257                        True          ready</pre></section><section><h2>变化最大的轴与状态</h2><pre>  drug  axis_id  TV_of_mean_occupancy  mean_well_TV  axis_gene_effect_L2  state_increase  increase_fraction  state_decrease  decrease_fraction
+   BMS       12               0.85346       0.86517              1.50290               3            0.78363               8           -0.19271
+   BMS        0               0.84753       0.87825              3.01020              10            0.84753               0           -0.18943
+   Dex        2               0.58777       0.62238              1.40088              13            0.19575               4           -0.17978
+   Dex       31               0.58162       0.61284              1.45332               4            0.26940              14           -0.09965
+Nutlin       19               0.91026       0.92216              4.00282               4            0.91026              13           -0.23760
+Nutlin        9               0.75971       0.79443              1.73551              10            0.63310               6           -0.15601
+  SAHA       18               0.94676       0.94676              6.42156               4            0.78053               8           -0.22896
+  SAHA        4               0.94491       0.95001              4.78528              11            0.89106               5           -0.20001
+轴排名按5 µM条件的TV选择，属于描述性展示。TV_of_mean_occupancy先孔等权平均占用分布再算TV；mean_well_TV先逐孔算TV再平均，两者不同。state_increase/decrease表示群体占用比例增减，不表示同一个细胞的转移，也不直接表示基因上调/下调。</pre></section><section><h2>编解码保留：两种聚合方式分开看</h2><pre>         condition_id   drug  dose_uM  n_wells  mean_vector_pearson  mean_vector_l2_retention  mean_vector_projection_slope  mean_vector_delta_rmse  mean_well_delta_pearson  mean_well_response_l2_ratio  mean_well_response_projection_slope  mean_well_delta_rmse  mean_well_direction_agreement  mean_well_top100_direction_agreement
+   drug=BMS|dose_uM=5    BMS  5.00000        4              0.87197                   0.76383                       0.69716                 0.20206                  0.79736                      0.71887                              0.61620               0.26436                        0.86920                               0.96500
+   drug=Dex|dose_uM=5    Dex  5.00000        4              0.78001                   0.72871                       0.57035                 0.09942                  0.59280                      0.56330                              0.33360               0.17119                        0.64651                               0.94500
+drug=Nutlin|dose_uM=5 Nutlin  5.00000        4              0.87849                   0.85961                       0.75536                 0.09300                  0.74362                      0.73037                              0.54589               0.15540                        0.69473                               0.97500
+  drug=SAHA|dose_uM=5   SAHA  5.00000        4              0.97054                   0.93541                       0.90708                 0.11437                  0.93795                      0.90434                              0.84774               0.16817                        0.85901                               1.00000
+mean_vector：先对每个well的基因变化向量等权平均，再计算一次相关和幅度；散点图使用此定义。mean_well：先逐well计算metric，再对well等权平均，与原表示诊断口径对齐。两者一般不相等，不能相互替代。
+L2 retention=||decoded delta||₂/||observed delta||₂，只看幅度；接近1仍可能方向错误，需结合Pearson和projection slope。projection slope=&lt;observed,decoded&gt;/||observed||₂²。
+各轴基因效应相加与总decoded delta的一致性最大绝对误差：3.47e-07。</pre></section><section><h2>解释图时要注意</h2><pre>1. 所有状态编号都是类别，没有大小、剂量或时间顺序；折线只连接同一轴/状态在各剂量的观测，不把状态编号当连续坐标。
+2. 占用变化：先算每个well中16种状态的比例，再孔等权平均；TV=0.5×Σ|p处理−p对照|。群体占用变化不能恢复单个细胞的前后转移，所以不画Sankey。
+3. TV大表示分布变得多，不能直接说明基因效应更大；gene-effect L2需单独查看，轴间贡献可能叠加或抵消。
+4. 正负占用变化不是基因表达上调/下调。基因响应必须经解码器的源/目标状态贡献差及群体占用共同计算。文字状态名只是数值证据的解释。
+5. 5 µM在词典训练时留出；其余剂量的训练/验证细胞已用于模型拟合或选择。全剂量图不构成模型跨剂量泛化成绩，连线也不是拟合的剂量响应模型。
+各剂量可用ready well集合和细胞样本数可能不同，趋势也受这些变化影响；不能据单调线断言剂量因果关系或编辑fraction已经校准。浅色well轨迹按可用plate/replicate连接，不代表同一个细胞前后配对。
+6. 这次检查编码了真实处理组，属于观察性编解码诊断，既不是药物预测，也不是编辑器最优效果的数学上界。
+7. 单细胞测量没有同一细胞前后配对；culture well标签不自动证明独立biological replicate。本报告不把单细胞当作独立重复做显著性检验。
+8. 只分析2000个训练选择基因与pilot缩小架构；重建或响应相关良好不证明状态具有因果机制，不能推广为全转录组或论文复现。
+9. 看过这些真实留出响应后再改词典或prompt会消耗测试集；后续效果结论需新的独立测试。</pre></section></html>

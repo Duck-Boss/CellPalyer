@@ -1,0 +1,1550 @@
+{
+  "status": "completed",
+  "case_id": "drug=BMS|dose_uM=5|plate=B|replicate=2",
+  "opaque_id": "P992f5a8683f4",
+  "arm": "no_semantics",
+  "stage": "local",
+  "fingerprint": "b6dd7a67137ef6041977f01aa6528e8cb2004c55d8857f926a7fd8d17f8619a1",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A0/C2"
+      ],
+      "reason": "NF-kB program down; state 2 has strong up weights"
+    },
+    {
+      "axis_id": 1,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A1/C1"
+      ],
+      "reason": "NF-kB-dependent transcription decrease; state 1 up-weighted"
+    },
+    {
+      "axis_id": 2,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A2/C7"
+      ],
+      "reason": "Strong up state consistent with reduced NF-kB output"
+    },
+    {
+      "axis_id": 3,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A3/C2"
+      ],
+      "reason": "Up-weighted state aligns with lowered NF-kB transcription"
+    },
+    {
+      "axis_id": 4,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A4/C12"
+      ],
+      "reason": "Strong up state; NF-kB decrease supported"
+    },
+    {
+      "axis_id": 5,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A5/C11"
+      ],
+      "reason": "Up-weighted state consistent with NF-kB inhibition"
+    },
+    {
+      "axis_id": 6,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A6/C10"
+      ],
+      "reason": "Strong up state; canonical NF-kB decrease"
+    },
+    {
+      "axis_id": 7,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A7/C7"
+      ],
+      "reason": "Up-weighted state aligns with reduced NF-kB transcription"
+    },
+    {
+      "axis_id": 8,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A8/C11"
+      ],
+      "reason": "Strongest down NF-kappa-B-linked features in states 11/10/0"
+    },
+    {
+      "axis_id": 9,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A9/C14"
+      ],
+      "reason": "States 14/10/13 show largest up/down program shifts"
+    },
+    {
+      "axis_id": 10,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A10/C13"
+      ],
+      "reason": "States 13/9/14 carry strongest opposing feature effects"
+    },
+    {
+      "axis_id": 11,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A11/C4"
+      ],
+      "reason": "States 4/10/2 show largest up-feature contributions"
+    },
+    {
+      "axis_id": 12,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A12/C1"
+      ],
+      "reason": "States 1/13/7 have strongest up-feature effects"
+    },
+    {
+      "axis_id": 13,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A13/C0"
+      ],
+      "reason": "States 0/15/6 show largest up-feature contributions"
+    },
+    {
+      "axis_id": 14,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A14/C6"
+      ],
+      "reason": "States 6/2/3 carry strongest up-feature effects"
+    },
+    {
+      "axis_id": 15,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A15/C8"
+      ],
+      "reason": "States 8/3/12 show largest up-feature contributions"
+    },
+    {
+      "axis_id": 16,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A16/C1"
+      ],
+      "reason": "Strong up-effects on G0370/G1428 align with NF-kB program states"
+    },
+    {
+      "axis_id": 17,
+      "decision": "shift",
+      "targets": [
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A17/C7"
+      ],
+      "reason": "Up-weighted G0403/G1511 states fit NF-kB-dependent transcription"
+    },
+    {
+      "axis_id": 18,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A18/C11"
+      ],
+      "reason": "Large up-effects on G1130/G1958/G1909 support program shift"
+    },
+    {
+      "axis_id": 19,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A19/C4"
+      ],
+      "reason": "Up-weighted G1345/G0506 states consistent with NF-kB output"
+    },
+    {
+      "axis_id": 20,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A20/C4"
+      ],
+      "reason": "Up-effects on G0541/G1041/G0413 support program states"
+    },
+    {
+      "axis_id": 21,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A21/C0"
+      ],
+      "reason": "Strong up-effects on G0372 mark NF-kB-responsive states"
+    },
+    {
+      "axis_id": 22,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A22/C8"
+      ],
+      "reason": "Up-weighted G1096/G1298/G1803 states fit program"
+    },
+    {
+      "axis_id": 23,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A23/C2"
+      ],
+      "reason": "Up-effects on G1239/G0445/G1077 support NF-kB states"
+    },
+    {
+      "axis_id": 24,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A24/C13"
+      ],
+      "reason": "States 13/6/1 show strong up-drive on NF-kB-linked features"
+    },
+    {
+      "axis_id": 25,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A25/C6"
+      ],
+      "reason": "States 6/13/0 carry largest up-weights on shared features"
+    },
+    {
+      "axis_id": 26,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A26/C0"
+      ],
+      "reason": "States 0/11/10 show strongest up-drive on G0348/G1787"
+    },
+    {
+      "axis_id": 27,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A27/C14"
+      ],
+      "reason": "States 14/5/2 have largest up-weights on G1417/G1354"
+    },
+    {
+      "axis_id": 28,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A28/C10"
+      ],
+      "reason": "States 10/14/6 show strongest up-drive on G0192/G0442"
+    },
+    {
+      "axis_id": 29,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A29/C12"
+      ],
+      "reason": "States 12/14/13 carry largest up-weights on G1295"
+    },
+    {
+      "axis_id": 30,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A30/C8"
+      ],
+      "reason": "States 8/12/13 show strongest up-drive on G0685"
+    },
+    {
+      "axis_id": 31,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A31/C9"
+      ],
+      "reason": "States 9/12/3 have largest up-weights on G0388"
+    }
+  ],
+  "response": {
+    "decisions": [
+      {
+        "axis_id": 0,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A0/C2"
+        ],
+        "reason": "NF-kB program down; state 2 has strong up weights"
+      },
+      {
+        "axis_id": 1,
+        "decision": "shift",
+        "targets": [
+          [
+            1,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A1/C1"
+        ],
+        "reason": "NF-kB-dependent transcription decrease; state 1 up-weighted"
+      },
+      {
+        "axis_id": 2,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A2/C7"
+        ],
+        "reason": "Strong up state consistent with reduced NF-kB output"
+      },
+      {
+        "axis_id": 3,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A3/C2"
+        ],
+        "reason": "Up-weighted state aligns with lowered NF-kB transcription"
+      },
+      {
+        "axis_id": 4,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A4/C12"
+        ],
+        "reason": "Strong up state; NF-kB decrease supported"
+      },
+      {
+        "axis_id": 5,
+        "decision": "shift",
+        "targets": [
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A5/C11"
+        ],
+        "reason": "Up-weighted state consistent with NF-kB inhibition"
+      },
+      {
+        "axis_id": 6,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A6/C10"
+        ],
+        "reason": "Strong up state; canonical NF-kB decrease"
+      },
+      {
+        "axis_id": 7,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A7/C7"
+        ],
+        "reason": "Up-weighted state aligns with reduced NF-kB transcription"
+      },
+      {
+        "axis_id": 8,
+        "decision": "shift",
+        "targets": [
+          [
+            11,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A8/C11"
+        ],
+        "reason": "Strongest down NF-kappa-B-linked features in states 11/10/0"
+      },
+      {
+        "axis_id": 9,
+        "decision": "shift",
+        "targets": [
+          [
+            14,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A9/C14"
+        ],
+        "reason": "States 14/10/13 show largest up/down program shifts"
+      },
+      {
+        "axis_id": 10,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A10/C13"
+        ],
+        "reason": "States 13/9/14 carry strongest opposing feature effects"
+      },
+      {
+        "axis_id": 11,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A11/C4"
+        ],
+        "reason": "States 4/10/2 show largest up-feature contributions"
+      },
+      {
+        "axis_id": 12,
+        "decision": "shift",
+        "targets": [
+          [
+            1,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A12/C1"
+        ],
+        "reason": "States 1/13/7 have strongest up-feature effects"
+      },
+      {
+        "axis_id": 13,
+        "decision": "shift",
+        "targets": [
+          [
+            0,
+            1
+          ],
+          [
+            15,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A13/C0"
+        ],
+        "reason": "States 0/15/6 show largest up-feature contributions"
+      },
+      {
+        "axis_id": 14,
+        "decision": "shift",
+        "targets": [
+          [
+            6,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A14/C6"
+        ],
+        "reason": "States 6/2/3 carry strongest up-feature effects"
+      },
+      {
+        "axis_id": 15,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            12,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A15/C8"
+        ],
+        "reason": "States 8/3/12 show largest up-feature contributions"
+      },
+      {
+        "axis_id": 16,
+        "decision": "shift",
+        "targets": [
+          [
+            1,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A16/C1"
+        ],
+        "reason": "Strong up-effects on G0370/G1428 align with NF-kB program states"
+      },
+      {
+        "axis_id": 17,
+        "decision": "shift",
+        "targets": [
+          [
+            5,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A17/C7"
+        ],
+        "reason": "Up-weighted G0403/G1511 states fit NF-kB-dependent transcription"
+      },
+      {
+        "axis_id": 18,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A18/C11"
+        ],
+        "reason": "Large up-effects on G1130/G1958/G1909 support program shift"
+      },
+      {
+        "axis_id": 19,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A19/C4"
+        ],
+        "reason": "Up-weighted G1345/G0506 states consistent with NF-kB output"
+      },
+      {
+        "axis_id": 20,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A20/C4"
+        ],
+        "reason": "Up-effects on G0541/G1041/G0413 support program states"
+      },
+      {
+        "axis_id": 21,
+        "decision": "shift",
+        "targets": [
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A21/C0"
+        ],
+        "reason": "Strong up-effects on G0372 mark NF-kB-responsive states"
+      },
+      {
+        "axis_id": 22,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A22/C8"
+        ],
+        "reason": "Up-weighted G1096/G1298/G1803 states fit program"
+      },
+      {
+        "axis_id": 23,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            12,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A23/C2"
+        ],
+        "reason": "Up-effects on G1239/G0445/G1077 support NF-kB states"
+      },
+      {
+        "axis_id": 24,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A24/C13"
+        ],
+        "reason": "States 13/6/1 show strong up-drive on NF-kB-linked features"
+      },
+      {
+        "axis_id": 25,
+        "decision": "shift",
+        "targets": [
+          [
+            6,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A25/C6"
+        ],
+        "reason": "States 6/13/0 carry largest up-weights on shared features"
+      },
+      {
+        "axis_id": 26,
+        "decision": "shift",
+        "targets": [
+          [
+            0,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A26/C0"
+        ],
+        "reason": "States 0/11/10 show strongest up-drive on G0348/G1787"
+      },
+      {
+        "axis_id": 27,
+        "decision": "shift",
+        "targets": [
+          [
+            14,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A27/C14"
+        ],
+        "reason": "States 14/5/2 have largest up-weights on G1417/G1354"
+      },
+      {
+        "axis_id": 28,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A28/C10"
+        ],
+        "reason": "States 10/14/6 show strongest up-drive on G0192/G0442"
+      },
+      {
+        "axis_id": 29,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A29/C12"
+        ],
+        "reason": "States 12/14/13 carry largest up-weights on G1295"
+      },
+      {
+        "axis_id": 30,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A30/C8"
+        ],
+        "reason": "States 8/12/13 show strongest up-drive on G0685"
+      },
+      {
+        "axis_id": 31,
+        "decision": "shift",
+        "targets": [
+          [
+            9,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A31/C9"
+        ],
+        "reason": "States 9/12/3 have largest up-weights on G0388"
+      }
+    ],
+    "summary": "All axes shifted toward states with positive weights consistent with IKK inhibition lowering canonical NF-kappa-B-dependent transcription; IKK transcript direction left uncertain per H2. | Shift toward states with strongest NF-kappa-B-linked feature effects across axes 8-15, consistent with H1 direction; anonymous features limit gene-level mapping. | Across axes 16-23, states with strong positive effects on shared NF-kB-responsive features (G0370, G1428, G1345, G0372, G1096, G1239) are favored, consistent with H1 lowering canonical NF-kappa-B transcription. | Shift toward states with strong positive decoder weights on shared anonymous features across axes 24-31, consistent with H1 NF-kB-dependent transcription decrease; no gene mapping available.",
+    "limitations": [
+      "Anonymous features cannot be mapped to NFKBIA/CXCL8/TNFAIP3.",
+      "No measured perturbation response; baseline pathway activity unknown.",
+      "Alpha fixed at 0.30, not calibrated dose response.",
+      "No measured perturbation response supplied.",
+      "Anonymous feature IDs unmapped to genes.",
+      "Baseline NF-kappa-B activity in A549 unknown.",
+      "No measured perturbation response; directions are decoder-based.",
+      "Baseline NF-kB activity in A549 at 5 uM/24 h is unknown.",
+      "Anonymous features cannot be tied to NFKBIA/CXCL8/TNFAIP3.",
+      "Baseline NF-kB activity in A549 unknown."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 32,
+      "keep": 0,
+      "unknown": 0
+    },
+    "delta_l2": 7.1431050599818855,
+    "standardized_delta_rms": 0.19390178501798663,
+    "axis_tv": [
+      0.296551724137931,
+      0.22413793103448276,
+      0.30000000000000004,
+      0.21379310344827585,
+      0.30000000000000004,
+      0.2827586206896552,
+      0.3,
+      0.30000000000000004,
+      0.2931034482758621,
+      0.25172413793103454,
+      0.2586206896551724,
+      0.19310344827586207,
+      0.2482758620689655,
+      0.2689655172413793,
+      0.29310344827586204,
+      0.1482758620689655,
+      0.28965517241379307,
+      0.27586206896551724,
+      0.3,
+      0.2827586206896552,
+      0.2931034482758621,
+      0.27586206896551724,
+      0.2793103448275862,
+      0.2862068965517241,
+      0.18275862068965515,
+      0.17931034482758618,
+      0.27241379310344827,
+      0.25517241379310346,
+      0.2896551724137931,
+      0.2103448275862069,
+      0.23793103448275862,
+      0.17586206896551723
+    ],
+    "mean_axis_tv": 0.2580818965517242,
+    "top_gene_changes": {
+      "up": [
+        {
+          "feature": "G0725",
+          "delta": 0.50883,
+          "scaled_delta": 0.54238
+        },
+        {
+          "feature": "G1909",
+          "delta": 0.4426,
+          "scaled_delta": 0.52913
+        },
+        {
+          "feature": "G1130",
+          "delta": 0.5048,
+          "scaled_delta": 0.52606
+        },
+        {
+          "feature": "G1000",
+          "delta": 0.5128,
+          "scaled_delta": 0.50124
+        },
+        {
+          "feature": "G1840",
+          "delta": 0.43539,
+          "scaled_delta": 0.49212
+        },
+        {
+          "feature": "G0192",
+          "delta": 0.63784,
+          "scaled_delta": 0.48801
+        },
+        {
+          "feature": "G1037",
+          "delta": 0.50813,
+          "scaled_delta": 0.47943
+        },
+        {
+          "feature": "G0384",
+          "delta": 0.3777,
+          "scaled_delta": 0.47641
+        },
+        {
+          "feature": "G1045",
+          "delta": 0.35044,
+          "scaled_delta": 0.47032
+        },
+        {
+          "feature": "G1014",
+          "delta": 0.43811,
+          "scaled_delta": 0.46573
+        }
+      ],
+      "down": [
+        {
+          "feature": "G0754",
+          "delta": -0.00769,
+          "scaled_delta": -0.01116
+        }
+      ]
+    },
+    "hypothesis_gene_checks": "Unavailable without feature semantics; anonymous IDs cannot be mapped to hypothesis gene names.",
+    "cross_axis_cancellation": [
+      {
+        "feature": "G0574",
+        "summed_delta": 0.03126826551712729,
+        "absolute_axis_sum": 0.32378137048207434
+      },
+      {
+        "feature": "G0210",
+        "summed_delta": 0.07597620244292425,
+        "absolute_axis_sum": 0.29652727415714875
+      },
+      {
+        "feature": "G0133",
+        "summed_delta": 0.006581647743079277,
+        "absolute_axis_sum": 0.15656960113133994
+      },
+      {
+        "feature": "G0197",
+        "summed_delta": 0.07761287590175665,
+        "absolute_axis_sum": 0.24842206048177035
+      },
+      {
+        "feature": "G1702",
+        "summed_delta": 0.02107189576919181,
+        "absolute_axis_sum": 0.14748264398785976
+      },
+      {
+        "feature": "G0289",
+        "summed_delta": 0.05641562305301136,
+        "absolute_axis_sum": 0.16775249591662875
+      }
+    ]
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "ed7e75c58095602538a42d83768f95461bc26f6d62773a54eeb3a750fe3a96ee",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "b7a5d9a15f662285b11525c3f4f95ff0548c5469aee16da12300b1ef987c8e5d",
+      "response_sha256": "b547e0312fbeedc08fae03b8466fd236bc8811cfe3fce9fc5a0f9f60b0448dc2"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "331bc08fa0eb7fb6400df8ef523466a112c9a79758f719cf3669f83d17fcc2bd",
+      "response_sha256": "4eaf31c69b88ec936b2a795fec7874e41f6eec01862e94c6677a7a0c83ae097f"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "88947bc23808183a551f5a9ef8e909832c2420e4e1239abb1e0571d7cc871c1d",
+      "response_sha256": "c36e21baec2276fce3980ea647fded084b499b570f8d0ebe0aa39f7d05aeb84f"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "a7221a38811492b95964690fad64683b479035e760dc01b3153567dc64f7273c",
+      "response_sha256": "49b1e886387ee97b8d83ffb0586c8058dac6bcebb09c3681d0c9a134824008d1"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "10089c2596a9ced922ea5c6370fdf24d987abfd2fcc58e0841c26fdb3eaec471",
+      "response_sha256": "f295553988a078c24827678b546688973866f3f7134736928e18b85ecac0807f"
+    }
+  ],
+  "attempts_used": 5,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/no_semantics/P992f5a8683f4/local.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "6bfeb586c184210e5e8fe1d8b3fe693606390d02d726accc9aaf3550da4d0bfc"
+}

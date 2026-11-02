@@ -1,0 +1,115 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "oxidative stress response",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "TXNRD1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "G6PD",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "TXNRD1 and G6PD are basally expressed; direction depends on unknown perturbation mechanism."
+    },
+    {
+      "id": "H2",
+      "program": "aldehyde/ketone metabolism",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "ALDH1A1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Multiple AKR/ALDH genes are basally expressed; no mechanism to infer direction."
+    },
+    {
+      "id": "H3",
+      "program": "cAMP/PDE signaling",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "PDE4D",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "PDE4D is highly expressed basally; mRNA direction cannot be inferred without mechanism."
+    },
+    {
+      "id": "H4",
+      "program": "long noncoding RNA stress response",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MALAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "NEAT1/MALAT1 are basally abundant; stress-linked changes possible but direction unknown."
+    },
+    {
+      "id": "H5",
+      "program": "glycolysis and iron handling",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "ENO1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "FTL",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "ENO1 and FTL are basally expressed; no treatment-specific direction is available."
+    }
+  ],
+  "summary": "Mechanism withheld; only untreated A549 baseline expression is known, so all directions are explicitly uncertain.",
+  "limitations": [
+    "No perturbation identity or mechanism provided.",
+    "No measured treatment responses or dose trajectories.",
+    "Baseline expression alone cannot establish direction of change."
+  ]
+}

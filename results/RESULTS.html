@@ -1,0 +1,130 @@
+<!doctype html><meta charset="utf-8"><title>Matched perturbation baselines</title><style>body{font:16px system-ui;max-width:1250px;margin:32px auto;padding:0 16px}table{border-collapse:collapse}td,th{padding:8px;border:1px solid #ddd}img{max-width:100%}pre{white-space:pre-wrap}h1{font-size:26px}</style><h1>原 sciPlex2 实验：CPA、CODEX 与 LEXA＋DeepSeek</h1><pre>已验证结果：CODEX native ΔRMSE约0.195562±0.002547，CPA native约0.242347±0.013473。
+简单表达剂量插值0.194145，CODEX未证明超过它；纯机制LEXA+DeepSeek约0.356299。
+预先指定的calibrated变体CODEX约0.279644、CPA约0.280974，两者均劣于各自native。
+
+</pre><img src="comparison.png"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>method</th>
+      <th>n_seeds</th>
+      <th>delta_rmse_mean</th>
+      <th>delta_rmse_std</th>
+      <th>delta_pearson_mean</th>
+      <th>absolute_r2_mean</th>
+      <th>delta_pearson_defined_wells_min</th>
+      <th>delta_pearson_defined_wells_max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Expression interpolation</td>
+      <td>1</td>
+      <td>0.194145</td>
+      <td>NaN</td>
+      <td>0.760182</td>
+      <td>0.851228</td>
+      <td>16</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>CODEX / native</td>
+      <td>3</td>
+      <td>0.195562</td>
+      <td>0.002547</td>
+      <td>0.824924</td>
+      <td>0.834491</td>
+      <td>16</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>Expression nearest dose</td>
+      <td>1</td>
+      <td>0.197424</td>
+      <td>NaN</td>
+      <td>0.761393</td>
+      <td>0.849253</td>
+      <td>16</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>LEXA + DeepSeek (response retrieval)</td>
+      <td>1</td>
+      <td>0.212023</td>
+      <td>NaN</td>
+      <td>0.740271</td>
+      <td>0.823339</td>
+      <td>16</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>CPA / native</td>
+      <td>3</td>
+      <td>0.242347</td>
+      <td>0.013473</td>
+      <td>0.718262</td>
+      <td>0.733438</td>
+      <td>16</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>CODEX / calibrated</td>
+      <td>3</td>
+      <td>0.279644</td>
+      <td>0.003289</td>
+      <td>0.584695</td>
+      <td>0.690711</td>
+      <td>16</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>CPA / calibrated</td>
+      <td>3</td>
+      <td>0.280974</td>
+      <td>0.011027</td>
+      <td>0.567709</td>
+      <td>0.671525</td>
+      <td>16</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>Literal rule</td>
+      <td>1</td>
+      <td>0.352798</td>
+      <td>NaN</td>
+      <td>0.468036</td>
+      <td>0.482436</td>
+      <td>4</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>No edit</td>
+      <td>1</td>
+      <td>0.355724</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.477294</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LEXA + DeepSeek (mechanism)</td>
+      <td>1</td>
+      <td>0.356299</td>
+      <td>NaN</td>
+      <td>0.178036</td>
+      <td>0.481237</td>
+      <td>15</td>
+      <td>15</td>
+    </tr>
+  </tbody>
+</table><h2>训练过程</h2><img src="training_curves.png"><h2>评价口径和限制</h2><pre>同一原实验：四药BMS/Dex/Nutlin/SAHA，5µM/24h/A549，16孔、786处理细胞、951唯一对照、2000个训练来源基因。
+CPA/CODEX为作者模型在本地数据协议下的适配，每种3个独立训练种子；旧LEXA/DeepSeek及简单参考沿用封存预测，n=1无种子标准差。
+native：模型直接预测处理表达；calibrated：模型处理预测减同模型零剂量预测，再加真实对照均值。两种锚点预先指定并全部报告。
+CODEX的calibrated零剂量预测经同药物网络分支计算，是补充诊断；该分支未专门以零剂量训练，不是作者标准的直接预测路径。
+ΔRMSE逐孔计算后药内等权、四药等权；相关性只在有定义孔计算，需同时看有效孔数；absolute R²是基因维度1-SSE/SST。
+CPA/CODEX训练可见其他剂量真实响应；纯机制主方法推理使用机制与code语义，无响应检索。比较说明相同测试集下表现，差异不能全部归因于架构或语言模型。
+此5µM数据已经用于前期开发，不是新的独立泛化测试；不是论文/公开榜单原协议的复现分数。
+CODEX三次均达到预设1000epoch上限，seed1最佳在最后一轮，不能声称完全收敛；CPA由验证早停结束。
+表达插值/响应检索属于响应监督参考；no-edit与文字规则为辅助基线。本轮没有新DeepSeek调用。
+图中误差条为3个训练种子的sample SD，不是细胞或生物学置信区间。
+</pre><p><a href="scores_by_seed.csv">逐种子</a> · <a href="scores_by_drug.csv">逐药</a> · <a href="scores_by_well.csv">逐孔</a></p>

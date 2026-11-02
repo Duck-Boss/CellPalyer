@@ -1,0 +1,385 @@
+
+# CELL 1
+import cpa
+import matplotlib.pyplot as plt
+from matplotlib import gridspec
+import numpy as np
+import pandas as pd
+import scanpy as sc
+import seaborn as sns
+import torch
+import os
+
+sc.set_figure_params(dpi=100, frameon=False)
+sc.logging.print_header()
+
+%load_ext autoreload
+%autoreload 2
+
+# CELL 2
+adata = sc.read('../datasets/GSM_new.h5ad')
+
+# CELL 3
+adata.obs[adata.obs['split']=='ood']['cov_drug_dose_name'].unique()
+
+# CELL 4
+fig, ax = plt.subplots(1, 1)
+sc.pl.umap(adata, color='condition', show=False, ax=ax)
+ax.set_title('sciplex2', fontweight='bold')
+fig.savefig('figures/suppfig_sciplex2/umap.png', dpi=600, bbox_inches='tight')
+
+# CELL 5
+fig, ax = plt.subplots(1, 1)
+sc.pl.umap(adata, color='condition', alpha=adata.obs.dose_val.astype('float64'), show=False, ax=ax)
+ax.set_title('sciplex2', fontweight='bold')
+fig.savefig('figures/suppfig_sciplex2/umap_dosage.png', dpi=600, bbox_inches='tight')
+
+# CELL 6
+cpa_api = cpa.api.API(
+    adata, 
+    device='cuda', 
+    perturbation_key='condition',
+    covariate_keys=['cell_type'],
+    dose_key='dose_val',
+    split_key='split',
+    doser_type='logsigm',
+    save_dir=os.getcwd(),
+    hparams={
+        'autoencoder_depth': 2,
+        'autoencoder_width': 128,
+        'adversary_depth': 2,
+    },
+)
+
+# CELL 7
+cpa_api = cpa.api.API(
+    adata,
+    pretrained='./sciplex2.pt', 
+)
+
+# CELL 8
+cpa_api = cpa.api.API(
+    adata,
+    pretrained='./sciplex2_other.pt', 
+)
+
+# CELL 9
+cpa_api.train(
+    max_epochs=2000, 
+    checkpoint_freq=20,
+    run_eval=True,
+    filename='sciplex2_other.pt', 
+    max_minutes=60
+)
+
+# CELL 11
+from cpa.plotting import CPAHistory
+history = CPAHistory(cpa_api)
+history.print_time()
+history.plot_losses()
+history.plot_r2_metrics(epoch_min=0)
+history.plot_disentanglement_metrics(epoch_min=0)
+
+# CELL 12
+cpa_api.num_measured_points['training']
+
+# CELL 14
+perts_anndata = cpa_api.get_drug_embeddings()
+covars_anndata = cpa_api.get_covars_embeddings(covars_tgt='cell_type')
+
+# CELL 15
+from cpa.plotting import CPAVisuals
+cpa_plots = CPAVisuals(cpa_api)
+
+# CELL 16
+plt.rcParams['figure.dpi'] = 600
+
+# CELL 17
+
+
+# CELL 18
+#perts_palette = {'BMS': '#999999',                 
+#                 'SAHA': '#4daf4a',
+#                 'Dex': '#377eb8',
+#                 'Nutlin': '#e41a1c',
+#                 'Vehicle': '#000000'    
+#                }
+conds = adata.obs.condition.cat.categories
+perts_palette = {conds[i]: adata.uns['condition_colors'][i] for i in range(len(conds))}
+
+cpa_plots.perts_palette = perts_palette
+cpa_plots.plot_latent_embeddings(
+    cpa_api.emb_perts, 
+    kind='perturbations', 
+    show_text=True,
+    titlename='Drug embeddings',
+    filename='figures/suppfig_sciplex2/pert_embedding.png'
+)
+
+# CELL 19
+latent_response = cpa_api.latent_dose_response(perturbations=None)
+
+# CELL 20
+cpa_plots.plot_contvar_response(
+    latent_response, 
+    postfix='latent',    
+    var_name=cpa_api.perturbation_key,
+    title_name='Latent dose response'
+)
+
+# CELL 21
+cpa_plots.plot_contvar_response(
+    latent_response, 
+    postfix='latent',    
+    var_name=cpa_api.perturbation_key,
+    logdose=True,
+    measured_points=cpa_api.measured_points['all']['A549']['BMS'],
+    title_name='Latent dose response',
+    figsize=(6, 3.5),
+    filename='figures/suppfig_sciplex2/latent_dose_reponse'
+)
+
+# CELL 22
+perturbations_pair = ['Nutlin', 'BMS']
+latent_dose_2D = cpa_api.latent_dose_response2D(
+    perturbations_pair, 
+    n_points=50
+)
+cpa_plots.plot_contvar_response2D(
+    latent_dose_2D, 
+    title_name='Latent dose-response',
+    filename='figures/suppfig_sciplex2/comb_latent_dose_reponse'
+)
+
+
+# CELL 23
+%%time
+reconstructed_response2D = cpa_api.get_response2D(
+    perturbations_pair, 
+    cpa_api.unique_covars,
+)
+cpa_plots.plot_contvar_response2D(
+    reconstructed_response2D, 
+    title_name='Reconstructed dose-response',
+    response_name='MDM2',
+    logdose=False, 
+    filename='figures/suppfig_sciplex2/comb_response_MDM2.png'
+)
+
+# CELL 25
+# %%time
+df_reference = cpa_api.get_response_reference()        
+
+# CELL 26
+# %%time
+reconstructed_response = cpa_api.get_response(
+    contvar_min=0.001,
+    contvar_max=1,
+    n_points=100
+)
+
+# CELL 27
+adata.uns['rank_genes_groups_cov'][f'A549_Nutlin_0.5'][:10]
+
+# CELL 30
+for pert in ['SAHA', 'Nutlin', 'BMS', 'Dex']:
+    top_degs = adata.uns['rank_genes_groups_cov'][f'A549_{pert}_0.5'][:5]
+    for i, gene in enumerate(top_degs):
+        cpa_plots.plot_contvar_response(
+            reconstructed_response, 
+            df_ref=df_reference, 
+            postfix='reconstructed',
+            figsize=(4, 3.3),
+            bbox=(1.6, 1.),
+            response_name=gene,
+            xlabelname='log10-dose',
+            logdose=True,
+            palette=cpa_plots.perts_palette,
+            measured_points=cpa_api.measured_points['all']['A549']['BMS'],
+            var_name=cpa_api.perturbation_key,
+            title_name=f'Gene response to dose ({pert})',
+            filename=f'figures/suppfig_sciplex2_dose/doseresponse_{pert}_{i}_{gene}.png'
+        )
+
+# CELL 31
+cpa_plots.plot_contvar_response(
+    reconstructed_response, 
+    df_ref=df_reference, 
+    postfix='reconstructed',
+    figsize=(4, 3.3),
+    bbox=(1.6, 1.),
+    response_name='MDM2',
+    xlabelname='log10-dose',
+    logdose=True,
+    palette=cpa_plots.perts_palette,
+    measured_points=cpa_api.measured_points['all']['A549']['BMS'],
+    var_name=cpa_api.perturbation_key,
+    title_name='Gene response to dose',
+    filename='figures/suppfig_sciplex2/MDM2_dose.png'
+)
+
+# CELL 32
+cpa_plots.plot_contvar_response(
+    reconstructed_response, 
+    df_ref=df_reference, 
+    postfix='reconstructed',
+    figsize=(4, 3.3),
+    bbox=(1.6, 1.),
+    response_name='PDE4D',
+    xlabelname='log10-dose',
+    logdose=True,
+    palette=cpa_plots.perts_palette,
+    measured_points=cpa_api.measured_points['all']['A549']['BMS'],
+    var_name=cpa_api.perturbation_key,
+    title_name='Gene response to dose',
+    filename='figures/suppfig_sciplex2/PDE4D_dose.png'
+)
+
+# CELL 33
+cpa_plots.plot_contvar_response(
+    reconstructed_response, 
+    df_ref=df_reference, 
+    postfix='reconstructed',
+    figsize=(4, 3.3),
+    bbox=(1.6, 1.),
+    response_name='ITGB4',
+    xlabelname='log10-dose',
+    logdose=True,
+    palette=cpa_plots.perts_palette,
+    measured_points=cpa_api.measured_points['all']['A549']['BMS'],
+    var_name=cpa_api.perturbation_key,
+    title_name='Gene response to dose',
+    filename='figures/suppfig_sciplex2/ITGB4_dose.png'
+)
+
+# CELL 34
+cpa_plots.plot_contvar_response(
+    reconstructed_response, 
+    df_ref=df_reference, 
+    postfix='reconstructed',
+    figsize=(4, 3.3),
+    bbox=(1.6, 1.),
+    response_name='EXT1',
+    xlabelname='log10-dose',
+    logdose=True,
+    palette=cpa_plots.perts_palette,
+    measured_points=cpa_api.measured_points['all']['A549']['BMS'],
+    var_name=cpa_api.perturbation_key,
+    title_name='Gene response to dose',
+    filename='figures/suppfig_sciplex2/EXT1_dose.png'
+)
+
+# CELL 36
+print('Perturbations:', cpa_api.unique_perts)
+print('Covariates:', cpa_api.unique_covars)
+print('Datasets splits:', cpa_api.datasets.keys())
+
+# CELL 38
+adata_random = sc.pp.subsample(adata, n_obs=1000, copy=True)
+
+# CELL 39
+genes_control = cpa_api.datasets['training'].subset_condition(control=True).genes
+df_train = cpa_api.evaluate_r2(cpa_api.datasets['training'].subset_condition(control=False), genes_control, adata_random.X.A)
+
+# CELL 40
+genes_control = cpa_api.datasets['test'].subset_condition(control=True).genes
+df_ood = cpa_api.evaluate_r2(cpa_api.datasets['ood'], genes_control, adata_random.X.A)
+
+# CELL 41
+genes_control = cpa_api.datasets['test'].subset_condition(control=True).genes
+df_test = cpa_api.evaluate_r2(cpa_api.datasets['test'].subset_condition(control=False), genes_control, adata_random.X.A)
+
+# CELL 42
+df_ood['split'] = 'ood'
+df_test['split'] ='test'
+df_train['split'] ='train'
+
+# CELL 43
+df_score = pd.concat([df_test, df_ood])
+df_score.round(2).sort_values(by=['condition', 'R2_mean', 'R2_mean_DE'], ascending=False)
+
+# CELL 44
+df_plot = pd.melt(df_score, id_vars=['cell_type', 'condition', 'split', 'model'])
+
+# CELL 45
+df_plot = df_ood.melt(id_vars=['cell_type', 'condition', 'dose_val', 'model', 'num_cells', 'split'])
+
+# CELL 46
+fig, ax = plt.subplots(1, 2, figsize=(7, 3.3))
+sns.boxplot(x='model', y='value', hue='variable', data=df_plot[df_plot.variable.str.contains('mean')], ax=ax[0])
+sns.boxplot(x='model', y='value', hue='variable', data=df_plot[df_plot.variable.str.contains('var')], ax=ax[1])
+ax[0].set_xlabel('model')
+ax[1].set_xlabel('model')
+ax[0].set_ylabel('R2 mean')
+ax[1].set_ylabel('R2 var')
+handles, _ = ax[0].get_legend_handles_labels()
+ax[0].legend(handles, ['All genes', 'DEGs'])
+ax[1].get_legend().remove()
+sns.despine()
+fig.tight_layout()
+fig.savefig('figures/suppfig_sciplex2/evaluation.png', dpi=600, bbox_inches='tight')
+
+# CELL 47
+# cols_print = ['condition', 'dose_val','R2_mean', 'R2_mean_DE', 'R2_var', 'R2_var_DE', 'split', 'num_cells']
+# df_score = df_score.round(2).sort_values(by=['condition', 'R2_mean', 'R2_mean_DE'], ascending=False)
+# print(df_score[cols_print])
+# # print(df_score[cols_print].to_latex(index=False))
+
+cols_print = ['condition', 'dose_val','R2_mean', 'R2_mean_DE', 'R2_var', 'split', 'num_cells']
+df_score = df_score.round(2).sort_values(by=['condition', 'R2_mean', 'R2_mean_DE', 'R2_var'], ascending=False)
+df_latex = df_score[cols_print].copy()
+df_latex = df_latex.replace('ood', '\textbf{ood}')
+print(df_latex.to_latex(index=False, bold_rows=True, escape=False))
+
+# CELL 50
+import cpa.plotting as pl
+cpa_api.compute_comb_emb(thrh=0)
+uncert_list = []
+for i, drug in enumerate(['Nutlin', 'BMS', 'Dex', 'SAHA']):
+
+    uncert_list.append(pl.plot_uncertainty_dose(
+        cpa_api,
+        cov={'cell_type': 'A549'},
+        pert=drug,
+        N=501,
+        measured_points=cpa_api.measured_points['all'],
+        cond_key='condition',
+        log=True,
+        metric='eucl'
+    ))
+df_uncert = pd.concat(uncert_list)
+
+
+# CELL 51
+df_uncert = df_uncert.reset_index()
+
+# CELL 52
+fig, ax = plt.subplots(1, 1, figsize=(6, 3.5))
+conditions = ['BMS', 'Dex', 'Nutlin', 'SAHA']
+for condition in ['BMS', 'Dex', 'Nutlin', 'SAHA']:
+    x = df_uncert[df_uncert['condition']==condition]['dose_val'].astype('float32').values
+    y = df_uncert[df_uncert['condition']==condition]['uncertainty_eucl'].astype('float32').values
+    ax.plot(x, y, color=cpa_plots.perts_palette[condition])
+
+ax.set_xscale('log')
+ax.set_xticks([0.001, 0.005, 0.01, 0.05, 0.1, 0.5, 1.0])
+ax.set_xticklabels(['0.001', '0.005', '0.01', '0.05', '0.1', '0.5', '1.0'], rotation=90)
+ax.set_xlabel('log10-dose')
+plt.legend(conditions)
+sns.despine()
+ax.set_title('Distance from observed manifold', fontweight='bold')
+fig.savefig('figures/suppfig_sciplex2/uncertainty.png', dpi=600, bbox_inches='tight')
+
+# CELL 53
+df_uncert[(df_uncert['condition']=='SAHA') & (df_uncert['dose_val']=='0.5011872336')]
+
+# CELL 54
+df_pred = pl.plot_uncertainty_comb_dose(
+    cpa_api=cpa_api,
+    cov={'cell_type': 'A549'},
+    pert='Nutlin+BMS',
+    N=51,
+    metric='eucl',
+    title='Distance from obs manifold',
+    filename='figures/suppfig_sciplex2/uncertainty_comb.png'
+)

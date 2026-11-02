@@ -1,0 +1,115 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "glycolytic flux and hypoxia-adjacent metabolism",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "ENO1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "ENO1 and PKM are highly expressed in untreated A549; perturbation direction cannot be inferred without mechanism."
+    },
+    {
+      "id": "H2",
+      "program": "aldehyde dehydrogenase / aldo-keto reductase detoxification",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "ALDH1A1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "These detoxification genes are abundant at baseline; stress or NRF2-linked responses could shift them either way."
+    },
+    {
+      "id": "H3",
+      "program": "cAMP phosphodiesterase signaling",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "PDE4D",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "PDE4D is the top expressed feature in controls; mRNA direction depends on the hidden mechanism."
+    },
+    {
+      "id": "H4",
+      "program": "oxidative phosphorylation / mitochondrial respiration",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "MT-CO3",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MT-CYB",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Mitochondrial transcripts are well expressed; stress or metabolic perturbation could raise or lower them."
+    },
+    {
+      "id": "H5",
+      "program": "epithelial/keratin and structural programs",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "KRT81",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "ASPH",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Structural genes are expressed at baseline; no mechanism-linked direction is supportable."
+    }
+  ],
+  "summary": "Mechanism is withheld, so only baseline-context hypotheses with uncertain directions can be stated; no treatment-specific effects are inferred.",
+  "limitations": [
+    "Perturbation identity and mechanism hidden; no directional predictions possible.",
+    "Only untreated A549 context (58 cells) available; no dose-response or replicate data.",
+    "Gene expectations reflect baseline expression, not measured perturbation responses."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "retrieved_date": "2026-10-27",
+  "archives": [
+    {
+      "archive": "/cpfs_speech/user/zhoutianhong.zth/project/lexa_text_harness/literature/tdc_leaderboard/cpa_repro_main.zip",
+      "source": "https://codeload.github.com/theislab/cpa-reproducibility/zip/refs/heads/main",
+      "commit": "d5d1e567a1c54abca94e27db3b3985cac2faa506",
+      "sha256": "17e6f9fc02e44d81189d9152a3be62ae08da6a7e3666264d3cd91b48cda41d1d"
+    },
+    {
+      "archive": "/cpfs_speech/user/zhoutianhong.zth/project/lexa_text_harness/literature/tdc_leaderboard/CODEX_master.zip",
+      "source": "https://codeload.github.com/sschrod/CODEX/zip/refs/heads/master",
+      "commit": "0e5f8ff3b10d21b582cf91ea6cf5398fe8eeab99",
+      "sha256": "df608bba89c7cdde97956481e7dda0b6d70f0375ec34880cfe1b4bea0404a1c3"
+    }
+  ],
+  "no_training_or_prediction_executed": true,
+  "processed_data_available": false,
+  "missing_data": "GSM_new.h5ad; author Drive folder inaccessible via web; curl attempt separately logged",
+  "missing_checkpoint": [
+    "sciplex2.pt",
+    "sciplex2_other.pt"
+  ],
+  "saved_notebook_results_not_5seed_paper_mean": {
+    "BMS": {
+      "R2_mean": 0.86,
+      "R2_mean_DE50": 0.63,
+      "n": 34
+    },
+    "Dex": {
+      "R2_mean": 1.0,
+      "R2_mean_DE50": 0.98,
+      "n": 864
+    },
+    "Nutlin": {
+      "R2_mean": 0.86,
+      "R2_mean_DE50": 0.81,
+      "n": 265
+    },
+    "SAHA": {
+      "R2_mean": 0.97,
+      "R2_mean_DE50": 0.85,
+      "n": 604
+    }
+  }
+}

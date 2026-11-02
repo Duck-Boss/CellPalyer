@@ -1,0 +1,1000 @@
+{
+  "role": "previously unblinded development data",
+  "new_vs_old_agent_rmse_reduction_pct": 39.35843478393238,
+  "new_vs_code_interpolation_rmse_increase_pct": 0.03300105362165073,
+  "new_vs_expression_interpolation_rmse_increase_pct": 9.208974475600318,
+  "candidate_selection_counts": {
+    "local": {
+      "interpolate": 510,
+      "half": 2
+    },
+    "joint": {
+      "interpolate": 510,
+      "half": 2
+    }
+  },
+  "joint_changed_gene_predictions": 0,
+  "current_api": {
+    "requests": 84,
+    "responses": 84,
+    "groups": [
+      {
+        "group": "annotation",
+        "requests": 4,
+        "responses": 4,
+        "validated": 4,
+        "failed_or_unknown": 0,
+        "prompt_tokens": 52372,
+        "completion_tokens": 4825,
+        "total_tokens": 57197
+      },
+      {
+        "group": "joint",
+        "requests": 16,
+        "responses": 16,
+        "validated": 16,
+        "failed_or_unknown": 0,
+        "prompt_tokens": 1543750,
+        "completion_tokens": 24258,
+        "total_tokens": 1568008
+      },
+      {
+        "group": "local",
+        "requests": 64,
+        "responses": 64,
+        "validated": 64,
+        "failed_or_unknown": 0,
+        "prompt_tokens": 3169864,
+        "completion_tokens": 30091,
+        "total_tokens": 3199955
+      }
+    ],
+    "request_rows": [
+      {
+        "path": "annotation_requests/axes_00_07/attempt_00.request.json",
+        "group": "annotation",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 13296,
+        "completion_tokens": 1166,
+        "total_tokens": 14462,
+        "error": null
+      },
+      {
+        "path": "annotation_requests/axes_08_15/attempt_00.request.json",
+        "group": "annotation",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 13250,
+        "completion_tokens": 1222,
+        "total_tokens": 14472,
+        "error": null
+      },
+      {
+        "path": "annotation_requests/axes_16_23/attempt_00.request.json",
+        "group": "annotation",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 12714,
+        "completion_tokens": 1242,
+        "total_tokens": 13956,
+        "error": null
+      },
+      {
+        "path": "annotation_requests/axes_24_31/attempt_00.request.json",
+        "group": "annotation",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 13112,
+        "completion_tokens": 1195,
+        "total_tokens": 14307,
+        "error": null
+      },
+      {
+        "path": "predictions/123f238d50ef/requests/joint_00/attempt_01.request.json",
+        "group": "joint",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 97639,
+        "completion_tokens": 1507,
+        "total_tokens": 99146,
+        "error": null
+      },
+      {
+        "path": "predictions/123f238d50ef/requests/local_00/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 50221,
+        "completion_tokens": 443,
+        "total_tokens": 50664,
+        "error": null
+      },
+      {
+        "path": "predictions/123f238d50ef/requests/local_01/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 50112,
+        "completion_tokens": 465,
+        "total_tokens": 50577,
+        "error": null
+      },
+      {
+        "path": "predictions/123f238d50ef/requests/local_02/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49518,
+        "completion_tokens": 454,
+        "total_tokens": 49972,
+        "error": null
+      },
+      {
+        "path": "predictions/123f238d50ef/requests/local_03/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49511,
+        "completion_tokens": 463,
+        "total_tokens": 49974,
+        "error": null
+      },
+      {
+        "path": "predictions/1c3d4269941a/requests/joint_00/attempt_01.request.json",
+        "group": "joint",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 96096,
+        "completion_tokens": 1620,
+        "total_tokens": 97716,
+        "error": null
+      },
+      {
+        "path": "predictions/1c3d4269941a/requests/local_00/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49757,
+        "completion_tokens": 484,
+        "total_tokens": 50241,
+        "error": null
+      },
+      {
+        "path": "predictions/1c3d4269941a/requests/local_01/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49970,
+        "completion_tokens": 493,
+        "total_tokens": 50463,
+        "error": null
+      },
+      {
+        "path": "predictions/1c3d4269941a/requests/local_02/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49293,
+        "completion_tokens": 483,
+        "total_tokens": 49776,
+        "error": null
+      },
+      {
+        "path": "predictions/1c3d4269941a/requests/local_03/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 48965,
+        "completion_tokens": 459,
+        "total_tokens": 49424,
+        "error": null
+      },
+      {
+        "path": "predictions/3a9d788519f1/requests/joint_00/attempt_01.request.json",
+        "group": "joint",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 95533,
+        "completion_tokens": 1457,
+        "total_tokens": 96990,
+        "error": null
+      },
+      {
+        "path": "predictions/3a9d788519f1/requests/local_00/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49153,
+        "completion_tokens": 471,
+        "total_tokens": 49624,
+        "error": null
+      },
+      {
+        "path": "predictions/3a9d788519f1/requests/local_01/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49396,
+        "completion_tokens": 504,
+        "total_tokens": 49900,
+        "error": null
+      },
+      {
+        "path": "predictions/3a9d788519f1/requests/local_02/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49434,
+        "completion_tokens": 440,
+        "total_tokens": 49874,
+        "error": null
+      },
+      {
+        "path": "predictions/3a9d788519f1/requests/local_03/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 48840,
+        "completion_tokens": 456,
+        "total_tokens": 49296,
+        "error": null
+      },
+      {
+        "path": "predictions/42e85e25927a/requests/joint_00/attempt_01.request.json",
+        "group": "joint",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 95336,
+        "completion_tokens": 1459,
+        "total_tokens": 96795,
+        "error": null
+      },
+      {
+        "path": "predictions/42e85e25927a/requests/local_00/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49655,
+        "completion_tokens": 460,
+        "total_tokens": 50115,
+        "error": null
+      },
+      {
+        "path": "predictions/42e85e25927a/requests/local_01/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49868,
+        "completion_tokens": 465,
+        "total_tokens": 50333,
+        "error": null
+      },
+      {
+        "path": "predictions/42e85e25927a/requests/local_02/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49090,
+        "completion_tokens": 443,
+        "total_tokens": 49533,
+        "error": null
+      },
+      {
+        "path": "predictions/42e85e25927a/requests/local_03/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 48773,
+        "completion_tokens": 478,
+        "total_tokens": 49251,
+        "error": null
+      },
+      {
+        "path": "predictions/60426b731665/requests/joint_00/attempt_01.request.json",
+        "group": "joint",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 96170,
+        "completion_tokens": 1677,
+        "total_tokens": 97847,
+        "error": null
+      },
+      {
+        "path": "predictions/60426b731665/requests/local_00/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 50023,
+        "completion_tokens": 461,
+        "total_tokens": 50484,
+        "error": null
+      },
+      {
+        "path": "predictions/60426b731665/requests/local_01/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49345,
+        "completion_tokens": 491,
+        "total_tokens": 49836,
+        "error": null
+      },
+      {
+        "path": "predictions/60426b731665/requests/local_02/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49085,
+        "completion_tokens": 489,
+        "total_tokens": 49574,
+        "error": null
+      },
+      {
+        "path": "predictions/60426b731665/requests/local_03/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49578,
+        "completion_tokens": 478,
+        "total_tokens": 50056,
+        "error": null
+      },
+      {
+        "path": "predictions/8eea66198f34/requests/joint_00/attempt_01.request.json",
+        "group": "joint",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 97033,
+        "completion_tokens": 1413,
+        "total_tokens": 98446,
+        "error": null
+      },
+      {
+        "path": "predictions/8eea66198f34/requests/local_00/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 50043,
+        "completion_tokens": 475,
+        "total_tokens": 50518,
+        "error": null
+      },
+      {
+        "path": "predictions/8eea66198f34/requests/local_01/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 50014,
+        "completion_tokens": 441,
+        "total_tokens": 50455,
+        "error": null
+      },
+      {
+        "path": "predictions/8eea66198f34/requests/local_02/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49420,
+        "completion_tokens": 438,
+        "total_tokens": 49858,
+        "error": null
+      },
+      {
+        "path": "predictions/8eea66198f34/requests/local_03/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49604,
+        "completion_tokens": 424,
+        "total_tokens": 50028,
+        "error": null
+      },
+      {
+        "path": "predictions/901e42fea240/requests/joint_00/attempt_01.request.json",
+        "group": "joint",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 96585,
+        "completion_tokens": 1562,
+        "total_tokens": 98147,
+        "error": null
+      },
+      {
+        "path": "predictions/901e42fea240/requests/local_00/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49743,
+        "completion_tokens": 481,
+        "total_tokens": 50224,
+        "error": null
+      },
+      {
+        "path": "predictions/901e42fea240/requests/local_01/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 50129,
+        "completion_tokens": 499,
+        "total_tokens": 50628,
+        "error": null
+      },
+      {
+        "path": "predictions/901e42fea240/requests/local_02/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49376,
+        "completion_tokens": 521,
+        "total_tokens": 49897,
+        "error": null
+      },
+      {
+        "path": "predictions/901e42fea240/requests/local_03/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49045,
+        "completion_tokens": 508,
+        "total_tokens": 49553,
+        "error": null
+      },
+      {
+        "path": "predictions/9904cf11828e/requests/joint_00/attempt_01.request.json",
+        "group": "joint",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 97975,
+        "completion_tokens": 1521,
+        "total_tokens": 99496,
+        "error": null
+      },
+      {
+        "path": "predictions/9904cf11828e/requests/local_00/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 50229,
+        "completion_tokens": 449,
+        "total_tokens": 50678,
+        "error": null
+      },
+      {
+        "path": "predictions/9904cf11828e/requests/local_01/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 50145,
+        "completion_tokens": 461,
+        "total_tokens": 50606,
+        "error": null
+      },
+      {
+        "path": "predictions/9904cf11828e/requests/local_02/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49467,
+        "completion_tokens": 477,
+        "total_tokens": 49944,
+        "error": null
+      },
+      {
+        "path": "predictions/9904cf11828e/requests/local_03/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49544,
+        "completion_tokens": 443,
+        "total_tokens": 49987,
+        "error": null
+      },
+      {
+        "path": "predictions/ac65d80bb3f0/requests/joint_00/attempt_01.request.json",
+        "group": "joint",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 95719,
+        "completion_tokens": 1503,
+        "total_tokens": 97222,
+        "error": null
+      },
+      {
+        "path": "predictions/ac65d80bb3f0/requests/local_00/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49165,
+        "completion_tokens": 466,
+        "total_tokens": 49631,
+        "error": null
+      },
+      {
+        "path": "predictions/ac65d80bb3f0/requests/local_01/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49269,
+        "completion_tokens": 454,
+        "total_tokens": 49723,
+        "error": null
+      },
+      {
+        "path": "predictions/ac65d80bb3f0/requests/local_02/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49206,
+        "completion_tokens": 452,
+        "total_tokens": 49658,
+        "error": null
+      },
+      {
+        "path": "predictions/ac65d80bb3f0/requests/local_03/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 48875,
+        "completion_tokens": 473,
+        "total_tokens": 49348,
+        "error": null
+      },
+      {
+        "path": "predictions/b2e8eeadd4ec/requests/joint_00/attempt_01.request.json",
+        "group": "joint",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 95513,
+        "completion_tokens": 1445,
+        "total_tokens": 96958,
+        "error": null
+      },
+      {
+        "path": "predictions/b2e8eeadd4ec/requests/local_00/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49145,
+        "completion_tokens": 478,
+        "total_tokens": 49623,
+        "error": null
+      },
+      {
+        "path": "predictions/b2e8eeadd4ec/requests/local_01/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49275,
+        "completion_tokens": 460,
+        "total_tokens": 49735,
+        "error": null
+      },
+      {
+        "path": "predictions/b2e8eeadd4ec/requests/local_02/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49489,
+        "completion_tokens": 423,
+        "total_tokens": 49912,
+        "error": null
+      },
+      {
+        "path": "predictions/b2e8eeadd4ec/requests/local_03/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 48791,
+        "completion_tokens": 456,
+        "total_tokens": 49247,
+        "error": null
+      },
+      {
+        "path": "predictions/b81ab1c80851/requests/joint_00/attempt_01.request.json",
+        "group": "joint",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 97045,
+        "completion_tokens": 1489,
+        "total_tokens": 98534,
+        "error": null
+      },
+      {
+        "path": "predictions/b81ab1c80851/requests/local_00/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 50242,
+        "completion_tokens": 471,
+        "total_tokens": 50713,
+        "error": null
+      },
+      {
+        "path": "predictions/b81ab1c80851/requests/local_01/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49559,
+        "completion_tokens": 449,
+        "total_tokens": 50008,
+        "error": null
+      },
+      {
+        "path": "predictions/b81ab1c80851/requests/local_02/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49342,
+        "completion_tokens": 504,
+        "total_tokens": 49846,
+        "error": null
+      },
+      {
+        "path": "predictions/b81ab1c80851/requests/local_03/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49645,
+        "completion_tokens": 462,
+        "total_tokens": 50107,
+        "error": null
+      },
+      {
+        "path": "predictions/bb8b59b73b81/requests/joint_00/attempt_01.request.json",
+        "group": "joint",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 96070,
+        "completion_tokens": 1502,
+        "total_tokens": 97572,
+        "error": null
+      },
+      {
+        "path": "predictions/bb8b59b73b81/requests/local_00/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49652,
+        "completion_tokens": 482,
+        "total_tokens": 50134,
+        "error": null
+      },
+      {
+        "path": "predictions/bb8b59b73b81/requests/local_01/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 50043,
+        "completion_tokens": 485,
+        "total_tokens": 50528,
+        "error": null
+      },
+      {
+        "path": "predictions/bb8b59b73b81/requests/local_02/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49234,
+        "completion_tokens": 458,
+        "total_tokens": 49692,
+        "error": null
+      },
+      {
+        "path": "predictions/bb8b59b73b81/requests/local_03/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49075,
+        "completion_tokens": 504,
+        "total_tokens": 49579,
+        "error": null
+      },
+      {
+        "path": "predictions/bed7e88fc964/requests/joint_00/attempt_01.request.json",
+        "group": "joint",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 95383,
+        "completion_tokens": 1477,
+        "total_tokens": 96860,
+        "error": null
+      },
+      {
+        "path": "predictions/bed7e88fc964/requests/local_00/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49119,
+        "completion_tokens": 478,
+        "total_tokens": 49597,
+        "error": null
+      },
+      {
+        "path": "predictions/bed7e88fc964/requests/local_01/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49396,
+        "completion_tokens": 477,
+        "total_tokens": 49873,
+        "error": null
+      },
+      {
+        "path": "predictions/bed7e88fc964/requests/local_02/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49391,
+        "completion_tokens": 503,
+        "total_tokens": 49894,
+        "error": null
+      },
+      {
+        "path": "predictions/bed7e88fc964/requests/local_03/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 48784,
+        "completion_tokens": 506,
+        "total_tokens": 49290,
+        "error": null
+      },
+      {
+        "path": "predictions/c6cad83efd26/requests/joint_00/attempt_01.request.json",
+        "group": "joint",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 97779,
+        "completion_tokens": 1504,
+        "total_tokens": 99283,
+        "error": null
+      },
+      {
+        "path": "predictions/c6cad83efd26/requests/local_00/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 50336,
+        "completion_tokens": 456,
+        "total_tokens": 50792,
+        "error": null
+      },
+      {
+        "path": "predictions/c6cad83efd26/requests/local_01/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 50018,
+        "completion_tokens": 442,
+        "total_tokens": 50460,
+        "error": null
+      },
+      {
+        "path": "predictions/c6cad83efd26/requests/local_02/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49535,
+        "completion_tokens": 491,
+        "total_tokens": 50026,
+        "error": null
+      },
+      {
+        "path": "predictions/c6cad83efd26/requests/local_03/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49336,
+        "completion_tokens": 472,
+        "total_tokens": 49808,
+        "error": null
+      },
+      {
+        "path": "predictions/d4270158cf4a/requests/joint_00/attempt_01.request.json",
+        "group": "joint",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 97084,
+        "completion_tokens": 1574,
+        "total_tokens": 98658,
+        "error": null
+      },
+      {
+        "path": "predictions/d4270158cf4a/requests/local_00/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 50245,
+        "completion_tokens": 460,
+        "total_tokens": 50705,
+        "error": null
+      },
+      {
+        "path": "predictions/d4270158cf4a/requests/local_01/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49639,
+        "completion_tokens": 461,
+        "total_tokens": 50100,
+        "error": null
+      },
+      {
+        "path": "predictions/d4270158cf4a/requests/local_02/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49324,
+        "completion_tokens": 496,
+        "total_tokens": 49820,
+        "error": null
+      },
+      {
+        "path": "predictions/d4270158cf4a/requests/local_03/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49649,
+        "completion_tokens": 481,
+        "total_tokens": 50130,
+        "error": null
+      },
+      {
+        "path": "predictions/db6be6175137/requests/joint_00/attempt_01.request.json",
+        "group": "joint",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 96790,
+        "completion_tokens": 1548,
+        "total_tokens": 98338,
+        "error": null
+      },
+      {
+        "path": "predictions/db6be6175137/requests/local_00/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 50209,
+        "completion_tokens": 469,
+        "total_tokens": 50678,
+        "error": null
+      },
+      {
+        "path": "predictions/db6be6175137/requests/local_01/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49567,
+        "completion_tokens": 470,
+        "total_tokens": 50037,
+        "error": null
+      },
+      {
+        "path": "predictions/db6be6175137/requests/local_02/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49243,
+        "completion_tokens": 480,
+        "total_tokens": 49723,
+        "error": null
+      },
+      {
+        "path": "predictions/db6be6175137/requests/local_03/attempt_01.request.json",
+        "group": "local",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 49720,
+        "completion_tokens": 475,
+        "total_tokens": 50195,
+        "error": null
+      }
+    ]
+  },
+  "previous_incomplete_annotation_run": {
+    "requests": 8,
+    "responses": 8,
+    "groups": [
+      {
+        "group": "annotation",
+        "requests": 8,
+        "responses": 8,
+        "validated": 3,
+        "failed_or_unknown": 5,
+        "prompt_tokens": 98136,
+        "completion_tokens": 9366,
+        "total_tokens": 107502
+      }
+    ],
+    "request_rows": [
+      {
+        "path": "annotation_requests/axes_00_07/attempt_00.request.json",
+        "group": "annotation",
+        "response_saved": true,
+        "validated": false,
+        "prompt_tokens": 12392,
+        "completion_tokens": 1009,
+        "total_tokens": 13401,
+        "error": "evidence_genes must cite at most four unique displayed gene IDs"
+      },
+      {
+        "path": "annotation_requests/axes_00_07/attempt_01.request.json",
+        "group": "annotation",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 12416,
+        "completion_tokens": 1195,
+        "total_tokens": 13611,
+        "error": null
+      },
+      {
+        "path": "annotation_requests/axes_08_15/attempt_00.request.json",
+        "group": "annotation",
+        "response_saved": true,
+        "validated": false,
+        "prompt_tokens": 12326,
+        "completion_tokens": 1057,
+        "total_tokens": 13383,
+        "error": "evidence_genes must cite at most four unique displayed gene IDs"
+      },
+      {
+        "path": "annotation_requests/axes_08_15/attempt_01.request.json",
+        "group": "annotation",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 12350,
+        "completion_tokens": 1233,
+        "total_tokens": 13583,
+        "error": null
+      },
+      {
+        "path": "annotation_requests/axes_16_23/attempt_00.request.json",
+        "group": "annotation",
+        "response_saved": true,
+        "validated": true,
+        "prompt_tokens": 11920,
+        "completion_tokens": 1552,
+        "total_tokens": 13472,
+        "error": null
+      },
+      {
+        "path": "annotation_requests/axes_24_31/attempt_00.request.json",
+        "group": "annotation",
+        "response_saved": true,
+        "validated": false,
+        "prompt_tokens": 12228,
+        "completion_tokens": 1197,
+        "total_tokens": 13425,
+        "error": "evidence_genes must cite at most four unique displayed gene IDs"
+      },
+      {
+        "path": "annotation_requests/axes_24_31/attempt_01.request.json",
+        "group": "annotation",
+        "response_saved": true,
+        "validated": false,
+        "prompt_tokens": 12252,
+        "completion_tokens": 1086,
+        "total_tokens": 13338,
+        "error": "evidence_genes must cite at most four unique displayed gene IDs"
+      },
+      {
+        "path": "annotation_requests/axes_24_31/attempt_02.request.json",
+        "group": "annotation",
+        "response_saved": true,
+        "validated": false,
+        "prompt_tokens": 12252,
+        "completion_tokens": 1037,
+        "total_tokens": 13289,
+        "error": "evidence_genes must cite at most four unique displayed gene IDs"
+      }
+    ]
+  },
+  "conclusion": "The new pipeline improves over the old restricted text agent but does not beat retrieval baselines. Joint review changes none of the sixteen local predictions. This pilot does not demonstrate an additional benefit from language or global review.",
+  "remaining_limits": [
+    "All32 axes eligible but seven training-derived candidates per axis; not arbitrary occupancy editing.",
+    "No formal GO enrichment; provisional language scope uses displayed training genes.",
+    "Hierarchy, retrieval and edit space changed together relative to old agent.",
+    "Unseen drug/time and independent test generalization remain untested."
+  ]
+}

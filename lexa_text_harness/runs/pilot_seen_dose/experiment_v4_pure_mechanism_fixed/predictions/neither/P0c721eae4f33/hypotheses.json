@@ -1,0 +1,46 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "transcriptional response to an unknown perturbation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Perturbation identity and mechanism are withheld, so no treatment-specific direction can be inferred."
+    },
+    {
+      "id": "H2",
+      "program": "stress-responsive / cytostatic gene programs",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549, 24 h exposure; depends on unknown mechanism",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "A549 is a cancer line; generic stress or growth-arrest programs are plausible but unsupported without mechanism."
+    },
+    {
+      "id": "H3",
+      "program": "baseline-expressed features remain stable",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "untreated A549 context only",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Control features are anonymous; no mapping to genes, so no directional expectation is justified."
+    }
+  ],
+  "summary": "Mechanism is hidden; only untreated A549 context is available, so all directions are explicitly uncertain and no gene-level predictions are made.",
+  "limitations": [
+    "Perturbation identity and mechanism withheld; no treatment-specific response known.",
+    "Control feature semantics withheld; anonymous features cannot be mapped to genes.",
+    "No dose trajectory or measured perturbation responses supplied."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:27:36) [GCC 11.2.0]",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scipy": "1.15.1",
+    "torch": "2.6.0",
+    "scikit-learn": "1.3.2",
+    "matplotlib": "3.9.2",
+    "h5py": "3.11.0",
+    "requests": "2.34.2"
+  },
+  "historical_environment_note": "Observed local packages match the documented pilot runtime; exact platform/BLAS may affect retraining. No full model retraining was run during this GitHub export."
+}

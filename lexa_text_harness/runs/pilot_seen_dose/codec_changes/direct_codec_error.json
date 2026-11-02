@@ -1,0 +1,82 @@
+{
+  "status": "complete",
+  "uses_true_treatment": "direct frozen reconstruction; no LLM or drug prediction",
+  "units": "log1p(CP10K), 2000 training-selected genes",
+  "n_wells": 16,
+  "n_drugs": 4,
+  "n_genes": 2000,
+  "n_unique_cells": {
+    "treated": {
+      "n_unique_cells": 786,
+      "cell_gene_pooled_rmse": 0.7353581973646612
+    },
+    "control": {
+      "n_unique_cells": 951,
+      "cell_gene_pooled_rmse": 0.7527247379364442
+    }
+  },
+  "aggregation": "RMSE within each well; equal wells per drug then equal drugs. Pooled cell-gene RMSE reported separately.",
+  "equal_drug_mean_of_well_metrics": {
+    "response_delta_rmse": 0.18977779152282112,
+    "treated_population_mean_rmse": 0.15089703343273747,
+    "control_population_mean_rmse": 0.11084837824320838,
+    "treated_cell_matrix_rmse": 0.7424830874578313,
+    "control_cell_matrix_rmse": 0.7520097589045973,
+    "response_delta_pearson": 0.7679338179166204,
+    "response_norm_retained": 0.7292216086188387
+  },
+  "per_drug_mean_of_well_metrics": {
+    "BMS": {
+      "response_delta_rmse": 0.26435517475332454,
+      "treated_population_mean_rmse": 0.24493563406239932,
+      "control_population_mean_rmse": 0.09900362817337921,
+      "treated_cell_matrix_rmse": 0.8277065124138807,
+      "control_cell_matrix_rmse": 0.7529534895036782,
+      "response_delta_pearson": 0.7973605366658858,
+      "response_norm_retained": 0.7188685033875005
+    },
+    "Dex": {
+      "response_delta_rmse": 0.17118584204819776,
+      "treated_population_mean_rmse": 0.11217265258559815,
+      "control_population_mean_rmse": 0.13042716242798713,
+      "treated_cell_matrix_rmse": 0.749432531147472,
+      "control_cell_matrix_rmse": 0.7610304581774155,
+      "response_delta_pearson": 0.5927952390802762,
+      "response_norm_retained": 0.5633038773327144
+    },
+    "Nutlin": {
+      "response_delta_rmse": 0.15539816718929336,
+      "treated_population_mean_rmse": 0.11315918473641318,
+      "control_population_mean_rmse": 0.11219753848499274,
+      "treated_cell_matrix_rmse": 0.7269054409123268,
+      "control_cell_matrix_rmse": 0.7399097653696052,
+      "response_delta_pearson": 0.7436245908678139,
+      "response_norm_retained": 0.7303694707194285
+    },
+    "SAHA": {
+      "response_delta_rmse": 0.1681719821004688,
+      "treated_population_mean_rmse": 0.1333206623465392,
+      "control_population_mean_rmse": 0.10176518388647442,
+      "treated_cell_matrix_rmse": 0.6658878653576461,
+      "control_cell_matrix_rmse": 0.75414532256769,
+      "response_delta_pearson": 0.9379549050525057,
+      "response_norm_retained": 0.9043445830357112
+    }
+  },
+  "definitions": {
+    "response_delta_rmse": "RMSE((mean D(E(treated))-mean D(E(control)))-(mean treated-mean control))",
+    "treated_population_mean_rmse": "RMSE(mean D(E(treated))-mean treated)",
+    "treated_cell_matrix_rmse": "RMSE over cells and genes within one treated well, then well/drug averaged",
+    "cell_gene_pooled_rmse": "sqrt(mean squared reconstruction error over all unique selected cells and genes))"
+  },
+  "max_difference_from_previous_verified_delta_rmse": 0.0,
+  "source_sha256": {
+    "cell_codes.npz": "a7b580c9588411d2fe34e9fc7ee49c3c1cdb1ce554cc7d515c0ce4ea0e19c774",
+    "cases.json": "493aa96ab615615a046148cf85ee57b68c5d2ea86b72443440de78e5e7d8b8c1"
+  },
+  "limitations": [
+    "True-answer encoding is a representation diagnostic, not a predictor or strict attainable-error bound.",
+    "RMSEs are different quantities and cannot be subtracted to isolate language-model error.",
+    "Discrete quantization, encoder and decoder losses are combined; their separate contributions are not identified."
+  ]
+}

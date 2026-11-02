@@ -1,0 +1,28 @@
+{
+  "id": "835e8605-695d-4a20-83b3-2dc289855bc3",
+  "object": "chat.completion",
+  "created": 1793028038,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"axes\":[{\"axis_id\":8,\"name\":\"Chaperone/proteostasis and replication-marker program\",\"summary\":\"States contrast expression of heat-shock/chaperone genes (HSP90AA1, HSPA1A, STIP1, DNAJA1) with replication markers (PCNA, TK1, CKS2), often in mixed patterns.\",\"functions\":[\"protein folding/chaperone-associated expression\",\"DNA replication/proliferation-associated expression\",\"proteostasis-associated expression\"],\"evidence_genes\":[\"ENSG00000080824.18\",\"ENSG00000204389.9\",\"ENSG00000168439.16\",\"ENSG00000132646.10\"],\"uncertainty\":\"A549 pilot axis; states mix chaperone and replication signals and are unordered, so no single direction or causal role is implied.\"},{\"axis_id\":9,\"name\":\"Poorly resolved membrane/ubiquitin-ligase-associated program\",\"summary\":\"States show weak, heterogeneous signed patterns around TMEM131, MDM2, ASCC3 and UBASH3B with no consistent functional theme.\",\"functions\":[\"unknown\"],\"evidence_genes\":[\"ENSG00000075568.16\",\"ENSG00000135679.22\",\"ENSG00000112249.13\",\"ENSG00000154127.9\"],\"uncertainty\":\"Most state labels are explicitly unclear; evidence supports only that these genes vary, not any pathway.\"},{\"axis_id\":10,\"name\":\"ER/secretory and redox-associated program\",\"summary\":\"States contrast ER/secretory markers (KDELR1, LMAN2, PDIA4/PDIA6, TMED10) and redox/iron genes (NQO1, FTL) with DKK1/ANXA1/SPP1 signals.\",\"functions\":[\"ER folding and secretory-pathway-associated expression\",\"redox/iron-associated expression\",\"secreted signaling-marker expression\"],\"evidence_genes\":[\"ENSG00000105438.8\",\"ENSG00000155660.10\",\"ENSG00000181019.12\",\"ENSG00000107984.9\"],\"uncertainty\":\"A549 pilot axis; ER, redox and secreted-marker patterns co-occur across states and are not shown to be causally linked.\"},{\"axis_id\":11,\"name\":\"Chromatin/transcriptional-regulator-associated program\",\"summary\":\"States vary in expression of chromatin and RNA-processing regulators (NIPBL, ARID4B, GPATCH8, CNOT4) with generally small effect sizes.\",\"functions\":[\"chromatin/transcriptional-regulation-associated expression\",\"RNA-processing-associated expression\"],\"evidence_genes\":[\"ENSG00000164190.17\",\"ENSG00000054267.21\",\"ENSG00000186566.12\",\"ENSG00000080802.18\"],\"uncertainty\":\"Weakest-varying axis; small effects and mixed regulators limit functional interpretation.\"},{\"axis_id\":12,\"name\":\"Nutrient-transport and proliferation/adhesion program\",\"summary\":\"States contrast amino-acid transporter SLC38A1 and RNA-binding LARP1/IGF2BP1 with cell-cycle (CCND1) and adhesion/cytoskeletal (MYOF, DOCK5) markers.\",\"functions\":[\"amino-acid transport-associated expression\",\"cell-cycle/proliferation-associated expression\",\"adhesion/cytoskeletal-associated expression\"],\"evidence_genes\":[\"ENSG00000111371.15\",\"ENSG00000110092.3\",\"ENSG00000138119.16\",\"ENSG00000147459.17\"],\"uncertainty\":\"A549 pilot axis; transport, proliferation and adhesion signals appear in separate states and are not demonstrated to be coordinated.\"},{\"axis_id\":13,\"name\":\"Epithelial transport/adhesion-associated program\",\"summary\":\"States show coordinated signed variation in PDE4D, ABCC3, EHBP1 and MTUS1, with several states dominated by joint decreases or increases.\",\"functions\":[\"membrane transport-associated expression\",\"epithelial adhesion/junction-associated expression\",\"cAMP/PDE4D-associated signaling expression\"],\"evidence_genes\":[\"ENSG00000113448.18\",\"ENSG00000108846.15\",\"ENSG00000115504.14\",\"ENSG00000129422.14\"],\"uncertainty\":\"A549 pilot axis; many state labels are marked unclear and the shared regulation of these genes is inferred only from co-variation.\"},{\"axis_id\":14,\"name\":\"Cytoskeletal/adhesion GTPase-regulator program\",\"summary\":\"States contrast expression of cytoskeletal and Rho-GTPase regulators (TRIO, FGD6, PTK2, MBNL1), with several states showing coordinated increases or decreases.\",\"functions\":[\"cytoskeletal/adhesion-associated expression\",\"Rho-GTPase signaling-regulator expression\",\"RNA-binding/splicing-associated expression\"],\"evidence_genes\":[\"ENSG00000038382.18\",\"ENSG00000180263.13\",\"ENSG00000169398.19\",\"ENSG00000152601.17\"],\"uncertainty\":\"A549 pilot axis; decoder-derived states and mixed splicing/cytoskeletal genes mean no causal signaling role is established.\"},{\"axis_id\":15,\"name\":\"Poorly resolved WWOX/neurodevelopmental-gene program\",\"summary\":\"States vary in WWOX, IMMP2L, BCAS3 and MBD5 expression, often as broad up- or down-shifts without a clear shared function.\",\"functions\":[\"unknown\"],\"evidence_genes\":[\"ENSG00000186153.16\",\"ENSG00000184903.9\",\"ENSG00000141376.22\",\"ENSG00000204406.12\"],\"uncertainty\":\"State labels repeatedly note unclear biology; evidence supports co-variation only, not a defined pathway.\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 13250,
+    "completion_tokens": 1222,
+    "total_tokens": 14472,
+    "prompt_tokens_details": {
+      "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 13122
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

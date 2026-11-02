@@ -1,0 +1,87 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "histone acetylation / chromatin regulation",
+      "direction": "increase",
+      "basis": "direct",
+      "conditions": "A549, 5 uM SAHA, 24 h",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "SAHA inhibits HDAC catalytic activity, so net acetylation is expected to rise; transcript-level effects are indirect."
+    },
+    {
+      "id": "H2",
+      "program": "HDAC target gene transcription",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549, 5 uM SAHA, 24 h",
+      "gene_expectations": [
+        {
+          "gene": "PDE4D",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "ALDH1A1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "C"
+      ],
+      "reason": "Acetylation-dependent transcription is context dependent; no measured signature, so directions for expressed genes are unknown."
+    },
+    {
+      "id": "H3",
+      "program": "HDAC transcript abundance",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "unknown",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Catalytic inhibition does not imply lowered HDAC mRNA; isoform engagement and feedback are unspecified."
+    },
+    {
+      "id": "H4",
+      "program": "glycolytic / oxidative-stress metabolism",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549, 5 uM SAHA, 24 h",
+      "gene_expectations": [
+        {
+          "gene": "ENO1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "G6PD",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C",
+        "M"
+      ],
+      "reason": "Highly expressed metabolic genes could shift with chromatin changes, but direction and magnitude are unsupported."
+    }
+  ],
+  "summary": "SAHA directly raises acetylation; downstream transcriptional directions in A549 are uncertain without measured response data.",
+  "limitations": [
+    "No measured perturbation response or dose trajectory provided.",
+    "Isoform engagement and cell-type context of HDAC inhibition unspecified.",
+    "Gene-level directions cannot be inferred from mechanism alone."
+  ]
+}

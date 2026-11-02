@@ -1,0 +1,68 @@
+{
+  "scope": "final bounded original-script recovery attempt",
+  "started_utc": "2026-10-27 04:21:15",
+  "result": "exact chemical benchmark training script not recovered",
+  "downloaded_archives": [
+    {
+      "path": "tdc_zip.zip",
+      "bytes": 5876433,
+      "sha256": "1ec72f77de576ed774c38ab6be8c18b7c7b687f5a2749d769d8bfc161c08ac41",
+      "zip_commit_comment": "c310c35f27e3f506411018ac43d97b8ba23ca652",
+      "entries": 692
+    },
+    {
+      "path": "pytdc_zip.zip",
+      "bytes": 1684599,
+      "sha256": "de851d9d52580d384c5a1500a717f6c3b29e1b508ccb1b4ae903a1fa3a0e5a11",
+      "zip_commit_comment": "1300651d5811d1bc8ead979380aed1d95e69675d",
+      "entries": 159
+    }
+  ],
+  "historical_commit": "ee133956faa795ffa44440414fcdf7073f8ed590",
+  "historical_commit_date": "2024-06-12T12:37:05Z",
+  "searched_development_branches": [
+    "amva13-patch-1",
+    "avelez-dev",
+    "bug_fixes_perturb",
+    "neurips_benchmarks",
+    "perturb"
+  ],
+  "additional_searches": [
+    "Full trees for historical main and five development branches",
+    "Full text of both current-main archives",
+    "Author public repositories and official organization repositories",
+    "Author TDC website benchmark templates",
+    "Historical data conversion pipeline and evaluator"
+  ],
+  "verified_historical_details": {
+    "version": "TDC main at 2024-06-22 cutoff; not asserted as exact experimental version",
+    "expression_dataframe": "Historical loader merges adata.X with nine obs columns; current loader instead returns AnnData, whose obs-only splitting is a later regression.",
+    "metadata_columns": [
+      "ncounts",
+      "celltype",
+      "cell_line",
+      "cancer",
+      "disease",
+      "tissue_type",
+      "perturbation",
+      "perturbation_type",
+      "ngenes"
+    ],
+    "dose_column": "Historical default converted DataFrame excludes dose; original adata still available.",
+    "scorer_sha256": "81d8a6dc8e1196fff6ecbbcedb7a0ec013198cc93684359382a903507be60e9e",
+    "scorer_matches_package_1_1_15": true,
+    "cold_four_drug_split": "Same default 80/10/10 two-stage drug split; fails for four drug identities."
+  },
+  "stop_condition": "Current official repository archives, publication-period main, relevant development branches, author repositories and website provenance contain no original chemical-training script or equivalent fixed split/config. The only paper-linked recovery location remaining is the inaccessible Google Drive archive. Further guessing would not establish leaderboard equivalence.",
+  "missing_artifact": {
+    "url": "https://drive.google.com/drive/folders/1RlBnRPmWFRQ6M_1EQ_FMwFb1Y8IjXoyC?usp=sharing",
+    "required_files": "run_chemical_sc.py for ChemCPA (and companion configs/data preparation/split metadata); paper says per-model scripts are present.",
+    "required_information": [
+      "exact training/test drug folds and cell IDs",
+      "feature set and normalization",
+      "dose/control handling and aggregation",
+      "model/hyperparameter/seed list",
+      "actual scorer invocation"
+    ]
+  }
+}

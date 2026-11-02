@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "new_training": false,
+  "new_api_calls": 0,
+  "well_rows": 288,
+  "drug_rows": 72,
+  "seed_rows": 18,
+  "summary_rows": 10,
+  "max_absolute_error": 2.220446049250313e-16,
+  "errors": {
+    "scores_by_well.csv": {
+      "n_treated": 0.0,
+      "n_control": 0.0,
+      "delta_rmse": 8.326672684688674e-17,
+      "delta_pearson": 1.1102230246251565e-16,
+      "absolute_rmse": 8.326672684688674e-17,
+      "absolute_r2": 1.1102230246251565e-16,
+      "response_l2_ratio": 2.220446049250313e-16,
+      "top100_delta_rmse": 2.220446049250313e-16,
+      "top100_direction_accuracy": 0.0
+    },
+    "scores_by_drug.csv": {
+      "delta_rmse": 8.326672684688674e-17,
+      "delta_pearson": 1.1102230246251565e-16,
+      "absolute_rmse": 8.326672684688674e-17,
+      "absolute_r2": 1.1102230246251565e-16,
+      "response_l2_ratio": 1.1102230246251565e-16,
+      "top100_delta_rmse": 2.220446049250313e-16,
+      "top100_direction_accuracy": 1.1102230246251565e-16
+    },
+    "scores_by_seed.csv": {
+      "delta_rmse": 8.326672684688674e-17,
+      "delta_pearson": 8.326672684688674e-17,
+      "absolute_rmse": 8.326672684688674e-17,
+      "absolute_r2": 0.0,
+      "response_l2_ratio": 1.1102230246251565e-16,
+      "top100_delta_rmse": 1.1102230246251565e-16,
+      "top100_direction_accuracy": 1.1102230246251565e-16,
+      "delta_pearson_defined_wells": 0.0,
+      "n_wells": 0.0
+    },
+    "scores_summary.csv": {
+      "delta_rmse_mean": 8.326672684688674e-17,
+      "delta_rmse_std": 9.8879238130678e-17,
+      "delta_pearson_mean": 8.326672684688674e-17,
+      "delta_pearson_std": 8.326672684688674e-17,
+      "absolute_rmse_mean": 8.326672684688674e-17,
+      "absolute_rmse_std": 9.8879238130678e-17,
+      "absolute_r2_mean": 0.0,
+      "absolute_r2_std": 7.979727989493313e-17,
+      "response_l2_ratio_mean": 1.1102230246251565e-16,
+      "response_l2_ratio_std": 9.020562075079397e-17,
+      "top100_delta_rmse_mean": 1.1102230246251565e-16,
+      "top100_delta_rmse_std": 9.020562075079397e-17,
+      "top100_direction_accuracy_mean": 1.1102230246251565e-16,
+      "top100_direction_accuracy_std": 7.112366251504909e-17,
+      "n_seeds": 0.0,
+      "delta_pearson_defined_wells_min": 0.0,
+      "delta_pearson_defined_wells_max": 0.0
+    }
+  }
+}

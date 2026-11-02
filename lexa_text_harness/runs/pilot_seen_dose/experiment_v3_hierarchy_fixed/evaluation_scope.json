@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "scored": "2026-10-26T23:25:36+08:00",
+  "role": "development;5uM previously unblinded",
+  "n_cases": 16,
+  "n_treated": 786,
+  "n_genes": 2000,
+  "aggregation": "equal wells within drug, then equal four drugs; per-well metrics averaged",
+  "prediction_seal_sha256": "1057a9e6b435533bbb1b1dc7c075d35061f3cdfb61a6caf58a3a765cab8a35c1",
+  "evaluation_sha256": "42cdc42755f47eaea134ba1898ca56616d16dfa73839944ef961c90fd649a193",
+  "observed_codes_sha256": "f2d2e5a8d3d391853ab57c69b9634434b9edfb561f83524ecd991f4da4808b2a",
+  "limitations": [
+    "No new independent test; no significance claim.",
+    "Fixed24h A549 only.",
+    "Top100 is largest observed mean shifts, not statistical DEGs.",
+    "Old v2 baseline used nonempty train wells; new retrieval requires >=20 per treatment/control.",
+    "Code marginals do not specify individual cell transitions."
+  ]
+}

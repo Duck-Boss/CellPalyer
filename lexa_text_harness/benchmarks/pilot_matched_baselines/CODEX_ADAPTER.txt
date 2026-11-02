@@ -1,0 +1,49 @@
+CODEX dose baseline on the frozen local sciPlex2 pilot
+
+Author implementation
+- Source: literature/tdc_leaderboard/CODEX-master/codex/CODEX_Dose.py
+- Author commit: 0e5f8ff3b10d21b582cf91ea6cf5398fe8eeab99
+- CODEXDose and Network_base are imported unchanged.
+- Encoder, four drug-specific dose modules, Gaussian mean/variance decoder.
+- 2000 input genes; layers [512,128,64], no batch normalization/dropout.
+- GaussianNLLLoss; Adam lr=1e-4, weight_decay=1e-6; batch size1024.
+- Each model has 3,200,608 parameters. CPU explicitly selected, four threads.
+
+Local protocol adaptations
+- Existing log1pCP10K values, 2000 train-selected genes, 5285 train/2742 val
+  cells. All 5uM treatment cells remain excluded from fitting and selection.
+- The original author's protocol used a different gene set and held-out dose;
+  these results are a local matched comparison, not paper-score reproduction.
+- Only 4375 treated training cells form targets. 910 training controls form
+  random inputs, sampled within drug+plate+replicate with replacement to match
+  batch sizes; no single-cell pre/post pairing is asserted.
+- Validation uses 2243 treated cells and 499 validation controls. Early stopping
+  minimizes per-condition mean-expression RMSE, equal conditions within each
+  drug and then equal drugs. Maximum1000 epochs, patience50.
+- The author's original fit helper is bypassed because it automatically picks
+  a GPU and evaluates OOD targets during training. No OOD targets are opened.
+- The final incomplete treated batch is retained to avoid excluding training
+  cells merely because the local sample count differs from the author's data.
+- Dose is divided by maximum training dose100uM; held-out5uM becomes0.05.
+- Predictions use the exact16 target-free cases and matched control-cell IDs
+  in data/prediction_cases.json. The model predicts every supplied control
+  cell and the expression means are retained.
+- Native predictions use the author's positive-dose forward function.
+- The supplemental model-zero-dose baseline explicitly calls the selected
+  drug's dose module at exact zero. This avoids all-zero dose one-hot routing
+  incorrectly to drug0, while retaining the same learned layers and weights.
+
+Verification
+- Model import, CPU execution, positive-dose manual/author branch equivalence,
+  and drug0 zero-dose equivalence checked numerically.
+- A distinct two-epoch smoke run verified training/validation/prediction and
+  produced two16x2000 mean arrays. Its results are not a reported model seed.
+- Formal runs use seeds0,1,2 and preserve config/source/data hashes, curves,
+  best checkpoints and prediction seals. Test scores are computed by root only
+  after all CPA/CODEX predictions have been sealed.
+
+Reproduction (from project root)
+env OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 MKL_NUM_THREADS=4 \
+ /cpfs_speech/user/hejia.hj/code/anaconda/bin/python -u \
+ benchmarks/pilot_matched_baselines/run_codex.py \
+ --output benchmarks/pilot_matched_baselines/models/codex/seed_0 --seed 0

@@ -1,0 +1,115 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "oxidative phosphorylation / mitochondrial respiration",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, 5 uM, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "MT-CO3",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MT-CYB",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MT-ATP6",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Mitochondrial transcripts are highly expressed in controls; any perturbation could shift respiration either way."
+    },
+    {
+      "id": "H2",
+      "program": "glycolytic metabolism",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, 5 uM, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "ENO1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Glycolytic genes are abundant in untreated A549; direction depends on unknown mechanism."
+    },
+    {
+      "id": "H3",
+      "program": "detoxification / aldehyde and xenobiotic metabolism",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, 5 uM, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "ALDH1A1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "ALDH1A1 and AKR1C2 are expressed at baseline; stress responses could raise or lower them."
+    },
+    {
+      "id": "H4",
+      "program": "cAMP signaling via PDE4D",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, 5 uM, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "PDE4D",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "PDE4D is the top expressed feature; mRNA direction cannot be inferred without mechanism."
+    },
+    {
+      "id": "H5",
+      "program": "stress-associated long non-coding RNA expression",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, 5 uM, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "MALAT1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "MALAT1/NEAT1 are expressed in controls; stress could alter them but direction is unknown."
+    }
+  ],
+  "summary": "Mechanism is withheld, so all programs are direction-uncertain; hypotheses flag baseline-expressed processes that could plausibly respond.",
+  "limitations": [
+    "No treatment-specific response or mechanism is available.",
+    "Only untreated context C is provided; no dose or time comparison.",
+    "mRNA direction cannot be inferred from protein-level inhibition."
+  ]
+}

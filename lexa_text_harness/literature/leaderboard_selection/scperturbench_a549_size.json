@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-27T14:27:14+08:00",
+  "dataset": "scPerturBench Chemical Sciplex3-A549",
+  "source_url": "https://bm2-lab.github.io/scPerturBench-reproducibility/Task_Chemical_perturbation_Dataset_Sciplex3-A549_Accuracy.html",
+  "reported_total_cells": 82975,
+  "reported_distinct_perturbations": 188,
+  "cell_line": "A549",
+  "benchmark_gene_sets": [
+    5000,
+    100
+  ],
+  "gene_set_meaning": "5000 HVGs or condition-specific top100 DEGs",
+  "original_sciplex_experiment": {
+    "small_molecules": 188,
+    "doses": [
+      "10 nM",
+      "100 nM",
+      "1 uM",
+      "10 uM"
+    ],
+    "treatment_hours": 24,
+    "source": "https://cole-trapnell-lab.github.io/pdfs/papers/srivatsan_mcfaline_ramani_sci-plex_Science_2019.pdf"
+  },
+  "train_val_test_cell_counts": "not independently verified",
+  "site_visualization_conditions": {
+    "drugs": 9,
+    "doses_each": 4,
+    "is_proven_complete_test_set": false
+  },
+  "caveat": "Website condition suffix0.001/0.01/0.1/1.0 must not be labeled uM without verifying benchmark dose transform; overallcells nottestcells.",
+  "new_experiments": false
+}

@@ -1,0 +1,856 @@
+{
+  "status": "completed",
+  "case_id": "drug=BMS|dose_uM=5|plate=B|replicate=3",
+  "opaque_id": "Pacf423aa0ca4",
+  "arm": "no_semantics",
+  "stage": "joint",
+  "fingerprint": "89ef8a3c792476004ada4ff2734054834b7fed41c3ff62ec5334e7f13e8982f4",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A0/C10"
+      ],
+      "reason": "Strong up G1015; NF-kB program shift"
+    },
+    {
+      "axis_id": 1,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A1/C1"
+      ],
+      "reason": "Up G0642; NF-kB target direction"
+    },
+    {
+      "axis_id": 2,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A2/C9"
+      ],
+      "reason": "Strong up G0255; NF-kB program"
+    },
+    {
+      "axis_id": 3,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A3/C13"
+      ],
+      "reason": "Up G0700; NF-kB target direction"
+    },
+    {
+      "axis_id": 4,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A4/C12"
+      ],
+      "reason": "Strong up G1651; NF-kB program"
+    },
+    {
+      "axis_id": 5,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A5/C12"
+      ],
+      "reason": "Up G0522; NF-kB target direction"
+    },
+    {
+      "axis_id": 6,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A6/C10"
+      ],
+      "reason": "Strong up G0096; NF-kB program"
+    },
+    {
+      "axis_id": 7,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A7/C7"
+      ],
+      "reason": "Up G1773; NF-kB target direction"
+    },
+    {
+      "axis_id": 8,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A8/C11"
+      ],
+      "reason": "NF-kB target suppression; states 11/10/0 show strongest G0574 down"
+    },
+    {
+      "axis_id": 9,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A9/C13"
+      ],
+      "reason": "Strong down-effect states align with NF-kB transcriptional decrease"
+    },
+    {
+      "axis_id": 10,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A10/C13"
+      ],
+      "reason": "States with large up G1776/G1731 and down effects fit suppression"
+    },
+    {
+      "axis_id": 11,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A11/C4"
+      ],
+      "reason": "Up-weighted states show coherent up/down program shifts"
+    },
+    {
+      "axis_id": 12,
+      "decision": "shift",
+      "targets": [
+        [
+          5,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A12/C5"
+      ],
+      "reason": "Strong G0053 down states match NF-kB target decrease"
+    },
+    {
+      "axis_id": 13,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A13/C0"
+      ],
+      "reason": "Up G0620/G0836 states reflect program-level shift"
+    },
+    {
+      "axis_id": 14,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A14/C2"
+      ],
+      "reason": "Up G1660/G1047 states support NF-kB-dependent change"
+    },
+    {
+      "axis_id": 15,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A15/C8"
+      ],
+      "reason": "Up G1907 states align with pathway suppression signature"
+    },
+    {
+      "axis_id": 16,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A16/C8"
+      ],
+      "reason": "Highest control occupancy; NF-kB target program expected down"
+    },
+    {
+      "axis_id": 17,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A17/C1"
+      ],
+      "reason": "Dominant control state; IKK inhibition lowers NF-kB transcription"
+    },
+    {
+      "axis_id": 18,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A18/C8"
+      ],
+      "reason": "Largest control occupancy; consistent with reduced NF-kB output"
+    },
+    {
+      "axis_id": 19,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A19/C7"
+      ],
+      "reason": "Top control state; expected decrease in NF-kB-dependent program"
+    },
+    {
+      "axis_id": 20,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A20/C14"
+      ],
+      "reason": "Highest control occupancy; NF-kB inhibition expected to shift"
+    },
+    {
+      "axis_id": 21,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A21/C11"
+      ],
+      "reason": "Dominant control state; canonical NF-kB transcription expected down"
+    },
+    {
+      "axis_id": 22,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A22/C10"
+      ],
+      "reason": "Largest control occupancy; consistent with reduced NF-kB targets"
+    },
+    {
+      "axis_id": 23,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A23/C8"
+      ],
+      "reason": "Top control state; IKK inhibition expected to lower NF-kB output"
+    },
+    {
+      "axis_id": 24,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A24/C13"
+      ],
+      "reason": "NF-kB target up-states with strong positive control effects"
+    },
+    {
+      "axis_id": 25,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A25/C12"
+      ],
+      "reason": "Positive up-state weights align with NF-kB program"
+    },
+    {
+      "axis_id": 26,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A26/C10"
+      ],
+      "reason": "Strong up-state effects on NF-kB-linked features"
+    },
+    {
+      "axis_id": 27,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A27/C14"
+      ],
+      "reason": "Up-state positive weights support NF-kB transcription"
+    },
+    {
+      "axis_id": 28,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A28/C10"
+      ],
+      "reason": "Up-state effects consistent with NF-kB target induction"
+    },
+    {
+      "axis_id": 29,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A29/C14"
+      ],
+      "reason": "Positive up-state weights on NF-kB program"
+    },
+    {
+      "axis_id": 30,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A30/C8"
+      ],
+      "reason": "Up-state effects align with NF-kB-dependent transcription"
+    },
+    {
+      "axis_id": 31,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A31/C9"
+      ],
+      "reason": "Positive up-state weights support NF-kB program"
+    }
+  ],
+  "response": {
+    "updates": [],
+    "summary": "Local shifts are directionally consistent with H1 (NF-kB target decrease) where up-states carry positive weights; no cross-axis cancellation or contradiction justifies revision. Anonymous features prevent gene-level checks.",
+    "limitations": [
+      "No measured perturbation response; directions are decoder contributions only.",
+      "Anonymous features cannot be mapped to NFKBIA/CXCL8/TNFAIP3.",
+      "Baseline NF-kB activity in A549 at 24 h unknown."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 32,
+      "keep": 0,
+      "unknown": 0
+    },
+    "delta_l2": 5.002050125818023,
+    "standardized_delta_rms": 0.13709850671151277,
+    "axis_tv": [
+      0.26176470588235295,
+      0.2235294117647059,
+      0.29705882352941176,
+      0.29117647058823526,
+      0.2882352941176471,
+      0.2852941176470588,
+      0.29117647058823526,
+      0.30000000000000004,
+      0.2882352941176471,
+      0.2323529411764706,
+      0.2823529411764706,
+      0.24117647058823527,
+      0.23823529411764707,
+      0.27058823529411763,
+      0.29117647058823526,
+      0.17941176470588235,
+      0.2088235294117647,
+      0.2147058823529412,
+      0.21176470588235297,
+      0.20000000000000004,
+      0.2088235294117647,
+      0.22647058823529415,
+      0.22647058823529412,
+      0.2205882352941176,
+      0.1411764705882353,
+      0.14705882352941174,
+      0.2735294117647059,
+      0.2735294117647059,
+      0.3,
+      0.16470588235294115,
+      0.25882352941176473,
+      0.1764705882352941
+    ],
+    "mean_axis_tv": 0.24108455882352942,
+    "top_gene_changes": {
+      "up": [
+        {
+          "feature": "G0255",
+          "delta": 0.4437,
+          "scaled_delta": 0.47307
+        },
+        {
+          "feature": "G0348",
+          "delta": 0.26619,
+          "scaled_delta": 0.35037
+        },
+        {
+          "feature": "G0850",
+          "delta": 0.27559,
+          "scaled_delta": 0.33733
+        },
+        {
+          "feature": "G0952",
+          "delta": 0.25849,
+          "scaled_delta": 0.33157
+        },
+        {
+          "feature": "G1036",
+          "delta": 0.27177,
+          "scaled_delta": 0.31927
+        },
+        {
+          "feature": "G1773",
+          "delta": 0.2933,
+          "scaled_delta": 0.31594
+        },
+        {
+          "feature": "G1787",
+          "delta": 0.28485,
+          "scaled_delta": 0.31516
+        },
+        {
+          "feature": "G1751",
+          "delta": 0.2827,
+          "scaled_delta": 0.31206
+        },
+        {
+          "feature": "G1601",
+          "delta": 0.2552,
+          "scaled_delta": 0.30783
+        },
+        {
+          "feature": "G1725",
+          "delta": 0.25628,
+          "scaled_delta": 0.30406
+        }
+      ],
+      "down": [
+        {
+          "feature": "G0352",
+          "delta": -0.0747,
+          "scaled_delta": -0.11023
+        },
+        {
+          "feature": "G1412",
+          "delta": -0.08406,
+          "scaled_delta": -0.10591
+        },
+        {
+          "feature": "G1803",
+          "delta": -0.07792,
+          "scaled_delta": -0.09525
+        },
+        {
+          "feature": "G1900",
+          "delta": -0.07392,
+          "scaled_delta": -0.09438
+        },
+        {
+          "feature": "G1915",
+          "delta": -0.06685,
+          "scaled_delta": -0.07804
+        },
+        {
+          "feature": "G0011",
+          "delta": -0.05929,
+          "scaled_delta": -0.07238
+        },
+        {
+          "feature": "G0754",
+          "delta": -0.04623,
+          "scaled_delta": -0.06706
+        },
+        {
+          "feature": "G0133",
+          "delta": -0.04824,
+          "scaled_delta": -0.05983
+        },
+        {
+          "feature": "G1343",
+          "delta": -0.04315,
+          "scaled_delta": -0.05844
+        },
+        {
+          "feature": "G1298",
+          "delta": -0.0459,
+          "scaled_delta": -0.05779
+        }
+      ]
+    },
+    "hypothesis_gene_checks": "Unavailable without feature semantics; anonymous IDs cannot be mapped to hypothesis gene names.",
+    "cross_axis_cancellation": [
+      {
+        "feature": "G0210",
+        "summed_delta": 0.025481901416271515,
+        "absolute_axis_sum": 0.288419455124203
+      },
+      {
+        "feature": "G0574",
+        "summed_delta": -0.04330428760637461,
+        "absolute_axis_sum": 0.32927468203287236
+      },
+      {
+        "feature": "G0289",
+        "summed_delta": -0.002337126743912175,
+        "absolute_axis_sum": 0.1529042884172347
+      },
+      {
+        "feature": "G0197",
+        "summed_delta": 0.02881559557619545,
+        "absolute_axis_sum": 0.23127203724695442
+      },
+      {
+        "feature": "G1353",
+        "summed_delta": 0.006835186426024005,
+        "absolute_axis_sum": 0.14568015848325996
+      },
+      {
+        "feature": "G0199",
+        "summed_delta": -0.007591075585308881,
+        "absolute_axis_sum": 0.13554140865035422
+      }
+    ]
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "cbfcf1bb4962ca006e31fd3edbab388753a221878be4a784f804060fd806b9b1",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "829bdf30af55ccafcd40181a87499825c55132716124f75d5df563f865903ce3",
+      "response_sha256": "f505839bfecc635d0014b782b9007f94d5a808ee147986f837281be3acbe568a"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "7000817b9ce9d11de93406b49603658d572af5038084eed763d8fb25515bfd8b",
+      "response_sha256": "69342842e408353f58f17a9cead995f121a62cde281df8b85d7f19e33ef3696f"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "999ebd25e5f04a8f7510c4b1a22c38fdf948abda7ab8e63fc1d34dfb9c3420dd",
+      "response_sha256": "42ba11f5e0b8a718f4df452a2efce0e1aed7ef5561bf16fda08b55a259a4b38a"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "ccffec2f678d66eedc02942277ee743108c91293ea100dd7fe578377f13a0f22",
+      "response_sha256": "bcfee121c09a9826e988d79dc33ce39161afeb039c565a36d55ff4c5178ce6e8"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "dc35a5e0d83dbd1fcd5b8ca37a3fb7c5ba4a489979e7d3834b1567b3fb8ccf89",
+      "response_sha256": "44e9c57a4fc95346ed5a2bc98727a6c0d7daab0bcaeb2ba36fee38bb15b7c5b6"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "a3448fbbcc4767693e858db717c7d22b28d3aff679dfb75267f116a066e28388",
+      "response_sha256": "50bcd8ad39699e59cc1cb3f3e7ea4858ae9baf388e8dc58a30107173169bf1a8"
+    }
+  ],
+  "attempts_used": 6,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/no_semantics/Pacf423aa0ca4/joint.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "8160f92851310af4fe2724e0e31021d807c0167525087ed51c73da26e1cbf35b"
+}

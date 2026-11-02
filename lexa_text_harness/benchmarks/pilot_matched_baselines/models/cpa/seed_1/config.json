@@ -1,0 +1,72 @@
+{
+  "method": "CPA (original author implementation)",
+  "seed": 1,
+  "device": "cpu",
+  "threads": 4,
+  "max_epochs": 1000,
+  "patience_epochs": 50,
+  "scheduler_interval_epochs": 20,
+  "scheduler_interval_source": "Original CPA train.py default checkpoint_freq=20; original early_stopping steps LR only at these checkpoints",
+  "selection": "native counterfactual validation expression RMSE; well within drug then drug equal weight",
+  "dose_transform": "dose_uM / training_max_dose_uM",
+  "dose_scale": 100.0,
+  "drug_order": [
+    "BMS",
+    "Dex",
+    "Nutlin",
+    "SAHA"
+  ],
+  "covariates": [
+    "constant A549"
+  ],
+  "loss_ae": "gauss",
+  "doser_type": "mlp",
+  "decoder_activation": "linear",
+  "hparams": {
+    "dim": 128,
+    "dosers_width": 128,
+    "dosers_depth": 2,
+    "dosers_lr": 0.004,
+    "dosers_wd": 1e-07,
+    "autoencoder_width": 128,
+    "autoencoder_depth": 3,
+    "adversary_width": 64,
+    "adversary_depth": 2,
+    "reg_adversary": 60,
+    "penalty_adversary": 60,
+    "autoencoder_lr": 0.0003,
+    "adversary_lr": 0.0003,
+    "autoencoder_wd": 4e-07,
+    "adversary_wd": 4e-07,
+    "adversary_steps": 3,
+    "batch_size": 256,
+    "step_size_lr": 45
+  },
+  "source": "benchmarks/pilot_matched_baselines/vendor/CPA-main/cpa/model.py",
+  "source_sha256": "b57dfe102f5a1989ee092cf4d8327364fec5e56ab13f000d454816051a6d6a4e",
+  "source_provenance": {
+    "url": "https://codeload.github.com/facebookresearch/CPA/zip/refs/heads/main",
+    "sha256": "a6e8d5eca4ef636a99661ecbb5cb691b51f76335fec157cc602669dc03abef03",
+    "commit": "50e283a7a1b3d43470d8adc5e11d3be4c10a534c",
+    "archive": "benchmarks/pilot_matched_baselines/vendor/cpa_original.zip"
+  },
+  "wrapper_sha256": "8cb5e26ba64ec27c2bae90f0f120ed16fc729afd3fec10e3b27e3756c687c15a",
+  "input_sha256": {
+    "prepared.npz": "920fb717e80976fb18f5557a17545689048a40972147de8ce3a304c1640d2106",
+    "metadata.csv": "87ada983037aeb16b6ecd49a65cf17b53a94dbbb47598034f1c9ecd04d20304f",
+    "prediction_cases.json": "5a6a778887a9c6fa8ab70605b8b06c85f260aebe3b65aecc19e4497d66cd2894"
+  },
+  "n_train": 5285,
+  "n_val": 2742,
+  "n_genes": 2000,
+  "validation_cases": 43,
+  "test_cases": 16,
+  "no_test_targets_loaded": true,
+  "adaptations": [
+    "Direct import of original model.py avoids optional AnnData/Scanpy API wrappers",
+    "Original model/update/loss/optimizer/default hyperparameters unchanged",
+    "Validation matched-well RMSE replaces original OOD-reporting training harness",
+    "Original learning-rate scheduler called at the original default 20-epoch interval; early stopping checks validation each epoch",
+    "Explicit train-only fitting and metadata/ID-based frozen data plumbing"
+  ]
+}

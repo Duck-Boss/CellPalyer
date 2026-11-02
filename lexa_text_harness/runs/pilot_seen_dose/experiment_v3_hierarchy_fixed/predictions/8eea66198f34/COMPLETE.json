@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "fingerprint": "2858dbe2968c055aca717485fb205f8f7d03344a9b5941e627553d26dbccfb80",
+  "case_id": "drug=Dex|dose_uM=5|plate=A|replicate=3",
+  "local": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/predictions/8eea66198f34/local.json",
+  "joint": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v3_hierarchy_fixed/predictions/8eea66198f34/joint.json",
+  "local_sha256": "cd2fdd0184422c29c7db0e9b29a6e7afb06f18d0de58ad71ba9299ee25b279bb",
+  "joint_sha256": "fd532ee6279a22851a3b837e950dd1fd823afeaafca9fb7ee86c581184c7cfad",
+  "api_attempts": 5
+}

@@ -1,0 +1,74 @@
+{
+  "status": "complete",
+  "created_asia_shanghai": "2026-10-26T23:58:24.541766+08:00",
+  "uses_target_answers": true,
+  "is_prediction": false,
+  "n_cases": 16,
+  "n_genes": 2000,
+  "n_treated": 786,
+  "method": "FISTA projected onto product of32 probability simplexes; initialized at actual treated encoded occupancies; retain lowest feasible objective per case",
+  "objective": "mean_g((sum_as (q_as-p0_as)*u_asg)-observed_delta_g)^2",
+  "constraints": "q_as>=0 and sum_s q_as=1, continuous population fractions; no joint-support or finite-cell-count constraint",
+  "iterations": 10000,
+  "elapsed_seconds": 3.5039072087965906,
+  "converged_all": false,
+  "gap_tolerance": 1e-08,
+  "lipschitz_constant": 0.19011703296274976,
+  "mean_equal_well_metrics": {
+    "encoded_true_response_rmse": 0.18977779152152993,
+    "fitted_feasible_rmse": 0.1760379250295297,
+    "relaxed_optimum_rmse_lower_bound": 0.17603790486713394,
+    "mse_frank_wolfe_gap": 6.299826707067795e-09,
+    "occupancy_tv_vs_true_encoded_mean": 0.5372233725696719
+  },
+  "per_drug": {
+    "BMS": {
+      "encoded_true_response_rmse": 0.2643551739501885,
+      "fitted_feasible_rmse": 0.24146454181992186,
+      "relaxed_optimum_rmse_lower_bound": 0.24146453882830415,
+      "mse_frank_wolfe_gap": 1.3967046564450358e-09,
+      "occupancy_tv_vs_true_encoded_mean": 0.5547579231151957
+    },
+    "Dex": {
+      "encoded_true_response_rmse": 0.1711858420152584,
+      "fitted_feasible_rmse": 0.16000564036482764,
+      "relaxed_optimum_rmse_lower_bound": 0.16000561491064758,
+      "mse_frank_wolfe_gap": 8.134327949388918e-09,
+      "occupancy_tv_vs_true_encoded_mean": 0.6165526450287119
+    },
+    "Nutlin": {
+      "encoded_true_response_rmse": 0.15539816709365636,
+      "fitted_feasible_rmse": 0.14784031461916147,
+      "relaxed_optimum_rmse_lower_bound": 0.14784029081413982,
+      "mse_frank_wolfe_gap": 6.953382342459423e-09,
+      "occupancy_tv_vs_true_encoded_mean": 0.45776556325525
+    },
+    "SAHA": {
+      "encoded_true_response_rmse": 0.16817198302701641,
+      "fitted_feasible_rmse": 0.15484120331420775,
+      "relaxed_optimum_rmse_lower_bound": 0.15484117491544425,
+      "mse_frank_wolfe_gap": 8.714891879977801e-09,
+      "occupancy_tv_vs_true_encoded_mean": 0.5198173588795302
+    }
+  },
+  "certificate": "For convex differentiable f on product simplexes, gap=max_v gradf(q) dot(q-v)=q dot gradf(q)-min_v v dot gradf(q), so f(q)-gap <= f* <= f(q); numerical floating-point gap is a convergence diagnostic, not exact-arithmetic proof.",
+  "units": "log1p(CP10K); individual well RMSE then equal wells/drugs",
+  "limitations": [
+    "This fits known true5uM answers and cannot be reported as perturbation prediction.",
+    "Optimum applies only to relaxed population marginals and mean expression, not real biological joint code profiles.",
+    "No extrapolation/generalization or causal claim; no drug-response model learned.",
+    "True encoded occupancies need not minimize this population response objective."
+  ],
+  "source_sha256": {
+    "case_arrays.npz": "f2d2e5a8d3d391853ab57c69b9634434b9edfb561f83524ecd991f4da4808b2a",
+    "exact_code_effects.npz": "5bd0da54ddcceae0a4ea40d2f260b4d2acbd7b2d7a2eb2da97caeb75efb117fd",
+    "script": "0c14f9d3d638fc2a1ff27f92878e6113101f2bf1c7e8f5420b3861806691185c"
+  },
+  "outputs_sha256": {
+    "by_well.csv": "4298d5158c2321907bff363c39797d9805a6aac20c87d6e9f1464888d46c2263",
+    "by_drug.csv": "98ee427d4951009dac8dd1cc4d01fd96c41f24162e53dd666aae0f65d7e81e4f",
+    "fitted_arrays.npz": "955200a8ea2bf71c2377bd9042646fe405b51c18967dc5eccb100f74e99aecac"
+  },
+  "documentation_corrected_asia_shanghai": "2026-10-27T00:00:52.549254+08:00",
+  "documentation_correction": "Corrected max/min wording in certificate; numerical algorithm and previously computed arrays unchanged."
+}

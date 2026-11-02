@@ -1,0 +1,3 @@
+method,api_requests,evaluations,tool_calls,evaluations_after_prior_round_feedback,distinct_evaluation_api_rounds,same_round_extra_evaluations
+agent,4.9375,1.5625,6.625,0.5625,1.5625,0.0
+one_shot,3.8125,1.0,6.375,0.0,1.0,0.0

@@ -1,0 +1,89 @@
+{
+  "created_at": "2026-10-27T14:54:23+08:00",
+  "task": "existing seen-drug unseen-5uM pilot",
+  "dataset": "sciPlex2 A549, 24 hours, BMS/Dex/Nutlin/SAHA",
+  "prepared_dir": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/prepared",
+  "inputs": {
+    "prepared.npz": {
+      "path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/prepared/prepared.npz",
+      "sha256": "920fb717e80976fb18f5557a17545689048a40972147de8ce3a304c1640d2106"
+    },
+    "metadata.csv": {
+      "path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/prepared/metadata.csv",
+      "sha256": "87ada983037aeb16b6ecd49a65cf17b53a94dbbb47598034f1c9ecd04d20304f"
+    },
+    "manifest.json": {
+      "path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/prepared/manifest.json",
+      "sha256": "f65cbb0358bf94c71a093eed9492d81c4c67081454275f82be2f8b9bc3b7ad8b"
+    },
+    "cases.json": {
+      "path": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/prepared/cases.json",
+      "sha256": "493aa96ab615615a046148cf85ee57b68c5d2ea86b72443440de78e5e7d8b8c1"
+    }
+  },
+  "prediction_cases_sha256": "5a6a778887a9c6fa8ab70605b8b06c85f260aebe3b65aecc19e4497d66cd2894",
+  "evaluation_archive_sha256": "42cdc42755f47eaea134ba1898ca56616d16dfa73839944ef961c90fd649a193",
+  "models": [
+    "cpa",
+    "codex"
+  ],
+  "training_seeds": [
+    0,
+    1,
+    2
+  ],
+  "device": "cpu",
+  "threads_per_process": 4,
+  "normalization": "reuse log1p(CP10K) over original genes then train-selected 2000 features",
+  "dose_scaling": {
+    "denominator_uM": 100,
+    "source": "maximum in training metadata"
+  },
+  "n_train": 5285,
+  "n_val": 2742,
+  "n_genes": 2000,
+  "n_training_controls": 910,
+  "n_validation_controls": 499,
+  "n_cases": 16,
+  "n_treated_scored": 786,
+  "n_unique_prediction_controls": 951,
+  "selection": "the same 16 ready cases; no new sample exclusion",
+  "validation": "matched validation-condition mean expression RMSE, equal conditions within drug then equal drugs; max1000 epochs/patience50",
+  "test_target_access": "only shared scorer after all six model predictions are sealed",
+  "prediction_contract": {
+    "file": "models/{model}/seed_{seed}/predictions.npz",
+    "fields": [
+      "case_ids",
+      "genes",
+      "pred_treated_mean",
+      "pred_control_mean"
+    ],
+    "shape": [
+      16,
+      2000
+    ],
+    "zero_dose": "same inference control population and same model; drug-specific zero-dose branch where required"
+  },
+  "prespecified_prediction_views": {
+    "native": "delta = model_treated_mean - observed_control_mean; absolute = model_treated_mean",
+    "calibrated": "delta = model_treated_mean - model_zero_dose_mean; absolute = observed_control_mean + delta",
+    "reporting": "report both; no test-based selection of anchor or checkpoint"
+  },
+  "metrics": {
+    "delta_rmse": "per well sqrt(mean_g((pred_delta - (true_treated_mean - observed_control_mean))**2)); equal wells within drug then equal drugs",
+    "delta_pearson": "correlation across gene-wise changes; undefined zero-variance vectors stay NaN, report valid-well coverage",
+    "absolute_r2": "sklearn definition 1-SSE/SST across gene-wise treated means, not squared Pearson",
+    "aggregation_of_seeds": "compute each full experiment separately; mean and sample SD (ddof=1) across three seeds"
+  },
+  "references": {
+    "lexa_pure_v4": "reuse sealed full_joint_a0.3 predictions",
+    "lexa_retrieval_v3": "historical supervised-response reference, separate information condition",
+    "expression_interpolation": "same training-response interpolation as existing experiment"
+  },
+  "limitations": [
+    "5uM targets already unblinded in prior work: development comparison, not new independent generalization test",
+    "CPA/CODEX supervised on other-dose responses; pure LEXA+DeepSeek consumes mechanism/code semantics at inference, not matched-response retrieval",
+    "Matched data protocol is ours; models are adapted author implementations, not reproduction of paper or leaderboard scores",
+    "No matched single-cell pre/post pairing; outputs and metrics are population means"
+  ]
+}

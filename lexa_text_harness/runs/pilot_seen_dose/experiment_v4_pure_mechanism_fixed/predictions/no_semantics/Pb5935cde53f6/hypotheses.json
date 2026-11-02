@@ -1,0 +1,70 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "histone acetylation-dependent transcription",
+      "direction": "increase",
+      "basis": "direct",
+      "conditions": "A549, 5 uM SAHA, 24 h",
+      "gene_expectations": [
+        {
+          "gene": "G0836",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "G1935",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "HDAC catalytic inhibition raises acetylation, plausibly increasing some transcripts; direction per gene is unknown."
+    },
+    {
+      "id": "H2",
+      "program": "HDAC transcript abundance",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "unknown",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Enzyme inhibition does not imply lowered HDAC mRNA; transcript change is context dependent."
+    },
+    {
+      "id": "H3",
+      "program": "global transcriptional remodeling",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h exposure",
+      "gene_expectations": [
+        {
+          "gene": "G1096",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "G1787",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "G0953",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C",
+        "M"
+      ],
+      "reason": "Chromatin effects are pleiotropic; no measured signature or gene mapping is available to assign directions."
+    }
+  ],
+  "summary": "SAHA inhibits HDAC catalytic activity, plausibly increasing acetylation-linked transcription, but specific gene directions and magnitudes are uncertain in A549.",
+  "limitations": [
+    "No measured perturbation response or dose trajectory is provided.",
+    "Anonymous features cannot be mapped to genes, so gene-level directions are unknown.",
+    "Isoform engagement and downstream transcriptional effects are context dependent."
+  ]
+}

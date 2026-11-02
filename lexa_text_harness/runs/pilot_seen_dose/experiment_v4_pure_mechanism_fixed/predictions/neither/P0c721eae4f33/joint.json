@@ -1,0 +1,596 @@
+{
+  "status": "completed",
+  "case_id": "drug=SAHA|dose_uM=5|plate=B|replicate=1",
+  "opaque_id": "P0c721eae4f33",
+  "arm": "neither",
+  "stage": "joint",
+  "fingerprint": "1712b7d7c928a413f9782bc615b8a76017596b85838b0255de0d6b68442374a1",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A0"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift."
+    },
+    {
+      "axis_id": 1,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A1"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift."
+    },
+    {
+      "axis_id": 2,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A2"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift."
+    },
+    {
+      "axis_id": 3,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A3"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift."
+    },
+    {
+      "axis_id": 4,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A4"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift."
+    },
+    {
+      "axis_id": 5,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A5"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift."
+    },
+    {
+      "axis_id": 6,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A6"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift."
+    },
+    {
+      "axis_id": 7,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A7"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift."
+    },
+    {
+      "axis_id": 8,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A8"
+      ],
+      "reason": "Mechanism withheld; up-effects alone do not justify direction."
+    },
+    {
+      "axis_id": 9,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A9"
+      ],
+      "reason": "No mechanism basis; magnitude alone insufficient."
+    },
+    {
+      "axis_id": 10,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A10"
+      ],
+      "reason": "Hidden mechanism; state preference unsupported."
+    },
+    {
+      "axis_id": 11,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A11"
+      ],
+      "reason": "No directional mechanism evidence supplied."
+    },
+    {
+      "axis_id": 12,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A12"
+      ],
+      "reason": "Mechanism withheld; shift not justified."
+    },
+    {
+      "axis_id": 13,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A13"
+      ],
+      "reason": "No treatment-specific direction available."
+    },
+    {
+      "axis_id": 14,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A14"
+      ],
+      "reason": "Hidden mechanism; state shift unsupported."
+    },
+    {
+      "axis_id": 15,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A15"
+      ],
+      "reason": "No mechanism evidence for directional shift."
+    },
+    {
+      "axis_id": 16,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A16"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift."
+    },
+    {
+      "axis_id": 17,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A17"
+      ],
+      "reason": "Mechanism withheld; state effects unsupported directionally."
+    },
+    {
+      "axis_id": 18,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A18"
+      ],
+      "reason": "No treatment-specific direction available for this axis."
+    },
+    {
+      "axis_id": 19,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A19"
+      ],
+      "reason": "Hidden mechanism precludes justified state preference."
+    },
+    {
+      "axis_id": 20,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A20"
+      ],
+      "reason": "No mechanism evidence to support a state shift."
+    },
+    {
+      "axis_id": 21,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A21"
+      ],
+      "reason": "Direction uncertain; anonymous features unmapped."
+    },
+    {
+      "axis_id": 22,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A22"
+      ],
+      "reason": "Mechanism withheld; no supported directional shift."
+    },
+    {
+      "axis_id": 23,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A23"
+      ],
+      "reason": "Insufficient mechanism evidence for state preference."
+    },
+    {
+      "axis_id": 24,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A24"
+      ],
+      "reason": "Occupancy alone not directional; mechanism hidden."
+    },
+    {
+      "axis_id": 25,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A25"
+      ],
+      "reason": "Modest effects; no mechanism support for shift."
+    },
+    {
+      "axis_id": 26,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A26"
+      ],
+      "reason": "Mechanism withheld; shift unjustified."
+    },
+    {
+      "axis_id": 27,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A27"
+      ],
+      "reason": "No directional basis; anonymous features unmapped."
+    },
+    {
+      "axis_id": 28,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A28"
+      ],
+      "reason": "Hidden mechanism; state preference unsupported."
+    },
+    {
+      "axis_id": 29,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A29"
+      ],
+      "reason": "Strong effects but no mechanism direction."
+    },
+    {
+      "axis_id": 30,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A30"
+      ],
+      "reason": "No treatment-specific direction; shift unjustified."
+    },
+    {
+      "axis_id": 31,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A31"
+      ],
+      "reason": "Mechanism withheld; directional shift unsupported."
+    }
+  ],
+  "response": {
+    "updates": [
+      {
+        "axis_id": 8,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A8"
+        ],
+        "reason": "Mechanism withheld; up-effects alone do not justify direction."
+      },
+      {
+        "axis_id": 9,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A9"
+        ],
+        "reason": "No mechanism basis; magnitude alone insufficient."
+      },
+      {
+        "axis_id": 10,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A10"
+        ],
+        "reason": "Hidden mechanism; state preference unsupported."
+      },
+      {
+        "axis_id": 11,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A11"
+        ],
+        "reason": "No directional mechanism evidence supplied."
+      },
+      {
+        "axis_id": 12,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A12"
+        ],
+        "reason": "Mechanism withheld; shift not justified."
+      },
+      {
+        "axis_id": 13,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A13"
+        ],
+        "reason": "No treatment-specific direction available."
+      },
+      {
+        "axis_id": 14,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A14"
+        ],
+        "reason": "Hidden mechanism; state shift unsupported."
+      },
+      {
+        "axis_id": 15,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A15"
+        ],
+        "reason": "No mechanism evidence for directional shift."
+      },
+      {
+        "axis_id": 24,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A24"
+        ],
+        "reason": "Occupancy alone not directional; mechanism hidden."
+      },
+      {
+        "axis_id": 25,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A25"
+        ],
+        "reason": "Modest effects; no mechanism support for shift."
+      },
+      {
+        "axis_id": 26,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A26"
+        ],
+        "reason": "Mechanism withheld; shift unjustified."
+      },
+      {
+        "axis_id": 27,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A27"
+        ],
+        "reason": "No directional basis; anonymous features unmapped."
+      },
+      {
+        "axis_id": 28,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A28"
+        ],
+        "reason": "Hidden mechanism; state preference unsupported."
+      },
+      {
+        "axis_id": 29,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A29"
+        ],
+        "reason": "Strong effects but no mechanism direction."
+      },
+      {
+        "axis_id": 30,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A30"
+        ],
+        "reason": "No treatment-specific direction; shift unjustified."
+      },
+      {
+        "axis_id": 31,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A31"
+        ],
+        "reason": "Mechanism withheld; directional shift unsupported."
+      }
+    ],
+    "summary": "All 16 shift decisions lack mechanism support; H1/H3 state directions are uncertain and anonymous features cannot be mapped. Reverting them to unknown keeps consistency with frozen hypotheses.",
+    "limitations": [
+      "Perturbation identity/mechanism withheld; no directional basis.",
+      "Anonymous features cannot be mapped to genes.",
+      "No dose trajectory or measured responses supplied."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 0,
+      "keep": 0,
+      "unknown": 32
+    },
+    "delta_l2": 0.0,
+    "standardized_delta_rms": 0.0,
+    "axis_tv": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_axis_tv": 0.0,
+    "top_gene_changes": {
+      "up": [],
+      "down": []
+    },
+    "hypothesis_gene_checks": "Unavailable without feature semantics; anonymous IDs cannot be mapped to hypothesis gene names.",
+    "cross_axis_cancellation": []
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "0ce574db18e8154c6a1bc6b722a5a5e8cca57c204c51631a78ef8e1c9a42163a",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "432a170c01ad94be3f6fe7a5a46ab9bcfb38071c613f73fdee1af9809c4a6ce2",
+      "response_sha256": "5c2379b225d1046e200e1bea0b74c1a1db17ad690725eab738bc396515b6db6e"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "e4840fdc4ab014d162eb6c6f0d2e509d9399b56c5b91cffaebf8f75bc4126328",
+      "response_sha256": "16515eee6b2862f46fe9e9f13ff7548a52e37c0ecea46e44ddad19400c5331cf"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "175a7c561445d8d42847c06ceea6f37c80239b6c04e3f55d004b0747371c3413",
+      "response_sha256": "6dd7a3e43bcc07a95e410f22b66c97c2fed2b75df47085f4e7561e86042fbf85"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "13740804d0c0d4043edbca63332363d14df862659b0c0c67ed742bac1ddc64e5",
+      "response_sha256": "1f8071aecc55515bbfca47d16e7bd16a3bc9ddd1fbecc45a22aa54089359d507"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "3ff3728ba59c01371dfa1c5e52b8abb9585e19211bab93bb9d25897dcd67bfe5",
+      "response_sha256": "5871f4facef06a14d96b4290b63463867e1c63d0d60900bd834f3f067db62b09"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "7dc1c46ea56af607d18ffaa79c894adaf3dc957dd8624440bf5b2866a128fbcf",
+      "response_sha256": "4d12f23313ff5ce6bbb5f613a9d0f84ee096e50f88aecd1490a1e2ccdc682945"
+    }
+  ],
+  "attempts_used": 6,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/neither/P0c721eae4f33/joint.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "87399e782b597cd6a355e91c0e1969b8dde7e3ac2cc93e2ca907a30426223823"
+}

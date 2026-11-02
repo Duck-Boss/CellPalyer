@@ -1,0 +1,34 @@
+{
+  "status": "research_only_user_requested_no_reruns",
+  "preferred_candidate": {
+    "name": "scPerturBench Chemical / SciPlex3",
+    "url": "https://bm2-lab.github.io/scPerturBench-reproducibility/",
+    "repo": "https://github.com/bm2-lab/scPerturBench",
+    "reason": "Published baseline outputs, chemical unseen-perturbation expression prediction, compatible output modality with LEXA",
+    "not_yet_verified": "Exact frozen split/data manifests and numeric baseline subset; selection only, not execution readiness"
+  },
+  "alternative": {
+    "name": "Open Problems OP3 living leaderboard",
+    "url": "https://openproblems.bio/benchmarks/perturbation_prediction/",
+    "raw_mrrmse": {
+      "ground_truth": 0,
+      "jn_ap_op2": 0.8965,
+      "lstm_gru_cnn_ensemble": 0.7921,
+      "mean_per_cell_type_and_gene": 0.8925,
+      "mean_per_compound_and_gene": 0.9428,
+      "mean_per_gene": 0.8992,
+      "nn_retraining_with_pseudolabels": 0.7562,
+      "py_boost": 0.7957,
+      "sample": 1.3636,
+      "scape": 0.7748,
+      "transformer_ensemble": 0.8988,
+      "zeros": 0.9179
+    },
+    "target": "signed -log10 p-values from differential expression, not raw expression or expression delta",
+    "caveat": "Website overall ranking scales five metrics; MRRMSE order alone is not overall rank. Current scorer clipping layer and gene count not audited."
+  },
+  "new_model_training": false,
+  "new_deepseek_calls": false,
+  "new_model_predictions_or_scores": false,
+  "submission": false
+}

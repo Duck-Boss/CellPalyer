@@ -1,0 +1,187 @@
+[
+  {
+    "path": "TDC-main/examples/generation/docking_generation/guacamol_tdc/results_limit_oracle/best_from_chembl.json",
+    "line": 736,
+    "text": "                    0.928408906741852"
+  },
+  {
+    "path": "TDC-main/examples/generation/docking_generation/guacamol_tdc/results_limit_oracle/best_from_chembl.json",
+    "line": 1020,
+    "text": "                    0.9876349305906634"
+  },
+  {
+    "path": "TDC-main/examples/generation/docking_generation/guacamol_tdc/results_limit_oracle/smiles_ga.json",
+    "line": 664,
+    "text": "                    0.8837704070490666"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 92,
+    "text": "       \"<tr><td>train_fn_279f96d6</td><td>TERMINATED</td><td>172.24.75.79:2932249</td><td style=\\\"text-align: right;\\\">         256</td><td>Morgan         </td><td style=\\\"text-align: right;\\\">0.000282104</td><td style=\\\"text-align: right;\\\">                   512</td><td style=\\\"text-align: right;\\"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 104,
+    "text": "       \"<tr><td>train_fn_ad15c17d</td><td>TERMINATED</td><td>172.24.75.79:4033671</td><td style=\\\"text-align: right;\\\">         256</td><td>Morgan         </td><td style=\\\"text-align: right;\\\">0.000323078</td><td style=\\\"text-align: right;\\\">                   512</td><td style=\\\"text-align: right;\\"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 105,
+    "text": "       \"<tr><td>train_fn_65d72764</td><td>TERMINATED</td><td>172.24.75.79:4105403</td><td style=\\\"text-align: right;\\\">         256</td><td>Morgan         </td><td style=\\\"text-align: right;\\\">0.000308246</td><td style=\\\"text-align: right;\\\">                   512</td><td style=\\\"text-align: right;\\"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 108,
+    "text": "       \"<tr><td>train_fn_26363a7c</td><td>TERMINATED</td><td>172.24.75.79:113728 </td><td style=\\\"text-align: right;\\\">         256</td><td>Morgan         </td><td style=\\\"text-align: right;\\\">0.000318345</td><td style=\\\"text-align: right;\\\">                   512</td><td style=\\\"text-align: right;\\"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 109,
+    "text": "       \"<tr><td>train_fn_b2164d13</td><td>TERMINATED</td><td>172.24.75.79:222767 </td><td style=\\\"text-align: right;\\\">         256</td><td>Morgan         </td><td style=\\\"text-align: right;\\\">0.000327135</td><td style=\\\"text-align: right;\\\">                   512</td><td style=\\\"text-align: right;\\"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 114,
+    "text": "       \"<tr><td>train_fn_4b8127ac</td><td>TERMINATED</td><td>172.24.75.79:763446 </td><td style=\\\"text-align: right;\\\">         256</td><td>Morgan         </td><td style=\\\"text-align: right;\\\">0.000292266</td><td style=\\\"text-align: right;\\\">                   512</td><td style=\\\"text-align: right;\\"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 115,
+    "text": "       \"<tr><td>train_fn_bf25937f</td><td>TERMINATED</td><td>172.24.75.79:637643 </td><td style=\\\"text-align: right;\\\">         256</td><td>Morgan         </td><td style=\\\"text-align: right;\\\">0.000271618</td><td style=\\\"text-align: right;\\\">                   512</td><td style=\\\"text-align: right;\\"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 140,
+    "text": "       \"<tr><td>train_fn_d5a37500</td><td>TERMINATED</td><td>172.24.75.79:2881323</td><td style=\\\"text-align: right;\\\">         256</td><td>Morgan         </td><td style=\\\"text-align: right;\\\">0.000274349</td><td style=\\\"text-align: right;\\\">                   512</td><td style=\\\"text-align: right;\\"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 149,
+    "text": "       \"<tr><td>train_fn_341f2789</td><td>TERMINATED</td><td>172.24.75.79:3686054</td><td style=\\\"text-align: right;\\\">         256</td><td>Morgan         </td><td style=\\\"text-align: right;\\\">0.000282751</td><td style=\\\"text-align: right;\\\">                   512</td><td style=\\\"text-align: right;\\"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 153,
+    "text": "       \"<tr><td>train_fn_b31811e4</td><td>TERMINATED</td><td>172.24.75.79:4168324</td><td style=\\\"text-align: right;\\\">         256</td><td>Morgan         </td><td style=\\\"text-align: right;\\\">0.0002811  </td><td style=\\\"text-align: right;\\\">                   512</td><td style=\\\"text-align: right;\\"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 157,
+    "text": "       \"<tr><td>train_fn_2173b9d3</td><td>TERMINATED</td><td>172.24.75.79:409088 </td><td style=\\\"text-align: right;\\\">         256</td><td>Morgan         </td><td style=\\\"text-align: right;\\\">0.000295982</td><td style=\\\"text-align: right;\\\">                   512</td><td style=\\\"text-align: right;\\"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 344,
+    "text": "       \"<tr><td>train_fn_2173b9d3</td><td>2022-12-29_00-59-29</td><td>True  </td><td>                </td><td>0857620947c04e6a9259da60bf2b4bd3</td><td>90_batch_size=256,drug_encoding=Morgan,lr=0.0003,mlp_hidden_dims_drug=512,mlp_num_layers_drug=3,train_epochs=20 </td><td>ampere3   </td><td style=\\\"t"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 346,
+    "text": "       \"<tr><td>train_fn_26363a7c</td><td>2022-12-28_05-24-33</td><td>True  </td><td>                </td><td>5dd6ee90a97c4cf49f0842316be52daa</td><td>41_batch_size=256,drug_encoding=Morgan,lr=0.0003,mlp_hidden_dims_drug=512,mlp_num_layers_drug=3,train_epochs=20 </td><td>ampere3   </td><td style=\\\"t"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 347,
+    "text": "       \"<tr><td>train_fn_279f96d6</td><td>2022-12-28_00-17-46</td><td>True  </td><td>                </td><td>904dfa305934481b968aeb481f26dde7</td><td>25_batch_size=256,drug_encoding=Morgan,lr=0.0003,mlp_hidden_dims_drug=512,mlp_num_layers_drug=4,train_epochs=20 </td><td>ampere3   </td><td style=\\\"t"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 353,
+    "text": "       \"<tr><td>train_fn_341f2789</td><td>2022-12-28_19-37-29</td><td>True  </td><td>                </td><td>8f0d9be5c56547cd9ab4f531037e4789</td><td>82_batch_size=256,drug_encoding=Morgan,lr=0.0003,mlp_hidden_dims_drug=512,mlp_num_layers_drug=3,train_epochs=20 </td><td>ampere3   </td><td style=\\\"t"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 368,
+    "text": "       \"<tr><td>train_fn_4b8127ac</td><td>2022-12-28_07-26-11</td><td>True  </td><td>                </td><td>fd6c5261a58e4e78b8813b1fb215d5fa</td><td>47_batch_size=256,drug_encoding=Morgan,lr=0.0003,mlp_hidden_dims_drug=512,mlp_num_layers_drug=2,train_epochs=20 </td><td>ampere3   </td><td style=\\\"t"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 379,
+    "text": "       \"<tr><td>train_fn_65d72764</td><td>2022-12-28_04-46-55</td><td>True  </td><td>                </td><td>c52ca96467034be5bdef0dc4334d5e7e</td><td>38_batch_size=256,drug_encoding=Morgan,lr=0.0003,mlp_hidden_dims_drug=512,mlp_num_layers_drug=2,train_epochs=20 </td><td>ampere3   </td><td style=\\\"t"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 403,
+    "text": "       \"<tr><td>train_fn_ad15c17d</td><td>2022-12-28_04-34-13</td><td>True  </td><td>                </td><td>165145de3b3449179e7c7bdaba8bfe6f</td><td>37_batch_size=256,drug_encoding=Morgan,lr=0.0003,mlp_hidden_dims_drug=512,mlp_num_layers_drug=2,train_epochs=20 </td><td>ampere3   </td><td style=\\\"t"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 405,
+    "text": "       \"<tr><td>train_fn_b2164d13</td><td>2022-12-28_05-44-08</td><td>True  </td><td>                </td><td>6f4cddf6a6d24653a5deb536c8d48c48</td><td>42_batch_size=256,drug_encoding=Morgan,lr=0.0003,mlp_hidden_dims_drug=512,mlp_num_layers_drug=3,train_epochs=20 </td><td>ampere3   </td><td style=\\\"t"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 407,
+    "text": "       \"<tr><td>train_fn_b31811e4</td><td>2022-12-28_22-44-21</td><td>True  </td><td>                </td><td>48f46c0e2d674c8cb1ea6a286c4bd292</td><td>86_batch_size=256,drug_encoding=Morgan,lr=0.0003,mlp_hidden_dims_drug=512,mlp_num_layers_drug=3,train_epochs=20 </td><td>ampere3   </td><td style=\\\"t"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 411,
+    "text": "       \"<tr><td>train_fn_bf25937f</td><td>2022-12-28_07-35-58</td><td>True  </td><td>                </td><td>f8dd795b7d1d4d7c9f2024b437bed53d</td><td>48_batch_size=256,drug_encoding=Morgan,lr=0.0003,mlp_hidden_dims_drug=512,mlp_num_layers_drug=2,train_epochs=20 </td><td>ampere3   </td><td style=\\\"t"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 419,
+    "text": "       \"<tr><td>train_fn_d5a37500</td><td>2022-12-28_14-30-56</td><td>True  </td><td>                </td><td>1e108f785bde4cfe889ee0811b07ca2e</td><td>73_batch_size=256,drug_encoding=Morgan,lr=0.0003,mlp_hidden_dims_drug=512,mlp_num_layers_drug=3,train_epochs=20 </td><td>ampere3   </td><td style=\\\"t"
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 1139,
+    "text": "      \"[INFO 12-28 00:42:22] ax.service.ax_client: Completed trial 24 with data: {'pr_auc': (0.906622, None)}.\\n\""
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 1507,
+    "text": "      \"[INFO 12-28 04:42:56] ax.service.ax_client: Completed trial 36 with data: {'pr_auc': (0.906877, None)}.\\n\","
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 1593,
+    "text": "      \"[INFO 12-28 05:11:01] ax.service.ax_client: Completed trial 37 with data: {'pr_auc': (0.90677, None)}.\\n\","
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 1654,
+    "text": "      \"[INFO 12-28 05:56:12] ax.service.ax_client: Completed trial 40 with data: {'pr_auc': (0.906443, None)}.\\n\","
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 1764,
+    "text": "      \"[INFO 12-28 07:00:16] ax.service.ax_client: Completed trial 41 with data: {'pr_auc': (0.906708, None)}.\\n\""
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 1856,
+    "text": "      \"[INFO 12-28 07:48:57] ax.service.ax_client: Completed trial 46 with data: {'pr_auc': (0.90689, None)}.\\n\","
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 2044,
+    "text": "      \"[INFO 12-28 08:41:43] ax.service.ax_client: Completed trial 47 with data: {'pr_auc': (0.906598, None)}.\\n\""
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 2719,
+    "text": "      \"[INFO 12-28 14:37:32] ax.service.ax_client: Completed trial 72 with data: {'pr_auc': (0.906245, None)}.\\n\""
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 3042,
+    "text": "      \"[INFO 12-28 20:49:14] ax.service.ax_client: Completed trial 81 with data: {'pr_auc': (0.906253, None)}.\\n\""
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 3160,
+    "text": "      \"[INFO 12-28 23:46:12] ax.service.ax_client: Completed trial 85 with data: {'pr_auc': (0.906993, None)}.\\n\","
+  },
+  {
+    "path": "TDC-main/examples/huggingface_examples/herg/hERG_Karim_raytune_HF.ipynb",
+    "line": 3322,
+    "text": "      \"[INFO 12-29 01:43:42] ax.service.ax_client: Completed trial 89 with data: {'pr_auc': (0.906441, None)}.\\n\""
+  },
+  {
+    "path": "TDC-main/tutorials/User_Group/UserGroupMeeting_Tianfan.ipynb",
+    "line": 936,
+    "text": "      \"Testing AUROC: 0.9062706270627062 , AUPRC: 0.9850101116006439 , F1: 0.9308755760368664\\n\","
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "oxidative phosphorylation / mitochondrial respiration",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, 5 uM, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "MT-CO3",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "MT-CYB",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "High baseline mitochondrial transcripts; direction depends on hidden mechanism, so no treatment-specific call."
+    },
+    {
+      "id": "H2",
+      "program": "glycolysis / central carbon metabolism",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, 5 uM, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "ENO1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "G6PD",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Glycolytic and PPP genes are expressed at baseline; perturbation effect on flux/mRNA is unknown."
+    },
+    {
+      "id": "H3",
+      "program": "aldehyde/ketone oxidoreductase detoxification",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, 5 uM, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "ALDH1A1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "AKR/ALDH genes are highly expressed in control; stress or NRF2-linked induction is plausible but unverified."
+    },
+    {
+      "id": "H4",
+      "program": "cAMP/PDE4D signaling",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, 5 uM, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "PDE4D",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "PDE4D is the top expressed feature; mRNA direction cannot be inferred from an opaque perturbation."
+    },
+    {
+      "id": "H5",
+      "program": "stress/lncRNA response",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, 5 uM, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "NEAT1 is basally expressed; stress-linked changes are possible but mechanism is hidden."
+    }
+  ],
+  "summary": "No treatment-specific directions can be assigned; hypotheses are baseline-context programs whose response depends on the withheld mechanism.",
+  "limitations": [
+    "Perturbation identity and mechanism withheld; no treatment-specific directions known.",
+    "Only untreated context C available; no dose-response or measured response data.",
+    "mRNA direction cannot be inferred from protein inhibition or opaque identifiers."
+  ]
+}

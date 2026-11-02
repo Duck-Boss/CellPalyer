@@ -1,0 +1,111 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "glycolytic flux",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "PKM",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "ENO1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "PKM and ENO1 are expressed in untreated A549; no mechanism info to predict direction."
+    },
+    {
+      "id": "H2",
+      "program": "aldehyde dehydrogenase/retinoid metabolism",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "ALDH1A1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "ALDH1A1 is highly expressed at baseline; treatment direction cannot be inferred."
+    },
+    {
+      "id": "H3",
+      "program": "aldo-keto reductase detoxification",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1C3",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "AKR family members are expressed; stress-linked induction or repression is plausible but unknown."
+    },
+    {
+      "id": "H4",
+      "program": "cAMP phosphodiesterase signaling",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "PDE4D",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "PDE4D is the top expressed feature; no mechanism to assign direction."
+    },
+    {
+      "id": "H5",
+      "program": "lncRNA stress response",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 24 h, mechanism withheld",
+      "gene_expectations": [
+        {
+          "gene": "MALAT1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "NEAT1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "MALAT1/NEAT1 are expressed; stress-responsive changes possible but unsupported."
+    }
+  ],
+  "summary": "Mechanism withheld; only baseline A549 expression is known, so all directions are uncertain.",
+  "limitations": [
+    "No perturbation identity or mechanism provided.",
+    "No dose-response or treated measurements available.",
+    "Baseline expression alone cannot predict direction."
+  ]
+}

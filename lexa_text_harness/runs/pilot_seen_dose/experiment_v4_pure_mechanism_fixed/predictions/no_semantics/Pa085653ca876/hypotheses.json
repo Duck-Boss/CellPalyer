@@ -1,0 +1,65 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "NF-kappa-B transcriptional activity",
+      "direction": "decrease",
+      "basis": "direct",
+      "conditions": "A549, dexamethasone 5 uM, 24 h; requires activated NF-kappa-B context",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "GR transrepresses NF-kappa-B activity; direction is on activity, not on NF-kappa-B mRNA levels."
+    },
+    {
+      "id": "H2",
+      "program": "glucocorticoid receptor target gene activation",
+      "direction": "increase",
+      "basis": "direct",
+      "conditions": "A549; depends on GR abundance, chromatin and cofactors",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Ligand-activated GR can activate transcription at accessible GR-binding regulatory elements."
+    },
+    {
+      "id": "H3",
+      "program": "NR3C1 mRNA level",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "unknown; receptor activation does not imply transcript change",
+      "gene_expectations": [
+        {
+          "gene": "NR3C1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Agonism acts on receptor activity; mRNA may rise, fall or stay unchanged via feedback."
+    },
+    {
+      "id": "H4",
+      "program": "inflammatory/NF-kappa-B-dependent secreted mediators",
+      "direction": "decrease",
+      "basis": "secondary",
+      "conditions": "only if NF-kappa-B-driven in A549 at baseline",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "Secondary consequence of transrepression; magnitude depends on basal inflammatory signaling."
+    }
+  ],
+  "summary": "Dexamethasone activates GR, plausibly repressing NF-kappa-B activity and inducing context-dependent GR targets; mRNA directions remain largely uncertain in A549.",
+  "limitations": [
+    "No A549 dexamethasone expression profile or signed gene list supplied.",
+    "Anonymous features cannot be mapped to genes, so gene-level predictions are unverifiable.",
+    "Basal NF-kappa-B activity and GR/cofactor levels in this context are unknown."
+  ]
+}

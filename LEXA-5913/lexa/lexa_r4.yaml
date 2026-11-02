@@ -1,0 +1,123 @@
+seed: 20260930
+data:
+  h5ad_dir: __BUNDLE_DRIVEN__
+  expression_policy: strict_common_raw_counts_v2
+  feature_namespace: column
+  feature_column: feature_name
+  matrix_key: X
+  normalize_total: null
+  log1p: false
+  precompute_csr_cache: false
+  precompute_dense_csr_cache: false
+  use_dense_shards: false
+  split:
+    train_frac: 0.7
+    val_frac: 0.15
+    test_frac: 0.15
+    group_priority: [donor_id, sample_id, sample, sample_uuid, orig.ident, _index]
+  label_priority:
+    cell_type: [cell_type]
+    tissue: [tissue]
+    disease: [disease]
+    assay: [assay]
+model:
+  architecture: fixed_axes_vqvae
+  hidden_dims: [2048]
+  num_axes: 32
+  code_dim: 64
+  codebook_size: 16
+  decoder_hidden_dim: 2048
+  dropout: 0.1
+  reconstruction_distribution: mse_log1p
+  quantization_mode: spherical
+  codebook_parameterization: free_spherical
+  encoder_fixed_norm: true
+  vq_loss_normalization: per_radius
+  commitment_weight: 1.0
+  vq_aux_loss_weight: 0.003125
+  diversity_loss_weight: 0.1
+  module_mask_parameterization: prior_guided_softmax
+  module_mask_prior_path: ${LEXA_SCAFFOLD_PATH}
+  assignment_temperature: 0.1
+  module_mask_temperature: 0.5
+  module_mask_logit_init_std: 0.0
+  module_mask_prior_floor: 0.001
+  module_mask_prior_weight: 0.1
+  module_effective_axes_target: 0.0
+  module_sparsity_weight: 0.0
+  module_balance_weight: 1.0
+  module_overlap_weight: 0.0
+  codebook_sep_weight: 0.0
+  sep_margin: 0.0
+  anchor_loss_weight: 0.0
+  center_norm_weight: 0.0
+  center_norm_target: 4.0
+  codebook_compact_weight: 0.0
+  intra_codebook_div_weight: 0.005
+  cluster_radius: 0.0
+  residual_center_weight: 0.0
+  nuisance_rank: 16
+  nuisance_decoder_weight: 0.0
+  exclude_unknown_from_nuisance_centering: true
+  technical_covariate_fields: []
+  batch_adversary_weight: 0.0
+  batch_adversary_grl_scale: 1.0
+  batch_adversary_hidden_dim: 128
+  batch_adversary_target_field: dataset_id
+  batch_adversary_context_field: coarse_cell_type
+  conditional_code_usage_weight: 0.0
+  conditional_code_usage_temperature: 0.5
+  conditional_code_usage_min_cells: 8
+  conditional_code_usage_target_field: dataset_id
+  conditional_code_usage_context_field: coarse_cell_type
+training:
+  max_cell_updates: 10000000
+  max_validation_cells: 200000
+  validation_every: 2
+  save_last_checkpoint: false
+  batch_size: 2048
+  epochs: 20
+  lr: 0.0002
+  weight_decay: 0.0001
+  grad_clip_norm: 1.0
+  num_workers: 6
+  prefetch_factor: 3
+  amp: true
+  amp_dtype: bfloat16
+  allow_tf32: true
+  cudnn_benchmark: false
+  matmul_precision: high
+  fused_adamw: true
+  device: cuda
+  shuffle_train: true
+  label_balanced_batches: false
+  dataset_balanced_batches: true
+  balanced_batch_label: dataset_id
+  balanced_labels_per_batch: 12
+  balanced_epoch_fraction: 1.0
+  balanced_steps_per_epoch: null
+  group_batches_by_file: false
+  log_every: 20
+  vq_warmup_epochs: 3
+  require_conditional_code_usage_groups: true
+  checkpoint_metric: recon_loss
+  early_stopping_patience: 3
+  early_stopping_min_delta: 0.0
+evaluation:
+  probe_max_train_samples: 200000
+  probe_max_test_samples: 100000
+  probe_max_samples_per_class: 1024
+  min_class_count: 32
+interpret:
+  max_test_samples: 150000
+  top_genes_per_axis: 50
+  top_codes_per_axis: 16
+  stability_bootstraps: 100
+llm:
+  enabled: false
+logging:
+  project: lexa
+  entity: null
+  mode: offline
+output:
+  root: ${LEXA_OUTPUT_ROOT}

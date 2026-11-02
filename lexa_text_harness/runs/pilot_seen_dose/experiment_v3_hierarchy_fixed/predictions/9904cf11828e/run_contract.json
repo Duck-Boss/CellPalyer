@@ -1,0 +1,60 @@
+{
+  "fingerprint": "5a5ac4bf08c44fc1b388f25117f43ce4151f807e9286d44fd6db38ed21c8ae9b",
+  "identity": {
+    "prompt_version": "lexa-hierarchy-occupancy-v1",
+    "system_prompt": "You predict a population response using a frozen LEXA codec.\nUse the supplied hierarchy: axis functional scope, signed state descriptions,\nthen exact candidate changes relative to the matched control population. Axis\nand state annotations are evidence summaries, not causal truth. State IDs are\nunordered categories. Every candidate is a 16-state population occupancy\ndistribution, not a paired transition of the same biological cell.\nThe seven candidates are keep, nearest, interpolate, lower, upper, half, onehalf.\nThey come from training-only matched responses and fixed dose interpolation;\nsome may coincide. The supplied interpolation is a useful starting hypothesis,\nnot a ground-truth answer. Choose another candidate only with a stated reason\ngrounded in the displayed training, gene-effect or context evidence. Drug\nmechanism text alone does not calibrate dose response. Uncertainty does not\nautomatically imply zero response; keep is available when evidence supports it.\nAll 32 axes can change. Do not impose a three-axis limit. Shared genes may\nreinforce or cancel across axes; additive decoding does not imply biological or\nstatistical independence. Joint-support diagnostics are only heuristics.\nDo not invent states, probabilities, effects, evidence references or unseen\ntreatment outcomes. Select exactly one displayed candidate for every requested\naxis, with no omitted, duplicated or extra axes. Use at least one supplied\nevidence_ref per choice. Brief reasons may state uncertainty or retain a prior.\nReturn only JSON, with exactly these fields:\n{\"selections\":[{\"axis_id\":0,\"candidate_id\":\"interpolate\",\"reason\":\"brief evidence-based reason\",\"evidence_refs\":[\"A0/interpolate\"]}],\"summary\":\"brief result\",\"limitations\":[\"brief limitation\"]}\nKeep each reason under 80 characters and prefer one evidence_ref per selection,\nsummary under 400 characters and at most three short limitations. Return no\nhidden reasoning or external text. All requested axes must fit the response.\n",
+    "source_sha256": {
+      "hierarchy_agent.py": "2d7d560e56f7fdbadb72f772b862d261fb9a8ccd858191598f5ab9f3771a2e3f",
+      "agent.py": "e6f8170a3e6a502e9c4ded8a4324ed09b15d7beae9768e5916021b25b5c464d0",
+      "annotate_cards.py": "038b85f3b83e5b835f6cf9229df29ce218044c18c70d531b1ebbea891d67fc7b",
+      "hierarchy_data.py": "e4f48c4aee3908febde9aba37f3ca1756b7f1ebb8d43bbf6f31421b6f6f1d1af"
+    },
+    "array_sha256": {
+      "p0": "d6765759280b2ce6f3cb763fc194716ae53dc1ae239dd1ef4b77aea73843f1c5",
+      "candidates": "2f97a8137d5b3984f8f3ad3101bb1f4849ab3c3ba732c1ecab8b45c5ef101f0a",
+      "effects": "c8becfc1230a67921ed94eaae1b6821b395b1b557ab257f65b40e7331edecf93",
+      "genes": "6f8531da33027d4dfb0304127bd5cd19352a5a63a54e592f722470838985ffcf",
+      "symbols": "69115d5a86da35f0b956f6cd58d799e38f7e87f778e6a3008ab9324ec588f9ee",
+      "std": "c0af5614228f4635911bc0cb1c4793e5d19ca6813370693378ef2ef1b048c33c",
+      "reference_observed_delta": "2dfc956bc67c03bea91dca5af76f385d2b5deffa3f8c0f265af9592722a577a4",
+      "projection_l1": "5d2506609eaf62eb65684d14241251816c140d443b25f49e4eaed3a53f993ef4",
+      "train_pair_probs": "8f49274276b51f38f9c69ea8d4a748136d17efb3cce230ba1667ea3200efd448"
+    },
+    "cards_sha256": "8173c00b2606e8e0a4738dc6013cf6fb945ef758e0fe85708350001f16b8bbb6",
+    "request_sha256": "fd72f869bbd01c45cac38c552ad316ce906cc02bb91b2147eba9f8908eb71954",
+    "retrieval_sha256": "6d007dc376530a2150ac1d409327ae22f4081fe69a3aee842723352197c7a873",
+    "candidate_ids": [
+      "keep",
+      "nearest",
+      "interpolate",
+      "lower",
+      "upper",
+      "half",
+      "onehalf"
+    ],
+    "case_id": "drug=Dex|dose_uM=5|plate=B|replicate=2",
+    "model": "deepseek-flash",
+    "endpoint": "https://api.deepseek.com/chat/completions",
+    "disable_thinking": true,
+    "max_retries": 2,
+    "local_batch_size": 8,
+    "successful_joint_reviews": 1
+  },
+  "provenance": {
+    "source_sha256": {
+      "effects": "5bd0da54ddcceae0a4ea40d2f260b4d2acbd7b2d7a2eb2da97caeb75efb117fd",
+      "train_codes": "b197205c937784571e06a3a796621d6f62b91bf1bddb69a96176b3f83b9a2bad",
+      "baseline": "fc7bf87c95b105da613b312fd76a3b4ee459f1aa064a9d7e495852c22e598f75",
+      "prepared": "920fb717e80976fb18f5557a17545689048a40972147de8ce3a304c1640d2106",
+      "metadata": "87ada983037aeb16b6ecd49a65cf17b53a94dbbb47598034f1c9ecd04d20304f",
+      "cases": "493aa96ab615615a046148cf85ee57b68c5d2ea86b72443440de78e5e7d8b8c1",
+      "labels": "5ee78dadc0b1aaf061f3a023390644e0228b9c7e7faf737329cbb8dab8c3dde9"
+    },
+    "implementation_sha256": "e4f48c4aee3908febde9aba37f3ca1756b7f1ebb8d43bbf6f31421b6f6f1d1af",
+    "min_cells": 20,
+    "work": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose",
+    "effects_sha256": "5bd0da54ddcceae0a4ea40d2f260b4d2acbd7b2d7a2eb2da97caeb75efb117fd",
+    "case_npz_sha256": "020f7b72a4dae81437605b2c351127b4b5244f22ff55e83180420f1180cbfbbb",
+    "case_context_sha256": "d39aad53c0ffb72f145837d728af2038d894266f3ecc6f0b7ee311286c409160"
+  }
+}

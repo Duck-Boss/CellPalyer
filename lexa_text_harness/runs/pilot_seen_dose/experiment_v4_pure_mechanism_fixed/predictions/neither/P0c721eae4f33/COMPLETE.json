@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "case_id": "drug=SAHA|dose_uM=5|plate=B|replicate=1",
+  "opaque_id": "P0c721eae4f33",
+  "arm": "neither",
+  "fingerprint": "1712b7d7c928a413f9782bc615b8a76017596b85838b0255de0d6b68442374a1",
+  "api_attempts": 6,
+  "local": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/neither/P0c721eae4f33/local.json",
+  "joint": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/neither/P0c721eae4f33/joint.json",
+  "local_sha256": "579afde56c332fb809ca68957c47b3ce3d9d96ddbfc2524e3ef72dc839c20554",
+  "joint_sha256": "2decc18ab594b572e5a32806701396ce08545a18ab461baf58ffb057665788ae",
+  "hypotheses_sha256": "d6927a5074d90c59abf0fe15ccad499258d049bd4e5a244ded1f1f1f2614231d"
+}

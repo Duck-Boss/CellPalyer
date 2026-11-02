@@ -1,0 +1,46 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "transcriptional response to an unknown perturbation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Perturbation identity and mechanism are withheld, so no treatment-specific direction can be inferred."
+    },
+    {
+      "id": "H2",
+      "program": "stress-responsive / cytostatic gene programs",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549, 24 h exposure; unknown agent class",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "A549 is a cancer line; many agents at 5 uM/24 h could induce stress or growth arrest, but no mechanism is given."
+    },
+    {
+      "id": "H3",
+      "program": "baseline expression of anonymous features",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "untreated A549 context only",
+      "gene_expectations": [],
+      "reason": "Feature semantics are withheld; no mapping from anonymous features to genes is available.",
+      "evidence_refs": [
+        "C"
+      ]
+    }
+  ],
+  "summary": "No treatment-specific direction can be predicted because the perturbation mechanism is hidden; only generic uncertainty about stress/cytostatic responses in A549 is stated.",
+  "limitations": [
+    "Perturbation identity and mechanism withheld; no treatment-specific response known.",
+    "Anonymous feature IDs lack gene mapping, preventing gene-level expectations.",
+    "Only untreated context (C) is available as evidence."
+  ]
+}

@@ -1,0 +1,1379 @@
+{
+  "status": "completed",
+  "case_id": "drug=Dex|dose_uM=5|plate=B|replicate=3",
+  "opaque_id": "P239e4185da4e",
+  "arm": "full",
+  "stage": "local",
+  "fingerprint": "d29ff150db2e16cbbb07eeae89c731a120909ec19ac442e5fce824b26331ac1b",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A0/C10"
+      ],
+      "reason": "GR activation may raise ribosomal/translation transcripts; strongest up states."
+    },
+    {
+      "axis_id": 1,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A1/C6"
+      ],
+      "reason": "Positive chromatin/RNA-processing states align with GR transcriptional activation."
+    },
+    {
+      "axis_id": 2,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A2/C9"
+      ],
+      "reason": "GR transrepression may lower NF-kB-linked secretory/matrix markers; up states favored."
+    },
+    {
+      "axis_id": 3,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A3/C13"
+      ],
+      "reason": "Broad chromatin/transcription up states fit GR-driven transcriptional activation."
+    },
+    {
+      "axis_id": 4,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H4",
+        "A4/C0"
+      ],
+      "reason": "Aldehyde/ketoreductase markers lack supplied GR-linked signed response."
+    },
+    {
+      "axis_id": 5,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A5/C11"
+      ],
+      "reason": "PDE4/cAMP up states are plausible GR targets; modest evidence."
+    },
+    {
+      "axis_id": 6,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A6/C10"
+      ],
+      "reason": "Nucleolar/export up states align with GR transcriptional activation."
+    },
+    {
+      "axis_id": 7,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A7/C7"
+      ],
+      "reason": "Cytoskeletal/transport up states weakly consistent with GR activation."
+    },
+    {
+      "axis_id": 8,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A8/C2"
+      ],
+      "reason": "GR activation; chaperone-high states 2/9/7 up HSP90AA1/HSPA1A"
+    },
+    {
+      "axis_id": 9,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A9"
+      ],
+      "reason": "Poorly resolved, no consistent theme or GR link"
+    },
+    {
+      "axis_id": 10,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A10/C9"
+      ],
+      "reason": "GR-linked secretory; DKK1/ANXA1-high states 9/13/7"
+    },
+    {
+      "axis_id": 11,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A11"
+      ],
+      "reason": "Weakest axis, small mixed effects, no GR support"
+    },
+    {
+      "axis_id": 12,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A12"
+      ],
+      "reason": "Transport/proliferation mixed; no GR-linked direction"
+    },
+    {
+      "axis_id": 13,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A13"
+      ],
+      "reason": "Co-variation only, many unclear states, no GR link"
+    },
+    {
+      "axis_id": 14,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A14"
+      ],
+      "reason": "Cytoskeletal GTPase states mixed; no GR evidence"
+    },
+    {
+      "axis_id": 15,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "A15"
+      ],
+      "reason": "Poorly resolved, unclear biology, no GR support"
+    },
+    {
+      "axis_id": 16,
+      "decision": "shift",
+      "targets": [
+        [
+          3,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A16/C3"
+      ],
+      "reason": "GR activation may raise keratin/adhesion states; C3/C11 show strong KRT8/CTNNA3 up"
+    },
+    {
+      "axis_id": 17,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A17/C7"
+      ],
+      "reason": "Glycolytic/cytoskeletal up states C7/C11 align with GR transcriptional activation"
+    },
+    {
+      "axis_id": 18,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A18/C4"
+      ],
+      "reason": "Sterol/lipid synthesis up state C4 strongest coordinated positive program"
+    },
+    {
+      "axis_id": 19,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A19"
+      ],
+      "reason": "p53 markers discordant; NF-kB transrepression not mapped to these states"
+    },
+    {
+      "axis_id": 20,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A20/C6"
+      ],
+      "reason": "Lysosomal/secretory PSAP-high states C6/C11 plausible GR-activated program"
+    },
+    {
+      "axis_id": 21,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A21/C6"
+      ],
+      "reason": "FKBP5-high adhesion states C6/C13 consistent with GR target gene induction"
+    },
+    {
+      "axis_id": 22,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A22"
+      ],
+      "reason": "Mitochondrial-encoded OXPHOS not directly linked to GR mechanism"
+    },
+    {
+      "axis_id": 23,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H2",
+        "A23"
+      ],
+      "reason": "Heterogeneous weak regulatory states; no GR-linked direction supported"
+    },
+    {
+      "axis_id": 24,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A24/C13"
+      ],
+      "reason": "GR activation may raise proliferation states; C13/C9/C10 show strong up programs"
+    },
+    {
+      "axis_id": 25,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A25/C12"
+      ],
+      "reason": "GR-linked chromatin/redox activation favors KMT2A/TXNRD1-high states"
+    },
+    {
+      "axis_id": 26,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H3",
+        "A26/C1"
+      ],
+      "reason": "No GR-linked lncRNA direction; MALAT1/NEAT1 states mixed"
+    },
+    {
+      "axis_id": 27,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A27/C8"
+      ],
+      "reason": "NF-kB transrepression favors low EGFR/ECM signaling states"
+    },
+    {
+      "axis_id": 28,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H2",
+        "A28/C10"
+      ],
+      "reason": "GR activation may raise stress/secretory high-effect states"
+    },
+    {
+      "axis_id": 29,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H4",
+        "A29/C3"
+      ],
+      "reason": "No GR-linked cytoskeletal direction; tubulin states mixed"
+    },
+    {
+      "axis_id": 30,
+      "decision": "shift",
+      "targets": [
+        [
+          5,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A30/C5"
+      ],
+      "reason": "NF-kB transrepression favors PRKCA/EPS8-low states"
+    },
+    {
+      "axis_id": 31,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H4",
+        "A31/C2"
+      ],
+      "reason": "Transport/metabolic states lack GR-linked signed evidence"
+    }
+  ],
+  "response": {
+    "decisions": [
+      {
+        "axis_id": 0,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A0/C10"
+        ],
+        "reason": "GR activation may raise ribosomal/translation transcripts; strongest up states."
+      },
+      {
+        "axis_id": 1,
+        "decision": "shift",
+        "targets": [
+          [
+            6,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A1/C6"
+        ],
+        "reason": "Positive chromatin/RNA-processing states align with GR transcriptional activation."
+      },
+      {
+        "axis_id": 2,
+        "decision": "shift",
+        "targets": [
+          [
+            9,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A2/C9"
+        ],
+        "reason": "GR transrepression may lower NF-kB-linked secretory/matrix markers; up states favored."
+      },
+      {
+        "axis_id": 3,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            15,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A3/C13"
+        ],
+        "reason": "Broad chromatin/transcription up states fit GR-driven transcriptional activation."
+      },
+      {
+        "axis_id": 4,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H4",
+          "A4/C0"
+        ],
+        "reason": "Aldehyde/ketoreductase markers lack supplied GR-linked signed response."
+      },
+      {
+        "axis_id": 5,
+        "decision": "shift",
+        "targets": [
+          [
+            11,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A5/C11"
+        ],
+        "reason": "PDE4/cAMP up states are plausible GR targets; modest evidence."
+      },
+      {
+        "axis_id": 6,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            15,
+            1
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A6/C10"
+        ],
+        "reason": "Nucleolar/export up states align with GR transcriptional activation."
+      },
+      {
+        "axis_id": 7,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A7/C7"
+        ],
+        "reason": "Cytoskeletal/transport up states weakly consistent with GR activation."
+      },
+      {
+        "axis_id": 8,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A8/C2"
+        ],
+        "reason": "GR activation; chaperone-high states 2/9/7 up HSP90AA1/HSPA1A"
+      },
+      {
+        "axis_id": 9,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A9"
+        ],
+        "reason": "Poorly resolved, no consistent theme or GR link"
+      },
+      {
+        "axis_id": 10,
+        "decision": "shift",
+        "targets": [
+          [
+            9,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A10/C9"
+        ],
+        "reason": "GR-linked secretory; DKK1/ANXA1-high states 9/13/7"
+      },
+      {
+        "axis_id": 11,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A11"
+        ],
+        "reason": "Weakest axis, small mixed effects, no GR support"
+      },
+      {
+        "axis_id": 12,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A12"
+        ],
+        "reason": "Transport/proliferation mixed; no GR-linked direction"
+      },
+      {
+        "axis_id": 13,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A13"
+        ],
+        "reason": "Co-variation only, many unclear states, no GR link"
+      },
+      {
+        "axis_id": 14,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A14"
+        ],
+        "reason": "Cytoskeletal GTPase states mixed; no GR evidence"
+      },
+      {
+        "axis_id": 15,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "A15"
+        ],
+        "reason": "Poorly resolved, unclear biology, no GR support"
+      },
+      {
+        "axis_id": 16,
+        "decision": "shift",
+        "targets": [
+          [
+            3,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A16/C3"
+        ],
+        "reason": "GR activation may raise keratin/adhesion states; C3/C11 show strong KRT8/CTNNA3 up"
+      },
+      {
+        "axis_id": 17,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A17/C7"
+        ],
+        "reason": "Glycolytic/cytoskeletal up states C7/C11 align with GR transcriptional activation"
+      },
+      {
+        "axis_id": 18,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A18/C4"
+        ],
+        "reason": "Sterol/lipid synthesis up state C4 strongest coordinated positive program"
+      },
+      {
+        "axis_id": 19,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A19"
+        ],
+        "reason": "p53 markers discordant; NF-kB transrepression not mapped to these states"
+      },
+      {
+        "axis_id": 20,
+        "decision": "shift",
+        "targets": [
+          [
+            6,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A20/C6"
+        ],
+        "reason": "Lysosomal/secretory PSAP-high states C6/C11 plausible GR-activated program"
+      },
+      {
+        "axis_id": 21,
+        "decision": "shift",
+        "targets": [
+          [
+            6,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A21/C6"
+        ],
+        "reason": "FKBP5-high adhesion states C6/C13 consistent with GR target gene induction"
+      },
+      {
+        "axis_id": 22,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A22"
+        ],
+        "reason": "Mitochondrial-encoded OXPHOS not directly linked to GR mechanism"
+      },
+      {
+        "axis_id": 23,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H2",
+          "A23"
+        ],
+        "reason": "Heterogeneous weak regulatory states; no GR-linked direction supported"
+      },
+      {
+        "axis_id": 24,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A24/C13"
+        ],
+        "reason": "GR activation may raise proliferation states; C13/C9/C10 show strong up programs"
+      },
+      {
+        "axis_id": 25,
+        "decision": "shift",
+        "targets": [
+          [
+            12,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A25/C12"
+        ],
+        "reason": "GR-linked chromatin/redox activation favors KMT2A/TXNRD1-high states"
+      },
+      {
+        "axis_id": 26,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H3",
+          "A26/C1"
+        ],
+        "reason": "No GR-linked lncRNA direction; MALAT1/NEAT1 states mixed"
+      },
+      {
+        "axis_id": 27,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            12,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A27/C8"
+        ],
+        "reason": "NF-kB transrepression favors low EGFR/ECM signaling states"
+      },
+      {
+        "axis_id": 28,
+        "decision": "shift",
+        "targets": [
+          [
+            10,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H2",
+          "A28/C10"
+        ],
+        "reason": "GR activation may raise stress/secretory high-effect states"
+      },
+      {
+        "axis_id": 29,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H4",
+          "A29/C3"
+        ],
+        "reason": "No GR-linked cytoskeletal direction; tubulin states mixed"
+      },
+      {
+        "axis_id": 30,
+        "decision": "shift",
+        "targets": [
+          [
+            5,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A30/C5"
+        ],
+        "reason": "NF-kB transrepression favors PRKCA/EPS8-low states"
+      },
+      {
+        "axis_id": 31,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H4",
+          "A31/C2"
+        ],
+        "reason": "Transport/metabolic states lack GR-linked signed evidence"
+      }
+    ],
+    "summary": "Favor GR-activation-consistent up states on ribosomal, chromatin/RNA, export and cytoskeletal axes; favor transrepression-consistent states on secretory/matrix axis; aldehyde axis left unknown. | Only chaperone/proteostasis (A8) and ER/secretory-redox (A10) states have plausible GR-linked direction; remaining axes lack mechanism support and stay unknown. | Shift toward GR-activation-compatible states: keratin/adhesion (C3,C11), glycolytic (C7,C11), sterol (C4), lysosomal (C6,C11), FKBP5 adhesion (C6,C13). p53, OXPHOS and regulatory axes left unknown due to discordant or unsupported evidence. | GR agonism may raise chromatin/redox and stress/secretory states while transrepressing NF-kB-linked EGFR/ECM and PRKCA programs; lncRNA, cytoskeletal and transport axes remain uncertain.",
+    "limitations": [
+      "No signed A549 dexamethasone response supplied.",
+      "State effects are decoder associations, not causal.",
+      "Many states weak/mixed, limiting specificity.",
+      "No A549 dexamethasone signed gene list supplied.",
+      "State IDs unordered; weights are decoder contributions.",
+      "GR/cofactor context may reverse directions.",
+      "No A549 dexamethasone expression profile supplied.",
+      "State directions are decoder associations, not causal.",
+      "NF-kB transrepression lacks mapped states.",
+      "No measured dexamethasone response or signed gene list supplied.",
+      "Receptor/cofactor context may alter directions."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 19,
+      "keep": 0,
+      "unknown": 13
+    },
+    "delta_l2": 5.102056130330607,
+    "standardized_delta_rms": 0.13817353052221779,
+    "axis_tv": [
+      0.2586206896551724,
+      0.17586206896551726,
+      0.2586206896551724,
+      0.19137931034482755,
+      0.0,
+      0.23793103448275862,
+      0.25862068965517243,
+      0.2896551724137931,
+      0.2896551724137931,
+      0.0,
+      0.2793103448275862,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.21724137931034482,
+      0.30000000000000004,
+      0.30000000000000004,
+      0.0,
+      0.3,
+      0.22241379310344828,
+      0.0,
+      0.0,
+      0.2482758620689655,
+      0.19655172413793098,
+      0.0,
+      0.21724137931034482,
+      0.3,
+      0.0,
+      0.25862068965517243,
+      0.0
+    ],
+    "mean_axis_tv": 0.15000000000000002,
+    "top_gene_changes": {
+      "up": [
+        {
+          "feature": "ENSG00000186480.12",
+          "delta": 0.7055,
+          "scaled_delta": 0.73521,
+          "symbol": "INSIG1"
+        },
+        {
+          "feature": "ENSG00000160963.13",
+          "delta": 0.57808,
+          "scaled_delta": 0.69109,
+          "symbol": "COL26A1"
+        },
+        {
+          "feature": "ENSG00000103740.9",
+          "delta": 0.45691,
+          "scaled_delta": 0.62123,
+          "symbol": "ACSBG1"
+        },
+        {
+          "feature": "ENSG00000067064.10",
+          "delta": 0.57702,
+          "scaled_delta": 0.6134,
+          "symbol": "IDI1"
+        },
+        {
+          "feature": "ENSG00000100867.14",
+          "delta": 0.55683,
+          "scaled_delta": 0.59354,
+          "symbol": "DHRS2"
+        },
+        {
+          "feature": "ENSG00000118523.5",
+          "delta": 0.52383,
+          "scaled_delta": 0.59209,
+          "symbol": "CTGF"
+        },
+        {
+          "feature": "ENSG00000123983.13",
+          "delta": 0.56144,
+          "scaled_delta": 0.54879,
+          "symbol": "ACSL3"
+        },
+        {
+          "feature": "ENSG00000072310.16",
+          "delta": 0.51845,
+          "scaled_delta": 0.53893,
+          "symbol": "SREBF1"
+        },
+        {
+          "feature": "ENSG00000109062.11",
+          "delta": 0.47631,
+          "scaled_delta": 0.53806,
+          "symbol": "SLC9A3R1"
+        },
+        {
+          "feature": "ENSG00000112972.14",
+          "delta": 0.5523,
+          "scaled_delta": 0.53627,
+          "symbol": "HMGCS1"
+        }
+      ],
+      "down": [
+        {
+          "feature": "ENSG00000146648.17",
+          "delta": -0.09572,
+          "scaled_delta": -0.10937,
+          "symbol": "EGFR"
+        },
+        {
+          "feature": "ENSG00000122870.11",
+          "delta": -0.09757,
+          "scaled_delta": -0.10685,
+          "symbol": "BICC1"
+        },
+        {
+          "feature": "ENSG00000120708.16",
+          "delta": -0.08693,
+          "scaled_delta": -0.09692,
+          "symbol": "TGFBI"
+        },
+        {
+          "feature": "ENSG00000100644.16",
+          "delta": -0.07409,
+          "scaled_delta": -0.0867,
+          "symbol": "HIF1A"
+        },
+        {
+          "feature": "ENSG00000101384.11",
+          "delta": -0.05802,
+          "scaled_delta": -0.08605,
+          "symbol": "JAG1"
+        },
+        {
+          "feature": "ENSG00000057019.15",
+          "delta": -0.06933,
+          "scaled_delta": -0.08044,
+          "symbol": "DCBLD2"
+        },
+        {
+          "feature": "ENSG00000154229.11",
+          "delta": -0.0662,
+          "scaled_delta": -0.07896,
+          "symbol": "PRKCA"
+        },
+        {
+          "feature": "ENSG00000171552.12",
+          "delta": -0.06263,
+          "scaled_delta": -0.07414,
+          "symbol": "BCL2L1"
+        },
+        {
+          "feature": "ENSG00000273079.5",
+          "delta": -0.04835,
+          "scaled_delta": -0.06954,
+          "symbol": "GRIN2B"
+        },
+        {
+          "feature": "ENSG00000099139.13",
+          "delta": -0.0502,
+          "scaled_delta": -0.06506,
+          "symbol": "PCSK5"
+        }
+      ]
+    },
+    "hypothesis_gene_checks": [
+      {
+        "hypothesis": "H3",
+        "gene": "NR3C1",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.05033608807719025,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H4",
+        "gene": "ALDH1A1",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.026947859540413056,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H4",
+        "gene": "AKR1C2",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.03269333195218265,
+        "consistent": null
+      },
+      {
+        "hypothesis": "H4",
+        "gene": "AKR1B10",
+        "expected": "uncertain",
+        "decoded_direction": "increase",
+        "delta": 0.012268593291659703,
+        "consistent": null
+      }
+    ],
+    "cross_axis_cancellation": [
+      {
+        "feature": "ENSG00000067167.7",
+        "summed_delta": -0.04209214574105421,
+        "absolute_axis_sum": 0.2058791786728322
+      },
+      {
+        "feature": "ENSG00000131016.16",
+        "summed_delta": 0.04263630101521462,
+        "absolute_axis_sum": 0.18673210061869808
+      },
+      {
+        "feature": "ENSG00000164171.10",
+        "summed_delta": 0.03181593209277517,
+        "absolute_axis_sum": 0.13174168201679504
+      },
+      {
+        "feature": "ENSG00000115306.15",
+        "summed_delta": 0.02647086552882171,
+        "absolute_axis_sum": 0.11184469169800583
+      },
+      {
+        "feature": "ENSG00000164574.15",
+        "summed_delta": 0.06320627540965147,
+        "absolute_axis_sum": 0.15711532188745028
+      },
+      {
+        "feature": "ENSG00000143153.12",
+        "summed_delta": 0.02397510378650619,
+        "absolute_axis_sum": 0.11782202591024671
+      }
+    ]
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "b79178373cd134f9bf2c38cb34ea6290a551a66f720f04791061cea2b69653b7",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "8ef27b5baee2579f447a9f0b59f2e32456fd5647ec738d0912df873b5d3c13b9",
+      "response_sha256": "a2efd78b9c97d9e53d70332eaf0da9cf9bb735ba9fa68ad9b0211f264c1caf08"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "6896df4f7393ffe2cf39a7db4a2c3fe398231e6c091b67a841a8d48e9d961e86",
+      "response_sha256": "6cf29ee659843d9fe9f5068ec17bc7bd5086fd071f6de5640ffbe0e2d59ab2b0"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "7c2c8841b840583f8e02bfa5c894f7d99b2024d66f2e1a15748606d7417ee8b4",
+      "response_sha256": "c110839d1609dd1f8e2b63f38d359991ea5c3d4474621daa7136622c835a1995"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "8bb6431e683e0cf785d09fa6f9661ae2af36a982fd61fceed334d74fab1d5388",
+      "response_sha256": "644cf19b442bb10b20a15bfa1bf8b35b3e81d6306574d43a52e79d4213816c97"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "f768ebffa85ab11b0785be0a8e148e8e4e1593d191f5b3752214c9a2be583c22",
+      "response_sha256": "f16b92398a077902dbe1305beefddf711225d8c80c55a671394b034b98d87939"
+    }
+  ],
+  "attempts_used": 5,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/full/P239e4185da4e/local.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "2d2515cf08dd1e81aca35dd19cf3b694be814d94f3adab31ad50993bbe36c4ee"
+}

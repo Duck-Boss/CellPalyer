@@ -1,0 +1,59 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "histone acetylation-dependent transcription",
+      "direction": "increase",
+      "basis": "direct",
+      "conditions": "A549, 5 uM SAHA, 24 h",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "HDAC catalytic inhibition raises acetylation, plausibly increasing some acetylation-sensitive transcription."
+    },
+    {
+      "id": "H2",
+      "program": "HDAC target gene transcription",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "context dependent; no measured signature",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Acetylation changes can both up- and down-regulate genes; net direction is context dependent."
+    },
+    {
+      "id": "H3",
+      "program": "HDAC mRNA abundance",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "unknown",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Catalytic inhibition does not imply lowered HDAC transcript levels; no transcript data supplied."
+    },
+    {
+      "id": "H4",
+      "program": "cellular stress/apoptosis response",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "A549, 24 h exposure",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Prolonged HDAC inhibition may perturb growth/stress programs, but direction is not specified here."
+    }
+  ],
+  "summary": "SAHA inhibits HDAC catalytic activity, plausibly raising acetylation and altering transcription; specific gene directions remain uncertain without measured data.",
+  "limitations": [
+    "No measured perturbation response or gene mapping provided.",
+    "Isoform engagement and homologue relevance are unspecified.",
+    "Transcriptional consequences of acetylation are context dependent."
+  ]
+}

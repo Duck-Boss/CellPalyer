@@ -1,0 +1,744 @@
+{
+  "status": "completed",
+  "case_id": "drug=BMS|dose_uM=5|plate=A|replicate=1",
+  "opaque_id": "P2573b4ab3d22",
+  "arm": "neither",
+  "stage": "joint",
+  "fingerprint": "b7e0ba03e6b2b73e86300ec9f20479503e013ac17f23246bc8c5847d10240820",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A0"
+      ],
+      "reason": "Mechanism withheld; no treatment-specific direction supported."
+    },
+    {
+      "axis_id": 1,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A1"
+      ],
+      "reason": "Mechanism withheld; no treatment-specific direction supported."
+    },
+    {
+      "axis_id": 2,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A2"
+      ],
+      "reason": "Mechanism withheld; no treatment-specific direction supported."
+    },
+    {
+      "axis_id": 3,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A3"
+      ],
+      "reason": "Mechanism withheld; no treatment-specific direction supported."
+    },
+    {
+      "axis_id": 4,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A4"
+      ],
+      "reason": "Mechanism withheld; no treatment-specific direction supported."
+    },
+    {
+      "axis_id": 5,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A5"
+      ],
+      "reason": "Mechanism withheld; no treatment-specific direction supported."
+    },
+    {
+      "axis_id": 6,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A6"
+      ],
+      "reason": "Mechanism withheld; no treatment-specific direction supported."
+    },
+    {
+      "axis_id": 7,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A7"
+      ],
+      "reason": "Mechanism withheld; no treatment-specific direction supported."
+    },
+    {
+      "axis_id": 8,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A8/C2"
+      ],
+      "reason": "Strong up G0574 in state 2; state 13 up G1838"
+    },
+    {
+      "axis_id": 9,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A9/C14"
+      ],
+      "reason": "State 14 strong up G1314; state 10 up G0196"
+    },
+    {
+      "axis_id": 10,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A10/C13"
+      ],
+      "reason": "State 13 strong up G1776; state 9 up G1776"
+    },
+    {
+      "axis_id": 11,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A11/C4"
+      ],
+      "reason": "State 4 up G1987; state 10 up G0644"
+    },
+    {
+      "axis_id": 12,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A12/C1"
+      ],
+      "reason": "State 1 up G0053; state 7 up G0063"
+    },
+    {
+      "axis_id": 13,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A13/C0"
+      ],
+      "reason": "States 0 and 15 strong up G0620"
+    },
+    {
+      "axis_id": 14,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A14/C2"
+      ],
+      "reason": "State 2 up G1660; state 6 up G1047"
+    },
+    {
+      "axis_id": 15,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A15/C8"
+      ],
+      "reason": "State 8 up G1907; state 12 up G1907"
+    },
+    {
+      "axis_id": 16,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A16"
+      ],
+      "reason": "Mechanism withheld; no treatment-specific direction supported."
+    },
+    {
+      "axis_id": 17,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A17"
+      ],
+      "reason": "Mechanism withheld; no treatment-specific direction supported."
+    },
+    {
+      "axis_id": 18,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A18"
+      ],
+      "reason": "Mechanism withheld; no treatment-specific direction supported."
+    },
+    {
+      "axis_id": 19,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A19"
+      ],
+      "reason": "Mechanism withheld; no treatment-specific direction supported."
+    },
+    {
+      "axis_id": 20,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A20"
+      ],
+      "reason": "Mechanism withheld; no treatment-specific direction supported."
+    },
+    {
+      "axis_id": 21,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A21"
+      ],
+      "reason": "Mechanism withheld; no treatment-specific direction supported."
+    },
+    {
+      "axis_id": 22,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A22"
+      ],
+      "reason": "Mechanism withheld; no treatment-specific direction supported."
+    },
+    {
+      "axis_id": 23,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A23"
+      ],
+      "reason": "Mechanism withheld; no treatment-specific direction supported."
+    },
+    {
+      "axis_id": 24,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A24/C13"
+      ],
+      "reason": "Strong up G1200 in C13; C15/C11 high control occupancy"
+    },
+    {
+      "axis_id": 25,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A25/C13"
+      ],
+      "reason": "C13/C14 up G1424; C12 up G1558; high control occupancy"
+    },
+    {
+      "axis_id": 26,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A26/C9"
+      ],
+      "reason": "C9/C10 up G1787/G0348; C7 high control occupancy"
+    },
+    {
+      "axis_id": 27,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A27/C14"
+      ],
+      "reason": "C14/C13 up G1417; C8 high control occupancy"
+    },
+    {
+      "axis_id": 28,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A28/C9"
+      ],
+      "reason": "C9 up G1274; C0/C14 high control occupancy"
+    },
+    {
+      "axis_id": 29,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A29/C8"
+      ],
+      "reason": "C8/C3 up G1295; C14 high control occupancy"
+    },
+    {
+      "axis_id": 30,
+      "decision": "shift",
+      "targets": [
+        [
+          5,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A30/C5"
+      ],
+      "reason": "C5/C8 up G0685; C9 high control occupancy"
+    },
+    {
+      "axis_id": 31,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A31/C9"
+      ],
+      "reason": "C9 up G0388; C2/C8 high control occupancy"
+    }
+  ],
+  "response": {
+    "updates": [],
+    "summary": "No revisions justified: all shifts cite supplied axis/state evidence and H1 uncertainty; no direction contradictions or cross-axis cancellation require changes.",
+    "limitations": [
+      "Mechanism withheld; shifts are decoder-consistency only.",
+      "Anonymous features cannot be mapped to hypotheses.",
+      "Cross-axis cancellation noted but not resolvable without semantics."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 16,
+      "keep": 0,
+      "unknown": 16
+    },
+    "delta_l2": 2.5782590813959696,
+    "standardized_delta_rms": 0.07053049479866946,
+    "axis_tv": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.2603773584905661,
+      0.2943396226415094,
+      0.3,
+      0.23773584905660375,
+      0.1981132075471698,
+      0.27735849056603773,
+      0.3,
+      0.19811320754716982,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.17547169811320756,
+      0.15283018867924528,
+      0.16981132075471697,
+      0.22641509433962265,
+      0.1811320754716981,
+      0.20943396226415095,
+      0.22075471698113208,
+      0.19811320754716982
+    ],
+    "mean_axis_tv": 0.11249999999999999,
+    "top_gene_changes": {
+      "up": [
+        {
+          "feature": "G0196",
+          "delta": 0.21216,
+          "scaled_delta": 0.25122
+        },
+        {
+          "feature": "G1314",
+          "delta": 0.2729,
+          "scaled_delta": 0.24262
+        },
+        {
+          "feature": "G1289",
+          "delta": 0.19781,
+          "scaled_delta": 0.22964
+        },
+        {
+          "feature": "G0075",
+          "delta": 0.14514,
+          "scaled_delta": 0.21551
+        },
+        {
+          "feature": "G1056",
+          "delta": 0.1786,
+          "scaled_delta": 0.21513
+        },
+        {
+          "feature": "G0845",
+          "delta": 0.17725,
+          "scaled_delta": 0.20723
+        },
+        {
+          "feature": "G0817",
+          "delta": 0.14753,
+          "scaled_delta": 0.20599
+        },
+        {
+          "feature": "G1576",
+          "delta": 0.17231,
+          "scaled_delta": 0.19886
+        },
+        {
+          "feature": "G1934",
+          "delta": 0.16552,
+          "scaled_delta": 0.19772
+        },
+        {
+          "feature": "G1468",
+          "delta": 0.1387,
+          "scaled_delta": 0.1916
+        }
+      ],
+      "down": [
+        {
+          "feature": "G1885",
+          "delta": -0.17385,
+          "scaled_delta": -0.15382
+        },
+        {
+          "feature": "G0388",
+          "delta": -0.12111,
+          "scaled_delta": -0.12637
+        },
+        {
+          "feature": "G1177",
+          "delta": -0.1086,
+          "scaled_delta": -0.12188
+        },
+        {
+          "feature": "G1706",
+          "delta": -0.11258,
+          "scaled_delta": -0.10557
+        },
+        {
+          "feature": "G0236",
+          "delta": -0.10179,
+          "scaled_delta": -0.10389
+        },
+        {
+          "feature": "G1451",
+          "delta": -0.06866,
+          "scaled_delta": -0.09708
+        },
+        {
+          "feature": "G0423",
+          "delta": -0.07447,
+          "scaled_delta": -0.08197
+        },
+        {
+          "feature": "G0149",
+          "delta": -0.07445,
+          "scaled_delta": -0.07253
+        },
+        {
+          "feature": "G0167",
+          "delta": -0.04931,
+          "scaled_delta": -0.06847
+        },
+        {
+          "feature": "G1575",
+          "delta": -0.04543,
+          "scaled_delta": -0.06769
+        }
+      ]
+    },
+    "hypothesis_gene_checks": "Unavailable without feature semantics; anonymous IDs cannot be mapped to hypothesis gene names.",
+    "cross_axis_cancellation": [
+      {
+        "feature": "G0261",
+        "summed_delta": 0.03407986032205987,
+        "absolute_axis_sum": 0.2494696649574765
+      },
+      {
+        "feature": "G0291",
+        "summed_delta": -0.023393883009737507,
+        "absolute_axis_sum": 0.2152058754550177
+      },
+      {
+        "feature": "G1533",
+        "summed_delta": -0.019200126854384367,
+        "absolute_axis_sum": 0.15573258422538067
+      },
+      {
+        "feature": "G0313",
+        "summed_delta": 0.003917015197911697,
+        "absolute_axis_sum": 0.13479489647705226
+      },
+      {
+        "feature": "G0149",
+        "summed_delta": -0.07445285371672213,
+        "absolute_axis_sum": 0.2322717370367378
+      },
+      {
+        "feature": "G1171",
+        "summed_delta": -0.010350390824155453,
+        "absolute_axis_sum": 0.1369328674853709
+      }
+    ]
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "2ff658376e205bdeab203171d9c49683298401b4de57e859628bcff6c05cd74f",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "cbb8e4f0aae4573d0ddd12e0062fae6c93cc9de36944fb2cc1e080dab5c621b7",
+      "response_sha256": "802a09a64a7b3abc4965cfb11063c9a771ee323957e75dfcb478250fe74bf94d"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "b8ef10d97f9911982dcdd2ae2269eb123376853fcbbee35a9728beb779e6ae48",
+      "response_sha256": "9aed4f4b3768f27889cc6f019c1136e4d1def4f2ecea5a2d4d7cead7b1e94984"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "78b9557341b5b8a194b329e66cd58155c3ad052d57394c6efe91ae39ef4d9cef",
+      "response_sha256": "a3192f602d1b280398a49ddd83181a79eb724985d981315884d44cc7ec9c3890"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "90b844e0321e45534cb1ad8a94a363bce935b19c39ec96a0614d119dd435fefc",
+      "response_sha256": "84926b9150fb2fc27a443193f5878c5b8adb2c2435d6d14677dcd88603e64da1"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "0e758018b944aa18ea637ab60165d30c13eead385179114ab11e55ed1e6339d8",
+      "response_sha256": "03402b6fa6ca7d70a6be32fc8bcda590e024cbfa843098a57248f7353dacf7b1"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "3389b91284daff048e6e3028e12cc2dd1eeec1ff492d9a86dfe8db9ed7fe5892",
+      "response_sha256": "b7237737e48bb5752c7200e19610d55800f84c07045c93780e4f765ace880f46"
+    }
+  ],
+  "attempts_used": 6,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/neither/P2573b4ab3d22/joint.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "3dcc274385a619c4b556773f90e1528770a30d7bbb3d1d13a6b5e6829d01aad9"
+}

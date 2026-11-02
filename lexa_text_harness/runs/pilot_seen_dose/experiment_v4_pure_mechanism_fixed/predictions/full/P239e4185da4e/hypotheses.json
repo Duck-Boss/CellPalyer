@@ -1,0 +1,77 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "NF-kappa-B transcriptional activity",
+      "direction": "decrease",
+      "basis": "direct",
+      "conditions": "A549, dexamethasone 5 uM, 24 h; requires activated GR and NF-kB stimulus context",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "GR agonism can transrepress NF-kB activity; no signed A549 gene list supplied."
+    },
+    {
+      "id": "H2",
+      "program": "glucocorticoid receptor transcriptional activation",
+      "direction": "increase",
+      "basis": "direct",
+      "conditions": "A549; depends on receptor abundance, chromatin and cofactors",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Ligand-activated GR drives transcription at accessible GR-binding regulatory elements."
+    },
+    {
+      "id": "H3",
+      "program": "NR3C1 mRNA level",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "unknown; receptor activation does not imply mRNA change",
+      "gene_expectations": [
+        {
+          "gene": "NR3C1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Agonism acts on protein activity; mRNA direction is not determined by mechanism."
+    },
+    {
+      "id": "H4",
+      "program": "A549 baseline metabolic/aldehyde dehydrogenase genes",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549 untreated context; no treatment profile supplied",
+      "gene_expectations": [
+        {
+          "gene": "ALDH1A1",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1C2",
+          "direction": "uncertain"
+        },
+        {
+          "gene": "AKR1B10",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "These are expressed in controls but no GR-linked signed response is provided."
+    }
+  ],
+  "summary": "Dexamethasone likely activates GR and may transrepress NF-kB; specific A549 mRNA directions remain uncertain without a treatment profile.",
+  "limitations": [
+    "No measured perturbation response or signed gene list supplied.",
+    "Receptor/cofactor context may alter direction and magnitude.",
+    "Control expression does not establish treatment responsiveness."
+  ]
+}

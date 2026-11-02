@@ -1,0 +1,829 @@
+{
+  "status": "completed",
+  "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=3",
+  "opaque_id": "Pb5935cde53f6",
+  "arm": "no_semantics",
+  "stage": "joint",
+  "fingerprint": "e90223a0491e2021f748a647b722f3f3251c99471ec08b1a3c6e97844e228cdf",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A0/C10"
+      ],
+      "reason": "Strongest up effect (G1015) fits acetylation-linked transcription"
+    },
+    {
+      "axis_id": 1,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A1/C1"
+      ],
+      "reason": "Up-weighted states with positive G0642/G1680 effects"
+    },
+    {
+      "axis_id": 2,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A2/C9"
+      ],
+      "reason": "Large up effects on G0255 support increased transcription"
+    },
+    {
+      "axis_id": 3,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A3/C13"
+      ],
+      "reason": "Strong up effect on G0700 consistent with H1"
+    },
+    {
+      "axis_id": 4,
+      "decision": "shift",
+      "targets": [
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A4/C12"
+      ],
+      "reason": "Largest up effect on G1651 supports H1 direction"
+    },
+    {
+      "axis_id": 5,
+      "decision": "shift",
+      "targets": [
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A5/C11"
+      ],
+      "reason": "Up-weighted G0522 states align with increased transcription"
+    },
+    {
+      "axis_id": 6,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A6/C10"
+      ],
+      "reason": "Strong up effect on G0096 fits H1"
+    },
+    {
+      "axis_id": 7,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A7/C7"
+      ],
+      "reason": "Up-weighted G1773/G1961 states support H1"
+    },
+    {
+      "axis_id": 8,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A8/C4"
+      ],
+      "reason": "HDAC inhibition may raise acetylation-linked transcription; states 4,2,13 show up-effects"
+    },
+    {
+      "axis_id": 9,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A9/C14"
+      ],
+      "reason": "Strong up-effects in states 14,10,8 consistent with increased transcription"
+    },
+    {
+      "axis_id": 10,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A10/C13"
+      ],
+      "reason": "States 13,9,14 show largest up-effects; acetylation-linked transcription"
+    },
+    {
+      "axis_id": 11,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A11/C4"
+      ],
+      "reason": "Up-effects in states 4,2,10 support increased transcription"
+    },
+    {
+      "axis_id": 12,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A12/C1"
+      ],
+      "reason": "States 1,7,9 show up-effects consistent with acetylation program"
+    },
+    {
+      "axis_id": 13,
+      "decision": "shift",
+      "targets": [
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A13/C6"
+      ],
+      "reason": "Strong up-effects in states 6,7,3; HDAC inhibition transcription"
+    },
+    {
+      "axis_id": 14,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A14/C2"
+      ],
+      "reason": "States 2,3,6 show largest up-effects; acetylation-linked transcription"
+    },
+    {
+      "axis_id": 15,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A15/C8"
+      ],
+      "reason": "Up-effects in states 8,3,12 support increased transcription"
+    },
+    {
+      "axis_id": 16,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A16/C0"
+      ],
+      "reason": "HDAC inhibition raises acetylation-linked transcription; up-weighted states"
+    },
+    {
+      "axis_id": 17,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A17/C7"
+      ],
+      "reason": "Acetylation-dependent transcription favors up-weighted states"
+    },
+    {
+      "axis_id": 18,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A18/C4"
+      ],
+      "reason": "Strong up effects consistent with increased transcription"
+    },
+    {
+      "axis_id": 19,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A19/C4"
+      ],
+      "reason": "Up-weighted states match acetylation-driven transcription"
+    },
+    {
+      "axis_id": 20,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A20/C4"
+      ],
+      "reason": "Up-weighted states support increased transcription"
+    },
+    {
+      "axis_id": 21,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A21/C0"
+      ],
+      "reason": "Up-weighted states align with acetylation program"
+    },
+    {
+      "axis_id": 22,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A22/C7"
+      ],
+      "reason": "Up-weighted states consistent with transcriptional increase"
+    },
+    {
+      "axis_id": 23,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A23/C2"
+      ],
+      "reason": "Up-weighted states reflect acetylation-linked transcription"
+    },
+    {
+      "axis_id": 24,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A24/C13"
+      ],
+      "reason": "C13 uniquely up-weights G1200 with strong positive control effect"
+    },
+    {
+      "axis_id": 25,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A25/C13"
+      ],
+      "reason": "C13 shows strong up G1424/G1281 consistent with acetylation transcription"
+    },
+    {
+      "axis_id": 26,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A26/C0"
+      ],
+      "reason": "C0/C11 up G0348/G1787 with strong positive control effects"
+    },
+    {
+      "axis_id": 27,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A27/C14"
+      ],
+      "reason": "C14 strong up G1417/G1504 positive control effects"
+    },
+    {
+      "axis_id": 28,
+      "decision": "shift",
+      "targets": [
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A28/C10"
+      ],
+      "reason": "C10 strong up G0192/G1840 positive control effects"
+    },
+    {
+      "axis_id": 29,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A29/C14"
+      ],
+      "reason": "C14 up G1295/G0451 positive control effects"
+    },
+    {
+      "axis_id": 30,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A30/C8"
+      ],
+      "reason": "C8/C12 up G0685/G0497 positive control effects"
+    },
+    {
+      "axis_id": 31,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A31/C9"
+      ],
+      "reason": "C9 up G0388/G1177 positive control effects"
+    }
+  ],
+  "response": {
+    "updates": [],
+    "summary": "Local shifts are directionally consistent with H1 (acetylation-linked transcription up) and do not contradict H2/H3; no cross-axis cancellation or evidence conflict justifies revision.",
+    "limitations": [
+      "Anonymous features prevent gene-level checks against H1/H3.",
+      "No measured treatment signature; directions are decoder-based.",
+      "Isoform engagement and magnitude remain context dependent."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 32,
+      "keep": 0,
+      "unknown": 0
+    },
+    "delta_l2": 7.789135747177126,
+    "standardized_delta_rms": 0.21188057764668397,
+    "axis_tv": [
+      0.2861538461538462,
+      0.23076923076923078,
+      0.2953846153846154,
+      0.30000000000000004,
+      0.27230769230769236,
+      0.27230769230769236,
+      0.2907692307692308,
+      0.30000000000000004,
+      0.1676923076923077,
+      0.27692307692307694,
+      0.22615384615384618,
+      0.20307692307692307,
+      0.25846153846153846,
+      0.24923076923076923,
+      0.30000000000000004,
+      0.20307692307692307,
+      0.2815384615384615,
+      0.23538461538461541,
+      0.30000000000000004,
+      0.2907692307692308,
+      0.2907692307692308,
+      0.2953846153846154,
+      0.18923076923076923,
+      0.27230769230769236,
+      0.22153846153846157,
+      0.2169230769230769,
+      0.2723076923076923,
+      0.2953846153846154,
+      0.30000000000000004,
+      0.23076923076923078,
+      0.2676923076923077,
+      0.2123076923076923
+    ],
+    "mean_axis_tv": 0.2595192307692308,
+    "top_gene_changes": {
+      "up": [
+        {
+          "feature": "G1840",
+          "delta": 0.55486,
+          "scaled_delta": 0.62716
+        },
+        {
+          "feature": "G0192",
+          "delta": 0.80977,
+          "scaled_delta": 0.61955
+        },
+        {
+          "feature": "G1909",
+          "delta": 0.51543,
+          "scaled_delta": 0.61619
+        },
+        {
+          "feature": "G0725",
+          "delta": 0.55466,
+          "scaled_delta": 0.59123
+        },
+        {
+          "feature": "G1000",
+          "delta": 0.54347,
+          "scaled_delta": 0.53122
+        },
+        {
+          "feature": "G1130",
+          "delta": 0.50695,
+          "scaled_delta": 0.5283
+        },
+        {
+          "feature": "G1813",
+          "delta": 0.5773,
+          "scaled_delta": 0.52465
+        },
+        {
+          "feature": "G1515",
+          "delta": 0.4726,
+          "scaled_delta": 0.49127
+        },
+        {
+          "feature": "G0442",
+          "delta": 0.42755,
+          "scaled_delta": 0.48298
+        },
+        {
+          "feature": "G0372",
+          "delta": 0.51952,
+          "scaled_delta": 0.47646
+        }
+      ],
+      "down": []
+    },
+    "hypothesis_gene_checks": "Unavailable without feature semantics; anonymous IDs cannot be mapped to hypothesis gene names.",
+    "cross_axis_cancellation": [
+      {
+        "feature": "G0261",
+        "summed_delta": 0.17328470365117432,
+        "absolute_axis_sum": 0.22189826286988903
+      },
+      {
+        "feature": "G1744",
+        "summed_delta": 0.06729095364122951,
+        "absolute_axis_sum": 0.08817954859185051
+      },
+      {
+        "feature": "G0561",
+        "summed_delta": 0.08815579173596821,
+        "absolute_axis_sum": 0.10723366393432988
+      },
+      {
+        "feature": "G0253",
+        "summed_delta": 0.07927898940783605,
+        "absolute_axis_sum": 0.09575906146542712
+      },
+      {
+        "feature": "G0814",
+        "summed_delta": 0.11888586193959359,
+        "absolute_axis_sum": 0.1341011811738267
+      },
+      {
+        "feature": "G1826",
+        "summed_delta": 0.12641822550291315,
+        "absolute_axis_sum": 0.14168428871661976
+      }
+    ]
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "3d07522fe2241941fdd19998a411a0b199667210e32723fc432228bac261a1cb",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "da4d6416f183f307aefcb7bdf78121e4b07ac5811198c09c6a42f3c9d6a0d432",
+      "response_sha256": "46d75569cfd82f73bc3a54cd6d98d77c7a5afa201ff9ca2f42b25a7878f3176a"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "4f6692b1da396c5f55d38251cb232e05df7d2db6e174dacdaeb199cc8969a783",
+      "response_sha256": "138ee0be4e5967269062ef228ff652d3501699355a43f570ad9996a3526c1a58"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "599213b8f09bbeb829a8c5414c635722b05680d5ffbc63f1011943afbda45436",
+      "response_sha256": "42d85aba90bb8767b447c6a092f793e2b734aab94b4f08d1a0dad8d98a140b93"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "d83cbc61484135ed03c8c96edebe0acf8c57ca28ddfa522b795aeeef05c1a007",
+      "response_sha256": "0f8b1bc52066fa0e24065b939d570f31b428522ff507d359e18910d7ef1b846a"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "4a85ada567efc96e67a41338dd72361305d4fe0367b1cc2cb85303b8daa242e8",
+      "response_sha256": "00407d83ea9cce10775f91a10191ef55bc1b5ed896dd271b81ceab0d80155511"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "92d15de9df1e77e8be22ec98afe815122a32d02ccc2ef82f08f9fd1729880b5f",
+      "response_sha256": "c61a7730d53f04304a929aff2fe92a9c0141350200c424023cc2a3c208fb4df5"
+    }
+  ],
+  "attempts_used": 6,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/no_semantics/Pb5935cde53f6/joint.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "b4f50c0bc6140f1d874ad0371599b1d7462bef0144836407deb9ac97dcb1c80c"
+}

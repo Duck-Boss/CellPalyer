@@ -1,0 +1,65 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "NF-kappa-B transcriptional activity",
+      "direction": "decrease",
+      "basis": "direct",
+      "conditions": "A549, dexamethasone 5 uM, 24 h; requires activated NF-kB context",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M",
+        "M1"
+      ],
+      "reason": "GR transrepresses NF-kB activity per mechanism card; no signed A549 gene list supplied."
+    },
+    {
+      "id": "H2",
+      "program": "glucocorticoid receptor transcriptional activation",
+      "direction": "increase",
+      "basis": "direct",
+      "conditions": "A549, dexamethasone 5 uM, 24 h; depends on chromatin/cofactor context",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Ligand-activated GR drives transcription at GR-bound regulatory elements; target genes unspecified."
+    },
+    {
+      "id": "H3",
+      "program": "NR3C1 mRNA level",
+      "direction": "uncertain",
+      "basis": "secondary",
+      "conditions": "unknown; receptor activation does not imply mRNA change",
+      "gene_expectations": [
+        {
+          "gene": "NR3C1",
+          "direction": "uncertain"
+        }
+      ],
+      "evidence_refs": [
+        "M"
+      ],
+      "reason": "Card explicitly notes GR activation is not evidence NR3C1 mRNA rises; direction unresolved."
+    },
+    {
+      "id": "H4",
+      "program": "glucocorticoid-responsive gene expression",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549-specific response unknown; no treatment profile supplied",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C",
+        "M"
+      ],
+      "reason": "No A549 dexamethasone expression data or signed gene list; anonymous features unmapped."
+    }
+  ],
+  "summary": "Dexamethasone activates GR, likely transrepressing NF-kB and inducing GR-dependent transcription; specific gene directions in A549 remain uncertain.",
+  "limitations": [
+    "No A549 treatment expression profile or signed gene-response list provided.",
+    "Anonymous control features cannot be mapped to genes.",
+    "Receptor abundance, chromatin and cofactor context may alter directions."
+  ]
+}

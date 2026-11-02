@@ -1,0 +1,34 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "program": "transcriptional response to an unknown perturbation",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "A549, 5 uM, 24 h; mechanism withheld",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Perturbation identity and mechanism are hidden, so no treatment-specific direction can be inferred."
+    },
+    {
+      "id": "H2",
+      "program": "baseline expression of anonymous features",
+      "direction": "uncertain",
+      "basis": "unknown",
+      "conditions": "untreated A549 context only",
+      "gene_expectations": [],
+      "evidence_refs": [
+        "C"
+      ],
+      "reason": "Feature semantics are withheld; no gene-level mapping or direction is available."
+    }
+  ],
+  "summary": "No mechanism is supplied, so only explicit uncertainty can be stated; no directional gene predictions are justified.",
+  "limitations": [
+    "Perturbation identity and mechanism withheld.",
+    "Feature-to-gene mapping unavailable.",
+    "No measured perturbation responses provided."
+  ]
+}

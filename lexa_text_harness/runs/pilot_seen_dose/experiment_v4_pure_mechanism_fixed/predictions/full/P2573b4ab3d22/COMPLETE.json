@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "case_id": "drug=BMS|dose_uM=5|plate=A|replicate=1",
+  "opaque_id": "P2573b4ab3d22",
+  "arm": "full",
+  "fingerprint": "c68dc5ed8e619e98cfdfca8b5e034614ad25b8e3a182f6b09e9de89897b5a944",
+  "api_attempts": 6,
+  "local": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/full/P2573b4ab3d22/local.json",
+  "joint": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/full/P2573b4ab3d22/joint.json",
+  "local_sha256": "291d95da084b0af66f0bca3a777889d60c7d98a6f813356d5d5c55c3e94a8cde",
+  "joint_sha256": "9875bfbebdf3cb61bfd74fdce292498c9e74ca9ec9f27c57d7a2cdb9cfa45d49",
+  "hypotheses_sha256": "1adfdccc341392af4d24230c0475d3f6de5fd2b2fef1ba6e9d056fb0499d5b4f"
+}

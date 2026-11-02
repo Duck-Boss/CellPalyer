@@ -1,0 +1,747 @@
+{
+  "status": "passed",
+  "audited_at_asia_shanghai": "2026-10-26T18:25:53.871373+08:00",
+  "audit_scope": "Execution/provenance/trace only. No held-out treatment expression, scores, or biological accuracy was read.",
+  "preflight_passed": true,
+  "all_planned_predictions_validated": 32,
+  "case_count": 16,
+  "case_count_by_drug": {
+    "BMS": 4,
+    "Dex": 4,
+    "Nutlin": 4,
+    "SAHA": 4
+  },
+  "methods": [
+    "one_shot",
+    "agent"
+  ],
+  "case_limit": 0,
+  "max_rounds": 8,
+  "models": [
+    "deepseek-flash"
+  ],
+  "endpoints": [
+    "https://api.deepseek.com/chat/completions"
+  ],
+  "implementation_sha256": {
+    "agent.py": "e6f8170a3e6a502e9c4ded8a4324ed09b15d7beae9768e5916021b25b5c464d0",
+    "tools.py": "1ee7b61995ff54f4af9ae6462ee6c8d57781980de4a3ae16e3910e2fb5d8bb66",
+    "experiment.py": "727420e2b800c8ae32ff20a41dc60b27365dcadf51652d5509e03fa405579f7e"
+  },
+  "system_prompt_sha256": "5120838311c50b15247a58001189923764e2b396ef16ce7aad35339d29ac0031",
+  "run_plan_sha256": "d31ef7ecbc8ff46c7372c6b51e6187f614ca29b12a1a31b3d0e1da033b213fae",
+  "input_manifest_sha256": "d6244a7b7ce395aae9de14245e1a744a154de823456bb7a268fb7d5d226c8e27",
+  "by_method": {
+    "one_shot": {
+      "cases": 16,
+      "api_requests_total": 61,
+      "api_requests_mean": 3.8125,
+      "api_requests_range": [
+        3,
+        5
+      ],
+      "successful_evaluations_total": 16,
+      "evaluation_count_histogram": {
+        "1": 16
+      },
+      "tool_calls_total": 102,
+      "cases_with_later_round_revision": 0,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "status_counts": {
+        "evaluation_budget_complete": 16
+      },
+      "model_final_matches_last_evaluation_counts": {
+        "None": 16
+      }
+    },
+    "agent": {
+      "cases": 16,
+      "api_requests_total": 79,
+      "api_requests_mean": 4.9375,
+      "api_requests_range": [
+        4,
+        6
+      ],
+      "successful_evaluations_total": 25,
+      "evaluation_count_histogram": {
+        "3": 4,
+        "1": 11,
+        "2": 1
+      },
+      "tool_calls_total": 106,
+      "cases_with_later_round_revision": 5,
+      "evaluations_after_prior_round_feedback": 9,
+      "same_round_extra_evaluations": 0,
+      "invalid_requests": 1,
+      "recovered_invalid_requests": 1,
+      "status_counts": {
+        "evaluation_budget_complete": 4,
+        "completed": 12
+      },
+      "model_final_matches_last_evaluation_counts": {
+        "None": 4,
+        "False": 12
+      }
+    }
+  },
+  "invalid_requests": [
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=2",
+      "method": "agent",
+      "round": 3,
+      "tool": "evaluate_edits",
+      "code": "duplicate_axis",
+      "error": "invalid_tool_request"
+    }
+  ],
+  "recovered_invalid_requests": [
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=2",
+      "method": "agent",
+      "round": 3,
+      "tool": "evaluate_edits",
+      "code": "duplicate_axis",
+      "error": "invalid_tool_request"
+    }
+  ],
+  "unread_evidence_violations": [],
+  "errors": [],
+  "blocked_target_accesses": [],
+  "cases": [
+    {
+      "case_id": "drug=BMS|dose_uM=5|plate=A|replicate=1",
+      "drug": "BMS",
+      "method": "one_shot",
+      "status": "evaluation_budget_complete",
+      "api_requests": 4,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        4
+      ],
+      "tool_calls": 8,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=BMS|dose_uM=5|plate=A|replicate=1",
+      "drug": "BMS",
+      "method": "agent",
+      "status": "evaluation_budget_complete",
+      "api_requests": 6,
+      "evaluations": 3,
+      "evaluation_api_rounds": [
+        4,
+        5,
+        6
+      ],
+      "tool_calls": 10,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": true,
+      "evaluations_after_prior_round_feedback": 2,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=Dex|dose_uM=5|plate=A|replicate=1",
+      "drug": "Dex",
+      "method": "one_shot",
+      "status": "evaluation_budget_complete",
+      "api_requests": 4,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        4
+      ],
+      "tool_calls": 7,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=Dex|dose_uM=5|plate=A|replicate=1",
+      "drug": "Dex",
+      "method": "agent",
+      "status": "completed",
+      "api_requests": 4,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        3
+      ],
+      "tool_calls": 5,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": false
+    },
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=1",
+      "drug": "Nutlin",
+      "method": "one_shot",
+      "status": "evaluation_budget_complete",
+      "api_requests": 4,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        4
+      ],
+      "tool_calls": 5,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=1",
+      "drug": "Nutlin",
+      "method": "agent",
+      "status": "completed",
+      "api_requests": 5,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        4
+      ],
+      "tool_calls": 5,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": false
+    },
+    {
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=1",
+      "drug": "SAHA",
+      "method": "one_shot",
+      "status": "evaluation_budget_complete",
+      "api_requests": 4,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        4
+      ],
+      "tool_calls": 7,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=1",
+      "drug": "SAHA",
+      "method": "agent",
+      "status": "completed",
+      "api_requests": 5,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        4
+      ],
+      "tool_calls": 7,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": false
+    },
+    {
+      "case_id": "drug=BMS|dose_uM=5|plate=A|replicate=2",
+      "drug": "BMS",
+      "method": "one_shot",
+      "status": "evaluation_budget_complete",
+      "api_requests": 5,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        5
+      ],
+      "tool_calls": 9,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=BMS|dose_uM=5|plate=A|replicate=2",
+      "drug": "BMS",
+      "method": "agent",
+      "status": "evaluation_budget_complete",
+      "api_requests": 6,
+      "evaluations": 3,
+      "evaluation_api_rounds": [
+        4,
+        5,
+        6
+      ],
+      "tool_calls": 9,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": true,
+      "evaluations_after_prior_round_feedback": 2,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=Dex|dose_uM=5|plate=A|replicate=3",
+      "drug": "Dex",
+      "method": "one_shot",
+      "status": "evaluation_budget_complete",
+      "api_requests": 4,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        4
+      ],
+      "tool_calls": 7,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=Dex|dose_uM=5|plate=A|replicate=3",
+      "drug": "Dex",
+      "method": "agent",
+      "status": "completed",
+      "api_requests": 5,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        4
+      ],
+      "tool_calls": 7,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": false
+    },
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=2",
+      "drug": "Nutlin",
+      "method": "one_shot",
+      "status": "evaluation_budget_complete",
+      "api_requests": 3,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        3
+      ],
+      "tool_calls": 4,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=2",
+      "drug": "Nutlin",
+      "method": "agent",
+      "status": "completed",
+      "api_requests": 5,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        4
+      ],
+      "tool_calls": 5,
+      "invalid_requests": 1,
+      "recovered_invalid_requests": 1,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": false
+    },
+    {
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=2",
+      "drug": "SAHA",
+      "method": "one_shot",
+      "status": "evaluation_budget_complete",
+      "api_requests": 4,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        4
+      ],
+      "tool_calls": 7,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=2",
+      "drug": "SAHA",
+      "method": "agent",
+      "status": "completed",
+      "api_requests": 4,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        3
+      ],
+      "tool_calls": 5,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": false
+    },
+    {
+      "case_id": "drug=BMS|dose_uM=5|plate=B|replicate=2",
+      "drug": "BMS",
+      "method": "one_shot",
+      "status": "evaluation_budget_complete",
+      "api_requests": 4,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        4
+      ],
+      "tool_calls": 8,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=BMS|dose_uM=5|plate=B|replicate=2",
+      "drug": "BMS",
+      "method": "agent",
+      "status": "completed",
+      "api_requests": 6,
+      "evaluations": 2,
+      "evaluation_api_rounds": [
+        4,
+        5
+      ],
+      "tool_calls": 9,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": true,
+      "evaluations_after_prior_round_feedback": 1,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": false
+    },
+    {
+      "case_id": "drug=Dex|dose_uM=5|plate=B|replicate=2",
+      "drug": "Dex",
+      "method": "one_shot",
+      "status": "evaluation_budget_complete",
+      "api_requests": 3,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        3
+      ],
+      "tool_calls": 5,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=Dex|dose_uM=5|plate=B|replicate=2",
+      "drug": "Dex",
+      "method": "agent",
+      "status": "evaluation_budget_complete",
+      "api_requests": 6,
+      "evaluations": 3,
+      "evaluation_api_rounds": [
+        4,
+        5,
+        6
+      ],
+      "tool_calls": 9,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": true,
+      "evaluations_after_prior_round_feedback": 2,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=3",
+      "drug": "Nutlin",
+      "method": "one_shot",
+      "status": "evaluation_budget_complete",
+      "api_requests": 4,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        4
+      ],
+      "tool_calls": 5,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=A|replicate=3",
+      "drug": "Nutlin",
+      "method": "agent",
+      "status": "completed",
+      "api_requests": 5,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        4
+      ],
+      "tool_calls": 6,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": false
+    },
+    {
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=3",
+      "drug": "SAHA",
+      "method": "one_shot",
+      "status": "evaluation_budget_complete",
+      "api_requests": 3,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        3
+      ],
+      "tool_calls": 5,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=3",
+      "drug": "SAHA",
+      "method": "agent",
+      "status": "completed",
+      "api_requests": 4,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        3
+      ],
+      "tool_calls": 5,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": false
+    },
+    {
+      "case_id": "drug=BMS|dose_uM=5|plate=B|replicate=3",
+      "drug": "BMS",
+      "method": "one_shot",
+      "status": "evaluation_budget_complete",
+      "api_requests": 4,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        4
+      ],
+      "tool_calls": 8,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=BMS|dose_uM=5|plate=B|replicate=3",
+      "drug": "BMS",
+      "method": "agent",
+      "status": "evaluation_budget_complete",
+      "api_requests": 6,
+      "evaluations": 3,
+      "evaluation_api_rounds": [
+        4,
+        5,
+        6
+      ],
+      "tool_calls": 9,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": true,
+      "evaluations_after_prior_round_feedback": 2,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=Dex|dose_uM=5|plate=B|replicate=3",
+      "drug": "Dex",
+      "method": "one_shot",
+      "status": "evaluation_budget_complete",
+      "api_requests": 4,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        4
+      ],
+      "tool_calls": 7,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=Dex|dose_uM=5|plate=B|replicate=3",
+      "drug": "Dex",
+      "method": "agent",
+      "status": "completed",
+      "api_requests": 4,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        3
+      ],
+      "tool_calls": 5,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": false
+    },
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=B|replicate=1",
+      "drug": "Nutlin",
+      "method": "one_shot",
+      "status": "evaluation_budget_complete",
+      "api_requests": 4,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        4
+      ],
+      "tool_calls": 5,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=Nutlin|dose_uM=5|plate=B|replicate=1",
+      "drug": "Nutlin",
+      "method": "agent",
+      "status": "completed",
+      "api_requests": 4,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        3
+      ],
+      "tool_calls": 5,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": false
+    },
+    {
+      "case_id": "drug=SAHA|dose_uM=5|plate=B|replicate=1",
+      "drug": "SAHA",
+      "method": "one_shot",
+      "status": "evaluation_budget_complete",
+      "api_requests": 3,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        3
+      ],
+      "tool_calls": 5,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": null
+    },
+    {
+      "case_id": "drug=SAHA|dose_uM=5|plate=B|replicate=1",
+      "drug": "SAHA",
+      "method": "agent",
+      "status": "completed",
+      "api_requests": 4,
+      "evaluations": 1,
+      "evaluation_api_rounds": [
+        3
+      ],
+      "tool_calls": 5,
+      "invalid_requests": 0,
+      "recovered_invalid_requests": 0,
+      "later_round_revision": false,
+      "evaluations_after_prior_round_feedback": 0,
+      "same_round_extra_evaluations": 0,
+      "model_final_matches_last_evaluation": false
+    }
+  ],
+  "interpretation": "A later-round evaluation proves prior feedback was available, not that the model used it effectively. Decoder evaluation does not validate drug response.",
+  "completed_final_format_audit": {
+    "cases": 12,
+    "prose_plus_fenced_json_matching_last_evaluated_edits": 12,
+    "different_claimed_edits": 0,
+    "note": "Strict whole-message JSON parsing reports model_final_matches_last_evaluation=False because prose precedes a fenced JSON block. Read-only extraction of the single fenced block confirmed all twelve edits exactly match the authoritative last evaluated proposal. No results or predictions were changed."
+  },
+  "post_reveal_score_consistency_audit": {
+    "scope": "Read only exported CSV/JSON score summaries after root explicitly authorized reveal; raw evaluation.npz remains unread by this auditor.",
+    "score_rows": 80,
+    "methods": [
+      "agent",
+      "nearest_training_dose",
+      "no_edit",
+      "one_shot",
+      "training_mean"
+    ],
+    "well_count": 16,
+    "drug_condition_count": 4,
+    "treated_cells": 786,
+    "selected_gene_count": 2000,
+    "all_methods_same_16_cases": true,
+    "aggregation": "Mean metric across wells within drug-dose; then equal mean across four drug-dose conditions. This is not pooled-cell RMSE or pooled-gene correlation.",
+    "aggregation_recomputed_matches_to_12dp": true,
+    "relative_macro_rmse": {
+      "agent_reduction_vs_no_edit_pct": 1.7119989852219168,
+      "agent_increase_vs_nearest_pct": 70.76182150132742,
+      "agent_reduction_vs_one_shot_pct": 0.027120922790132812
+    },
+    "pearson_valid_well_counts": {
+      "agent": 16,
+      "nearest_training_dose": 16,
+      "no_edit": 0,
+      "one_shot": 16,
+      "training_mean": 16
+    },
+    "diagnostic_interpretation": "agent mean extra feedback evaluations=0.5625 per case (9/16); cases with any actual later-round revision=5/16=31.25%. These are execution diagnostics, not drug-response accuracy or a 56.25% revision-case rate.",
+    "limitations": "Single frozen pilot and one API realization per case; no statistical significance established. All features are the 2000 training-selected genes. Text-label ablations were not run in this primary comparison.",
+    "score_file_sha256": {
+      "scores_by_well.csv": "a9f21bb98e251bdeb4b8d13da0318a77076466e3a05c3069f2ff5887fd94333d",
+      "scores_by_condition.csv": "306e44a79bb14e4ed182500e09c00a0e8d4d9945964e114038a51c99f27bac75",
+      "scores_summary.csv": "5c99b0d840a3a0b6ce1b3dd4cee79793c7f8bb692aca1107e539ba30d0ae1ea0",
+      "run_diagnostics.csv": "669f70ccfa229609525f359af6b48eeeba41bd3293488787c5892d97c7f4f1b5",
+      "run_diagnostics_summary.csv": "2dd94cb967edc4ccdd8307fa5202f09fddcee1a28330b25064b1066518232258",
+      "evaluation_scope.json": "c4ff2dc88d2d47f83fe58f4201f5ea722b7f383b539b162f83dc8dbce72f872d"
+    }
+  }
+}

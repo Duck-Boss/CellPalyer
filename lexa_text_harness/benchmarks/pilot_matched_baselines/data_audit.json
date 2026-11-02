@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "n_train": 5285,
+  "n_val": 2742,
+  "n_genes": 2000,
+  "n_ready_cases": 16,
+  "n_ready_treated": 786,
+  "n_unique_ready_controls": 951,
+  "n_all_available_controls": 1409,
+  "by_drug": {
+    "BMS": {
+      "wells": 4,
+      "treated": 95,
+      "unique_controls": 297
+    },
+    "Dex": {
+      "wells": 4,
+      "treated": 237,
+      "unique_controls": 178
+    },
+    "Nutlin": {
+      "wells": 4,
+      "treated": 274,
+      "unique_controls": 202
+    },
+    "SAHA": {
+      "wells": 4,
+      "treated": 180,
+      "unique_controls": 274
+    }
+  },
+  "all_control_splits": {
+    "train": 910,
+    "val": 499
+  },
+  "ready_control_splits": {
+    "train": 637,
+    "val": 314
+  },
+  "source_hashes": {
+    "prepared.npz": "920fb717e80976fb18f5557a17545689048a40972147de8ce3a304c1640d2106",
+    "cases.json": "493aa96ab615615a046148cf85ee57b68c5d2ea86b72443440de78e5e7d8b8c1",
+    "metadata.csv": "87ada983037aeb16b6ecd49a65cf17b53a94dbbb47598034f1c9ecd04d20304f",
+    "manifest.json": "f65cbb0358bf94c71a093eed9492d81c4c67081454275f82be2f8b9bc3b7ad8b"
+  },
+  "case_ids": [
+    "drug=BMS|dose_uM=5|plate=A|replicate=1",
+    "drug=BMS|dose_uM=5|plate=A|replicate=2",
+    "drug=BMS|dose_uM=5|plate=B|replicate=2",
+    "drug=BMS|dose_uM=5|plate=B|replicate=3",
+    "drug=Dex|dose_uM=5|plate=A|replicate=1",
+    "drug=Dex|dose_uM=5|plate=A|replicate=3",
+    "drug=Dex|dose_uM=5|plate=B|replicate=2",
+    "drug=Dex|dose_uM=5|plate=B|replicate=3",
+    "drug=Nutlin|dose_uM=5|plate=A|replicate=1",
+    "drug=Nutlin|dose_uM=5|plate=A|replicate=2",
+    "drug=Nutlin|dose_uM=5|plate=A|replicate=3",
+    "drug=Nutlin|dose_uM=5|plate=B|replicate=1",
+    "drug=SAHA|dose_uM=5|plate=A|replicate=1",
+    "drug=SAHA|dose_uM=5|plate=A|replicate=2",
+    "drug=SAHA|dose_uM=5|plate=A|replicate=3",
+    "drug=SAHA|dose_uM=5|plate=B|replicate=1"
+  ],
+  "genes_sha256": "fa791c3f0eea5a915eab908bbe46c0aad105c8524cc852771712f7b06686a354",
+  "target_expression_opened": false,
+  "prediction_cases": {
+    "status": "passed",
+    "sha256": "5a6a778887a9c6fa8ab70605b8b06c85f260aebe3b65aecc19e4497d66cd2894",
+    "n_cases": 16,
+    "forbidden_outcome_fields": []
+  },
+  "protocol_sha256": "08f0e772e5833e559a6ef7903c00f5f64ba725b5668091ca15d75aba57f360b5",
+  "protocol_original_source_hashes_verified": 4,
+  "checked_at": "2026-10-27T15:00:24+08:00",
+  "information_conditions": "Identical dataset/test/metrics; CPA/CODEX explicitly supervise numerical drug-dose responses during training, while pure-mechanism DeepSeek uses no response retrieval at inference."
+}

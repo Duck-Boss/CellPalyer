@@ -1,0 +1,22 @@
+[
+  {
+    "name": "folder_l",
+    "url": "https://drive.google.com/drive/folders/1RlBnRPmWFRQ6M_1EQ_FMwFb1Y8IjXoyC?usp=sharing",
+    "error": "HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /drive/folders/1RlBnRPmWFRQ6M_1EQ_FMwFb1Y8IjXoyC?usp=sharing (Caused by NewConnectionError(\"HTTPSConnection(host='drive.google.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+  },
+  {
+    "name": "folder_1",
+    "url": "https://drive.google.com/drive/folders/1R1BnRPmWFRQ6M_1EQ_FMwFb1Y8IjXoyC?usp=sharing",
+    "error": "HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /drive/folders/1R1BnRPmWFRQ6M_1EQ_FMwFb1Y8IjXoyC?usp=sharing (Caused by NewConnectionError(\"HTTPSConnection(host='drive.google.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+  },
+  {
+    "name": "folder_l_embed",
+    "url": "https://drive.google.com/embeddedfolderview?id=1RlBnRPmWFRQ6M_1EQ_FMwFb1Y8IjXoyC",
+    "error": "HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /embeddedfolderview?id=1RlBnRPmWFRQ6M_1EQ_FMwFb1Y8IjXoyC (Caused by NewConnectionError(\"HTTPSConnection(host='drive.google.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+  },
+  {
+    "name": "paper",
+    "url": "https://wenhao-gao.github.io/assets/publications/2024_TDC2/paper.pdf",
+    "error": "HTTPSConnectionPool(host='wenhao-gao.github.io', port=443): Read timed out. (read timeout=5)"
+  }
+]

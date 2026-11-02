@@ -1,0 +1,903 @@
+{
+  "status": "pass",
+  "created_asia_shanghai": "2026-10-27T01:36:09.566503+08:00",
+  "reviewer_script_sha256": "68db4690ff43297eab6cac0e31c021569ea80acbdd47350dd7153cbeee967a37",
+  "prediction_seal_sha256": "60f4c2ea85d3e0926cdcdac8de6ef2e6050b418fb5ff0ad8c51ff6d577f100b3",
+  "score_manifest_sha256": "0af092aaa3b19119d59e6967fa2588fe7c22d5efa7339c8039830717e86a7c76",
+  "sealed_artifact_count": 2112,
+  "n_wells": 16,
+  "n_methods": 29,
+  "n_metric_rows": 464,
+  "n_condition_rows": 116,
+  "n_decision_rows": 144,
+  "n_treated": 786,
+  "n_unique_controls": 951,
+  "treated_by_drug": {
+    "BMS": 95,
+    "Dex": 237,
+    "Nutlin": 274,
+    "SAHA": 180
+  },
+  "n_genes": 2000,
+  "metrics_max_absolute_discrepancy": {
+    "well": {
+      "delta_rmse": 1.1102230246251565e-16,
+      "delta_pearson": 6.661338147750939e-16,
+      "delta_cosine": 2.220446049250313e-16,
+      "top100_delta_rmse": 4.440892098500626e-16,
+      "top100_direction_accuracy": 0.0,
+      "response_l2_ratio": 4.440892098500626e-16,
+      "n_treated": 0.0,
+      "n_control": 0.0
+    },
+    "condition": {
+      "delta_rmse": 1.1102230246251565e-16,
+      "delta_pearson": 3.3306690738754696e-16,
+      "delta_cosine": 1.1102230246251565e-16,
+      "top100_delta_rmse": 4.440892098500626e-16,
+      "top100_direction_accuracy": 1.1102230246251565e-16,
+      "response_l2_ratio": 2.220446049250313e-16
+    },
+    "summary": {
+      "delta_rmse": 1.1102230246251565e-16,
+      "delta_pearson": 2.7755575615628914e-16,
+      "delta_cosine": 1.1449174941446927e-16,
+      "top100_delta_rmse": 3.3306690738754696e-16,
+      "top100_direction_accuracy": 1.1102230246251565e-16,
+      "response_l2_ratio": 1.1102230246251565e-16
+    },
+    "occupancy": {
+      "occupancy_tv_error_mean": 2.220446049250313e-16,
+      "dominant_code_accuracy": 0.0,
+      "predicted_changed_axes": 0.0,
+      "observed_changed_axes": 0.0,
+      "predicted_mean_axis_tv": 1.1102230246251565e-16,
+      "n_treated": 0.0,
+      "n_control": 0.0
+    },
+    "raw_absolute": {
+      "raw_decoded_absolute_rmse": 1.6653345369377348e-16,
+      "n_treated": 0.0,
+      "n_control": 0.0
+    },
+    "decisions": {
+      "shift_axes": 0.0,
+      "keep_axes": 0.0,
+      "unknown_axes": 0.0
+    }
+  },
+  "correlation_metric_support": [
+    {
+      "method": "answer_codec_diagnostic",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "answer_codec_diagnostic",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "full_joint_a0.1",
+      "metric": "delta_pearson",
+      "defined_wells": 15,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 3
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "full_joint_a0.1",
+      "metric": "delta_cosine",
+      "defined_wells": 15,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 3
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "full_joint_a0.3",
+      "metric": "delta_pearson",
+      "defined_wells": 15,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 3
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "full_joint_a0.3",
+      "metric": "delta_cosine",
+      "defined_wells": 15,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 3
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "full_joint_a0.6",
+      "metric": "delta_pearson",
+      "defined_wells": 15,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 3
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "full_joint_a0.6",
+      "metric": "delta_cosine",
+      "defined_wells": 15,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 3
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "full_local_a0.1",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "full_local_a0.1",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "full_local_a0.3",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "full_local_a0.3",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "full_local_a0.6",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "full_local_a0.6",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "literal_keyword_a0.1",
+      "metric": "delta_pearson",
+      "defined_wells": 4,
+      "defined_drugs": 1,
+      "defined_wells_by_drug": {
+        "BMS": 0,
+        "Dex": 0,
+        "Nutlin": 4,
+        "SAHA": 0
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "literal_keyword_a0.1",
+      "metric": "delta_cosine",
+      "defined_wells": 4,
+      "defined_drugs": 1,
+      "defined_wells_by_drug": {
+        "BMS": 0,
+        "Dex": 0,
+        "Nutlin": 4,
+        "SAHA": 0
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "literal_keyword_a0.3",
+      "metric": "delta_pearson",
+      "defined_wells": 4,
+      "defined_drugs": 1,
+      "defined_wells_by_drug": {
+        "BMS": 0,
+        "Dex": 0,
+        "Nutlin": 4,
+        "SAHA": 0
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "literal_keyword_a0.3",
+      "metric": "delta_cosine",
+      "defined_wells": 4,
+      "defined_drugs": 1,
+      "defined_wells_by_drug": {
+        "BMS": 0,
+        "Dex": 0,
+        "Nutlin": 4,
+        "SAHA": 0
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "literal_keyword_a0.6",
+      "metric": "delta_pearson",
+      "defined_wells": 4,
+      "defined_drugs": 1,
+      "defined_wells_by_drug": {
+        "BMS": 0,
+        "Dex": 0,
+        "Nutlin": 4,
+        "SAHA": 0
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "literal_keyword_a0.6",
+      "metric": "delta_cosine",
+      "defined_wells": 4,
+      "defined_drugs": 1,
+      "defined_wells_by_drug": {
+        "BMS": 0,
+        "Dex": 0,
+        "Nutlin": 4,
+        "SAHA": 0
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "neither_joint_a0.1",
+      "metric": "delta_pearson",
+      "defined_wells": 10,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 3,
+        "Dex": 3,
+        "Nutlin": 3,
+        "SAHA": 1
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "neither_joint_a0.1",
+      "metric": "delta_cosine",
+      "defined_wells": 10,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 3,
+        "Dex": 3,
+        "Nutlin": 3,
+        "SAHA": 1
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "neither_joint_a0.3",
+      "metric": "delta_pearson",
+      "defined_wells": 10,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 3,
+        "Dex": 3,
+        "Nutlin": 3,
+        "SAHA": 1
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "neither_joint_a0.3",
+      "metric": "delta_cosine",
+      "defined_wells": 10,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 3,
+        "Dex": 3,
+        "Nutlin": 3,
+        "SAHA": 1
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "neither_joint_a0.6",
+      "metric": "delta_pearson",
+      "defined_wells": 10,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 3,
+        "Dex": 3,
+        "Nutlin": 3,
+        "SAHA": 1
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "neither_joint_a0.6",
+      "metric": "delta_cosine",
+      "defined_wells": 10,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 3,
+        "Dex": 3,
+        "Nutlin": 3,
+        "SAHA": 1
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "neither_local_a0.1",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "neither_local_a0.1",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "neither_local_a0.3",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "neither_local_a0.3",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "neither_local_a0.6",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "neither_local_a0.6",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_edit",
+      "metric": "delta_pearson",
+      "defined_wells": 0,
+      "defined_drugs": 0,
+      "defined_wells_by_drug": {
+        "BMS": 0,
+        "Dex": 0,
+        "Nutlin": 0,
+        "SAHA": 0
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_edit",
+      "metric": "delta_cosine",
+      "defined_wells": 0,
+      "defined_drugs": 0,
+      "defined_wells_by_drug": {
+        "BMS": 0,
+        "Dex": 0,
+        "Nutlin": 0,
+        "SAHA": 0
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_mechanism_joint_a0.1",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_mechanism_joint_a0.1",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_mechanism_joint_a0.3",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_mechanism_joint_a0.3",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_mechanism_joint_a0.6",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_mechanism_joint_a0.6",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_mechanism_local_a0.1",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_mechanism_local_a0.1",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_mechanism_local_a0.3",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_mechanism_local_a0.3",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_mechanism_local_a0.6",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_mechanism_local_a0.6",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_semantics_joint_a0.1",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_semantics_joint_a0.1",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_semantics_joint_a0.3",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_semantics_joint_a0.3",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_semantics_joint_a0.6",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_semantics_joint_a0.6",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_semantics_local_a0.1",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_semantics_local_a0.1",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_semantics_local_a0.3",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_semantics_local_a0.3",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_semantics_local_a0.6",
+      "metric": "delta_pearson",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    },
+    {
+      "method": "no_semantics_local_a0.6",
+      "metric": "delta_cosine",
+      "defined_wells": 16,
+      "defined_drugs": 4,
+      "defined_wells_by_drug": {
+        "BMS": 4,
+        "Dex": 4,
+        "Nutlin": 4,
+        "SAHA": 4
+      },
+      "aggregation_denominator": "Finite wells within each drug, then drugs with a defined mean"
+    }
+  ],
+  "independently_recomputed_main_results": [
+    {
+      "method": "answer_codec_diagnostic",
+      "delta_rmse": 0.18977779152282112,
+      "delta_pearson": 0.7679338179166204,
+      "delta_cosine": 0.7829282355251282,
+      "top100_delta_rmse": 0.3725156882628263,
+      "top100_direction_accuracy": 0.9712500000000001,
+      "response_l2_ratio": 0.7292216086188387
+    },
+    {
+      "method": "full_joint_a0.3",
+      "delta_rmse": 0.3562988014837334,
+      "delta_pearson": 0.17803636813990129,
+      "delta_cosine": 0.1924382934247527,
+      "top100_delta_rmse": 0.9350168053608647,
+      "top100_direction_accuracy": 0.595,
+      "response_l2_ratio": 0.23229963107531884
+    },
+    {
+      "method": "literal_keyword_a0.3",
+      "delta_rmse": 0.35279776041392963,
+      "delta_pearson": 0.46803556165262894,
+      "delta_cosine": 0.46738331184686294,
+      "top100_delta_rmse": 0.9463527306329489,
+      "top100_direction_accuracy": 0.15562499999999999,
+      "response_l2_ratio": 0.030175666314775116
+    },
+    {
+      "method": "neither_joint_a0.3",
+      "delta_rmse": 0.37203694611688926,
+      "delta_pearson": 0.06706353196120099,
+      "delta_cosine": -0.012014931437280052,
+      "top100_delta_rmse": 0.9539145229149737,
+      "top100_direction_accuracy": 0.326875,
+      "response_l2_ratio": 0.25932414881821203
+    },
+    {
+      "method": "no_edit",
+      "delta_rmse": 0.3557237161867365,
+      "delta_pearson": null,
+      "delta_cosine": null,
+      "top100_delta_rmse": 0.9636218493588631,
+      "top100_direction_accuracy": 0.0,
+      "response_l2_ratio": 0.0
+    },
+    {
+      "method": "no_mechanism_joint_a0.3",
+      "delta_rmse": 0.38630457391142325,
+      "delta_pearson": 0.22213814180082475,
+      "delta_cosine": 0.030907150554710147,
+      "top100_delta_rmse": 0.9312937187783207,
+      "top100_direction_accuracy": 0.5131249999999999,
+      "response_l2_ratio": 0.49343496473208903
+    },
+    {
+      "method": "no_semantics_joint_a0.3",
+      "delta_rmse": 0.39632288104812813,
+      "delta_pearson": 0.0204318777559324,
+      "delta_cosine": -0.07892838502999895,
+      "top100_delta_rmse": 0.9591417777325069,
+      "top100_direction_accuracy": 0.51,
+      "response_l2_ratio": 0.49146716393926354
+    }
+  ],
+  "prediction_decoder_max_residual": 4.440892098500626e-16,
+  "answer_codec_additive_max_residual": 3.402264236590513e-07,
+  "control_codec_additive_max_residual": 3.5665039677112986e-07,
+  "definition_notes": [
+    "Independent metric/aggregation and decision-to-occupancy implementations; no imports from scoring/agent code.",
+    "Target access starts only after all predictions and source/input artifacts pass sealed-hash validation.",
+    "Answer codec diagnostic uses saved float32 decoder means, checked against exact additive code effects within 2e-6/1e-5 tolerance.",
+    "No-edit Pearson and cosine are undefined and must remain NaN, rather than assigned an artificial score.",
+    "Correlation aggregation skips undefined values: compare support counts before comparing method means. Literal keyword has four defined Nutlin wells and no defined wells for the other three drugs.",
+    "Raw absolute RMSE anchors at decoded control; delta RMSE anchors at observed control.",
+    "Top100 denotes observed largest absolute mean shifts, not statistical differential-expression calls.",
+    "This verifies numerical correctness; the sixteen wells remain previously inspected development data."
+  ]
+}

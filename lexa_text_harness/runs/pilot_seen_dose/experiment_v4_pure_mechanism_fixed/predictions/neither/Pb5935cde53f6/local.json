@@ -1,0 +1,1385 @@
+{
+  "status": "completed",
+  "case_id": "drug=SAHA|dose_uM=5|plate=A|replicate=3",
+  "opaque_id": "Pb5935cde53f6",
+  "arm": "neither",
+  "stage": "local",
+  "fingerprint": "6ddcc3f7ef048f814744931fd419b229b6fe1b82c08b7a871b4596375f47af06",
+  "decisions": [
+    {
+      "axis_id": 0,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A0"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 1,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A1"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 2,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A2"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 3,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A3"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 4,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A4"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 5,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A5"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 6,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A6"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 7,
+      "decision": "unknown",
+      "targets": [],
+      "evidence_refs": [
+        "H1",
+        "A7"
+      ],
+      "reason": "Mechanism withheld; no directional basis for state shift"
+    },
+    {
+      "axis_id": 8,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A8/C4"
+      ],
+      "reason": "Strong up G0289/G0133 and down G0574 in states 4,2,13"
+    },
+    {
+      "axis_id": 9,
+      "decision": "shift",
+      "targets": [
+        [
+          14,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A9/C14"
+      ],
+      "reason": "Large up G1314/G0196 in states 14,10,6"
+    },
+    {
+      "axis_id": 10,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A10/C13"
+      ],
+      "reason": "Strong up G1776/G0392 in states 13,9,14"
+    },
+    {
+      "axis_id": 11,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A11/C4"
+      ],
+      "reason": "Up G1987/G0644 in states 4,2,10"
+    },
+    {
+      "axis_id": 12,
+      "decision": "shift",
+      "targets": [
+        [
+          1,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A12/C1"
+      ],
+      "reason": "Up G0053/G0063/G1368 in states 1,7,9"
+    },
+    {
+      "axis_id": 13,
+      "decision": "shift",
+      "targets": [
+        [
+          15,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A13/C15"
+      ],
+      "reason": "Strong up G0620/G0836 in states 15,0,6"
+    },
+    {
+      "axis_id": 14,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A14/C2"
+      ],
+      "reason": "Up G1660/G0106/G1047 in states 2,3,6"
+    },
+    {
+      "axis_id": 15,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A15/C8"
+      ],
+      "reason": "Up G1907/G1087 in states 8,12,3"
+    },
+    {
+      "axis_id": 16,
+      "decision": "shift",
+      "targets": [
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A16/C3"
+      ],
+      "reason": "Strong up G1428/G1467 in states 3,4,11; control occupancy low"
+    },
+    {
+      "axis_id": 17,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A17/C7"
+      ],
+      "reason": "Up G0403/G1511/G0776 in states 7,11,15"
+    },
+    {
+      "axis_id": 18,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A18/C4"
+      ],
+      "reason": "Large up G1130/G1958/G1909 in states 4,11,7"
+    },
+    {
+      "axis_id": 19,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A19/C4"
+      ],
+      "reason": "Up G0506/G1345 in states 4,8,10"
+    },
+    {
+      "axis_id": 20,
+      "decision": "shift",
+      "targets": [
+        [
+          4,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A20/C4"
+      ],
+      "reason": "Up G0541/G1041/G0413 in states 4,6,10"
+    },
+    {
+      "axis_id": 21,
+      "decision": "shift",
+      "targets": [
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A21/C0"
+      ],
+      "reason": "Strong up G0372 in states 0,6,15"
+    },
+    {
+      "axis_id": 22,
+      "decision": "shift",
+      "targets": [
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A22/C7"
+      ],
+      "reason": "Up G1803/G1298/G1096 in states 7,8,15"
+    },
+    {
+      "axis_id": 23,
+      "decision": "shift",
+      "targets": [
+        [
+          2,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A23/C2"
+      ],
+      "reason": "Up G1239/G1077/G0445 in states 2,12,9"
+    },
+    {
+      "axis_id": 24,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A24/C13"
+      ],
+      "reason": "C13 has strong up G1200 and high control occupancy"
+    },
+    {
+      "axis_id": 25,
+      "decision": "shift",
+      "targets": [
+        [
+          13,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A25/C13"
+      ],
+      "reason": "C13 up G1424/G1281 and high control occupancy"
+    },
+    {
+      "axis_id": 26,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A26/C9"
+      ],
+      "reason": "C9 down G0348/G1787 and high control occupancy"
+    },
+    {
+      "axis_id": 27,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A27/C8"
+      ],
+      "reason": "C8 down G1513/G1869 and high control occupancy"
+    },
+    {
+      "axis_id": 28,
+      "decision": "shift",
+      "targets": [
+        [
+          15,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A28/C15"
+      ],
+      "reason": "C15 down G0192/G1793 and high control occupancy"
+    },
+    {
+      "axis_id": 29,
+      "decision": "shift",
+      "targets": [
+        [
+          8,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A29/C8"
+      ],
+      "reason": "C8 down G1295/G0451 and high control occupancy"
+    },
+    {
+      "axis_id": 30,
+      "decision": "shift",
+      "targets": [
+        [
+          5,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A30/C5"
+      ],
+      "reason": "C5 down G0685/G0497 and high control occupancy"
+    },
+    {
+      "axis_id": 31,
+      "decision": "shift",
+      "targets": [
+        [
+          9,
+          1
+        ]
+      ],
+      "evidence_refs": [
+        "H1",
+        "A31/C9"
+      ],
+      "reason": "C9 up G0388 and high control occupancy"
+    }
+  ],
+  "response": {
+    "decisions": [
+      {
+        "axis_id": 0,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A0"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 1,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A1"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 2,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A2"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 3,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A3"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 4,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A4"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 5,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A5"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 6,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A6"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 7,
+        "decision": "unknown",
+        "targets": [],
+        "evidence_refs": [
+          "H1",
+          "A7"
+        ],
+        "reason": "Mechanism withheld; no directional basis for state shift"
+      },
+      {
+        "axis_id": 8,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A8/C4"
+        ],
+        "reason": "Strong up G0289/G0133 and down G0574 in states 4,2,13"
+      },
+      {
+        "axis_id": 9,
+        "decision": "shift",
+        "targets": [
+          [
+            14,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A9/C14"
+        ],
+        "reason": "Large up G1314/G0196 in states 14,10,6"
+      },
+      {
+        "axis_id": 10,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A10/C13"
+        ],
+        "reason": "Strong up G1776/G0392 in states 13,9,14"
+      },
+      {
+        "axis_id": 11,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A11/C4"
+        ],
+        "reason": "Up G1987/G0644 in states 4,2,10"
+      },
+      {
+        "axis_id": 12,
+        "decision": "shift",
+        "targets": [
+          [
+            1,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A12/C1"
+        ],
+        "reason": "Up G0053/G0063/G1368 in states 1,7,9"
+      },
+      {
+        "axis_id": 13,
+        "decision": "shift",
+        "targets": [
+          [
+            15,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A13/C15"
+        ],
+        "reason": "Strong up G0620/G0836 in states 15,0,6"
+      },
+      {
+        "axis_id": 14,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A14/C2"
+        ],
+        "reason": "Up G1660/G0106/G1047 in states 2,3,6"
+      },
+      {
+        "axis_id": 15,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A15/C8"
+        ],
+        "reason": "Up G1907/G1087 in states 8,12,3"
+      },
+      {
+        "axis_id": 16,
+        "decision": "shift",
+        "targets": [
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A16/C3"
+        ],
+        "reason": "Strong up G1428/G1467 in states 3,4,11; control occupancy low"
+      },
+      {
+        "axis_id": 17,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A17/C7"
+        ],
+        "reason": "Up G0403/G1511/G0776 in states 7,11,15"
+      },
+      {
+        "axis_id": 18,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A18/C4"
+        ],
+        "reason": "Large up G1130/G1958/G1909 in states 4,11,7"
+      },
+      {
+        "axis_id": 19,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A19/C4"
+        ],
+        "reason": "Up G0506/G1345 in states 4,8,10"
+      },
+      {
+        "axis_id": 20,
+        "decision": "shift",
+        "targets": [
+          [
+            4,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A20/C4"
+        ],
+        "reason": "Up G0541/G1041/G0413 in states 4,6,10"
+      },
+      {
+        "axis_id": 21,
+        "decision": "shift",
+        "targets": [
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A21/C0"
+        ],
+        "reason": "Strong up G0372 in states 0,6,15"
+      },
+      {
+        "axis_id": 22,
+        "decision": "shift",
+        "targets": [
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A22/C7"
+        ],
+        "reason": "Up G1803/G1298/G1096 in states 7,8,15"
+      },
+      {
+        "axis_id": 23,
+        "decision": "shift",
+        "targets": [
+          [
+            2,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A23/C2"
+        ],
+        "reason": "Up G1239/G1077/G0445 in states 2,12,9"
+      },
+      {
+        "axis_id": 24,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A24/C13"
+        ],
+        "reason": "C13 has strong up G1200 and high control occupancy"
+      },
+      {
+        "axis_id": 25,
+        "decision": "shift",
+        "targets": [
+          [
+            13,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A25/C13"
+        ],
+        "reason": "C13 up G1424/G1281 and high control occupancy"
+      },
+      {
+        "axis_id": 26,
+        "decision": "shift",
+        "targets": [
+          [
+            9,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A26/C9"
+        ],
+        "reason": "C9 down G0348/G1787 and high control occupancy"
+      },
+      {
+        "axis_id": 27,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A27/C8"
+        ],
+        "reason": "C8 down G1513/G1869 and high control occupancy"
+      },
+      {
+        "axis_id": 28,
+        "decision": "shift",
+        "targets": [
+          [
+            15,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A28/C15"
+        ],
+        "reason": "C15 down G0192/G1793 and high control occupancy"
+      },
+      {
+        "axis_id": 29,
+        "decision": "shift",
+        "targets": [
+          [
+            8,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A29/C8"
+        ],
+        "reason": "C8 down G1295/G0451 and high control occupancy"
+      },
+      {
+        "axis_id": 30,
+        "decision": "shift",
+        "targets": [
+          [
+            5,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A30/C5"
+        ],
+        "reason": "C5 down G0685/G0497 and high control occupancy"
+      },
+      {
+        "axis_id": 31,
+        "decision": "shift",
+        "targets": [
+          [
+            9,
+            1
+          ]
+        ],
+        "evidence_refs": [
+          "H1",
+          "A31/C9"
+        ],
+        "reason": "C9 up G0388 and high control occupancy"
+      }
+    ],
+    "summary": "All requested axes lack a treatment-specific direction because the perturbation mechanism is withheld; no state shifts are supported. | Mechanism withheld; shifts favor states with strong positive decoder contributions on each axis, normalized at alpha=0.30. | Shift toward states with strong positive decoder contributions on each axis; mechanism withheld so directions are hypothesis-driven, not treatment-specific. | Mechanism withheld; shifts favor states with strong control occupancy and coherent signed effects, not treatment-specific direction.",
+    "limitations": [
+      "Mechanism and drug identity hidden; no perturbation-response examples.",
+      "Anonymous features cannot be mapped to genes.",
+      "Only untreated A549 control context supplied.",
+      "No perturbation-response data; directions are decoder-based, not causal.",
+      "Only untreated A549 context supplied.",
+      "Mechanism and drug identity hidden; no perturbation data.",
+      "No perturbation-response data; directions are generic.",
+      "Alpha fixed at 0.30, not calibrated."
+    ]
+  },
+  "feedback": {
+    "definition": "Exact decoder change; consistency with hypotheses is not observed treatment accuracy.",
+    "alpha": 0.3,
+    "decision_counts": {
+      "shift": 24,
+      "keep": 0,
+      "unknown": 8
+    },
+    "delta_l2": 4.21495807135373,
+    "standardized_delta_rms": 0.11211097726380635,
+    "axis_tv": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1676923076923077,
+      0.2630769230769231,
+      0.22615384615384618,
+      0.20307692307692307,
+      0.25846153846153846,
+      0.27692307692307694,
+      0.30000000000000004,
+      0.20307692307692307,
+      0.2723076923076923,
+      0.23538461538461541,
+      0.30000000000000004,
+      0.2907692307692308,
+      0.2907692307692308,
+      0.2953846153846154,
+      0.18923076923076923,
+      0.27230769230769236,
+      0.22153846153846157,
+      0.2169230769230769,
+      0.24,
+      0.2353846153846154,
+      0.22615384615384618,
+      0.30000000000000004,
+      0.25384615384615383,
+      0.2123076923076923
+    ],
+    "mean_axis_tv": 0.18596153846153846,
+    "top_gene_changes": {
+      "up": [
+        {
+          "feature": "G0372",
+          "delta": 0.51526,
+          "scaled_delta": 0.47255
+        },
+        {
+          "feature": "G1808",
+          "delta": 0.48044,
+          "scaled_delta": 0.42634
+        },
+        {
+          "feature": "G1345",
+          "delta": 0.33327,
+          "scaled_delta": 0.39964
+        },
+        {
+          "feature": "G1198",
+          "delta": 0.35737,
+          "scaled_delta": 0.38734
+        },
+        {
+          "feature": "G1314",
+          "delta": 0.43259,
+          "scaled_delta": 0.38458
+        },
+        {
+          "feature": "G1958",
+          "delta": 0.28679,
+          "scaled_delta": 0.38332
+        },
+        {
+          "feature": "G0536",
+          "delta": 0.31323,
+          "scaled_delta": 0.38007
+        },
+        {
+          "feature": "G0384",
+          "delta": 0.29829,
+          "scaled_delta": 0.37625
+        },
+        {
+          "feature": "G1454",
+          "delta": 0.34021,
+          "scaled_delta": 0.37299
+        },
+        {
+          "feature": "G1130",
+          "delta": 0.35577,
+          "scaled_delta": 0.37075
+        }
+      ],
+      "down": [
+        {
+          "feature": "G1295",
+          "delta": -0.32514,
+          "scaled_delta": -0.28829
+        },
+        {
+          "feature": "G0451",
+          "delta": -0.22081,
+          "scaled_delta": -0.24369
+        },
+        {
+          "feature": "G0760",
+          "delta": -0.14038,
+          "scaled_delta": -0.18472
+        },
+        {
+          "feature": "G1355",
+          "delta": -0.12186,
+          "scaled_delta": -0.16018
+        },
+        {
+          "feature": "G0944",
+          "delta": -0.14046,
+          "scaled_delta": -0.15806
+        },
+        {
+          "feature": "G0804",
+          "delta": -0.11581,
+          "scaled_delta": -0.15036
+        },
+        {
+          "feature": "G0818",
+          "delta": -0.13058,
+          "scaled_delta": -0.14725
+        },
+        {
+          "feature": "G1887",
+          "delta": -0.10994,
+          "scaled_delta": -0.1469
+        },
+        {
+          "feature": "G1099",
+          "delta": -0.11775,
+          "scaled_delta": -0.13607
+        },
+        {
+          "feature": "G1106",
+          "delta": -0.11985,
+          "scaled_delta": -0.13393
+        }
+      ]
+    },
+    "hypothesis_gene_checks": "Unavailable without feature semantics; anonymous IDs cannot be mapped to hypothesis gene names.",
+    "cross_axis_cancellation": [
+      {
+        "feature": "G1787",
+        "summed_delta": 0.015431063170275795,
+        "absolute_axis_sum": 0.22990569496142266
+      },
+      {
+        "feature": "G1042",
+        "summed_delta": 0.04056493709309355,
+        "absolute_axis_sum": 0.262169435435006
+      },
+      {
+        "feature": "G0474",
+        "summed_delta": -0.03493309539402494,
+        "absolute_axis_sum": 0.2152301180038529
+      },
+      {
+        "feature": "G1353",
+        "summed_delta": 0.03600921876211517,
+        "absolute_axis_sum": 0.19434607806184986
+      },
+      {
+        "feature": "G0348",
+        "summed_delta": -0.026423638075805302,
+        "absolute_axis_sum": 0.1959929934441328
+      },
+      {
+        "feature": "G1984",
+        "summed_delta": -0.020316400704502507,
+        "absolute_axis_sum": 0.19193935409577811
+      }
+    ]
+  },
+  "main_alpha": 0.3,
+  "alphas": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "hypotheses_sha256": "8854c1f28c6f741c6cee577185806a30a6ee2638083c438a282fabe5d4a6f1ec",
+  "stages": [
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "97fc77c8194062f702c0d8e848ddd646afa5b5d9b5b3f2507f90fee2b0f610b1",
+      "response_sha256": "536dfeccb16017c6529e817e85950e953af8ca3821338f7a8052c855d2b3be4c"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "2be2f2ce865805c7ab04dcb8738b26a5b11c44310e9f37e8a4ab476af4b435ed",
+      "response_sha256": "93fb6e5da9361152203b8bbba8627d46c0080793259698f43ecdc6fa62445e13"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "7a4c20c6906dce5198ee2817edf229e558f79b1f5ff6acd62162996d04403beb",
+      "response_sha256": "90957a876fbc291f389e93ca9846ba092a56b5714e4f36e722e92300f5afcb3e"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "62696a4acb857c383273deff58387d02c7a2064aa39f3284f30e288dcb9d0857",
+      "response_sha256": "33b7613d176dc7d876a3e46e06f151cfaf6bac9d630d989e28e38bb5b3a8ebab"
+    },
+    {
+      "attempts_used": 1,
+      "stage_fingerprint": "0d4800d4498527aab9cdc605200f8b7548624418c018c35a2985fd20ef804341",
+      "response_sha256": "e92399c62e2fe919507bb79a51b74af1393dff7cd94b4e36a25b52a5352d3438"
+    }
+  ],
+  "attempts_used": 5,
+  "arrays": "/cpfs_speech/users/zhoutianhong.zth/project/lexa_text_harness/runs/pilot_seen_dose/experiment_v4_pure_mechanism_fixed/predictions/neither/Pb5935cde53f6/local.npz",
+  "is_prediction": true,
+  "uses_measured_perturbation_response": false,
+  "arrays_sha256": "4069aeb4026064b6f61e6d6f16b41914c21ed970b9ba4a9616cad692a419589c"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "time": "2026-10-27T01:34:51+08:00",
+  "prediction_seal_sha256": "60f4c2ea85d3e0926cdcdac8de6ef2e6050b418fb5ff0ad8c51ff6d577f100b3",
+  "evaluation_sha256": "42cdc42755f47eaea134ba1898ca56616d16dfa73839944ef961c90fd649a193",
+  "observed_codes_sha256": "f2d2e5a8d3d391853ab57c69b9634434b9edfb561f83524ecd991f4da4808b2a",
+  "n_wells": 16,
+  "n_treated": 786,
+  "n_unique_controls": 951,
+  "treated_by_drug": {
+    "BMS": 95,
+    "Dex": 237,
+    "Nutlin": 274,
+    "SAHA": 180
+  },
+  "n_genes": 2000,
+  "aggregation": "equal wells within drug, equal drugs",
+  "development_only": true,
+  "all_sensitivity_results_retained": true,
+  "outputs_sha256": {
+    "scores_by_condition.csv": "125a9d953282bb9a5034c3dca09ba4e15db130e09bed57a0ff0e08abe715470f",
+    "scores_by_well.csv": "dfc479fb4bf219ba6ec341f60e279a16472ca6574986219ccd6c07065fe8c131",
+    "raw_decoded_absolute_by_well.csv": "88d8c1594c39c38de09f83ade58630c1cf530137170284e1d891df4ae1fce084",
+    "decisions_by_well.csv": "d282d4babe201c266b79f1fba60cbda198db55e89e0ad2f60842e181e9212c69",
+    "scores_summary.csv": "12abb0782173bfb405be6511c79e9f609a6107ce9ea3d94283ca71546e7541da",
+    "occupancy_by_well.csv": "9ae92a28c14ef3b890a6cb0c02d674e9c553b76da8ab69a39f42aa0a687180f6"
+  }
+}
